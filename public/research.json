@@ -1,0 +1,3277 @@
+{
+  "schema_version": "1.0",
+  "researched_on": "2026-11-15",
+  "title": "Cinematic Los Angeles: first 100 location and route candidates",
+  "scope": {
+    "narrative": "Scenes set in Los Angeles or its metropolitan communities",
+    "physical": "Real filming sites within the Los Angeles region",
+    "media": "19 feature films, Bosch, and Star Trek: Voyager television appearances",
+    "editorial_premise": "A shared fictional city built from independently sourced screen appearances; cross-title occupant history is the site's editorial premise.",
+    "excluded": "Los Angeles filming sites representing other cities or fictional towns; unanchored studio-only locations"
+  },
+  "research_status": {
+    "summary": "Source-backed research shortlist, not a finished geocoded or frame-by-frame audited database.",
+    "coordinates": "Not researched; deliberately null.",
+    "dates": "Release years identify works. Canonical story time is recorded separately, with precision, certainty and evidence; it does not establish a complete period of residence or employment.",
+    "route_geometry": "Unshown transitions are gaps. No routing-service paths have been invented.",
+    "next_checks": [
+      "Normalize address directionals and locality where flagged.",
+      "Verify precise pin positions and property boundaries.",
+      "Add scene timecodes tied to a named cut of each film.",
+      "Trace only established route segments.",
+      "Research canonical dates and distinguish witnessed occupancy from established move-in, move-out and employment dates."
+    ]
+  },
+  "temporal_policy": {
+    "calendar": "Local canonical story time in Los Angeles, including historical dates visited by time travelers.",
+    "display_modes": [
+      "all_time",
+      "selected_time_range"
+    ],
+    "date_precision": [
+      "datetime",
+      "day",
+      "month",
+      "year",
+      "decade",
+      "unknown"
+    ],
+    "certainty": [
+      "explicit",
+      "derived",
+      "approximate",
+      "unknown"
+    ],
+    "occupancy": "A dated appearance establishes that a character is associated with a place during that story; move-in, move-out and job dates require separate evidence. Unknown bounds do not mean an unlimited duration.",
+    "range_filter": "Match dated appearances and events against the selected range. Keep undated entries separately selectable, and distinguish uncertain temporal matches from confirmed ones.",
+    "partial_dates": "Retain known month/day or relative sequence even when a calendar year or exact timestamp is unresolved.",
+    "release_year_fallback": false
+  },
+  "counts": {
+    "entries": 100,
+    "places": 96,
+    "routes": 4
+  },
+  "sources": [
+    {
+      "id": "heat_locations",
+      "title": "Heat location research",
+      "url": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "heat_scout",
+      "title": "Heat location-scout interview",
+      "url": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "source_type": "interview with production location scout"
+    },
+    {
+      "id": "bobs_heat",
+      "title": "Bob's Big Boy: Filming Heat",
+      "url": "https://bobs.net/pages/filming-heat",
+      "source_type": "filming venue"
+    },
+    {
+      "id": "blade_locations",
+      "title": "Blade Runner locations",
+      "url": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "blade_oral_history",
+      "title": "Blade Runner Los Angeles oral history",
+      "url": "https://laist.com/news/entertainment/blade-runner-november-2019-los-angeles-future-is-here",
+      "source_type": "production oral history"
+    },
+    {
+      "id": "fox_plaza",
+      "title": "Fox Plaza",
+      "url": "https://www.laconservancy.org/learn/historic-places/fox-plaza/",
+      "source_type": "architectural preservation organization"
+    },
+    {
+      "id": "falling_locations",
+      "title": "Falling Down locations",
+      "url": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "source_type": "scene-indexed location research"
+    },
+    {
+      "id": "falling_afi",
+      "title": "AFI Catalog: Falling Down",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/67690",
+      "source_type": "film archive; cites production notes"
+    },
+    {
+      "id": "confidential_locations",
+      "title": "L.A. Confidential locations",
+      "url": "https://www.movie-locations.com/movies/l/LA-Confidential.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "lebowski_locations",
+      "title": "The Big Lebowski locations",
+      "url": "https://www.movie-locations.com/movies/b/Big-Lebowski.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "pulp_locations",
+      "title": "Pulp Fiction locations",
+      "url": "https://www.movie-locations.com/movies/p/Pulp-Fiction.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "reservoir_locations",
+      "title": "Reservoir Dogs locations",
+      "url": "https://www.movie-locations.com/movies/r/Reservoir-Dogs.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "reservoir_afi",
+      "title": "AFI Catalog: Reservoir Dogs",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/59373",
+      "source_type": "film archive"
+    },
+    {
+      "id": "reservoir_address",
+      "title": "Reservoir Dogs: then and now",
+      "url": "https://www.thennowmovielocations.com/2022/10/reservoir-dogs.html",
+      "source_type": "photographic location research"
+    },
+    {
+      "id": "jackie_locations",
+      "title": "Jackie Brown locations",
+      "url": "https://www.movie-locations.com/movies/j/Jackie-Brown.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "chinatown_locations",
+      "title": "Chinatown locations",
+      "url": "https://www.movie-locations.com/movies/c/Chinatown.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "drive_locations",
+      "title": "Drive locations",
+      "url": "https://www.movie-locations.com/movies/d/Drive.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "collateral_locations",
+      "title": "Collateral locations",
+      "url": "https://www.movie-locations.com/movies/c/Collateral.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "training_locations",
+      "title": "Training Day locations",
+      "url": "https://www.movie-locations.com/movies/t/Training-Day.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "training_scenes",
+      "title": "Training Day scene-indexed locations",
+      "url": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+      "source_type": "scene-indexed location research"
+    },
+    {
+      "id": "boyz_locations",
+      "title": "Boyz n the Hood locations",
+      "url": "https://www.movie-locations.com/movies/b/Boyz-N-The-Hood.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "terminator_locations",
+      "title": "The Terminator locations",
+      "url": "https://movie-locations.com/movies/t/Terminator.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "t2_locations",
+      "title": "Terminator 2 locations",
+      "url": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "mulholland_bfi",
+      "title": "BFI: Mulholland Dr. locations",
+      "url": "https://www.bfi.org.uk/features/mulholland-drive-david-lynch-locations",
+      "source_type": "film institute location feature"
+    },
+    {
+      "id": "mulholland_study",
+      "title": "Lost on Mulholland Dr.: location study",
+      "url": "https://m.mulholland-drive.net/studies/locations.htm",
+      "source_type": "film-specific location research"
+    },
+    {
+      "id": "fast_locations",
+      "title": "The Fast and the Furious locations",
+      "url": "https://www.seeing-stars.com/Locations/FastAndFurious.shtml",
+      "source_type": "specialist location research; race shot breakdown"
+    },
+    {
+      "id": "lalaland_locations",
+      "title": "La La Land locations",
+      "url": "https://www.movie-locations.com/movies/l/La-La-Land.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "chinatown_afi",
+      "title": "AFI Catalog: Chinatown",
+      "url": "https://catalog.afi.com/Film/54409-CHINATOWN",
+      "source_type": "film archive; cites contemporary location evidence"
+    },
+    {
+      "id": "pasadena_laist",
+      "title": "LAist: Pasadena and South Pasadena filming locations",
+      "url": "https://laist.com/from-halloween-to-back-to-the-future-why-filmmakers-love-pasadena-and-south-pas",
+      "source_type": "local reporting; address corroboration"
+    },
+    {
+      "id": "pulp_photo",
+      "title": "Pulp Fiction location photographs",
+      "url": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+      "source_type": "photographic location research"
+    },
+    {
+      "id": "voyager_rain_official",
+      "title": "StarTrek.com: Rain Robinson in Future's End",
+      "url": "https://www.startrek.com/news/18-years-later-voyager-two-parter-futures-end-with-sarah-silverman",
+      "source_type": "official franchise character and episode account"
+    },
+    {
+      "id": "voyager_future_end_reference",
+      "title": "Memory Alpha: Future's End story and production reference",
+      "url": "https://memory-alpha.fandom.com/wiki/Future%27s_End_%28episode%29",
+      "source_type": "episode reference; Griffith Observatory exterior filming account cites Star Trek Magazine issue 143"
+    },
+    {
+      "id": "heat2_author_time",
+      "title": "Meg Gardiner: Heat 2 synopsis and chronology",
+      "url": "https://meggardiner.com/books/heat-2/",
+      "source_type": "co-author's account of a creator-authored continuation; establishes 1988 as seven years before the film's aftermath"
+    },
+    {
+      "id": "blade_afi_time",
+      "title": "AFI Catalog: Blade Runner opening title-card date",
+      "url": "https://catalog.afi.com/Film/68260-BLADE-RUNNER",
+      "source_type": "film archive recording the on-screen Los Angeles, November 2019 title card"
+    },
+    {
+      "id": "diehard_studio_time",
+      "title": "20th Century Studios: Die Hard synopsis",
+      "url": "https://www.20thcenturystudios.com.au/movies/die-hard",
+      "source_type": "studio synopsis establishing Christmas Eve; its 1988 release date is not independent proof of story year"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "kind": "place",
+      "directory_name": "Eady / Harry Bosch residence",
+      "category": "home",
+      "physical_site": {
+        "address": "1870 Blue Heights Drive",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Eady / Harry Bosch residence",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        },
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry Bosch's home",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ]
+        }
+      ],
+      "notes": "Shared physical house; each occupant belongs to a separate screen story. Do not infer transfer dates or a canonical sale.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 2,
+      "kind": "place",
+      "directory_name": "Chris and Charlene Shiherlis residence",
+      "category": "home",
+      "physical_site": {
+        "address": "19514 Romar Street",
+        "locality": "Northridge, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Chris and Charlene Shiherlis residence",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "The source reports remodeling after production.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 3,
+      "kind": "place",
+      "directory_name": "Vincent and Justine Hanna residence",
+      "category": "home",
+      "physical_site": {
+        "address": "2634 6th Street",
+        "locality": "Santa Monica",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Vincent and Justine Hanna residence",
+          "filming_component": "interior",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "The Sixth Street House supplied interiors; this is not a claim that its exterior is shown.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 4,
+      "kind": "place",
+      "directory_name": "Trejo residence",
+      "category": "home",
+      "physical_site": {
+        "address": "1219 Dodds Circle",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Trejo residence",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 5,
+      "kind": "place",
+      "directory_name": "Kelso residence",
+      "category": "home_workplace",
+      "physical_site": {
+        "address": "1235 Dodds Circle",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Kelso residence",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 6,
+      "kind": "place",
+      "directory_name": "Eady's bookstore workplace",
+      "category": "workplace",
+      "physical_site": {
+        "address": "1254 3rd Street Promenade",
+        "locality": "Santa Monica",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Eady's bookstore workplace",
+          "filming_component": "bookstore site",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "The bookstore has gone and the building was remodeled, according to the source.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 7,
+      "kind": "place",
+      "directory_name": "Donald Breedan's diner workplace",
+      "category": "workplace",
+      "physical_site": {
+        "address": "4211 West Riverside Drive",
+        "locality": "Burbank",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Donald Breedan's diner workplace",
+          "filming_component": "Bob's Big Boy",
+          "source_ids": [
+            "heat_locations",
+            "bobs_heat"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Distinct from Johnie's Broiler in Downey.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 8,
+      "kind": "place",
+      "directory_name": "Hanna and McCauley's coffee meeting",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "9101 Wilshire Boulevard",
+        "locality": "Beverly Hills",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Hanna and McCauley's coffee meeting",
+          "filming_component": "Kate Mantilini restaurant",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Historical restaurant location.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 9,
+      "kind": "place",
+      "directory_name": "Waingro's hotel hideout",
+      "category": "lodging_event",
+      "physical_site": {
+        "address": "5711 West Century Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Waingro's hotel hideout",
+          "filming_component": "Hilton Los Angeles Airport",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 10,
+      "kind": "place",
+      "directory_name": "Nate's bar",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "916 South San Fernando Boulevard",
+        "locality": "Burbank",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Nate's bar",
+          "filming_component": "The Blue Room",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 11,
+      "kind": "place",
+      "directory_name": "J. F. Sebastian's home",
+      "category": "home",
+      "physical_site": {
+        "address": "304 South Broadway",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Blade Runner",
+          "release_year": 1982,
+          "story_role": "J. F. Sebastian's home",
+          "filming_component": "Bradbury Building exterior and atrium",
+          "source_ids": [
+            "blade_locations",
+            "blade_oral_history"
+          ],
+          "story_time": {
+            "year": 2019,
+            "month": 11,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "Opening on-screen title card: Los Angeles, November 2019.",
+            "source_ids": [
+              "blade_afi_time"
+            ]
+          }
+        }
+      ],
+      "notes": "The home is composite. This pin does not attribute every apartment interior or rooftop shot to the Bradbury.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 12,
+      "kind": "place",
+      "directory_name": "Deckard's apartment entrance",
+      "category": "home",
+      "physical_site": {
+        "address": "2607 Glendower Avenue",
+        "locality": "Los Feliz, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Blade Runner",
+          "release_year": 1982,
+          "story_role": "Deckard's apartment entrance",
+          "filming_component": "Ennis House exterior/entrance",
+          "source_ids": [
+            "blade_locations"
+          ],
+          "story_time": {
+            "year": 2019,
+            "month": 11,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "Opening on-screen title card: Los Angeles, November 2019.",
+            "source_ids": [
+              "blade_afi_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Apartment interiors were recreated on a stage using casts of the house's blocks.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 13,
+      "kind": "place",
+      "directory_name": "Leon's Yukon Hotel",
+      "category": "lodging",
+      "physical_site": {
+        "address": "253 South Broadway",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Blade Runner",
+          "release_year": 1982,
+          "story_role": "Leon's Yukon Hotel",
+          "filming_component": "Pan Am Building interior",
+          "source_ids": [
+            "blade_locations"
+          ],
+          "story_time": {
+            "year": 2019,
+            "month": 11,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "Opening on-screen title card: Los Angeles, November 2019.",
+            "source_ids": [
+              "blade_afi_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Interior anchor for the fictional hotel.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 14,
+      "kind": "place",
+      "directory_name": "Deckard and Bryant's police headquarters",
+      "category": "workplace",
+      "physical_site": {
+        "address": "800 North Alameda Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Blade Runner",
+          "release_year": 1982,
+          "story_role": "Deckard and Bryant's police headquarters",
+          "filming_component": "office set within Union Station",
+          "source_ids": [
+            "blade_locations"
+          ],
+          "story_time": {
+            "year": 2019,
+            "month": 11,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "Opening on-screen title card: Los Angeles, November 2019.",
+            "source_ids": [
+              "blade_afi_time"
+            ]
+          }
+        }
+      ],
+      "notes": "A dressed real building interior, not a claim that every police-HQ component was filmed here.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 15,
+      "kind": "place",
+      "directory_name": "Deckard's tunnel approach home",
+      "category": "travel_segment",
+      "physical_site": {
+        "address": "Second Street Tunnel between Hill Street and Figueroa Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "tunnel segment",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Blade Runner",
+          "release_year": 1982,
+          "story_role": "Deckard's tunnel approach home",
+          "filming_component": "tunnel",
+          "source_ids": [
+            "blade_locations"
+          ],
+          "story_time": {
+            "year": 2019,
+            "month": 11,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "Opening on-screen title card: Los Angeles, November 2019.",
+            "source_ids": [
+              "blade_afi_time"
+            ]
+          }
+        },
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Reese and Sarah flee the Terminator through the tunnel",
+          "filming_component": "tunnel",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        }
+      ],
+      "notes": "Also used for the motorcycle pursuit in The Terminator.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 16,
+      "kind": "place",
+      "directory_name": "Nakatomi Plaza / Holly Gennero's workplace",
+      "category": "workplace_event",
+      "physical_site": {
+        "address": "2121 Avenue of the Stars",
+        "locality": "Century City, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Die Hard",
+          "release_year": 1988,
+          "story_role": "Nakatomi Plaza / Holly Gennero's workplace",
+          "filming_component": "Fox Plaza",
+          "source_ids": [
+            "fox_plaza"
+          ],
+          "story_time": {
+            "year": null,
+            "month": 12,
+            "day": 24,
+            "precision": "day",
+            "certainty": "explicit",
+            "calendar_year_status": "unresolved",
+            "basis": "Studio synopsis confirms Christmas Eve. Release year is retained separately and has not been treated as proof of story year.",
+            "source_ids": [
+              "diehard_studio_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Office tower and siege location; retain separate notes for stage-shot portions.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 17,
+      "kind": "place",
+      "directory_name": "Beth and Adele's home",
+      "category": "home",
+      "physical_site": {
+        "address": "18 Ozone Avenue",
+        "locality": "Venice, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "Beth and Adele's home",
+          "filming_component": "house exterior",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "The source reports that the house appears to have been replaced.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 18,
+      "kind": "place",
+      "directory_name": "Mr. Lee's market",
+      "category": "business_event",
+      "physical_site": {
+        "address": "464 North Madison Avenue",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "Mr. Lee's market",
+          "filming_component": "market exterior",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "Original building demolished. The interior was filmed at Bob's Market, represented separately by the Toretto's Market property entry.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 19,
+      "kind": "place",
+      "directory_name": "Whammy Burger",
+      "category": "business_event",
+      "physical_site": {
+        "address": "10990 Atlantic Avenue",
+        "locality": "Lynwood",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "Whammy Burger",
+          "filming_component": "Angelo's Burgers interior",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "Interior anchor; do not assume all exterior shots use this address.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 20,
+      "kind": "place",
+      "directory_name": "Nick's military surplus shop",
+      "category": "business_event",
+      "physical_site": {
+        "address": "3828 West Sunset Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "Nick's military surplus shop",
+          "filming_component": "surplus store",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 21,
+      "kind": "place",
+      "directory_name": "The 'not economically viable' bank protest",
+      "category": "event",
+      "physical_site": {
+        "address": "5350 Wilshire Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "The 'not economically viable' bank protest",
+          "filming_component": "bank exterior",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 22,
+      "kind": "place",
+      "directory_name": "D-Fens's encounter in MacArthur Park",
+      "category": "event",
+      "physical_site": {
+        "address": "MacArthur Park, beneath the Wilshire Boulevard crossing",
+        "locality": "Los Angeles",
+        "precision": "park underpass",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "D-Fens's encounter in MacArthur Park",
+          "filming_component": "park and underpass",
+          "source_ids": [
+            "falling_locations"
+          ]
+        },
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Driver meets the men pressuring Standard to rob a pawn shop",
+          "filming_component": "park",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "Drive also uses the park for Driver's meeting about Standard's coerced robbery.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 23,
+      "kind": "place",
+      "directory_name": "D-Fens and Prendergast's final confrontation",
+      "category": "event",
+      "physical_site": {
+        "address": "Venice Fishing Pier at the foot of Washington Boulevard",
+        "locality": "Venice, Los Angeles",
+        "precision": "named pier; exact filmed position pending",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "D-Fens and Prendergast's final confrontation",
+          "filming_component": "pier",
+          "source_ids": [
+            "falling_locations",
+            "falling_afi"
+          ]
+        }
+      ],
+      "notes": "AFI's production-notes account corroborates Venice Pier; use it over conflicting Manhattan Beach listings.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 24,
+      "kind": "place",
+      "directory_name": "Lynn Bracken's home",
+      "category": "home",
+      "physical_site": {
+        "address": "501 Wilcox Avenue",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Lynn Bracken's home",
+          "filming_component": "house",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 25,
+      "kind": "place",
+      "directory_name": "Pierce Patchett's home",
+      "category": "home",
+      "physical_site": {
+        "address": "4616 Dundee Drive",
+        "locality": "Los Feliz, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Pierce Patchett's home",
+          "filming_component": "Lovell Health House",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 26,
+      "kind": "place",
+      "directory_name": "Sid Hudgens's Hush-Hush office",
+      "category": "workplace",
+      "physical_site": {
+        "address": "6671 Sunset Boulevard",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Sid Hudgens's Hush-Hush office",
+          "filming_component": "Crossroads of the World",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 27,
+      "kind": "place",
+      "directory_name": "Nite Owl coffee shop",
+      "category": "business_event",
+      "physical_site": {
+        "address": "119 East 6th Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Nite Owl coffee shop",
+          "filming_component": "J&J Sandwich Shop",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "Historical cafe location.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 28,
+      "kind": "place",
+      "directory_name": "Jack Vincennes's crisis-of-conscience bar",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "6245 Hollywood Boulevard",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Jack Vincennes's crisis-of-conscience bar",
+          "filming_component": "Frolic Room",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 29,
+      "kind": "place",
+      "directory_name": "The Formosa encounter with Lana Turner",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "7156 Santa Monica Boulevard",
+        "locality": "West Hollywood",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "The Formosa encounter with Lana Turner",
+          "filming_component": "Formosa Cafe",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 30,
+      "kind": "place",
+      "directory_name": "Exley, White and Vincennes's police offices",
+      "category": "workplace",
+      "physical_site": {
+        "address": "610 South Main Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "L.A. Confidential",
+          "release_year": 1997,
+          "story_role": "Exley, White and Vincennes's police offices",
+          "filming_component": "Pacific Electric Building offices and corridors",
+          "source_ids": [
+            "confidential_locations"
+          ]
+        }
+      ],
+      "notes": "Police HQ is composite: City Hall exterior, Old Venice Police Station lobby and Lincoln Heights Jail cells are separate filming sites.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 31,
+      "kind": "place",
+      "directory_name": "The Dude's bungalow",
+      "category": "home",
+      "physical_site": {
+        "address": "606 Venezia Avenue",
+        "locality": "Venice, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "The Dude's bungalow",
+          "filming_component": "bungalow complex",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 32,
+      "kind": "place",
+      "directory_name": "Sobchak Security",
+      "category": "workplace",
+      "physical_site": {
+        "address": "6757 Santa Monica Boulevard",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "Sobchak Security",
+          "filming_component": "business exterior",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 33,
+      "kind": "place",
+      "directory_name": "Maude Lebowski's loft / Club Silencio entrance",
+      "category": "home_cultural_venue",
+      "physical_site": {
+        "address": "630 South Broadway",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "Maude Lebowski's loft / Club Silencio entrance",
+          "filming_component": "Palace Theatre upper space and rear entrance",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        },
+        {
+          "title": "Mulholland Drive",
+          "release_year": 2001,
+          "story_role": "Club Silencio rear entrance",
+          "filming_component": "Palace Theatre rear entrance",
+          "source_ids": [
+            "mulholland_bfi",
+            "mulholland_study"
+          ]
+        }
+      ],
+      "notes": "One physical property: Maude's loft in The Big Lebowski; rear entrance for Club Silencio in Mulholland Drive. The Silencio performance interior is the separate Tower Theatre.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 34,
+      "kind": "place",
+      "directory_name": "Jackie Treehorn's home",
+      "category": "home",
+      "physical_site": {
+        "address": "10104 Angelo View Drive",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "Jackie Treehorn's home",
+          "filming_component": "Sheats-Goldstein Residence",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        }
+      ],
+      "notes": "Story location is Malibu; the filming house is inland in Benedict Canyon.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 35,
+      "kind": "place",
+      "directory_name": "The wealthy Jeffrey Lebowski's mansion",
+      "category": "home",
+      "physical_site": {
+        "address": "10231 Charing Cross Road",
+        "locality": "Holmby Hills, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "The wealthy Jeffrey Lebowski's mansion",
+          "filming_component": "mansion exterior",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        }
+      ],
+      "notes": "Greystone Mansion supplied interiors; keep the exterior anchor distinct from the composite interior.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 36,
+      "kind": "place",
+      "directory_name": "Walter, Donny and the Dude's bowling alley",
+      "category": "hangout",
+      "physical_site": {
+        "address": "5227 Santa Monica Boulevard",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "Walter, Donny and the Dude's bowling alley",
+          "filming_component": "Hollywood Star Lanes site",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        }
+      ],
+      "notes": "Original bowling alley demolished.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 37,
+      "kind": "place",
+      "directory_name": "The Dude and Walter's coffee shop / Mr. Orange's handler meeting",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "6101 Wilshire Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Big Lebowski",
+          "release_year": 1998,
+          "story_role": "The Dude and Walter's coffee shop / Mr. Orange's handler meeting",
+          "filming_component": "Johnie's Coffee Shop",
+          "source_ids": [
+            "lebowski_locations"
+          ]
+        },
+        {
+          "title": "Reservoir Dogs",
+          "release_year": 1992,
+          "story_role": "Mr. Orange meets his police superior",
+          "filming_component": "coffee shop",
+          "source_ids": [
+            "reservoir_locations"
+          ]
+        }
+      ],
+      "notes": "One physical diner with separate fictional encounters in The Big Lebowski and Reservoir Dogs.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 38,
+      "kind": "place",
+      "directory_name": "Mia and Marsellus Wallace's home",
+      "category": "home",
+      "physical_site": {
+        "address": "1541 Summitridge Drive",
+        "locality": "Beverly Hills area",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Mia and Marsellus Wallace's home",
+          "filming_component": "house",
+          "source_ids": [
+            "pulp_locations",
+            "pulp_photo"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 39,
+      "kind": "place",
+      "directory_name": "Lance and Jody's home",
+      "category": "home",
+      "physical_site": {
+        "address": "3519 La Clede Avenue",
+        "locality": "Atwater Village, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Lance and Jody's home",
+          "filming_component": "house",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 40,
+      "kind": "place",
+      "directory_name": "Jack Rabbit Slim's",
+      "category": "business_hangout",
+      "physical_site": {
+        "address": "1435 Flower Street",
+        "locality": "Glendale",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Jack Rabbit Slim's",
+          "filming_component": "former bowling alley exterior",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "Restaurant interior was a warehouse-built set; this entry anchors only the real exterior.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 41,
+      "kind": "place",
+      "directory_name": "Pumpkin and Honey Bunny's diner hold-up",
+      "category": "business_event",
+      "physical_site": {
+        "address": "13763 Hawthorne Boulevard",
+        "locality": "Hawthorne",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Pumpkin and Honey Bunny's diner hold-up",
+          "filming_component": "Hawthorne Grill site",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "Original diner demolished.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 42,
+      "kind": "place",
+      "directory_name": "Maynard's pawn shop",
+      "category": "business_event",
+      "physical_site": {
+        "address": "20933 Roscoe Boulevard",
+        "locality": "Canoga Park, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Maynard's pawn shop",
+          "filming_component": "Crown Pawn Shop",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 43,
+      "kind": "place",
+      "directory_name": "Brett's apartment / the briefcase recovery",
+      "category": "home_event",
+      "physical_site": {
+        "address": "Van Ness Avenue at Harold Way",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "intersection; exact parcel pending",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Brett's apartment / the briefcase recovery",
+          "filming_component": "former apartment building site",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "Building demolished; intersection-level precision pending a final pin check.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 44,
+      "kind": "place",
+      "directory_name": "Monster Joe's junkyard",
+      "category": "workplace_event",
+      "physical_site": {
+        "address": "12143 Branford Street",
+        "locality": "Sun Valley, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Monster Joe's junkyard",
+          "filming_component": "auto dismantling yard",
+          "source_ids": [
+            "pulp_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 45,
+      "kind": "place",
+      "directory_name": "The crew's warehouse / Mr. Orange's apartment",
+      "category": "hideout_home",
+      "physical_site": {
+        "address": "5860 North Figueroa Street",
+        "locality": "Highland Park, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Reservoir Dogs",
+          "release_year": 1992,
+          "story_role": "Post-heist warehouse rendezvous",
+          "filming_component": "former mortuary; warehouse and apartment interior",
+          "source_ids": [
+            "reservoir_locations",
+            "reservoir_afi",
+            "reservoir_address"
+          ]
+        },
+        {
+          "title": "Reservoir Dogs",
+          "release_year": 1992,
+          "story_role": "Mr. Orange's apartment",
+          "filming_component": "interior in the same mortuary property",
+          "source_ids": [
+            "reservoir_locations",
+            "reservoir_afi",
+            "reservoir_address"
+          ]
+        }
+      ],
+      "notes": "Original building demolished. One filming property supplied two fictional places; do not infer that the character literally lived above the hideout.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 46,
+      "kind": "place",
+      "directory_name": "Joe Cabot's crew breakfast",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "4720 Eagle Rock Boulevard",
+        "locality": "Eagle Rock, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Reservoir Dogs",
+          "release_year": 1992,
+          "story_role": "Joe Cabot's crew breakfast",
+          "filming_component": "Pat & Lorraine's Coffee Shop",
+          "source_ids": [
+            "reservoir_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 47,
+      "kind": "place",
+      "directory_name": "Karina's Wholesale Diamonds",
+      "category": "business_event",
+      "physical_site": {
+        "address": "2612 West Burbank Boulevard",
+        "locality": "Burbank",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Reservoir Dogs",
+          "release_year": 1992,
+          "story_role": "Karina's Wholesale Diamonds",
+          "filming_component": "store exterior",
+          "source_ids": [
+            "reservoir_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 48,
+      "kind": "place",
+      "directory_name": "Jackie Brown's apartment",
+      "category": "home",
+      "physical_site": {
+        "address": "17575 Yukon Avenue",
+        "locality": "Torrance",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Jackie Brown",
+          "release_year": 1997,
+          "story_role": "Jackie Brown's apartment",
+          "filming_component": "apartment exterior",
+          "source_ids": [
+            "jackie_locations"
+          ]
+        }
+      ],
+      "notes": "Interior filmed in a similar property at the rear; avoid assigning a unit without further review.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 49,
+      "kind": "place",
+      "directory_name": "Max Cherry's bail-bonds office",
+      "category": "workplace",
+      "physical_site": {
+        "address": "724 East Carson Street",
+        "locality": "Carson",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Jackie Brown",
+          "release_year": 1997,
+          "story_role": "Max Cherry's bail-bonds office",
+          "filming_component": "Carson Bail Bonds",
+          "source_ids": [
+            "jackie_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 50,
+      "kind": "place",
+      "directory_name": "Jackie and Max's local bar",
+      "category": "hangout",
+      "physical_site": {
+        "address": "4334 West Imperial Highway",
+        "locality": "Hawthorne",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Jackie Brown",
+          "release_year": 1997,
+          "story_role": "Jackie and Max's local bar",
+          "filming_component": "Cockatoo Inn site",
+          "source_ids": [
+            "jackie_locations"
+          ]
+        }
+      ],
+      "notes": "Original venue demolished/replaced.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 51,
+      "kind": "place",
+      "directory_name": "Jackie's money-switch shopping mall",
+      "category": "business_event",
+      "physical_site": {
+        "address": "3525 West Carson Street",
+        "locality": "Torrance",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Jackie Brown",
+          "release_year": 1997,
+          "story_role": "Jackie's money-switch shopping mall",
+          "filming_component": "Del Amo Fashion Center",
+          "source_ids": [
+            "jackie_locations"
+          ]
+        }
+      ],
+      "notes": "Exact shop and circulation path need historical-plan review.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 52,
+      "kind": "place",
+      "directory_name": "Ordell and Louis's strip-club meeting",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "1751 East Olympic Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Jackie Brown",
+          "release_year": 1997,
+          "story_role": "Ordell and Louis's strip-club meeting",
+          "filming_component": "Sam's Hofbrau",
+          "source_ids": [
+            "jackie_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 53,
+      "kind": "place",
+      "directory_name": "Evelyn Mulwray's home",
+      "category": "home",
+      "physical_site": {
+        "address": "1315 South El Molino Avenue",
+        "locality": "Pasadena",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Evelyn Mulwray's home",
+          "filming_component": "house and grounds",
+          "source_ids": [
+            "chinatown_locations",
+            "chinatown_afi",
+            "pasadena_laist"
+          ]
+        }
+      ],
+      "notes": "Use Pasadena and South El Molino Avenue, corroborated by LAist; the movie-locations guide incorrectly calls the street Drive and locality South Pasadena.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 54,
+      "kind": "place",
+      "directory_name": "Ida Sessions's apartment",
+      "category": "home_event",
+      "physical_site": {
+        "address": "848 1/2 East Kensington Road",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Ida Sessions's apartment",
+          "filming_component": "apartment complex",
+          "source_ids": [
+            "chinatown_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 55,
+      "kind": "place",
+      "directory_name": "Katherine's refuge",
+      "category": "home",
+      "physical_site": {
+        "address": "1972 North Canyon Drive",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Katherine's refuge",
+          "filming_component": "house",
+          "source_ids": [
+            "chinatown_locations",
+            "chinatown_afi"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 56,
+      "kind": "place",
+      "directory_name": "Mar Vista Rest Home",
+      "category": "institution",
+      "physical_site": {
+        "address": "11725 Sunset Boulevard",
+        "locality": "Brentwood, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Mar Vista Rest Home",
+          "filming_component": "former Eastern Star Home; now Archer School site",
+          "source_ids": [
+            "chinatown_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 57,
+      "kind": "place",
+      "directory_name": "Oak Pass Reservoir",
+      "category": "event",
+      "physical_site": {
+        "address": "Stone Canyon Reservoir",
+        "locality": "Los Angeles",
+        "precision": "named reservoir; exact filmed positions pending",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Oak Pass Reservoir",
+          "filming_component": "reservoir",
+          "source_ids": [
+            "chinatown_locations"
+          ]
+        }
+      ],
+      "notes": "Named-site precision; story name differs from physical reservoir.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 58,
+      "kind": "place",
+      "directory_name": "Evelyn and Noah Cross's Chinatown confrontation",
+      "category": "event",
+      "physical_site": {
+        "address": "North Spring Street at Ord Street",
+        "locality": "Chinatown, Los Angeles",
+        "precision": "intersection and street segment",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Evelyn and Noah Cross's Chinatown confrontation",
+          "filming_component": "street segment south of Ord Street",
+          "source_ids": [
+            "chinatown_locations"
+          ]
+        }
+      ],
+      "notes": "Scene spans the street; do not force it to one invented building address.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 59,
+      "kind": "place",
+      "directory_name": "Driver and Irene's apartment building",
+      "category": "home",
+      "physical_site": {
+        "address": "607 South Park View Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Driver and Irene's apartment building",
+          "filming_component": "Park Plaza Hotel rooms and corridors",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "Story places the apartments in Echo Park; filming building overlooks MacArthur Park.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 60,
+      "kind": "place",
+      "directory_name": "Shannon's garage",
+      "category": "workplace",
+      "physical_site": {
+        "address": "8400 Reseda Boulevard",
+        "locality": "Northridge, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Shannon's garage",
+          "filming_component": "Picture Car Warehouse site",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "Historical production address.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 61,
+      "kind": "place",
+      "directory_name": "Irene's diner workplace",
+      "category": "workplace",
+      "physical_site": {
+        "address": "530 Ramirez Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Irene's diner workplace",
+          "filming_component": "Denny's",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 62,
+      "kind": "place",
+      "directory_name": "Nino's pizzeria",
+      "category": "workplace_meeting_place",
+      "physical_site": {
+        "address": "11045 Balboa Boulevard",
+        "locality": "Granada Hills, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Nino's pizzeria",
+          "filming_component": "Vincenzo's Pizza",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 63,
+      "kind": "place",
+      "directory_name": "Standard's pawn-shop robbery",
+      "category": "business_event",
+      "physical_site": {
+        "address": "17766 Sierra Highway",
+        "locality": "Canyon Country, Santa Clarita",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Standard's pawn-shop robbery",
+          "filming_component": "Elks Lodge exterior dressed as pawn shop",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "Story describes a Valley pawn shop; filming site is in Santa Clarita.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 64,
+      "kind": "place",
+      "directory_name": "Driver and Blanche's motel refuge",
+      "category": "lodging_event",
+      "physical_site": {
+        "address": "9457 San Fernando Road",
+        "locality": "Sun Valley, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Driver and Blanche's motel refuge",
+          "filming_component": "Pink Motel",
+          "source_ids": [
+            "drive_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 65,
+      "kind": "place",
+      "directory_name": "Daniel's jazz club",
+      "category": "workplace_event",
+      "physical_site": {
+        "address": "4333 Leimert Boulevard",
+        "locality": "Leimert Park, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Collateral",
+          "release_year": 2004,
+          "story_role": "Daniel's jazz club",
+          "filming_component": "Cheerio's",
+          "source_ids": [
+            "collateral_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 66,
+      "kind": "place",
+      "directory_name": "Felix's nightclub",
+      "category": "workplace_event",
+      "physical_site": {
+        "address": "8825 East Washington Boulevard",
+        "locality": "Pico Rivera",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Collateral",
+          "release_year": 2004,
+          "story_role": "Felix's nightclub",
+          "filming_component": "El Rodeo",
+          "source_ids": [
+            "collateral_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 67,
+      "kind": "place",
+      "directory_name": "Fever nightclub",
+      "category": "business_event",
+      "physical_site": {
+        "address": "3465 West 6th Street",
+        "locality": "Koreatown, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Collateral",
+          "release_year": 2004,
+          "story_role": "Fever nightclub",
+          "filming_component": "Bliss / Chapman Market exterior",
+          "source_ids": [
+            "collateral_locations"
+          ]
+        }
+      ],
+      "notes": "Large interior nightclub was recreated on a stage.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 68,
+      "kind": "place",
+      "directory_name": "Vincent's taxi pickup / Annie's drop-off",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "555 West 5th Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Collateral",
+          "release_year": 2004,
+          "story_role": "Vincent's taxi pickup / Annie's drop-off",
+          "filming_component": "Gas Company Tower",
+          "source_ids": [
+            "collateral_locations"
+          ]
+        }
+      ],
+      "notes": "The dialogue gives 312 Spring Street; this is the actual filmed pickup/drop-off site, not every component of Annie's office.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 69,
+      "kind": "place",
+      "directory_name": "Max and Annie's escape / Neil McCauley's arrival station",
+      "category": "transit_event",
+      "physical_site": {
+        "address": "2406 Marine Avenue",
+        "locality": "Redondo Beach",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Collateral",
+          "release_year": 2004,
+          "story_role": "Max and Annie's escape / Neil McCauley's arrival station",
+          "filming_component": "Marine-Redondo / Redondo Beach station",
+          "source_ids": [
+            "collateral_locations"
+          ]
+        },
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Neil McCauley arrives by train",
+          "filming_component": "station",
+          "source_ids": [
+            "heat_locations"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "notes": "Shared filming site. Heat opens here; Collateral ends here. Keep the historical station name and line configuration separate from current transit information.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 70,
+      "kind": "place",
+      "directory_name": "Alonzo and Jake's breakfast meeting",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "1238 West 7th Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Training Day",
+          "release_year": 2001,
+          "story_role": "Alonzo and Jake's breakfast meeting",
+          "filming_component": "Quality Cafe",
+          "source_ids": [
+            "training_locations",
+            "training_scenes"
+          ]
+        }
+      ],
+      "notes": "Historical cafe location.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 71,
+      "kind": "place",
+      "directory_name": "Roger's home",
+      "category": "home_event",
+      "physical_site": {
+        "address": "1031 Everett Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Training Day",
+          "release_year": 2001,
+          "story_role": "Roger's home",
+          "filming_component": "house",
+          "source_ids": [
+            "training_locations",
+            "training_scenes"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 72,
+      "kind": "place",
+      "directory_name": "Sandman's home / the false-warrant search",
+      "category": "home_event",
+      "physical_site": {
+        "address": "2313 East 113th Street",
+        "locality": "Watts, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Training Day",
+          "release_year": 2001,
+          "story_role": "Sandman's home / the false-warrant search",
+          "filming_component": "Imperial Courts residence",
+          "source_ids": [
+            "training_locations",
+            "training_scenes"
+          ]
+        }
+      ],
+      "notes": "Specific address supplied by the scene-indexed source.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 73,
+      "kind": "place",
+      "directory_name": "Sara's home / Alonzo's final neighborhood confrontation",
+      "category": "home_event",
+      "physical_site": {
+        "address": "4142 Palmwood Drive",
+        "locality": "Baldwin Village, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Training Day",
+          "release_year": 2001,
+          "story_role": "Sara's home / Alonzo's final neighborhood confrontation",
+          "filming_component": "home exterior and cul-de-sac",
+          "source_ids": [
+            "training_locations",
+            "training_scenes"
+          ]
+        }
+      ],
+      "notes": "This does not assign every rooftop shot in the climax to this one property.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 74,
+      "kind": "place",
+      "directory_name": "Alonzo's meeting with the Three Wise Men",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "1310 West 6th Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Training Day",
+          "release_year": 2001,
+          "story_role": "Alonzo's meeting with the Three Wise Men",
+          "filming_component": "Pacific Dining Car",
+          "source_ids": [
+            "training_locations",
+            "training_scenes"
+          ]
+        },
+        {
+          "title": "Chinatown",
+          "release_year": 1974,
+          "story_role": "Pig'n Whistle exterior in photographs of Mulwray and Cross",
+          "filming_component": "restaurant exterior",
+          "source_ids": [
+            "chinatown_locations"
+          ]
+        }
+      ],
+      "notes": "The same property appears as the exterior Pig'n Whistle in Chinatown.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 75,
+      "kind": "place",
+      "directory_name": "Tre and Furious Styles's home",
+      "category": "home",
+      "physical_site": {
+        "address": "5918 Cimarron Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Boyz n the Hood",
+          "release_year": 1991,
+          "story_role": "Tre and Furious Styles's home",
+          "filming_component": "house",
+          "source_ids": [
+            "boyz_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 76,
+      "kind": "place",
+      "directory_name": "Brandi's home",
+      "category": "home",
+      "physical_site": {
+        "address": "5906 Cimarron Street",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Boyz n the Hood",
+          "release_year": 1991,
+          "story_role": "Brandi's home",
+          "filming_component": "house",
+          "source_ids": [
+            "boyz_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 77,
+      "kind": "place",
+      "directory_name": "Young Tre's elementary school",
+      "category": "school",
+      "physical_site": {
+        "address": "3200 West 104th Street",
+        "locality": "Inglewood",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Boyz n the Hood",
+          "release_year": 1991,
+          "story_role": "Young Tre's elementary school",
+          "filming_component": "Clyde Woodworth Elementary School",
+          "source_ids": [
+            "boyz_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 78,
+      "kind": "place",
+      "directory_name": "Reva and Furious's Westside restaurant meeting",
+      "category": "meeting_place",
+      "physical_site": {
+        "address": "4335 Crenshaw Boulevard",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Boyz n the Hood",
+          "release_year": 1991,
+          "story_role": "Reva and Furious's Westside restaurant meeting",
+          "filming_component": "Coley's Kitchen restaurant site",
+          "source_ids": [
+            "boyz_locations"
+          ]
+        }
+      ],
+      "notes": "Historical restaurant location.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 79,
+      "kind": "place",
+      "directory_name": "Sarah Connor and Ginger's apartment",
+      "category": "home",
+      "physical_site": {
+        "address": "420 South Lafayette Park Place",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Sarah Connor and Ginger's apartment",
+          "filming_component": "apartment building",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 80,
+      "kind": "place",
+      "directory_name": "Tech Noir",
+      "category": "business_event",
+      "physical_site": {
+        "address": "720 South Hill Street",
+        "locality": "Downtown Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Tech Noir",
+          "filming_component": "storefront dressed as nightclub",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        }
+      ],
+      "notes": "Story places Tech Noir on Pico Boulevard.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 81,
+      "kind": "place",
+      "directory_name": "Big Jeff's / Sarah Connor's workplace",
+      "category": "workplace",
+      "physical_site": {
+        "address": "815 South Fremont Avenue",
+        "locality": "South Pasadena",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Big Jeff's / Sarah Connor's workplace",
+          "filming_component": "Carrows restaurant site",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 82,
+      "kind": "place",
+      "directory_name": "Alamo gun shop",
+      "category": "business_event",
+      "physical_site": {
+        "address": "14329 Victory Boulevard",
+        "locality": "Van Nuys, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Alamo gun shop",
+          "filming_component": "gun shop site",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 83,
+      "kind": "place",
+      "directory_name": "Griffith Observatory / Rain Robinson's workplace",
+      "category": "event_cultural_venue",
+      "categories": [
+        "workplace",
+        "event",
+        "cultural_venue"
+      ],
+      "physical_site": {
+        "address": "2800 East Observatory Road",
+        "locality": "Griffith Park, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "The T-800's arrival in Los Angeles",
+          "filming_component": "Griffith Observatory",
+          "source_ids": [
+            "terminator_locations"
+          ]
+        },
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian's nighttime observatory visit",
+          "filming_component": "observatory exterior and real interior portions",
+          "source_ids": [
+            "lalaland_locations"
+          ]
+        },
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "episodes": [
+            "Future's End",
+            "Future's End, Part II"
+          ],
+          "season": 3,
+          "episode_numbers": [
+            8,
+            9
+          ],
+          "story_role": "Rain Robinson's SETI research workplace; she detects Voyager above Earth and encounters Tom Paris and Tuvok",
+          "characters": [
+            {
+              "name": "Rain Robinson",
+              "relationship": "works_here"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            }
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Episode's local Los Angeles setting, rather than the visitors' century of origin",
+            "source_ids": [
+              "voyager_future_end_reference"
+            ]
+          },
+          "relationship_time": {
+            "relationship": "Rain Robinson works here during the story",
+            "start": null,
+            "end": null,
+            "extent": "attested_during_story_only"
+          },
+          "filming_component": "Griffith Observatory exteriors; laboratory interiors have not been verified as filmed inside the real observatory",
+          "source_ids": [
+            "voyager_rain_official",
+            "voyager_future_end_reference"
+          ]
+        }
+      ],
+      "notes": "Shared site across The Terminator, La La Land and Star Trek: Voyager. La La Land's planetarium was recreated on a stage. Voyager exterior filming is documented; Rain's laboratory interior is not yet verified as on-location. Rain's employment is established during the 1996 story, but no start or end date for her job is inferred.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 84,
+      "kind": "place",
+      "directory_name": "John Connor and the Voights' home",
+      "category": "home",
+      "physical_site": {
+        "address": "19828 Valerio Street",
+        "locality": "Winnetka, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "John Connor and the Voights' home",
+          "filming_component": "house",
+          "source_ids": [
+            "t2_locations"
+          ]
+        }
+      ],
+      "notes": "Story address is on fictional South Almond Avenue.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 85,
+      "kind": "place",
+      "directory_name": "Pescadero State Hospital",
+      "category": "institution_event",
+      "physical_site": {
+        "address": "11600 Eldridge Avenue",
+        "locality": "Lake View Terrace, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "Pescadero State Hospital",
+          "filming_component": "Lake View Medical Center / Phoenix Academy",
+          "source_ids": [
+            "t2_locations"
+          ]
+        }
+      ],
+      "notes": "Story hospital is near Los Angeles, not the real town of Pescadero.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 86,
+      "kind": "place",
+      "directory_name": "John Connor's Galleria mall encounter",
+      "category": "business_event",
+      "physical_site": {
+        "address": "9301 Tampa Avenue",
+        "locality": "Northridge, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "John Connor's Galleria mall encounter",
+          "filming_component": "Northridge Fashion Center exterior",
+          "source_ids": [
+            "t2_locations"
+          ]
+        }
+      ],
+      "notes": "Confrontation interiors were filmed at Santa Monica Place; this entry anchors the exterior component.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 87,
+      "kind": "place",
+      "directory_name": "Aunt Ruth's apartment / Betty's temporary home",
+      "category": "home",
+      "physical_site": {
+        "address": "450 North Sycamore Avenue",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Mulholland Drive",
+          "release_year": 2001,
+          "story_role": "Aunt Ruth's apartment / Betty's temporary home",
+          "filming_component": "Il Borghese Apartments",
+          "source_ids": [
+            "mulholland_bfi",
+            "mulholland_study"
+          ]
+        }
+      ],
+      "notes": "Fictional address: 1612 Havenhurst Drive.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 88,
+      "kind": "place",
+      "directory_name": "Diane Selwyn's Sierra Bonita apartment",
+      "category": "home_event",
+      "physical_site": {
+        "address": "2900 Griffith Park Boulevard",
+        "locality": "Silver Lake, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Mulholland Drive",
+          "release_year": 2001,
+          "story_role": "Diane Selwyn's Sierra Bonita apartment",
+          "filming_component": "bungalow complex",
+          "source_ids": [
+            "mulholland_bfi",
+            "mulholland_study"
+          ]
+        }
+      ],
+      "notes": "Fictional address: 2590 Sierra Bonita Avenue; identity and timeline follow the film's ambiguity.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 89,
+      "kind": "place",
+      "directory_name": "Adam Kesher's home",
+      "category": "home",
+      "physical_site": {
+        "address": "3760 Eureka Drive",
+        "locality": "Studio City, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Mulholland Drive",
+          "release_year": 2001,
+          "story_role": "Adam Kesher's home",
+          "filming_component": "house",
+          "source_ids": [
+            "mulholland_bfi",
+            "mulholland_study"
+          ]
+        }
+      ],
+      "notes": "Fictional address: 6980 Mulholland Drive. Actual address supplied by the film-specific location study.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 90,
+      "kind": "place",
+      "directory_name": "Winkie's diner",
+      "category": "business_event",
+      "physical_site": {
+        "address": "1016 West El Segundo Boulevard",
+        "locality": "Gardena",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "Mulholland Drive",
+          "release_year": 2001,
+          "story_role": "Winkie's diner",
+          "filming_component": "Caesar's restaurant",
+          "source_ids": [
+            "mulholland_bfi",
+            "mulholland_study"
+          ]
+        }
+      ],
+      "notes": "Story places the diner on Sunset Boulevard.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 91,
+      "kind": "place",
+      "directory_name": "Dominic and Mia Toretto's home",
+      "category": "home",
+      "physical_site": {
+        "address": "722 East Kensington Road",
+        "locality": "Angelino Heights, Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Fast and the Furious",
+          "release_year": 2001,
+          "story_role": "Dominic and Mia Toretto's home",
+          "filming_component": "house",
+          "source_ids": [
+            "fast_locations"
+          ]
+        }
+      ],
+      "notes": "The neighboring houses also appear; the garage between the houses was a temporary production addition.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 92,
+      "kind": "place",
+      "directory_name": "Toretto's Market / Mr. Lee's market interior",
+      "category": "workplace_business",
+      "physical_site": {
+        "address": "1234 Bellevue Avenue",
+        "locality": "Los Angeles",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Fast and the Furious",
+          "release_year": 2001,
+          "story_role": "Toretto's Market / Mr. Lee's market interior",
+          "filming_component": "Bob's Market",
+          "source_ids": [
+            "fast_locations"
+          ]
+        },
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "Mr. Lee's market interior",
+          "filming_component": "Bob's Market interior",
+          "source_ids": [
+            "falling_locations"
+          ]
+        }
+      ],
+      "notes": "One physical store. The Fast and the Furious uses it as Toretto's Market; Falling Down uses its interior for Mr. Lee's market.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 93,
+      "kind": "place",
+      "directory_name": "The Racer's Edge / Brian's workplace",
+      "category": "workplace",
+      "physical_site": {
+        "address": "Orange Drive at Santa Monica Boulevard, near 1046 North Orange Drive",
+        "locality": "Hollywood, Los Angeles",
+        "precision": "intersection and facade; exact parcel pending",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "The Fast and the Furious",
+          "release_year": 2001,
+          "story_role": "The Racer's Edge / Brian's workplace",
+          "filming_component": "west-facing storefront",
+          "source_ids": [
+            "fast_locations"
+          ]
+        }
+      ],
+      "notes": "The source identifies 1046 as the adjacent brick building, not a verified address of the exact storefront. Keep intersection/facade precision until parcel review.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 94,
+      "kind": "place",
+      "directory_name": "Mia and her roommates' apartment",
+      "category": "home",
+      "physical_site": {
+        "address": "1728 East 3rd Street",
+        "locality": "Long Beach",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and her roommates' apartment",
+          "filming_component": "Rose Towers exterior",
+          "source_ids": [
+            "lalaland_locations"
+          ]
+        }
+      ],
+      "notes": "Exterior component; do not infer all apartment interiors were filmed here.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 95,
+      "kind": "place",
+      "directory_name": "Sebastian introduces Mia to jazz",
+      "category": "hangout",
+      "physical_site": {
+        "address": "30 Pier Avenue",
+        "locality": "Hermosa Beach",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Sebastian introduces Mia to jazz",
+          "filming_component": "Lighthouse Cafe",
+          "source_ids": [
+            "lalaland_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 96,
+      "kind": "place",
+      "directory_name": "Mia and Sebastian's cinema date",
+      "category": "cultural_venue",
+      "physical_site": {
+        "address": "1023 South Fair Oaks Avenue",
+        "locality": "South Pasadena",
+        "precision": "street_address_or_named_site",
+        "coordinates": null
+      },
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian's cinema date",
+          "filming_component": "Rialto Theatre",
+          "source_ids": [
+            "lalaland_locations"
+          ]
+        }
+      ],
+      "notes": "",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 97,
+      "kind": "route",
+      "directory_name": "D-Fens's journey toward home",
+      "category": "journey",
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "D-Fens's journey toward home",
+          "source_ids": [
+            "falling_locations",
+            "falling_afi"
+          ]
+        }
+      ],
+      "route": {
+        "representation": "schematic filmed stops or segments",
+        "geometry": null,
+        "geometry_status": "not_traced",
+        "stops": [
+          {
+            "label": "Abandoned car",
+            "address": "110/101 freeway connector, Downtown Los Angeles",
+            "precision": "interchange; exact ramp pin needs review"
+          },
+          {
+            "entry_id": 18,
+            "label": "Mr. Lee's market exterior"
+          },
+          {
+            "entry_id": 22,
+            "label": "MacArthur Park encounter"
+          },
+          {
+            "entry_id": 19,
+            "label": "Whammy Burger interior"
+          },
+          {
+            "entry_id": 20,
+            "label": "Military surplus shop"
+          },
+          {
+            "entry_id": 17,
+            "label": "Beth and Adele's home"
+          },
+          {
+            "entry_id": 23,
+            "label": "Venice Pier confrontation"
+          }
+        ]
+      },
+      "notes": "Selected stops in narrative order, not a continuous established walking path. Leave unshown travel as gaps; filming geography is discontinuous.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 98,
+      "kind": "route",
+      "directory_name": "McCauley's crew's downtown bank escape",
+      "category": "journey",
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "McCauley's crew's downtown bank escape",
+          "source_ids": [
+            "heat_locations",
+            "heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          }
+        }
+      ],
+      "route": {
+        "representation": "schematic filmed stops or segments",
+        "geometry": null,
+        "geometry_status": "not_traced",
+        "stops": [
+          {
+            "label": "Bank exterior and exit",
+            "address": "444 South Flower Street, Los Angeles"
+          },
+          {
+            "label": "Street shootout",
+            "address": "West 5th Street at South Flower Street and toward Figueroa Street, Los Angeles"
+          },
+          {
+            "label": "McCauley and Chris's grocery-lot escape",
+            "address": "Near 831 South Hope Street, Los Angeles"
+          }
+        ]
+      },
+      "notes": "Selected filmed nodes. Bank interior is separately at 350 South Grand Avenue. Geography jumps between shots; do not draw one literal turn-by-turn street route without scene analysis.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 99,
+      "kind": "route",
+      "directory_name": "John Connor's flood-channel escape",
+      "category": "journey",
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "John Connor's flood-channel escape",
+          "source_ids": [
+            "t2_locations"
+          ]
+        }
+      ],
+      "route": {
+        "representation": "schematic filmed stops or segments",
+        "geometry": null,
+        "geometry_status": "not_traced",
+        "stops": [
+          {
+            "label": "Tow-truck leap",
+            "address": "Plummer Street at Hayvenhurst Avenue, Los Angeles"
+          },
+          {
+            "label": "Motorcycle entry",
+            "address": "Bull Creek entrance immediately south of Plummer Street along Hayvenhurst Avenue"
+          },
+          {
+            "label": "Flood-channel pursuit",
+            "address": "Bull Creek flood-control channel, North Hills, Los Angeles"
+          }
+        ]
+      },
+      "notes": "A filmed chase corridor, not a public access route. Detailed shot order and segment geometry remain to be traced.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    },
+    {
+      "id": 100,
+      "kind": "route",
+      "directory_name": "Brian and Dom's first street race",
+      "category": "journey",
+      "appearances": [
+        {
+          "title": "The Fast and the Furious",
+          "release_year": 2001,
+          "story_role": "Brian and Dom's first street race",
+          "source_ids": [
+            "fast_locations"
+          ]
+        }
+      ],
+      "route": {
+        "representation": "schematic filmed stops or segments",
+        "geometry": null,
+        "geometry_status": "not_traced",
+        "stops": [
+          {
+            "label": "Race start",
+            "address": "Prairie Avenue at West 120th Street, Hawthorne"
+          },
+          {
+            "label": "Racing corridor",
+            "address": "Prairie Avenue between West 120th Street and West 118th Street, Hawthorne"
+          },
+          {
+            "label": "Race finish area",
+            "address": "Prairie Avenue near West 118th Street, Hawthorne"
+          }
+        ]
+      },
+      "notes": "Race geography as filmed. The pre-race gathering at 761 Terminal Street in Los Angeles is a separate site; editing reuses stretches and reverses direction, so the screen race is not a measured continuous quarter mile.",
+      "evidence_status": "published_source_supported",
+      "scene_timecode": null
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "1": {
+    "coordinates": [
+      -118.379307813957,
+      34.103831596255
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1870 BLUE HEIGHTS DR, LOS ANGELES, CA, 90046",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1870+Blue+Heights+Drive%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "2": {
+    "coordinates": [
+      -118.558198573703,
+      34.254479510988
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "19514 ROMAR ST, NORTHRIDGE, CA, 91324",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=19514+Romar+Street%2C+Northridge%2C+CA+91324&benchmark=Public_AR_Current&format=json"
+  },
+  "3": {
+    "coordinates": [
+      -118.478714862623,
+      34.00446359605
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2634 6TH ST, SANTA MONICA, CA, 90405",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2634+6th+Street%2C+Santa+Monica%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "4": {
+    "coordinates": [
+      -118.19130117085,
+      34.052623834553
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1219 DODDS CIR, LOS ANGELES, CA, 90063",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1219+Dodds+Circle%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "5": {
+    "coordinates": [
+      -118.19081214602,
+      34.052188393126
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1235 DODDS AVE, LOS ANGELES, CA, 90063",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1235+Dodds+Circle%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "6": {
+    "coordinates": [
+      -118.498416444153,
+      34.017570168738
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1254 3RD STREET PROMENADE, SANTA MONICA, CA, 90401",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1254+3rd+Street+Promenade%2C+Santa+Monica%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "7": {
+    "coordinates": [
+      -118.346181019567,
+      34.152275881374
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "4211 W RIVERSIDE DR, BURBANK, CA, 91505",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4211+West+Riverside+Drive%2C+Burbank%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "8": {
+    "coordinates": [
+      -118.389741086478,
+      34.067107360829
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "9101 WILSHIRE BLVD, BEVERLY HILLS, CA, 90210",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9101+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "9": {
+    "coordinates": [
+      -118.381374157519,
+      33.945620420254
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5711 W CENTURY BLVD, LOS ANGELES, CA, 90045",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5711+West+Century+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "10": {
+    "coordinates": [
+      -118.300603559942,
+      34.175020217184
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "916 S SAN FERNANDO BLVD, BURBANK, CA, 91502",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=916+South+San+Fernando+Boulevard%2C+Burbank%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "11": {
+    "coordinates": [
+      -118.248055811504,
+      34.050827472119
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "304 S BROADWAY, LOS ANGELES, CA, 90013",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=304+South+Broadway%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "12": {
+    "coordinates": [
+      -118.293009179417,
+      34.116014238296
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2607 GLENDOWER AVE, LOS ANGELES, CA, 90027",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2607+Glendower+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "13": {
+    "coordinates": [
+      -118.247440094215,
+      34.051673028471
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "253 S BROADWAY, LOS ANGELES, CA, 90012",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=253+South+Broadway%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "14": {
+    "coordinates": [
+      -118.238851460541,
+      34.029987842731
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "800 S ALAMEDA ST, LOS ANGELES, CA, 90021",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=800+North+Alameda+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "15": {
+    "coordinates": [
+      -118.2542,
+      34.0553
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "16": {
+    "coordinates": [
+      -118.412448328669,
+      34.054966912794
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2121 S AVE OF THE STARS, LOS ANGELES, CA, 90067",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2121+Avenue+of+the+Stars%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "17": {
+    "coordinates": [
+      -118.480323151268,
+      33.995600903217
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "18 OZONE AVE, VENICE, CA, 90291",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18+Ozone+Avenue%2C+Venice%2C+CA+90291&benchmark=Public_AR_Current&format=json"
+  },
+  "18": {
+    "coordinates": [
+      -118.289106174338,
+      34.079453087819
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "464 N MADISON AVE, LOS ANGELES, CA, 90004",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=464+North+Madison+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "19": {
+    "coordinates": [
+      -118.183137482822,
+      33.931426526278
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "10990 ATLANTIC AVE, LYNWOOD, CA, 90262",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10990+Atlantic+Avenue%2C+Lynwood%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "20": {
+    "coordinates": [
+      -118.279127315608,
+      34.091088349107
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3828 W SUNSET BLVD, LOS ANGELES, CA, 90026",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3828+West+Sunset+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "21": {
+    "coordinates": [
+      -118.345669245856,
+      34.062145912223
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5350 WILSHIRE BLVD, LOS ANGELES, CA, 90036",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5350+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "22": {
+    "coordinates": [
+      -118.2792,
+      34.0592
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "23": {
+    "coordinates": [
+      -118.4687,
+      33.9755
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "24": {
+    "coordinates": [
+      -118.330883567441,
+      34.078991985845
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "501 WILCOX AVE, LOS ANGELES, CA, 90004",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=501+Wilcox+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "25": {
+    "coordinates": [
+      -118.287686906656,
+      34.116671121209
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "4616 DUNDEE DR, LOS ANGELES, CA, 90027",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4616+Dundee+Drive%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "26": {
+    "coordinates": [
+      -118.335619639459,
+      34.098035644256
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "6671 W SUNSET BLVD, LOS ANGELES, CA, 90028",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6671+Sunset+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "27": {
+    "coordinates": [
+      -118.249675975772,
+      34.045168995323
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "119 E 6TH ST, LOS ANGELES, CA, 90014",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=119+East+6th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "28": {
+    "coordinates": [
+      -118.325867434412,
+      34.101684061596
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "6245 HOLLYWOOD BLVD, LOS ANGELES, CA, 90028",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6245+Hollywood+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "29": {
+    "coordinates": [
+      -118.345576507336,
+      34.09064986463
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "7156 W SANTA MONICA BLVD, WEST HOLLYWOOD, CA, 90046",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7156+Santa+Monica+Boulevard%2C+West+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "30": {
+    "coordinates": [
+      -118.250055716811,
+      34.045064555204
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "610 S MAIN ST, LOS ANGELES, CA, 90014",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=610+South+Main+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "31": {
+    "coordinates": [
+      -118.459503960798,
+      33.989710604727
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "606 VENEZIA AVE, VENICE, CA, 90291",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=606+Venezia+Avenue%2C+Venice%2C+CA+90291&benchmark=Public_AR_Current&format=json"
+  },
+  "32": {
+    "coordinates": [
+      -118.337635736515,
+      34.090769777023
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "6757 SANTA MONICA BLVD, LOS ANGELES, CA, 90038",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6757+Santa+Monica+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "33": {
+    "coordinates": [
+      -118.252402310287,
+      34.046156125485
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "630 S BROADWAY, LOS ANGELES, CA, 90014",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=630+South+Broadway%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "34": {
+    "coordinates": [
+      -118.433943982179,
+      34.093749685641
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "10104 ANGELO VIEW DR, BEVERLY HILLS, CA, 90210",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10104+Angelo+View+Drive%2C+Beverly+Hills%2C+CA+90210&benchmark=Public_AR_Current&format=json"
+  },
+  "35": {
+    "coordinates": [
+      -118.429601123974,
+      34.077943349571
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "10231 CHARING CROSS RD, LOS ANGELES, CA, 90024",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10231+Charing+Cross+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "36": {
+    "coordinates": [
+      -118.303654947071,
+      34.090860970643
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5227 SANTA MONICA BLVD, LOS ANGELES, CA, 90029",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5227+Santa+Monica+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "37": {
+    "coordinates": [
+      -118.361434216516,
+      34.06303151897
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "6101 WILSHIRE BLVD, LOS ANGELES, CA, 90048",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6101+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "38": {
+    "coordinates": [
+      -118.420301127636,
+      34.099606646141
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1541 SUMMITRIDGE DR, BEVERLY HILLS, CA, 90210",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1541+Summitridge+Drive%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "39": {
+    "coordinates": [
+      -118.256820129152,
+      34.119088227064
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3519 LACLEDE AVE, LOS ANGELES, CA, 90039",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3519+La+Clede+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "40": {
+    "coordinates": [
+      -118.290568722393,
+      34.162396556455
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1435 FLOWER ST, GLENDALE, CA, 91201",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1435+Flower+Street%2C+Glendale%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "41": {
+    "coordinates": [
+      -118.352785044086,
+      33.906759466641
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "13763 HAWTHORNE BLVD, HAWTHORNE, CA, 90250",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13763+Hawthorne+Boulevard%2C+Hawthorne%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "42": {
+    "coordinates": [
+      -118.589265107383,
+      34.219976567388
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "20933 ROSCOE BLVD, CANOGA PARK, CA, 91304",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=20933+Roscoe+Boulevard%2C+Canoga+Park%2C+CA+91304&benchmark=Public_AR_Current&format=json"
+  },
+  "43": {
+    "coordinates": [
+      -118.3155,
+      34.0987
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "44": {
+    "coordinates": [
+      -118.397929223931,
+      34.252142047944
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "12143 BRANFORD ST, SUN VALLEY, CA, 91352",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12143+Branford+Street%2C+Sun+Valley%2C+CA+91352&benchmark=Public_AR_Current&format=json"
+  },
+  "45": {
+    "coordinates": [
+      -118.191300203893,
+      34.110259312051
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5860 N FIGUEROA ST, LOS ANGELES, CA, 90042",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5860+North+Figueroa+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "46": {
+    "coordinates": [
+      -118.216405808087,
+      34.130796842773
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "4720 N EAGLE ROCK BLVD, LOS ANGELES, CA, 90041",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4720+Eagle+Rock+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "47": {
+    "coordinates": [
+      -118.339589727995,
+      34.178200623822
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2612 W BURBANK BLVD, BURBANK, CA, 91505",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2612+West+Burbank+Boulevard%2C+Burbank%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "48": {
+    "coordinates": [
+      -118.335190263262,
+      33.871189205969
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "17575 YUKON AVE, TORRANCE, CA, 90504",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=17575+Yukon+Avenue%2C+Torrance%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "49": {
+    "coordinates": [
+      -118.263160545726,
+      33.831547527265
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "724 E CARSON ST, CARSON, CA, 90745",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=724+East+Carson+Street%2C+Carson%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "50": {
+    "coordinates": null,
+    "method": "unmatched",
+    "query": "4334 West Imperial Highway, Hawthorne, CA"
+  },
+  "51": {
+    "coordinates": [
+      -118.345818139706,
+      33.83122935026
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3525 W CARSON ST, TORRANCE, CA, 90503",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3525+West+Carson+Street%2C+Torrance%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "52": {
+    "coordinates": [
+      -118.239494023443,
+      34.028064053289
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1751 E OLYMPIC BLVD, LOS ANGELES, CA, 90021",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1751+East+Olympic+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "53": {
+    "coordinates": [
+      -118.136758059063,
+      34.123367963547
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1315 S EL MOLINO AVE, PASADENA, CA, 91106",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1315+South+El+Molino+Avenue%2C+Pasadena%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "54": {
+    "coordinates": [
+      -118.252126606105,
+      34.071608171911
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "848 1/2 E KENSINGTON RD, LOS ANGELES, CA, 90026",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=848+1%2F2+East+Kensington+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "55": {
+    "coordinates": [
+      -118.31684109166,
+      34.10638698228
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1972 CANYON DR, LOS ANGELES, CA, 90068",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1972+North+Canyon+Drive%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "56": {
+    "coordinates": [
+      -118.470716085742,
+      34.064640011311
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "11725 SUNSET BLVD, LOS ANGELES, CA, 90049",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11725+Sunset+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "57": {
+    "coordinates": [
+      -118.461,
+      34.1134
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "58": {
+    "coordinates": [
+      -118.2374,
+      34.0591
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "59": {
+    "coordinates": [
+      -118.278837389149,
+      34.060823700635
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "607 S PARK VIEW ST, LOS ANGELES, CA, 90057",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=607+South+Park+View+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "60": {
+    "coordinates": [
+      -118.536010216694,
+      34.22268653912
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "8400 RESEDA BLVD, NORTHRIDGE, CA, 91324",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8400+Reseda+Boulevard%2C+Northridge%2C+CA+91324&benchmark=Public_AR_Current&format=json"
+  },
+  "61": {
+    "coordinates": [
+      -118.23180873499,
+      34.05477253796
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "530 RAMIREZ ST, LOS ANGELES, CA, 90012",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=530+Ramirez+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "62": {
+    "coordinates": [
+      -118.502279576083,
+      34.271019764216
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "11045 BALBOA BLVD, GRANADA HILLS, CA, 91344",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11045+Balboa+Boulevard%2C+Granada+Hills%2C+CA+91344&benchmark=Public_AR_Current&format=json"
+  },
+  "63": {
+    "coordinates": [
+      -118.446156300813,
+      34.427773077728
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "17766 SIERRA HWY, CANYON COUNTRY, CA, 91351",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=17766+Sierra+Highway%2C+Canyon+Country%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "64": {
+    "coordinates": [
+      -118.395854794652,
+      34.241184381789
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "9457 SAN FERNANDO RD, SUN VALLEY, CA, 91352",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9457+San+Fernando+Road%2C+Sun+Valley%2C+CA+91352&benchmark=Public_AR_Current&format=json"
+  },
+  "65": {
+    "coordinates": [
+      -118.330246777551,
+      34.005004071292
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "4333 S LEIMERT BLVD, LOS ANGELES, CA, 90008",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4333+Leimert+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "66": {
+    "coordinates": [
+      -118.099148401972,
+      33.984334667405
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "8825 E WASHINGTON BLVD, PICO RIVERA, CA, 90660",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8825+East+Washington+Boulevard%2C+Pico+Rivera%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "67": {
+    "coordinates": [
+      -118.297042217278,
+      34.063644078012
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3465 W 6TH ST, LOS ANGELES, CA, 90020",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3465+West+6th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "68": {
+    "coordinates": [
+      -118.253395362304,
+      34.049901485827
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "555 W 5TH ST, LOS ANGELES, CA, 90013",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=555+West+5th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "69": {
+    "coordinates": null,
+    "method": "unmatched",
+    "query": "2406 Marine Avenue, Redondo Beach, CA"
+  },
+  "70": {
+    "coordinates": [
+      -118.267069792632,
+      34.051989533475
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1238 W 7TH ST, LOS ANGELES, CA, 90017",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1238+West+7th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "71": {
+    "coordinates": [
+      -118.249028903379,
+      34.070354478648
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1031 EVERETT ST, LOS ANGELES, CA, 90026",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1031+Everett+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "72": {
+    "coordinates": [
+      -118.231661663134,
+      33.932504049082
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2313 E 113TH ST, LOS ANGELES, CA, 90059",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2313+East+113th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "73": {
+    "coordinates": [
+      -118.344035918205,
+      34.01373544484
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "4142 PALMWOOD DR, LOS ANGELES, CA, 90008",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4142+Palmwood+Drive%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "74": {
+    "coordinates": [
+      -118.265992145612,
+      34.055612840494
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1310 W 6TH ST, LOS ANGELES, CA, 90017",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1310+West+6th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "75": {
+    "coordinates": [
+      -118.315629775868,
+      33.986943479768
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5918 CIMARRON ST, LOS ANGELES, CA, 90047",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5918+Cimarron+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "76": {
+    "coordinates": [
+      -118.315628170529,
+      33.987150715283
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "5906 CIMARRON ST, LOS ANGELES, CA, 90047",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5906+Cimarron+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "77": {
+    "coordinates": [
+      -118.327808194608,
+      33.941775843088
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3200 W 104TH ST, INGLEWOOD, CA, 90303",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3200+West+104th+Street%2C+Inglewood%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "78": {
+    "coordinates": null,
+    "method": "unmatched",
+    "query": "4335 Crenshaw Boulevard, Los Angeles, CA"
+  },
+  "79": {
+    "coordinates": [
+      -118.281628310289,
+      34.06536153547
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "420 S LA FAYETTE PARK PL, LOS ANGELES, CA, 90057",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=420+South+Lafayette+Park+Place%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "80": {
+    "coordinates": [
+      -118.254691017369,
+      34.045553109624
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "720 S HILL ST, LOS ANGELES, CA, 90014",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=720+South+Hill+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "81": {
+    "coordinates": [
+      -118.153156782561,
+      34.11656736185
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "815 FREMONT AVE, SOUTH PASADENA, CA, 91030",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=815+South+Fremont+Avenue%2C+South+Pasadena%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "82": {
+    "coordinates": [
+      -118.445002148046,
+      34.186720011711
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "14329 VICTORY BLVD, VAN NUYS, CA, 91401",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=14329+Victory+Boulevard%2C+Van+Nuys%2C+CA+91405&benchmark=Public_AR_Current&format=json"
+  },
+  "83": {
+    "coordinates": [
+      -118.30227989306,
+      34.123393902896
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2800 E OBSERVATORY AVE, LOS ANGELES, CA, 90027",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2800+East+Observatory+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "84": {
+    "coordinates": [
+      -118.565280160905,
+      34.204656625469
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "19828 VALERIO ST, WINNETKA, CA, 91306",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=19828+Valerio+Street%2C+Winnetka%2C+CA+91306&benchmark=Public_AR_Current&format=json"
+  },
+  "85": {
+    "coordinates": [
+      -118.384365121008,
+      34.28094061135
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "11600 ELDRIDGE AVE, SYLMAR, CA, 91342",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11600+Eldridge+Avenue%2C+Sylmar%2C+CA+91342&benchmark=Public_AR_Current&format=json"
+  },
+  "86": {
+    "coordinates": [
+      -118.553638349201,
+      34.239169249879
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "9301 TAMPA AVE, NORTHRIDGE, CA, 91324",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9301+Tampa+Avenue%2C+Northridge%2C+CA+91324&benchmark=Public_AR_Current&format=json"
+  },
+  "87": {
+    "coordinates": [
+      -118.342881378033,
+      34.079295236027
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "450 N SYCAMORE AVE, LOS ANGELES, CA, 90036",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+North+Sycamore+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "88": {
+    "coordinates": [
+      -118.273953659581,
+      34.108232301597
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2900 GRIFFITH PARK BLVD, LOS ANGELES, CA, 90027",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2900+Griffith+Park+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "89": {
+    "coordinates": [
+      -118.372784416445,
+      34.138529656972
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "3760 EUREKA DR, STUDIO CITY, CA, 91604",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3760+Eureka+Drive%2C+Studio+City%2C+CA+91604&benchmark=Public_AR_Current&format=json"
+  },
+  "90": {
+    "coordinates": [
+      -118.292119407498,
+      33.916367693935
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1016 W EL SEGUNDO BLVD, GARDENA, CA, 90247",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1016+West+El+Segundo+Boulevard%2C+Gardena%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "91": {
+    "coordinates": [
+      -118.25164007583,
+      34.068574299622
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "722 E KENSINGTON RD, LOS ANGELES, CA, 90026",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=722+East+Kensington+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "92": {
+    "coordinates": [
+      -118.251733372247,
+      34.067907226115
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1234 BELLEVUE AVE, LOS ANGELES, CA, 90026",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1234+Bellevue+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "93": {
+    "coordinates": [
+      -118.3415,
+      34.0906
+    ],
+    "method": "manual approximate site/segment anchor",
+    "precision": "approximate"
+  },
+  "94": {
+    "coordinates": [
+      -118.170606209251,
+      33.769305931823
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1728 E 3RD ST, LONG BEACH, CA, 90802",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1728+East+3rd+Street%2C+Long+Beach%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "95": {
+    "coordinates": [
+      -118.401125073802,
+      33.861956721552
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "30 PIER AVE, HERMOSA BEACH, CA, 90254",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=30+Pier+Avenue%2C+Hermosa+Beach%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "96": {
+    "coordinates": [
+      -118.150418491509,
+      34.114582965082
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "1023 FAIR OAKS AVE, SOUTH PASADENA, CA, 91030",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1023+South+Fair+Oaks+Avenue%2C+South+Pasadena%2C+CA&benchmark=Public_AR_Current&format=json"
+  }
+}
