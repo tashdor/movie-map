@@ -1,0 +1,103 @@
+{
+  "8": {
+    "id": 8,
+    "status": "candidate_not_downloaded",
+    "candidate": {
+      "sourceUrl": "https://www.flickr.com/photos/92136363@N00/54660199106",
+      "imageUrl": "https://live.staticflickr.com/65535/54660199106_01428ee647_b.jpg",
+      "credit": "Dean Cheng / Flickr",
+      "captureDate": "2025-06-11",
+      "publicationDate": "2025-07-17",
+      "dateBasis": "Flickr page taken-on date and embedded dateTaken 2025-06-11 11:06:30.",
+      "license": "All rights reserved (Flickr license 0)."
+    },
+    "note": "Exact 9101 Wilshire exterior candidate. Image CDN returned HTTP 403; no local image or visual verification, so do not automatically replace the existing archival comparison."
+  },
+  "12": {
+    "id": 12,
+    "place": {
+      "src": "photos/12-recent-ennis-detail-apr2023.jpg",
+      "sourceUrl": "https://irontongue.blogspot.com/2023/06/friday-photo_0368623977.html",
+      "credit": "Lisa Hirsch / Iron Tongue of Midnight",
+      "alt": "The Ennis House textile-block exterior photographed from Glendower Avenue in April 2023.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5mBcrFYAyXGpzGyj5vfGOzeew1OYYbuk-dOTzHeA19hwU32guX5iE0E-TtYeG4rv9dUhLLih6Sy7WHfnNPJ2F_DqZ6_gvf6IuMkcYEWzJvKkICYea7HYpbxSN4aPwGhZvXBiGcFPSulEY4qCXdYM5wYOdRWhwRZHzLSoPPkpd3XUeAbiBBm3-og/s720/52808205558_44e862c97b_o.jpg",
+      "width": 720,
+      "height": 480,
+      "captureDate": "2023-04",
+      "publicationDate": "2023-06-30",
+      "dateStatus": "Photographer’s caption explicitly says April, 2023; no exact day claimed.",
+      "license": "No open reuse license stated on source page.",
+      "verification": "Visually checked: Ennis House stepped textile-block walls and towers. This is the Blade Runner production site, not a verified canonical address for Deckard’s high-rise apartment."
+    },
+    "note": "Use as real filming-site comparison only. The month archive also corroborates the caption: https://irontongue.blogspot.com/2023/06/ ."
+  },
+  "18": {
+    "id": 18,
+    "status": "no_recent_photo_verified",
+    "sourceUrl": "https://cd13.lacity.gov/news/donald-trump-vs-hungry-families",
+    "publicationDate": "2025-11-03",
+    "note": "Official Council District 13 report confirms newly opened Madison West Park playground, but no usable site image found on that page. Do not relabel the existing older site photo as recent."
+  },
+  "19": {
+    "id": 19,
+    "status": "no_recent_photo_verified",
+    "note": "No independently dated recent usable exterior photo of 10990 Atlantic Avenue verified. A 2022 forum-image lead showed graffiti close-ups rather than the restaurant and was rejected. Retain older sourced comparison with its date limitation; Lynwood remains a filming site only."
+  },
+  "26": {
+    "id": 26,
+    "place": {
+      "src": "photos/26-recent-crossroads-2024.jpg",
+      "sourceUrl": "https://www.pexels.com/photo/crossroads-of-the-world-in-los-angeles-30151764/",
+      "credit": "Darya Sannikova / Pexels",
+      "alt": "Crossroads of the World on Sunset Boulevard, photographed December 22, 2024.",
+      "imageUrl": "https://images.pexels.com/photos/30151764/pexels-photo-30151764.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "width": 1600,
+      "height": 1067,
+      "captureDate": "2024-12-22",
+      "publicationDate": "2025-01-08",
+      "dateStatus": "Pexels detailed metadata gives Taken At Dec 22, 2024 and Date Jan 8, 2025.",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica."
+    }
+  },
+  "29": {
+    "id": 29,
+    "place": {
+      "src": "photos/29-recent-formosa-2023.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Formosa_Cafe,_West_Hollywood_July_2023.jpg",
+      "credit": "Benoît Prieur / Wikimedia Commons",
+      "alt": "Formosa Café exterior and adjoining railway car in July 2023.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Formosa_Cafe%2C_West_Hollywood_July_2023.jpg",
+      "width": 4030,
+      "height": 2497,
+      "captureDate": "2023-07-19",
+      "dateStatus": "Commons description and original EXIF both give 2023-07-19 11:26:04.",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verification": "Visually checked: Formosa script sign, red exterior, striped awnings and adjoining Pacific Electric railcar at Santa Monica and Formosa."
+    }
+  },
+  "80": {
+    "id": 80,
+    "place": {
+      "src": "photos/80-recent-hilltop-exterior.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2024/11/the-terminator-1984.html",
+      "credit": "Brian Koppel / Reel to Real Filming Locations",
+      "alt": "The former Tech Noir filming storefront, now Hilltop Coffee + Kitchen, beside Jewelry Box Co. on South Hill Street.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxJ5tqzmxQJqXED09qewzX3p1xpzwH9LjIh5FCOg_50NAPsgbuOmDDF0jcX-W7negynR5jYzYW2c3h9pZcdNYXErjRiIvzY2t_11JOw5I8shWFypbZ2k2ht090VdrZNgkNuaYU-nr-8waxZ19aCD0gRIFSsOD2PWLfgWBbGLj8AqVskeFs6Odd7sx1_24o/s3066/IMG_6396.jpg",
+      "width": 3066,
+      "height": 1836,
+      "publicationDate": "2024-11-01",
+      "captureDate": null,
+      "dateStatus": "Exact capture date unavailable. The Hilltop branding establishes a view after its February 2023 opening; the photo was published in November 2024. Describe as 2023–24, not today.",
+      "license": "No open reuse license stated on source page.",
+      "verification": "Visually checked source comparison: Hilltop front, adjacent JPB Jewelry Box Co. sign and narrow storefront columns at former Tech Noir location. Watermark retained.",
+      "corroboratingSourceUrls": [
+        "https://www.fsrmagazine.com/industry-news/hilltop-coffee-kitchen-host-pop-experience-downtown-la/",
+        "https://www.findyourhilltop.com/dtla"
+      ]
+    },
+    "note": "South Hill Street is the filming location only. The fictional nightclub belongs on the Pico corridor."
+  }
+}

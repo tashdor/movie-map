@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0",
+  "researched_on": "2026-11-15",
+  "policy": {
+    "priority": [
+      "explicit on-screen address or named place",
+      "film/story neighborhood or city",
+      "clearly labeled narrative inference",
+      "filming-site proxy only when not contradicted"
+    ],
+    "unknown": "A high-rise or fictional street number is not permission to invent a precise physical address. Keep the directory entry and show an area/street extent or leave unlocated.",
+    "geometry_note": "Suggested viewports and editorial area boxes are cartographic uncertainty extents, not claimed canonical borders or parcels."
+  },
+  "dates": [
+    {
+      "title": "Falling Down",
+      "year": 1991,
+      "month": 6,
+      "day": 12,
+      "precision": "day",
+      "certainty": "explicit_promotional_synopsis",
+      "basis": "Official Cannes French synopsis opens with Douze juin 1991. English page describes the same one-day journey but omits date. This is official synopsis evidence, not an independently checked on-screen title card.",
+      "sourceIds": [
+        "falling_cannes",
+        "falling_cannes_en"
+      ],
+      "production_year": 1992,
+      "release_year": 1993,
+      "recommendedDisplay": "1991"
+    }
+  ],
+  "sources": [
+    {
+      "id": "deckard_architecture",
+      "url": "https://franklloydwright.org/the-form-and-function-of-science-fiction/",
+      "title": "Frank Lloyd Wright Foundation: The Form and Function of Science Fiction",
+      "type": "architectural foundation; confirms 97th-floor fictional tower, not Ennis street location"
+    },
+    {
+      "id": "deckard_script",
+      "url": "https://www.sellingyourscreenplay.com/wp-content/uploads/screenplay/scripts/Blade-Runner-%281%29.pdf",
+      "title": "Blade Runner screenplay by Hampton Fancher and David Peoples",
+      "type": "screenplay; elevator goes to 97th floor"
+    },
+    {
+      "id": "blade_production",
+      "url": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "title": "Blade Runner production locations",
+      "type": "secondary location research; explicitly distinguishes studio interiors and real production sites"
+    },
+    {
+      "id": "tech_noir_dialogue",
+      "url": "https://clip.cafe/the-terminator-1984/its-her-s12/",
+      "title": "The Terminator: Sarah and Traxler telephone scene",
+      "type": "film clip and transcript; names Pico"
+    },
+    {
+      "id": "tech_noir_message",
+      "url": "https://clip.cafe/the-terminator-1984/hi-there-s121/",
+      "title": "The Terminator: Sarah leaves Ginger a message",
+      "type": "film clip and transcript; names Pico Boulevard"
+    },
+    {
+      "id": "falling_cannes",
+      "url": "https://www.festival-cannes.com/f/falling-down/",
+      "title": "Festival de Cannes: Falling Down official French synopsis",
+      "type": "official festival synopsis; explicitly dates day to 12 June 1991"
+    },
+    {
+      "id": "falling_cannes_en",
+      "url": "https://www.festival-cannes.com/en/f/falling-down/",
+      "title": "Festival de Cannes: Falling Down official English synopsis",
+      "type": "official festival synopsis; confirms one-day cross-city walk but omits calendar date"
+    },
+    {
+      "id": "falling_sites",
+      "url": "https://filmoblivion.com/2018/11/18/falling-down-1993/",
+      "title": "Film Oblivion: Falling Down production locations",
+      "type": "photographic location research; explicitly identifies Whammyburger as major geographic discontinuity"
+    },
+    {
+      "id": "falling_screenplay",
+      "url": "https://www.scribd.com/document/722695001/Falling-Down",
+      "title": "Falling Down, first-draft polish dated September 3, 1991",
+      "type": "screenplay draft; scene sequence is corroborating, not final-film street proof"
+    },
+    {
+      "id": "lebowski_script",
+      "url": "https://www.dailyscript.com/scripts/gib_lebowski.html",
+      "title": "The Big Lebowski screenplay",
+      "type": "screenplay; Malibu beach / Treehorn scenes"
+    },
+    {
+      "id": "lebowski_loc",
+      "url": "https://www.loc.gov/static/programs/national-film-preservation-board/documents/big_lebowski.pdf",
+      "title": "Library of Congress: The Big Lebowski film essay",
+      "type": "film-preservation essay; places millionaire mansion in Pasadena"
+    },
+    {
+      "id": "lebowski_correction",
+      "url": "https://www.latimes.com/archives/la-xpm-2008-sep-07-ca-correx7.s2-story.html",
+      "title": "Los Angeles Times correction, September 7, 2008",
+      "type": "explicit correction: film locates millionaire mansion in Pasadena, not Westside"
+    },
+    {
+      "id": "lebowski_sites",
+      "url": "https://www.movie-locations.com/movies/b/Big-Lebowski.php",
+      "title": "The Big Lebowski production locations",
+      "type": "secondary location research; Malibu and Pasadena conflicts"
+    },
+    {
+      "id": "drive_script",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/drive-2011.pdf",
+      "title": "Drive screenplay, Hossein Amini, September 24 2010 revisions",
+      "type": "screenplay; Echo Park setting"
+    },
+    {
+      "id": "drive_sites",
+      "url": "https://www.movie-locations.com/movies/d/Drive.php",
+      "title": "Drive production locations",
+      "type": "secondary location research; explicit Echo Park / MacArthur Park and Valley / Santa Clarita differences"
+    },
+    {
+      "id": "collateral_sites",
+      "url": "https://www.seeing-stars.com/Locations/Collateral1.shtml",
+      "title": "Collateral scene locations, part 1",
+      "type": "scene-indexed location research; dialogue says 312 Spring Street"
+    },
+    {
+      "id": "collateral_script",
+      "url": "https://www.sellingyourscreenplay.com/wp-content/uploads/screenplay/scripts/Collateral.pdf",
+      "title": "Collateral screenplay, Michael Mann revisions",
+      "type": "screenplay; distinguishes federal building story from chosen production building"
+    },
+    {
+      "id": "mulholland_bfi",
+      "url": "https://www.bfi.org.uk/features/mulholland-drive-david-lynch-locations",
+      "title": "BFI: Mulholland Drive locations",
+      "type": "film institute feature; fictional addresses and Winkie Sunset / Gardena conflict"
+    },
+    {
+      "id": "mulholland_study",
+      "url": "https://m.mulholland-drive.net/studies/locations.htm",
+      "title": "Lost on Mulholland Dr.: filming-location study",
+      "type": "film-specific study; explicit fictional versus real addresses"
+    }
+  ],
+  "overrides": [
+    {
+      "id": 12,
+      "name": "Deckard’s apartment",
+      "storyAddress": "Los Angeles · apartment 9732, 97th floor",
+      "coordinates": null,
+      "precision": "unlocated",
+      "geometry": null,
+      "reason": "The film/script establishes a high-rise apartment. Ennis House supplies architectural imagery and production exterior elements, not proof of the fictional street address. No credible precise canonical street location was found.",
+      "sourceIds": [
+        "deckard_architecture",
+        "deckard_script",
+        "blade_production"
+      ],
+      "productionAddress": "2607 Glendower Avenue, Los Feliz",
+      "recommendedDisplay": "directory_only",
+      "inference": false
+    },
+    {
+      "id": 13,
+      "name": "Leon's Yukon Hotel",
+      "storyAddress": "1187 Hunterwasser · fictional street",
+      "coordinates": null,
+      "precision": "unlocated",
+      "geometry": null,
+      "reason": "The Pan Am Building is an interior filming anchor; it is not evidence that the story hotel occupies 253 South Broadway. The claimed fictional address needs direct film-frame transcription before publication.",
+      "sourceIds": [
+        "blade_production"
+      ],
+      "productionAddress": "253 South Broadway",
+      "recommendedDisplay": "directory_only",
+      "inference": false,
+      "storyAddressStatus": "unverified transcription; do not publish number as confirmed yet"
+    },
+    {
+      "id": 14,
+      "name": "LAPD headquarters",
+      "storyAddress": "Los Angeles · exact site unspecified",
+      "coordinates": null,
+      "precision": "unlocated",
+      "geometry": null,
+      "reason": "Union Station housed the interior set. The film presents a future police complex, not an established police office physically inside Union Station.",
+      "sourceIds": [
+        "blade_production"
+      ],
+      "productionAddress": "800 North Alameda Street",
+      "recommendedDisplay": "directory_only",
+      "inference": false
+    },
+    {
+      "id": 19,
+      "name": "Whammy Burger",
+      "storyAddress": "Westlake / Koreatown corridor · approximate",
+      "coordinates": [
+        -118.313,
+        34.06
+      ],
+      "precision": "area_inferred",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.347,
+              34.045
+            ],
+            [
+              -118.278,
+              34.045
+            ],
+            [
+              -118.278,
+              34.077
+            ],
+            [
+              -118.347,
+              34.077
+            ],
+            [
+              -118.347,
+              34.045
+            ]
+          ]
+        ]
+      },
+      "reason": "The Lynwood restaurant is a production site and creates the major detour identified by the user and the location researcher. The narrative puts this stop after the MacArthur Park encounter and before the Wilshire bank encounter. A broad westward corridor is defensible; a specific burger shop or cross street is not.",
+      "sourceIds": [
+        "falling_sites",
+        "falling_screenplay"
+      ],
+      "productionAddress": "10990 Atlantic Avenue, Lynwood",
+      "recommendedDisplay": "uncertainty_area",
+      "inference": true,
+      "coordinateMeaning": "Editorial representative point within a broad story corridor; not a sourced building address",
+      "routeAction": "Replace Lynwood stop with this broad inferred region; do not draw a fully established continuous walk"
+    },
+    {
+      "id": 80,
+      "name": "Tech Noir",
+      "storyAddress": "Pico Boulevard · cross street unspecified",
+      "coordinates": null,
+      "precision": "street_explicit",
+      "geometry": null,
+      "reason": "Both Sarah’s message and her call with Traxler explicitly place Tech Noir on Pico. Hill Street is only where the scene was filmed. Do not invent a cross street.",
+      "sourceIds": [
+        "tech_noir_dialogue",
+        "tech_noir_message"
+      ],
+      "productionAddress": "720 South Hill Street",
+      "recommendedDisplay": "street_corridor",
+      "inference": false,
+      "geometryStatus": "Fetch actual Pico Boulevard road geometry; do not use an invented point or straight line as the street",
+      "suggestedViewport": [
+        [
+          -118.5,
+          34.0
+        ],
+        [
+          -118.25,
+          34.06
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Jackie Treehorn's home",
+      "storyAddress": "Malibu beach · exact property unspecified",
+      "coordinates": null,
+      "precision": "area_explicit",
+      "geometry": null,
+      "reason": "The story places Treehorn at a Malibu beach property; the Sheats-Goldstein Residence is inland Benedict Canyon.",
+      "sourceIds": [
+        "lebowski_script",
+        "lebowski_sites"
+      ],
+      "productionAddress": "10104 Angelo View Drive, Benedict Canyon",
+      "recommendedDisplay": "uncertainty_area",
+      "inference": false,
+      "suggestedViewport": [
+        [
+          -118.93,
+          33.99
+        ],
+        [
+          -118.57,
+          34.08
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Jeffrey Lebowski's mansion",
+      "storyAddress": "Pasadena · exact property unspecified",
+      "coordinates": null,
+      "precision": "city_explicit",
+      "geometry": null,
+      "reason": "The millionaire’s mansion is in Pasadena in the story. The Westside location is contradicted by a specific LA Times correction and the LOC film essay. The exterior and interior filming estates are both production sites.",
+      "sourceIds": [
+        "lebowski_loc",
+        "lebowski_correction",
+        "lebowski_sites"
+      ],
+      "productionAddress": "10231 Charing Cross Road exterior; 905 Loma Vista Drive interior",
+      "recommendedDisplay": "uncertainty_area",
+      "inference": false,
+      "suggestedViewport": [
+        [
+          -118.2,
+          34.12
+        ],
+        [
+          -118.09,
+          34.19
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Driver and Irene's apartments",
+      "storyAddress": "Echo Park · exact address unspecified",
+      "coordinates": [
+        -118.263,
+        34.078
+      ],
+      "precision": "neighborhood_explicit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.278,
+              34.065
+            ],
+            [
+              -118.245,
+              34.065
+            ],
+            [
+              -118.245,
+              34.093
+            ],
+            [
+              -118.278,
+              34.093
+            ],
+            [
+              -118.278,
+              34.065
+            ]
+          ]
+        ]
+      },
+      "reason": "The screenplay and location research place the apartments in Echo Park; Park Plaza overlooks MacArthur Park. Retain the hotel only as the filming site.",
+      "sourceIds": [
+        "drive_script",
+        "drive_sites"
+      ],
+      "productionAddress": "607 South Park View Street",
+      "recommendedDisplay": "uncertainty_area",
+      "inference": false,
+      "coordinateMeaning": "Neighborhood representative, not a canonical apartment parcel"
+    },
+    {
+      "id": 63,
+      "name": "Standard's pawn-shop robbery",
+      "storyAddress": "San Fernando Valley · exact shop unspecified",
+      "coordinates": null,
+      "precision": "area_explicit",
+      "geometry": null,
+      "reason": "Location research describes the story target as a Valley pawn shop. Santa Clarita Elks Lodge is the production exterior; its address should not be asserted as the fictional shop.",
+      "sourceIds": [
+        "drive_sites"
+      ],
+      "productionAddress": "17766 Sierra Highway, Santa Clarita",
+      "recommendedDisplay": "uncertainty_area",
+      "inference": false,
+      "suggestedViewport": [
+        [
+          -118.65,
+          34.14
+        ],
+        [
+          -118.32,
+          34.31
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Vincent's taxi pickup / Annie's drop-off",
+      "storyAddress": "312 North Spring Street · federal courthouse",
+      "coordinates": null,
+      "precision": "address_explicit",
+      "geometry": null,
+      "reason": "Dialogue names 312 Spring Street. Production used the Gas Company Tower. The courthouse address is the story anchor, while 555 West Fifth stays in production notes.",
+      "sourceIds": [
+        "collateral_sites",
+        "collateral_script"
+      ],
+      "productionAddress": "555 West 5th Street",
+      "recommendedDisplay": "story_address_pin",
+      "inference": false,
+      "geocodeAction": "Geocode actual courthouse address 312 N Spring Street, Los Angeles; validate the frontage against scene dialogue, not the filming image"
+    },
+    {
+      "id": 87,
+      "name": "Aunt Ruth's apartment",
+      "storyAddress": "1612 Havenhurst Drive · fictional number",
+      "coordinates": null,
+      "precision": "street_explicit",
+      "geometry": null,
+      "reason": "The story names Havenhurst, but the street number is not a valid property on the real road. Do not use the Sycamore production address as canonical.",
+      "sourceIds": [
+        "mulholland_bfi",
+        "mulholland_study"
+      ],
+      "productionAddress": "450 North Sycamore Avenue",
+      "recommendedDisplay": "street_corridor",
+      "inference": false,
+      "geometryStatus": "Actual Havenhurst Drive corridor, with fictional-number note; no invented parcel"
+    },
+    {
+      "id": 88,
+      "name": "Diane Selwyn's apartment",
+      "storyAddress": "2590 Sierra Bonita Avenue · fictional number",
+      "coordinates": null,
+      "precision": "street_explicit",
+      "geometry": null,
+      "reason": "The story names Sierra Bonita; the location study identifies the number as fictional. Griffith Park Boulevard in Silver Lake is only the production setting.",
+      "sourceIds": [
+        "mulholland_study",
+        "mulholland_bfi"
+      ],
+      "productionAddress": "2900 Griffith Park Boulevard",
+      "recommendedDisplay": "street_corridor",
+      "inference": false,
+      "geometryStatus": "Actual Sierra Bonita corridor; no claimed number 2590 parcel"
+    },
+    {
+      "id": 89,
+      "name": "Adam Kesher's home",
+      "storyAddress": "6980 Mulholland Drive · fictional property address",
+      "coordinates": null,
+      "precision": "street_explicit",
+      "geometry": null,
+      "reason": "The story address is Mulholland Drive, not the Studio City shooting house on Eureka Drive. A fictional address must not be silently geocoded to an unrelated real house.",
+      "sourceIds": [
+        "mulholland_study"
+      ],
+      "productionAddress": "3760 Eureka Drive, Studio City",
+      "recommendedDisplay": "street_corridor",
+      "inference": false,
+      "geometryStatus": "Mulholland Drive / Hollywood Hills region; exact parcel remains fictional"
+    },
+    {
+      "id": 90,
+      "name": "Winkie's diner",
+      "storyAddress": "Sunset Boulevard · cross street unspecified",
+      "coordinates": null,
+      "precision": "street_reported",
+      "geometry": null,
+      "reason": "BFI explicitly distinguishes the supposed Sunset Boulevard diner from the Gardena production site. The precise Sunset segment remains unresolved.",
+      "sourceIds": [
+        "mulholland_bfi",
+        "mulholland_study"
+      ],
+      "productionAddress": "1016 West El Segundo Boulevard, Gardena",
+      "recommendedDisplay": "street_corridor",
+      "inference": false,
+      "geometryStatus": "Sunset Boulevard corridor, not a Gardena point; no invented cross street"
+    }
+  ],
+  "structuralIssues": [
+    {
+      "id": 92,
+      "appearanceTitle": "Falling Down",
+      "action": "move_appearance_to_18",
+      "reason": "Mr. Lee’s market is already represented by #18. Bob’s Market supplied its interior; that does not make a second Mr. Lee’s market at Toretto’s address.",
+      "preserveProductionSite": "1234 Bellevue Avenue",
+      "keepPrimaryStory": "Toretto’s Market / The Fast and the Furious"
+    },
+    {
+      "id": 45,
+      "action": "split_fictional_places",
+      "reason": "The warehouse and Mr. Orange’s apartment were filmed inside one mortuary property but are separate fictional places. Keep the shared physical-site record behind two story identities; do not assert that Mr. Orange lives above the rendezvous warehouse.",
+      "productionSite": "5860 North Figueroa Street",
+      "recommendedPrimaryName": "The warehouse",
+      "apartmentPlacement": "unlocated"
+    },
+    {
+      "id": 30,
+      "action": "mark_production_proxy_pending_story_audit",
+      "reason": "Police headquarters combines City Hall exterior, Pacific Electric office interiors, Venice lobby, and Lincoln Heights cells. The office filming address alone does not establish canonical headquarters geography."
+    },
+    {
+      "id": 20,
+      "action": "mark_route_geography_unresolved",
+      "reason": "The Sunset Boulevard surplus shop is another production discontinuity in the Falling Down sequence. Do not silently connect a Whammy story estimate to this production pin and call it a literal continuous walk."
+    },
+    {
+      "id": 18,
+      "action": "mark_neighborhood_inferred",
+      "reason": "Mr. Lee’s exterior is next to the 101 in production, but its street address is not confirmed in dialogue. Preserve it as a production-based proxy until the narrative proximity clues are audited."
+    }
+  ],
+  "additionalLowConfidenceReview": [
+    {
+      "id": 42,
+      "issue": "Maynard’s Canoga Park production address is geographically disconnected from the continuous Butch/Marsellus chase filmed around Fletcher Drive. The story shop is near the chase, but no exact canonical address is established. Investigate before asserting a Canoga Park story location.",
+      "sources": [
+        "https://www.movie-locations.com/movies/p/Pulp-Fiction.php"
+      ]
+    },
+    {
+      "id": 60,
+      "issue": "An early Drive screenplay places Shannon’s garage on Silver Lake Boulevard, while the production garage is Northridge. This is a draft-stage indication, not sufficient alone to override final-film geography.",
+      "sources": [
+        "https://static1.squarespace.com/static/5d78f7aafa2a676e1fcddfe9/t/5e8708a9cdfbaa441f450958/1585907882502/Drive%2B%5B2010.01.15%5D.pdf"
+      ]
+    }
+  ]
+}

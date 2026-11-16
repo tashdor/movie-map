@@ -1,0 +1,765 @@
+{
+  "1": {
+    "id": 1,
+    "screen": {
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Heat film frame; L.A. TACO",
+      "alt": "Eady inside her hillside home in Heat.",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_EadysHouse2.jpg?w=710",
+      "src": "photos/a-001-screen.jpg",
+      "width": 710,
+      "height": 294
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "The house at 1870 Blue Heights Drive photographed from below.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat11-1.jpg",
+      "src": "photos/a-001-place.jpg",
+      "width": 1100,
+      "height": 798,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Heat frame used for shared Eady/Bosch property; Bosch frame not yet added."
+  },
+  "2": {
+    "id": 2,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "Chris Shiherlis’s house at night in Heat.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgptoJxNGhWXPTgs1CyOJf2vmulRq8roGYdARwxfW0I9kibqyf2FMxj3Obss4gr7VMBGy3XmvUN2WNmQch6oIbCPbSkKBVA2kkZKa4oeCYuI_Djrdj4LhXv7a9C7rq-0BSZ_yF5L7DgxUE/s1610/B.jpg",
+      "src": "photos/a-002-screen.jpg",
+      "width": 1100,
+      "height": 473
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "19514 Romar Street after exterior remodeling.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat47.jpg?w=1024",
+      "src": "photos/a-002-place.jpg",
+      "width": 1024,
+      "height": 768,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "3": {
+    "id": 3,
+    "screen": {
+      "sourceUrl": "https://www.bluscreens.net/heat.html",
+      "credit": "Heat film frame; Bluscreens",
+      "alt": "Vincent Hanna in the kitchen of his home.",
+      "imageUrl": "https://www.bluscreens.net/uploads/1/4/8/9/14897402/heat40.jpg",
+      "src": "photos/a-003-screen.jpg",
+      "width": 800,
+      "height": 450
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "Exterior of the Sixth Street House, used for Hanna’s home interiors.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat15.jpg",
+      "src": "photos/a-003-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Only the house interior appears in Heat; exterior photograph identifies the production property."
+  },
+  "4": {
+    "id": 4,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "Trejo’s hillside house in Heat.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxd_kdWi1jqq5-YIIXjiK6Je_zIU2CEEphVUo00zzUAYQVapjCePR-dK_BiwvHBccWQxXu7ZsIVDilOCQVZWLxwdmRJRmy2cffccQfL6HxEltsvtIe1ovgfgqDGjqW2KPSVY2_X-hXR2I/s1614/Trejo+House+1.jpg",
+      "src": "photos/a-004-screen.jpg",
+      "width": 1100,
+      "height": 461
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "Trejo’s production house at 1219 Dodds Circle.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat51.jpg",
+      "src": "photos/a-004-place.jpg",
+      "width": 1100,
+      "height": 733,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "5": {
+    "id": 5,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "Kelso in front of the communications equipment at his house.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg80GmyVuaq9ZTXzC9wINfqX8n4y1HeyV0xbpsdEtZbsKLwdQ-71cZZrMlcQac58O5rF3CczCLHtVJ1lHkxfyZyihQuw9OonmYRwzDXqTmTbAHn-HMOiQNip0TKIryT-ZwzSXB4wR82ofM/s1620/Dish+House+1.jpg",
+      "src": "photos/a-005-screen.jpg",
+      "width": 1100,
+      "height": 465
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "1235 Dodds Circle and its fenced yard.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat71.jpg",
+      "src": "photos/a-005-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "6": {
+    "id": 6,
+    "screen": {
+      "sourceUrl": "https://www.bluscreens.net/heat.html",
+      "credit": "Heat film frame; Bluscreens",
+      "alt": "Eady at work among the art books in Heat.",
+      "imageUrl": "https://www.bluscreens.net/uploads/1/4/8/9/14897402/heat25.jpg",
+      "src": "photos/a-006-screen.jpg",
+      "width": 800,
+      "height": 450
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "The former Hennessey and Ingalls storefront at 1254 Third Street Promenade.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat49.jpg?w=1024",
+      "src": "photos/a-006-place.jpg",
+      "width": 1024,
+      "height": 768,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Bookstore has moved; photograph shows the later tenant of the production storefront."
+  },
+  "7": {
+    "id": 7,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "Bob’s Big Boy as Donald Breedan’s workplace.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcX_ea8xzc8FdFyTXZLYsiRRK2-EQH3SjCDljhaJJCpgS6RPi3qR6qQoZ7MJmkubTPBDE-e7W9SKupY1SCgvGwr8hECVKHJoRFEd1ayfm3x_Yrc2ghFBg5XoU5DhJT_wDFVF9EokozkVU/s1614/Big+Boy+1.jpg",
+      "src": "photos/a-007-screen.jpg",
+      "width": 1100,
+      "height": 462
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "ItsFilmedThere",
+      "alt": "Bob’s Big Boy in Burbank.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwOBkv_6tXB1lifUQlz2erwlT3agV3EqkDybbjqBBO0T2IF4TYEFvSAWWa5N9H5T34e08NUph6VnGTOoCM16mh5SE6EUaAoiVxA5ir38x2ld_k928vyWGHep5ahVyQNebYeeOY0aE9J7xXkXmz-LGufHC-s6GqfEOKLQN6XGyWdE9uaID2av8_9JCKWNk/s2937/A.jpg",
+      "src": "photos/a-007-place.jpg",
+      "width": 1100,
+      "height": 619,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "8": {
+    "id": 8,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "Hanna and McCauley meet inside Kate Mantilini.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDwbJhDZ8NCp4-CxF3LznzJJ1KNWE6x-CpzUcO74y9gUxos9N7CzbtB4LGacatVE72IRUWH9TYqa00cZ5PGbrcdRfzINdan0wmAfl-NoFi7d5_M_xSdKc3ViN0xPo9WwdjtkxDtSo1H7s/s1628/Fancy+Talk.jpg",
+      "src": "photos/a-008-screen.jpg",
+      "width": 1100,
+      "height": 456
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "Dining room of the now closed Kate Mantilini.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat31.jpg",
+      "src": "photos/a-008-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Photographed before the restaurant closed in 2014; exact capture date unavailable."
+    },
+    "note": "Restaurant closed in 2014. This is an archival location photograph, not a present-day view; current interior unavailable."
+  },
+  "9": {
+    "id": 9,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "alt": "McCauley parks in the service lane behind Waingro’s hotel.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUlQLYisEB-rjPShkm6BA_jj0Gr4zxx2-ziwg5U0ixWrkkH3pz6A7ZSk5kaag_0gzehR7A14xqn0E-A1QJNmzZA2T3DrCgUSyT8N3Q8m1UYW-m9xYoUx-CMUCQSi68yYhiQvO_t0wGC30/s1612/Hotel+1.jpg",
+      "src": "photos/a-009-screen.jpg",
+      "width": 1100,
+      "height": 467
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "The Hilton LAX service lane used in Heat.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat27.jpg",
+      "src": "photos/a-009-place.jpg",
+      "width": 1100,
+      "height": 815,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "10": {
+    "id": 10,
+    "screen": {
+      "sourceUrl": "https://www.bluscreens.net/heat.html",
+      "credit": "Heat film frame; Bluscreens",
+      "alt": "Nate speaks on the telephone inside the Blue Room bar.",
+      "imageUrl": "https://www.bluscreens.net/uploads/1/4/8/9/14897402/heat51.jpg",
+      "src": "photos/a-010-screen.jpg",
+      "width": 800,
+      "height": 450
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "alt": "Exterior of the Blue Room at 916 South San Fernando Boulevard.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/memento6.jpg",
+      "src": "photos/a-010-place.jpg",
+      "width": 675,
+      "height": 900,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "11": {
+    "id": 11,
+    "screen": {
+      "sourceUrl": "https://extstreet.com/Blade_Runner.html",
+      "credit": "Blade Runner film frame; ItsFilmedThere",
+      "alt": "Searchlights shine through the Bradbury Building atrium.",
+      "imageUrl": "https://extstreet.com/stills/50620120084191931286779982.jpg",
+      "src": "photos/a-011-screen.jpg",
+      "width": 360,
+      "height": 150
+    },
+    "place": {
+      "sourceUrl": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "credit": "Movie-Locations.com",
+      "alt": "The Bradbury Building atrium.",
+      "imageUrl": "https://www.movie-locations.com/movies/b/Blade-Runner-Bradbury-Building-3.jpg",
+      "src": "photos/a-011-place.jpg",
+      "width": 630,
+      "height": 420,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "12": {
+    "id": 12,
+    "screen": {
+      "sourceUrl": "https://moviemaps.org/images/1d7a",
+      "credit": "Blade Runner film frame; MovieMaps",
+      "alt": "Ennis House exterior elements in Deckard’s arrival sequence.",
+      "imageUrl": "https://storage.googleapis.com/moviemaps/img/1d7a.9e8pe3.940.jpg",
+      "src": "photos/a-012-screen.jpg",
+      "width": 940,
+      "height": 391
+    },
+    "place": {
+      "sourceUrl": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "credit": "Movie-Locations.com",
+      "alt": "The Ennis House exterior used as part of Deckard’s building.",
+      "imageUrl": "https://www.movie-locations.com/movies/b/Blade-Runner-Ennis-House.jpg",
+      "src": "photos/a-012-place.jpg",
+      "width": 630,
+      "height": 420,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Production-site comparison only. The film depicts Deckard in an apartment tower; this photo does not establish a canonical address."
+  },
+  "13": {
+    "id": 13,
+    "screen": {
+      "sourceUrl": "https://moviemaps.org/images/1d76",
+      "credit": "Blade Runner film frame; MovieMaps",
+      "alt": "Deckard searches Leon’s bathroom in the Yukon Hotel.",
+      "imageUrl": "https://storage.googleapis.com/moviemaps/img/1d76.10hom4.940.jpg",
+      "src": "photos/a-013-screen.jpg",
+      "width": 940,
+      "height": 391
+    },
+    "place": {
+      "sourceUrl": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "credit": "Movie-Locations.com",
+      "alt": "The Pan American Building, used for Yukon Hotel interiors.",
+      "imageUrl": "https://www.movie-locations.com/movies/s/Seven-Pan-Am-Building.jpg",
+      "src": "photos/a-013-place.jpg",
+      "width": 630,
+      "height": 420,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "14": {
+    "id": 14,
+    "screen": {
+      "sourceUrl": "https://moviemaps.org/images/1d72",
+      "credit": "Blade Runner film frame; MovieMaps",
+      "alt": "The former Union Station ticket concourse dressed as police headquarters.",
+      "imageUrl": "https://storage.googleapis.com/moviemaps/img/1d72.7wu8ch.940.jpg",
+      "src": "photos/a-014-screen.jpg",
+      "width": 940,
+      "height": 391
+    },
+    "place": {
+      "sourceUrl": "https://www.movie-locations.com/movies/b/Blade-Runner.php",
+      "credit": "Movie-Locations.com",
+      "alt": "The former Union Station ticket concourse.",
+      "imageUrl": "https://www.movie-locations.com/movies/b/Blade-Runner-Union-Station.jpg",
+      "src": "photos/a-014-place.jpg",
+      "width": 630,
+      "height": 420,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "15": {
+    "id": 15,
+    "screen": {
+      "sourceUrl": "https://moviemaps.org/images/1cz0",
+      "credit": "Blade Runner film frame; MovieMaps",
+      "alt": "Deckard drives through the Second Street Tunnel.",
+      "imageUrl": "https://storage.googleapis.com/moviemaps/img/1cz0.d4twqk.940.jpg",
+      "src": "photos/a-015-screen.jpg",
+      "width": 940,
+      "height": 391
+    },
+    "place": {
+      "sourceUrl": "https://moviemaps.org/images/261m",
+      "credit": "Jeff Hitchcock / CC BY, via MovieMaps",
+      "alt": "Second Street Tunnel.",
+      "imageUrl": "https://storage.googleapis.com/moviemaps/img/261m.29zxix.940.jpg",
+      "src": "photos/a-015-place.jpg",
+      "width": 940,
+      "height": 625,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "16": {
+    "id": 16,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/die-hard.html",
+      "credit": "Die Hard film frame; ItsFilmedThere",
+      "alt": "Limousine arrives at Nakatomi Plaza.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJaJEJpe8gknx0xk5O-uxBREdGsU_czonuze7Gpnd15omL3_vvVjP9wT3CJ3b8BIx1zyH4PqirV3EZowVrE_6LJ4NtDaCGhyphenhyphenPJAHV0UbZ-zxB9rAR8g4PzhmURa_HVHRJCQAwcj3qkKCU/s1600/Closeup.JPG",
+      "src": "photos/a-016-screen.jpg",
+      "width": 841,
+      "height": 363
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/die-hard.html",
+      "credit": "ItsFilmedThere",
+      "alt": "Fox Plaza on Avenue of the Stars.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRfl78IdXl_KNcKlltA9oJZrzolTM8SHD1h6b4Xr-5MmHcVEncmNOcQhFNska2aWLJaH51gT7DsHrJfmXHWRsWit0JU5OfKWHvbQBqCS9Pfe74JL7mxqB0b-n-tzIP6pPTMpAKLqg15xI/s1600/Building+2.jpg",
+      "src": "photos/a-016-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "17": {
+    "id": 17,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "Beth’s house and fence on Ozone Avenue.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh306-bZiE5g9uMnfetXmYVc_BADU58k-mDtdLd0r4uLNxKWnLvIV7F670rOVqMHYWLbAA12l-fQcziCkGLJqRRxMH9H8JFdo-l1G_a-W9msEQFCxSRryS7Rt3t8QAIc_9WdLi6evGQYXHL/s1600/House+2.JPG",
+      "src": "photos/a-017-screen.jpg",
+      "width": 839,
+      "height": 350
+    },
+    "place": {
+      "sourceUrl": "https://filmoblivion.com/2018/11/18/falling-down-1993/",
+      "credit": "Film Oblivion",
+      "alt": "The later building at the site of Beth’s Ozone Avenue house.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/11/fallingdown3.jpg",
+      "src": "photos/a-017-place.jpg",
+      "width": 1000,
+      "height": 750,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Original house replaced/remodeled beyond recognition; location photo shows the later structure."
+  },
+  "18": {
+    "id": 18,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "Mr. Lee’s market before demolition.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj80geXjvcRmHDbkeRHxT7D1hu5gP8c3AyCuSELBzoW4ZjV4eZPo0Yuv5tM34gNnoNc8PZ7J0KzLEWcvvD5MHlQQxQlQMGu8hMTP0InWYdBAkWD0FtPxvof4exELKO2dE-iEMpRYAMTiBzM/s1600/Market+2.JPG",
+      "src": "photos/a-018-screen.jpg",
+      "width": 845,
+      "height": 350
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The cleared site of Mr. Lee’s market, now Madison West Park.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKQC2JXesydWaZsFnTc3FL_ChQdG78_6nH9VHjID5QfSXzE_ahJ5JnIRnmseQcRiPqvr5KkTkcbVj5FndrmqXwxQYBbUNJGhwok3q9yvLW-L11lLU8QjsNmD1l_sAW-Z-PZ-e0uLDPXJs/s1600/Los+Angeles+2010+498.jpg",
+      "date": "2010",
+      "note": "Year comes from the researcher’s image filename; exact capture date unverified.",
+      "src": "photos/a-018-place.jpg",
+      "width": 1100,
+      "height": 825
+    },
+    "note": "The market building was demolished; location photo shows its former site."
+  },
+  "19": {
+    "id": 19,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "Whammy Burger as seen in Falling Down.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoYzbzUNINrxJsYbwiFrGuPYWM4nKA9_IWtd9BCjIOlcQoPlKaEQKm1VaHPZcpkebcy4C83XXvf3VMjN45xfFi6-atnHx00rZ41S_NHDU-p7FVTgqUzGR_Wv5OxR1dST8roH8VKPSzgDvh/s1600/Burger.JPG",
+      "src": "photos/a-019-screen.jpg",
+      "width": 840,
+      "height": 349
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "Angelo’s Burgers, the Whammy Burger production site.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghw51xmK57VvDMjy3LNu2RIMpmSdiQjwVrU-qH1JPaeNNTd1YnS_2OuSCPCTjxkdH03Fo9Pse8L6EhGWO9vfe6ZUP7FfVL20aWH95vzjcVIxi_w8eUR39WaEmlrwF4aZrFYpiJzoXlnaY/s1600/Los+Angeles+2011+609.jpg",
+      "src": "photos/a-019-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Production-site comparison; does not establish Whammy Burger’s fictional position along the walk."
+  },
+  "20": {
+    "id": 20,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "Nick’s surplus shop on Sunset Boulevard.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrGvauhWFxY3L5sqTLofwXITEyZGNkGJ2GlpTAXDvwrTukvw7Vk9ySlkf5o4X6OtnWi9cbjFYQO-MhMwdiuLmbgFapioJ2n1Tvu_64T0XT8LhqVgf0BZE1Q72al-0rxNfXV-T_WzlsjxrW/s1600/Surplus.JPG",
+      "src": "photos/a-020-screen.jpg",
+      "width": 839,
+      "height": 349
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The later storefront at 3828 West Sunset Boulevard.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8tNoOQyH0o3B3k3qknmyPhWDtPabgd9sAa-k2QEKnAenRUieEZkpjnxpwS1cMFXMigqepxDpMb9TifRvjTNObatm8ajQZVJfywiQ6Ox8odWnZ1h-GPeoQtPoens34psOoAKsmwhwHirnlwfParkv04uMdaLaRpc80jk2MauevaqfjP1t4FRepX1j_2iY/s1775/A.jpg",
+      "src": "photos/a-020-place.jpg",
+      "width": 1100,
+      "height": 618,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "21": {
+    "id": 21,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "The protest outside the savings and loan.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRoFnFB603xYQpkiDCeZZdLlv9IHZObEH_yTdOs5arjIWMAlXafY6vDqGBjJWiZFe8i4K33-3AAR4ad-rvEonwXuJbG1iDKU7PGkjPMrcj_ALAtdlkjkJBvShi1e7Zxuoqa496RfgwQe0q/s1600/Bank+1.JPG",
+      "src": "photos/a-021-screen.jpg",
+      "width": 838,
+      "height": 348
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The later storefront at 5350 Wilshire Boulevard.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLnk31u2dXnRdvGMJBbx4PUPC3JEThFRedsCLIs1-OR7-dz_-2Hn5w-JzqA1U1_Ztz6AMhVKatiA-4vs16rzShz6EKA4s-VmxeKrV3zUNj7HVMlKnd-ZGwPu18WIMdgBQgrcBmQSzqJT4N/s1600/DSCF1507.JPG",
+      "src": "photos/a-021-place.jpg",
+      "width": 1100,
+      "height": 821,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "22": {
+    "id": 22,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "D-Fens in the MacArthur Park pedestrian tunnel.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkyuZyt-1_nea1nHNRbhRkCmKQGW890MnRWeL2W2C1PVEyLH5R6iBTKMKdvVR0falKhNbM95W7raBPaRNz4-KU3u2FYfaOPvLHiavjK_Bye3Wfas9kLeCcPp1QXUL2Hi-rVgkWLcJtPfDK/s1600/Park+3.JPG",
+      "src": "photos/a-022-screen.jpg",
+      "width": 837,
+      "height": 346
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "MacArthur Park’s pedestrian tunnel beneath Wilshire.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtuzROf6d2-_GrLbZ9n9vA5RZ85LNWxt_Czi_FPXzZhp7W3waLHj9xzOrqnCE1j_jgVty7HKN6vC0tEX5IUwrwfiJJBCIfFSbn8XWu8SOSHgNvI0bn07MWz_FXUq-cGJA2aymzZEmCR8g/s1600/Los+Angeles+2011+127.jpg",
+      "src": "photos/a-022-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "23": {
+    "id": 23,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down film frame; ItsFilmedThere",
+      "alt": "Venice Fishing Pier in Falling Down.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL7m03HiEZYkI25mS3-NxuyKbdh78MQ4F2Cc5kGT-Ia4yOAEXgU_jsqKezzFAkxd0WBw63NvVWlTSy3jLGVhgjf-afqPSIOr9JpwSQ5HwlH78nh1R4I_skLDHCmtABvUJnEj3O4bBgjHyw/s1600/Pier+1.JPG",
+      "src": "photos/a-023-screen.jpg",
+      "width": 840,
+      "height": 349
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "ItsFilmedThere",
+      "alt": "Venice Fishing Pier.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN4UmFX2qWeejOpAreI42frB8URQOSpo2CRPIqmswqUFoVmKi5VYQ_6NjfWdoclv94uj4BqdUlvtgwlPDs9j0XsG_JXA02c3TbenaMv8_VS2aFT2g3aqdA04lNJYK-Wc462abL474b1UM/s1600/Los+Angeles+2010+005.jpg",
+      "src": "photos/a-023-place.jpg",
+      "width": 1100,
+      "height": 825,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "24": {
+    "id": 24,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "Lynn Bracken’s house in L.A. Confidential.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaKsb5SbD9mCQ_58yLAO-tryxPqaSnG4imQBZey5ONvXa1QSPN8CfRch4_EvF1_cJv0ZG3GRdoSUCQOQ2AaMl4_0AfvoYV3lh2USm5BMsJ9z8TN-MGWq4vGYgGxqpSI66HO8olKWDme-g0/s1600/Basinger+House.JPG",
+      "src": "photos/a-024-screen.jpg",
+      "width": 849,
+      "height": 354
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The house at 501 Wilcox Avenue.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoGtJcAe3fZP5zVabjQHwk0iKU-THEGHh11oHQiKNv7hW403-UAjEJcm-mXjD62bUZoUJ-8Z3AeKqgdPQgtMF1AFKlxrL6r03auq9JrhzPw3yTvWzumfRCbQP4pIumJuqX7OD1cNNVaPuspLmf6WhTrQlTzEWQ16PpmYZmhlcdE-_nKXjd30DNiURLdpM/s3033/A.jpg",
+      "src": "photos/a-024-place.jpg",
+      "width": 1100,
+      "height": 619,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "25": {
+    "id": 25,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "Patchett’s Lovell House entrance.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8CMIv5-I-uqhJXbpzwGAAK-topvsHG0HzcdSxx7mxuTsp_RDOJlqRTsv0Rh7u8gr3wVXkQsvS5Ci2frBeY1OlZ04oRrYZqpkjx0fgYbUeAjsKxO5xyqqDcOPh7IASQDtekEubrKVkzwJ4/s1600/Fancy+House+1.JPG",
+      "src": "photos/a-025-screen.jpg",
+      "width": 845,
+      "height": 354
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The Lovell House entrance on Dundee Drive.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtDYYXt3CDqGvVXQDVbpSBVw9rzQr9zerx-EB8mUMepfjTTrNS8foVk0QI3BqWD2xcQq_ogq_MQvV-G9EesQRBTZt4_bKa8UPcWvVlgDf1rnqeYAD2LhSuEmplDL7MKA8lgYsjbk9F9M/s1600/457+-+Copy.JPG",
+      "src": "photos/a-025-place.jpg",
+      "width": 1100,
+      "height": 811,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "26": {
+    "id": 26,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "Crossroads of the World in the opening credits.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCw6iyeStqBOHkmkJMbm4QUNP27MWzoSRXUrTjH6qGOJaWBwXb2lZj_3uhoCpHfKtXoFpfXGonZexs2OI8YVgkpQaeFhKCN_DY3caHgvrqqu6r9yWbhza7kDCvgbpoLo1BZFpsfbuDl_n/s1600/Top+Of+The+World.JPG",
+      "src": "photos/a-026-screen.jpg",
+      "width": 830,
+      "height": 353
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "Crossroads of the World on Sunset Boulevard.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihMLf3kR1LujYRmEbulk1GbzIxYS2VBN7tEOlFTS_KebpI4hyphenhyphenuU3Z96ctLifc8TIaR_9qOdeV394KGYSSUIoNHEOz6EfNM-KVW13TIjIsj1xDWbLuVVImKPDwL2K58sI-k9b8OO0gozMQ/s1600/Los+Angeles+2010+696.jpg",
+      "date": "2010",
+      "note": "Year comes from the researcher’s image filename; exact capture date unverified.",
+      "src": "photos/a-026-place.jpg",
+      "width": 1100,
+      "height": 825
+    }
+  },
+  "27": {
+    "id": 27,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "The Nite Owl exterior dressed for L.A. Confidential.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBBOdgROpiKNdaSk5Zfr1qP7bMx8W2fT8hBKwOUe9v-XRgXZOALYRrokB_4zeIGdZaXo5eon6I1RljJjFeDLnaQSUJK-UINj8KNT01yL6dZURqqv5TaOPVGVOXC2lo9DqCVBngG3372uqk/s1600/Cafe+1.JPG",
+      "src": "photos/a-027-screen.jpg",
+      "width": 843,
+      "height": 350
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The later J and J Sandwich Shop storefront used as the Nite Owl.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5hzhrykR_2gX-mGFRza9anwYK88gQEDq69AIYikjyPORg9xjBRanl-qBYFDWDB9AaAtjVJgChSDoJhfZWUAKeD-AjiG_hylnthjce4zMIX3qc_o-Io9B2CrY5Rz2l2wJNn5U8AAtD2ng/s1600/154.JPG",
+      "src": "photos/a-027-place.jpg",
+      "width": 1100,
+      "height": 822,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "28": {
+    "id": 28,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "The Frolic Room neon in L.A. Confidential.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUl3BmaDP2fd1R2tEqI21W_IICL8NSfR-P234zUI2M9lWdorgubOHYduFfY6tMdTksqbp_kqomzwATj3GnWt69no0S57c9yxVeRiKWqKnWa5sVhzS7fIaeDFm7lE64bNwNMEmnMbY5dlZO/s1600/Frolic.JPG",
+      "src": "photos/a-028-screen.jpg",
+      "width": 838,
+      "height": 356
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The Frolic Room neon on Hollywood Boulevard.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4-2BUKdka0lyYemxwt7jHemhU_FaMsmEIuK1l6SqB_v1XINSolJfYYyGxCqFCDgURtGkxaIM0fk2q7zv_CDVbTTVcYVQFQRzgeHrocUYVg8lNorrCUJxkqNmrl4e_gqjZAJygcEUAfAyesxnS9l28aMX8bxrkfRGGWS1eS0QotyXJBW1NmtXfoy4rD4/s1078/D.jpg",
+      "src": "photos/a-028-place.jpg",
+      "width": 991,
+      "height": 900,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "29": {
+    "id": 29,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "Formosa Cafe as Bud White arrives.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiYjRVi8pZKy707R-xGSThQK0gcu7uF8hlLqDo0KUGcvLNG4NmQ0TGv1jElRRqU6zdfR1otOSUp7V1FrLSg__13Ajzk8FaW1FEN-G0kpjRRClBuruYunmKQXm1qiGMe3KWdDNvwRE0m7GK/s1600/Formosa.JPG",
+      "src": "photos/a-029-screen.jpg",
+      "width": 840,
+      "height": 348
+    },
+    "place": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "ItsFilmedThere",
+      "alt": "The Formosa Cafe exterior.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitSjwpIOGa1gr4ZJyDxto_MydB3ZYze305KwKxruQMznp-2ho0z62rraSdYXA0D4YCE6QLOJtIDVdu0zXICvVXVxdtChlvMDS5HK_VAVfYFDbjhHTGSFyrmdVSWQc1Mu2jEw9FgVcgdjo/s1600/Los+Angeles+2011+167.jpg",
+      "date": "2011",
+      "note": "Year comes from the researcher’s image filename; exact capture date unverified.",
+      "src": "photos/a-029-place.jpg",
+      "width": 800,
+      "height": 600
+    }
+  },
+  "30": {
+    "id": 30,
+    "screen": {
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+      "credit": "L.A. Confidential film frame; ItsFilmedThere",
+      "alt": "Bud White dangles the DA from a Pacific Electric Building window.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0I1rRqwtEU8Lx1TfcHQ9j_oyT0ABVyIyIRxLB_Rmgsif7Zgoz_RPhohIbiAOI0vgazz1TLMyYn_kc4vdSo8AzOymBU2EiqROOLWqGDKdLPGhnJSOGdym1Moh7rkkk56dKTgTg_kznVkAn/s1600/Hang.JPG",
+      "src": "photos/a-030-screen.jpg",
+      "width": 840,
+      "height": 352
+    },
+    "place": {
+      "sourceUrl": "https://www.movie-locations.com/movies/l/LA-Confidential.php",
+      "credit": "Movie-Locations.com",
+      "alt": "The Pacific Electric Building at 610 South Main Street.",
+      "imageUrl": "https://www.movie-locations.com/movies/l/LA-Confidential-Pacific-Electric-Building.jpg",
+      "src": "photos/a-030-place.jpg",
+      "width": 630,
+      "height": 420,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "64": {
+    "id": 64,
+    "screen": {
+      "src": "photos/a-064-screen.jpg",
+      "sourceUrl": "https://www.bluscreens.net/drive.html",
+      "credit": "Drive film frame; Bluscreens",
+      "alt": "Driver in the Pink Motel bathroom during the ambush.",
+      "imageUrl": "https://www.bluscreens.net/uploads/1/4/8/9/14897402/9992802.jpg",
+      "width": 400,
+      "height": 224
+    },
+    "place": {
+      "src": "photos/a-064-place.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/d/Drive.php",
+      "credit": "Movie-Locations.com",
+      "alt": "Pink Motel on San Fernando Road.",
+      "imageUrl": "https://www.movie-locations.com/movies/d/Drive-Pink-Motel-new.jpg",
+      "width": 1050,
+      "height": 700,
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Drive shows only the motel interior. The exterior photo identifies the actual production property."
+  },
+  "84": {
+    "id": 84,
+    "screen": {
+      "src": "photos/a-084-screen.jpg",
+      "sourceUrl": "https://extstreet.com/Terminator_2.html",
+      "credit": "Terminator 2: Judgment Day film frame; Ext.Street",
+      "alt": "John Connor and his foster mother in front of the Voight home.",
+      "imageUrl": "https://extstreet.com/stills/2050405561009516174350796.jpg",
+      "width": 360,
+      "height": 153
+    },
+    "place": {
+      "src": "photos/a-084-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/07/21/terminator-2-judgment-day/",
+      "credit": "Film Oblivion",
+      "alt": "The house at 19828 Valerio Street.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/terminator1.jpg",
+      "width": 1200,
+      "height": 800,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "85": {
+    "id": 85,
+    "screen": {
+      "src": "photos/a-085-screen.jpg",
+      "sourceUrl": "https://extstreet.com/Terminator_2.html",
+      "credit": "Terminator 2: Judgment Day film frame; Ext.Street",
+      "alt": "The Pescadero State Hospital entrance in Terminator 2.",
+      "imageUrl": "https://extstreet.com/stills/2050405561009516174351632.jpg",
+      "width": 360,
+      "height": 153
+    },
+    "place": {
+      "src": "photos/a-085-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/07/21/terminator-2-judgment-day/",
+      "credit": "Film Oblivion",
+      "alt": "The entrance of the former hospital at 11600 Eldridge Avenue.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/terminator6.jpg",
+      "width": 1200,
+      "height": 900,
+      "dateStatus": "Capture date not supplied by source."
+    }
+  },
+  "86": {
+    "id": 86,
+    "screen": {
+      "src": "photos/a-086-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/terminator2",
+      "credit": "Terminator 2: Judgment Day film frame; Set-Jetter",
+      "alt": "T-800 arrives at the Galleria parking garage.",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1782023179616-1C9IR9GPZ568Z5OGPOXS/Terminator+2+%2823%29.jpg?format=1200w",
+      "width": 1200,
+      "height": 498,
+      "note": "Original movie panel extracted from the source’s comparison image; no generative changes."
+    },
+    "place": {
+      "src": "photos/a-086-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/terminator2",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "The corresponding parking garage at Santa Monica Place.",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1782023179616-1C9IR9GPZ568Z5OGPOXS/Terminator+2+%2823%29.jpg?format=1200w",
+      "width": 1200,
+      "height": 497,
+      "note": "Location panel extracted from the source’s comparison image; watermark retained.",
+      "dateStatus": "Capture date not supplied by source."
+    },
+    "note": "Production-site composite: this exact comparison shows Santa Monica Place garage at 395 Santa Monica Place. The database anchor at Northridge Fashion Center represents exterior mall scenes, filmed separately. This is not a photograph of the Northridge garage."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?where=GEOID%3D%2706037%27&outFields=GEOID%2CNAME&outSR=4326&f=geojson&maxAllowableOffset=0.0003",
+  "agency": "US Census Bureau TIGERweb",
+  "geoid": "06037",
+  "retrieved": "2026-11-15",
+  "simplification_degrees": 0.0003
+}

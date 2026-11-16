@@ -1,0 +1,59 @@
+import fs from 'node:fs';
+const read=(path,fallback={})=>fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):fallback;
+const box=([sw,ne])=>({type:'Polygon',coordinates:[[sw,[ne[0],sw[1]],ne,[sw[0],ne[1]],sw]]});
+const deaths={4:['Trejo'],9:['Waingro'],11:['Pris'],20:['Nick'],23:['William Foster / D-Fens'],25:['Pierce Patchett'],27:['Dick Stensland','Susan Lefferts'],36:['Donny Kerabatsos'],42:['Maynard'],43:['Brett'],45:['Joe Cabot','Nice Guy Eddie','Mr. Orange'],54:['Ida Sessions'],58:['Evelyn Mulwray'],60:['Shannon'],63:['Standard Gabriel'],64:['Blanche'],65:['Daniel'],71:['Roger'],79:['Ginger Ventura','Matt'],82:['Gun shop owner'],84:['Todd Voight'],88:['Diane Selwyn']};
+const names={3:'Vincent & Justine Hanna’s home',4:'Trejo’s home',5:'Kelso’s home',6:'Eady’s bookstore',7:'Bob’s Big Boy',8:'Kate Mantilini',9:'Waingro’s hotel',10:'The Blue Room',14:'LAPD headquarters',19:'Whammy Burger',20:'Military surplus store',21:'Bank protest',22:'MacArthur Park',23:'Venice Pier',26:'Hush-Hush office',27:'Nite Owl',28:'Frolic Room',29:'Formosa Cafe',30:'LAPD headquarters',35:'Jeffrey Lebowski’s mansion',36:'Hollywood Star Lanes',41:'Hawthorne Grill',43:'Brett’s apartment',45:'The warehouse',46:'Pat & Lorraine’s',47:'Karina’s Wholesale Diamonds',50:'Cockatoo Inn',51:'Del Amo Fashion Center',52:'Sam’s Hofbrau',58:'Chinatown',63:'The pawn shop',64:'Pink Motel',68:'Annie’s office / Vincent’s pickup',70:'Quality Cafe',72:'Sandman’s home',73:'Sara’s home',74:'Pacific Dining Car',77:'Tre’s school',78:'Westside restaurant',81:'Big Jeff’s',86:'The Galleria',92:'Toretto’s Market',95:'The Lighthouse Cafe',96:'Rialto Theatre'};
+export function enrich(atlas){
+  const geography=read('research/story-geography.json',{overrides:[],sources:[]});
+  const geocodes=read('research/story-geocodes.json');
+  const media={};
+  for(const path of ['research/media-a.json','research/media-b.json','research/media-recent.json']){
+    const raw=read(path);for(const item of Array.isArray(raw)?raw:Object.values(raw))if(item?.id&&(item.screen||item.place))media[item.id]={...media[item.id],...item};
+  }
+  for(const pair of Object.values(media))for(const kind of ['screen','place'])if(pair[kind]){const photo=pair[kind];if(photo.captureDate&&/^\d{4}(?:-\d{2}){0,2}$/.test(photo.captureDate))photo.date=photo.captureDate;if(photo.licenseUrl)photo.license=photo.licenseUrl;}
+  const sourceIds=new Set(atlas.sources.map(s=>s.id));
+  for(const s of geography.sources)if(!sourceIds.has(s.id)){atlas.sources.push({...s,source_type:s.type});sourceIds.add(s.id);}
+  const byId=new Map(atlas.places.map(p=>[p.id,p]));
+  for(const p of atlas.places){
+    delete p.description;
+    p.productionCoordinates=p.coordinates;
+    p.placement={kind:'filming-proxy',address:p.area,precision:p.precision};
+    p.name=names[p.id]||p.name;p.short=p.name;
+    const o=geography.overrides.find(x=>x.id===p.id);
+    if(o){
+      p.placement={kind:o.inference?'inferred':o.precision==='unlocated'?'unknown':'screen',address:o.storyAddressStatus?'Los Angeles · exact address unknown':o.storyAddress,precision:o.precision,reason:o.reason,sourceIds:o.sourceIds,geometry:o.geometry||undefined,viewport:o.suggestedViewport};
+      p.coordinates=o.coordinates;
+      if(!p.coordinates&&['area_explicit','city_explicit'].includes(o.precision)&&o.suggestedViewport){p.placement.geometry=box(o.suggestedViewport);p.placement.kind='inferred';p.coordinates=[(o.suggestedViewport[0][0]+o.suggestedViewport[1][0])/2,(o.suggestedViewport[0][1]+o.suggestedViewport[1][1])/2];}
+      if(o.geometry){p.placement.viewport=[[Math.min(...o.geometry.coordinates[0].map(c=>c[0])),Math.min(...o.geometry.coordinates[0].map(c=>c[1]))],[Math.max(...o.geometry.coordinates[0].map(c=>c[0])),Math.max(...o.geometry.coordinates[0].map(c=>c[1]))]];p.placement.kind='inferred';}
+      if(geocodes[p.id])p.coordinates=geocodes[p.id].coordinates;
+    }
+    const streets={80:['Pico Boulevard',[[-118.5,34.005],[-118.25,34.055]]],87:['Havenhurst Drive',[[-118.373,34.078],[-118.361,34.107]]],88:['Sierra Bonita Avenue',[[-118.36,34.07],[-118.346,34.112]]],89:['Mulholland Drive',[[-118.399,34.103],[-118.32,34.142]]],90:['Sunset Boulevard',[[-118.508,34.02],[-118.24,34.105]]]};
+    if(streets[p.id]){p.placement.roadName=streets[p.id][0];p.placement.viewport=streets[p.id][1];p.coordinates=null;}
+    if(p.id===65){p.address='4331 Leimert Boulevard';p.notes='Exterior: 4331 Leimert Boulevard. Interior: Grand Star Jazz Club, 943 Sun Mun Way.';}
+    if(p.id===20){p.placement={kind:'inferred',address:'Central Los Angeles · estimated',precision:'area_inferred',reason:'The production site on Sunset Boulevard conflicts with a westward narrative progression. Exact story position is not established.',sourceIds:['falling_sites'],geometry:box([[-118.37,34.038],[-118.29,34.085]]),viewport:[[-118.37,34.038],[-118.29,34.085]]};p.coordinates=[-118.332,34.061];}
+    if(p.id===30){p.placement={kind:'screen',address:'Los Angeles City Hall',precision:'building_exterior',sourceIds:['confidential_locations']};p.coordinates=[-118.2436,34.0537];}
+    if(p.id===42){p.placement={kind:'inferred',address:'Fletcher Drive / Atwater Village · estimated',precision:'area_inferred',sourceIds:['pulp_locations'],geometry:box([[-118.267,34.095],[-118.242,34.112]]),viewport:[[-118.267,34.095],[-118.242,34.112]]};p.coordinates=[-118.254,34.103];}
+    if(p.id===45){p.appearances=p.appearances.filter(a=>a.story_role!=='Mr. Orange’s apartment'&&a.story_role!=="Mr. Orange's apartment");p.appearances[0].story_role='The warehouse';}
+    if(p.id===92){p.appearances=p.appearances.filter(a=>a.title!=='Falling Down');p.people=p.people.filter(n=>n!=='Mr. Lee');}
+    if(media[p.id]){p.media=media[p.id];if(p.media.screen)p.media.screen={...p.media.screen,title:p.media.screen.title||p.appearances[0].title};}
+    for(const a of p.appearances){
+      if(a.title==='Falling Down')a.story_time={year:1991,month:6,day:12,precision:'day',certainty:'official_synopsis',basis:'Official Cannes French synopsis: 12 June 1991.',source_ids:['falling_cannes']};
+      else if(a.title==='The Big Lebowski')a.story_time={year:1991,precision:'year',certainty:'approximate',basis:'Gulf War-era setting, earlier than the film’s release.',source_ids:['lebowski_script']};
+      else if(!a.story_time||a.story_time.year===null)a.story_time={...a.story_time,year:a.release_year,precision:a.story_time?.month?'day':'year',certainty:'approximate',basis:'Contemporary setting; release year used as an editorial estimate.',source_ids:a.source_ids};
+      if(p.id===77)a.story_time={year:1984,precision:'year',certainty:'approximate',basis:'Childhood section before the seven-year jump.',source_ids:a.source_ids};
+      if(deaths[p.id]){a.categories=[...new Set([...(a.categories||p.categories),'death'])];}
+    }
+    if(deaths[p.id]){p.categories=[...new Set([...p.categories,'death'])];p.deaths=[{title:p.appearances[0].title,people:deaths[p.id]}];}
+  }
+  // Mr. Lee's interior is a production component of the same story market, not a second market at Toretto's.
+  if(byId.has(18))byId.get(18).notes='Exterior filmed at 464 North Madison Avenue; interior at Bob’s Market, 1234 Bellevue Avenue.';
+  for(const j of atlas.journeys){
+    delete j.description;
+    j.name={97:'D-Fens',98:'Bank robbery',99:'Flood-channel chase',100:'First street race'}[j.id];
+    if(j.id===97){j.year=1991;j.source_ids.push('falling_cannes');}
+    if(j.id===100)j.year=2001;
+    j.stops=j.stops.map(s=>s.placeId&&byId.get(s.placeId)?.coordinates?{...s,coordinates:byId.get(s.placeId).coordinates,name:byId.get(s.placeId).name}:s);
+  }
+  fs.writeFileSync('public/photos/credits.json',JSON.stringify(media,null,2)+'\n');
+  return atlas;
+}

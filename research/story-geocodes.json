@@ -1,0 +1,10 @@
+{
+  "68": {
+    "coordinates": [
+      -118.242405790293,
+      34.055042808236
+    ],
+    "matchedAddress": "312 N SPRING ST, LOS ANGELES, CA, 90012",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=312+North+Spring+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  }
+}

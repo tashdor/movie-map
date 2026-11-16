@@ -1,6 +1,6 @@
 # Los Angeles, Otherwise
 
-A printed street atlas of fictional lives in Los Angeles. Homes, workplaces, encounters, and journeys from cinema and television occupy one shared city, anchored to real filming sites.
+A street atlas of fictional Los Angeles. React, TypeScript, Vite, and MapLibre GL JS; hosted on GitHub Pages.
 
 ## Develop
 
@@ -9,26 +9,29 @@ npm ci
 npm run dev
 ```
 
-React, TypeScript, Vite, and MapLibre GL JS. The custom paper-and-ink basemap uses OpenFreeMap vector tiles, with OpenMapTiles/OpenStreetMap attribution. No API keys, server, account, or database are required.
+OpenFreeMap vector tiles supply the paper basemap, with OpenMapTiles/OpenStreetMap attribution. No API keys or backend are required.
 
 ## Interactions
 
-- Search people, fictional place names, screen titles, and physical addresses.
-- Browse places, people, or four journeys; filter by category, title, or current map view.
-- Open a property to see associated people, story appearances, related places, and collapsed citations.
-- Filter by canonical story year or range, use decade presets, or play a moving time window.
-- Explicitly include undated appearances. Release years never substitute for story dates.
-- Follow shared addresses across works, including Eady/Bosch and Rain Robinson's Griffith Observatory workplace.
-- Share selections, filters, searches, and time ranges through hash URLs that work on GitHub Pages.
-- On phones, switch between the map and a full-height directory.
+- Search people, places, titles, and addresses; browse Places, People, or Routes.
+- Filter by film, location type, deaths, or current map view. Movie tabs in place details and map labels immediately filter to that title.
+- Open paired movie stills and real-site photographs, enlarge either, and expand Sources for credits and citations. Capture dates appear when verified; undated and archival photographs are retained without claiming they are current.
+- Use My location to request browser geolocation and plot a position and accuracy circle. Coordinates are not saved in shared links or application storage. A secure origin and browser/OS permission are required.
+- Filter canonical story dates with a range, decade preset, or playback. Returning both endpoints to their limits restores All time.
+- Share selections and filters with hash links. Phones can switch between the map and directory.
+- County boundaries mask surrounding territory; icons distinguish homes, work, hangouts, events, and deaths.
 
-## Data and editorial limits
+## Data
 
-`research/locations-100.json` preserves the 100-entry source-backed research catalog (96 places, four routes). `research/geocodes.json` records street-interpolated Census geocodes and explicitly approximate manual anchors. Unmatched sites are retained in the research catalog and omitted from the prototype map.
+`research/locations-100.json` preserves the initial 100-entry catalog: 96 places and four routes. Three unmatched production geocodes remain outside the prototype directory. The directory contains 93 places; unresolved story addresses remain searchable without a false precise pin.
 
-`scripts/prepare-data.mjs` creates `src/data/atlas.json`, attaches character associations, and adds documented canonical-time evidence. Rerun it after editing the research or geocodes. `scripts/geocode.py` is a one-time editorial tool, not a browser dependency.
+Run `node scripts/prepare-data.mjs` after editing research. `scripts/enrich-data.mjs` applies story geography, dates, deaths, and photograph manifests to `src/data/atlas.json`. `research/geocodes.json` preserves production coordinates; `research/story-geography.json` records conflicting story evidence and its sources. Story positions take precedence. Explicit streets are highlighted without inventing cross streets; broad inferences use dashed areas. Uncontradicted filming locations remain proxies, rather than independently established canonical addresses. Dashed routes connect selected stops, not turn-by-turn paths.
 
-Positions are not rooftop surveys. Component notes distinguish real exteriors/interiors from composite or stage-built portions. Dashed journeys connect filmed stops and do not establish continuous travel or walking directions. Dated appearances establish presence during a story, not a complete tenancy or employment period. Exact story dates remain unknown for many entries and are visibly labeled.
+Dates establish presence during a story, not continuous tenancy. Explicit dates override release years. For otherwise contemporary stories, release year is an editorial estimate displayed with `c.`. Falling Down uses June 12, 1991 from the official Cannes synopsis; Blade Runner remains in November 2019. Future dates are not replaced by production years.
+
+`research/media-a.json`, `media-b.json`, and `media-recent.json` record photograph sources, credits, capture dates when known, and component distinctions. Actual movie frames and local site JPEGs are under `public/photos`; `credits.json` preserves provenance. Some buildings have been demolished, and current-site photographs may show their replacements or demolition. A site's image can depict a production component rather than its story geography. Shared sites retain an explicitly named screen image so it is not silently attributed to another film.
+
+`public/la-county.geojson` is a simplified US Census TIGERweb county boundary, including islands; provenance is in `research/county-boundary.json`. `public/story-streets.geojson` contains OpenStreetMap street geometries for unresolved street-only addresses, with its query recorded in `research/street-geometry.json`.
 
 ## Verify and publish
 
@@ -37,6 +40,6 @@ node scripts/prepare-data.mjs
 npm run check:affected
 ```
 
-The affected check runs canonical-time/search/state/data tests, TypeScript checking, and the production build. Browser verification covers map loading, property selection, character search, time controls, journey display, source disclosure, shared links, and the mobile layout.
+The affected check covers time/search/state, story-coordinate corrections, photo coverage, county masking, TypeScript, and the production build. Browser checks cover property selection, photo enlargement, same-film filtering, full map labels, timeline reset, street/area placement, mobile layout, and loading the deployed page. Geolocation error handling is available when a browser or OS declines or cannot supply a position.
 
-Pushing `main` runs `.github/workflows/pages.yml`, which checks, builds, and deploys `dist` to GitHub Pages. Pages must use the GitHub Actions publishing source. The Vite relative base supports the `/movie-map/` project path and hash deep links.
+Pushing `main` runs `.github/workflows/pages.yml`, checks and builds the site, then deploys `dist` to GitHub Pages. Vite's relative base supports the `/movie-map/` project path.

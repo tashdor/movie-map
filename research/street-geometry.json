@@ -1,0 +1,7 @@
+{
+  "source": "OpenStreetMap via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];way[highway][name~\"^(West |East |North |South )?(Pico Boulevard|Havenhurst Drive|Sierra Bonita Avenue|Mulholland Drive|Sunset Boulevard)$\"](33.9,-118.65,34.3,-118.15);out geom;",
+  "license": "ODbL 1.0",
+  "retrieved": "2026-11-16"
+}
