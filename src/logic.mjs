@@ -13,7 +13,7 @@ export function matchingAppearances(place, time) {
 }
 
 export function filterPlaces(places, { query = '', category = 'all', film = '', time = { all: true } }) {
-  const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/[’'\-]/g,'');
+  const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/[.’'\-]/g,'');
   const tokens = normalize(query.replace(/\b(?:edy|edie)\b/gi,'Eady').replace(/\bmacauley\b/gi,'McCauley')).trim().split(/\s+/).filter(Boolean);
   return places.filter(p => {
     const appearances = matchingAppearances(p, time).filter(a=>!film||a.title===film);
@@ -60,12 +60,14 @@ export function displayEntries(places,filters={}){
     if(!active.length)return [];
     const deaths=(p.deaths||[]).filter(d=>active.some(a=>a.title===d.title));
     const categories=[...new Set(active.flatMap(a=>a.categories||p.categories))];
-    const base={...p,appearances:active,deaths,categories,category:active.length!==p.appearances.length?(active[0].categories?.find(c=>c!=='death')||p.category):p.category};
+    const mediaTitle=film||(active.length===1?active[0].title:null);
+    const media=mediaTitle&&p.mediaByTitle?.[mediaTitle]||p.media;
+    const base={...p,media,appearances:active,deaths,categories,category:active.length!==p.appearances.length?(active[0].categories?.find(c=>c!=='death')||p.category):p.category};
     const entries=[];
     if(category==='all'||category!=='death'&&categories.includes(category)||category==='death'&&p.category==='death')entries.push({...base,isDeath:p.category==='death'});
     if(deaths.length&&p.category!=='death'&&(category==='all'||category==='death')){
       const people=[...new Set(deaths.flatMap(d=>d.people))];
-      entries.push({...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],name:people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`});
+      entries.push({...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],name:deaths.length===1&&deaths[0].label|| (people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`)});
     }
     return entries;
   });

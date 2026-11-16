@@ -1,0 +1,921 @@
+{
+  "places": [
+    {
+      "id": 212,
+      "name": "Ambulance theft",
+      "short": "Ambulance theft",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1050 Linden Avenue",
+      "area": "Long Beach",
+      "coordinates": [
+        -118.185630803083,
+        33.780272264863
+      ],
+      "productionCoordinates": [
+        -118.185630803083,
+        33.780272264863
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Neil McCauley"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Ambulance theft",
+          "filming_component": "1050 Linden Avenue",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites",
+            "heat_robbery_crew"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "St. Mary Medical Center supplied the corridor and ambulance-bay production location. The available earlier screenplay names Cedars-Sinai; that draft name is not established as released-film dialogue.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hospital · exact story address unspecified",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_crew"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_StMarys1.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Heat / Warner Bros. / L.A. TACO",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h212-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_StMarys2.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Jared Cowan / L.A. TACO",
+          "note": "Capture date not specified.",
+          "src": "photos/h212-place.jpg"
+        },
+        "note": "St. Mary Medical Center supplied the corridor and ambulance-bay production location. The available earlier screenplay names Cedars-Sinai; that draft name is not established as released-film dialogue."
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1050+Linden+Ave%2C+Long+Beach%2C+CA+90813&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "1050 Linden Ave, Long Beach, California, 90813",
+        "score": 100
+      }
+    },
+    {
+      "id": 213,
+      "name": "Armored-truck robbery",
+      "short": "Armored-truck robbery",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Venice Boulevard / Convention Center Drive",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.271049942532,
+        34.037967698806
+      ],
+      "productionCoordinates": [
+        -118.271049942532,
+        34.037967698806
+      ],
+      "precision": "documented-block-anchor",
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Michael Cheritto",
+        "Trejo",
+        "Waingro",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Armored-truck robbery",
+          "filming_component": "Venice Boulevard / Convention Center Drive",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites",
+            "heat_robbery_script",
+            "heat_robbery_bfi",
+            "heat_robbery_ss1"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Michael Cheritto",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trejo",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Waingro",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Film dialogue identifies Venice Boulevard; site is near the Convention Center beneath the 10/110 interchange. SeeingStars maps 695 Venice; other guides use 650 or 725 Venice. Marker is a documented block anchor, not an exact collision position.",
+      "placement": {
+        "kind": "screen",
+        "address": "Venice Boulevard · Convention Center Drive",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_script",
+          "heat_robbery_bfi",
+          "heat_robbery_ss1"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitcsE_NdWXL36W2n_7WVACSkRJsK_qAAY767xOSqeOLSl34qc-T4nVZjZMd31ZDmdeCGWqGp4puA8ln42Ip_XJoX-ue96v_ovnThWYZVqUbmyTQ5iLPrnZApwPEKUR16MMD-LQBr2h3F8/w400-h170/Armour+4.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat / Warner Bros. / It’s Filmed There",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h213-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat81.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified.",
+          "src": "photos/h213-place.jpg"
+        },
+        "note": "Film dialogue identifies Venice Boulevard; site is near the Convention Center beneath the 10/110 interchange. SeeingStars maps 695 Venice; other guides use 650 or 725 Venice. Marker is a documented block anchor, not an exact collision position."
+      },
+      "deaths": [
+        {
+          "title": "Heat",
+          "people": [
+            "Three armored-truck guards"
+          ],
+          "label": "Armored-truck guards’ deaths"
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=695+Venice+Blvd%2C+Los+Angeles%2C+CA+90015&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder;695VeniceaddressfromSeeingStars Heat1 map link",
+        "matchedAddress": "695 Venice Blvd, Los Angeles, California, 90015",
+        "score": 100
+      }
+    },
+    {
+      "id": 214,
+      "name": "Johnie’s Broiler",
+      "short": "Johnie’s Broiler",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "7447 Firestone Boulevard",
+      "area": "Downey",
+      "coordinates": [
+        -118.147127860294,
+        33.947691560699
+      ],
+      "productionCoordinates": [
+        -118.147127860294,
+        33.947691560699
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Michael Cheritto",
+        "Waingro"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Johnie’s Broiler",
+          "filming_component": "7447 Firestone Boulevard",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites",
+            "heat_robbery_crew"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Michael Cheritto",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Waingro",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Original restaurant partially demolished in 2007; Bob’s Big Boy rebuilt it from original plans and reopened in 2009. Waingro survives the attempted execution in the parking lot.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downey",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_crew"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_Johnies3.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Heat / Warner Bros. / L.A. TACO",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h214-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_Johnies4.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Jared Cowan / L.A. TACO",
+          "note": "Capture date not specified.",
+          "src": "photos/h214-place.jpg"
+        },
+        "note": "Original restaurant partially demolished in 2007; Bob’s Big Boy rebuilt it from original plans and reopened in 2009. Waingro survives the attempted execution in the parking lot."
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7447+Firestone+Blvd%2C+Downey%2C+CA+90241&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "7447 Firestone Blvd, Downey, California, 90241",
+        "score": 100
+      }
+    },
+    {
+      "id": 215,
+      "name": "Precious-metals repository",
+      "short": "Precious-metals repository",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Factory Place · 1282–1300 block",
+      "area": "Arts District",
+      "coordinates": [
+        -118.235856088919,
+        34.039043241199
+      ],
+      "productionCoordinates": [
+        -118.235856088919,
+        34.039043241199
+      ],
+      "precision": "documented-block-proxy",
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Michael Cheritto",
+        "Vincent Hanna",
+        "Casals",
+        "Bosko"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Precious-metals repository",
+          "filming_component": "Factory Place · 1282–1300 block",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites",
+            "heat_robbery_ss",
+            "heat_robbery_bfi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Michael Cheritto",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Casals",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Bosko",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Building demolished. Guides variously list 1282 Factory Place, 1300 Factory Place and a viewpoint near 1309 Factory Place. Block-level production proxy; no exact surviving repository address is claimed.",
+      "placement": {
+        "kind": "inferred",
+        "address": "Factory Place · approximate",
+        "precision": "documented-block-proxy",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_ss",
+          "heat_robbery_bfi"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.237156088919,
+                34.038443241199005
+              ],
+              [
+                -118.23455608891899,
+                34.038443241199005
+              ],
+              [
+                -118.23455608891899,
+                34.039643241199
+              ],
+              [
+                -118.237156088919,
+                34.039643241199
+              ],
+              [
+                -118.237156088919,
+                34.038443241199005
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.237156088919,
+            34.038443241199005
+          ],
+          [
+            -118.23455608891899,
+            34.039643241199
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpYEFqid5p3KbJIFlTFbtjH3FjfkGH_I3Tp_7DRJx7xnYEAS5fon-GeZrhzDIq-i2480JNgkOBenSzPTlZ20Jq5l0uMauISi9mkQsyImRxrf6sWXk1eApOQI6Qv_tisKzybdINj63jKsU/w400-h168/No+Bust+1.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat / Warner Bros. / It’s Filmed There",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h215-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat31-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified.",
+          "src": "photos/h215-place.jpg"
+        },
+        "note": "Building demolished. Guides variously list 1282 Factory Place, 1300 Factory Place and a viewpoint near 1309 Factory Place. Block-level production proxy; no exact surviving repository address is claimed."
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1300+Factory+Place%2C+Los+Angeles%2C+CA+90013&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "1300 Factory Pl, Los Angeles, California, 90013",
+        "score": 100
+      }
+    },
+    {
+      "id": 216,
+      "name": "Centinela drive-in ambush",
+      "short": "Centinela drive-in ambush",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "5700 West Centinela Avenue",
+      "area": "Westchester",
+      "coordinates": [
+        -118.381108016884,
+        33.975485993538
+      ],
+      "productionCoordinates": [
+        -118.381108016884,
+        33.975485993538
+      ],
+      "precision": "former-site-anchor",
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Michael Cheritto"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Centinela drive-in ambush",
+          "filming_component": "5700 West Centinela Avenue",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites",
+            "heat_robbery_ss",
+            "heat_robbery_script"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Michael Cheritto",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Van Zant’s bearer-bond handoff becomes an ambush. The drive-in has been demolished and replaced by apartments.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westchester",
+        "precision": "former-site-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_ss",
+          "heat_robbery_script"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5BKrGF3tpcocE7gSSDXujvgFGHeppZXe6bYypmHQioEfeL-Nzt_ik3gPlIdga79MCSudr_VzrnuEwGojm3iN5OCWcEs3pZ8uIf67FfLfwx-6Tjh8r4VweysRYAGQgtL2sa__wAqJzns/w400-h166/Drive+In.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat / Warner Bros. / It’s Filmed There",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h216-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat52.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified.",
+          "src": "photos/h216-place.jpg"
+        },
+        "note": "Van Zant’s bearer-bond handoff becomes an ambush. The drive-in has been demolished and replaced by apartments."
+      },
+      "deaths": [
+        {
+          "title": "Heat",
+          "people": [
+            "Van Zant’s gunman",
+            "Van Zant’s pickup driver"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5700+W+Centinela+Ave%2C+Los+Angeles%2C+CA+90045&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "5700 W Centinela Ave, Los Angeles, California, 90045",
+        "score": 100
+      }
+    },
+    {
+      "id": 217,
+      "name": "Cheritto’s hostage and death",
+      "short": "Cheritto’s hostage and death",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "445 South Figueroa Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.257350389966,
+        34.053126431095
+      ],
+      "productionCoordinates": [
+        -118.257350389966,
+        34.053126431095
+      ],
+      "precision": "complex-anchor",
+      "people": [
+        "Michael Cheritto",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Cheritto’s hostage and death",
+          "filming_component": "445 South Figueroa Street",
+          "source_ids": [
+            "heat_robbery_frames",
+            "heat_robbery_sites"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Michael Cheritto",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Union Bank Plaza parking-garage roof, accessible at the 4th Street side. This is Cheritto’s branch of the escape, separate from McCauley and Chris’s grocery-lot escape.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Union Bank Plaza · parking-garage roof",
+        "precision": "complex-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTJWrs_8QESi_XsCR4TRPFVCtZkEcauVItKUwV-tHc9IqPXVSspu18ZKBpCxLR90ug9Ovh-zJLV2Ct6RCCt4yeg5GNecKRxAIRg72zh6_zvKQecLmZiDdVj9mso31wId4pYq4YaYrNu2w/w400-h169/Plaza+1.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat / Warner Bros. / It’s Filmed There",
+          "title": "Heat",
+          "note": "Heat (1995) film frame.",
+          "src": "photos/h217-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat57.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified.",
+          "src": "photos/h217-place.jpg"
+        },
+        "note": "Union Bank Plaza parking-garage roof, accessible at the 4th Street side. This is Cheritto’s branch of the escape, separate from McCauley and Chris’s grocery-lot escape."
+      },
+      "deaths": [
+        {
+          "title": "Heat",
+          "people": [
+            "Michael Cheritto"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=445+S+Figueroa+St%2C+Los+Angeles%2C+CA+90071&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "445 S Figueroa St, Los Angeles, California, 90071",
+        "score": 100
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "heat_robbery_frames",
+      "title": "Heat — timed scene-location comparisons",
+      "url": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "source_type": "scene_indexed_location_research"
+    },
+    {
+      "id": "heat_robbery_sites",
+      "title": "Heat — Film Oblivion photographs and sites",
+      "url": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "heat_robbery_crew",
+      "title": "Heat — location manager Lori Balton interview and comparisons",
+      "url": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "source_type": "production_crew_interview"
+    },
+    {
+      "id": "heat_robbery_ss",
+      "title": "Heat — drive-in and repository scenes",
+      "url": "https://www.seeing-stars.com/Locations/Heat3.shtml",
+      "source_type": "location_research"
+    },
+    {
+      "id": "heat_robbery_script",
+      "title": "Heat — Michael Mann screenplay",
+      "url": "https://overblack.org/script/heat-1995",
+      "source_type": "screenplay_draft"
+    },
+    {
+      "id": "heat2_author_time",
+      "title": "Meg Gardiner: Heat 2 synopsis and chronology",
+      "url": "https://meggardiner.com/books/heat-2/",
+      "source_type": "co-author's account of a creator-authored continuation; establishes 1988 as seven years before the film's aftermath"
+    },
+    {
+      "id": "heat_robbery_bfi",
+      "title": "BFI: Heat locations then and now",
+      "url": "https://www.bfi.org.uk/features/heat-locations-al-pacino-robert-de-niro",
+      "source_type": "film_institute_location_research"
+    },
+    {
+      "id": "heat_robbery_ss1",
+      "title": "Heat: ambulance theft and armored-truck robbery location map",
+      "url": "https://www.seeing-stars.com/Locations/Heat1.shtml",
+      "source_type": "scene_indexed_location_research"
+    }
+  ],
+  "audit": [
+    {
+      "id": 212,
+      "status": "verified",
+      "geography": {
+        "kind": "filming-proxy",
+        "address": "Hospital · exact story address unspecified",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_crew"
+        ]
+      },
+      "basis": "St. Mary Medical Center supplied the corridor and ambulance-bay production location. The available earlier screenplay names Cedars-Sinai; that draft name is not established as released-film dialogue.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    },
+    {
+      "id": 213,
+      "status": "verified",
+      "geography": {
+        "kind": "screen",
+        "address": "Venice Boulevard · Convention Center Drive",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_script",
+          "heat_robbery_bfi",
+          "heat_robbery_ss1"
+        ]
+      },
+      "basis": "Film dialogue identifies Venice Boulevard; site is near the Convention Center beneath the 10/110 interchange. SeeingStars maps 695 Venice; other guides use 650 or 725 Venice. Marker is a documented block anchor, not an exact collision position.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    },
+    {
+      "id": 214,
+      "status": "verified",
+      "geography": {
+        "kind": "filming-proxy",
+        "address": "Downey",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_crew"
+        ]
+      },
+      "basis": "Original restaurant partially demolished in 2007; Bob’s Big Boy rebuilt it from original plans and reopened in 2009. Waingro survives the attempted execution in the parking lot.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    },
+    {
+      "id": 215,
+      "status": "verified",
+      "geography": {
+        "kind": "inferred",
+        "address": "Factory Place · approximate",
+        "precision": "documented-block-proxy",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_ss",
+          "heat_robbery_bfi"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.237156088919,
+                34.038443241199005
+              ],
+              [
+                -118.23455608891899,
+                34.038443241199005
+              ],
+              [
+                -118.23455608891899,
+                34.039643241199
+              ],
+              [
+                -118.237156088919,
+                34.039643241199
+              ],
+              [
+                -118.237156088919,
+                34.038443241199005
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.237156088919,
+            34.038443241199005
+          ],
+          [
+            -118.23455608891899,
+            34.039643241199
+          ]
+        ]
+      },
+      "basis": "Building demolished. Guides variously list 1282 Factory Place, 1300 Factory Place and a viewpoint near 1309 Factory Place. Block-level production proxy; no exact surviving repository address is claimed.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    },
+    {
+      "id": 216,
+      "status": "verified",
+      "geography": {
+        "kind": "filming-proxy",
+        "address": "Westchester",
+        "precision": "former-site-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites",
+          "heat_robbery_ss",
+          "heat_robbery_script"
+        ]
+      },
+      "basis": "Van Zant’s bearer-bond handoff becomes an ambush. The drive-in has been demolished and replaced by apartments.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    },
+    {
+      "id": 217,
+      "status": "verified",
+      "geography": {
+        "kind": "filming-proxy",
+        "address": "Union Bank Plaza · parking-garage roof",
+        "precision": "complex-anchor",
+        "sourceIds": [
+          "heat_robbery_frames",
+          "heat_robbery_sites"
+        ]
+      },
+      "basis": "Union Bank Plaza parking-garage roof, accessible at the 4th Street side. This is Cheritto’s branch of the escape, separate from McCauley and Chris’s grocery-lot escape.",
+      "photos": "Film frame and real-site photograph visually matched; site capture date unspecified."
+    }
+  ],
+  "routesSuggested": [
+    {
+      "name": "Armored-truck robbery",
+      "title": "Heat",
+      "year": 1995,
+      "stopIds": [
+        212,
+        213,
+        214
+      ],
+      "source_ids": [
+        "heat_robbery_frames",
+        "heat_robbery_sites",
+        "heat_robbery_crew"
+      ],
+      "note": "Linked story events, not turn-by-turn driving directions.",
+      "id": 225
+    },
+    {
+      "name": "Cheritto’s escape",
+      "title": "Heat",
+      "year": 1995,
+      "stopIds": [
+        205,
+        206,
+        217
+      ],
+      "source_ids": [
+        "heat_robbery_frames",
+        "heat_robbery_sites"
+      ],
+      "note": "Separate branch from the McCauley/Chris escape to 207; do not append 217 after 207 as a single shared path."
+    }
+  ]
+}

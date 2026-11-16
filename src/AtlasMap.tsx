@@ -9,12 +9,12 @@ import {countyFog,exploredCounty} from './geo.mjs';
 import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props={places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type Props={places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
 function fogTexture(){const size=128,data=new Uint8Array(size*size*4);for(let y=0;y<size;y++)for(let x=0;x<size;x++){const u=x/size*Math.PI*2,v=y/size*Math.PI*2;const cloud=Math.sin(u+Math.sin(v*2))*.35+Math.sin(u*3-v*2)*.2+Math.sin(u*5+v*7)*.08;const grain=((x*37+y*61+x*y*7)%23)/23;const n=cloud*17+grain*5;const i=(y*size+x)*4;data[i]=25+n;data[i+1]=33+n;data[i+2]=36+n;data[i+3]=255;}return {width:size,height:size,data};}
 function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');title.textContent=name;box.append(movie,title);return box;}
-export default function AtlasMap({places,selected,journey,journeys,routeMode,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
+export default function AtlasMap({places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null);
-  const [ready,setReady]=useState(false),[error,setError]=useState(false),[zoom,setZoom]=useState(CITY.zoom),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
+  const [ready,setReady]=useState(false),[error,setError]=useState(false),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
   const latest=useRef({places,coverage,onView,onLocationError,onRoute});latest.current={places,coverage,onView,onLocationError,onRoute};
   useEffect(()=>{
     if(!container.current)return;
@@ -38,7 +38,7 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,res
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
         if(map.current===m)setReady(true);
       });
-      m.on('moveend',()=>{const b=m.getBounds();latest.current.onView(latest.current.places.filter(p=>p.coordinates&&b.contains(p.coordinates)).map(p=>p.id));setZoom(m.getZoom());setViewVersion(v=>v+1);});
+      m.on('moveend',()=>{const b=m.getBounds();latest.current.onView(latest.current.places.filter(p=>p.coordinates&&b.contains(p.coordinates)).map(p=>p.id));setViewVersion(v=>v+1);});
       m.on('click','journey-lines',e=>{const id=Number(e.features?.[0]?.properties?.id);if(id)latest.current.onRoute(id);});
       m.on('mouseenter','journey-lines',()=>{m.getCanvas().style.cursor='pointer';});m.on('mouseleave','journey-lines',()=>{m.getCanvas().style.cursor='';});
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
@@ -57,7 +57,7 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,res
       if(flip)outer.classList.add('opens-left');
       const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${p.name}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
       const titles=[...new Set(p.appearances.map(a=>a.title))];outer.append(tooltip(p.name,titles));
-      if(bounds.contains(p.coordinates)&&(selected?.id===p.id||p.featured&&(zoom>11.25||[1,11,16,31,53,83,91].includes(p.id)))){
+      if(bounds.contains(p.coordinates)&&selected?.id===p.id){
         const label=document.createElement('div');label.className=`marker-label ${flip?'label-left':''}`;label.style.maxWidth=`${Math.max(150,Math.min(560,flip?roomLeft:roomRight))}px`;
         const tabs=document.createElement('div');tabs.className='marker-film-tabs';
         for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',e=>{e.stopPropagation();onFilm(title);});tabs.append(tab);}
@@ -68,8 +68,9 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,res
     markers.current.forEach(marker=>marker.remove());markers.current=next;
     onView(places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));
     return()=>{next.forEach(marker=>marker.remove());};
-  },[places,selected?.id,ready,zoom,viewVersion,onSelect,onFilm,onView]);
+  },[places,selected?.id,ready,viewVersion,onSelect,onFilm,onView]);
   useEffect(()=>{if(ready&&resetView)map.current?.flyTo({...CITY,duration:450});},[resetView,ready]);
+  useEffect(()=>{const m=map.current;if(!ready||!m||!film)return;const bounds=new maplibregl.LngLatBounds();for(const p of latest.current.places)if(p.coordinates)bounds.extend(p.coordinates);if(!bounds.isEmpty())m.fitBounds(bounds,{padding:60,maxZoom:13,duration:450});},[film,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     for(const id of ['story-road','story-area-line','story-area-fill'])if(m.getLayer(id))m.removeLayer(id);
@@ -85,12 +86,12 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,res
     routeMarkers.current.forEach(x=>x.remove());routeMarkers.current=[];
     if(m.getLayer('journey-lines'))m.removeLayer('journey-lines');if(m.getLayer('journey-casing'))m.removeLayer('journey-casing');if(m.getSource('journeys'))m.removeSource('journeys');
     const routes=journey?[journey]:routeMode?journeys:[];if(!routes.length)return;
-    m.addSource('journeys',{type:'geojson',data:{type:'FeatureCollection',features:routes.map(j=>({type:'Feature',properties:{id:j.id,color:filmColor(j.title)},geometry:j.geometry||{type:'LineString',coordinates:j.stops.map(s=>s.coordinates)}}))}});
+    m.addSource('journeys',{type:'geojson',data:{type:'FeatureCollection',features:routes.map(j=>({type:'Feature',properties:{id:j.id,color:j.color||filmColor(j.title)},geometry:j.geometry||{type:'LineString',coordinates:j.stops.map(s=>s.coordinates)}}))}});
     m.addLayer({id:'journey-casing',type:'line',source:'journeys',paint:{'line-color':'#f8f2e5','line-width':7,'line-opacity':0.8}});
     m.addLayer({id:'journey-lines',type:'line',source:'journeys',paint:{'line-color':['get','color'],'line-width':3.5,'line-dasharray':[3,2]}});
     const bounds=new maplibregl.LngLatBounds();
     for(const j of routes)j.stops.forEach((s,i)=>{
-      const outer=document.createElement('div');outer.className='route-stop-marker';outer.style.setProperty('--film-color',filmColor(j.title));
+      const outer=document.createElement('div');outer.className='route-stop-marker';outer.style.setProperty('--film-color',j.color||filmColor(j.title));
       const button=document.createElement('button');button.className='route-marker';button.textContent=String(i+1);button.setAttribute('aria-label',`${s.name} · ${j.title}`);button.addEventListener('click',()=>s.placeId?onStop(s.placeId,j.id):onRoute(j.id));outer.append(button,tooltip(s.name,[j.title]));
       routeMarkers.current.push(new maplibregl.Marker({element:outer,offset:selected?.id===s.placeId?[0,-27]:[0,0]}).setLngLat(s.coordinates).addTo(m));bounds.extend(s.coordinates);
     });

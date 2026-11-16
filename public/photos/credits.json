@@ -3646,5 +3646,313 @@
       "credit": "Film Oblivion",
       "note": "Capture date unspecified."
     }
+  },
+  "212": {
+    "screen": {
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_StMarys1.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Heat / Warner Bros. / L.A. TACO",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h212-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_StMarys2.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Jared Cowan / L.A. TACO",
+      "note": "Capture date not specified.",
+      "src": "photos/h212-place.jpg"
+    },
+    "note": "St. Mary Medical Center supplied the corridor and ambulance-bay production location. The available earlier screenplay names Cedars-Sinai; that draft name is not established as released-film dialogue."
+  },
+  "213": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitcsE_NdWXL36W2n_7WVACSkRJsK_qAAY767xOSqeOLSl34qc-T4nVZjZMd31ZDmdeCGWqGp4puA8ln42Ip_XJoX-ue96v_ovnThWYZVqUbmyTQ5iLPrnZApwPEKUR16MMD-LQBr2h3F8/w400-h170/Armour+4.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat / Warner Bros. / It’s Filmed There",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h213-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat81.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified.",
+      "src": "photos/h213-place.jpg"
+    },
+    "note": "Film dialogue identifies Venice Boulevard; site is near the Convention Center beneath the 10/110 interchange. SeeingStars maps 695 Venice; other guides use 650 or 725 Venice. Marker is a documented block anchor, not an exact collision position."
+  },
+  "214": {
+    "screen": {
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_Johnies3.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Heat / Warner Bros. / L.A. TACO",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h214-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_Johnies4.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Jared Cowan / L.A. TACO",
+      "note": "Capture date not specified.",
+      "src": "photos/h214-place.jpg"
+    },
+    "note": "Original restaurant partially demolished in 2007; Bob’s Big Boy rebuilt it from original plans and reopened in 2009. Waingro survives the attempted execution in the parking lot."
+  },
+  "215": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpYEFqid5p3KbJIFlTFbtjH3FjfkGH_I3Tp_7DRJx7xnYEAS5fon-GeZrhzDIq-i2480JNgkOBenSzPTlZ20Jq5l0uMauISi9mkQsyImRxrf6sWXk1eApOQI6Qv_tisKzybdINj63jKsU/w400-h168/No+Bust+1.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat / Warner Bros. / It’s Filmed There",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h215-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat31-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified.",
+      "src": "photos/h215-place.jpg"
+    },
+    "note": "Building demolished. Guides variously list 1282 Factory Place, 1300 Factory Place and a viewpoint near 1309 Factory Place. Block-level production proxy; no exact surviving repository address is claimed."
+  },
+  "216": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5BKrGF3tpcocE7gSSDXujvgFGHeppZXe6bYypmHQioEfeL-Nzt_ik3gPlIdga79MCSudr_VzrnuEwGojm3iN5OCWcEs3pZ8uIf67FfLfwx-6Tjh8r4VweysRYAGQgtL2sa__wAqJzns/w400-h166/Drive+In.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat / Warner Bros. / It’s Filmed There",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h216-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat52.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified.",
+      "src": "photos/h216-place.jpg"
+    },
+    "note": "Van Zant’s bearer-bond handoff becomes an ambush. The drive-in has been demolished and replaced by apartments."
+  },
+  "217": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTJWrs_8QESi_XsCR4TRPFVCtZkEcauVItKUwV-tHc9IqPXVSspu18ZKBpCxLR90ug9Ovh-zJLV2Ct6RCCt4yeg5GNecKRxAIRg72zh6_zvKQecLmZiDdVj9mso31wId4pYq4YaYrNu2w/w400-h169/Plaza+1.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat / Warner Bros. / It’s Filmed There",
+      "title": "Heat",
+      "note": "Heat (1995) film frame.",
+      "src": "photos/h217-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat57.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified.",
+      "src": "photos/h217-place.jpg"
+    },
+    "note": "Union Bank Plaza parking-garage roof, accessible at the 4th Street side. This is Cheritto’s branch of the escape, separate from McCauley and Chris’s grocery-lot escape."
+  },
+  "218": {
+    "screen": {
+      "src": "photos/h218-screen.jpg",
+      "sourceUrl": "https://clip.cafe/heat-1995/when-gonna-get-some-furniture-when-l-get-around-it/",
+      "credit": "Heat film frame; Clip.Cafe",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Chris and Neil in the kitchen of Neil’s home.",
+      "imageUrl": "https://clip.cafe/clipimg/when-gonna-get-some-furniture-when-l-get-around-it.jpg",
+      "width": 1100,
+      "height": 458
+    },
+    "place": {
+      "src": "photos/h218-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "title": "Production house",
+      "caption": "Production house",
+      "alt": "The beach-facing exterior of the production house at Malibu Cove Colony.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat20.jpg",
+      "width": 1067,
+      "height": 800,
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "219": {
+    "screen": {
+      "src": "photos/h219-screen.jpg",
+      "sourceUrl": "https://clip.cafe/heat-1995/waingro-where-he-s1/",
+      "credit": "Heat film frame; Clip.Cafe",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Neil McCauley points his pistol at Van Zant inside the house.",
+      "imageUrl": "https://clip.cafe/clipimg/waingro-where-he-s1.jpg",
+      "width": 1100,
+      "height": 458
+    },
+    "place": {
+      "src": "photos/h219-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "title": "Production house · Hollywood Hills",
+      "caption": "Production house · Hollywood Hills",
+      "alt": "The Thrasher Avenue house used in production.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat58.jpg",
+      "width": 1067,
+      "height": 800,
+      "note": "Production site only. The film places Van Zant’s home in Encino; capture date not supplied."
+    }
+  },
+  "220": {
+    "screen": {
+      "src": "photos/h220-screen.jpg",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Heat film frame; Warner Bros., via L.A. TACO",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Albert Torena outside his chop shop with the sulfur mound behind him.",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_ChopShop3.jpg?w=1100",
+      "width": 1100,
+      "height": 456
+    },
+    "place": {
+      "src": "photos/h220-place.jpg",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Jared Cowan / L.A. TACO",
+      "title": "Former chop-shop yard",
+      "caption": "Former chop-shop yard",
+      "alt": "The cleared Wilmington chop-shop yard, with palms and railroad tracks.",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_ChopShop2.jpg?w=1100",
+      "width": 1100,
+      "height": 729,
+      "note": "Photograph published with the 2019 crew interview; capture date is not supplied."
+    }
+  },
+  "221": {
+    "screen": {
+      "src": "photos/h221-screen.jpg",
+      "sourceUrl": "https://clip.cafe/heat-1995/lady-why-are-you-interested-in-what-l-read-what-l-do/",
+      "credit": "Heat film frame; Clip.Cafe",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Eady speaks with Neil over coffee in the Broadway Deli.",
+      "imageUrl": "https://clip.cafe/img800/lady-why-are-you-interested-in-what-l-read-what-l-do.jpg",
+      "width": 800,
+      "height": 334
+    },
+    "place": {
+      "src": "photos/h221-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "title": "Former Broadway Deli",
+      "caption": "Former Broadway Deli",
+      "alt": "The remodeled storefront on Third Street Promenade that replaced the Broadway Deli.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat50.jpg",
+      "width": 1067,
+      "height": 800,
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "222": {
+    "screen": {
+      "src": "photos/h222-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Neil and Eady stand beside the large tree on the ocean bluff at dusk.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYzMHppHD6_FASEqMm7qR56PkkUEYLpE4x8dPv7BL2j7OnBhzYUOGrecb-UuHeMSJNlBE8mEJBxtUWihafb4C9zCRuPdllg00eHTxupQ8shXaPquFa7VwVl35hyphenhyphenH1rei8PnQNUS2OZp5M/s1612/Small+Park+1.jpg",
+      "width": 1100,
+      "height": 463
+    },
+    "place": {
+      "src": "photos/h222-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "title": "Via de las Olas overlook",
+      "caption": "Via de las Olas overlook",
+      "alt": "The same tree and ocean-facing bluff on Via de las Olas.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat28.jpg",
+      "width": 1067,
+      "height": 800,
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "223": {
+    "screen": {
+      "src": "photos/h223-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame; ItsFilmedThere",
+      "title": "Heat",
+      "caption": "Heat · 1995",
+      "alt": "Hanna’s team watches the restaurant and McCauley’s crew from across Ocean Avenue.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaOAEreRMaoJlEVtrbaaDIuZRsOyOceaRn1xeo0YhrcTpBahbRsvpgLtR1vZhqcZPEOB3MubHJ0CGc2R3VLtIBYMyN0M37SZvAKKvxqPkg5aNphwMwxFKWvTE_1-i62Y2IjWHy_rW-U_E/s1614/Ivy+1.jpg",
+      "width": 1100,
+      "height": 463
+    },
+    "place": {
+      "src": "photos/h223-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion",
+      "title": "Ivy at the Shore",
+      "caption": "Ivy at the Shore",
+      "alt": "The pink Ivy at the Shore building on Ocean Avenue.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat25.jpg",
+      "width": 1100,
+      "height": 798,
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "224": {
+    "screen": {
+      "src": "photos/f224-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2012/01/04/franks-coffee-shop-and-restaurant-from-larry-crowne",
+      "credit": "Larry Crowne film frame / Universal Pictures / Lindsay, IAMNOTASTALKER",
+      "title": "Larry Crowne",
+      "caption": "Larry and his scooter group arrive at Frank’s."
+    },
+    "place": {
+      "src": "photos/f224-place.jpg",
+      "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+      "credit": "Michael Teoli / SoCal Exploration",
+      "caption": "Frank’s Restaurant, Burbank",
+      "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+    },
+    "byTitle": {
+      "Larry Crowne": {
+        "screen": {
+          "src": "photos/f224-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/01/04/franks-coffee-shop-and-restaurant-from-larry-crowne",
+          "credit": "Larry Crowne film frame / Universal Pictures / Lindsay, IAMNOTASTALKER",
+          "title": "Larry Crowne",
+          "caption": "Larry and his scooter group arrive at Frank’s."
+        },
+        "place": {
+          "src": "photos/f224-place.jpg",
+          "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+          "credit": "Michael Teoli / SoCal Exploration",
+          "caption": "Frank’s Restaurant, Burbank",
+          "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+        }
+      },
+      "Scorpion": {
+        "screen": {
+          "src": "photos/f224-scorpion-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Scorpion.shtml",
+          "credit": "Scorpion pilot frame / CBS / Gary Wayne, Seeing Stars",
+          "title": "Scorpion",
+          "caption": "Team Scorpion commandeers Paige’s diner during the LAX emergency."
+        },
+        "place": {
+          "src": "photos/f224-place.jpg",
+          "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+          "credit": "Michael Teoli / SoCal Exploration",
+          "caption": "Frank’s Restaurant, Burbank",
+          "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+        }
+      }
+    }
   }
 }

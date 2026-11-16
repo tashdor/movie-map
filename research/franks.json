@@ -1,0 +1,379 @@
+{
+  "places": [
+    {
+      "id": 224,
+      "name": "Frank’s Restaurant",
+      "short": "Frank’s Restaurant",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout",
+        "event"
+      ],
+      "address": "916 W Olive Avenue",
+      "area": "Burbank",
+      "coordinates": [
+        -118.316843681757,
+        34.173070077167
+      ],
+      "productionCoordinates": [
+        -118.316843681757,
+        34.173070077167
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "reason": "Larry Crowne and Scorpion establish Los Angeles, but neither source confirms this Burbank street as a canonical address. This pin marks the verified shared screen building.",
+        "sourceIds": [
+          "franks_larry_scene",
+          "franks_scorpion_scene",
+          "franks_larry_setting_levy",
+          "franks_scorpion_aired",
+          "franks_census"
+        ]
+      },
+      "precision": "street-interpolated",
+      "people": [
+        "Larry Crowne",
+        "Mercedes Tainot",
+        "Paige Dineen",
+        "Ralph Dineen",
+        "Walter O’Brien",
+        "Cabe Gallo",
+        "Sylvester Dodd",
+        "Happy Quinn",
+        "Toby Curtis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Larry Crowne",
+          "release_year": 2011,
+          "story_role": "Larry’s diner job and scooter-group lunches",
+          "filming_component": "Frank’s Restaurant, 916 W Olive Ave, Burbank; exterior and interior",
+          "source_ids": [
+            "franks_larry_scene",
+            "franks_visit_burbank",
+            "franks_larry_setting_levy",
+            "franks_larry_setting_national"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary recession-era story; 2011 release year used as an estimate. Both contemporary reviews explicitly place the story in Los Angeles. No exact canonical year or street address is asserted.",
+            "source_ids": [
+              "franks_larry_setting_levy",
+              "franks_larry_setting_national"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Larry Crowne",
+              "relationship": "works_at"
+            },
+            {
+              "name": "Mercedes Tainot",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout"
+          ]
+        },
+        {
+          "title": "Scorpion",
+          "release_year": 2014,
+          "story_role": "Paige’s diner and the LAX rescue base",
+          "filming_component": "Frank’s Restaurant, 916 W Olive Ave, Burbank; interior",
+          "source_ids": [
+            "franks_scorpion_scene",
+            "franks_scorpion_aired",
+            "franks_scorpion_draft"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary pilot; 2014 premiere year used as an estimate. The LAX emergency and aired dialogue establish Los Angeles; the pilot draft also labels the diner Los Angeles. No exact story street address is confirmed.",
+            "source_ids": [
+              "franks_scorpion_aired",
+              "franks_scorpion_draft",
+              "franks_scorpion_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Paige Dineen",
+              "relationship": "works_at"
+            },
+            {
+              "name": "Ralph Dineen",
+              "relationship": "visits"
+            },
+            {
+              "name": "Walter O’Brien",
+              "relationship": "repairs_wifi_and_uses_as_rescue_base"
+            },
+            {
+              "name": "Cabe Gallo",
+              "relationship": "uses_as_rescue_base"
+            },
+            {
+              "name": "Sylvester Dodd",
+              "relationship": "uses_as_rescue_base"
+            },
+            {
+              "name": "Happy Quinn",
+              "relationship": "uses_as_rescue_base"
+            },
+            {
+              "name": "Toby Curtis",
+              "relationship": "uses_as_rescue_base"
+            }
+          ],
+          "episodes": [
+            "S01E01 · Pilot"
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/f224-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/01/04/franks-coffee-shop-and-restaurant-from-larry-crowne",
+          "credit": "Larry Crowne film frame / Universal Pictures / Lindsay, IAMNOTASTALKER",
+          "title": "Larry Crowne",
+          "caption": "Larry and his scooter group arrive at Frank’s."
+        },
+        "place": {
+          "src": "photos/f224-place.jpg",
+          "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+          "credit": "Michael Teoli / SoCal Exploration",
+          "caption": "Frank’s Restaurant, Burbank",
+          "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+        }
+      },
+      "mediaByTitle": {
+        "Larry Crowne": {
+          "screen": {
+            "src": "photos/f224-screen.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2012/01/04/franks-coffee-shop-and-restaurant-from-larry-crowne",
+            "credit": "Larry Crowne film frame / Universal Pictures / Lindsay, IAMNOTASTALKER",
+            "title": "Larry Crowne",
+            "caption": "Larry and his scooter group arrive at Frank’s."
+          },
+          "place": {
+            "src": "photos/f224-place.jpg",
+            "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+            "credit": "Michael Teoli / SoCal Exploration",
+            "caption": "Frank’s Restaurant, Burbank",
+            "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+          }
+        },
+        "Scorpion": {
+          "screen": {
+            "src": "photos/f224-scorpion-screen.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/Scorpion.shtml",
+            "credit": "Scorpion pilot frame / CBS / Gary Wayne, Seeing Stars",
+            "title": "Scorpion",
+            "caption": "Team Scorpion commandeers Paige’s diner during the LAX emergency."
+          },
+          "place": {
+            "src": "photos/f224-place.jpg",
+            "sourceUrl": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+            "credit": "Michael Teoli / SoCal Exploration",
+            "caption": "Frank’s Restaurant, Burbank",
+            "note": "Published June 8, 2020 in the author’s quarantine road-trip account. Exact capture date is not independently verified. The article’s 924 street number is a caption error; the restaurant archive, Visit Burbank and Census identify 916 W Olive Ave."
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "franks_larry_scene",
+      "title": "Frank’s in Larry Crowne — scene frames and restaurant visit",
+      "url": "https://www.iamnotastalker.com/2012/01/04/franks-coffee-shop-and-restaurant-from-larry-crowne",
+      "source_type": "scene-by-scene location research"
+    },
+    {
+      "id": "franks_visit_burbank",
+      "title": "Visit Burbank — Larry Crowne at Frank’s",
+      "url": "https://visitburbank.com/film-tv-burbank-locations/",
+      "source_type": "official tourism location guide"
+    },
+    {
+      "id": "franks_larry_setting_levy",
+      "title": "Emanuel Levy — Larry Crowne review (2011)",
+      "url": "https://emanuellevy.com/review/larry-crowne-2/",
+      "source_type": "contemporary film review; story-setting evidence"
+    },
+    {
+      "id": "franks_larry_setting_national",
+      "title": "The National — Larry Crowne review (2011)",
+      "url": "https://www.thenationalnews.com/arts/movie-review-larry-crowne-1.436362",
+      "source_type": "contemporary film review; story-setting evidence"
+    },
+    {
+      "id": "franks_scorpion_scene",
+      "title": "Seeing Stars — Scorpion pilot locations and frames",
+      "url": "https://www.seeing-stars.com/Locations/Scorpion.shtml",
+      "source_type": "scene-by-scene location research"
+    },
+    {
+      "id": "franks_scorpion_aired",
+      "title": "Scorpion pilot — aired dialogue transcript",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=scorpion-2014",
+      "source_type": "episode dialogue transcript"
+    },
+    {
+      "id": "franks_scorpion_draft",
+      "title": "Scorpion — pilot screenplay (development draft)",
+      "url": "https://www.tv-calling.com/scripts/uploads/CBS%20-%20Scorpion%201x01%20%28Pilot%29.pdf",
+      "source_type": "primary screenplay draft; broad Los Angeles setting only"
+    },
+    {
+      "id": "franks_scorpion_release",
+      "title": "TheTVDB — Scorpion season 1 episode chronology",
+      "url": "https://www.thetvdb.com/series/scorpion/allseasons/official",
+      "source_type": "episode release chronology"
+    },
+    {
+      "id": "franks_census",
+      "title": "US Census Geocoder — 916 W Olive Ave, Burbank",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=916%20W%20Olive%20Ave%2C%20Burbank%2C%20CA%2091506&benchmark=Public_AR_Current&format=json",
+      "source_type": "official street address geocoder"
+    },
+    {
+      "id": "franks_real_2020",
+      "title": "SoCal Exploration — Burbank / Glendale road trip (2020)",
+      "url": "https://socalexploration.wordpress.com/2020/06/08/random-quarantine-road-trips-4-burbank-glendale/",
+      "source_type": "real-site photography; publication June 8, 2020"
+    },
+    {
+      "id": "franks_real_2021",
+      "title": "Ian / Flickr — Too Late for Coffee",
+      "url": "https://www.flickr.com/photos/ijp01/51229694068/",
+      "source_type": "real-site photography; Flickr dateTaken June 6, 2021"
+    },
+    {
+      "id": "franks_excluded_gone_parks",
+      "title": "Live the Movies — Frank’s in Gone Girl and Parks and Recreation",
+      "url": "https://www.livethemovies.com/blog/franks-restaurant",
+      "source_type": "scene-by-scene location research"
+    },
+    {
+      "id": "franks_weird_scene",
+      "title": "MovieMaps — Frank’s diner scene in Weird: The Al Yankovic Story",
+      "url": "https://moviemaps.org/locations/c43",
+      "source_type": "scene location research"
+    },
+    {
+      "id": "franks_weird_script",
+      "title": "Weird: The Al Yankovic Story — working screenplay, March 13, 2022",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/weird-the-al-yankovic-story-2022.pdf?v=1745342212",
+      "source_type": "primary screenplay; Miami diner context"
+    }
+  ],
+  "audit": [
+    {
+      "id": 224,
+      "verification": "One real building with two verified Los Angeles-set appearances, not a list of every production credit. Larry Crowne: Visit Burbank and IAMNOTASTALKER independently identify scooter-group lunches and the cook job; Levy explicitly calls the movie set in and around Los Angeles, and The National describes the scooter gang cruising suburban Los Angeles."
+    },
+    {
+      "id": 224,
+      "verification": "Scorpion: Gary Wayne’s frame guide matches Frank’s interior to the pilot’s Paige/Ralph/Walter scenes and later emergency base. The aired transcript names the L.A. office, LAX/Long Beach/Burbank airports and Los Angeles infrastructure; the development screenplay explicitly labels the diner Los Angeles. Development-draft distances and Paige’s superseded surname were not treated as final continuity."
+    },
+    {
+      "id": 224,
+      "verification": "Coordinates are the Census Public_AR_Current street-interpolated match for 916 W OLIVE AVE, BURBANK, CA, 91506, retrieved November 16, 2026. They identify the production address, not a proven canonical street number."
+    },
+    {
+      "id": 224,
+      "verification": "Canonical years c.2011 and c.2014 are contemporary release-year estimates, not exact dates. Date filtering must retain these dated estimates."
+    },
+    {
+      "id": 224,
+      "verification": "Visually inspected source images: Larry scooter-group exterior, Larry kitchen frame, Scorpion diner-counter scene and wide rescue-base scene, 2020 exterior and 2021 window/interior photo. Public files use the exterior Larry frame and wide Scorpion frame. Only black letterbox bars and the 1px source border were removed; no image was generated."
+    },
+    {
+      "id": 224,
+      "verification": "Real-site primary photo is published June 8, 2020; capture date is not asserted. Additional file photos/f224-2021-place.jpg is Ian / Flickr’s photograph with embedded page dateTaken 2021-06-06 12:09:10, showing the closed sign through the window; its source is franks_real_2021. No current operating status is claimed."
+    },
+    {
+      "id": 224,
+      "verification": "No scene-specific, canonically Los Angeles evidence was established for the suggested Lucifer, Bosch, Barry, Casual, Goliath, Fast & Furious, Mad Men or True Romance leads. Review’s pancake scene is a credible Frank’s lead but story geography remains unverified. These are research holds, not assertions that the productions never used Frank’s."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Beverly Hills, 90210 · Squash It",
+      "reason": "The Frank’s exterior represents a diner near Reno, Nevada; Valerie meets Ray there before returning to Beverly Hills. A different restaurant supplied the interior.",
+      "source_ids": [
+        "franks_larry_scene"
+      ]
+    },
+    {
+      "title": "CSI: Crime Scene Investigation",
+      "reason": "Identified diner scenes belong to the Las Vegas story, including Rashomama, Law of Gravity, Mascara and The List. Los Angeles production does not make them Los Angeles story locations.",
+      "source_ids": [
+        "franks_larry_scene"
+      ]
+    },
+    {
+      "title": "Parks and Recreation · Ron and Tammy",
+      "reason": "Ron and Tammy’s lunch is in the Pawnee, Indiana story.",
+      "source_ids": [
+        "franks_larry_scene",
+        "franks_excluded_gone_parks"
+      ]
+    },
+    {
+      "title": "Gone Girl",
+      "reason": "Nick, Margo and Tanner’s diner consultation is part of the Missouri investigation, not the film’s New York backstory or a Los Angeles scene.",
+      "source_ids": [
+        "franks_excluded_gone_parks"
+      ]
+    },
+    {
+      "title": "Weird: The Al Yankovic Story",
+      "reason": "Although Al’s home/career has Los Angeles scenes, the Frank’s kidnapping/fight follows the Miami-Dade concert arrest and jail release into a late-night diner. Screenplay scenes 56–58 establish the Miami context.",
+      "source_ids": [
+        "franks_weird_scene",
+        "franks_weird_script"
+      ]
+    },
+    {
+      "title": "Gigli",
+      "reason": "The Frank’s scene is verified in a trailer but the scene guide could not find it in the released film; hold until a released-version appearance is demonstrated.",
+      "source_ids": [
+        "franks_larry_scene"
+      ]
+    },
+    {
+      "title": "Euphoria · Trouble Don’t Last Always",
+      "reason": "Rue and Ali’s Frank’s scene is verified, but its fictional East Highland setting has not been established as Los Angeles County by a canonical source. Held rather than treating filming geography as story geography.",
+      "source_ids": [
+        "franks_visit_burbank",
+        "franks_weird_scene"
+      ]
+    }
+  ],
+  "alternateMedia": {
+    "real2021": {
+      "src": "photos/f224-2021-place.jpg",
+      "sourceUrl": "https://www.flickr.com/photos/ijp01/51229694068/",
+      "credit": "Ian / ijp01 / Flickr",
+      "date": "2021-06-06",
+      "caption": "Frank’s Restaurant window and interior",
+      "note": "Capture date is the source page’s dateTaken metadata; the visible CLOSED sign records that moment, not a verified permanent closure."
+    }
+  }
+}

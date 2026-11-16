@@ -45,6 +45,11 @@ test('address, character, title and spelling aliases search locally',()=>{
   for(const query of ['Eady','Edy','Edie','Blue Heights','Bosch'])assert.ok(filterPlaces(data.places,{query}).some(p=>p.id===1),query);
   assert.ok(filterPlaces(data.places,{query:'Voyager'}).some(p=>p.id===83));
 });
+test('unpunctuated movie titles find every location for the film',()=>{
+  for(const [query,film] of [['To Live and Die in LA','To Live and Die in L.A.'],['LA Confidential','L.A. Confidential']]){
+    assert.deepEqual(filterPlaces(data.places,{query}).map(p=>p.id),filterPlaces(data.places,{film}).map(p=>p.id));
+  }
+});
 test('shareable state roundtrips and clamps hostile/out-of-bounds inputs',()=>{
   const state={selected:83,route:null,person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
   assert.deepEqual(readState(stateHash(state)),state);
@@ -77,8 +82,8 @@ test('story evidence overrides contradictory production coordinates',()=>{
   assert.equal(filterPlaces(data.places,{film:'Falling Down'}).some(p=>p.id===92),false);
 });
 test('every directory entry has local, attributed screen and site images',()=>{
-  for(const p of data.places)for(const kind of ['screen','place']){
-    const photo=p.media?.[kind];assert.ok(photo?.src,`${p.id}: ${kind}`);
+  for(const p of data.places)for(const pair of [p.media,...Object.values(p.mediaByTitle||{})])for(const kind of ['screen','place']){
+    const photo=pair?.[kind];assert.ok(photo?.src,`${p.id}: ${kind}`);
     assert.ok(fs.statSync(new URL('../public/'+photo.src,import.meta.url)).size>1000);
     assert.match(photo.sourceUrl,/^https?:/);assert.ok(photo.credit);
   }
@@ -127,7 +132,7 @@ test('the expansion contains 100 new sourced places with unique identities',()=>
   const extra=JSON.parse(fs.readFileSync(new URL('../research/expansion-100.json',import.meta.url)));
   assert.equal(extra.places.length,100);
   assert.equal(new Set(extra.places.map(p=>p.id)).size,100);
-  assert.equal(data.places.length,201);
+  assert.equal(data.places.length,214);
   for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
 });
 test('LAX death and channel chase use sourced sites and navigable photo entries',()=>{
@@ -142,4 +147,30 @@ test('LAX death and channel chase use sourced sites and navigable photo entries'
     const p=data.places.find(p=>p.id===stop.placeId);assert.ok(p,`${j.id}: ${stop.name}`);
     assert.ok(p.media.screen.src&&p.media.place.src);
   }
+});
+
+test('Heat covers the major robberies and keeps the bank escape branches distinct',()=>{
+  assert.equal(filterPlaces(data.places,{film:'Heat'}).length,26);
+  const get=id=>data.places.find(p=>p.id===id);
+  assert.match(get(213).name,/Armored-truck robbery/);
+  assert.match(get(215).name,/Precious-metals/);
+  assert.match(get(216).name,/ambush/);
+  assert.equal(get(219).coordinates,null);
+  assert.match(get(219).placement.address,/Encino/);
+  assert.deepEqual(data.journeys.find(j=>j.id===225).stops.map(s=>s.placeId),[212,213,214]);
+  assert.deepEqual(data.journeys.find(j=>j.id===226).stops.map(s=>s.placeId),[205,206,217]);
+  assert.deepEqual(data.journeys.find(j=>j.id===98).stops.map(s=>s.placeId),[205,206,207]);
+  assert.equal(displayEntries([get(213)],{category:'death'})[0].name,'Armored-truck guards’ deaths');
+});
+test('Frank’s shares eligible L.A. stories and switches to the selected movie frame',()=>{
+  const franks=data.places.find(p=>p.id===224);
+  assert.deepEqual(franks.appearances.map(a=>a.title),['Larry Crowne','Scorpion']);
+  for(const film of ['Larry Crowne','Scorpion']){
+    const entry=displayEntries([franks],{film})[0];
+    assert.equal(entry.media.screen.title,film);
+    assert.equal(entry.media.screen.src,franks.mediaByTitle[film].screen.src);
+  }
+  assert.equal(displayEntries([franks],{time:time(2011)})[0].media.screen.title,'Larry Crowne');
+  assert.equal(displayEntries([franks],{time:time(2014)})[0].media.screen.title,'Scorpion');
+  assert.equal(displayEntries([franks],{film:'Gone Girl'}).length,0);
 });

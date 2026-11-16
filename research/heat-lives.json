@@ -1,0 +1,800 @@
+{
+  "places": [
+    {
+      "id": 218,
+      "name": "Neil McCauley’s home",
+      "short": "Neil McCauley’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "26940 Malibu Cove Colony Drive",
+      "area": "Malibu",
+      "coordinates": [
+        -118.759636,
+        34.025875
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Malibu · oceanfront home",
+        "precision": "street-interpolated",
+        "reason": "The oceanfront filming house is identified by Film Oblivion using interior listing comparisons and an on-site GPS visit. No canonical numbered address is established; this is a production-site proxy for the coastal home. Census coordinate is street-interpolated.",
+        "sourceIds": [
+          "heat_lives_fo",
+          "heat_lives_census"
+        ]
+      },
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "McCauley’s spare oceanfront home; Chris stays after an argument with Charlene",
+          "filming_component": "interior",
+          "source_ids": [
+            "heat_lives_fo",
+            "heat_lives_home_clip"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "resident"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "guest"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h218-screen.jpg",
+          "sourceUrl": "https://clip.cafe/heat-1995/when-gonna-get-some-furniture-when-l-get-around-it/",
+          "credit": "Heat film frame; Clip.Cafe",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Chris and Neil in the kitchen of Neil’s home.",
+          "imageUrl": "https://clip.cafe/clipimg/when-gonna-get-some-furniture-when-l-get-around-it.jpg",
+          "width": 1100,
+          "height": 458
+        },
+        "place": {
+          "src": "photos/h218-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "title": "Production house",
+          "caption": "Production house",
+          "alt": "The beach-facing exterior of the production house at Malibu Cove Colony.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat20.jpg",
+          "width": 1067,
+          "height": 800,
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.759636,
+        34.025875
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Roger Van Zant’s home",
+      "short": "Roger Van Zant’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "Production site: 9024 Thrasher Avenue",
+      "area": "Encino",
+      "coordinates": null,
+      "precision": "neighborhood-only",
+      "placement": {
+        "kind": "screen",
+        "address": "10725 Hillside Terrace, Encino · exact site unconfirmed",
+        "precision": "neighborhood-only",
+        "reason": "Nate explicitly gives Hillside Terrace in Encino, number 10725, in the final film’s phone conversation. The verified production home on Thrasher Avenue is in the Hollywood Hills and is not the story address. No real match to the fictional address is established, so the entry has no point. The viewport only frames Encino.",
+        "sourceIds": [
+          "heat_lives_nate_address",
+          "heat_lives_fo"
+        ],
+        "viewport": [
+          [
+            -118.55,
+            34.125
+          ],
+          [
+            -118.48,
+            34.19
+          ]
+        ]
+      },
+      "people": [
+        "Roger Van Zant",
+        "Neil McCauley"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Van Zant’s home, where McCauley confronts and kills him",
+          "filming_component": "house",
+          "source_ids": [
+            "heat_lives_fo",
+            "heat_lives_nate_address",
+            "heat_lives_van_clip"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Roger Van Zant",
+              "relationship": "resident; killed here"
+            },
+            {
+              "name": "Neil McCauley",
+              "relationship": "kills Van Zant"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h219-screen.jpg",
+          "sourceUrl": "https://clip.cafe/heat-1995/waingro-where-he-s1/",
+          "credit": "Heat film frame; Clip.Cafe",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Neil McCauley points his pistol at Van Zant inside the house.",
+          "imageUrl": "https://clip.cafe/clipimg/waingro-where-he-s1.jpg",
+          "width": 1100,
+          "height": 458
+        },
+        "place": {
+          "src": "photos/h219-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "title": "Production house · Hollywood Hills",
+          "caption": "Production house · Hollywood Hills",
+          "alt": "The Thrasher Avenue house used in production.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat58.jpg",
+          "width": 1067,
+          "height": 800,
+          "note": "Production site only. The film places Van Zant’s home in Encino; capture date not supplied."
+        }
+      },
+      "productionCoordinates": [
+        -118.388055,
+        34.098112
+      ],
+      "deaths": [
+        {
+          "title": "Heat",
+          "people": [
+            "Roger Van Zant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "name": "Albert Torena’s chop shop",
+      "short": "Albert Torena’s chop shop",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "Rail yard behind 1017 Foote Avenue / former MacDonough Avenue yard",
+      "area": "Wilmington",
+      "coordinates": [
+        -118.2307,
+        33.785
+      ],
+      "precision": "approximate-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Wilmington · rail yard",
+        "precision": "approximate-site",
+        "reason": "The location manager identifies a real Wilmington chop shop between railroad tracks beside a sulfur mound. Film Oblivion locates access near 1017 Foote Avenue; ItsFilmedThere gives roughly 1027 MacDonough Avenue and surviving Schley Avenue landmarks. The point and small polygon represent the former yard area, checked against Esri aerial imagery, rather than an exact surviving doorway.",
+        "sourceIds": [
+          "heat_lives_lataco",
+          "heat_lives_fo",
+          "heat_lives_ift",
+          "heat_lives_esri"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.2322,
+                33.7857
+              ],
+              [
+                -118.2294,
+                33.7857
+              ],
+              [
+                -118.2294,
+                33.7843
+              ],
+              [
+                -118.2322,
+                33.7843
+              ],
+              [
+                -118.2322,
+                33.7857
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.234,
+            33.782
+          ],
+          [
+            -118.227,
+            33.788
+          ]
+        ]
+      },
+      "people": [
+        "Albert Torena",
+        "Vincent Hanna",
+        "Drucker"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Hanna questions informant Albert Torena about the armored-truck robbery",
+          "filming_component": "yard",
+          "source_ids": [
+            "heat_lives_lataco",
+            "heat_lives_fo",
+            "heat_lives_ift"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Albert Torena",
+              "relationship": "informant; works here"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "questions Torena"
+            },
+            {
+              "name": "Drucker",
+              "relationship": "accompanies Hanna"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h220-screen.jpg",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Heat film frame; Warner Bros., via L.A. TACO",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Albert Torena outside his chop shop with the sulfur mound behind him.",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_ChopShop3.jpg?w=1100",
+          "width": 1100,
+          "height": 456
+        },
+        "place": {
+          "src": "photos/h220-place.jpg",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Jared Cowan / L.A. TACO",
+          "title": "Former chop-shop yard",
+          "caption": "Former chop-shop yard",
+          "alt": "The cleared Wilmington chop-shop yard, with palms and railroad tracks.",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_ChopShop2.jpg?w=1100",
+          "width": 1100,
+          "height": 729,
+          "note": "Photograph published with the 2019 crew interview; capture date is not supplied."
+        }
+      },
+      "productionCoordinates": [
+        -118.2307,
+        33.785
+      ]
+    },
+    {
+      "id": 221,
+      "name": "Broadway Deli",
+      "short": "Broadway Deli",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1457 Third Street Promenade",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.495136,
+        34.014949
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Third Street Promenade · Broadway Deli",
+        "precision": "street-interpolated",
+        "reason": "Film Oblivion and Then & Now independently identify the former café at 1457 Third Street Promenade. Eady and Neil meet here after his bookstore visit. No contradictory story address is established. The original café is gone and the property has been remodeled; coordinate is Census street interpolation.",
+        "sourceIds": [
+          "heat_lives_fo",
+          "heat_lives_then",
+          "heat_lives_census"
+        ]
+      },
+      "people": [
+        "Eady",
+        "Neil McCauley"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Neil and Eady get to know each other over coffee",
+          "filming_component": "interior",
+          "source_ids": [
+            "heat_lives_fo",
+            "heat_lives_then",
+            "heat_lives_coffee_clip"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eady",
+              "relationship": "meets Neil here"
+            },
+            {
+              "name": "Neil McCauley",
+              "relationship": "meets Eady here"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h221-screen.jpg",
+          "sourceUrl": "https://clip.cafe/heat-1995/lady-why-are-you-interested-in-what-l-read-what-l-do/",
+          "credit": "Heat film frame; Clip.Cafe",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Eady speaks with Neil over coffee in the Broadway Deli.",
+          "imageUrl": "https://clip.cafe/img800/lady-why-are-you-interested-in-what-l-read-what-l-do.jpg",
+          "width": 800,
+          "height": 334
+        },
+        "place": {
+          "src": "photos/h221-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "title": "Former Broadway Deli",
+          "caption": "Former Broadway Deli",
+          "alt": "The remodeled storefront on Third Street Promenade that replaced the Broadway Deli.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat50.jpg",
+          "width": 1067,
+          "height": 800,
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.495136,
+        34.014949
+      ]
+    },
+    {
+      "id": 222,
+      "name": "Neil and Eady’s ocean overlook",
+      "short": "Neil and Eady’s ocean overlook",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "Via de las Olas, near North Beirut Avenue",
+      "area": "Pacific Palisades",
+      "coordinates": [
+        -118.531528,
+        34.035556
+      ],
+      "precision": "documented-GPS",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Via de las Olas · ocean bluff",
+        "precision": "documented-GPS",
+        "reason": "Film Oblivion supplies GPS 34°02′08.0″N, 118°31′53.5″W for the tree and overlook. ItsFilmedThere gives 15520 Via de las Olas; Seeing Stars places the bluff opposite 15515–15527. The scene is on the Pacific Palisades cliffs; no contradictory story location is known.",
+        "sourceIds": [
+          "heat_lives_fo",
+          "heat_lives_ift",
+          "heat_lives_stars"
+        ]
+      },
+      "people": [
+        "Neil McCauley",
+        "Eady"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Neil asks Eady to go away with him after the bank robbery",
+          "filming_component": "bluff",
+          "source_ids": [
+            "heat_lives_fo",
+            "heat_lives_ift",
+            "heat_lives_stars"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "asks Eady to leave with him"
+            },
+            {
+              "name": "Eady",
+              "relationship": "agrees to leave with Neil"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h222-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat film frame; ItsFilmedThere",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Neil and Eady stand beside the large tree on the ocean bluff at dusk.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYzMHppHD6_FASEqMm7qR56PkkUEYLpE4x8dPv7BL2j7OnBhzYUOGrecb-UuHeMSJNlBE8mEJBxtUWihafb4C9zCRuPdllg00eHTxupQ8shXaPquFa7VwVl35hyphenhyphenH1rei8PnQNUS2OZp5M/s1612/Small+Park+1.jpg",
+          "width": 1100,
+          "height": 463
+        },
+        "place": {
+          "src": "photos/h222-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "title": "Via de las Olas overlook",
+          "caption": "Via de las Olas overlook",
+          "alt": "The same tree and ocean-facing bluff on Via de las Olas.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat28.jpg",
+          "width": 1067,
+          "height": 800,
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.531528,
+        34.035556
+      ]
+    },
+    {
+      "id": 223,
+      "name": "Zenzero restaurant",
+      "short": "Zenzero restaurant",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "1535 Ocean Avenue · Ivy at the Shore",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.495858,
+        34.012307
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Ocean Avenue · Zenzero",
+        "precision": "street-interpolated",
+        "reason": "The crew’s restaurant is identified as Zenzero by Then & Now, played by Ivy at the Shore at 1535 Ocean Avenue. ItsFilmedThere identifies the police surveillance viewpoint across the street at the Shore Hotel. This is McCauley’s crew dinner, not a Hanna–Justine dinner. The point is the restaurant’s Census street-interpolated address.",
+        "sourceIds": [
+          "heat_lives_fo",
+          "heat_lives_then",
+          "heat_lives_ift",
+          "heat_lives_census"
+        ]
+      },
+      "people": [
+        "Neil McCauley",
+        "Michael Cheritto",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "McCauley’s crew dinner and Hanna’s surveillance across the street",
+          "filming_component": "restaurant; exterior",
+          "source_ids": [
+            "heat_lives_fo",
+            "heat_lives_ift",
+            "heat_lives_then"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "dines here"
+            },
+            {
+              "name": "Michael Cheritto",
+              "relationship": "dines with the crew"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "surveils the crew from across Ocean Avenue"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/h223-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat film frame; ItsFilmedThere",
+          "title": "Heat",
+          "caption": "Heat · 1995",
+          "alt": "Hanna’s team watches the restaurant and McCauley’s crew from across Ocean Avenue.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaOAEreRMaoJlEVtrbaaDIuZRsOyOceaRn1xeo0YhrcTpBahbRsvpgLtR1vZhqcZPEOB3MubHJ0CGc2R3VLtIBYMyN0M37SZvAKKvxqPkg5aNphwMwxFKWvTE_1-i62Y2IjWHy_rW-U_E/s1614/Ivy+1.jpg",
+          "width": 1100,
+          "height": 463
+        },
+        "place": {
+          "src": "photos/h223-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "title": "Ivy at the Shore",
+          "caption": "Ivy at the Shore",
+          "alt": "The pink Ivy at the Shore building on Ocean Avenue.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat25.jpg",
+          "width": 1100,
+          "height": 798,
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.495858,
+        34.012307
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "heat_lives_fo",
+      "title": "Heat (1995): photographed production locations",
+      "url": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "source_type": "location research and original photographs"
+    },
+    {
+      "id": "heat_lives_ift",
+      "title": "Heat: scene timestamps, frames and production addresses",
+      "url": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "source_type": "location research and film frames"
+    },
+    {
+      "id": "heat_lives_lataco",
+      "title": "Where Heat was shot: interviews with location managers",
+      "url": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "source_type": "crew interviews and original photographs"
+    },
+    {
+      "id": "heat_lives_then",
+      "title": "Heat: Then & Now location comparisons",
+      "url": "https://www.thennowmovielocations.com/2013/12/heat.html",
+      "source_type": "location research and comparison photographs"
+    },
+    {
+      "id": "heat_lives_home_clip",
+      "title": "Heat: Neil and Chris in Neil’s home",
+      "url": "https://clip.cafe/heat-1995/when-gonna-get-some-furniture-when-l-get-around-it/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "heat_lives_van_clip",
+      "title": "Heat: McCauley confronts Van Zant",
+      "url": "https://clip.cafe/heat-1995/waingro-where-he-s1/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "heat_lives_nate_address",
+      "title": "Heat: Nate gives Van Zant’s Encino address",
+      "url": "https://clip.cafe/heat-1995/you-on-a-cellular-use-a-hard-line/",
+      "source_type": "film dialogue"
+    },
+    {
+      "id": "heat_lives_coffee_clip",
+      "title": "Heat: Neil and Eady’s first coffee",
+      "url": "https://clip.cafe/heat-1995/lady-why-are-you-interested-in-what-l-read-what-l-do/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "heat_lives_stars",
+      "title": "Heat: ocean bluff scene location",
+      "url": "https://www.seeing-stars.com/Locations/Heat5.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "heat_lives_census",
+      "title": "U.S. Census Bureau address geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "heat_lives_esri",
+      "title": "Esri World Imagery: Wilmington rail yard",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    }
+  ],
+  "audit": [
+    {
+      "id": 218,
+      "name": "Neil McCauley’s home",
+      "verified": "The oceanfront filming house is identified by Film Oblivion using interior listing comparisons and an on-site GPS visit. No canonical numbered address is established; this is a production-site proxy for the coastal home. Census coordinate is street-interpolated.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "geocode": {
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=26940+Malibu+Cove+Colony+Dr+Malibu+CA&benchmark=Public_AR_Current&format=json",
+        "matchedAddress": "26940 MALIBU COVE COLONY DR, MALIBU, CA, 90265",
+        "coordinates": {
+          "x": -118.759635559502,
+          "y": 34.025874840705
+        },
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 219,
+      "name": "Roger Van Zant’s home",
+      "verified": "Nate explicitly gives Hillside Terrace in Encino, number 10725, in the final film’s phone conversation. The verified production home on Thrasher Avenue is in the Hollywood Hills and is not the story address. No real match to the fictional address is established, so the entry has no point. The viewport only frames Encino.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "canonical_correction": "Final-film Nate dialogue establishes Encino, not the Hollywood Hills production address; coordinate intentionally null.",
+      "geocode": {
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9024+Thrasher+Ave+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "matchedAddress": "9024 W THRASHER AVE, LOS ANGELES, CA, 90069",
+        "coordinates": {
+          "x": -118.388055374807,
+          "y": 34.098111710685
+        },
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 220,
+      "name": "Albert Torena’s chop shop",
+      "verified": "The location manager identifies a real Wilmington chop shop between railroad tracks beside a sulfur mound. Film Oblivion locates access near 1017 Foote Avenue; ItsFilmedThere gives roughly 1027 MacDonough Avenue and surviving Schley Avenue landmarks. The point and small polygon represent the former yard area, checked against Esri aerial imagery, rather than an exact surviving doorway.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "coordinate_check": "Census matched 1017 Foote Avenue at [-118.229647,33.784315] as a nearby access reference; scene yard sits northwest between the rails beside the sulfur mound. Exact MacDonough address no longer geocodes. Approximate yard point [-118.2307,33.7850], not a rooftop pin. Aerial independently visually checked."
+    },
+    {
+      "id": 221,
+      "name": "Broadway Deli",
+      "verified": "Film Oblivion and Then & Now independently identify the former café at 1457 Third Street Promenade. Eady and Neil meet here after his bookstore visit. No contradictory story address is established. The original café is gone and the property has been remodeled; coordinate is Census street interpolation.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "geocode": {
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1457+Third+Street+Promenade+Santa+Monica+CA&benchmark=Public_AR_Current&format=json",
+        "matchedAddress": "1457 3RD STREET PROMENADE, SANTA MONICA, CA, 90401",
+        "coordinates": {
+          "x": -118.495136330067,
+          "y": 34.014948579584
+        },
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 222,
+      "name": "Neil and Eady’s ocean overlook",
+      "verified": "Film Oblivion supplies GPS 34°02′08.0″N, 118°31′53.5″W for the tree and overlook. ItsFilmedThere gives 15520 Via de las Olas; Seeing Stars places the bluff opposite 15515–15527. The scene is on the Pacific Palisades cliffs; no contradictory story location is known.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "coordinate_check": "Decimal conversion of Film Oblivion’s explicit GPS, cross-checked against the matching tree in frame/site photographs."
+    },
+    {
+      "id": 223,
+      "name": "Zenzero restaurant",
+      "verified": "The crew’s restaurant is identified as Zenzero by Then & Now, played by Ivy at the Shore at 1535 Ocean Avenue. ItsFilmedThere identifies the police surveillance viewpoint across the street at the Shore Hotel. This is McCauley’s crew dinner, not a Hanna–Justine dinner. The point is the restaurant’s Census street-interpolated address.",
+      "media_review": "Actual Heat frame and real production-site photograph visually reviewed as a pair. No generated imagery. Capture dates are omitted because sources do not establish them.",
+      "geocode": {
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1535+Ocean+Ave+Santa+Monica+CA&benchmark=Public_AR_Current&format=json",
+        "matchedAddress": "1535 OCEAN AVE, SANTA MONICA, CA, 90401",
+        "coordinates": {
+          "x": -118.495858112416,
+          "y": 34.01230677612
+        },
+        "precision": "street-interpolated"
+      }
+    }
+  ]
+}
