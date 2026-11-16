@@ -1,0 +1,2 @@
+const known:Record<string,string>={Heat:'#a33f32','Falling Down':'#90651e','Terminator 2: Judgment Day':'#286d88','The Fast and the Furious':'#73519a','Blade Runner':'#51704f',Bosch:'#786140','The Terminator':'#476e91','The Big Lebowski':'#88602e','L.A. Confidential':'#924f64',Chinatown:'#2b746f',Drive:'#a74678','Star Trek: Voyager':'#426f85','La La Land':'#9a7226'};
+export function filmColor(title:string){if(known[title])return known[title];let hash=0;for(const c of title)hash=(Math.imul(hash,31)+c.charCodeAt(0))|0;return `hsl(${Math.abs(hash)%360},43%,35%)`;}

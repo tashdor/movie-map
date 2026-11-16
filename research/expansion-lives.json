@@ -1,0 +1,3875 @@
+{
+  "places": [
+    {
+      "id": 167,
+      "name": "Hot Traxx",
+      "short": "Hot Traxx",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "18419 Sherman Way",
+      "area": "Reseda",
+      "coordinates": [
+        -118.534623886911,
+        34.201233394856
+      ],
+      "productionCoordinates": [
+        -118.534623886911,
+        34.201233394856
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Reseda · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler",
+        "Jack Horner",
+        "Maurice Rodriguez"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Hot Traxx",
+          "filming_component": "18419 Sherman Way",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ],
+            "end_year": 1984
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Horner",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Maurice Rodriguez",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n167-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnc61tLXSokXvyXLnjGpEMocjWeUEKFbIHFTEnRlg8Ej-698NE1p_hLNEJtzxfu6WIdCakN17sP6leU8r6A7_1_KmVZnkadRJgtJVSXhIPQcpDTztLBdpViH5faQY8km9L0E2nPmg5k1w/s400/Club.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n167-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-xgMMmSF-8s1n1Mnh54Cdm6wPWjpcb4SV989bFOGnXpxkN-EFfHbcQez_lFuS6-InP11mM1FvqaY2OqC0H3Ge2i439JmTuJgRXN-4UCyOY2zt0NynlSvc4u_q3bFzLTLMi_OIcV7sqPc/s400/DSCF6272+-+Copy.JPG"
+        }
+      }
+    },
+    {
+      "id": 168,
+      "name": "Buck’s stereo shop",
+      "short": "Buck’s stereo shop",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "9043 Woodman Avenue",
+      "area": "Arleta",
+      "coordinates": [
+        -118.439467592033,
+        34.233933431092
+      ],
+      "productionCoordinates": [
+        -118.439467592033,
+        34.233933431092
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Arleta · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Buck Swope"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Buck’s stereo shop",
+          "filming_component": "9043 Woodman Avenue",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ],
+            "end_year": 1980
+          },
+          "characters": [
+            {
+              "name": "Buck Swope",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n168-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUvdwtpEGbXUhZFhBOYgDu8U6YiebcNaC85IIAYcymHSFMI4FKyRmw07Tmi63GvhXla-yW-VMf3nxFKiIe1ISribg-WG9DKavXeItDUkCC594c3KcEK0kDp-aBR4m1yUPnEBEzzSt95ZE/s400/Store+2.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n168-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6ARkPphvYp9aqRQC9T2ZmvsWgPAuwFshww7D3qTz_53AyVgEZnCeD7B4WFsKsjw4MeYDSKOeEPFI4-HrK2D8ks-U9wPOlxNfhbyuJN4QWpFoLrME7hFyA_isibRpElgUCEA_r4kI7Uuk/s400/Los+Angeles+November+2011+349+%25282%2529.jpg"
+        }
+      }
+    },
+    {
+      "id": 169,
+      "name": "Eddie Adams’s family home",
+      "short": "Eddie Adams’s family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "3503 West 187th Street",
+      "area": "Torrance",
+      "coordinates": [
+        -118.333518193743,
+        33.861065015194
+      ],
+      "productionCoordinates": [
+        -118.333518193743,
+        33.861065015194
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Torrance · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler",
+        "Eddie’s mother",
+        "Eddie’s father"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Eddie Adams’s family home",
+          "filming_component": "3503 West 187th Street",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eddie’s mother",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eddie’s father",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n169-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRI6BulDNfsv0RKbznPFJE2M1Rs7lRoTdLqsl2FylS8bTEoITvdJXgU6FGQdVk7DTPOPcVGXbwqGFCWyz97Z324mz30u-ZoIFVQgGIGmUVoKD7TLYxfOKe9exvLTe00FDBuiek8WacIVQ/s400/Dirk+House+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n169-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2QnBmOmbZLZYtMzuTqLU-C0Gw7MW7mZ4kZxsgZVWfHM9Tqn2jARdBGXuHSTN9ULiBPE-dPRMaYg9-or0enzhWSWsJulCut674rgZPoyYZ52ZubxT0CqRbzYR3tghLXwam2rCcJgM9JmY/s400/Los+Angeles+2011+755.jpg"
+        }
+      }
+    },
+    {
+      "id": 170,
+      "name": "Jack Horner’s home",
+      "short": "Jack Horner’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "19515 East Cameron Avenue",
+      "area": "West Covina",
+      "coordinates": null,
+      "productionCoordinates": [
+        -117.870982848909,
+        34.056847835351
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "San Fernando Valley · exact home unlocated",
+        "precision": "unlocated",
+        "sourceIds": [
+          "lives_boogie_plot",
+          "lives_boogie_ift"
+        ]
+      },
+      "people": [
+        "Jack Horner",
+        "Amber Waves",
+        "Rollergirl",
+        "Little Bill Thompson"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Jack Horner’s home",
+          "filming_component": "19515 East Cameron Avenue",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ],
+            "end_year": 1984
+          },
+          "characters": [
+            {
+              "name": "Jack Horner",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Amber Waves",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rollergirl",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Little Bill Thompson",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Jack’s story home is in the San Fernando Valley. The West Covina property is a production site; it is not pinned as the story address.",
+      "media": {
+        "screen": {
+          "src": "photos/n170-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNx29pk7w0yT6uC0DS3zeD6VZmQy-On3OIaZ6V6sdbE6lKmd5BMl1PmGCyHc7G2EX4Fh1nVSRWvcaU8Y5DDzRYzfN8pumaouqIt1WEQDdOh4xrOcWEQkOVJ9wewxh9-OMnpkebmKuFlpM/s400/Horner+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n170-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+          "credit": "Robert Patterson / Set-Jetter",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791656033326-QFGBCP3T2BJEOQ0C0TRJ/Boogie+Nights+%2847%29.png?format=1000w",
+          "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Boogie Nights",
+          "people": [
+            "Little Bill Thompson",
+            "Little Bill’s wife",
+            "Her lover"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Dirk’s new home",
+      "short": "Dirk’s new home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4214 Lobos Road",
+      "area": "Woodland Hills",
+      "coordinates": [
+        -118.595166479046,
+        34.146081902869
+      ],
+      "productionCoordinates": [
+        -118.595166479046,
+        34.146081902869
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Woodland Hills · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler",
+        "Reed Rothchild",
+        "Scotty J."
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Dirk’s new home",
+          "filming_component": "4214 Lobos Road",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ],
+            "end_year": 1984
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Reed Rothchild",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Scotty J.",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n171-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghjRdDTlukVb05MoO7zG7YLw0DIdfTE668R1iOy-EoHjnK3sM3-VFwU-F7UrNALXnnpEdvU5ammE1uysoJ-lJ6DDvOd5Wgj5E3U0IUIJ6ViemtcZg8xcu7mg3cB5S1qX3GLvhFTU-c4Rg/s400/New+Dirk+House.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n171-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+          "credit": "Robert Patterson / Set-Jetter",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655800048-511PLU1VUVWN3DD5UPMK/Boogie+Nights+%285%29.png?format=1000w",
+          "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+        }
+      }
+    },
+    {
+      "id": 172,
+      "name": "Dirk’s river footbridge",
+      "short": "Dirk’s river footbridge",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Colfax Avenue footbridge north of Ventura Boulevard",
+      "area": "Studio City",
+      "coordinates": [
+        -118.3873743,
+        34.14234465
+      ],
+      "productionCoordinates": [
+        -118.3873743,
+        34.14234465
+      ],
+      "precision": "osm-way-center",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles River footbridge · Studio City",
+        "precision": "osm-way-center",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_colfax_osm"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler",
+        "Amber Waves"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Dirk’s river footbridge",
+          "filming_component": "Colfax Avenue footbridge north of Ventura Boulevard",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_colfax_osm"
+          ],
+          "story_time": {
+            "year": 1980,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ],
+            "end_year": 1984
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Amber Waves",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Dilling Bridge is the pedestrian crossing immediately east of Colfax Avenue, identified by the comparison photographs and OpenStreetMap way571151870.",
+      "media": {
+        "screen": {
+          "src": "photos/n172-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnFJRXGravViXTtFPbGXGzMEmvt3BhkAn5kWcnqXmQB4t1x1BEHveGiG-cXU0qBsFunOdyEsYyEHVSBxrSKOcCX7ez9ZqLvd1J14knrf2pmTKz818ruHJZzxoUtQ_tukO4aK2hmGkiZvU/s400/Bridge+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n172-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+          "credit": "Robert Patterson / Set-Jetter",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655835779-GIL7TXTO66QLXMHP0IP3/Boogie+Nights+%287%29.png?format=1000w",
+          "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+        }
+      }
+    },
+    {
+      "id": 173,
+      "name": "Dirk’s pickup on Sherman Way",
+      "short": "Dirk’s pickup on Sherman Way",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "18128 Sherman Way",
+      "area": "Reseda",
+      "coordinates": [
+        -118.527984169874,
+        34.200951232523
+      ],
+      "productionCoordinates": [
+        -118.527984169874,
+        34.200951232523
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Reseda · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Dirk’s pickup on Sherman Way",
+          "filming_component": "18128 Sherman Way",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n173-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_E5s7MOvF0R_SbU04n7o8Qop7NCRLC-k_hrHexw-fvLDUfrxdbt8GUTKUa-RyUSiUhzAssSS0o7qPnt1u3OpiBXR0WeF4kHEDkR1h0mPlhwe_w0dIK-5cr469jkSLCQPht8HseQ7eO8U/s400/Church.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n173-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpWGdjXc-8HyVNeFNpxWIPNtdAWiGfhhXM9DMAIoyOkW_yMBZUyd_mk36Lf4ktbaA-LR3s8Q8vtwnPYChj65NxI9G3MQ75z4GCukZw5ihTAeqEELIJbvuoENGUQEMgSjgdeT7yRtZyR9g/s400/Los+Angeles+November+2011+799+%25281%2529.jpg"
+        }
+      }
+    },
+    {
+      "id": 174,
+      "name": "Miss Donuts",
+      "short": "Miss Donuts",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "18231 Sherman Way",
+      "area": "Reseda",
+      "coordinates": [
+        -118.530162969622,
+        34.201299691404
+      ],
+      "productionCoordinates": [
+        -118.530162969622,
+        34.201299691404
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Reseda · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Buck Swope"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Miss Donuts",
+          "filming_component": "18231 Sherman Way",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Buck Swope",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n174-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr6b1XWtfi2CHZ5zSffqYTDb_VDENyLolvA8n5dCC-rpjMEVuSZzQ9_ASMs47t9pJWnkKdQTbGw0WE2pcP-HCuNwbmu_-b5gZrfXs-RYdI_xGG6DYXQ92BPIHZ24PdUxs0WJFO08k-bw4/s400/Donut+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n174-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuHjmLe8m0y0Q5ywXlOuxCS95WnkN7tIz519MzKmKnVm3fSrWnlICN9wJTUDaDknUtNfbXUVyWw9r_HXlYWIkPymF1V64v2xYojtp9mD0Z-gjptQkakEIzCbMkuVLac0XmdrBYctw5yKXoQlo0HxkwXI1sP7aY8wIaQUx-NUE2I67qh-Vcknsgx45WfbI/w400-h299/DSCF6266%20-%20Copy.JPG"
+        }
+      },
+      "deaths": [
+        {
+          "title": "Boogie Nights",
+          "people": [
+            "Donut-shop clerk",
+            "Armed customer",
+            "Robber"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "The motel meeting",
+      "short": "The motel meeting",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "11117 Ventura Boulevard",
+      "area": "Studio City",
+      "coordinates": [
+        -118.372363265206,
+        34.141337486254
+      ],
+      "productionCoordinates": [
+        -118.372363265206,
+        34.141337486254
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Studio City · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Eddie Adams / Dirk Diggler",
+        "Reed Rothchild",
+        "Todd Parker"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "The motel meeting",
+          "filming_component": "11117 Ventura Boulevard",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Reed Rothchild",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Todd Parker",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n175-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXqJwkS8C5_WBS6BpozSqmjlYJRfNBQ7jQki30113WkwTD4gGghxjNK2myBjfF6EexDvNVHkHFIjRo-Y67wVkKngFQJXSxLleKZkQnqKR_YnyYT27o8XqMoP390irRUqyaP0jAswAWgjw/s400/Motel+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n175-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7oHPw9Cf8EmOYzzGQ4diW0mfrEaA-5qYQ92Wj8cVeZfth-cLFAZHAyABeqHrS3kBKg2PBrIv8qDPxVrx3RRl8Rfl-HQyq5-Pd1AJWflJdl62mAcC8IGRtJ1GSD6ClzuzSVg2-hA7EZII/s400/DSCF6305+-+Copy.JPG"
+        }
+      }
+    },
+    {
+      "id": 176,
+      "name": "Rahad Jackson’s home",
+      "short": "Rahad Jackson’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "16801 Encino Hills Drive",
+      "area": "Encino",
+      "coordinates": [
+        -118.499110688555,
+        34.139255010322
+      ],
+      "productionCoordinates": [
+        -118.499110688555,
+        34.139255010322
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Encino · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_boogie_ift",
+          "lives_boogie_set",
+          "lives_boogie_plot",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Rahad Jackson",
+        "Todd Parker",
+        "Reed Rothchild",
+        "Eddie Adams / Dirk Diggler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Boogie Nights",
+          "release_year": 1997,
+          "story_role": "Rahad Jackson’s home",
+          "filming_component": "16801 Encino Hills Drive",
+          "source_ids": [
+            "lives_boogie_ift",
+            "lives_boogie_set",
+            "lives_boogie_plot",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Scene ordered within the film’s documented 1977–1984 chronology.",
+            "source_ids": [
+              "lives_boogie_time",
+              "lives_boogie_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rahad Jackson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Todd Parker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Reed Rothchild",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eddie Adams / Dirk Diggler",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Fictional house number differs from the production number; property was subsequently demolished. Exact canonical street address is not confirmed.",
+      "media": {
+        "screen": {
+          "src": "photos/n176-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+          "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUZktDQp-zM8iw3o1seh5xFn1vZnc5NJZhcc0gbh5o5LWGWxGHyLvk2KEWbvofErYtrIB7O3mXQohavMWNFlxFbgHkz3OEV1nCpj5Y6ju3iyFNZgFSFeIuEPsJgWoMhvUxcSjbAucFgtc/s400/Drug+House+1.JPG",
+          "title": "Boogie Nights"
+        },
+        "place": {
+          "src": "photos/n176-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+          "credit": "Robert Patterson / Set-Jetter",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655855953-Z7RIP1801VBZV3BQ6QXQ/Boogie+Nights+%2819%29.png?format=1000w",
+          "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied.",
+          "caption": "Archival filming-site photo"
+        }
+      },
+      "deaths": [
+        {
+          "title": "Boogie Nights",
+          "people": [
+            "Todd Parker",
+            "Rahad’s bodyguard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Musso & Frank Grill",
+      "short": "Musso & Frank Grill",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "6667 Hollywood Boulevard",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.335335690418,
+        34.101623408292
+      ],
+      "productionCoordinates": [
+        -118.335335690418,
+        34.101623408292
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "Musso & Frank Grill · Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Rick Dalton",
+        "Cliff Booth",
+        "Marvin Schwarzs"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Musso & Frank Grill",
+          "filming_component": "6667 Hollywood Boulevard",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rick Dalton",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Cliff Booth",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Marvin Schwarzs",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n177-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW43g7FWaCOrcscHulzaLggOL4Z_zo4vPeWz47Li-vCJBDUokBkO1zAT_nASSiTqHel54jOQcRJkQaAXavTwbdcTPGjUOEXiEEVWAyZWNFyi4V0wGncnXdgi-AhmNwo97ukdHyXeqWHTHmvhsdo5Dkkvh5pxP9DrEwB6lhiMZjxI-EcxOw97vKK_LDPsA/w400-h164/Screenshot%202024-03-19%20125650.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n177-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
+        }
+      }
+    },
+    {
+      "id": 178,
+      "name": "Super A Foods",
+      "short": "Super A Foods",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "2924 Division Street",
+      "area": "Glassell Park",
+      "coordinates": [
+        -118.235597504978,
+        34.102923677309
+      ],
+      "productionCoordinates": [
+        -118.235597504978,
+        34.102923677309
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Glassell Park · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Pussycat",
+        "Manson Family women"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Super A Foods",
+          "filming_component": "2924 Division Street",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Pussycat",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Manson Family women",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n178-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkjDtb93_7J_hiuJ2a29Fdy6QpLtCRlT4vMTCJOf42CNh6JTps_0vvQf-EqAhAuziekU3CjH_C1tMI21yLf-_KW8tXcYv9F9H4rBpi6YDfejoHCb_zD-rpquEwwIY24IX0cb9hFl1nwyVAlAp0h8S4t_IX-YEUkw_rhS_c8lZLCGkubgm6AJugp_dQa8/w400-h166/Screenshot%202024-03-19%20132101.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n178-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood13.jpg"
+        }
+      }
+    },
+    {
+      "id": 179,
+      "name": "The Playboy Mansion",
+      "short": "The Playboy Mansion",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "10236 Charing Cross Road",
+      "area": "Holmby Hills",
+      "coordinates": [
+        -118.42967,
+        34.07647
+      ],
+      "productionCoordinates": [
+        -118.42967,
+        34.07647
+      ],
+      "precision": "osm-building-center",
+      "placement": {
+        "kind": "screen",
+        "address": "The Playboy Mansion · Holmby Hills",
+        "precision": "osm-building-center",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_playboy_osm"
+        ]
+      },
+      "people": [
+        "Sharon Tate",
+        "Roman Polanski",
+        "Steve McQueen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "The Playboy Mansion",
+          "filming_component": "10236 Charing Cross Road",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_playboy_osm"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Roman Polanski",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Steve McQueen",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n179-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitvfuFTKb_SFIDfuqEX2M5RhiHePhiHYsvvWmKUhJrk90yKf9GiIIyO0OetT1vqaPQJ0hDHYi2WdDLKaiFy_TreEYIz2h7BRXqB5RKeMjJU4skxdZxVG5D4C6qWXmMTxNd2NM59RcqOfXDoPNWlmaTQAIplYz-mpICTj_I-GVGlROhY4NmRTJzV4Uynwc/w400-h166/Screenshot%202024-03-19%20150812.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n179-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood85-1.jpg?w=1024"
+        }
+      }
+    },
+    {
+      "id": 180,
+      "name": "Sharon’s Wilshire pickup",
+      "short": "Sharon’s Wilshire pickup",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "10415 Wilshire Boulevard",
+      "area": "Westwood",
+      "coordinates": [
+        -118.42946129746,
+        34.066700086519
+      ],
+      "productionCoordinates": [
+        -118.42946129746,
+        34.066700086519
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westwood · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Sharon Tate",
+        "Hitchhiker"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Sharon’s Wilshire pickup",
+          "filming_component": "10415 Wilshire Boulevard",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Hitchhiker",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n180-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_SmyCnj_G5CXnPMZsm1t7txGtz3AuJDqhy-99f1wMgSjmAVDKGJ251cBM0b1A7jK_k6AS1CH7rwG_72znYy-TFyXjl3xHErBnfV9W5WHsg9gPLzh-VtcQX-AjbHid0RxyCz4C5seqwQ4ynfYUj3o2FQZ_Hms6axjZzLZ5N5V2ZzSuyJ_iBo4rnQ0ujoo/w400-h166/Screenshot%202024-03-19%20161935.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n180-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood81.jpg?w=1024"
+        }
+      }
+    },
+    {
+      "id": 181,
+      "name": "The Bruin Theatre",
+      "short": "The Bruin Theatre",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "948 Broxton Avenue",
+      "area": "Westwood",
+      "coordinates": [
+        -118.446971026252,
+        34.063100662149
+      ],
+      "productionCoordinates": [
+        -118.446971026252,
+        34.063100662149
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "The Bruin Theatre · Westwood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Sharon Tate"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "The Bruin Theatre",
+          "filming_component": "948 Broxton Avenue",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n181-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD5jTd9V1_xoRsmp_dx0l8SzbFY9bV-T-Vc5VuuJ206JdVpaD7e1FUtXBX_bZjrXrTr_s8yqfwcwzMiEB38z1IXxoLZnSBwurbGbMz75Xv91BI4cPzXaKy9flUx5nNEu0IvO8MwSR8twuXTtPNorntRwjfvmGy4fZwGg7Hr4huovO3mHg6-HJfq7mA37w/w400-h165/Screenshot%202024-03-19%20162628.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n181-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood8.jpg"
+        }
+      }
+    },
+    {
+      "id": 182,
+      "name": "Pussycat’s ride with Cliff",
+      "short": "Pussycat’s ride with Cliff",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "10726 Burbank Boulevard",
+      "area": "North Hollywood",
+      "coordinates": [
+        -118.364547009508,
+        34.172100709214
+      ],
+      "productionCoordinates": [
+        -118.364547009508,
+        34.172100709214
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "North Hollywood · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Pussycat",
+        "Cliff Booth"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Pussycat’s ride with Cliff",
+          "filming_component": "10726 Burbank Boulevard",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Pussycat",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Cliff Booth",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n182-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrYAfZrqgmOB2AqkJFSbI5etayvOm1BXkJlEsKDZVUB2BEd7RWkhKgKiqoY94dxUcgmsfZ7SBXpWOwM5qWi0sJaUPKNY1vNHm1Y6odQDRePEtJlD0BwNZKGPt99ZyQ8ksEV22RHtDs7Crfodwlo7dL1Nr1t-Q4FXMoeSZGrSOrP77-TfpoLVQXqNs5zRM/w400-h166/Screenshot%202024-03-19%20165215.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n182-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood17.jpg"
+        }
+      }
+    },
+    {
+      "id": 183,
+      "name": "El Coyote",
+      "short": "El Coyote",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "7312 Beverly Boulevard",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.349734600702,
+        34.076090888243
+      ],
+      "productionCoordinates": [
+        -118.349734600702,
+        34.076090888243
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "El Coyote · Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Sharon Tate",
+        "Jay Sebring",
+        "Abigail Folger",
+        "Voytek Frykowski"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "El Coyote",
+          "filming_component": "7312 Beverly Boulevard",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jay Sebring",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Abigail Folger",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Voytek Frykowski",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n183-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39mYcdKssZ8nnFdxwmhCZRvF5-QOQvEGMKagb9Vnp-vpiYGdR9VNNOuzcKBUwYBEhFKUk0FLDtWBm5DuqRZKUq3FKHrH7a4e9XGVcfh7BjavWWBeJwvqQfnCfXBfxjuJwgPuTjPgAVtrcCXrVjlk3iK7yBQZrbVbSJ9N7RQ9hgCx8UOn2FjNZihAirZA/w400-h168/Screenshot%202024-03-19%20223640.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n183-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/04/mansonfamily13.jpg?w=676"
+        }
+      }
+    },
+    {
+      "id": 184,
+      "name": "Casa Vega",
+      "short": "Casa Vega",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "13301 Ventura Boulevard",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.422555264318,
+        34.146641439012
+      ],
+      "productionCoordinates": [
+        -118.422555264318,
+        34.146641439012
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "Casa Vega · Sherman Oaks",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_once_ift",
+          "lives_once_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Rick Dalton",
+        "Cliff Booth"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Casa Vega",
+          "filming_component": "13301 Ventura Boulevard",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rick Dalton",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Cliff Booth",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n184-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin6ovWwNpoCgJ246C0kciVprcJgemshHvNMIT3LVmE22ph6qa0s_46D4g29FNjk8IMoo79sTQa4qzENthttHajm_NNncbgnguGqt5IGOGoyLEk6hUmuDsN0jV7EJtpjYiiWjhQdyfgBwRetNE17prFxkeRIbSVq-g2KHHmDkt-rHllVpNO4WI9VI6_19E/w400-h165/Screenshot%202024-03-19%20223905.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n184-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood82.jpg"
+        }
+      }
+    },
+    {
+      "id": 185,
+      "name": "Rick Dalton’s home",
+      "short": "Rick Dalton’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "10969 Alta View Drive",
+      "area": "Studio City",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.369741619557,
+        34.132152996513
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Cielo Drive · exact property unlocated",
+        "precision": "unlocated",
+        "sourceIds": [
+          "lives_once_fo"
+        ]
+      },
+      "people": [
+        "Rick Dalton",
+        "Francesca Capucci",
+        "Cliff Booth"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Rick Dalton’s home",
+          "filming_component": "10969 Alta View Drive",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census",
+            "lives_once_plot"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rick Dalton",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Francesca Capucci",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Cliff Booth",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "The story homes are neighbors on Cielo Drive. Alta View Drive supplies exterior components; production addresses are not canonical story addresses.",
+      "media": {
+        "screen": {
+          "src": "photos/n185-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3H53xW3JvW0zRAECWmhVrw8uJiu4_ev7PL8HeLxPYTfuRDWZdEDflJV2PvzuWXnM_6sgL9FVCaAblnfIevsxCeICOfhSX4PQ04pR-CmdBWbfqPpE1ZS6Wz4vMEiWeT0Xc8kgT-3Kl62m-0AKve1IhocqvGFWpwiDo1lNFpYhWrve9gFnXXaaEny-KOkY/w400-h168/Screenshot%202024-03-19%20134536.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n185-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood63.jpg",
+          "caption": "Alta View filming site"
+        }
+      },
+      "deaths": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "people": [
+            "Tex Watson",
+            "Susan “Sadie” Atkins",
+            "Patricia “Katie” Krenwinkel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Sharon Tate & Roman Polanski’s home",
+      "short": "Sharon Tate & Roman Polanski’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "10974 Alta View Drive",
+      "area": "Studio City",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.369914457049,
+        34.132109779194
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Cielo Drive · exact property unlocated",
+        "precision": "unlocated",
+        "sourceIds": [
+          "lives_once_fo"
+        ]
+      },
+      "people": [
+        "Sharon Tate",
+        "Roman Polanski",
+        "Jay Sebring"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Sharon Tate & Roman Polanski’s home",
+          "filming_component": "10974 Alta View Drive",
+          "source_ids": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony Pictures establishes 1969 Los Angeles.",
+            "source_ids": [
+              "lives_once_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Roman Polanski",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jay Sebring",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "The story homes are neighbors on Cielo Drive. Alta View Drive supplies exterior components; production addresses are not canonical story addresses.",
+      "media": {
+        "screen": {
+          "src": "photos/n186-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizSeuzFwaeAdBgLtNHn7hHQrsywvx9qAy0aPuZGon77paCIeaaC1w2D4LbeUCnkK_kghbU0AYlGSaAt7opwmLbNuJa7aE46BOhURvvFN6YZkhTU03cQbUAyODZQTyEa7aBKZtAXmCFNUQQXOaKX2EnyDnJ1VwbQJlJCPhzkpNWe6UrXfBdcovhTCFbupY/w400-h164/Screenshot%202024-03-19%20150005.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n186-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood89.jpg?w=1024",
+          "caption": "Alta View filming site"
+        }
+      }
+    },
+    {
+      "id": 187,
+      "name": "Mike’s apartment",
+      "short": "Mike’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "5870 Franklin Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.317653404005,
+        34.105202629732
+      ],
+      "productionCoordinates": [
+        -118.317653404005,
+        34.105202629732
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Mike Peters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "Mike’s apartment",
+          "filming_component": "5870 Franklin Avenue",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n187-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqQ9vx3C7eH2D9GvpVH4U1C4tJQC04VR8GHMCM6wPPWEEeXV36nzytlPfXU_x9CcA3XuyhV2-N_E5AlYCyvTN9iNTAk4Yp7EAkJMaM3g25UE7Bwy9hhbKVyOS4QqxIg9BIejwxf0v46J0a/s400/Apartment.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n187-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinzNUX8tdhjGX3SeQvuJ2NXF6DvOyITl3UOJLTua5eUhBa6SbkX8AA4H4Br52sc4P0kKxuq0yfq2rUhXV5B3o9fcfLDZIdg-A-3YYYI_6uSfk67a-tiWhrlStc4HxEiHfJaqmOx5-F9niu8GQr3iDGUYRe4yo06MfZy_P221GkJkHvT71wX-Udt5Vj/w400-h225/A.jpg"
+        }
+      }
+    },
+    {
+      "id": 188,
+      "name": "Hollywood Hills Coffee Shop",
+      "short": "Hollywood Hills Coffee Shop",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "6145 Franklin Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.323074557474,
+        34.105300933552
+      ],
+      "productionCoordinates": [
+        -118.323074557474,
+        34.105300933552
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "Hollywood Hills Coffee Shop · Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Mike Peters",
+        "Trent Walker",
+        "Rob"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "Hollywood Hills Coffee Shop",
+          "filming_component": "6145 Franklin Avenue",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trent Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rob",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Production-site comparison shows the former Hollywood Hills Coffee Shop building, later101CoffeeShop and ClarkStreetDiner. Interior changed after filming.",
+      "media": {
+        "screen": {
+          "src": "photos/n188-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlEQTl9srfpK-rJClq_dl5VC1jrAAZmIxUjiVOFI-NVkHzMHfXR-eSDGPSTpVYCZc3n5x9qf4qnwiM8tXCAyfBYuT0OnoitEufcRzLMaqydRlD8VubY9c1zcVNgSm37Efzw8XeDPyFho1R/s400/Diner+1.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n188-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/07/31/swingers-1996/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/07/swingers1.jpg?w=1024"
+        }
+      }
+    },
+    {
+      "id": 189,
+      "name": "Los Feliz Golf Course",
+      "short": "Los Feliz Golf Course",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "3207 Los Feliz Boulevard",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.2703528,
+        34.1247972
+      ],
+      "productionCoordinates": [
+        -118.2703528,
+        34.1247972
+      ],
+      "precision": "official-property-reference",
+      "placement": {
+        "kind": "screen",
+        "address": "Los Feliz Golf Course · Los Feliz",
+        "precision": "official-property-reference",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_golf_city"
+        ]
+      },
+      "people": [
+        "Mike Peters",
+        "Rob"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "Los Feliz Golf Course",
+          "filming_component": "3207 Los Feliz Boulevard",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_golf_city"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rob",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n189-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOjQFCicrXVLBhx05l0-u7FRtA0HRmlOzWUuXo_xONWrRkulbAmtS4ROzNSR-dkmjbVsWC6hV2O41l76vpNYN4gL5ajh_HKQiBj2x1rVEvKcZMLFOO0vzltNMnTyEVMWwXEnUAlX7pv25P/s400/Golf+Course+2.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n189-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbCA4delLPi-j0AEKA_UYFZce9K2gSfSC7EDEpLavCTbF-NdCBwB1JphO06kCu8cRYs1vfzjBNsE5OXlSKVktbmOzEblcQynRGaNXwF7CVHzp0WLgERea5D-H6jc1MBKCQycqhUI_wR0v/s400/Golf+Course+3.JPG"
+        }
+      }
+    },
+    {
+      "id": 190,
+      "name": "The Dresden",
+      "short": "The Dresden",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1760 North Vermont Avenue",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.291704879858,
+        34.102934919288
+      ],
+      "productionCoordinates": [
+        -118.291704879858,
+        34.102934919288
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "The Dresden · Los Feliz",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Mike Peters",
+        "Trent Walker",
+        "Sue",
+        "Rob",
+        "Charles"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "The Dresden",
+          "filming_component": "1760 North Vermont Avenue",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trent Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sue",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rob",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Charles",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n190-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcsi4fKjpwp38vmlG3AG7fr7hZP3_WkCu6wpygmVLCn7E5nAWQnXEKz84d964x6NU_cWuAtVU834dayP-q2Dpy3WIlJNiDJVkNhn5y3yrajsQOw9KxBF27qL4D_hrT5EHiMbvXg0vQKeAz/s400/Dresden.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n190-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg6uEMlYCmoSrciajCGSiKx56e8hxxeYSSVO2w1xstrPqtgz-KLNHUTYuaU45hclGV4JZJ9gZXNZCIgKMx0OCri9Hc3BKNomD91SGPfiydAkMZDOosG8bg6DFoxVwl7sevaT-jVXrUkUc/s400/Los+Angeles+2011+453.jpg"
+        }
+      }
+    },
+    {
+      "id": 191,
+      "name": "The Derby",
+      "short": "The Derby",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "4500 Los Feliz Boulevard",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.28785,
+        34.11161
+      ],
+      "productionCoordinates": [
+        -118.28785,
+        34.11161
+      ],
+      "precision": "osm-poi",
+      "placement": {
+        "kind": "screen",
+        "address": "The Derby · Los Feliz",
+        "precision": "osm-poi",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_derby_poi"
+        ]
+      },
+      "people": [
+        "Mike Peters",
+        "Lorraine",
+        "Trent Walker"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "The Derby",
+          "filming_component": "4500 Los Feliz Boulevard",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_derby_poi"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lorraine",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trent Walker",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n191-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQi9cBkizrJ0dFiRTm6-IQz9Gz-OfBMvDvLtgePxiFyhBcoy7PmHlDJ3q2vTatxywUvQmhY-3wb0H-oEKS96DzYy_-CV0zEbNUzOQGctCIAwb0nY2B86gN61XZsogj-jeM1rLN7ghgieYf/s400/Derby+3.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n191-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh13EhXPHevsZsuoxfXrWEL4yXGyLO4vpRzuOALnWBfpgGcmmmO3lSNKChMKxGb4U-DhdhdnYXdZs5R_WdQlFRnPCyavkloCWPE1ngnN_ZJBC05uBGTg7IStSoKELXGcPVoKzIA-OpQ6wY/s400/Los+Angeles+2011+995.jpg"
+        }
+      }
+    },
+    {
+      "id": 192,
+      "name": "The friends’ parking convoy",
+      "short": "The friends’ parking convoy",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1700 North Cherokee Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.334680090721,
+        34.101627512436
+      ],
+      "productionCoordinates": [
+        -118.334680090721,
+        34.101627512436
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_swing_ift",
+          "lives_swing_fo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Mike Peters",
+        "Trent Walker",
+        "Sue",
+        "Rob",
+        "Charles"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Swingers",
+          "release_year": 1996,
+          "story_role": "The friends’ parking convoy",
+          "filming_component": "1700 North Cherokee Avenue",
+          "source_ids": [
+            "lives_swing_ift",
+            "lives_swing_fo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_swing_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Peters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trent Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sue",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rob",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Charles",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n192-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6A_F34-qqwswfdQnBWOS6ZGoRpBp9uIXEGgSyQlF6Wqfs26kBacYoRXZnT9JWg6-Zet8juryNtBqnT68qw3Yszjn0zBdxI6ZtYMlUgg-EoW8m8imHE6caUXFTp0cQLM9JPoeuwSSF3CiL/s400/Street+1.JPG",
+          "title": "Swingers"
+        },
+        "place": {
+          "src": "photos/n192-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgozc9EQhvYUwX0gH4ohcuGrvs3yjAhK3zRx4kOlaQJshVTteqzgEVDktejV2AuLFyhRXoO5XLs6stYUYD-h_Z6EmBf_sM0bZ_xe45OE9VSUDbfTO572sLp5DWZzuJIApXFLLjesHi6yWc/s400/Los+Angeles+2011+522.jpg"
+        }
+      }
+    },
+    {
+      "id": 193,
+      "name": "Dionne Davenport’s home",
+      "short": "Dionne Davenport’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "705 North Sierra Drive",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.392947740553,
+        34.08600001892
+      ],
+      "productionCoordinates": [
+        -118.392947740553,
+        34.08600001892
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Beverly Hills · exact story address unconfirmed",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_clueless_ift",
+          "lives_clueless_geo",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Dionne Davenport",
+        "Cher Horowitz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Dionne Davenport’s home",
+          "filming_component": "705 North Sierra Drive",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Dionne Davenport",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n193-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvpfJMSGTNrIQcaZghV3qZHEOxsTld4C-_VvEeZc65TcRDIiAGAmWFBfm12gbFBwfeGZfy42zXHsny8iBs263519L5Gw68KW0bZ_31tMcQlOTdoy1vf_Rp-3iGcrxdue8vSydsKfmrt_8/s1600/Friend+House.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n193-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYB_sckKcRt0Ze2Oox8j6IJTTotY5P94m9KKLsQmI1D-cF1y34ZpdK7XB1OXUfcxVO97dTA6mfQPgdoJjbEtX0vZa8PDKOftck2jdV2o5oCkpuTj-SISwQ_IHh2YfKZo91lUW1Pf4t54w/s400/Los+Angeles+November+2011+680.jpg"
+        }
+      }
+    },
+    {
+      "id": 194,
+      "name": "Cher’s shopping mall",
+      "short": "Cher’s shopping mall",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "10800 West Pico Boulevard",
+      "area": "West Los Angeles",
+      "coordinates": [
+        -118.426369,
+        34.040295
+      ],
+      "productionCoordinates": [
+        -118.426369,
+        34.040295
+      ],
+      "precision": "mapped-building-approximate",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Los Angeles · exact story address unconfirmed",
+        "precision": "mapped-building-approximate",
+        "sourceIds": [
+          "lives_clueless_ift",
+          "lives_clueless_geo",
+          "lives_clueless_coords"
+        ]
+      },
+      "people": [
+        "Cher Horowitz",
+        "Dionne Davenport",
+        "Christian",
+        "Tai Frasier"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Cher’s shopping mall",
+          "filming_component": "10800 West Pico Boulevard",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_clueless_coords"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dionne Davenport",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Christian",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Tai Frasier",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Westside Pavilion exterior paired here; mall interiors used Fashion Square. No separate fictional mall is added for the interior component.",
+      "media": {
+        "screen": {
+          "src": "photos/n194-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgasnSPKiK1jpbOQC4_1gLZt3QH_zjXSigHDlvNc7RJlycc0KESEkni-ghxF-s92yXKAjQm5fsqHmHmzZSm1EFdrFKNeJr89TekJjgdM2j8ojkmjk3KT9G8ZBao9oYYzRdFXmU2Qg79Mko/s1600/Mall.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n194-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg282mJczlXTvxq79bV4kRqPvg3LqGQbSurkSGPsEYj7q1wvGhu5_L-6DSxHoA4Va_FMfn5Oci-3fQP3hQumwcwp110y6E0P5m9WC7PxysSvLzL5BwuD3p7Mxks2R-M7BiQsRDxLARRnBoW/s400/DSCF1575.JPG"
+        }
+      }
+    },
+    {
+      "id": 195,
+      "name": "The Valley party",
+      "short": "The Valley party",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "16401 Knollwood Drive",
+      "area": "Granada Hills",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.495800012904,
+        34.29818084047
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Sun Valley · exact site unlocated",
+        "precision": "unlocated",
+        "sourceIds": [
+          "lives_clueless_geo",
+          "lives_clueless_ift"
+        ]
+      },
+      "people": [
+        "Cher Horowitz",
+        "Tai Frasier",
+        "Elton",
+        "Dionne Davenport",
+        "Murray Duvall"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "The Valley party",
+          "filming_component": "16401 Knollwood Drive",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Tai Frasier",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Elton",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dionne Davenport",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Murray Duvall",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "The Valley party and subsequent mugging are set in Sun Valley. Granada Hills and North Hollywood are production locations, not precise story addresses.",
+      "media": {
+        "screen": {
+          "src": "photos/n195-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7HMLOUj3gmhWeNjoolS_Y_BR1frFrq8QlqCmuErH2-NEv1d5hREnPp2UJu53G2AHFh8aaMZQoyZGaUT0z9bzbXw0j9nEBF43jOuF9c418DcHqJvz2A4b4Zoyt8SI8B19c42MCaSjmnAY/s1600/Party+House.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n195-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdPEZSN9lwe6BEGNPJZxQKlwDnaK1kFQG-9uUJgR2ENXcDizlHU0t69Aiv6gSQpCngM_wDf3PJDk42G_dqfMqlNDjD2p77_5ixxsQgGAxFkGGeV-aP5XKGHJ9ci26oVuB90Gij4FBrrBYo/s400/323.JPG",
+          "caption": "Former party-house site",
+          "note": "House demolished after filming; image shows its site."
+        }
+      }
+    },
+    {
+      "id": 196,
+      "name": "Cher’s mugging",
+      "short": "Cher’s mugging",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5600 Vineland Avenue",
+      "area": "North Hollywood",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.370216867834,
+        34.172214399331
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Sun Valley · exact site unlocated",
+        "precision": "unlocated",
+        "sourceIds": [
+          "lives_clueless_geo",
+          "lives_clueless_ift"
+        ]
+      },
+      "people": [
+        "Cher Horowitz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Cher’s mugging",
+          "filming_component": "5600 Vineland Avenue",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "The Valley party and subsequent mugging are set in Sun Valley. Granada Hills and North Hollywood are production locations, not precise story addresses.",
+      "media": {
+        "screen": {
+          "src": "photos/n196-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTIDICGC2ZwQxJ9Wc2DjJ9SrHTOd_ACyAKQImqB3CRCMk4b675yJDTq5VpET1l2cxcy2XRjuBqmP8scI7vqWTiJAUJ8FxQMct-jQkiO-vKo9JC9qMOS_C44cFqnuo8UdYEDmgTTwiOIZY/s1600/Circus.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n196-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghtAK0rw5ScXNidLRMsGcTB4tBywR14YkaH9-AjXFqI2u75ouNbsZCbHqt4q8Lf2mqnWV3f91svUxqGE70gTOLp0CDJJVCcXnTLLQQWZGGx4VugempU5PuTiZ-8dBAlMbXDbyosMurLaQ/s400/DSCF6165+-+Copy.JPG"
+        }
+      }
+    },
+    {
+      "id": 197,
+      "name": "Cher’s walk on Via Rodeo",
+      "short": "Cher’s walk on Via Rodeo",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Via Rodeo steps, 150 North Rodeo Drive",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.401237,
+        34.067314
+      ],
+      "productionCoordinates": [
+        -118.401237,
+        34.067314
+      ],
+      "precision": "mapped-building-approximate",
+      "placement": {
+        "kind": "screen",
+        "address": "Cher’s walk on Via Rodeo · Beverly Hills",
+        "precision": "mapped-building-approximate",
+        "sourceIds": [
+          "lives_clueless_ift",
+          "lives_clueless_geo",
+          "lives_clueless_coords"
+        ]
+      },
+      "people": [
+        "Cher Horowitz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Cher’s walk on Via Rodeo",
+          "filming_component": "Via Rodeo steps, 150 North Rodeo Drive",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_clueless_coords"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n197-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM8f_uH3nWM-s0FU6_CwngQbTuclh-eh-QXLfoJUOgXmar6qyUjnPgUTQjVU6fhGb_63CDCg23kchyzIOwRdlsG6ybvS-_nvJs3E7VblopmnVqxUfuyceGVTZmcwNfSQaFTxGE5Z3Fe7A/s1600/Stairs.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n197-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMwPD7wrExL0dxm9KJadaECFRfTtIbZpooquGwWumsExKn2nggP_pGdsOOzok3OoMBhtkyv_cNtDfjVudiK9q5c4ZIoruy8EHE-dDkTHE1Xs1PNXypJV2TOYnKTj-iX-yw-f5OJGFupcc/s400/MVIMG_20190308_091346+-+Copy.jpg"
+        }
+      }
+    },
+    {
+      "id": 198,
+      "name": "The Witch’s House",
+      "short": "The Witch’s House",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "516 North Walden Drive",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.411125,
+        34.068962
+      ],
+      "productionCoordinates": [
+        -118.411125,
+        34.068962
+      ],
+      "precision": "mapped-building-approximate",
+      "placement": {
+        "kind": "screen",
+        "address": "The Witch’s House · Beverly Hills",
+        "precision": "mapped-building-approximate",
+        "sourceIds": [
+          "lives_clueless_ift",
+          "lives_clueless_geo",
+          "lives_clueless_coords"
+        ]
+      },
+      "people": [
+        "Cher Horowitz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "The Witch’s House",
+          "filming_component": "516 North Walden Drive",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_clueless_coords"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n198-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFxn4T7J7AzbCR6VUfPkrAi_-tzFf6xgMW7zn0QQrO2pKizCMbQ294Y169Vw3S95Ae0sct3EEszoQmeHZiGDrE8z0TXKtIVt41u8TCV6Rlw06C8UUWWIRggf_nC_CcFW-AowrYHIm_m4/s1600/Witch+House.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n198-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnJuk94butdfe81N0QF8wTYaOglAf0AvaBSX-t9DhPCGZMMb05jwcHWNCxX5ab5faHaMhfCdp9hYvSebQxPK9R0ymyG4wm0kBvUzBsi-vEYfT9A9NcQ2vTs9nC0B4F1GiUG88jeBMVAg/s400/House.jpg"
+        }
+      }
+    },
+    {
+      "id": 199,
+      "name": "The Electric Fountain",
+      "short": "The Electric Fountain",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "9800 Wilshire Boulevard",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.4103667,
+        34.06745
+      ],
+      "productionCoordinates": [
+        -118.4103667,
+        34.06745
+      ],
+      "precision": "marker-coordinate",
+      "placement": {
+        "kind": "screen",
+        "address": "The Electric Fountain · Beverly Hills",
+        "precision": "marker-coordinate",
+        "sourceIds": [
+          "lives_clueless_ift",
+          "lives_clueless_geo",
+          "lives_fountain_coords",
+          "lives_fountain"
+        ]
+      },
+      "people": [
+        "Cher Horowitz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "The Electric Fountain",
+          "filming_component": "9800 Wilshire Boulevard",
+          "source_ids": [
+            "lives_clueless_ift",
+            "lives_clueless_geo",
+            "lives_fountain_coords",
+            "lives_fountain"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_clueless_ift"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n199-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje3P6c0KSQNU3uc3zxXLFg2CFzaCQoEiozHWubWg-b3l6JxHzSlmdSq1D2pdTnHgxSq6HdSeanFWayHGLYjbj30gz9HPUoSEe2JkFHN9V5Idh5J3uHw5HdG6l0IF8GnGy3lgljqDWJ5is/s1600/Fountain.JPG",
+          "title": "Clueless"
+        },
+        "place": {
+          "src": "photos/n199-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic2Wkn5cGsqJc_ECx5VBe6xNxyeYJvQmRZYythXd3_nZjPgMTpDkeXQV8klhPsPKCtTgoRdXf-mrBMEaOW-0OK78xBEAYG35BaSkN67mBUN1Zc2KdOB8ZRh_0tW2OP0DuAQpa6pAxoNss/s400/IMG_20190308_095109+-+Copy.jpg"
+        }
+      }
+    },
+    {
+      "id": 200,
+      "name": "Craig Jones’s home",
+      "short": "Craig Jones’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1418 West 126th Street",
+      "area": "West Athens",
+      "coordinates": [
+        -118.300779799368,
+        33.918267726607
+      ],
+      "productionCoordinates": [
+        -118.300779799368,
+        33.918267726607
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "Craig Jones’s home · Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "lives_friday_taco",
+          "lives_friday_fo",
+          "lives_friday_story",
+          "lives_census"
+        ]
+      },
+      "people": [
+        "Craig Jones",
+        "Smokey",
+        "Willie Jones",
+        "Betty Jones",
+        "Dana Jones"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Friday",
+          "release_year": 1995,
+          "story_role": "Craig Jones’s home",
+          "filming_component": "1418 West 126th Street",
+          "source_ids": [
+            "lives_friday_taco",
+            "lives_friday_fo",
+            "lives_friday_story",
+            "lives_census"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as editorial estimate.",
+            "source_ids": [
+              "lives_friday_taco"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Craig Jones",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Smokey",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Willie Jones",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Betty Jones",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dana Jones",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n200-screen.jpg",
+          "sourceUrl": "https://lataco.com/friday-house-film-location",
+          "credit": "Friday film frame, New Line Cinema / L.A. TACO",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/04/lataco_friday_lead_new_line_cinema.jpg?w=2880",
+          "title": "Friday"
+        },
+        "place": {
+          "src": "photos/n200-place.jpg",
+          "sourceUrl": "https://lataco.com/friday-house-film-location",
+          "credit": "Jared Cowan / L.A. TACO",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/04/lataco_friday_craigs_house1_jared_cowan.jpg?w=710",
+          "caption": "Craig’s filming-site home · 2025 report",
+          "date": "2025"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lives_boogie_ift",
+      "title": "Boogie Nights scene-by-scene location comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_boogie_set",
+      "title": "Robert Patterson: Boogie Nights comparison photographs",
+      "url": "https://www.set-jetter.com/ontheset/boogienights",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_boogie_time",
+      "title": "European Film Academy: Boogie Nights, 1977–1984",
+      "url": "https://www.europeanfilmawards.eu/efa-movie/boogie-nights/",
+      "source_type": "film_institution"
+    },
+    {
+      "id": "lives_boogie_plot",
+      "title": "Boogie Nights plot chronology and character locations",
+      "url": "https://en.wikipedia.org/wiki/Boogie_Nights",
+      "source_type": "story_reference"
+    },
+    {
+      "id": "lives_once_ift",
+      "title": "Once Upon a Time in Hollywood scene-by-scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_once_fo",
+      "title": "Film Oblivion: Once Upon a Time in Hollywood production and story geography",
+      "url": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_once_time",
+      "title": "Sony Pictures: Once Upon a Time in Hollywood, 1969 Los Angeles",
+      "url": "https://www.sonypictures.com/movies/onceuponatimeinhollywood",
+      "source_type": "studio_synopsis"
+    },
+    {
+      "id": "lives_once_plot",
+      "title": "Once Upon a Time in Hollywood alternate-history ending",
+      "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+      "source_type": "story_reference"
+    },
+    {
+      "id": "lives_swing_ift",
+      "title": "Swingers scene-by-scene location comparisons",
+      "url": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_swing_fo",
+      "title": "Film Oblivion: Swingers locations and composite Dresden exterior",
+      "url": "https://filmoblivion.com/2022/07/31/swingers-1996/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_clueless_ift",
+      "title": "Clueless scene-by-scene location comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_clueless_geo",
+      "title": "Clueless: Beverly Hills story and Sun Valley mugging geography",
+      "url": "https://thecinemaholic.com/clueless-filming-locations/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_clueless_coords",
+      "title": "Clueless production-site coordinate table",
+      "url": "https://www.latlong.net/location/clueless-locations-728",
+      "source_type": "coordinate_reference"
+    },
+    {
+      "id": "lives_friday_taco",
+      "title": "L.A. TACO: Revisiting Friday’s house in 2025",
+      "url": "https://lataco.com/friday-house-film-location",
+      "source_type": "location_reportage"
+    },
+    {
+      "id": "lives_friday_fo",
+      "title": "Film Oblivion: Friday homes",
+      "url": "https://filmoblivion.com/2018/11/15/friday-1995/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "lives_friday_story",
+      "title": "Friday official exhibition synopsis: Craig and Smokey in Los Angeles",
+      "url": "https://www.amctheatres.com/movies/friday",
+      "source_type": "exhibitor_synopsis"
+    },
+    {
+      "id": "lives_colfax_osm",
+      "title": "OpenStreetMap: Dilling Bridge beside Colfax Avenue",
+      "url": "https://www.openstreetmap.org/way/571151870",
+      "source_type": "map_data"
+    },
+    {
+      "id": "lives_playboy_osm",
+      "title": "Playboy Mansion building coordinates from OpenStreetMap",
+      "url": "https://mapcarta.com/W422524239",
+      "source_type": "map_data"
+    },
+    {
+      "id": "lives_golf_city",
+      "title": "City of Los Angeles: Griffith Park resources, Los Feliz Golf Course coordinates",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2014/14-1522_misc_06-18-2015.pdf",
+      "source_type": "government_map"
+    },
+    {
+      "id": "lives_derby_poi",
+      "title": "Messhall Kitchen / former Los Feliz Derby building coordinates",
+      "url": "https://poiexplorer.com/north-america/united-states/california/los-angeles-county/los-angeles/los-feliz/food/messhall-kitchen-n902322514",
+      "source_type": "map_data"
+    },
+    {
+      "id": "lives_fountain",
+      "title": "Beverly Hills tourism: Electric Fountain at Wilshire and Santa Monica",
+      "url": "https://lovebeverlyhills.com/things-to-do/view/electric-fountain",
+      "source_type": "official_place_reference"
+    },
+    {
+      "id": "lives_fountain_coords",
+      "title": "Electric Fountain historical marker coordinates",
+      "url": "https://www.hmdb.org/m.asp?m=183120",
+      "source_type": "coordinate_reference"
+    },
+    {
+      "id": "lives_census",
+      "title": "US Census Bureau address geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "source_type": "government_geocoder"
+    }
+  ],
+  "audit": [
+    {
+      "id": 167,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.534623886911,
+          34.201233394856
+        ],
+        "matchedAddress": "18419 W SHERMAN WAY, RESEDA, CA, 91335",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18419+Sherman+Way%2C+Reseda%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 168,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.439467592033,
+          34.233933431092
+        ],
+        "matchedAddress": "9043 WOODMAN AVE, ARLETA, CA, 91331",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9043+Woodman+Avenue%2C+Arleta%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 169,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.333518193743,
+          33.861065015194
+        ],
+        "matchedAddress": "3503 187TH ST, TORRANCE, CA, 90504",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3503+West+187th+Street%2C+Torrance%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 170,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "unknown",
+      "correction": "Jack’s story home is in the San Fernando Valley. The West Covina property is a production site; it is not pinned as the story address.",
+      "geocode": {
+        "coordinates": [
+          -117.870982848909,
+          34.056847835351
+        ],
+        "matchedAddress": "19515 E CAMERON AVE, WEST COVINA, CA, 91791",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=19515+East+Cameron+Avenue%2C+West+Covina%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 171,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.595166479046,
+          34.146081902869
+        ],
+        "matchedAddress": "4214 LOBOS RD, WOODLAND HILLS, CA, 91364",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4214+Lobos+Road%2C+Woodland+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 172,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "Dilling Bridge is the pedestrian crossing immediately east of Colfax Avenue, identified by the comparison photographs and OpenStreetMap way571151870.",
+      "geocode": {
+        "coordinates": null,
+        "reason": "Footbridge requires coordinate verification"
+      },
+      "coordinate_override": [
+        [
+          -118.3873743,
+          34.14234465
+        ],
+        "lives_colfax_osm",
+        "osm-way-center"
+      ]
+    },
+    {
+      "id": 173,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.527984169874,
+          34.200951232523
+        ],
+        "matchedAddress": "18128 SHERMAN WAY, RESEDA, CA, 91335",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18128+Sherman+Way%2C+Reseda%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 174,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.530162969622,
+          34.201299691404
+        ],
+        "matchedAddress": "18231 W SHERMAN WAY, RESEDA, CA, 91335",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=18231+Sherman+Way%2C+Reseda%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 175,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.372363265206,
+          34.141337486254
+        ],
+        "matchedAddress": "11117 VENTURA BLVD, STUDIO CITY, CA, 91604",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11117+Ventura+Boulevard%2C+Studio+City%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 176,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "Fictional house number differs from the production number; property was subsequently demolished. Exact canonical street address is not confirmed.",
+      "geocode": {
+        "coordinates": [
+          -118.499110688555,
+          34.139255010322
+        ],
+        "matchedAddress": "16801 ENCINO HILLS DR, ENCINO, CA, 91436",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=16801+Encino+Hills+Drive%2C+Encino%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 177,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.335335690418,
+          34.101623408292
+        ],
+        "matchedAddress": "6667 HOLLYWOOD BLVD, HOLLYWOOD, CA, 90028",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6667+Hollywood+Boulevard%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 178,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.235597504978,
+          34.102923677309
+        ],
+        "matchedAddress": "2924 DIVISION ST, GLASSELL PARK, CA, 90065",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2924+Division+Street%2C+Glassell+Park%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 179,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.429337036164,
+          34.0777130482
+        ],
+        "matchedAddress": "10236 CHARING CROSS RD, LOS ANGELES, CA, 90024",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10236+Charing+Cross+Rd%2C+Los+Angeles%2C+CA+90024&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.42967,
+          34.07647
+        ],
+        "lives_playboy_osm",
+        "osm-building-center"
+      ]
+    },
+    {
+      "id": 180,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.42946129746,
+          34.066700086519
+        ],
+        "matchedAddress": "10415 WILSHIRE BLVD, LOS ANGELES, CA, 90024",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10415+Wilshire+Blvd%2C+Los+Angeles%2C+CA+90024&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 181,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.446971026252,
+          34.063100662149
+        ],
+        "matchedAddress": "948 BROXTON AVE, LOS ANGELES, CA, 90024",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=948+Broxton+Ave%2C+Los+Angeles%2C+CA+90024&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 182,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.364547009508,
+          34.172100709214
+        ],
+        "matchedAddress": "10726 BURBANK BLVD, NORTH HOLLYWOOD, CA, 91601",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10726+Burbank+Boulevard%2C+North+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 183,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.349734600702,
+          34.076090888243
+        ],
+        "matchedAddress": "7312 BEVERLY BLVD, LOS ANGELES, CA, 90036",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7312+Beverly+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 184,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.422555264318,
+          34.146641439012
+        ],
+        "matchedAddress": "13301 VENTURA BLVD, SHERMAN OAKS, CA, 91423",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13301+Ventura+Boulevard%2C+Sherman+Oaks%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 185,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "unknown",
+      "correction": "The story homes are neighbors on Cielo Drive. Alta View Drive supplies exterior components; production addresses are not canonical story addresses.",
+      "geocode": {
+        "coordinates": [
+          -118.369741619557,
+          34.132152996513
+        ],
+        "matchedAddress": "10969 ALTA VIEW DR, STUDIO CITY, CA, 91604",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10969+Alta+View+Drive%2C+Studio+City%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 186,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "unknown",
+      "correction": "The story homes are neighbors on Cielo Drive. Alta View Drive supplies exterior components; production addresses are not canonical story addresses.",
+      "geocode": {
+        "coordinates": [
+          -118.369914457049,
+          34.132109779194
+        ],
+        "matchedAddress": "10974 ALTA VIEW DR, STUDIO CITY, CA, 91604",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10974+Alta+View+Drive%2C+Studio+City%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 187,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.317653404005,
+          34.105202629732
+        ],
+        "matchedAddress": "5870 FRANKLIN AVE, HOLLYWOOD, CA, 90028",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5870+Franklin+Avenue%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 188,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "Production-site comparison shows the former Hollywood Hills Coffee Shop building, later101CoffeeShop and ClarkStreetDiner. Interior changed after filming.",
+      "geocode": {
+        "coordinates": [
+          -118.323074557474,
+          34.105300933552
+        ],
+        "matchedAddress": "6145 FRANKLIN AVE, HOLLYWOOD, CA, 90028",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6145+Franklin+Avenue%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 189,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.268722996754,
+          34.123443566514
+        ],
+        "matchedAddress": "3207 LOS FELIZ BLVD, LOS ANGELES, CA, 90039",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3207+Los+Feliz+Blvd%2C+Los+Angeles%2C+CA+90039&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.2703528,
+          34.1247972
+        ],
+        "lives_golf_city",
+        "official-property-reference"
+      ]
+    },
+    {
+      "id": 190,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.291704879858,
+          34.102934919288
+        ],
+        "matchedAddress": "1760 N VERMONT AVE, LOS ANGELES, CA, 90027",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1760+N+Vermont+Ave%2C+Los+Angeles%2C+CA+90027&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 191,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.287485379982,
+          34.111819573226
+        ],
+        "matchedAddress": "4500 LOS FELIZ BLVD, LOS ANGELES, CA, 90027",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4500+Los+Feliz+Blvd%2C+Los+Angeles%2C+CA+90027&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.28785,
+          34.11161
+        ],
+        "lives_derby_poi",
+        "osm-poi"
+      ]
+    },
+    {
+      "id": 192,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.334680090721,
+          34.101627512436
+        ],
+        "matchedAddress": "1700 N CHEROKEE AVE, HOLLYWOOD, CA, 90028",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1700+North+Cherokee+Avenue%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 193,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.392947740553,
+          34.08600001892
+        ],
+        "matchedAddress": "705 N SIERRA DR, BEVERLY HILLS, CA, 90210",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=705+North+Sierra+Drive%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 194,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "filming-proxy",
+      "correction": "Westside Pavilion exterior paired here; mall interiors used Fashion Square. No separate fictional mall is added for the interior component.",
+      "geocode": {
+        "coordinates": null,
+        "reason": "No Census street address match",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10800+West+Pico+Boulevard%2C+West+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+      },
+      "coordinate_override": [
+        [
+          -118.426369,
+          34.040295
+        ],
+        "lives_clueless_coords",
+        "mapped-building-approximate"
+      ]
+    },
+    {
+      "id": 195,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "unknown",
+      "correction": "The Valley party and subsequent mugging are set in Sun Valley. Granada Hills and North Hollywood are production locations, not precise story addresses.",
+      "geocode": {
+        "coordinates": [
+          -118.495800012904,
+          34.29818084047
+        ],
+        "matchedAddress": "16401 KNOLLWOOD DR, GRANADA HILLS, CA, 91344",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=16401+Knollwood+Drive%2C+Granada+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 196,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "unknown",
+      "correction": "The Valley party and subsequent mugging are set in Sun Valley. Granada Hills and North Hollywood are production locations, not precise story addresses.",
+      "geocode": {
+        "coordinates": [
+          -118.370216867834,
+          34.172214399331
+        ],
+        "matchedAddress": "5600 N VINELAND AVE, NORTH HOLLYWOOD, CA, 91601",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5600+Vineland+Avenue%2C+North+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    },
+    {
+      "id": 197,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.401156315809,
+          34.065764985861
+        ],
+        "matchedAddress": "150 S RODEO DR, BEVERLY HILLS, CA, 90212",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=150+North+Rodeo+Drive%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.401237,
+          34.067314
+        ],
+        "lives_clueless_coords",
+        "mapped-building-approximate"
+      ]
+    },
+    {
+      "id": 198,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.409903600711,
+          34.067848634855
+        ],
+        "matchedAddress": "516 WALDEN DR, BEVERLY HILLS, CA, 90210",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=516+N+Walden+Dr%2C+Beverly+Hills%2C+CA+90210&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.411125,
+          34.068962
+        ],
+        "lives_clueless_coords",
+        "mapped-building-approximate"
+      ]
+    },
+    {
+      "id": 199,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.408956773689,
+          34.067015064849
+        ],
+        "matchedAddress": "9800 WILSHIRE BLVD, BEVERLY HILLS, CA, 90212",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9800+Wilshire+Blvd%2C+Beverly+Hills%2C+CA+90210&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": [
+        [
+          -118.4103667,
+          34.06745
+        ],
+        "lives_fountain_coords",
+        "marker-coordinate"
+      ]
+    },
+    {
+      "id": 200,
+      "story_in_la_county": true,
+      "verified_comparison": true,
+      "placement": "screen",
+      "correction": "No contradictory screen geography identified; nonexplicit addresses retain proxy status.",
+      "geocode": {
+        "coordinates": [
+          -118.300779799368,
+          33.918267726607
+        ],
+        "matchedAddress": "1418 W 126TH ST, LOS ANGELES, CA, 90047",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1418+W+126th+St%2C+Los+Angeles%2C+CA+90047&benchmark=Public_AR_Current&format=json",
+        "precision": "street-interpolated"
+      },
+      "coordinate_override": null
+    }
+  ]
+}

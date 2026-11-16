@@ -1,0 +1,657 @@
+{
+  "places": [
+    {
+      "id": 201,
+      "name": "Neil McCauley’s death",
+      "short": "Neil McCauley’s death",
+      "category": "death",
+      "categories": [
+        "death"
+      ],
+      "address": "LAX · Aviation Boulevard approach-light field",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.3768611,
+        33.9391667
+      ],
+      "productionCoordinates": [
+        -118.3768611,
+        33.9391667
+      ],
+      "precision": "documented-coordinate",
+      "placement": {
+        "kind": "screen",
+        "address": "LAX · Aviation Boulevard approach-light field",
+        "precision": "documented-coordinate",
+        "sourceIds": [
+          "route_heat_field",
+          "route_heat_scout"
+        ],
+        "reason": ""
+      },
+      "people": [
+        "Neil McCauley",
+        "Vincent Hanna"
+      ],
+      "featured": true,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Neil McCauley’s death",
+          "filming_component": "LAX · Aviation Boulevard approach-light field",
+          "source_ids": [
+            "route_heat_field",
+            "route_heat_scout"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r201-screen.jpg",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_LAX7.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Heat film frame / Warner Bros. / L.A. TACO",
+          "title": "Heat"
+        },
+        "place": {
+          "src": "photos/r201-place.jpg",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_LAX8.jpg?w=710",
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Jared Cowan / L.A. TACO",
+          "note": "Field photographed for the 2019 crew interview; capture day not stated."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Heat",
+          "people": [
+            "Neil McCauley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "T-1000’s truck jump",
+      "short": "T-1000’s truck jump",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Plummer Street / Hayvenhurst Avenue · Bull Creek bridge",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.493729,
+        34.242953
+      ],
+      "productionCoordinates": [
+        -118.493729,
+        34.242953
+      ],
+      "precision": "documented-coordinate",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Plummer Street / Hayvenhurst Avenue · Bull Creek bridge",
+        "precision": "documented-coordinate",
+        "sourceIds": [
+          "route_t2_channel",
+          "route_t2_bridge",
+          "route_t2_stunts"
+        ],
+        "reason": ""
+      },
+      "people": [
+        "John Connor",
+        "T-1000"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "T-1000’s truck jump",
+          "filming_component": "Plummer Street / Hayvenhurst Avenue · Bull Creek bridge",
+          "source_ids": [
+            "route_t2_channel",
+            "route_t2_bridge",
+            "route_t2_stunts"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI story synopsis begins in Los Angeles in 1995.",
+            "source_ids": [
+              "t2_afi_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Connor",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "T-1000",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r202-screen.jpg",
+          "imageUrl": "https://www.film89.co.uk/wp-content/uploads/2017/09/IMG_1417.jpg",
+          "sourceUrl": "https://www.film89.co.uk/behind-the-scenes-of-the-making-of-t2s-iconic-canal-chase-scene/",
+          "credit": "Terminator 2 film frame / Film ’89",
+          "title": "Terminator 2: Judgment Day"
+        },
+        "place": {
+          "src": "photos/r202-place.jpg",
+          "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer.jpg",
+          "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+          "credit": "The Worldwide Guide to Movie Locations"
+        }
+      }
+    },
+    {
+      "id": 203,
+      "name": "T-800’s channel entrance",
+      "short": "T-800’s channel entrance",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.49378,
+        34.2425
+      ],
+      "productionCoordinates": [
+        -118.49378,
+        34.2425
+      ],
+      "precision": "site-approximate",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+        "precision": "site-approximate",
+        "sourceIds": [
+          "route_t2_channel",
+          "route_t2_gate"
+        ],
+        "reason": "Gate identified in a frame comparison; coordinate approximates the entry immediately south of the documented bridge."
+      },
+      "people": [
+        "T-800",
+        "John Connor"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "release_year": 1991,
+          "story_role": "T-800’s channel entrance",
+          "filming_component": "Hayvenhurst Avenue · gate south of Plummer Street",
+          "source_ids": [
+            "route_t2_channel",
+            "route_t2_gate"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI story synopsis begins in Los Angeles in 1995.",
+            "source_ids": [
+              "t2_afi_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "T-800",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Connor",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r203-screen.jpg",
+          "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
+          "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
+          "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
+          "title": "Terminator 2: Judgment Day",
+          "note": "Cropped to the film-frame panel of comparison 38."
+        },
+        "place": {
+          "src": "photos/r203-place.jpg",
+          "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
+          "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+          "credit": "The Worldwide Guide to Movie Locations"
+        }
+      }
+    },
+    {
+      "id": 205,
+      "name": "Bank robbery",
+      "short": "Bank robbery",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "444 South Flower Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.255336912037,
+        34.052268089948
+      ],
+      "productionCoordinates": [
+        -118.255336912037,
+        34.052268089948
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "444 South Flower Street",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "route_heat_field",
+          "route_heat_frames"
+        ],
+        "reason": ""
+      },
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Bank robbery",
+          "filming_component": "444 South Flower Street",
+          "source_ids": [
+            "route_heat_field",
+            "route_heat_frames"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r205-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5GqLt1vZFWdpWmJAgrhVngnMInIgh0SRdbKEjdhD_CfafNQ1SHnmsrP2Fwnd7IIiXcdH56OE-5k-yuFA_wmcdBJkaJpZhFtblQJwMWD20XWa-_xCDNmSb1_NKzndAniNLtaS4-NyVvwI/w400-h169/Bank+Exterior+1.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat film frame / It’s Filmed There",
+          "title": "Heat"
+        },
+        "place": {
+          "src": "photos/r205-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat12.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion"
+        }
+      }
+    },
+    {
+      "id": 206,
+      "name": "Fifth & Flower shootout",
+      "short": "Fifth & Flower shootout",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West Fifth Street / South Flower Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.256080999086,
+        34.051565014542
+      ],
+      "productionCoordinates": [
+        -118.256080999086,
+        34.051565014542
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Fifth Street / South Flower Street",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "route_heat_field",
+          "route_heat_frames"
+        ],
+        "reason": ""
+      },
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "Fifth & Flower shootout",
+          "filming_component": "West Fifth Street / South Flower Street",
+          "source_ids": [
+            "route_heat_field",
+            "route_heat_frames"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r206-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxEHk3R1pgWXKQFCZmZBZ_E90e6CbyP_zDJXMWYi5J8nJ3cIgL8gxjU_v69NUT4A0AeWO_lrb34lT93dzrzRfsYkm9HAB4FkXSMKeR7DLQJgsk1-DkrlssXIR87c5uifAmRl8vSClkyus/w400-h169/Shot+Crash+2.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat film frame / It’s Filmed There",
+          "title": "Heat"
+        },
+        "place": {
+          "src": "photos/r206-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat21.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion"
+        }
+      }
+    },
+    {
+      "id": 207,
+      "name": "McCauley & Chris’s escape",
+      "short": "McCauley & Chris’s escape",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Former grocery parking lot · 831 South Hope Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.2602222,
+        34.0460833
+      ],
+      "productionCoordinates": [
+        -118.2602222,
+        34.0460833
+      ],
+      "precision": "documented-coordinate",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Former grocery parking lot · 831 South Hope Street",
+        "precision": "documented-coordinate",
+        "sourceIds": [
+          "route_heat_field",
+          "route_heat_frames"
+        ],
+        "reason": ""
+      },
+      "people": [
+        "Neil McCauley",
+        "Chris Shiherlis",
+        "Vincent Hanna"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Heat",
+          "release_year": 1995,
+          "story_role": "McCauley & Chris’s escape",
+          "filming_component": "Former grocery parking lot · 831 South Hope Street",
+          "source_ids": [
+            "route_heat_field",
+            "route_heat_frames"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "derived",
+            "basis": "Creator-authored Heat 2 chronology places 1988 seven years before the film's immediate aftermath; 1995 is derived from that chronology.",
+            "source_ids": [
+              "heat2_author_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Neil McCauley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris Shiherlis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Vincent Hanna",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/r207-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMGo0UVX0Cm0I49jvjzN8VoyLaQUw1p_BO9F3Zsrr8Uhk0ZUbzImr-3ZGoV_pikqlHyw0OyKxO84SaZMjlUpnKff8xY6kFXs0ibn8fGsr8s3DxnRT9yvrTTYMxX5-bXNL2p_2qH5QDH3Q/w400-h168/Grocery+1.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+          "credit": "Heat film frame / It’s Filmed There",
+          "title": "Heat"
+        },
+        "place": {
+          "src": "photos/r207-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat56.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "route_heat_field",
+      "title": "Heat: LAX field and downtown sites",
+      "url": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "route_heat_scout",
+      "title": "Heat location crew interview and photo comparisons",
+      "url": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "source_type": "crew_interview"
+    },
+    {
+      "id": "route_heat_frames",
+      "title": "Heat: timed scene and location comparisons",
+      "url": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "route_t2_channel",
+      "title": "Terminator 2: Plummer bridge and Hayvenhurst gate",
+      "url": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+      "source_type": "location_research"
+    },
+    {
+      "id": "route_t2_bridge",
+      "title": "Plummer and Hayvenhurst bridge coordinates",
+      "url": "https://moviemaps.org/locations/17s",
+      "source_type": "location_research"
+    },
+    {
+      "id": "route_t2_gate",
+      "title": "Terminator 2: gated channel entry, comparison 38",
+      "url": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
+      "source_type": "frame_comparison"
+    },
+    {
+      "id": "route_t2_stunts",
+      "title": "T2 canal chase: stunts and composite geography",
+      "url": "https://www.film89.co.uk/behind-the-scenes-of-the-making-of-t2s-iconic-canal-chase-scene/",
+      "source_type": "production_research"
+    }
+  ],
+  "journeys": [
+    {
+      "id": 99,
+      "name": "Channel chase",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1995,
+      "source_ids": [
+        "route_t2_channel",
+        "route_t2_bridge",
+        "route_t2_gate",
+        "route_t2_stunts",
+        "t2_afi_time"
+      ],
+      "precision": "Two verified Plummer/Hayvenhurst sites. The longer chase combines several channels; this connector does not establish a continuous path.",
+      "stops": [
+        {
+          "name": "T-1000’s truck jump",
+          "placeId": 202,
+          "coordinates": [
+            -118.493729,
+            34.242953
+          ]
+        },
+        {
+          "name": "T-800’s channel entrance",
+          "placeId": 203,
+          "coordinates": [
+            -118.49378,
+            34.2425
+          ]
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Bank robbery",
+      "title": "Heat",
+      "year": 1995,
+      "source_ids": [
+        "route_heat_field",
+        "route_heat_frames",
+        "heat2_author_time"
+      ],
+      "precision": "Connectors link verified scenes. The edit jumps from Fifth and Flower to the former grocery parking lot.",
+      "stops": [
+        {
+          "name": "Bank robbery",
+          "placeId": 205,
+          "coordinates": [
+            -118.255336912037,
+            34.052268089948
+          ]
+        },
+        {
+          "name": "Fifth & Flower shootout",
+          "placeId": 206,
+          "coordinates": [
+            -118.256080999086,
+            34.051565014542
+          ]
+        },
+        {
+          "name": "McCauley & Chris’s escape",
+          "placeId": 207,
+          "coordinates": [
+            -118.2602222,
+            34.0460833
+          ]
+        }
+      ]
+    }
+  ]
+}

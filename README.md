@@ -14,18 +14,21 @@ OpenFreeMap vector tiles supply the paper basemap, with OpenMapTiles/OpenStreetM
 ## Interactions
 
 - Search people, places, titles, and addresses; browse Places, People, or Routes.
-- Filter by film, location type, deaths, or current map view. Movie tabs in place details and map labels immediately filter to that title.
-- Open paired movie stills and real-site photographs, enlarge either, and expand Sources for credits and citations. Capture dates appear when verified; undated and archival photographs are retained without claiming they are current.
+- Filter by film, location type, deaths, or current map view. Movie tabs in place details and map labels immediately filter to that title. The movie selector, clear button, and Show all stay visible while viewing details. Show all also returns the map to the city view.
+- Open paired movie stills and real-site photographs, enlarge either, and expand Sources for credits and citations. Capture dates appear when verified; undated and archival photographs are retained without claiming they are current. Aerial photographs are explicitly labeled.
 - Use My location to request browser geolocation and plot a position and accuracy circle. Coordinates are not saved in shared links or application storage. A secure origin and browser/OS permission are required.
 - Filter canonical story dates with a range, decade preset, or playback. Returning both endpoints to their limits restores All time.
 - Share selections and filters with hash links. Phones can switch between the map and directory.
-- County boundaries mask surrounding territory; icons distinguish homes, work, hangouts, events, and deaths.
+- Open a person’s page to see their locations. Locations preserve their originating person or route so Back returns to the same page.
+- Routes displays every matching route in a different movie color; route stops have location pages and photographs. Route connectors link documented scenes, not verified continuous travel.
+- Movie colors apply to location icons and route lines. Every marker has a movie/name tooltip on hover or keyboard focus. Deaths appear as full-size, separately selectable entries in All and Deaths.
+- The surrounding territory uses a textured fog with a soft boundary. Islands remain masked until a researched place establishes one as part of the atlas.
 
 ## Data
 
-`research/locations-100.json` preserves the initial 100-entry catalog: 96 places and four routes. Three unmatched production geocodes remain outside the prototype directory. The directory contains 93 places; unresolved story addresses remain searchable without a false precise pin.
+`research/locations-100.json` preserves the initial 100-entry catalog: 96 places and four routes. Three unmatched production geocodes remain outside the prototype directory. The original directory contains 93 places; unresolved story addresses remain searchable without a false precise pin. `research/expansion-100.json` aggregates 100 further researched places from the three `expansion-*.json` source manifests. `route-revisions.json` and `route-extra.json` add eight further places for LAX and route stops. The current directory contains 201 places, plus separately derived death entries, and four routes.
 
-Run `node scripts/prepare-data.mjs` after editing research. `scripts/enrich-data.mjs` applies story geography, dates, deaths, and photograph manifests to `src/data/atlas.json`. `research/geocodes.json` preserves production coordinates; `research/story-geography.json` records conflicting story evidence and its sources. Story positions take precedence. Explicit streets are highlighted without inventing cross streets; broad inferences use dashed areas. Uncontradicted filming locations remain proxies, rather than independently established canonical addresses. Dashed routes connect selected stops, not turn-by-turn paths.
+Run `node scripts/prepare-data.mjs` after editing research. `scripts/enrich-data.mjs` applies story geography, dates, deaths, expansion manifests, route revisions, and photograph manifests to `src/data/atlas.json`. `research/geocodes.json` preserves production coordinates; `research/story-geography.json` records conflicting story evidence and its sources. Story positions take precedence. Explicit streets are highlighted without inventing cross streets; broad inferences use dashed areas. Uncontradicted filming locations remain proxies, rather than independently established canonical addresses. Dashed routes connect selected stops, not turn-by-turn paths.
 
 Dates establish presence during a story, not continuous tenancy. Explicit dates override release years. For otherwise contemporary stories, release year is an editorial estimate displayed with `c.`. Falling Down uses June 12, 1991 from the official Cannes synopsis; Blade Runner remains in November 2019. Future dates are not replaced by production years.
 
@@ -40,6 +43,6 @@ node scripts/prepare-data.mjs
 npm run check:affected
 ```
 
-The affected check covers time/search/state, story-coordinate corrections, photo coverage, county masking, TypeScript, and the production build. Browser checks cover property selection, photo enlargement, same-film filtering, full map labels, timeline reset, street/area placement, mobile layout, and loading the deployed page. Geolocation error handling is available when a browser or OS declines or cannot supply a position.
+The affected check covers time/search/state, route/person Back navigation, separate death entries, the 100-place expansion, corrected T2/LAX sites, photo coverage, county/island masking, TypeScript, and the production build. Browser checks cover rapid pointer and keyboard timeline scrubbing, visible filter clearing, person and route navigation, all-route colors, photo enlargement, marker tooltips, mobile layout, and the deployed page. The range handles occupy separate lanes so they remain draggable when their years coincide. Timeline filtering waits briefly for input to settle; URL writes are debounced and cannot unmount the atlas when the browser limits history updates. Geolocation error handling is available when a browser or OS declines or cannot supply a position.
 
 Pushing `main` runs `.github/workflows/pages.yml`, checks and builds the site, then deploys `dist` to GitHub Pages. Vite's relative base supports the `/movie-map/` project path.

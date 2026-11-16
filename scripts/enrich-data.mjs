@@ -54,6 +54,19 @@ export function enrich(atlas){
     if(j.id===100)j.year=2001;
     j.stops=j.stops.map(s=>s.placeId&&byId.get(s.placeId)?.coordinates?{...s,coordinates:byId.get(s.placeId).coordinates,name:byId.get(s.placeId).name}:s);
   }
+  const expanded=['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json'].map(path=>read(path,{places:[],sources:[],audit:[]}));
+  const catalog={schema_version:1,researched_on:'2026-11-15',places:expanded.flatMap(d=>d.places),sources:[...new Map(expanded.flatMap(d=>d.sources).map(s=>[s.id,s])).values()],audit:expanded.flatMap(d=>d.audit||[])};
+  if(catalog.places.length!==100)throw Error('Expansion must contain 100 researched places');
+  fs.writeFileSync('research/expansion-100.json',JSON.stringify(catalog,null,2)+'\n');
+  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json']){
+    const extra=read(path,{places:[],sources:[]});
+    for(const source of extra.sources){if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}}
+    for(const place of extra.places){if(byId.has(place.id))throw Error(`Duplicate place ${place.id}`);atlas.places.push(place);byId.set(place.id,place);}
+    for(const revised of extra.journeys||[]){const index=atlas.journeys.findIndex(j=>j.id===revised.id);if(index<0)throw Error(`Unknown route ${revised.id}`);atlas.journeys[index]=revised;}
+  }
+  const race=byId.get(208);if(race?.routeAnchors){const j=atlas.journeys.find(j=>j.id===100);j.stops=race.routeAnchors.map(s=>({...s,placeId:208}));j.geometry=race.geometry||race.placement?.geometry;j.source_ids=race.appearances[0].source_ids;}
+  const car=byId.get(211);if(car){const j=atlas.journeys.find(j=>j.id===97);j.stops[0]={name:car.name,coordinates:car.coordinates,placeId:211};j.source_ids=[...new Set([...j.source_ids,...car.appearances[0].source_ids])];}
+  for(const p of atlas.places)if(p.media)media[p.id]=p.media;
   fs.writeFileSync('public/photos/credits.json',JSON.stringify(media,null,2)+'\n');
   return atlas;
 }

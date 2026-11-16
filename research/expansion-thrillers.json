@@ -1,0 +1,3760 @@
+{
+  "places": [
+    {
+      "id": 134,
+      "name": "Beverly Hilton assassination attempt",
+      "short": "Beverly Hilton assassination attempt",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "9876 Wilshire Boulevard",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.413246624138,
+        34.067029782727
+      ],
+      "productionCoordinates": [
+        -118.413246624138,
+        34.067029782727
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Richard Chance",
+        "Jim Hart"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Beverly Hilton assassination attempt",
+          "filming_component": "9876 Wilshire Boulevard",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jim Hart",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Beverly Hills",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDhXkPof6xcb7wPRS5kFXzt4OS8b5OrPC33LM-kI-poE5Zjlp6aLYmogVKNEug3eWzBzK5ziHFfSZpLVvNqAZmJcUAIQuWX0bKCwBG5RiMnoOOkz1oj3EsnYnjvGqPMo3SYp7WsSrUH5H/s400/Hotel.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n134-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n134-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.413246624138,
+          34.067029782727
+        ],
+        "matchedAddress": "9876 WILSHIRE BLVD, BEVERLY HILLS, CA, 90210",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9876+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 135,
+      "name": "Eric Masters’s home",
+      "short": "Eric Masters’s home",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "757 Kingman Avenue",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.508799438602,
+        34.038802764397
+      ],
+      "productionCoordinates": [
+        -118.508799438602,
+        34.038802764397
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Eric Masters",
+        "Bianca Torres"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Eric Masters’s home",
+          "filming_component": "757 Kingman Avenue",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Bianca Torres",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Monica",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik-GQgVAH6e9EyNsu9uLsanCW3RrgDgJeWHzBHTgFKaF_158pqwcEdlVsv7Cnwhdb5hgC5aK_EY1A00hT3AXuSlDxdUKwlmswhqIhbm426SVYmRnYjyXTdkiB_LWAVumMoZZgloDUy1XPL/s400/Masters+House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n135-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla3.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n135-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.508799438602,
+          34.038802764397
+        ],
+        "matchedAddress": "757 Kingman Ave, Santa Monica, California, 90402",
+        "score": 98.83,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=757+N+Kingman+Avenue%2C+Los+Angeles%2C+CA+90402&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 136,
+      "name": "Chance’s bungee jump",
+      "short": "Chance’s bungee jump",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "Vincent Thomas Bridge",
+      "area": "San Pedro",
+      "coordinates": [
+        -118.2629,
+        33.7495
+      ],
+      "productionCoordinates": [
+        -118.2629,
+        33.7495
+      ],
+      "precision": "landmark-anchor",
+      "people": [
+        "Richard Chance"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Chance’s bungee jump",
+          "filming_component": "Vincent Thomas Bridge",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "San Pedro",
+        "precision": "landmark-anchor",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvP__0ZgcS8HlcFMrZP0_bUMuOInzqnrSnZZLBz6FZRHH2v1V4AZCp97IGgojAIuevMR6rusKEg6oa2uN9N-3YOP4B_5GoYX9y6Dpt9G7IZ30Iw1e5YzZgwFVJ9kT78CewmgicdFEEDEy7/s400/Bridge.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n136-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnTp4-cRxNUPFjwSLLOXN74KNSESWuZl5UAHnV0-_ZyGUjULW4K2-2hoYdeDyeWtDPPymOuKsgO0spcsa1s3zVmZ1ySkoHi8SJEo5yGDKurpUJoUieURSVYPNtdyOqkMv0fNQgn3bYcc/s400/Bridge.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n136-place.jpg"
+        }
+      }
+    },
+    {
+      "id": 137,
+      "name": "Masters’s desert workshop",
+      "short": "Masters’s desert workshop",
+      "categories": [
+        "work",
+        "death"
+      ],
+      "category": "work",
+      "address": "40038 170th Street East",
+      "area": "Palmdale",
+      "coordinates": [
+        -117.825811206282,
+        34.609616363705
+      ],
+      "productionCoordinates": [
+        -117.825811206282,
+        34.609616363705
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Eric Masters",
+        "Jack",
+        "Jim Hart"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Masters’s desert workshop",
+          "filming_component": "40038 170th Street East",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jim Hart",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Palmdale",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OTzkAvRFjHZeYmq6wHegdqwUIZQm-jCz1AdVkKH5TLzyzhja99Qcx6xNxaBif8VfCic4ZGBOk5PfQg6it9hV9jRXz0Xe8KmrzeyvR8sODUf9pQJHQAOhGDbvtz0oo7nvFWgjoLqKOPCh/s400/Warehouse+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n137-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla4.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n137-place.jpg"
+        }
+      },
+      "deaths": [
+        {
+          "title": "To Live and Die in L.A.",
+          "people": [
+            "Jim Hart"
+          ]
+        }
+      ],
+      "geocode": {
+        "coordinates": [
+          -117.825811206282,
+          34.609616363705
+        ],
+        "matchedAddress": "40038 170th St E, Palmdale, California, 93591",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=40038+170th+St+E%2C+Lake+Los+Angeles%2C+CA+93591&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 138,
+      "name": "Richard Chance’s home",
+      "short": "Richard Chance’s home",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "22664 Pacific Coast Highway",
+      "area": "Malibu",
+      "coordinates": [
+        -118.670831888027,
+        34.039301111675
+      ],
+      "productionCoordinates": [
+        -118.670831888027,
+        34.039301111675
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Richard Chance’s home",
+          "filming_component": "22664 Pacific Coast Highway",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Malibu",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbs5kdw9DNLjn_Ow3Sy9CVCmDoTUP88-dsTHbgjpj1eHoQIQ7BvT3x25Zy-cOmuxsZmq_s7550LchtzqJPz7gycCluwRbtQLhNZPTPbYF0Ysiw7_npKKOvK-Upu51Z8uOiyNxcb-3HKzhM/s400/Beach+House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n138-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla8.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n138-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.670831888027,
+          34.039301111675
+        ],
+        "matchedAddress": "22664 PACIFIC COAST HWY, MALIBU, CA, 90265",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=22664+Pacific+Coast+Highway%2C+Malibu%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 139,
+      "name": "Waxman stakeout church",
+      "short": "Waxman stakeout church",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "464 East Walnut Street",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.140859202547,
+        34.149136480013
+      ],
+      "productionCoordinates": [
+        -118.140859202547,
+        34.149136480013
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Waxman stakeout church",
+          "filming_component": "464 East Walnut Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Surveillance from the church across Walnut Street; the target office building was demolished.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Pasadena",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz6VfXEKRhlJOh-oM8ecVgK2LLVsiPX4ca-bPOEOct6S0qsm-U4ILoiG7GSuHdunHGL3xaOh8Qy0iAJct5J_LOAsUssjybeJjDLWuTp6JJ_AagYldoZVOWL0gEeRWWfO5comOwzx4aHwMk/s400/Church.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n139-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla9.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n139-place.jpg"
+        },
+        "note": "Surveillance from the church across Walnut Street; the target office building was demolished."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.140859202547,
+          34.149136480013
+        ],
+        "matchedAddress": "464 E Walnut St, Pasadena, California, 91101",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=464+E+Walnut+St%2C+Pasadena%2C+CA+91101&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Ruth Lanier’s home",
+      "short": "Ruth Lanier’s home",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "255 Viewland Place",
+      "area": "San Pedro",
+      "coordinates": [
+        -118.28380082654,
+        33.75084629457
+      ],
+      "productionCoordinates": [
+        -118.28380082654,
+        33.75084629457
+      ],
+      "precision": "former-site-approximate",
+      "people": [
+        "Ruth Lanier",
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Ruth Lanier’s home",
+          "filming_component": "255 Viewland Place",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ruth Lanier",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "House demolished; site photograph shows the replacement ballfield area.",
+      "placement": {
+        "kind": "inferred",
+        "address": "Knoll Hill, San Pedro · former house site, approximate",
+        "precision": "former-site-approximate",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.28630082654,
+                33.74934629457
+              ],
+              [
+                -118.28130082654,
+                33.74934629457
+              ],
+              [
+                -118.28130082654,
+                33.75234629457
+              ],
+              [
+                -118.28630082654,
+                33.75234629457
+              ],
+              [
+                -118.28630082654,
+                33.74934629457
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.28630082654,
+            33.74934629457
+          ],
+          [
+            -118.28130082654,
+            33.75234629457
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_NPK5N-DUwnGALe6juY4Bq83UcfHLxo6WWBHeDmwXx0-TFFeRljdWvhE9ArDM6z4M6Xa5donkbj0czWZ-FdYOwWIiAXFnhiIEgZYFnyrfyHOIN15uof2j8C46b8cM-OzXZJcPJX5v9rA/s400/Girlfriend+House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n140-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla12.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n140-place.jpg"
+        },
+        "note": "House demolished; site photograph shows the replacement ballfield area."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.28380082654,
+          33.75084629457
+        ],
+        "matchedAddress": "255 Viewland Pl, San Pedro, California, 90731",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=255+Viewland+Place%2C+San+Pedro%2C+CA+90731&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 141,
+      "name": "Check-cashing store",
+      "short": "Check-cashing store",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "1701 North Main Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.225892116448,
+        34.067750980279
+      ],
+      "productionCoordinates": [
+        -118.225892116448,
+        34.067750980279
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Check-cashing store",
+          "filming_component": "1701 North Main Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFU7xLi9JPTU30PJzs2CUmIO5FUTDRsVLonjgd5746p7dwv6NV0cq9X1VC9ANwM434qNd6l5M-33Qx7LBdmiAEjjMcSizpkWHETYbjfqePjfAfNTUXPicfGFHHCKmhvSm7lOOJiZJMNxZV/s400/Bust.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n141-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla13.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n141-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.225892116448,
+          34.067750980279
+        ],
+        "matchedAddress": "1701 N MAIN ST, LOS ANGELES, CA, 90012",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1701+North+Main+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 142,
+      "name": "Masters’s city warehouse",
+      "short": "Masters’s city warehouse",
+      "categories": [
+        "work",
+        "death"
+      ],
+      "category": "work",
+      "address": "692 Moulton Avenue",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.219699970549,
+        34.063410020463
+      ],
+      "productionCoordinates": [
+        -118.219699970549,
+        34.063410020463
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Eric Masters",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Masters’s city warehouse",
+          "filming_component": "692 Moulton Avenue",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Printshop was on Moulton Avenue, within the industrial property also described by the production guide as1920NorthMainStreet.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqUQQfpyiJIl-8N0XXUJTArwbaC-fnchHyq4flEiN8DSOoQBNdPEYHRj2IyoENO6gc7F9ZpLZqgM5OGEw3t9QBtNLBBY25d2cqlYTq8zpAMw-8hwD_S1xvC196meoQkgv7iybD1sOjeGOg/s400/Masters+Warehouse+2.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n142-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVP8AvQsnBtsuBF_bdFv3KEyKw9K_CcG_ZajUHkpSjPtV_NEinksh-_KzT8CH5Q-9ZVrN5GfbhujjhxGtTI_RuS558T2gupf85ZAT7bMGOQmtPK_FUGbGglY71GcY6IbjaPPllk6KFpGr8/s400/L.A.+Trip+2008+503.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n142-place.jpg"
+        },
+        "note": "Printshop was on Moulton Avenue, within the industrial property also described by the production guide as1920NorthMainStreet."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.219699970549,
+          34.063410020463
+        ],
+        "matchedAddress": "692 Moulton Ave, Los Angeles, California, 90031",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=692+Moulton+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      },
+      "deaths": [
+        {
+          "title": "To Live and Die in L.A.",
+          "people": [
+            "Eric Masters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Masters and Rice’s meeting",
+      "short": "Masters and Rice’s meeting",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "11231 South Main Street",
+      "area": "Watts",
+      "coordinates": [
+        -118.274051164405,
+        33.932132191924
+      ],
+      "productionCoordinates": [
+        -118.274051164405,
+        33.932132191924
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Eric Masters",
+        "Jeff Rice"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Masters and Rice’s meeting",
+          "filming_component": "11231 South Main Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jeff Rice",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Scene is on the West 113th Street wall. The mural has been painted over.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Watts",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRCBtJ21XOYN1dJ6ofrXtRoch42ob6iaTLkF3Mk2IBMaUy9mbUbNvv80PIOhyphenhyphen6KUSqhP2_HNhh-Xjat6yketBCX4Z1YKnlByS8-8foPnw2igTvH0vQM-G92h2MAGZ5Vf9HV8-7uv8bXA4E/s400/Mural.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n143-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla14.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n143-place.jpg"
+        },
+        "note": "Scene is on the West 113th Street wall. The mural has been painted over."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.274051164405,
+          33.932132191924
+        ],
+        "matchedAddress": "11231 S Main St, Los Angeles, California, 90061",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=11231+S+Main+St%2C+Los+Angeles%2C+CA+90061&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 144,
+      "name": "Jeff Rice’s home",
+      "short": "Jeff Rice’s home",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "1442 West F Street",
+      "area": "Wilmington",
+      "coordinates": [
+        -118.280981218079,
+        33.776295727722
+      ],
+      "productionCoordinates": [
+        -118.280981218079,
+        33.776295727722
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Jeff Rice",
+        "Eric Masters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Jeff Rice’s home",
+          "filming_component": "1442 West F Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jeff Rice",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Wilmington",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmz4U4I7d2gmCzmyKfP5ye7BdLpwPAtyUD8Ehw-s01QWqOuGI4wvpJqk7KNEEkyFXgF-XbVcQ1DmKZI7lQSwLn0C3Tp0DqMT11N0gZjLvdZomcCx-L_BCKQcDWrZhfgi-1cziwRWvCq6j6G8FT6FwHa-33FsflQrb8NFJBOZbqtBPWq3zNRAPD0zp1FQQ/w400-h221/Other%20House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n144-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla15.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n144-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.280981218079,
+          33.776295727722
+        ],
+        "matchedAddress": "1442 W F ST, WILMINGTON, CA, 90744",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1442+West+F+Street%2C+Wilmington%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 145,
+      "name": "Judge Cedillo’s office courtyard",
+      "short": "Judge Cedillo’s office courtyard",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "444 South Flower Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.255336912037,
+        34.052268089948
+      ],
+      "productionCoordinates": [
+        -118.255336912037,
+        34.052268089948
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Richard Chance",
+        "Judge Filo Cedillo"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Judge Cedillo’s office courtyard",
+          "filming_component": "444 South Flower Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Judge Filo Cedillo",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiItlUSYkiWrismqtDsiAuGWzSStF_L0kCXTdQFQWi0ntypQwfPXPC_3EmQKNgmnljxHp6J-LtjCwndNdEGdVtklO3larzE3vwyiOzbEF-o693nzOnYUXQZuGdamWvHso-jVfcyr0iH_0mb/s400/Courtyard.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n145-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoljYlSfVXxv4qfwRSTJCUS_UDGxT9bXEAj-ufKFsliuiAvDpTKHMFf5L_eBEqvEcfN-gUk1rd2Q-DX_7DM3st75yzUOW1gFzTGjCe6JjOBv2IyWVuh3VxAoaIwJShI2p2nITPna9Q-Q/s400/DSCF2178.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n145-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.255336912037,
+          34.052268089948
+        ],
+        "matchedAddress": "444 S FLOWER ST, LOS ANGELES, CA, 90071",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=444+South+Flower+Street%2C+Downtown+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 146,
+      "name": "Santa Fe Hospital",
+      "short": "Santa Fe Hospital",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "610 South Saint Louis Street",
+      "area": "Boyle Heights",
+      "coordinates": [
+        -118.216695812632,
+        34.03809264956
+      ],
+      "productionCoordinates": [
+        -118.216695812632,
+        34.03809264956
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Richard Chance",
+        "Carl Cody"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Santa Fe Hospital",
+          "filming_component": "610 South Saint Louis Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Carl Cody",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Santa Fe Hospital in dialogue; filmed at the former Santa Fe Coast Lines Hospital, later known as Linda Vista Hospital.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Fe Hospital · Boyle Heights",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY_6KhzsG6tRum1000dkLUyP9zlvFlzK-g2IwzK60qjSDUDrxy9JX_35BSrdPICoyCjalTABm9COmLH2ls5oPM9liGIh7V6GuiXjPh3uQqKKAwROm1v0wr4M9pdwey4eAHQz5Dud-7JF2Q/s400/Hospital.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n146-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla16.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n146-place.jpg"
+        },
+        "note": "Santa Fe Hospital in dialogue; filmed at the former Santa Fe Coast Lines Hospital, later known as Linda Vista Hospital."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.216695812632,
+          34.03809264956
+        ],
+        "matchedAddress": "610 S St Louis St, Los Angeles, California, 90023",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=610+S+Saint+Louis+St%2C+Los+Angeles%2C+CA+90023&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 147,
+      "name": "Vukovich’s bar",
+      "short": "Vukovich’s bar",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "2053 East 7th Street",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.23078478866,
+        34.034638016523
+      ],
+      "productionCoordinates": [
+        -118.23078478866,
+        34.034638016523
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "John Vukovich",
+        "Bob Grimes"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Vukovich’s bar",
+          "filming_component": "2053 East 7th Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Bob Grimes",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEispnG1P1WQsdvLqH15j_CxvPju-6LAnUjU0BaoVt-uiVKfgfMVMZbO9x9q8ganW0zt0cCw01GvAP09LkYFsTLneR2p4yVz-Ej3H_neARWYqoWexhrjLiAdUgTvE2PIEmqj_mVcJqHZqt32/s400/Crossing+Street.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n147-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUZBlo-S0LcwXlaffr6dRxdB8GOSlEt1v0PLOS7QpYGOCPjAbNeh1Bn0Ou1-w28GRwV7yIBziudqraYJPhj0-s0lqYSV67VEVCdNAdZK3lNQFiRystLpifovY4a6hILTOgZ6NX1k6vVOk/s1600/246.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n147-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.23078478866,
+          34.034638016523
+        ],
+        "matchedAddress": "2053 E 7TH ST, LOS ANGELES, CA, 90021",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2053+East+7th+Street%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 148,
+      "name": "Shipwreck Joey’s",
+      "short": "Shipwreck Joey’s",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "1331 West B Street",
+      "area": "Wilmington",
+      "coordinates": [
+        -118.278856760952,
+        33.771379107503
+      ],
+      "productionCoordinates": [
+        -118.278856760952,
+        33.771379107503
+      ],
+      "precision": "former-site-approximate",
+      "people": [
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Shipwreck Joey’s",
+          "filming_component": "1331 West B Street",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Demolished. Original West B Street address no longer exists; site is at Figueroa Street and Harry Bridges Boulevard.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Wilmington",
+        "precision": "former-site-approximate",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_GlPGZTZRZkgttSEUMRkOM3dZJGCDuYSxDMgqfErwma5Ct7KSzGVdNpBHHk8UKMrTjbLICVfeFMtOwBeN6wng6TeqkDrUbW-RJPD1fWREvqs4MSZwF_uMntQuOnyX0pU4RrXvqi5x7Uz/s400/Strip+Club.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n148-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/08/fightclub5.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n148-place.jpg"
+        },
+        "note": "Demolished. Original West B Street address no longer exists; site is at Figueroa Street and Harry Bridges Boulevard."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.278856760952,
+          33.771379107503
+        ],
+        "matchedAddress": "Figueroa St & W Harry Bridges Blvd, Wilmington, California, 90744",
+        "score": 99.84,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Figueroa+Street+and+Harry+Bridges+Boulevard%2C+Wilmington%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 149,
+      "name": "Carl Cody’s apartment",
+      "short": "Carl Cody’s apartment",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "5050 Woodman Avenue",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.431166273884,
+        34.162182534704
+      ],
+      "productionCoordinates": [
+        -118.431166273884,
+        34.162182534704
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Carl Cody",
+        "Richard Chance"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Carl Cody’s apartment",
+          "filming_component": "5050 Woodman Avenue",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Carl Cody",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sherman Oaks",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZbazVHUM8GuktKrqEgsprGth9-dDXXaQGcpFKayugQU3AMzGY4rDkTik_l8B5wYilR0DGBAQkW4A4bh5XozjArJ9PG3PvacxZiKKSiii11iE63v01dedR0eHo4B7PmM3aK3nO9vrJqZzj/s400/Apartment.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n149-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla19.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n149-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.431166273884,
+          34.162182534704
+        ],
+        "matchedAddress": "5050 WOODMAN AVE, SHERMAN OAKS, CA, 91423",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5050+Woodman+Avenue%2C+Sherman+Oaks%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 150,
+      "name": "Masters’s gym rendezvous",
+      "short": "Masters’s gym rendezvous",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "category": "event",
+      "address": "8051 Beverly Boulevard",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.365088915772,
+        34.07614579543
+      ],
+      "productionCoordinates": [
+        -118.365088915772,
+        34.07614579543
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Richard Chance",
+        "John Vukovich",
+        "Eric Masters",
+        "Jack"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Masters’s gym rendezvous",
+          "filming_component": "8051 Beverly Boulevard",
+          "source_ids": [
+            "x_live_ift",
+            "x_live_fo",
+            "x_live_afi",
+            "x_live_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "day",
+            "certainty": "approximate",
+            "basis": "The scene frame displays Jan.30, 05:15; calendar year is a contemporary1985 editorial estimate.",
+            "source_ids": [
+              "x_live_ift",
+              "x_live_fo"
+            ],
+            "month": 1,
+            "day": 30
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eric Masters",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "Exterior is at Beverly Boulevard and North Laurel Avenue; an alternate entrance address is 305 North Laurel Avenue.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_live_ift",
+          "x_live_fo",
+          "x_live_afi",
+          "x_live_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWFa7TXvlNFNNiOVcbr_fP6Oh9xC6ErZ5bQgqfxWmci1-e7R7tc_pNgNT7w-wyiaZ1SpuhERfr6F6ww_unXjwhh6MEWucAPXprUuUOumKRVnwjN7RgMDBVMvac2ml7vNNuebS4NOhGdGv7L_E_5jdBM7wqlsYKUhUVbmYkoRWjHsELp9zHoG3zUx-QIxw/w400-h219/Exchange%201.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n150-screen.jpg",
+          "note": "On-screen timestamp: Jan.30,05:15. Calendar year is estimated."
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla17.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n150-place.jpg"
+        },
+        "note": "Exterior is at Beverly Boulevard and North Laurel Avenue; an alternate entrance address is 305 North Laurel Avenue."
+      },
+      "deaths": [
+        {
+          "title": "To Live and Die in L.A.",
+          "people": [
+            "Richard Chance"
+          ]
+        }
+      ],
+      "geocode": {
+        "coordinates": [
+          -118.365088915772,
+          34.07614579543
+        ],
+        "matchedAddress": "8051 BEVERLY BLVD, LOS ANGELES, CA, 90048",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8051+Beverly+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 151,
+      "name": "Beverly Palm Hotel",
+      "short": "Beverly Palm Hotel",
+      "categories": [
+        "home"
+      ],
+      "category": "home",
+      "address": "506 South Grand Avenue",
+      "area": "Downtown Los Angeles",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.253996137542,
+        34.050013455349
+      ],
+      "precision": "address-geocode-pending",
+      "people": [
+        "Axel Foley",
+        "Billy Rosewood",
+        "John Taggart"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Beverly Palm Hotel",
+          "filming_component": "506 South Grand Avenue",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Billy Rosewood",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Taggart",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "Story hotel is in Beverly Hills; Biltmore in downtown Los Angeles supplied exterior, lobby and room. Production coordinates are not the story address.",
+      "placement": {
+        "kind": "unknown",
+        "address": "Beverly Hills · exact hotel address unknown",
+        "precision": "address-geocode-pending",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy-5Rdc0r73FwPEMuaxFj-AOO-ENf_basQlLk3SX9C6ezBWe58H5-PM1nTE5eNgpM8UztwMfr28tYt7lpPiJ-ygVIUaMiHRmP8QFFsMi5HcJ0F-7B2CEWyjG-rj8aoOtUUP4aV6ehg0VP7/s400/Biltmore.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n151-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYSJsM-WfNi3aLK2uGf35qlHS-IUiQBfhLRjijB1x88dmVSA_g9uc7A9pkjNshhmzDfQu-n2yPjXUgPx8tUdVCyr3GUnI9wYR37pY-bNNsHbamZuw0Bn3BHUV5Fmj2hC8apEBzTNdfgL1vrs-xqNMqhgK_kxXgBtYttRjraMY0ibkCqe9IatEHV0PkMM4/w400-h225/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n151-place.jpg"
+        },
+        "note": "Story hotel is in Beverly Hills; Biltmore in downtown Los Angeles supplied exterior, lobby and room. Production coordinates are not the story address."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.253996137542,
+          34.050013455349
+        ],
+        "matchedAddress": "506 S GRAND AVE, LOS ANGELES, CA, 90071",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=506+South+Grand+Avenue%2C+Downtown+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 152,
+      "name": "Jenny’s art gallery",
+      "short": "Jenny’s art gallery",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "9680 Wilshire Boulevard",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.405266526343,
+        34.06700883874
+      ],
+      "productionCoordinates": [
+        -118.405266526343,
+        34.06700883874
+      ],
+      "precision": "block-approximate",
+      "people": [
+        "Jenny Summers",
+        "Serge",
+        "Axel Foley",
+        "Victor Maitland"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Jenny’s art gallery",
+          "filming_component": "9680 Wilshire Boulevard",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jenny Summers",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Serge",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Victor Maitland",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "Comparison places the gallery frontage around 9658–9680 Wilshire; exact storefront is disputed. Position is a block-level production proxy.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Wilshire Boulevard near Bedford Drive",
+        "precision": "block-approximate",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4R_Gw_xTwBzfLr_1fo3nFWfZXDgZI1CE0f1yBU93IXcG3f8IklKdEhplcvtO-exHsIIz9KLdexirCkRfn_G0dPk4XHAu6HLquoyVyljaGNIijG3TTkNjXVbKNruxsjWKsWUAXGacn4IAG/s1600/Art+3.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n152-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7C8mi9qKuuJKPr3up77tfXehyphenhyphen973JzPajUgRmv8hktc-ui6LlykellWcIhENXzsYD30jUE0TXTC6xGfQVG9d2XPSdi0bJlLqV9uCc_c9T0KomiZ_p4kV-vwbMcto-_ez0l9r8o4hfdMI/s400/DSCF6610+-+Copy.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n152-place.jpg"
+        },
+        "note": "Comparison places the gallery frontage around 9658–9680 Wilshire; exact storefront is disputed. Position is a block-level production proxy."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.405266526343,
+          34.06700883874
+        ],
+        "matchedAddress": "9680 WILSHIRE BLVD, BEVERLY HILLS, CA, 90212",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9680+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 153,
+      "name": "Victor Maitland’s office",
+      "short": "Victor Maitland’s office",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "3699 Wilshire Boulevard",
+      "area": "Mid-Wilshire",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.306373962344,
+        34.061956011719
+      ],
+      "precision": "address-geocode-pending",
+      "people": [
+        "Victor Maitland",
+        "Axel Foley",
+        "Zack"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Victor Maitland’s office",
+          "filming_component": "3699 Wilshire Boulevard",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Victor Maitland",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Zack",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "Maitland’s office window stunt exterior is in Mid-Wilshire. An exact story address is not established; production coordinates are retained separately.",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles · exact office address unknown",
+        "precision": "address-geocode-pending",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKicJJOeQ3Uhwp_iZKTRh654EvC-OPRmML_CQA5wWuBvYsfZj149N4KCIjsNpQzeH8O8fJAGnkKqFdlvgx7ErDgzb3umxp36KXGLeNirz2gFauDt5XopJYpr75D9eeTNkBCRBFvFygcAPS/s400/Thrown+Out+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n153-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicm2jrW1jw7wg9eAGEfHGJOWR0xrKoC9Tz9U8nhr3VoNWHVSciFiUTOgb_MlefAz43VtzXc9m5WjIc3gVhUYlGkMFT67uBrQeIFUxA_Lr0yAXL9w1LwAQLgbN-DRM6mTutDFlvtMNM7g8/s1600/602.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n153-place.jpg"
+        },
+        "note": "Maitland’s office window stunt exterior is in Mid-Wilshire. An exact story address is not established; production coordinates are retained separately."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.306373962344,
+          34.061956011719
+        ],
+        "matchedAddress": "3699 Wilshire Blvd, Los Angeles, California, 90010",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=3699+Wilshire+Blvd%2C+Los+Angeles%2C+CA+90010&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 154,
+      "name": "Beverly Hills police headquarters",
+      "short": "Beverly Hills police headquarters",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "455 North Rexford Drive",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.399340624898,
+        34.072375148095
+      ],
+      "productionCoordinates": [
+        -118.399340624898,
+        34.072375148095
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Axel Foley",
+        "Billy Rosewood",
+        "John Taggart",
+        "Andrew Bogomil",
+        "Chief Hubbard"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Beverly Hills police headquarters",
+          "filming_component": "455 North Rexford Drive",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Billy Rosewood",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Taggart",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Andrew Bogomil",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chief Hubbard",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Beverly Hills City Hall · Crescent Drive entrance",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiaZEmyFQZQqv8ZTlHJTjEJwLcUti5sex9xAH3FMV3o14HKIcQgkPrd7G-yNs0lKe9Wex6kmT7HgACCs1_bZLadRXpyDKY1p_5XUc5OKvgIzgYkFkvpva60-Rh4cD-UPGIcGxveGcli6nX/s400/Police.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n154-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTYuyqg_v6poKe2ThHNmTtJDG5Ch2P7plYgNlp1flJEsktUoeg1WZuz2LMo2Spc6XLfQFMh22TJUin1hZFAAm7TMfPL5GS_o64WEiKFeMwgFcTw6QJdfyjwSXW4SjFPpKU-jC2ap7bsl7TGSmTkf27O5a5r5TfWVlSnITDuiLaivONTBIguQYlZlQh/w400-h225/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n154-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.399340624898,
+          34.072375148095
+        ],
+        "matchedAddress": "455 N REXFORD DR, BEVERLY HILLS, CA, 90210",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=455+North+Rexford+Drive%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 155,
+      "name": "Maitland’s warehouse",
+      "short": "Maitland’s warehouse",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "600 South Normandie Avenue",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.300288812225,
+        34.063509683366
+      ],
+      "productionCoordinates": [
+        -118.300288812225,
+        34.063509683366
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Axel Foley",
+        "Jenny Summers",
+        "Mikey Tandino",
+        "Victor Maitland"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Maitland’s warehouse",
+          "filming_component": "600 South Normandie Avenue",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jenny Summers",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Mikey Tandino",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Victor Maitland",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpU_KIxPwiIwma2xJjr0LvZr7FE-rQKkcGRD7qm46E4d8-AZCsePcIyuPrStCzz0jV248OeXSHzHlGS_PhrJftmogWVAK5Hf0qJ99tLpNHwQmAfwX2dR8kzEmMyhRUgTTw1Z16db7aNeQL/s400/Warehouse.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n155-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxM0xNkI63ZO_JjQLmbDBvD5ra5W3oMm3IJaee47nF6MV564ETfWHv27XWS1-Xwe7kRfKdhE5pmZBPqkMNAVATHrTTCa0R-X4Bp6Kxvi6A29UUgwyJraLh9BEyyOp76_xP3BKQkfeQRh-Q/s400/459.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n155-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.300288812225,
+          34.063509683366
+        ],
+        "matchedAddress": "600 S NORMANDIE AVE, LOS ANGELES, CA, 90005",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=600+South+Normandie+Avenue%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 156,
+      "name": "Bonded customs warehouse",
+      "short": "Bonded customs warehouse",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "6101 West Imperial Highway",
+      "area": "LAX area",
+      "coordinates": [
+        -118.392542776834,
+        33.932367346218
+      ],
+      "productionCoordinates": [
+        -118.392542776834,
+        33.932367346218
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Axel Foley",
+        "Jenny Summers"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills Cop",
+          "release_year": 1984,
+          "story_role": "Bonded customs warehouse",
+          "filming_component": "6101 West Imperial Highway",
+          "source_ids": [
+            "x_bhc_ift",
+            "x_bhc_ss"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_bhc_ift",
+              "x_bhc_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Axel Foley",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jenny Summers",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "LAX area",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_bhc_ift",
+          "x_bhc_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3IhqbTtmqKaO7OvA4hQAyWNMbhBMGrqRG0O1fekqrTcv_FCa3O1jeSX1OnG584kcyP0O08QPJqaavzv2BKOyHhO3Du2wNItmOvKMyP3xgikmtk33S8b5UYaH-egAylSdjdr22c76tSpw/s400/Bonded.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "Beverly Hills Cop",
+          "src": "photos/n156-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUUSrQB-QnN3EBmWU9mtiOLoziUyuU-4cKy4WiAxd023PG3t1D_RYW4_zVj0zk_h_J3snzQxiOT5xH0Yphq4fqhCmA6jFVIex5I6aVyCHw6Esy1hiNDRAzBylgn_IL38swZtN3OSzgh0/s400/Airport.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+          "credit": "It’s Filmed There",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n156-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.392542776834,
+          33.932367346218
+        ],
+        "matchedAddress": "6101 W Imperial Hwy, Los Angeles, California, 90045",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6101+W+Imperial+Hwy%2C+Los+Angeles%2C+CA+90045&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 157,
+      "name": "Chinatown Express",
+      "short": "Chinatown Express",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "252 South Western Avenue",
+      "area": "Koreatown",
+      "coordinates": [
+        -118.308917450862,
+        34.069696196387
+      ],
+      "productionCoordinates": [
+        -118.308917450862,
+        34.069696196387
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Lou Bloom",
+        "Rick"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Chinatown Express",
+          "filming_component": "252 South Western Avenue",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rick",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Original Pioneer Chicken premises portrayed Chinatown Express. The restaurant later moved; this entry retains the scene’s 252 South Western location.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Koreatown",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424822490872-TYZFIPGA2T3DMLD5PV8L/chinatownxpress.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n157-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler16.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n157-place.jpg"
+        },
+        "note": "Original Pioneer Chicken premises portrayed Chinatown Express. The restaurant later moved; this entry retains the scene’s 252 South Western location."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.308917450862,
+          34.069696196387
+        ],
+        "matchedAddress": "252 S Western Ave, Los Angeles, California, 90004",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=252+S+Western+Ave%2C+Los+Angeles%2C+CA+90004&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 158,
+      "name": "KWLA-6",
+      "short": "KWLA-6",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "5800 Sunset Boulevard",
+      "area": "East Hollywood",
+      "coordinates": [
+        -118.315845636262,
+        34.098004248185
+      ],
+      "productionCoordinates": [
+        -118.315845636262,
+        34.098004248185
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Nina Romina",
+        "Frank Kruse",
+        "Lou Bloom"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "KWLA-6",
+          "filming_component": "5800 Sunset Boulevard",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Nina Romina",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Frank Kruse",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "Composite production: KTLA/Sunset Bronson frontage and the former KCET newsroom at 4401 Sunset Boulevard. Marker uses the exterior studio complex as an uncontradicted production proxy.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "East Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815076852-YUDXJO1XAXIPH5FZ4NKC/tvstation1.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n158-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815220499-UWH6PEVOGOCKHRPZTZBN/tv-station-2.jpg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Wikipedia photograph reproduced by LocationsHub; photographer uncredited on source",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n158-place.jpg"
+        },
+        "note": "Composite production: KTLA/Sunset Bronson frontage and the former KCET newsroom at 4401 Sunset Boulevard. Marker uses the exterior studio complex as an uncontradicted production proxy."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.315845636262,
+          34.098004248185
+        ],
+        "matchedAddress": "5800 W SUNSET BLVD, HOLLYWOOD, CA, 90028",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5800+Sunset+Boulevard%2C+East+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 159,
+      "name": "Venice bicycle theft",
+      "short": "Venice bicycle theft",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "Ocean Front Walk north of Windward Avenue",
+      "area": "Venice",
+      "coordinates": [
+        -118.4755,
+        33.9905
+      ],
+      "productionCoordinates": [
+        -118.4755,
+        33.9905
+      ],
+      "precision": "area-approximate",
+      "people": [
+        "Lou Bloom"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Venice bicycle theft",
+          "filming_component": "Ocean Front Walk north of Windward Avenue",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Location manager identifies only a few blocks north of Windward Avenue; no exact tree or bench is claimed.",
+      "placement": {
+        "kind": "inferred",
+        "address": "Venice Boardwalk · north of Windward Avenue",
+        "precision": "area-approximate",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.479,
+                33.987
+              ],
+              [
+                -118.471,
+                33.987
+              ],
+              [
+                -118.471,
+                33.996
+              ],
+              [
+                -118.479,
+                33.996
+              ],
+              [
+                -118.479,
+                33.987
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.479,
+            33.987
+          ],
+          [
+            -118.471,
+            33.996
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814864406-XDVKF8TB9HZZ5GM8Q13I/venicebeach.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n159-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815693415-D5YTZIATZ67AH0XV1TKX/image-asset.jpeg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Uncredited site photograph / LocationsHub",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n159-place.jpg"
+        },
+        "note": "Location manager identifies only a few blocks north of Windward Avenue; no exact tree or bench is claimed."
+      }
+    },
+    {
+      "id": 160,
+      "name": "Dinah’s interview table",
+      "short": "Dinah’s interview table",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "6521 South Sepulveda Boulevard",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.394666594687,
+        33.980438782345
+      ],
+      "productionCoordinates": [
+        -118.394666594687,
+        33.980438782345
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Lou Bloom",
+        "Rick",
+        "Nina Romina"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Dinah’s interview table",
+          "filming_component": "6521 South Sepulveda Boulevard",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rick",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Nina Romina",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Former Sepulveda location, not the restaurant’s later relocated premises.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814258593-NW2MC1NSFJFB251U7PZT/dinah.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n160-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler5.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n160-place.jpg"
+        },
+        "note": "Former Sepulveda location, not the restaurant’s later relocated premises."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.394666594687,
+          33.980438782345
+        ],
+        "matchedAddress": "6521 S SEPULVEDA BLVD, LOS ANGELES, CA, 90045",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6521+South+Sepulveda+Boulevard%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 161,
+      "name": "Angelino’s Bakery stakeout",
+      "short": "Angelino’s Bakery stakeout",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "1522 West Sunset Boulevard",
+      "area": "Echo Park",
+      "coordinates": [
+        -118.255890010975,
+        34.07584834568
+      ],
+      "productionCoordinates": [
+        -118.255890010975,
+        34.07584834568
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Lou Bloom",
+        "Rick"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Angelino’s Bakery stakeout",
+          "filming_component": "1522 West Sunset Boulevard",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rick",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Echo Park",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814548489-7X1M6OWD9BL3RII1DPV6/angelino-bakery.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n161-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424822873583-HTOYRS9J4JNVWVEM4IB8/Angelino%27s-Edit.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "LocationsHub / Amoeba Music",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n161-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.255890010975,
+          34.07584834568
+        ],
+        "matchedAddress": "1522 W Sunset Blvd, Los Angeles, California, 90026",
+        "score": 100,
+        "method": "Esri World Geocoder",
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1522+W+Sunset+Blvd%2C+Los+Angeles%2C+CA+90026&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1"
+      }
+    },
+    {
+      "id": 162,
+      "name": "Studio City gas station",
+      "short": "Studio City gas station",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "12007 Ventura Boulevard",
+      "area": "Studio City",
+      "coordinates": [
+        -118.393306842454,
+        34.143793160122
+      ],
+      "productionCoordinates": [
+        -118.393306842454,
+        34.143793160122
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Lou Bloom",
+        "Rick"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Studio City gas station",
+          "filming_component": "12007 Ventura Boulevard",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Rick",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Studio City",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424813823998-4WJ38M97YJ01HLOG2YB9/studio-city-shell-gas-station-1.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n162-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler6.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n162-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.393306842454,
+          34.143793160122
+        ],
+        "matchedAddress": "12007 VENTURA BLVD, STUDIO CITY, CA, 91604",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12007+Ventura+Boulevard%2C+Studio+City%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 163,
+      "name": "Cabanita",
+      "short": "Cabanita",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "7408 Sunset Boulevard",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.351889454649,
+        34.09795879281
+      ],
+      "productionCoordinates": [
+        -118.351889454649,
+        34.09795879281
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Lou Bloom",
+        "Nina Romina"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Cabanita",
+          "filming_component": "7408 Sunset Boulevard",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi",
+            "x_night_ml"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi",
+              "x_night_ml"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Nina Romina",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "Fictional Cabanita restaurant portrayed by El Compadre’s Hollywood dining room.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi",
+          "x_night_ml"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424813891897-QVQT5VAI5OLSSULQ2BNE/mexican-rest.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n163-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://www.jsr-productions.com/images/blog/blogpost38faf0ee_0.webp",
+          "sourceUrl": "https://www.jsr-productions.com/blogpost38faf0ee.html",
+          "credit": "Jean-Sebastien Royer / JSR-Productions",
+          "caption": "El Compadre · 2025 report",
+          "note": "Published May 31, 2025; exact capture day unspecified.",
+          "src": "photos/n163-place.jpg"
+        },
+        "note": "Fictional Cabanita restaurant portrayed by El Compadre’s Hollywood dining room."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.351889454649,
+          34.09795879281
+        ],
+        "matchedAddress": "7408 W SUNSET BLVD, W HOLLYWOOD, CA, 90046",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7408+Sunset+Boulevard%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 164,
+      "name": "Hollywood police station",
+      "short": "Hollywood police station",
+      "categories": [
+        "work"
+      ],
+      "category": "work",
+      "address": "1358 North Wilcox Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.330921379328,
+        34.095865559115
+      ],
+      "productionCoordinates": [
+        -118.330921379328,
+        34.095865559115
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Lou Bloom",
+        "Detective Fronteiri"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nightcrawler",
+          "release_year": 2014,
+          "story_role": "Hollywood police station",
+          "filming_component": "1358 North Wilcox Avenue",
+          "source_ids": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_night_hub",
+              "x_night_fo",
+              "x_night_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lou Bloom",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Detective Fronteiri",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424816907030-VD73FPGTAVZNXF5OMB8D/lapd-1.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n164-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "LocationsHub / SCV Bail Bonds",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n164-place.jpg"
+        }
+      },
+      "geocode": {
+        "coordinates": [
+          -118.330921379328,
+          34.095865559115
+        ],
+        "matchedAddress": "1358 WILCOX AVE, HOLLYWOOD, CA, 90028",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1358+North+Wilcox+Avenue%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    },
+    {
+      "id": 165,
+      "name": "Utah’s surfboard lesson",
+      "short": "Utah’s surfboard lesson",
+      "categories": [
+        "hangout"
+      ],
+      "category": "hangout",
+      "address": "2 Manhattan Beach Boulevard",
+      "area": "Manhattan Beach",
+      "coordinates": [
+        -118.4105,
+        33.8846
+      ],
+      "productionCoordinates": [
+        -118.4105,
+        33.8846
+      ],
+      "precision": "landmark-anchor",
+      "people": [
+        "Johnny Utah",
+        "Angelo Pappas"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Point Break",
+          "release_year": 1991,
+          "story_role": "Utah’s surfboard lesson",
+          "filming_component": "2 Manhattan Beach Boulevard",
+          "source_ids": [
+            "x_point_ext",
+            "x_point_fo",
+            "x_point_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_point_ext",
+              "x_point_fo",
+              "x_point_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Johnny Utah",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Angelo Pappas",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Manhattan Beach Pier",
+        "precision": "landmark-anchor",
+        "sourceIds": [
+          "x_point_ext",
+          "x_point_fo",
+          "x_point_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://www.extstreet.com/stills/63351457963905469605484.jpg",
+          "sourceUrl": "https://www.extstreet.com/Point_Break.html",
+          "credit": "Point Break film frame / Ext.Street",
+          "title": "Point Break",
+          "src": "photos/n165-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/03/pointbreak4.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/04/02/point-break-1991/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n165-place.jpg"
+        }
+      }
+    },
+    {
+      "id": 166,
+      "name": "Assured Trust bank robbery",
+      "short": "Assured Trust bank robbery",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "3849 Main Street",
+      "area": "Culver City",
+      "coordinates": [
+        -118.394567522836,
+        34.02472620254
+      ],
+      "productionCoordinates": [
+        -118.394567522836,
+        34.02472620254
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Johnny Utah",
+        "Angelo Pappas",
+        "Bodhi",
+        "Roach"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Point Break",
+          "release_year": 1991,
+          "story_role": "Assured Trust bank robbery",
+          "filming_component": "3849 Main Street",
+          "source_ids": [
+            "x_point_ext",
+            "x_point_fo",
+            "x_point_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "x_point_ext",
+              "x_point_fo",
+              "x_point_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Johnny Utah",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Angelo Pappas",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Bodhi",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Roach",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Bank occupied the 3849–3851 Main Street frontage. Photo shows remodeled production premises; this is not the later Security Independence Bank robbery.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Culver City",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "x_point_ext",
+          "x_point_fo",
+          "x_point_afi"
+        ]
+      },
+      "media": {
+        "screen": {
+          "imageUrl": "https://www.extstreet.com/stills/1963895196881069557626679.jpg",
+          "sourceUrl": "https://www.extstreet.com/Point_Break.html",
+          "credit": "Point Break film frame / Ext.Street",
+          "title": "Point Break",
+          "src": "photos/n166-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/04/pointbreak15.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/04/02/point-break-1991/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n166-place.jpg"
+        },
+        "note": "Bank occupied the 3849–3851 Main Street frontage. Photo shows remodeled production premises; this is not the later Security Independence Bank robbery."
+      },
+      "geocode": {
+        "coordinates": [
+          -118.394567522836,
+          34.02472620254
+        ],
+        "matchedAddress": "3849 MAIN ST, CULVER CITY, CA, 90232",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3849+Main+Street%2C+Culver+City%2C+CA&benchmark=Public_AR_Current&format=json",
+        "method": "US Census street interpolation"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "x_live_ift",
+      "title": "To Live and Die in L.A. — scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_live_fo",
+      "title": "To Live and Die in L.A. — Film Oblivion",
+      "url": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_bhc_ift",
+      "title": "Beverly Hills Cop — scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_bhc_ss",
+      "title": "Beverly Hills Cop — Seeing Stars, part 2",
+      "url": "https://www.seeing-stars.com/Locations/BHCop2.shtml",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_night_hub",
+      "title": "Nightcrawler — location manager and production designer interviews",
+      "url": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "source_type": "production_interview"
+    },
+    {
+      "id": "x_night_fo",
+      "title": "Nightcrawler — Film Oblivion",
+      "url": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_night_ml",
+      "title": "Nightcrawler — Worldwide Guide to Movie Locations",
+      "url": "https://movie-locations.com/movies/n/Nightcrawler.php",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_night_afi",
+      "title": "AFI Catalog: Nightcrawler",
+      "url": "https://catalog.afi.com/Film/70239-NIGHTCRAWLER",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "x_point_fo",
+      "title": "Point Break — Film Oblivion",
+      "url": "https://filmoblivion.com/2019/04/02/point-break-1991/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_point_ext",
+      "title": "Point Break — scene frames and times",
+      "url": "https://www.extstreet.com/Point_Break.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "x_point_afi",
+      "title": "AFI Catalog: Point Break",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/59006",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "x_live_afi",
+      "title": "AFI Catalog: To Live and Die in L.A.",
+      "url": "https://catalog.afi.com/Film/67349-TO-LIVEANDDIEINLA",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "x_live_ss",
+      "title": "To Live and Die in L.A. — Seeing Stars, part2",
+      "url": "https://www.seeing-stars.com/Locations/ToLiveAndDie2.shtml",
+      "source_type": "location_research"
+    }
+  ],
+  "audit": [
+    {
+      "id": 134,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Beverly Hills",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 135,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Santa Monica",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 136,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "San Pedro",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 137,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Palmdale",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 138,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Malibu",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 139,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Pasadena",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Surveillance from the church across Walnut Street; the target office building was demolished."
+    },
+    {
+      "id": 140,
+      "status": "reviewed",
+      "mapping": "inferred",
+      "geography": "Knoll Hill, San Pedro · former house site, approximate",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "House demolished; site photograph shows the replacement ballfield area."
+    },
+    {
+      "id": 141,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 142,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Printshop was on Moulton Avenue, within the industrial property also described by the production guide as1920NorthMainStreet."
+    },
+    {
+      "id": 143,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Watts",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Scene is on the West 113th Street wall. The mural has been painted over."
+    },
+    {
+      "id": 144,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Wilmington",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 145,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Downtown Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 146,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Santa Fe Hospital · Boyle Heights",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Santa Fe Hospital in dialogue; filmed at the former Santa Fe Coast Lines Hospital, later known as Linda Vista Hospital."
+    },
+    {
+      "id": 147,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 148,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Wilmington",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Demolished. Original West B Street address no longer exists; site is at Figueroa Street and Harry Bridges Boulevard."
+    },
+    {
+      "id": 149,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Sherman Oaks",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 150,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Exterior is at Beverly Boulevard and North Laurel Avenue; an alternate entrance address is 305 North Laurel Avenue."
+    },
+    {
+      "id": 151,
+      "status": "reviewed",
+      "mapping": "unknown",
+      "geography": "Beverly Hills · exact hotel address unknown",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Story hotel is in Beverly Hills; Biltmore in downtown Los Angeles supplied exterior, lobby and room. Production coordinates are not the story address."
+    },
+    {
+      "id": 152,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Wilshire Boulevard near Bedford Drive",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Comparison places the gallery frontage around 9658–9680 Wilshire; exact storefront is disputed. Position is a block-level production proxy."
+    },
+    {
+      "id": 153,
+      "status": "reviewed",
+      "mapping": "unknown",
+      "geography": "Los Angeles · exact office address unknown",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Maitland’s office window stunt exterior is in Mid-Wilshire. An exact story address is not established; production coordinates are retained separately."
+    },
+    {
+      "id": 154,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Beverly Hills City Hall · Crescent Drive entrance",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 155,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 156,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "LAX area",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 157,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Koreatown",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Original Pioneer Chicken premises portrayed Chinatown Express. The restaurant later moved; this entry retains the scene’s 252 South Western location."
+    },
+    {
+      "id": 158,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "East Hollywood",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Composite production: KTLA/Sunset Bronson frontage and the former KCET newsroom at 4401 Sunset Boulevard. Marker uses the exterior studio complex as an uncontradicted production proxy."
+    },
+    {
+      "id": 159,
+      "status": "reviewed",
+      "mapping": "inferred",
+      "geography": "Venice Boardwalk · north of Windward Avenue",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Location manager identifies only a few blocks north of Windward Avenue; no exact tree or bench is claimed."
+    },
+    {
+      "id": 160,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Los Angeles",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Former Sepulveda location, not the restaurant’s later relocated premises."
+    },
+    {
+      "id": 161,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Echo Park",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 162,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Studio City",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 163,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Hollywood",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Fictional Cabanita restaurant portrayed by El Compadre’s Hollywood dining room."
+    },
+    {
+      "id": 164,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Hollywood",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 165,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Manhattan Beach Pier",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Uncontradicted Los Angeles filming-site proxy; no on-screen street address claimed."
+    },
+    {
+      "id": 166,
+      "status": "reviewed",
+      "mapping": "filming-proxy",
+      "geography": "Culver City",
+      "photos": "Actual film frame and real-site image visually inspected; capture date unknown unless explicitly supplied.",
+      "basis": "Bank occupied the 3849–3851 Main Street frontage. Photo shows remodeled production premises; this is not the later Security Independence Bank robbery."
+    }
+  ],
+  "ready": true
+}

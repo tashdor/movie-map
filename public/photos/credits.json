@@ -1903,5 +1903,1748 @@
       "credit": "Film Oblivion",
       "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
     }
+  },
+  "101": {
+    "screen": {
+      "src": "photos/n101-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-019.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n101-place.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-015.png",
+      "note": "Extracted and resized from the cited production-research PDF."
+    }
+  },
+  "102": {
+    "screen": {
+      "src": "photos/n102-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-035.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n102-place.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Los Angeles Times / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-034.png",
+      "note": "Extracted and resized from the cited production-research PDF."
+    }
+  },
+  "103": {
+    "screen": {
+      "src": "photos/n103-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-028.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n103-place.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-031.png",
+      "note": "Extracted and resized from the cited production-research PDF."
+    }
+  },
+  "104": {
+    "screen": {
+      "src": "photos/n104-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-067.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n104-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.31355648172%2C34.178449050389005%2C-118.31115648172%2C34.179949050389&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "105": {
+    "screen": {
+      "src": "photos/n105-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-056.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n105-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.318090268257%2C34.082695470315%2C-118.315690268257%2C34.084195470314995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "106": {
+    "screen": {
+      "src": "photos/n106-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-073.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n106-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.37710571989899%2C34.089152850206005%2C-118.374705719899%2C34.090652850206&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "caption": "Filming site · aerial",
+      "note": "Aerial of the production-site area; capture date unknown."
+    }
+  },
+  "107": {
+    "screen": {
+      "src": "photos/n107-screen.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-004.png",
+      "title": "Double Indemnity",
+      "note": "Extracted and resized from the cited production-research PDF."
+    },
+    "place": {
+      "src": "photos/n107-place.jpg",
+      "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+      "imageUrl": "/private/tmp/noir-pages/di-002.png",
+      "note": "Extracted and resized from the cited production-research PDF."
+    }
+  },
+  "108": {
+    "screen": {
+      "src": "photos/n108-screen.jpg",
+      "sourceUrl": "https://clip.cafe/l-a-story-1991/what-a-surprise-weekend-the-weather-turned-unseasonably-low/",
+      "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+      "title": "L.A. Story",
+      "imageUrl": "https://clip.cafe/clipimg/what-a-surprise-weekend-the-weather-turned-unseasonably-low.jpg",
+      "note": "KYOY news broadcast."
+    },
+    "place": {
+      "src": "photos/n108-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.286237794733%2C34.095957980794005%2C-118.283837794733%2C34.097457980794&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "caption": "Filming site · aerial",
+      "note": "Aerial of the production-site area; capture date unknown."
+    }
+  },
+  "109": {
+    "screen": {
+      "src": "photos/n109-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+      "credit": "Sunset Boulevard film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/08 (961).jpg?bwg=1547408396",
+      "title": "Sunset Boulevard"
+    },
+    "place": {
+      "src": "photos/n109-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.319773479519%2C34.062340241335%2C-118.317373479519%2C34.063840241334994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "110": {
+    "screen": {
+      "src": "photos/n110-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+      "credit": "Sunset Boulevard film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/05 (961).jpg?bwg=1547408396",
+      "title": "Sunset Boulevard"
+    },
+    "place": {
+      "src": "photos/n110-place.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/s/Sunset-Boulevard.php",
+      "credit": "Worldwide Guide to Movie Locations",
+      "imageUrl": "https://www.movie-locations.com/movies/s/sunsetblvd_gate.jpg"
+    }
+  },
+  "111": {
+    "screen": {
+      "src": "photos/n111-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+      "credit": "Sunset Boulevard film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/30 (981).jpg?bwg=1547408397",
+      "title": "Sunset Boulevard"
+    },
+    "place": {
+      "src": "photos/n111-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.36586126514%2C34.097199596763005%2C-118.36346126514%2C34.098699596763&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "112": {
+    "screen": {
+      "src": "photos/n112-screen.jpg",
+      "sourceUrl": "https://clip.cafe/l-a-story-1991/hello-is-harris-please-start-talking-at-the-beep/",
+      "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+      "imageUrl": "https://clip.cafe/clipimg/hello-is-harris-please-start-talking-at-the-beep.jpg",
+      "title": "L.A. Story"
+    },
+    "place": {
+      "src": "photos/n112-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory7.jpg",
+      "note": "Capture date not supplied by the source."
+    }
+  },
+  "113": {
+    "screen": {
+      "src": "photos/n113-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/05/15/trudis-apartment-building-from-l-a-story",
+      "credit": "L.A. Story (1991), Carolco / Lindsay Blake, IAMNOTASTALKER",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/05/7517681f-2bb7-4819-a8b3-cf5e0795ee07.jpg",
+      "title": "L.A. Story"
+    },
+    "place": {
+      "src": "photos/n113-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory2.jpg",
+      "note": "Capture date not supplied by the source."
+    }
+  },
+  "114": {
+    "screen": {
+      "src": "photos/n114-screen.jpg",
+      "sourceUrl": "https://clip.cafe/l-a-story-1991/your-usual-table-mr-christopher-no-a-good-one/",
+      "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+      "imageUrl": "https://clip.cafe/clipimg/your-usual-table-mr-christopher-no-a-good-one.jpg",
+      "title": "L.A. Story"
+    },
+    "place": {
+      "src": "photos/n114-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory5.jpg",
+      "note": "Capture date not supplied by the source."
+    },
+    "note": "Photo pair: Ambassador Hotel coffee-shop interior on screen; Regent Place apartment entrance at426SouthNorton is the production exterior. Story address is Sunset and Crescent."
+  },
+  "115": {
+    "screen": {
+      "src": "photos/n115-screen.jpg",
+      "sourceUrl": "https://clip.cafe/l-a-story-1991/why-with-financial-statement-think-can-have-the-duck-s1/",
+      "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+      "imageUrl": "https://clip.cafe/clipimg/why-with-financial-statement-think-can-have-the-duck-s1.jpg",
+      "title": "L.A. Story"
+    },
+    "place": {
+      "src": "photos/n115-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/03/seven10-1.jpg",
+      "note": "Capture date not supplied by the source."
+    }
+  },
+  "116": {
+    "screen": {
+      "src": "photos/n116-screen.jpg",
+      "sourceUrl": "https://clip.cafe/l-a-story-1991/i-like-the-relationships-each-character-his-own-story/",
+      "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+      "imageUrl": "https://clip.cafe/clipimg/i-like-the-relationships-each-character-his-own-story.jpg",
+      "title": "L.A. Story"
+    },
+    "place": {
+      "src": "photos/n116-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251307901087%2C34.05339200480201%2C-118.24890790108701%2C34.054892004802&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "117": {
+    "screen": {
+      "src": "photos/n117-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_10.jpg?bwg=1702981908",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n117-place.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/p/Point-Blank.php",
+      "credit": "Worldwide Guide to Movie Locations",
+      "imageUrl": "https://www.movie-locations.com/movies/p/Point-Blank-Miller-Drive.jpg"
+    }
+  },
+  "118": {
+    "screen": {
+      "src": "photos/n118-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_33.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n118-place.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/p/Point-Blank.php",
+      "credit": "Worldwide Guide to Movie Locations",
+      "imageUrl": "https://www.movie-locations.com/movies/p/Point-Blank-Huntley-Hotel-entrance-2.jpg"
+    }
+  },
+  "119": {
+    "screen": {
+      "src": "photos/n119-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_44.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n119-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.353133578602%2C34.06151952657%2C-118.350733578602%2C34.063019526569995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "120": {
+    "screen": {
+      "src": "photos/n120-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_50.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n120-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.228%2C34.03475%2C-118.2256%2C34.036249999999995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "caption": "Filming site · aerial",
+      "note": "Aerial of the production-site area; capture date unknown."
+    }
+  },
+  "121": {
+    "screen": {
+      "src": "photos/n121-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_51.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n121-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.35702075136099%2C34.103968836510006%2C-118.354620751361%2C34.10546883651&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "122": {
+    "screen": {
+      "src": "photos/n122-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_22.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n122-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.38989499474799%2C34.026193411909006%2C-118.387494994748%2C34.027693411909&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "123": {
+    "screen": {
+      "src": "photos/n123-screen.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+      "credit": "Point Blank film frame / FilmGrab",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_34.jpg?bwg=1702981906",
+      "title": "Point Blank"
+    },
+    "place": {
+      "src": "photos/n123-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.5059%2C34.01885%2C-118.5035%2C34.02034999999999&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "124": {
+    "screen": {
+      "src": "photos/n124-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrej1l4pknsIXyWLUFUxBfNtKCdtFJPFafzUl6BcwowA29v_kK1pbITR9HS9RMTK95e4Paeminm4FuLKnd44y08Cz5sD9rTqGIRRrMLETkpTe2cgEBhf8q12Ya3qGdqUkX-zFFG5CoqSM/s400/HighTower_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n124-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "Yuri G. / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ThN_XB6vJk3rDbpR3CdEwnW8Yz4658Oal7qJsDQvAc0z4JgbEh5BMXR5uD3_PPEJgqNilBcPa9MYr3MEPhcxoSC7eT_S-0VOF1eA4Q4uZUpImrSfFI4e1uQdcjIhG65TIPnphRGWyXY/s400/HighTower_Now.jpg",
+      "note": "Archival site comparison published2012; capture day not supplied."
+    }
+  },
+  "125": {
+    "screen": {
+      "src": "photos/n125-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvGtkTT4JHaUsx5-8oqJyDcH_e-1z9W9W3m1v4c0nzOY7Btcyf5B1RYlO3_zq8PA82d8bHwsXxfRqNsG7U0ZJUKIsXjgZw2rkZS9gr_2D_b9ZhTrL4PWlJ4aDl9X_0Wa95A9B6rYQC60/s400/WadesHouse_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n125-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.696110661512%2C34.032607997416%2C-118.693710661512%2C34.034107997415994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "126": {
+    "screen": {
+      "src": "photos/n126-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5JR-llZgkDgjgFwRirSCaLpxiiTQSrUzrse556pOC4u8x1LRMSfbrYVYYi0LBCiaAldI3IYDEc0JnM0PQzFx4CiwsQ1747pWIuoVVrvYyeRlNrTTw5xUiBkvoYntRxV3f_KjTfiY9OhA/s400/LincolnHeightsJail_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n126-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.225571287553%2C34.076185312045006%2C-118.223171287553%2C34.077685312045&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "127": {
+    "screen": {
+      "src": "photos/n127-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9ifK0papNOQqZ9bMhSdYZkwdowgohhB5uWYNT-EoUCveAR3BKaBTs5IogJE4aeKdoyc6Ro4mtEfNcotdVUcpMgN1o5rID3BvHX964AR3ay9Ap1CIa4SiesWkQmuw6pbyBIWXxykzQ45w/s400/MentalInstitution_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n127-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.092946279417%2C34.140416083527%2C-118.087746279417%2C34.143816083527&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "caption": "Filming site · aerial",
+      "note": "Aerial of the production-site area; capture date unknown."
+    }
+  },
+  "128": {
+    "screen": {
+      "src": "photos/n128-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrsiCzEYjw9kNfA0Xf-FBstCowzuum2I60AxiavzZXw9xpYGAUZbSf77aRwlu936UIstPCDExFaWmkqcWewh2DGdJSY_l8uoDgWkaJUpv-wPK9fZh4EIDz_ddAA6maWrHdhCeE3DvvmMM/s400/Supermarket_LongGoodbye1.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n128-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.386071986874%2C34.181234009330005%2C-118.383671986874%2C34.18273400933&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial of the production site; capture date unknown.",
+      "caption": "Filming site · aerial"
+    }
+  },
+  "129": {
+    "screen": {
+      "src": "photos/n129-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib45mvqMhYId6sIwr_jvoyxjqDzMY1Nq3QBOaghPPi28Zjnm892kHQemBFW9gJMimri47_5JNfwgYVT2kyH8-PqbVgprJHHuaYrS14WRtIS-OFSdT1-In-Wuwa3ABdV6ffqpqn8fAa258/s400/OppenheimerBuildingSteps_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n129-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "Yuri G. / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlZrn7U12jlc2uzl6_2W_8ZMin04g-z2MZqcpbOcApF-XLYYc5rCUNQhl9dsrB4umSRPIZSG8JqO3C5fPcD1yC4Bq_FFt0k7jyV6cLgxoz2GI8vokZmqzlM2-oBWMOdYAdW58QiueHEn8/s400/OppenheimerBuildingSteps_Now.jpg",
+      "note": "Archival site comparison published2012; capture day not supplied."
+    }
+  },
+  "130": {
+    "screen": {
+      "src": "photos/n130-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhheeqq4_acFjETrtYSlqe-qg8RfeLY1El66_KHoC-pXqxsoqwugYfxuCHdQlQsvL2ovh3O4evG7i68nEkoqGJrZma_csZswsROR_mhvNqOA2CQSvIS5PFKPXuDtILy4iIZ3ORtnl6_t9E/s400/KinrossAtBroxton_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n130-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "Yuri G. / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4DB2T-U4CH0EfJCpVL2m__4cgXY1D0O2ebz3-HUDpwIwPmZK3GVhyphenhyphenqu6efSyMaNYRiWBAiXWoXdt_i1z8IOr3D-DbNfUG5C6tyYKbPWBtqjzvxKYwY1XzzTw19kGaX2myWkuswv8CKA/s1600/KinrossAtBroxton_Now.jpg",
+      "note": "Archival site comparison published2012; capture day not supplied."
+    }
+  },
+  "131": {
+    "screen": {
+      "src": "photos/n131-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnn-ip-9sUZF1_UDAz_jFg-McNvKg-Jo0aFkbphP833s7oFnV-TScinsYGQwVvoLlDg-1v0ldIN7s71fj1h73oFWSm-ReWKtaFQ88BF4QXkUQwOey8SS_yOVUnBThdU-1HFuYONaaSl5A/s400/MalibuColony_LongGoodbye.jpg",
+      "title": "The Long Goodbye"
+    },
+    "place": {
+      "src": "photos/n131-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.6896%2C34.03385%2C-118.6872%2C34.035349999999994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+      "note": "Aerial context near the Malibu Colony entrance; this is not an identified close-up of the gate. Capture date unknown.",
+      "caption": "Malibu Colony vicinity · aerial"
+    }
+  },
+  "132": {
+    "screen": {
+      "src": "photos/n132-screen.jpg",
+      "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+      "credit": "Rebel Without a Cause (1955), Warner Bros. / Cineguides",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628318343710-80T6BTYFOKENNBG4D2S7/RC1.JPG?format=1000w",
+      "title": "Rebel Without a Cause"
+    },
+    "place": {
+      "src": "photos/n132-place.jpg",
+      "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+      "credit": "Cineguides / Google Maps2021",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628318347450-HHJFOBCJD1JFAPWSG8ZR/RC2.JPG?format=1000w",
+      "date": "2021"
+    }
+  },
+  "133": {
+    "screen": {
+      "src": "photos/n133-screen.jpg",
+      "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+      "credit": "Rebel Without a Cause (1955), Warner Bros. / Cineguides",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628323592325-IC6OHDHWH86266A8ASZG/RC12.jpg?format=1000w",
+      "title": "Rebel Without a Cause"
+    },
+    "place": {
+      "src": "photos/n133-place.jpg",
+      "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+      "credit": "Cineguides / Google Maps2021",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628323602971-TDX7LWGO1ITXD7ZZSX02/RC14.JPG?format=1000w",
+      "date": "2021"
+    }
+  },
+  "134": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDhXkPof6xcb7wPRS5kFXzt4OS8b5OrPC33LM-kI-poE5Zjlp6aLYmogVKNEug3eWzBzK5ziHFfSZpLVvNqAZmJcUAIQuWX0bKCwBG5RiMnoOOkz1oj3EsnYnjvGqPMo3SYp7WsSrUH5H/s400/Hotel.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n134-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n134-place.jpg"
+    }
+  },
+  "135": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik-GQgVAH6e9EyNsu9uLsanCW3RrgDgJeWHzBHTgFKaF_158pqwcEdlVsv7Cnwhdb5hgC5aK_EY1A00hT3AXuSlDxdUKwlmswhqIhbm426SVYmRnYjyXTdkiB_LWAVumMoZZgloDUy1XPL/s400/Masters+House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n135-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla3.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n135-place.jpg"
+    }
+  },
+  "136": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvP__0ZgcS8HlcFMrZP0_bUMuOInzqnrSnZZLBz6FZRHH2v1V4AZCp97IGgojAIuevMR6rusKEg6oa2uN9N-3YOP4B_5GoYX9y6Dpt9G7IZ30Iw1e5YzZgwFVJ9kT78CewmgicdFEEDEy7/s400/Bridge.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n136-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnTp4-cRxNUPFjwSLLOXN74KNSESWuZl5UAHnV0-_ZyGUjULW4K2-2hoYdeDyeWtDPPymOuKsgO0spcsa1s3zVmZ1ySkoHi8SJEo5yGDKurpUJoUieURSVYPNtdyOqkMv0fNQgn3bYcc/s400/Bridge.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n136-place.jpg"
+    }
+  },
+  "137": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OTzkAvRFjHZeYmq6wHegdqwUIZQm-jCz1AdVkKH5TLzyzhja99Qcx6xNxaBif8VfCic4ZGBOk5PfQg6it9hV9jRXz0Xe8KmrzeyvR8sODUf9pQJHQAOhGDbvtz0oo7nvFWgjoLqKOPCh/s400/Warehouse+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n137-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla4.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n137-place.jpg"
+    }
+  },
+  "138": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbs5kdw9DNLjn_Ow3Sy9CVCmDoTUP88-dsTHbgjpj1eHoQIQ7BvT3x25Zy-cOmuxsZmq_s7550LchtzqJPz7gycCluwRbtQLhNZPTPbYF0Ysiw7_npKKOvK-Upu51Z8uOiyNxcb-3HKzhM/s400/Beach+House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n138-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla8.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n138-place.jpg"
+    }
+  },
+  "139": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz6VfXEKRhlJOh-oM8ecVgK2LLVsiPX4ca-bPOEOct6S0qsm-U4ILoiG7GSuHdunHGL3xaOh8Qy0iAJct5J_LOAsUssjybeJjDLWuTp6JJ_AagYldoZVOWL0gEeRWWfO5comOwzx4aHwMk/s400/Church.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n139-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla9.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n139-place.jpg"
+    },
+    "note": "Surveillance from the church across Walnut Street; the target office building was demolished."
+  },
+  "140": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_NPK5N-DUwnGALe6juY4Bq83UcfHLxo6WWBHeDmwXx0-TFFeRljdWvhE9ArDM6z4M6Xa5donkbj0czWZ-FdYOwWIiAXFnhiIEgZYFnyrfyHOIN15uof2j8C46b8cM-OzXZJcPJX5v9rA/s400/Girlfriend+House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n140-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla12.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n140-place.jpg"
+    },
+    "note": "House demolished; site photograph shows the replacement ballfield area."
+  },
+  "141": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFU7xLi9JPTU30PJzs2CUmIO5FUTDRsVLonjgd5746p7dwv6NV0cq9X1VC9ANwM434qNd6l5M-33Qx7LBdmiAEjjMcSizpkWHETYbjfqePjfAfNTUXPicfGFHHCKmhvSm7lOOJiZJMNxZV/s400/Bust.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n141-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla13.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n141-place.jpg"
+    }
+  },
+  "142": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqUQQfpyiJIl-8N0XXUJTArwbaC-fnchHyq4flEiN8DSOoQBNdPEYHRj2IyoENO6gc7F9ZpLZqgM5OGEw3t9QBtNLBBY25d2cqlYTq8zpAMw-8hwD_S1xvC196meoQkgv7iybD1sOjeGOg/s400/Masters+Warehouse+2.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n142-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVP8AvQsnBtsuBF_bdFv3KEyKw9K_CcG_ZajUHkpSjPtV_NEinksh-_KzT8CH5Q-9ZVrN5GfbhujjhxGtTI_RuS558T2gupf85ZAT7bMGOQmtPK_FUGbGglY71GcY6IbjaPPllk6KFpGr8/s400/L.A.+Trip+2008+503.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n142-place.jpg"
+    },
+    "note": "Printshop was on Moulton Avenue, within the industrial property also described by the production guide as1920NorthMainStreet."
+  },
+  "143": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRCBtJ21XOYN1dJ6ofrXtRoch42ob6iaTLkF3Mk2IBMaUy9mbUbNvv80PIOhyphenhyphen6KUSqhP2_HNhh-Xjat6yketBCX4Z1YKnlByS8-8foPnw2igTvH0vQM-G92h2MAGZ5Vf9HV8-7uv8bXA4E/s400/Mural.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n143-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla14.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n143-place.jpg"
+    },
+    "note": "Scene is on the West 113th Street wall. The mural has been painted over."
+  },
+  "144": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmz4U4I7d2gmCzmyKfP5ye7BdLpwPAtyUD8Ehw-s01QWqOuGI4wvpJqk7KNEEkyFXgF-XbVcQ1DmKZI7lQSwLn0C3Tp0DqMT11N0gZjLvdZomcCx-L_BCKQcDWrZhfgi-1cziwRWvCq6j6G8FT6FwHa-33FsflQrb8NFJBOZbqtBPWq3zNRAPD0zp1FQQ/w400-h221/Other%20House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n144-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla15.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n144-place.jpg"
+    }
+  },
+  "145": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiItlUSYkiWrismqtDsiAuGWzSStF_L0kCXTdQFQWi0ntypQwfPXPC_3EmQKNgmnljxHp6J-LtjCwndNdEGdVtklO3larzE3vwyiOzbEF-o693nzOnYUXQZuGdamWvHso-jVfcyr0iH_0mb/s400/Courtyard.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n145-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoljYlSfVXxv4qfwRSTJCUS_UDGxT9bXEAj-ufKFsliuiAvDpTKHMFf5L_eBEqvEcfN-gUk1rd2Q-DX_7DM3st75yzUOW1gFzTGjCe6JjOBv2IyWVuh3VxAoaIwJShI2p2nITPna9Q-Q/s400/DSCF2178.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n145-place.jpg"
+    }
+  },
+  "146": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY_6KhzsG6tRum1000dkLUyP9zlvFlzK-g2IwzK60qjSDUDrxy9JX_35BSrdPICoyCjalTABm9COmLH2ls5oPM9liGIh7V6GuiXjPh3uQqKKAwROm1v0wr4M9pdwey4eAHQz5Dud-7JF2Q/s400/Hospital.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n146-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla16.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n146-place.jpg"
+    },
+    "note": "Santa Fe Hospital in dialogue; filmed at the former Santa Fe Coast Lines Hospital, later known as Linda Vista Hospital."
+  },
+  "147": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEispnG1P1WQsdvLqH15j_CxvPju-6LAnUjU0BaoVt-uiVKfgfMVMZbO9x9q8ganW0zt0cCw01GvAP09LkYFsTLneR2p4yVz-Ej3H_neARWYqoWexhrjLiAdUgTvE2PIEmqj_mVcJqHZqt32/s400/Crossing+Street.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n147-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUZBlo-S0LcwXlaffr6dRxdB8GOSlEt1v0PLOS7QpYGOCPjAbNeh1Bn0Ou1-w28GRwV7yIBziudqraYJPhj0-s0lqYSV67VEVCdNAdZK3lNQFiRystLpifovY4a6hILTOgZ6NX1k6vVOk/s1600/246.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n147-place.jpg"
+    }
+  },
+  "148": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_GlPGZTZRZkgttSEUMRkOM3dZJGCDuYSxDMgqfErwma5Ct7KSzGVdNpBHHk8UKMrTjbLICVfeFMtOwBeN6wng6TeqkDrUbW-RJPD1fWREvqs4MSZwF_uMntQuOnyX0pU4RrXvqi5x7Uz/s400/Strip+Club.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n148-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/08/fightclub5.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n148-place.jpg"
+    },
+    "note": "Demolished. Original West B Street address no longer exists; site is at Figueroa Street and Harry Bridges Boulevard."
+  },
+  "149": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZbazVHUM8GuktKrqEgsprGth9-dDXXaQGcpFKayugQU3AMzGY4rDkTik_l8B5wYilR0DGBAQkW4A4bh5XozjArJ9PG3PvacxZiKKSiii11iE63v01dedR0eHo4B7PmM3aK3nO9vrJqZzj/s400/Apartment.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n149-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla19.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n149-place.jpg"
+    }
+  },
+  "150": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWFa7TXvlNFNNiOVcbr_fP6Oh9xC6ErZ5bQgqfxWmci1-e7R7tc_pNgNT7w-wyiaZ1SpuhERfr6F6ww_unXjwhh6MEWucAPXprUuUOumKRVnwjN7RgMDBVMvac2ml7vNNuebS4NOhGdGv7L_E_5jdBM7wqlsYKUhUVbmYkoRWjHsELp9zHoG3zUx-QIxw/w400-h219/Exchange%201.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "To Live and Die in L.A.",
+      "src": "photos/n150-screen.jpg",
+      "note": "On-screen timestamp: Jan.30,05:15. Calendar year is estimated."
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla17.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n150-place.jpg"
+    },
+    "note": "Exterior is at Beverly Boulevard and North Laurel Avenue; an alternate entrance address is 305 North Laurel Avenue."
+  },
+  "151": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy-5Rdc0r73FwPEMuaxFj-AOO-ENf_basQlLk3SX9C6ezBWe58H5-PM1nTE5eNgpM8UztwMfr28tYt7lpPiJ-ygVIUaMiHRmP8QFFsMi5HcJ0F-7B2CEWyjG-rj8aoOtUUP4aV6ehg0VP7/s400/Biltmore.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n151-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYSJsM-WfNi3aLK2uGf35qlHS-IUiQBfhLRjijB1x88dmVSA_g9uc7A9pkjNshhmzDfQu-n2yPjXUgPx8tUdVCyr3GUnI9wYR37pY-bNNsHbamZuw0Bn3BHUV5Fmj2hC8apEBzTNdfgL1vrs-xqNMqhgK_kxXgBtYttRjraMY0ibkCqe9IatEHV0PkMM4/w400-h225/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n151-place.jpg"
+    },
+    "note": "Story hotel is in Beverly Hills; Biltmore in downtown Los Angeles supplied exterior, lobby and room. Production coordinates are not the story address."
+  },
+  "152": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4R_Gw_xTwBzfLr_1fo3nFWfZXDgZI1CE0f1yBU93IXcG3f8IklKdEhplcvtO-exHsIIz9KLdexirCkRfn_G0dPk4XHAu6HLquoyVyljaGNIijG3TTkNjXVbKNruxsjWKsWUAXGacn4IAG/s1600/Art+3.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n152-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7C8mi9qKuuJKPr3up77tfXehyphenhyphen973JzPajUgRmv8hktc-ui6LlykellWcIhENXzsYD30jUE0TXTC6xGfQVG9d2XPSdi0bJlLqV9uCc_c9T0KomiZ_p4kV-vwbMcto-_ez0l9r8o4hfdMI/s400/DSCF6610+-+Copy.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n152-place.jpg"
+    },
+    "note": "Comparison places the gallery frontage around 9658–9680 Wilshire; exact storefront is disputed. Position is a block-level production proxy."
+  },
+  "153": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKicJJOeQ3Uhwp_iZKTRh654EvC-OPRmML_CQA5wWuBvYsfZj149N4KCIjsNpQzeH8O8fJAGnkKqFdlvgx7ErDgzb3umxp36KXGLeNirz2gFauDt5XopJYpr75D9eeTNkBCRBFvFygcAPS/s400/Thrown+Out+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n153-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicm2jrW1jw7wg9eAGEfHGJOWR0xrKoC9Tz9U8nhr3VoNWHVSciFiUTOgb_MlefAz43VtzXc9m5WjIc3gVhUYlGkMFT67uBrQeIFUxA_Lr0yAXL9w1LwAQLgbN-DRM6mTutDFlvtMNM7g8/s1600/602.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n153-place.jpg"
+    },
+    "note": "Maitland’s office window stunt exterior is in Mid-Wilshire. An exact story address is not established; production coordinates are retained separately."
+  },
+  "154": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiaZEmyFQZQqv8ZTlHJTjEJwLcUti5sex9xAH3FMV3o14HKIcQgkPrd7G-yNs0lKe9Wex6kmT7HgACCs1_bZLadRXpyDKY1p_5XUc5OKvgIzgYkFkvpva60-Rh4cD-UPGIcGxveGcli6nX/s400/Police.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n154-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTYuyqg_v6poKe2ThHNmTtJDG5Ch2P7plYgNlp1flJEsktUoeg1WZuz2LMo2Spc6XLfQFMh22TJUin1hZFAAm7TMfPL5GS_o64WEiKFeMwgFcTw6QJdfyjwSXW4SjFPpKU-jC2ap7bsl7TGSmTkf27O5a5r5TfWVlSnITDuiLaivONTBIguQYlZlQh/w400-h225/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n154-place.jpg"
+    }
+  },
+  "155": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpU_KIxPwiIwma2xJjr0LvZr7FE-rQKkcGRD7qm46E4d8-AZCsePcIyuPrStCzz0jV248OeXSHzHlGS_PhrJftmogWVAK5Hf0qJ99tLpNHwQmAfwX2dR8kzEmMyhRUgTTw1Z16db7aNeQL/s400/Warehouse.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n155-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxM0xNkI63ZO_JjQLmbDBvD5ra5W3oMm3IJaee47nF6MV564ETfWHv27XWS1-Xwe7kRfKdhE5pmZBPqkMNAVATHrTTCa0R-X4Bp6Kxvi6A29UUgwyJraLh9BEyyOp76_xP3BKQkfeQRh-Q/s400/459.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n155-place.jpg"
+    }
+  },
+  "156": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3IhqbTtmqKaO7OvA4hQAyWNMbhBMGrqRG0O1fekqrTcv_FCa3O1jeSX1OnG584kcyP0O08QPJqaavzv2BKOyHhO3Du2wNItmOvKMyP3xgikmtk33S8b5UYaH-egAylSdjdr22c76tSpw/s400/Bonded.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "Film frame / It’s Filmed There",
+      "title": "Beverly Hills Cop",
+      "src": "photos/n156-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUUSrQB-QnN3EBmWU9mtiOLoziUyuU-4cKy4WiAxd023PG3t1D_RYW4_zVj0zk_h_J3snzQxiOT5xH0Yphq4fqhCmA6jFVIex5I6aVyCHw6Esy1hiNDRAzBylgn_IL38swZtN3OSzgh0/s400/Airport.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/beverly-hills-cop.html",
+      "credit": "It’s Filmed There",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n156-place.jpg"
+    }
+  },
+  "157": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424822490872-TYZFIPGA2T3DMLD5PV8L/chinatownxpress.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n157-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler16.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n157-place.jpg"
+    },
+    "note": "Original Pioneer Chicken premises portrayed Chinatown Express. The restaurant later moved; this entry retains the scene’s 252 South Western location."
+  },
+  "158": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815076852-YUDXJO1XAXIPH5FZ4NKC/tvstation1.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n158-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815220499-UWH6PEVOGOCKHRPZTZBN/tv-station-2.jpg",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Wikipedia photograph reproduced by LocationsHub; photographer uncredited on source",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n158-place.jpg"
+    },
+    "note": "Composite production: KTLA/Sunset Bronson frontage and the former KCET newsroom at 4401 Sunset Boulevard. Marker uses the exterior studio complex as an uncontradicted production proxy."
+  },
+  "159": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814864406-XDVKF8TB9HZZ5GM8Q13I/venicebeach.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n159-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424815693415-D5YTZIATZ67AH0XV1TKX/image-asset.jpeg",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Uncredited site photograph / LocationsHub",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n159-place.jpg"
+    },
+    "note": "Location manager identifies only a few blocks north of Windward Avenue; no exact tree or bench is claimed."
+  },
+  "160": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814258593-NW2MC1NSFJFB251U7PZT/dinah.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n160-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler5.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n160-place.jpg"
+    },
+    "note": "Former Sepulveda location, not the restaurant’s later relocated premises."
+  },
+  "161": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424814548489-7X1M6OWD9BL3RII1DPV6/angelino-bakery.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n161-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424822873583-HTOYRS9J4JNVWVEM4IB8/Angelino%27s-Edit.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "LocationsHub / Amoeba Music",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n161-place.jpg"
+    }
+  },
+  "162": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424813823998-4WJ38M97YJ01HLOG2YB9/studio-city-shell-gas-station-1.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n162-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/03/nightcrawler6.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/03/09/nightcrawler-2014/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n162-place.jpg"
+    }
+  },
+  "163": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424813891897-QVQT5VAI5OLSSULQ2BNE/mexican-rest.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n163-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://www.jsr-productions.com/images/blog/blogpost38faf0ee_0.webp",
+      "sourceUrl": "https://www.jsr-productions.com/blogpost38faf0ee.html",
+      "credit": "Jean-Sebastien Royer / JSR-Productions",
+      "caption": "El Compadre · 2025 report",
+      "note": "Published May 31, 2025; exact capture day unspecified.",
+      "src": "photos/n163-place.jpg"
+    },
+    "note": "Fictional Cabanita restaurant portrayed by El Compadre’s Hollywood dining room."
+  },
+  "164": {
+    "screen": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424816907030-VD73FPGTAVZNXF5OMB8D/lapd-1.png",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "Nightcrawler film frame / LocationsHub",
+      "title": "Nightcrawler",
+      "src": "photos/n164-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+      "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "credit": "LocationsHub / SCV Bail Bonds",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n164-place.jpg"
+    }
+  },
+  "165": {
+    "screen": {
+      "imageUrl": "https://www.extstreet.com/stills/63351457963905469605484.jpg",
+      "sourceUrl": "https://www.extstreet.com/Point_Break.html",
+      "credit": "Point Break film frame / Ext.Street",
+      "title": "Point Break",
+      "src": "photos/n165-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/03/pointbreak4.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/04/02/point-break-1991/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n165-place.jpg"
+    }
+  },
+  "166": {
+    "screen": {
+      "imageUrl": "https://www.extstreet.com/stills/1963895196881069557626679.jpg",
+      "sourceUrl": "https://www.extstreet.com/Point_Break.html",
+      "credit": "Point Break film frame / Ext.Street",
+      "title": "Point Break",
+      "src": "photos/n166-screen.jpg"
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/04/pointbreak15.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/04/02/point-break-1991/",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by source.",
+      "src": "photos/n166-place.jpg"
+    },
+    "note": "Bank occupied the 3849–3851 Main Street frontage. Photo shows remodeled production premises; this is not the later Security Independence Bank robbery."
+  },
+  "167": {
+    "screen": {
+      "src": "photos/n167-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnc61tLXSokXvyXLnjGpEMocjWeUEKFbIHFTEnRlg8Ej-698NE1p_hLNEJtzxfu6WIdCakN17sP6leU8r6A7_1_KmVZnkadRJgtJVSXhIPQcpDTztLBdpViH5faQY8km9L0E2nPmg5k1w/s400/Club.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n167-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-xgMMmSF-8s1n1Mnh54Cdm6wPWjpcb4SV989bFOGnXpxkN-EFfHbcQez_lFuS6-InP11mM1FvqaY2OqC0H3Ge2i439JmTuJgRXN-4UCyOY2zt0NynlSvc4u_q3bFzLTLMi_OIcV7sqPc/s400/DSCF6272+-+Copy.JPG"
+    }
+  },
+  "168": {
+    "screen": {
+      "src": "photos/n168-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUvdwtpEGbXUhZFhBOYgDu8U6YiebcNaC85IIAYcymHSFMI4FKyRmw07Tmi63GvhXla-yW-VMf3nxFKiIe1ISribg-WG9DKavXeItDUkCC594c3KcEK0kDp-aBR4m1yUPnEBEzzSt95ZE/s400/Store+2.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n168-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6ARkPphvYp9aqRQC9T2ZmvsWgPAuwFshww7D3qTz_53AyVgEZnCeD7B4WFsKsjw4MeYDSKOeEPFI4-HrK2D8ks-U9wPOlxNfhbyuJN4QWpFoLrME7hFyA_isibRpElgUCEA_r4kI7Uuk/s400/Los+Angeles+November+2011+349+%25282%2529.jpg"
+    }
+  },
+  "169": {
+    "screen": {
+      "src": "photos/n169-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRI6BulDNfsv0RKbznPFJE2M1Rs7lRoTdLqsl2FylS8bTEoITvdJXgU6FGQdVk7DTPOPcVGXbwqGFCWyz97Z324mz30u-ZoIFVQgGIGmUVoKD7TLYxfOKe9exvLTe00FDBuiek8WacIVQ/s400/Dirk+House+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n169-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2QnBmOmbZLZYtMzuTqLU-C0Gw7MW7mZ4kZxsgZVWfHM9Tqn2jARdBGXuHSTN9ULiBPE-dPRMaYg9-or0enzhWSWsJulCut674rgZPoyYZ52ZubxT0CqRbzYR3tghLXwam2rCcJgM9JmY/s400/Los+Angeles+2011+755.jpg"
+    }
+  },
+  "170": {
+    "screen": {
+      "src": "photos/n170-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNx29pk7w0yT6uC0DS3zeD6VZmQy-On3OIaZ6V6sdbE6lKmd5BMl1PmGCyHc7G2EX4Fh1nVSRWvcaU8Y5DDzRYzfN8pumaouqIt1WEQDdOh4xrOcWEQkOVJ9wewxh9-OMnpkebmKuFlpM/s400/Horner+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n170-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+      "credit": "Robert Patterson / Set-Jetter",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791656033326-QFGBCP3T2BJEOQ0C0TRJ/Boogie+Nights+%2847%29.png?format=1000w",
+      "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+    }
+  },
+  "171": {
+    "screen": {
+      "src": "photos/n171-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghjRdDTlukVb05MoO7zG7YLw0DIdfTE668R1iOy-EoHjnK3sM3-VFwU-F7UrNALXnnpEdvU5ammE1uysoJ-lJ6DDvOd5Wgj5E3U0IUIJ6ViemtcZg8xcu7mg3cB5S1qX3GLvhFTU-c4Rg/s400/New+Dirk+House.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n171-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+      "credit": "Robert Patterson / Set-Jetter",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655800048-511PLU1VUVWN3DD5UPMK/Boogie+Nights+%285%29.png?format=1000w",
+      "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+    }
+  },
+  "172": {
+    "screen": {
+      "src": "photos/n172-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnFJRXGravViXTtFPbGXGzMEmvt3BhkAn5kWcnqXmQB4t1x1BEHveGiG-cXU0qBsFunOdyEsYyEHVSBxrSKOcCX7ez9ZqLvd1J14knrf2pmTKz818ruHJZzxoUtQ_tukO4aK2hmGkiZvU/s400/Bridge+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n172-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+      "credit": "Robert Patterson / Set-Jetter",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655835779-GIL7TXTO66QLXMHP0IP3/Boogie+Nights+%287%29.png?format=1000w",
+      "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
+    }
+  },
+  "173": {
+    "screen": {
+      "src": "photos/n173-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_E5s7MOvF0R_SbU04n7o8Qop7NCRLC-k_hrHexw-fvLDUfrxdbt8GUTKUa-RyUSiUhzAssSS0o7qPnt1u3OpiBXR0WeF4kHEDkR1h0mPlhwe_w0dIK-5cr469jkSLCQPht8HseQ7eO8U/s400/Church.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n173-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpWGdjXc-8HyVNeFNpxWIPNtdAWiGfhhXM9DMAIoyOkW_yMBZUyd_mk36Lf4ktbaA-LR3s8Q8vtwnPYChj65NxI9G3MQ75z4GCukZw5ihTAeqEELIJbvuoENGUQEMgSjgdeT7yRtZyR9g/s400/Los+Angeles+November+2011+799+%25281%2529.jpg"
+    }
+  },
+  "174": {
+    "screen": {
+      "src": "photos/n174-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr6b1XWtfi2CHZ5zSffqYTDb_VDENyLolvA8n5dCC-rpjMEVuSZzQ9_ASMs47t9pJWnkKdQTbGw0WE2pcP-HCuNwbmu_-b5gZrfXs-RYdI_xGG6DYXQ92BPIHZ24PdUxs0WJFO08k-bw4/s400/Donut+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n174-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuHjmLe8m0y0Q5ywXlOuxCS95WnkN7tIz519MzKmKnVm3fSrWnlICN9wJTUDaDknUtNfbXUVyWw9r_HXlYWIkPymF1V64v2xYojtp9mD0Z-gjptQkakEIzCbMkuVLac0XmdrBYctw5yKXoQlo0HxkwXI1sP7aY8wIaQUx-NUE2I67qh-Vcknsgx45WfbI/w400-h299/DSCF6266%20-%20Copy.JPG"
+    }
+  },
+  "175": {
+    "screen": {
+      "src": "photos/n175-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXqJwkS8C5_WBS6BpozSqmjlYJRfNBQ7jQki30113WkwTD4gGghxjNK2myBjfF6EexDvNVHkHFIjRo-Y67wVkKngFQJXSxLleKZkQnqKR_YnyYT27o8XqMoP390irRUqyaP0jAswAWgjw/s400/Motel+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n175-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7oHPw9Cf8EmOYzzGQ4diW0mfrEaA-5qYQ92Wj8cVeZfth-cLFAZHAyABeqHrS3kBKg2PBrIv8qDPxVrx3RRl8Rfl-HQyq5-Pd1AJWflJdl62mAcC8IGRtJ1GSD6ClzuzSVg2-hA7EZII/s400/DSCF6305+-+Copy.JPG"
+    }
+  },
+  "176": {
+    "screen": {
+      "src": "photos/n176-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/06/boogie-nights.html",
+      "credit": "Boogie Nights film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUZktDQp-zM8iw3o1seh5xFn1vZnc5NJZhcc0gbh5o5LWGWxGHyLvk2KEWbvofErYtrIB7O3mXQohavMWNFlxFbgHkz3OEV1nCpj5Y6ju3iyFNZgFSFeIuEPsJgWoMhvUxcSjbAucFgtc/s400/Drug+House+1.JPG",
+      "title": "Boogie Nights"
+    },
+    "place": {
+      "src": "photos/n176-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/boogienights",
+      "credit": "Robert Patterson / Set-Jetter",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655855953-Z7RIP1801VBZV3BQ6QXQ/Boogie+Nights+%2819%29.png?format=1000w",
+      "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied.",
+      "caption": "Archival filming-site photo"
+    }
+  },
+  "177": {
+    "screen": {
+      "src": "photos/n177-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW43g7FWaCOrcscHulzaLggOL4Z_zo4vPeWz47Li-vCJBDUokBkO1zAT_nASSiTqHel54jOQcRJkQaAXavTwbdcTPGjUOEXiEEVWAyZWNFyi4V0wGncnXdgi-AhmNwo97ukdHyXeqWHTHmvhsdo5Dkkvh5pxP9DrEwB6lhiMZjxI-EcxOw97vKK_LDPsA/w400-h164/Screenshot%202024-03-19%20125650.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n177-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
+    }
+  },
+  "178": {
+    "screen": {
+      "src": "photos/n178-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkjDtb93_7J_hiuJ2a29Fdy6QpLtCRlT4vMTCJOf42CNh6JTps_0vvQf-EqAhAuziekU3CjH_C1tMI21yLf-_KW8tXcYv9F9H4rBpi6YDfejoHCb_zD-rpquEwwIY24IX0cb9hFl1nwyVAlAp0h8S4t_IX-YEUkw_rhS_c8lZLCGkubgm6AJugp_dQa8/w400-h166/Screenshot%202024-03-19%20132101.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n178-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood13.jpg"
+    }
+  },
+  "179": {
+    "screen": {
+      "src": "photos/n179-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitvfuFTKb_SFIDfuqEX2M5RhiHePhiHYsvvWmKUhJrk90yKf9GiIIyO0OetT1vqaPQJ0hDHYi2WdDLKaiFy_TreEYIz2h7BRXqB5RKeMjJU4skxdZxVG5D4C6qWXmMTxNd2NM59RcqOfXDoPNWlmaTQAIplYz-mpICTj_I-GVGlROhY4NmRTJzV4Uynwc/w400-h166/Screenshot%202024-03-19%20150812.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n179-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood85-1.jpg?w=1024"
+    }
+  },
+  "180": {
+    "screen": {
+      "src": "photos/n180-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_SmyCnj_G5CXnPMZsm1t7txGtz3AuJDqhy-99f1wMgSjmAVDKGJ251cBM0b1A7jK_k6AS1CH7rwG_72znYy-TFyXjl3xHErBnfV9W5WHsg9gPLzh-VtcQX-AjbHid0RxyCz4C5seqwQ4ynfYUj3o2FQZ_Hms6axjZzLZ5N5V2ZzSuyJ_iBo4rnQ0ujoo/w400-h166/Screenshot%202024-03-19%20161935.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n180-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood81.jpg?w=1024"
+    }
+  },
+  "181": {
+    "screen": {
+      "src": "photos/n181-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD5jTd9V1_xoRsmp_dx0l8SzbFY9bV-T-Vc5VuuJ206JdVpaD7e1FUtXBX_bZjrXrTr_s8yqfwcwzMiEB38z1IXxoLZnSBwurbGbMz75Xv91BI4cPzXaKy9flUx5nNEu0IvO8MwSR8twuXTtPNorntRwjfvmGy4fZwGg7Hr4huovO3mHg6-HJfq7mA37w/w400-h165/Screenshot%202024-03-19%20162628.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n181-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood8.jpg"
+    }
+  },
+  "182": {
+    "screen": {
+      "src": "photos/n182-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrYAfZrqgmOB2AqkJFSbI5etayvOm1BXkJlEsKDZVUB2BEd7RWkhKgKiqoY94dxUcgmsfZ7SBXpWOwM5qWi0sJaUPKNY1vNHm1Y6odQDRePEtJlD0BwNZKGPt99ZyQ8ksEV22RHtDs7Crfodwlo7dL1Nr1t-Q4FXMoeSZGrSOrP77-TfpoLVQXqNs5zRM/w400-h166/Screenshot%202024-03-19%20165215.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n182-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood17.jpg"
+    }
+  },
+  "183": {
+    "screen": {
+      "src": "photos/n183-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39mYcdKssZ8nnFdxwmhCZRvF5-QOQvEGMKagb9Vnp-vpiYGdR9VNNOuzcKBUwYBEhFKUk0FLDtWBm5DuqRZKUq3FKHrH7a4e9XGVcfh7BjavWWBeJwvqQfnCfXBfxjuJwgPuTjPgAVtrcCXrVjlk3iK7yBQZrbVbSJ9N7RQ9hgCx8UOn2FjNZihAirZA/w400-h168/Screenshot%202024-03-19%20223640.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n183-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/04/mansonfamily13.jpg?w=676"
+    }
+  },
+  "184": {
+    "screen": {
+      "src": "photos/n184-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin6ovWwNpoCgJ246C0kciVprcJgemshHvNMIT3LVmE22ph6qa0s_46D4g29FNjk8IMoo79sTQa4qzENthttHajm_NNncbgnguGqt5IGOGoyLEk6hUmuDsN0jV7EJtpjYiiWjhQdyfgBwRetNE17prFxkeRIbSVq-g2KHHmDkt-rHllVpNO4WI9VI6_19E/w400-h165/Screenshot%202024-03-19%20223905.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n184-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood82.jpg"
+    }
+  },
+  "185": {
+    "screen": {
+      "src": "photos/n185-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3H53xW3JvW0zRAECWmhVrw8uJiu4_ev7PL8HeLxPYTfuRDWZdEDflJV2PvzuWXnM_6sgL9FVCaAblnfIevsxCeICOfhSX4PQ04pR-CmdBWbfqPpE1ZS6Wz4vMEiWeT0Xc8kgT-3Kl62m-0AKve1IhocqvGFWpwiDo1lNFpYhWrve9gFnXXaaEny-KOkY/w400-h168/Screenshot%202024-03-19%20134536.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n185-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood63.jpg",
+      "caption": "Alta View filming site"
+    }
+  },
+  "186": {
+    "screen": {
+      "src": "photos/n186-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizSeuzFwaeAdBgLtNHn7hHQrsywvx9qAy0aPuZGon77paCIeaaC1w2D4LbeUCnkK_kghbU0AYlGSaAt7opwmLbNuJa7aE46BOhURvvFN6YZkhTU03cQbUAyODZQTyEa7aBKZtAXmCFNUQQXOaKX2EnyDnJ1VwbQJlJCPhzkpNWe6UrXfBdcovhTCFbupY/w400-h164/Screenshot%202024-03-19%20150005.png",
+      "title": "Once Upon a Time in Hollywood"
+    },
+    "place": {
+      "src": "photos/n186-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood89.jpg?w=1024",
+      "caption": "Alta View filming site"
+    }
+  },
+  "187": {
+    "screen": {
+      "src": "photos/n187-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqQ9vx3C7eH2D9GvpVH4U1C4tJQC04VR8GHMCM6wPPWEEeXV36nzytlPfXU_x9CcA3XuyhV2-N_E5AlYCyvTN9iNTAk4Yp7EAkJMaM3g25UE7Bwy9hhbKVyOS4QqxIg9BIejwxf0v46J0a/s400/Apartment.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n187-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinzNUX8tdhjGX3SeQvuJ2NXF6DvOyITl3UOJLTua5eUhBa6SbkX8AA4H4Br52sc4P0kKxuq0yfq2rUhXV5B3o9fcfLDZIdg-A-3YYYI_6uSfk67a-tiWhrlStc4HxEiHfJaqmOx5-F9niu8GQr3iDGUYRe4yo06MfZy_P221GkJkHvT71wX-Udt5Vj/w400-h225/A.jpg"
+    }
+  },
+  "188": {
+    "screen": {
+      "src": "photos/n188-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlEQTl9srfpK-rJClq_dl5VC1jrAAZmIxUjiVOFI-NVkHzMHfXR-eSDGPSTpVYCZc3n5x9qf4qnwiM8tXCAyfBYuT0OnoitEufcRzLMaqydRlD8VubY9c1zcVNgSm37Efzw8XeDPyFho1R/s400/Diner+1.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n188-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/07/31/swingers-1996/",
+      "credit": "Film Oblivion",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/07/swingers1.jpg?w=1024"
+    }
+  },
+  "189": {
+    "screen": {
+      "src": "photos/n189-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOjQFCicrXVLBhx05l0-u7FRtA0HRmlOzWUuXo_xONWrRkulbAmtS4ROzNSR-dkmjbVsWC6hV2O41l76vpNYN4gL5ajh_HKQiBj2x1rVEvKcZMLFOO0vzltNMnTyEVMWwXEnUAlX7pv25P/s400/Golf+Course+2.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n189-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbCA4delLPi-j0AEKA_UYFZce9K2gSfSC7EDEpLavCTbF-NdCBwB1JphO06kCu8cRYs1vfzjBNsE5OXlSKVktbmOzEblcQynRGaNXwF7CVHzp0WLgERea5D-H6jc1MBKCQycqhUI_wR0v/s400/Golf+Course+3.JPG"
+    }
+  },
+  "190": {
+    "screen": {
+      "src": "photos/n190-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcsi4fKjpwp38vmlG3AG7fr7hZP3_WkCu6wpygmVLCn7E5nAWQnXEKz84d964x6NU_cWuAtVU834dayP-q2Dpy3WIlJNiDJVkNhn5y3yrajsQOw9KxBF27qL4D_hrT5EHiMbvXg0vQKeAz/s400/Dresden.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n190-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg6uEMlYCmoSrciajCGSiKx56e8hxxeYSSVO2w1xstrPqtgz-KLNHUTYuaU45hclGV4JZJ9gZXNZCIgKMx0OCri9Hc3BKNomD91SGPfiydAkMZDOosG8bg6DFoxVwl7sevaT-jVXrUkUc/s400/Los+Angeles+2011+453.jpg"
+    }
+  },
+  "191": {
+    "screen": {
+      "src": "photos/n191-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQi9cBkizrJ0dFiRTm6-IQz9Gz-OfBMvDvLtgePxiFyhBcoy7PmHlDJ3q2vTatxywUvQmhY-3wb0H-oEKS96DzYy_-CV0zEbNUzOQGctCIAwb0nY2B86gN61XZsogj-jeM1rLN7ghgieYf/s400/Derby+3.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n191-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh13EhXPHevsZsuoxfXrWEL4yXGyLO4vpRzuOALnWBfpgGcmmmO3lSNKChMKxGb4U-DhdhdnYXdZs5R_WdQlFRnPCyavkloCWPE1ngnN_ZJBC05uBGTg7IStSoKELXGcPVoKzIA-OpQ6wY/s400/Los+Angeles+2011+995.jpg"
+    }
+  },
+  "192": {
+    "screen": {
+      "src": "photos/n192-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Swingers film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6A_F34-qqwswfdQnBWOS6ZGoRpBp9uIXEGgSyQlF6Wqfs26kBacYoRXZnT9JWg6-Zet8juryNtBqnT68qw3Yszjn0zBdxI6ZtYMlUgg-EoW8m8imHE6caUXFTp0cQLM9JPoeuwSSF3CiL/s400/Street+1.JPG",
+      "title": "Swingers"
+    },
+    "place": {
+      "src": "photos/n192-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/02/swingers.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgozc9EQhvYUwX0gH4ohcuGrvs3yjAhK3zRx4kOlaQJshVTteqzgEVDktejV2AuLFyhRXoO5XLs6stYUYD-h_Z6EmBf_sM0bZ_xe45OE9VSUDbfTO572sLp5DWZzuJIApXFLLjesHi6yWc/s400/Los+Angeles+2011+522.jpg"
+    }
+  },
+  "193": {
+    "screen": {
+      "src": "photos/n193-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvpfJMSGTNrIQcaZghV3qZHEOxsTld4C-_VvEeZc65TcRDIiAGAmWFBfm12gbFBwfeGZfy42zXHsny8iBs263519L5Gw68KW0bZ_31tMcQlOTdoy1vf_Rp-3iGcrxdue8vSydsKfmrt_8/s1600/Friend+House.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n193-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYB_sckKcRt0Ze2Oox8j6IJTTotY5P94m9KKLsQmI1D-cF1y34ZpdK7XB1OXUfcxVO97dTA6mfQPgdoJjbEtX0vZa8PDKOftck2jdV2o5oCkpuTj-SISwQ_IHh2YfKZo91lUW1Pf4t54w/s400/Los+Angeles+November+2011+680.jpg"
+    }
+  },
+  "194": {
+    "screen": {
+      "src": "photos/n194-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgasnSPKiK1jpbOQC4_1gLZt3QH_zjXSigHDlvNc7RJlycc0KESEkni-ghxF-s92yXKAjQm5fsqHmHmzZSm1EFdrFKNeJr89TekJjgdM2j8ojkmjk3KT9G8ZBao9oYYzRdFXmU2Qg79Mko/s1600/Mall.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n194-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg282mJczlXTvxq79bV4kRqPvg3LqGQbSurkSGPsEYj7q1wvGhu5_L-6DSxHoA4Va_FMfn5Oci-3fQP3hQumwcwp110y6E0P5m9WC7PxysSvLzL5BwuD3p7Mxks2R-M7BiQsRDxLARRnBoW/s400/DSCF1575.JPG"
+    }
+  },
+  "195": {
+    "screen": {
+      "src": "photos/n195-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7HMLOUj3gmhWeNjoolS_Y_BR1frFrq8QlqCmuErH2-NEv1d5hREnPp2UJu53G2AHFh8aaMZQoyZGaUT0z9bzbXw0j9nEBF43jOuF9c418DcHqJvz2A4b4Zoyt8SI8B19c42MCaSjmnAY/s1600/Party+House.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n195-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdPEZSN9lwe6BEGNPJZxQKlwDnaK1kFQG-9uUJgR2ENXcDizlHU0t69Aiv6gSQpCngM_wDf3PJDk42G_dqfMqlNDjD2p77_5ixxsQgGAxFkGGeV-aP5XKGHJ9ci26oVuB90Gij4FBrrBYo/s400/323.JPG",
+      "caption": "Former party-house site",
+      "note": "House demolished after filming; image shows its site."
+    }
+  },
+  "196": {
+    "screen": {
+      "src": "photos/n196-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTIDICGC2ZwQxJ9Wc2DjJ9SrHTOd_ACyAKQImqB3CRCMk4b675yJDTq5VpET1l2cxcy2XRjuBqmP8scI7vqWTiJAUJ8FxQMct-jQkiO-vKo9JC9qMOS_C44cFqnuo8UdYEDmgTTwiOIZY/s1600/Circus.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n196-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghtAK0rw5ScXNidLRMsGcTB4tBywR14YkaH9-AjXFqI2u75ouNbsZCbHqt4q8Lf2mqnWV3f91svUxqGE70gTOLp0CDJJVCcXnTLLQQWZGGx4VugempU5PuTiZ-8dBAlMbXDbyosMurLaQ/s400/DSCF6165+-+Copy.JPG"
+    }
+  },
+  "197": {
+    "screen": {
+      "src": "photos/n197-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM8f_uH3nWM-s0FU6_CwngQbTuclh-eh-QXLfoJUOgXmar6qyUjnPgUTQjVU6fhGb_63CDCg23kchyzIOwRdlsG6ybvS-_nvJs3E7VblopmnVqxUfuyceGVTZmcwNfSQaFTxGE5Z3Fe7A/s1600/Stairs.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n197-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMwPD7wrExL0dxm9KJadaECFRfTtIbZpooquGwWumsExKn2nggP_pGdsOOzok3OoMBhtkyv_cNtDfjVudiK9q5c4ZIoruy8EHE-dDkTHE1Xs1PNXypJV2TOYnKTj-iX-yw-f5OJGFupcc/s400/MVIMG_20190308_091346+-+Copy.jpg"
+    }
+  },
+  "198": {
+    "screen": {
+      "src": "photos/n198-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFxn4T7J7AzbCR6VUfPkrAi_-tzFf6xgMW7zn0QQrO2pKizCMbQ294Y169Vw3S95Ae0sct3EEszoQmeHZiGDrE8z0TXKtIVt41u8TCV6Rlw06C8UUWWIRggf_nC_CcFW-AowrYHIm_m4/s1600/Witch+House.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n198-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpnJuk94butdfe81N0QF8wTYaOglAf0AvaBSX-t9DhPCGZMMb05jwcHWNCxX5ab5faHaMhfCdp9hYvSebQxPK9R0ymyG4wm0kBvUzBsi-vEYfT9A9NcQ2vTs9nC0B4F1GiUG88jeBMVAg/s400/House.jpg"
+    }
+  },
+  "199": {
+    "screen": {
+      "src": "photos/n199-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Clueless film frame / Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje3P6c0KSQNU3uc3zxXLFg2CFzaCQoEiozHWubWg-b3l6JxHzSlmdSq1D2pdTnHgxSq6HdSeanFWayHGLYjbj30gz9HPUoSEe2JkFHN9V5Idh5J3uHw5HdG6l0IF8GnGy3lgljqDWJ5is/s1600/Fountain.JPG",
+      "title": "Clueless"
+    },
+    "place": {
+      "src": "photos/n199-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic2Wkn5cGsqJc_ECx5VBe6xNxyeYJvQmRZYythXd3_nZjPgMTpDkeXQV8klhPsPKCtTgoRdXf-mrBMEaOW-0OK78xBEAYG35BaSkN67mBUN1Zc2KdOB8ZRh_0tW2OP0DuAQpa6pAxoNss/s400/IMG_20190308_095109+-+Copy.jpg"
+    }
+  },
+  "200": {
+    "screen": {
+      "src": "photos/n200-screen.jpg",
+      "sourceUrl": "https://lataco.com/friday-house-film-location",
+      "credit": "Friday film frame, New Line Cinema / L.A. TACO",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/04/lataco_friday_lead_new_line_cinema.jpg?w=2880",
+      "title": "Friday"
+    },
+    "place": {
+      "src": "photos/n200-place.jpg",
+      "sourceUrl": "https://lataco.com/friday-house-film-location",
+      "credit": "Jared Cowan / L.A. TACO",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/04/lataco_friday_craigs_house1_jared_cowan.jpg?w=710",
+      "caption": "Craig’s filming-site home · 2025 report",
+      "date": "2025"
+    }
+  },
+  "201": {
+    "screen": {
+      "src": "photos/r201-screen.jpg",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_LAX7.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Heat film frame / Warner Bros. / L.A. TACO",
+      "title": "Heat"
+    },
+    "place": {
+      "src": "photos/r201-place.jpg",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_LAX8.jpg?w=710",
+      "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+      "credit": "Jared Cowan / L.A. TACO",
+      "note": "Field photographed for the 2019 crew interview; capture day not stated."
+    }
+  },
+  "202": {
+    "screen": {
+      "src": "photos/r202-screen.jpg",
+      "imageUrl": "https://www.film89.co.uk/wp-content/uploads/2017/09/IMG_1417.jpg",
+      "sourceUrl": "https://www.film89.co.uk/behind-the-scenes-of-the-making-of-t2s-iconic-canal-chase-scene/",
+      "credit": "Terminator 2 film frame / Film ’89",
+      "title": "Terminator 2: Judgment Day"
+    },
+    "place": {
+      "src": "photos/r202-place.jpg",
+      "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+      "credit": "The Worldwide Guide to Movie Locations"
+    }
+  },
+  "203": {
+    "screen": {
+      "src": "photos/r203-screen.jpg",
+      "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
+      "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
+      "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
+      "title": "Terminator 2: Judgment Day",
+      "note": "Cropped to the film-frame panel of comparison 38."
+    },
+    "place": {
+      "src": "photos/r203-place.jpg",
+      "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
+      "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+      "credit": "The Worldwide Guide to Movie Locations"
+    }
+  },
+  "205": {
+    "screen": {
+      "src": "photos/r205-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5GqLt1vZFWdpWmJAgrhVngnMInIgh0SRdbKEjdhD_CfafNQ1SHnmsrP2Fwnd7IIiXcdH56OE-5k-yuFA_wmcdBJkaJpZhFtblQJwMWD20XWa-_xCDNmSb1_NKzndAniNLtaS4-NyVvwI/w400-h169/Bank+Exterior+1.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame / It’s Filmed There",
+      "title": "Heat"
+    },
+    "place": {
+      "src": "photos/r205-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat12.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion"
+    }
+  },
+  "206": {
+    "screen": {
+      "src": "photos/r206-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxEHk3R1pgWXKQFCZmZBZ_E90e6CbyP_zDJXMWYi5J8nJ3cIgL8gxjU_v69NUT4A0AeWO_lrb34lT93dzrzRfsYkm9HAB4FkXSMKeR7DLQJgsk1-DkrlssXIR87c5uifAmRl8vSClkyus/w400-h169/Shot+Crash+2.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame / It’s Filmed There",
+      "title": "Heat"
+    },
+    "place": {
+      "src": "photos/r206-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat21.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion"
+    }
+  },
+  "207": {
+    "screen": {
+      "src": "photos/r207-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMGo0UVX0Cm0I49jvjzN8VoyLaQUw1p_BO9F3Zsrr8Uhk0ZUbzImr-3ZGoV_pikqlHyw0OyKxO84SaZMjlUpnKff8xY6kFXs0ibn8fGsr8s3DxnRT9yvrTTYMxX5-bXNL2p_2qH5QDH3Q/w400-h168/Grocery+1.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2021/03/heat-1995.html",
+      "credit": "Heat film frame / It’s Filmed There",
+      "title": "Heat"
+    },
+    "place": {
+      "src": "photos/r207-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat56.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+      "credit": "Film Oblivion"
+    }
+  },
+  "208": {
+    "screen": {
+      "src": "photos/r208-screen.jpg",
+      "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lamag_tfatf_streetrace2_universal-1200x509.jpg",
+      "sourceUrl": "https://lamag.com/featured/the-fast-and-the-furious-20/",
+      "credit": "The Fast and the Furious / Universal Pictures / LAmag",
+      "title": "The Fast and the Furious"
+    },
+    "place": {
+      "src": "photos/r208-place.jpg",
+      "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lamag_tfatf_streetrace3_jaredcowan-1200x800.jpg",
+      "sourceUrl": "https://lamag.com/featured/the-fast-and-the-furious-20/",
+      "credit": "Jared Cowan / LAmag",
+      "caption": "Prairie Avenue and 120th Street",
+      "note": "Published June 22, 2021; exact capture day unspecified."
+    }
+  },
+  "211": {
+    "screen": {
+      "src": "photos/r211-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEy89dVn62nimSK7Hzk8jEOeuQ4b0W6KU0e9-J-K8r2rQAW9do0KLvOgWoYMRlu8KuY9InQ4R9J5T55p10I49O_p8gSURQk1vNKB6TTLQbOTOBtiZJSPU-PfUjiI-OMd4xQ1HNOrWT4vSh/s400/Freeway+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "credit": "Falling Down / Warner Bros. / It’s Filmed There",
+      "title": "Falling Down"
+    },
+    "place": {
+      "src": "photos/r211-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/11/fallingdown1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/11/18/falling-down-1993/",
+      "credit": "Film Oblivion",
+      "note": "Capture date unspecified."
+    }
   }
 }

@@ -1,0 +1,263 @@
+{
+  "places": [
+    {
+      "id": 208,
+      "name": "First street race",
+      "short": "First street race",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "Prairie Avenue · 120th to 118th Streets",
+      "area": "Hawthorne",
+      "coordinates": [
+        -118.3442,
+        33.9239
+      ],
+      "productionCoordinates": [
+        -118.3442,
+        33.9239
+      ],
+      "precision": "documented-street-corridor",
+      "people": [
+        "Brian O’Conner",
+        "Dominic Toretto",
+        "Edwin"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Fast and the Furious",
+          "release_year": 2001,
+          "story_role": "First street race",
+          "filming_component": "Prairie Avenue · 120th to 118th Streets",
+          "source_ids": [
+            "route_fast_lamag",
+            "route_fast_shots"
+          ],
+          "story_time": {
+            "year": 2001,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary release-year estimate.",
+            "source_ids": [
+              "route_fast_lamag",
+              "route_fast_shots"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Brian O’Conner",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dominic Toretto",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Edwin",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Race coverage repeats stretches of Prairie Avenue and briefly reverses direction. The plotted corridor connects documented endpoints; it is not a measured continuous quarter-mile run. The assembly at the produce market is a separate place.",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Prairie Avenue · 120th to 118th Streets",
+        "precision": "documented-street-corridor",
+        "sourceIds": [
+          "route_fast_lamag",
+          "route_fast_shots"
+        ],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -118.3442,
+              33.9239
+            ],
+            [
+              -118.3442,
+              33.9264
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.347,
+            33.922
+          ],
+          [
+            -118.342,
+            33.928
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/r208-screen.jpg",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lamag_tfatf_streetrace2_universal-1200x509.jpg",
+          "sourceUrl": "https://lamag.com/featured/the-fast-and-the-furious-20/",
+          "credit": "The Fast and the Furious / Universal Pictures / LAmag",
+          "title": "The Fast and the Furious"
+        },
+        "place": {
+          "src": "photos/r208-place.jpg",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lamag_tfatf_streetrace3_jaredcowan-1200x800.jpg",
+          "sourceUrl": "https://lamag.com/featured/the-fast-and-the-furious-20/",
+          "credit": "Jared Cowan / LAmag",
+          "caption": "Prairie Avenue and 120th Street",
+          "note": "Published June 22, 2021; exact capture day unspecified."
+        }
+      },
+      "routeAnchors": [
+        {
+          "name": "Prairie Avenue / 120th Street",
+          "coordinates": [
+            -118.3442,
+            33.9239
+          ]
+        },
+        {
+          "name": "Prairie Avenue / 118th Street",
+          "coordinates": [
+            -118.3442,
+            33.9264
+          ]
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "name": "D-Fens’s abandoned car",
+      "short": "D-Fens’s abandoned car",
+      "categories": [
+        "event"
+      ],
+      "category": "event",
+      "address": "101 / 110 interchange",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2493,
+        34.0629
+      ],
+      "productionCoordinates": [
+        -118.2493,
+        34.0629
+      ],
+      "precision": "interchange-anchor",
+      "people": [
+        "William Foster / D-Fens",
+        "Martin Prendergast"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Falling Down",
+          "release_year": 1993,
+          "story_role": "D-Fens’s abandoned car",
+          "filming_component": "101 / 110 interchange",
+          "source_ids": [
+            "route_falling_cowan",
+            "route_falling_ift",
+            "route_falling_fo"
+          ],
+          "story_time": {
+            "year": 1991,
+            "month": 6,
+            "day": 12,
+            "precision": "day",
+            "certainty": "official_synopsis",
+            "basis": "Official Cannes French synopsis gives 12 June 1991.",
+            "source_ids": [
+              "falling_cannes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Foster / D-Fens",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Martin Prendergast",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Production crew confirm that the opening was shot on the downtown 110/101 interchange over two weekends. The 110/105 interchange is a different, later construction/bazooka scene. Marker identifies the interchange, not the precise stopped-car lane.",
+      "placement": {
+        "kind": "screen",
+        "address": "101 / 110 interchange",
+        "precision": "interchange-anchor",
+        "sourceIds": [
+          "route_falling_cowan",
+          "route_falling_ift",
+          "route_falling_fo"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/r211-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEy89dVn62nimSK7Hzk8jEOeuQ4b0W6KU0e9-J-K8r2rQAW9do0KLvOgWoYMRlu8KuY9InQ4R9J5T55p10I49O_p8gSURQk1vNKB6TTLQbOTOBtiZJSPU-PfUjiI-OMd4xQ1HNOrWT4vSh/s400/Freeway+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+          "credit": "Falling Down / Warner Bros. / It’s Filmed There",
+          "title": "Falling Down"
+        },
+        "place": {
+          "src": "photos/r211-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/11/fallingdown1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/11/18/falling-down-1993/",
+          "credit": "Film Oblivion",
+          "note": "Capture date unspecified."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "route_fast_lamag",
+      "title": "The Fast and the Furious: location manager Bob Craft interview and comparisons",
+      "url": "https://lamag.com/featured/the-fast-and-the-furious-20/",
+      "source_type": "production_interview"
+    },
+    {
+      "id": "route_fast_shots",
+      "title": "The Fast and the Furious: Prairie Avenue shot breakdown",
+      "url": "https://www.seeing-stars.com/Locations/FastAndFurious.shtml",
+      "source_type": "scene_indexed_location_research"
+    },
+    {
+      "id": "route_falling_cowan",
+      "title": "Falling Down: production designer and location crew on the downtown freeway",
+      "url": "https://lataco.com/setting-path-across-l-unhinged-antihero-falling",
+      "source_type": "production_interview"
+    },
+    {
+      "id": "route_falling_ift",
+      "title": "Falling Down: opening freeway scene comparison",
+      "url": "https://www.itsfilmedthere.com/2010/01/falling-down.html",
+      "source_type": "scene_indexed_location_research"
+    },
+    {
+      "id": "route_falling_fo",
+      "title": "Falling Down: 101/110 interchange photograph",
+      "url": "https://filmoblivion.com/2018/11/18/falling-down-1993/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "falling_cannes",
+      "url": "https://www.festival-cannes.com/f/falling-down/",
+      "title": "Festival de Cannes: Falling Down official French synopsis",
+      "type": "official festival synopsis; explicitly dates day to 12 June 1991",
+      "source_type": "official festival synopsis; explicitly dates day to 12 June 1991"
+    }
+  ]
+}

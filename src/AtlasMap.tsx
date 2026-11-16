@@ -4,15 +4,18 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {Crosshair,LocateFixed,Minus,Plus} from 'lucide-react';
 import {locationSvg} from './icons';
-import {countyFog} from './geo.mjs';
+import {filmColor} from './colors';
+import {countyFog,exploredCounty} from './geo.mjs';
 import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props={places:Place[];selected:Place|null;journey:Journey|null;onSelect:(id:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
-export default function AtlasMap({places,selected,journey,onSelect,onFilm,onView,onLocationError}:Props){
+type Props={places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+function fogTexture(){const size=128,data=new Uint8Array(size*size*4);for(let y=0;y<size;y++)for(let x=0;x<size;x++){const u=x/size*Math.PI*2,v=y/size*Math.PI*2;const cloud=Math.sin(u+Math.sin(v*2))*.35+Math.sin(u*3-v*2)*.2+Math.sin(u*5+v*7)*.08;const grain=((x*37+y*61+x*y*7)%23)/23;const n=cloud*17+grain*5;const i=(y*size+x)*4;data[i]=25+n;data[i+1]=33+n;data[i+2]=36+n;data[i+3]=255;}return {width:size,height:size,data};}
+function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');title.textContent=name;box.append(movie,title);return box;}
+export default function AtlasMap({places,selected,journey,journeys,routeMode,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[zoom,setZoom]=useState(CITY.zoom),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
-  const latest=useRef({places,onView,onLocationError});latest.current={places,onView,onLocationError};
+  const latest=useRef({places,coverage,onView,onLocationError,onRoute});latest.current={places,coverage,onView,onLocationError,onRoute};
   useEffect(()=>{
     if(!container.current)return;
     let m:maplibregl.Map;
@@ -22,10 +25,22 @@ export default function AtlasMap({places,selected,journey,onSelect,onFilm,onView
       const g=new maplibregl.GeolocateControl({positionOptions:{enableHighAccuracy:true,timeout:12000},fitBoundsOptions:{maxZoom:14},trackUserLocation:false,showAccuracyCircle:true,showUserLocation:true});gps.current=g;m.addControl(g,'top-right');
       g.on('geolocate',()=>setLocating(false));g.on('error',event=>{setLocating(false);latest.current.onLocationError(event.code===1?'Location access denied':event.code===3?'Location request timed out':'Location unavailable');});
       m.on('load',async()=>{
-        try{const [county,streets]=await Promise.all(['la-county.geojson','story-streets.geojson'].map(file=>fetch(`${import.meta.env.BASE_URL}${file}`).then(r=>{if(!r.ok)throw Error(file);return r.json();})));if(map.current!==m)return;m.addSource('county',{type:'geojson',data:county});m.addSource('story-streets',{type:'geojson',data:streets});m.addSource('county-fog',{type:'geojson',data:countyFog(county) as any});m.addLayer({id:'county-fog',type:'fill',source:'county-fog',paint:{'fill-color':'#242824','fill-opacity':0.88}});m.addLayer({id:'county-border',type:'line',source:'county',paint:{'line-color':'#e1decc','line-opacity':0.6,'line-width':1}});}catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
+        try{
+          const [county,streets]=await Promise.all(['la-county.geojson','story-streets.geojson'].map(file=>fetch(`${import.meta.env.BASE_URL}${file}`).then(r=>{if(!r.ok)throw Error(file);return r.json();})));
+          if(map.current!==m)return;
+          m.addSource('county',{type:'geojson',data:exploredCounty(county,latest.current.coverage) as any});
+          m.addSource('story-streets',{type:'geojson',data:streets});
+          m.addSource('county-fog',{type:'geojson',data:countyFog(county,latest.current.coverage) as any});
+          m.addImage('unexplored-mist',fogTexture());
+          m.addLayer({id:'county-fog',type:'fill',source:'county-fog',paint:{'fill-pattern':'unexplored-mist','fill-opacity':0.97}});
+          m.addLayer({id:'county-haze',type:'line',source:'county',paint:{'line-color':'#263237','line-width':22,'line-blur':16,'line-opacity':0.6}});
+          m.addLayer({id:'county-border',type:'line',source:'county',paint:{'line-color':'#d5d0bb','line-opacity':0.35,'line-width':0.7,'line-dasharray':[3,5]}});
+        }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
         if(map.current===m)setReady(true);
       });
       m.on('moveend',()=>{const b=m.getBounds();latest.current.onView(latest.current.places.filter(p=>p.coordinates&&b.contains(p.coordinates)).map(p=>p.id));setZoom(m.getZoom());setViewVersion(v=>v+1);});
+      m.on('click','journey-lines',e=>{const id=Number(e.features?.[0]?.properties?.id);if(id)latest.current.onRoute(id);});
+      m.on('mouseenter','journey-lines',()=>{m.getCanvas().style.cursor='pointer';});m.on('mouseleave','journey-lines',()=>{m.getCanvas().style.cursor='';});
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
@@ -33,47 +48,58 @@ export default function AtlasMap({places,selected,journey,onSelect,onFilm,onView
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
-    markers.current.forEach(x=>x.remove());
     const bounds=m.getBounds();
-    markers.current=places.filter(p=>p.coordinates).map(p=>{
-      const outer=document.createElement('div');outer.className=`atlas-marker ${p.category} ${selected?.id===p.id?'selected':''} ${journey?'receded':''} ${p.placement?.kind==='inferred'?'estimated':''}`;
-      const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${p.name}`);icon.title=p.name;icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
-      if(p.deaths?.length&&p.category!=='death'){const death=document.createElement('span');death.className='death-badge';death.title='Death';death.innerHTML=locationSvg('death');outer.append(death);}
-      const isSelected=selected?.id===p.id;
-      if(bounds.contains(p.coordinates!)&&(isSelected||p.featured&&(zoom>11.25||[1,11,16,31,53,83,91].includes(p.id)))){
-        const label=document.createElement('div');label.className='marker-label';
-        const point=m.project(p.coordinates!);const roomRight=m.getContainer().clientWidth-point.x-48;const roomLeft=point.x-48;const flip=roomRight<Math.min(420,p.name.length*8)&&roomLeft>roomRight;
-        if(flip)label.classList.add('label-left');label.style.maxWidth=`${Math.max(160,Math.min(560,flip?roomLeft:roomRight))}px`;
+    const next:maplibregl.Marker[]=[];
+    for(const p of places){
+      if(!p.coordinates)continue;
+      const outer=document.createElement('div');outer.className=`atlas-marker ${p.category} ${selected?.id===p.id?'selected':''} ${p.placement?.kind==='inferred'?'estimated':''}`;outer.style.setProperty('--film-color',filmColor(p.appearances[0].title));
+      const point=m.project(p.coordinates);const roomRight=m.getContainer().clientWidth-point.x-48,roomLeft=point.x-48;const flip=roomRight<Math.min(420,p.name.length*8)&&roomLeft>roomRight;
+      if(flip)outer.classList.add('opens-left');
+      const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${p.name}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
+      const titles=[...new Set(p.appearances.map(a=>a.title))];outer.append(tooltip(p.name,titles));
+      if(bounds.contains(p.coordinates)&&(selected?.id===p.id||p.featured&&(zoom>11.25||[1,11,16,31,53,83,91].includes(p.id)))){
+        const label=document.createElement('div');label.className=`marker-label ${flip?'label-left':''}`;label.style.maxWidth=`${Math.max(150,Math.min(560,flip?roomLeft:roomRight))}px`;
         const tabs=document.createElement('div');tabs.className='marker-film-tabs';
-        for(const title of [...new Set(p.appearances.map(a=>a.title))]){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',e=>{e.stopPropagation();onFilm(title);});tabs.append(tab);}
+        for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',e=>{e.stopPropagation();onFilm(title);});tabs.append(tab);}
         const title=document.createElement('button');title.type='button';title.className='marker-title';title.textContent=p.name;title.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});label.append(tabs,title);outer.append(label);
       }
-      return new maplibregl.Marker({element:outer,anchor:'center'}).setLngLat(p.coordinates!).addTo(m);
-    });
+      next.push(new maplibregl.Marker({element:outer,anchor:'center',offset:p.baseId?[23,20]:[0,0]}).setLngLat(p.coordinates).addTo(m));
+    }
+    markers.current.forEach(marker=>marker.remove());markers.current=next;
     onView(places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));
-    return()=>{markers.current.forEach(x=>x.remove());markers.current=[];};
-  },[places,selected?.id,journey?.id,ready,zoom,viewVersion,onSelect,onFilm,onView]);
+    return()=>{next.forEach(marker=>marker.remove());};
+  },[places,selected?.id,ready,zoom,viewVersion,onSelect,onFilm,onView]);
+  useEffect(()=>{if(ready&&resetView)map.current?.flyTo({...CITY,duration:450});},[resetView,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     for(const id of ['story-road','story-area-line','story-area-fill'])if(m.getLayer(id))m.removeLayer(id);
     if(m.getSource('story-area'))m.removeSource('story-area');
     if(!selected)return;
-    if(selected.placement?.geometry){m.addSource('story-area',{type:'geojson',data:{type:'Feature',properties:{},geometry:selected.placement.geometry} as any});if(selected.placement.geometry.type==='Polygon')m.addLayer({id:'story-area-fill',type:'fill',source:'story-area',paint:{'fill-color':'#a5402e','fill-opacity':0.08}});m.addLayer({id:'story-area-line',type:'line',source:'story-area',paint:{'line-color':'#a5402e','line-width':1.7,'line-dasharray':[4,3]}});}
-    if(selected.placement?.roadName)m.addLayer({id:'story-road',type:'line',source:'story-streets',filter:['==',['get','street'],selected.placement.roadName],paint:{'line-color':'#a5402e','line-width':5,'line-opacity':0.8}});
-    if(selected.placement?.viewport)m.fitBounds(selected.placement.viewport,{padding:65,duration:700});else if(selected.coordinates)m.flyTo({center:selected.coordinates,zoom:Math.max(m.getZoom(),13),duration:700,essential:false});else m.flyTo({...CITY,duration:700});
+    const color=filmColor(selected.appearances[0].title);
+    if(selected.placement?.geometry){m.addSource('story-area',{type:'geojson',data:{type:'Feature',properties:{},geometry:selected.placement.geometry} as any});if(selected.placement.geometry.type==='Polygon')m.addLayer({id:'story-area-fill',type:'fill',source:'story-area',paint:{'fill-color':color,'fill-opacity':0.08}});m.addLayer({id:'story-area-line',type:'line',source:'story-area',paint:{'line-color':color,'line-width':1.7,'line-dasharray':[4,3]}});}
+    if(selected.placement?.roadName)m.addLayer({id:'story-road',type:'line',source:'story-streets',filter:['==',['get','street'],selected.placement.roadName],paint:{'line-color':color,'line-width':5,'line-opacity':0.8}});
+    if(selected.placement?.viewport)m.fitBounds(selected.placement.viewport,{padding:65,duration:450});else if(selected.coordinates)m.flyTo({center:selected.coordinates,zoom:Math.max(m.getZoom(),13),duration:450,essential:false});else m.flyTo({...CITY,duration:450});
   },[selected?.id,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     routeMarkers.current.forEach(x=>x.remove());routeMarkers.current=[];
-    if(m.getLayer('journey-line'))m.removeLayer('journey-line');if(m.getSource('journey'))m.removeSource('journey');if(!journey)return;
-    m.addSource('journey',{type:'geojson',data:{type:'Feature',properties:{},geometry:{type:'LineString',coordinates:journey.stops.map(s=>s.coordinates)}}});m.addLayer({id:'journey-line',type:'line',source:'journey',paint:{'line-color':'#a5402e','line-width':2.5,'line-dasharray':[2,2]}});
-    journey.stops.forEach((s,i)=>{const button=document.createElement('button');button.className='route-marker';button.textContent=String(i+1);button.setAttribute('aria-label',s.name);button.addEventListener('click',()=>s.placeId?onSelect(s.placeId):m.flyTo({center:s.coordinates,zoom:14}));routeMarkers.current.push(new maplibregl.Marker({element:button}).setLngLat(s.coordinates).addTo(m));});
-    const b=new maplibregl.LngLatBounds();journey.stops.forEach(s=>b.extend(s.coordinates));m.fitBounds(b,{padding:75,maxZoom:14,duration:700});
+    if(m.getLayer('journey-lines'))m.removeLayer('journey-lines');if(m.getLayer('journey-casing'))m.removeLayer('journey-casing');if(m.getSource('journeys'))m.removeSource('journeys');
+    const routes=journey?[journey]:routeMode?journeys:[];if(!routes.length)return;
+    m.addSource('journeys',{type:'geojson',data:{type:'FeatureCollection',features:routes.map(j=>({type:'Feature',properties:{id:j.id,color:filmColor(j.title)},geometry:j.geometry||{type:'LineString',coordinates:j.stops.map(s=>s.coordinates)}}))}});
+    m.addLayer({id:'journey-casing',type:'line',source:'journeys',paint:{'line-color':'#f8f2e5','line-width':7,'line-opacity':0.8}});
+    m.addLayer({id:'journey-lines',type:'line',source:'journeys',paint:{'line-color':['get','color'],'line-width':3.5,'line-dasharray':[3,2]}});
+    const bounds=new maplibregl.LngLatBounds();
+    for(const j of routes)j.stops.forEach((s,i)=>{
+      const outer=document.createElement('div');outer.className='route-stop-marker';outer.style.setProperty('--film-color',filmColor(j.title));
+      const button=document.createElement('button');button.className='route-marker';button.textContent=String(i+1);button.setAttribute('aria-label',`${s.name} · ${j.title}`);button.addEventListener('click',()=>s.placeId?onStop(s.placeId,j.id):onRoute(j.id));outer.append(button,tooltip(s.name,[j.title]));
+      routeMarkers.current.push(new maplibregl.Marker({element:outer,offset:selected?.id===s.placeId?[0,-27]:[0,0]}).setLngLat(s.coordinates).addTo(m));bounds.extend(s.coordinates);
+    });
+    if(!selected)m.fitBounds(bounds,{padding:75,maxZoom:14,duration:450});
     return()=>{routeMarkers.current.forEach(x=>x.remove());};
-  },[journey?.id,ready,onSelect]);
+  },[journey?.id,journeys,routeMode,selected?.id,ready,onStop,onRoute]);
   return <div className="map-shell"><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
-    {selected&&!selected.coordinates&&<div className="unlocated-card"><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} onClick={()=>onFilm(t)}>{t}</button>)}</div><strong>{selected.name}</strong><span>{selected.placement?.address||'Los Angeles'}</span></div>}
+    {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{t}</button>)}</div><strong>{selected.name}</strong><span>{selected.placement?.address||'Los Angeles'}</span></div>}
     <div className="north-arrow" aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></div>
-    <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:700})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>
+    <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>
   </div>;
 }

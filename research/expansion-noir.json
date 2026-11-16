@@ -1,0 +1,3450 @@
+{
+  "places": [
+    {
+      "id": 101,
+      "name": "Walter Neff’s apartment",
+      "short": "Walter Neff’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1825 North Kingsley Drive",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.303577658328,
+        34.10429401721
+      ],
+      "productionCoordinates": [
+        -118.303577658328,
+        34.10429401721
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_di_conservancy",
+          "noir_di_doh"
+        ]
+      },
+      "people": [
+        "Walter Neff",
+        "Phyllis Dietrichson",
+        "Barton Keyes"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "Walter Neff’s apartment",
+          "filming_component": "1825 North Kingsley Drive",
+          "source_ids": [
+            "noir_di_conservancy",
+            "noir_di_doh"
+          ],
+          "categories": [
+            "home"
+          ],
+          "characters": [
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Phyllis Dietrichson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Barton Keyes",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy",
+              "noir_di_doh"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n101-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-019.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n101-place.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-015.png",
+          "note": "Extracted and resized from the cited production-research PDF."
+        }
+      }
+    },
+    {
+      "id": 102,
+      "name": "The Dietrichsons’ home",
+      "short": "The Dietrichsons’ home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "6301 Quebec Drive",
+      "area": "Los Feliz",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.325739927125,
+        34.113328805804
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Feliz · exact address unspecified",
+        "precision": "neighborhood_explicit",
+        "reason": "Neff describes Los Feliz. The exterior was filmed at 6301 Quebec Drive in Beachwood Canyon; that production address is not used as a canonical pin.",
+        "sourceIds": [
+          "noir_di_conservancy",
+          "noir_di_doh"
+        ]
+      },
+      "people": [
+        "Phyllis Dietrichson",
+        "Walter Neff",
+        "Lola Dietrichson"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "The Dietrichsons’ home",
+          "filming_component": "6301 Quebec Drive",
+          "source_ids": [
+            "noir_di_conservancy",
+            "noir_di_doh"
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Phyllis Dietrichson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lola Dietrichson",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy",
+              "noir_di_doh"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Double Indemnity",
+          "people": [
+            "Phyllis Dietrichson"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n102-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-035.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n102-place.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Los Angeles Times / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-034.png",
+          "note": "Extracted and resized from the cited production-research PDF."
+        }
+      }
+    },
+    {
+      "id": 103,
+      "name": "Lola’s drop-off",
+      "short": "Lola’s drop-off",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5500 Hollywood Boulevard",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.2915,
+        34.1052
+      ],
+      "productionCoordinates": [
+        -118.309328642193,
+        34.101675282344
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Vermont Avenue & Franklin Avenue",
+        "precision": "intersection_explicit",
+        "reason": "Lola explicitly asks for Vermont and Franklin. The shot uses Hollywood and Western with the Newman Drug Store behind Nino.",
+        "sourceIds": [
+          "noir_di_conservancy"
+        ]
+      },
+      "people": [
+        "Lola Dietrichson",
+        "Walter Neff",
+        "Nino Zachetti"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "Lola’s drop-off",
+          "filming_component": "5500 Hollywood Boulevard",
+          "source_ids": [
+            "noir_di_conservancy"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Lola Dietrichson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Nino Zachetti",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n103-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-028.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n103-place.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-031.png",
+          "note": "Extracted and resized from the cited production-research PDF."
+        }
+      }
+    },
+    {
+      "id": 104,
+      "name": "Glendale station",
+      "short": "Glendale station",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Former Burbank Southern Pacific Station, 201 North Front Street",
+      "area": "Glendale",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.31235648172,
+        34.179199050389
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Glendale station · exact site unconfirmed",
+        "precision": "city_explicit",
+        "reason": "The on-screen prop sign says Glendale. Production used Burbank Southern Pacific Station, which burned in 1981; common guides incorrectly identify the surviving Glendale building.",
+        "sourceIds": [
+          "noir_di_conservancy",
+          "noir_di_doh"
+        ]
+      },
+      "people": [
+        "Walter Neff",
+        "Phyllis Dietrichson",
+        "Mr. Dietrichson"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "Glendale station",
+          "filming_component": "Former Burbank Southern Pacific Station, 201 North Front Street",
+          "source_ids": [
+            "noir_di_conservancy",
+            "noir_di_doh"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Phyllis Dietrichson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Mr. Dietrichson",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy",
+              "noir_di_doh"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n104-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-067.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n104-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.31355648172%2C34.178449050389005%2C-118.31115648172%2C34.179949050389&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 105,
+      "name": "The Los Feliz market",
+      "short": "The Los Feliz market",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Former Jerry’s Market, 5330 Melrose Avenue",
+      "area": "Los Feliz",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.316890268257,
+        34.083445470315
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Feliz · market address unspecified",
+        "precision": "neighborhood_explicit",
+        "reason": "Neff names a big market up in Los Feliz. The exterior was Jerry’s Market on Melrose; interiors were built on Paramount Stage11.",
+        "sourceIds": [
+          "noir_di_conservancy"
+        ]
+      },
+      "people": [
+        "Walter Neff",
+        "Phyllis Dietrichson"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "The Los Feliz market",
+          "filming_component": "Former Jerry’s Market, 5330 Melrose Avenue",
+          "source_ids": [
+            "noir_di_conservancy"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Phyllis Dietrichson",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n105-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-056.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n105-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.318090268257%2C34.082695470315%2C-118.315690268257%2C34.084195470314995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 106,
+      "name": "Neff’s bowling alley",
+      "short": "Neff’s bowling alley",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Former La Cienega Lanes, 8491 Santa Monica Boulevard",
+      "area": "Koreatown",
+      "coordinates": [
+        -118.309,
+        34.0685
+      ],
+      "productionCoordinates": [
+        -118.375905719899,
+        34.089902850206
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Third Street & Western Avenue · exact building unspecified",
+        "precision": "intersection_explicit",
+        "reason": "Neff explicitly describes an alley at Third and Western. Bowling was filmed at La Cienega Lanes; the map marks the stated intersection, not the production building.",
+        "sourceIds": [
+          "noir_di_conservancy"
+        ]
+      },
+      "people": [
+        "Walter Neff"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "Neff’s bowling alley",
+          "filming_component": "Former La Cienega Lanes, 8491 Santa Monica Boulevard",
+          "source_ids": [
+            "noir_di_conservancy"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n106-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-073.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n106-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.37710571989899%2C34.089152850206005%2C-118.374705719899%2C34.090652850206&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "caption": "Filming site · aerial",
+          "note": "Aerial of the production-site area; capture date unknown."
+        }
+      }
+    },
+    {
+      "id": 107,
+      "name": "Neff’s overnight drive",
+      "short": "Neff’s overnight drive",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West Fifth Street & South Olive Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2522,
+        34.0498
+      ],
+      "productionCoordinates": [
+        -118.2522,
+        34.0498
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown Los Angeles",
+        "precision": "approximate_site",
+        "sourceIds": [
+          "noir_di_conservancy",
+          "noir_di_doh"
+        ]
+      },
+      "people": [
+        "Walter Neff"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Double Indemnity",
+          "release_year": 1944,
+          "story_role": "Neff’s overnight drive",
+          "filming_component": "West Fifth Street & South Olive Street",
+          "source_ids": [
+            "noir_di_conservancy",
+            "noir_di_doh"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Walter Neff",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "1938 setting documented by Los Angeles Conservancy.",
+            "source_ids": [
+              "noir_di_conservancy",
+              "noir_di_doh"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n107-screen.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Double Indemnity (1944), Paramount / Jean Laughton, Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-004.png",
+          "title": "Double Indemnity",
+          "note": "Extracted and resized from the cited production-research PDF."
+        },
+        "place": {
+          "src": "photos/n107-place.jpg",
+          "sourceUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+          "credit": "Photo: Noelle Swan Gilbert / Los Angeles Conservancy",
+          "imageUrl": "/private/tmp/noir-pages/di-002.png",
+          "note": "Extracted and resized from the cited production-research PDF."
+        }
+      }
+    },
+    {
+      "id": 108,
+      "name": "KYOY television studios",
+      "short": "KYOY television studios",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Former KCET studios, 4401 Sunset Boulevard",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.285037794733,
+        34.096707980794
+      ],
+      "productionCoordinates": [
+        -118.285037794733,
+        34.096707980794
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Feliz",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_story_locations"
+        ]
+      },
+      "people": [
+        "Harris K. Telemacher",
+        "Gail",
+        "Morris Frost"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "KYOY television studios",
+          "filming_component": "Former KCET studios, 4401 Sunset Boulevard",
+          "source_ids": [
+            "noir_story_locations"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Gail",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Morris Frost",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n108-screen.jpg",
+          "sourceUrl": "https://clip.cafe/l-a-story-1991/what-a-surprise-weekend-the-weather-turned-unseasonably-low/",
+          "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+          "title": "L.A. Story",
+          "imageUrl": "https://clip.cafe/clipimg/what-a-surprise-weekend-the-weather-turned-unseasonably-low.jpg",
+          "note": "KYOY news broadcast."
+        },
+        "place": {
+          "src": "photos/n108-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.286237794733%2C34.095957980794005%2C-118.283837794733%2C34.097457980794&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "caption": "Filming site · aerial",
+          "note": "Aerial of the production-site area; capture date unknown."
+        }
+      }
+    },
+    {
+      "id": 109,
+      "name": "Norma Desmond’s mansion",
+      "short": "Norma Desmond’s mansion",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "Former Jenkins/Getty mansion, 641 South Irving Boulevard",
+      "area": "Sunset Boulevard",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.318573479519,
+        34.063090241335
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "10086 Sunset Boulevard · fictional number",
+        "precision": "street_explicit",
+        "roadName": "Sunset Boulevard",
+        "viewport": [
+          [
+            -118.485,
+            34.055
+          ],
+          [
+            -118.407,
+            34.092
+          ]
+        ],
+        "reason": "The film gives 10086 Sunset Boulevard. The mansion exterior was on Irving Boulevard and was demolished in1957; the filming address is retained only in provenance.",
+        "sourceIds": [
+          "noir_sunset_locations",
+          "noir_sunset_afi"
+        ]
+      },
+      "people": [
+        "Norma Desmond",
+        "Joe Gillis",
+        "Max von Mayerling"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Sunset Boulevard",
+          "release_year": 1950,
+          "story_role": "Norma Desmond’s mansion",
+          "filming_component": "Former Jenkins/Getty mansion, 641 South Irving Boulevard",
+          "source_ids": [
+            "noir_sunset_locations",
+            "noir_sunset_afi"
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Norma Desmond",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Joe Gillis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Max von Mayerling",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1950,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_sunset_locations",
+              "noir_sunset_afi"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Sunset Boulevard",
+          "people": [
+            "Joe Gillis"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n109-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+          "credit": "Sunset Boulevard film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/08 (961).jpg?bwg=1547408396",
+          "title": "Sunset Boulevard"
+        },
+        "place": {
+          "src": "photos/n109-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.319773479519%2C34.062340241335%2C-118.317373479519%2C34.063840241334994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 110,
+      "name": "Paramount Pictures",
+      "short": "Paramount Pictures",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "5555 Melrose Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.321954941446,
+        34.083557808109
+      ],
+      "productionCoordinates": [
+        -118.321954941446,
+        34.083557808109
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_sunset_locations",
+          "noir_sunset_afi"
+        ]
+      },
+      "people": [
+        "Cecil B. DeMille",
+        "Betty Schaefer",
+        "Joe Gillis",
+        "Norma Desmond"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Sunset Boulevard",
+          "release_year": 1950,
+          "story_role": "Paramount Pictures",
+          "filming_component": "5555 Melrose Avenue",
+          "source_ids": [
+            "noir_sunset_locations",
+            "noir_sunset_afi"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Cecil B. DeMille",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Betty Schaefer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Joe Gillis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Norma Desmond",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1950,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_sunset_locations",
+              "noir_sunset_afi"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n110-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+          "credit": "Sunset Boulevard film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/05 (961).jpg?bwg=1547408396",
+          "title": "Sunset Boulevard"
+        },
+        "place": {
+          "src": "photos/n110-place.jpg",
+          "sourceUrl": "https://www.movie-locations.com/movies/s/Sunset-Boulevard.php",
+          "credit": "Worldwide Guide to Movie Locations",
+          "imageUrl": "https://www.movie-locations.com/movies/s/sunsetblvd_gate.jpg"
+        }
+      }
+    },
+    {
+      "id": 111,
+      "name": "Schwab’s Pharmacy",
+      "short": "Schwab’s Pharmacy",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Former Schwab’s Pharmacy, 8024 Sunset Boulevard",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.36466126514,
+        34.097949596763
+      ],
+      "productionCoordinates": [
+        -118.36466126514,
+        34.097949596763
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_sunset_locations",
+          "noir_sunset_afi"
+        ]
+      },
+      "people": [
+        "Joe Gillis",
+        "Betty Schaefer",
+        "Artie Green"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Sunset Boulevard",
+          "release_year": 1950,
+          "story_role": "Schwab’s Pharmacy",
+          "filming_component": "Former Schwab’s Pharmacy, 8024 Sunset Boulevard",
+          "source_ids": [
+            "noir_sunset_locations",
+            "noir_sunset_afi"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Joe Gillis",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Betty Schaefer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Artie Green",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1950,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_sunset_locations",
+              "noir_sunset_afi"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n111-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2013/08/26/sunset-boulevard/",
+          "credit": "Sunset Boulevard film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/30 (981).jpg?bwg=1547408397",
+          "title": "Sunset Boulevard"
+        },
+        "place": {
+          "src": "photos/n111-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.36586126514%2C34.097199596763005%2C-118.36346126514%2C34.098699596763&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 112,
+      "name": "Harris Telemacher’s home",
+      "short": "Harris Telemacher’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1206 North Orange Grove Avenue",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.360269203136,
+        34.092755324754
+      ],
+      "productionCoordinates": [
+        -118.360269203136,
+        34.092755324754
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_story_locations"
+        ]
+      },
+      "people": [
+        "Harris K. Telemacher",
+        "Sara McDowel"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "Harris Telemacher’s home",
+          "filming_component": "1206 North Orange Grove Avenue",
+          "source_ids": [
+            "noir_story_locations"
+          ],
+          "categories": [
+            "home"
+          ],
+          "characters": [
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sara McDowel",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n112-screen.jpg",
+          "sourceUrl": "https://clip.cafe/l-a-story-1991/hello-is-harris-please-start-talking-at-the-beep/",
+          "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+          "imageUrl": "https://clip.cafe/clipimg/hello-is-harris-please-start-talking-at-the-beep.jpg",
+          "title": "L.A. Story"
+        },
+        "place": {
+          "src": "photos/n112-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory7.jpg",
+          "note": "Capture date not supplied by the source."
+        }
+      }
+    },
+    {
+      "id": 113,
+      "name": "Trudi’s apartment",
+      "short": "Trudi’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "884 Palm Avenue",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.382818996457,
+        34.087878831117
+      ],
+      "productionCoordinates": [
+        -118.382818996457,
+        34.087878831117
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_story_locations"
+        ]
+      },
+      "people": [
+        "Trudi",
+        "Harris K. Telemacher"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "Trudi’s apartment",
+          "filming_component": "884 Palm Avenue",
+          "source_ids": [
+            "noir_story_locations"
+          ],
+          "categories": [
+            "home"
+          ],
+          "characters": [
+            {
+              "name": "Trudi",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n113-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/05/15/trudis-apartment-building-from-l-a-story",
+          "credit": "L.A. Story (1991), Carolco / Lindsay Blake, IAMNOTASTALKER",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/05/7517681f-2bb7-4819-a8b3-cf5e0795ee07.jpg",
+          "title": "L.A. Story"
+        },
+        "place": {
+          "src": "photos/n113-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory2.jpg",
+          "note": "Capture date not supplied by the source."
+        }
+      }
+    },
+    {
+      "id": 114,
+      "name": "Dr. Dalmar’s",
+      "short": "Dr. Dalmar’s",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "426 South Norton Avenue; Ambassador Hotel coffee-shop interior",
+      "area": "Beverly Hills",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.298234561046,
+        34.061698132699
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "screen",
+        "address": "Sunset Boulevard & Crescent Drive",
+        "precision": "intersection_explicit",
+        "roadName": "Sunset Boulevard",
+        "viewport": [
+          [
+            -118.425,
+            34.078
+          ],
+          [
+            -118.385,
+            34.102
+          ]
+        ],
+        "sourceIds": [
+          "noir_story_brunch"
+        ],
+        "reason": "The movie states Sunset and Crescent. The entrance was filmed at426SouthNorton; the dining patio and interiors were at the demolished Ambassador Hotel coffee shop."
+      },
+      "people": [
+        "Harris K. Telemacher",
+        "Trudi",
+        "Sara McDowel",
+        "Roland Mackey",
+        "Carlo Christopher"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "Dr. Dalmar’s",
+          "filming_component": "426 South Norton Avenue; Ambassador Hotel coffee-shop interior",
+          "source_ids": [
+            "noir_story_brunch",
+            "noir_story_fo"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Trudi",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sara McDowel",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Roland Mackey",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Carlo Christopher",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n114-screen.jpg",
+          "sourceUrl": "https://clip.cafe/l-a-story-1991/your-usual-table-mr-christopher-no-a-good-one/",
+          "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+          "imageUrl": "https://clip.cafe/clipimg/your-usual-table-mr-christopher-no-a-good-one.jpg",
+          "title": "L.A. Story"
+        },
+        "place": {
+          "src": "photos/n114-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory5.jpg",
+          "note": "Capture date not supplied by the source."
+        },
+        "note": "Photo pair: Ambassador Hotel coffee-shop interior on screen; Regent Place apartment entrance at426SouthNorton is the production exterior. Story address is Sunset and Crescent."
+      }
+    },
+    {
+      "id": 115,
+      "name": "Fourth Reich Bank of Hamburg",
+      "short": "Fourth Reich Bank of Hamburg",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "650 South Spring Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.25173248687,
+        34.045033651245
+      ],
+      "productionCoordinates": [
+        -118.25173248687,
+        34.045033651245
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_story_locations"
+        ]
+      },
+      "people": [
+        "Harris K. Telemacher",
+        "Bank executive"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "Fourth Reich Bank of Hamburg",
+          "filming_component": "650 South Spring Street",
+          "source_ids": [
+            "noir_story_locations"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Bank executive",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n115-screen.jpg",
+          "sourceUrl": "https://clip.cafe/l-a-story-1991/why-with-financial-statement-think-can-have-the-duck-s1/",
+          "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+          "imageUrl": "https://clip.cafe/clipimg/why-with-financial-statement-think-can-have-the-duck-s1.jpg",
+          "title": "L.A. Story"
+        },
+        "place": {
+          "src": "photos/n115-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/03/seven10-1.jpg",
+          "note": "Capture date not supplied by the source."
+        }
+      }
+    },
+    {
+      "id": 116,
+      "name": "Museum of Contemporary Art",
+      "short": "Museum of Contemporary Art",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "250 South Grand Avenue",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.250107901087,
+        34.054142004802
+      ],
+      "productionCoordinates": [
+        -118.250107901087,
+        34.054142004802
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown Los Angeles",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_story_locations"
+        ]
+      },
+      "people": [
+        "Harris K. Telemacher",
+        "Sara McDowel"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "L.A. Story",
+          "release_year": 1991,
+          "story_role": "Museum of Contemporary Art",
+          "filming_component": "250 South Grand Avenue",
+          "source_ids": [
+            "noir_story_locations"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Harris K. Telemacher",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sara McDowel",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_story_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n116-screen.jpg",
+          "sourceUrl": "https://clip.cafe/l-a-story-1991/i-like-the-relationships-each-character-his-own-story/",
+          "credit": "L.A. Story (1991), Carolco / Clip.Cafe",
+          "imageUrl": "https://clip.cafe/clipimg/i-like-the-relationships-each-character-his-own-story.jpg",
+          "title": "L.A. Story"
+        },
+        "place": {
+          "src": "photos/n116-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251307901087%2C34.05339200480201%2C-118.24890790108701%2C34.054892004802&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 117,
+      "name": "Lynne’s home",
+      "short": "Lynne’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "1338 Miller Drive",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.377514517496,
+        34.094490404766
+      ],
+      "productionCoordinates": [
+        -118.377514517496,
+        34.094490404766
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_point_locations",
+          "noir_point_criterion"
+        ]
+      },
+      "people": [
+        "Lynne",
+        "Walker",
+        "Mal Reese"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Lynne’s home",
+          "filming_component": "1338 Miller Drive",
+          "source_ids": [
+            "noir_point_locations",
+            "noir_point_criterion"
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Lynne",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Mal Reese",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations",
+              "noir_point_criterion"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Point Blank",
+          "people": [
+            "Lynne"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n117-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_10.jpg?bwg=1702981908",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n117-place.jpg",
+          "sourceUrl": "https://www.movie-locations.com/movies/p/Point-Blank.php",
+          "credit": "Worldwide Guide to Movie Locations",
+          "imageUrl": "https://www.movie-locations.com/movies/p/Point-Blank-Miller-Drive.jpg"
+        }
+      }
+    },
+    {
+      "id": 118,
+      "name": "Mal Reese’s penthouse",
+      "short": "Mal Reese’s penthouse",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "Huntley Hotel, 1111 Second Street",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.501518272519,
+        34.018799203047
+      ],
+      "productionCoordinates": [
+        -118.501518272519,
+        34.018799203047
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Monica",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_point_locations"
+        ]
+      },
+      "people": [
+        "Mal Reese",
+        "Walker",
+        "Chris"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Mal Reese’s penthouse",
+          "filming_component": "Huntley Hotel, 1111 Second Street",
+          "source_ids": [
+            "noir_point_locations"
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Mal Reese",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Point Blank",
+          "people": [
+            "Mal Reese"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n118-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_33.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n118-place.jpg",
+          "sourceUrl": "https://www.movie-locations.com/movies/p/Point-Blank.php",
+          "credit": "Worldwide Guide to Movie Locations",
+          "imageUrl": "https://www.movie-locations.com/movies/p/Point-Blank-Huntley-Hotel-entrance-2.jpg"
+        }
+      }
+    },
+    {
+      "id": 119,
+      "name": "Carter’s office",
+      "short": "Carter’s office",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "5670 Wilshire Boulevard",
+      "area": "Miracle Mile",
+      "coordinates": [
+        -118.351933578602,
+        34.06226952657
+      ],
+      "productionCoordinates": [
+        -118.351933578602,
+        34.06226952657
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Miracle Mile",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_point_locations"
+        ]
+      },
+      "people": [
+        "Carter",
+        "Walker",
+        "Mal Reese"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Carter’s office",
+          "filming_component": "5670 Wilshire Boulevard",
+          "source_ids": [
+            "noir_point_locations"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Carter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Mal Reese",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n119-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_44.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n119-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.353133578602%2C34.06151952657%2C-118.350733578602%2C34.063019526569995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 120,
+      "name": "The river money drop",
+      "short": "The river money drop",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Los Angeles River at Sixth Street Viaduct",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2268,
+        34.0355
+      ],
+      "productionCoordinates": [
+        -118.2268,
+        34.0355
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown Los Angeles",
+        "precision": "approximate_site",
+        "sourceIds": [
+          "noir_point_locations"
+        ]
+      },
+      "people": [
+        "Walker",
+        "Frederick Carter",
+        "Stegman"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "The river money drop",
+          "filming_component": "Los Angeles River at Sixth Street Viaduct",
+          "source_ids": [
+            "noir_point_locations"
+          ],
+          "categories": [
+            "event",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Frederick Carter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stegman",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Point Blank",
+          "people": [
+            "Frederick Carter",
+            "Stegman"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n120-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_50.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n120-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.228%2C34.03475%2C-118.2256%2C34.036249999999995&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "caption": "Filming site · aerial",
+          "note": "Aerial of the production-site area; capture date unknown."
+        }
+      }
+    },
+    {
+      "id": 121,
+      "name": "Brewster’s home",
+      "short": "Brewster’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "7655 Curson Terrace",
+      "area": "Hollywood Hills",
+      "coordinates": [
+        -118.355820751361,
+        34.10471883651
+      ],
+      "productionCoordinates": [
+        -118.355820751361,
+        34.10471883651
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood Hills",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_point_locations"
+        ]
+      },
+      "people": [
+        "Brewster",
+        "Walker",
+        "Chris"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Brewster’s home",
+          "filming_component": "7655 Curson Terrace",
+          "source_ids": [
+            "noir_point_locations"
+          ],
+          "categories": [
+            "home"
+          ],
+          "characters": [
+            {
+              "name": "Brewster",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Chris",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n121-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_51.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n121-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.35702075136099%2C34.103968836510006%2C-118.354620751361%2C34.10546883651&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 122,
+      "name": "Big John’s used-car lot",
+      "short": "Big John’s used-car lot",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Former Big John Motors, 8855 West Washington Boulevard",
+      "area": "Culver City",
+      "coordinates": [
+        -118.388694994748,
+        34.026943411909
+      ],
+      "productionCoordinates": [
+        -118.388694994748,
+        34.026943411909
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Culver City",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_point_locations",
+          "noir_point_kino"
+        ]
+      },
+      "people": [
+        "John Stegman",
+        "Walker"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Big John’s used-car lot",
+          "filming_component": "Former Big John Motors, 8855 West Washington Boulevard",
+          "source_ids": [
+            "noir_point_locations",
+            "noir_point_kino"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "John Stegman",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n122-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_22.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n122-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.38989499474799%2C34.026193411909006%2C-118.387494994748%2C34.027693411909&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 123,
+      "name": "Walker’s telescope lookout",
+      "short": "Walker’s telescope lookout",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Palisades Park near California Avenue",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.5047,
+        34.0196
+      ],
+      "productionCoordinates": [
+        -118.5047,
+        34.0196
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Monica",
+        "precision": "approximate_site",
+        "sourceIds": [
+          "noir_point_locations"
+        ]
+      },
+      "people": [
+        "Walker"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Point Blank",
+          "release_year": 1967,
+          "story_role": "Walker’s telescope lookout",
+          "filming_component": "Palisades Park near California Avenue",
+          "source_ids": [
+            "noir_point_locations"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Walker",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1967,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_point_locations"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n123-screen.jpg",
+          "sourceUrl": "https://film-grab.com/2024/05/23/point-blank/",
+          "credit": "Point Blank film frame / FilmGrab",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Point_Blank_34.jpg?bwg=1702981906",
+          "title": "Point Blank"
+        },
+        "place": {
+          "src": "photos/n123-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.5059%2C34.01885%2C-118.5035%2C34.02034999999999&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 124,
+      "name": "Philip Marlowe’s apartment",
+      "short": "Philip Marlowe’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "2178 High Tower Drive / 2182 Broadview Terrace",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.339051797871,
+        34.10943050461
+      ],
+      "productionCoordinates": [
+        -118.339051797871,
+        34.10943050461
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_afi"
+        ]
+      },
+      "people": [
+        "Philip Marlowe",
+        "Terry Lennox"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Philip Marlowe’s apartment",
+          "filming_component": "2178 High Tower Drive / 2182 Broadview Terrace",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_afi"
+          ],
+          "categories": [
+            "home"
+          ],
+          "characters": [
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Terry Lennox",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_afi"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n124-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrej1l4pknsIXyWLUFUxBfNtKCdtFJPFafzUl6BcwowA29v_kK1pbITR9HS9RMTK95e4Paeminm4FuLKnd44y08Cz5sD9rTqGIRRrMLETkpTe2cgEBhf8q12Ya3qGdqUkX-zFFG5CoqSM/s400/HighTower_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n124-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "Yuri G. / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ThN_XB6vJk3rDbpR3CdEwnW8Yz4658Oal7qJsDQvAc0z4JgbEh5BMXR5uD3_PPEJgqNilBcPa9MYr3MEPhcxoSC7eT_S-0VOF1eA4Q4uZUpImrSfFI4e1uQdcjIhG65TIPnphRGWyXY/s400/HighTower_Now.jpg",
+          "note": "Archival site comparison published2012; capture day not supplied."
+        }
+      }
+    },
+    {
+      "id": 125,
+      "name": "Roger & Eileen Wade’s home",
+      "short": "Roger & Eileen Wade’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "23844 Malibu Road",
+      "area": "Malibu Colony",
+      "coordinates": [
+        -118.7,
+        34.03
+      ],
+      "productionCoordinates": [
+        -118.694910661512,
+        34.033357997416
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "inferred",
+        "address": "Malibu Colony · exact property unspecified",
+        "precision": "neighborhood_explicit",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_afi"
+        ],
+        "reason": "Story identifies Malibu Colony; the production beach house at23844MalibuRoad lies east of the private Colony entrance.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.715,
+                34.025
+              ],
+              [
+                -118.687,
+                34.025
+              ],
+              [
+                -118.687,
+                34.037
+              ],
+              [
+                -118.715,
+                34.037
+              ],
+              [
+                -118.715,
+                34.025
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.715,
+            34.025
+          ],
+          [
+            -118.687,
+            34.037
+          ]
+        ]
+      },
+      "people": [
+        "Roger Wade",
+        "Eileen Wade",
+        "Philip Marlowe"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Roger & Eileen Wade’s home",
+          "filming_component": "23844 Malibu Road",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_afi"
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "characters": [
+            {
+              "name": "Roger Wade",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eileen Wade",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_afi"
+            ]
+          }
+        }
+      ],
+      "deaths": [
+        {
+          "title": "The Long Goodbye",
+          "people": [
+            "Roger Wade"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n125-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvGtkTT4JHaUsx5-8oqJyDcH_e-1z9W9W3m1v4c0nzOY7Btcyf5B1RYlO3_zq8PA82d8bHwsXxfRqNsG7U0ZJUKIsXjgZw2rkZS9gr_2D_b9ZhTrL4PWlJ4aDl9X_0Wa95A9B6rYQC60/s400/WadesHouse_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n125-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.696110661512%2C34.032607997416%2C-118.693710661512%2C34.034107997415994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 126,
+      "name": "Lincoln Heights Jail",
+      "short": "Lincoln Heights Jail",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "401 North Avenue 19",
+      "area": "Lincoln Heights",
+      "coordinates": [
+        -118.224371287553,
+        34.076935312045
+      ],
+      "productionCoordinates": [
+        -118.224371287553,
+        34.076935312045
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Lincoln Heights",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_long_afi"
+        ]
+      },
+      "people": [
+        "Philip Marlowe",
+        "Dave “Socrates”"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Lincoln Heights Jail",
+          "filming_component": "401 North Avenue 19",
+          "source_ids": [
+            "noir_long_afi"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dave “Socrates”",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_afi"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n126-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5JR-llZgkDgjgFwRirSCaLpxiiTQSrUzrse556pOC4u8x1LRMSfbrYVYYi0LBCiaAldI3IYDEc0JnM0PQzFx4CiwsQ1747pWIuoVVrvYyeRlNrTTw5xUiBkvoYntRxV3f_KjTfiY9OhA/s400/LincolnHeightsJail_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n126-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.225571287553%2C34.076185312045006%2C-118.223171287553%2C34.077685312045&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 127,
+      "name": "Burbank Care Center",
+      "short": "Burbank Care Center",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Las Encinas Hospital, 2900 East Del Mar Boulevard",
+      "area": "Burbank",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.090346279417,
+        34.142116083527
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Burbank Care Center · exact story address unconfirmed",
+        "precision": "unlocated",
+        "reason": "The clinic is named Burbank Care Center on screen. Production used Las Encinas Hospital in Pasadena. No evidence currently establishes that Pasadena is its canonical position.",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_extstreet"
+        ]
+      },
+      "people": [
+        "Dr. Verringer",
+        "Roger Wade",
+        "Philip Marlowe"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Burbank Care Center",
+          "filming_component": "Las Encinas Hospital, 2900 East Del Mar Boulevard",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_extstreet"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Dr. Verringer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Roger Wade",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_extstreet"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n127-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9ifK0papNOQqZ9bMhSdYZkwdowgohhB5uWYNT-EoUCveAR3BKaBTs5IogJE4aeKdoyc6Ro4mtEfNcotdVUcpMgN1o5rID3BvHX964AR3ay9Ap1CIa4SiesWkQmuw6pbyBIWXxykzQ45w/s400/MentalInstitution_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n127-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.092946279417%2C34.140416083527%2C-118.087746279417%2C34.143816083527&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "caption": "Filming site · aerial",
+          "note": "Aerial of the production-site area; capture date unknown."
+        }
+      }
+    },
+    {
+      "id": 128,
+      "name": "Thriftimart",
+      "short": "Thriftimart",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Former Thriftimart, 6140 Lankershim Boulevard",
+      "area": "North Hollywood",
+      "coordinates": [
+        -118.384871986874,
+        34.18198400933
+      ],
+      "productionCoordinates": [
+        -118.384871986874,
+        34.18198400933
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "North Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_extstreet"
+        ]
+      },
+      "people": [
+        "Philip Marlowe"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Thriftimart",
+          "filming_component": "Former Thriftimart, 6140 Lankershim Boulevard",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_extstreet"
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "characters": [
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_extstreet"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n128-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrsiCzEYjw9kNfA0Xf-FBstCowzuum2I60AxiavzZXw9xpYGAUZbSf77aRwlu936UIstPCDExFaWmkqcWewh2DGdJSY_l8uoDgWkaJUpv-wPK9fZh4EIDz_ddAA6maWrHdhCeE3DvvmMM/s400/Supermarket_LongGoodbye1.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n128-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.386071986874%2C34.181234009330005%2C-118.383671986874%2C34.18273400933&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial of the production site; capture date unknown.",
+          "caption": "Filming site · aerial"
+        }
+      }
+    },
+    {
+      "id": 129,
+      "name": "Marty Augustine’s office",
+      "short": "Marty Augustine’s office",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "10880 Wilshire Boulevard",
+      "area": "Westwood",
+      "coordinates": [
+        -118.442632769523,
+        34.05904795438
+      ],
+      "productionCoordinates": [
+        -118.442632769523,
+        34.05904795438
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westwood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_extstreet"
+        ]
+      },
+      "people": [
+        "Marty Augustine",
+        "Philip Marlowe"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Marty Augustine’s office",
+          "filming_component": "10880 Wilshire Boulevard",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_extstreet"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Marty Augustine",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_extstreet"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n129-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib45mvqMhYId6sIwr_jvoyxjqDzMY1Nq3QBOaghPPi28Zjnm892kHQemBFW9gJMimri47_5JNfwgYVT2kyH8-PqbVgprJHHuaYrS14WRtIS-OFSdT1-In-Wuwa3ABdV6ffqpqn8fAa258/s400/OppenheimerBuildingSteps_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n129-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "Yuri G. / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlZrn7U12jlc2uzl6_2W_8ZMin04g-z2MZqcpbOcApF-XLYYc5rCUNQhl9dsrB4umSRPIZSG8JqO3C5fPcD1yC4Bq_FFt0k7jyV6cLgxoz2GI8vokZmqzlM2-oBWMOdYAdW58QiueHEn8/s400/OppenheimerBuildingSteps_Now.jpg",
+          "note": "Archival site comparison published2012; capture day not supplied."
+        }
+      }
+    },
+    {
+      "id": 130,
+      "name": "Marlowe’s road accident",
+      "short": "Marlowe’s road accident",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Kinross Avenue & Broxton Avenue",
+      "area": "Westwood",
+      "coordinates": [
+        -118.4464,
+        34.0603
+      ],
+      "productionCoordinates": [
+        -118.4464,
+        34.0603
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westwood",
+        "precision": "approximate_site",
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_extstreet"
+        ]
+      },
+      "people": [
+        "Philip Marlowe",
+        "Eileen Wade"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Marlowe’s road accident",
+          "filming_component": "Kinross Avenue & Broxton Avenue",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_extstreet"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Eileen Wade",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_extstreet"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n130-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhheeqq4_acFjETrtYSlqe-qg8RfeLY1El66_KHoC-pXqxsoqwugYfxuCHdQlQsvL2ovh3O4evG7i68nEkoqGJrZma_csZswsROR_mhvNqOA2CQSvIS5PFKPXuDtILy4iIZ3ORtnl6_t9E/s400/KinrossAtBroxton_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n130-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "Yuri G. / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4DB2T-U4CH0EfJCpVL2m__4cgXY1D0O2ebz3-HUDpwIwPmZK3GVhyphenhyphenqu6efSyMaNYRiWBAiXWoXdt_i1z8IOr3D-DbNfUG5C6tyYKbPWBtqjzvxKYwY1XzzTw19kGaX2myWkuswv8CKA/s1600/KinrossAtBroxton_Now.jpg",
+          "note": "Archival site comparison published2012; capture day not supplied."
+        }
+      }
+    },
+    {
+      "id": 131,
+      "name": "Malibu Colony gate",
+      "short": "Malibu Colony gate",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Malibu Colony Road entrance",
+      "area": "Malibu",
+      "coordinates": null,
+      "productionCoordinates": [
+        -118.6884,
+        34.0346
+      ],
+      "precision": "approximate_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Malibu Colony Road · exact gate position unconfirmed",
+        "precision": "street_explicit",
+        "viewport": [
+          [
+            -118.717,
+            34.022
+          ],
+          [
+            -118.682,
+            34.042
+          ]
+        ],
+        "sourceIds": [
+          "noir_long_tourist",
+          "noir_long_extstreet"
+        ],
+        "reason": "Scene sources identify the Malibu Colony Road entrance; a precise current gateway coordinate is not independently established."
+      },
+      "people": [
+        "Colony guard",
+        "Philip Marlowe",
+        "Terry Lennox"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "The Long Goodbye",
+          "release_year": 1973,
+          "story_role": "Malibu Colony gate",
+          "filming_component": "Malibu Colony Road entrance",
+          "source_ids": [
+            "noir_long_tourist",
+            "noir_long_extstreet"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Colony guard",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Philip Marlowe",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Terry Lennox",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_long_tourist",
+              "noir_long_extstreet"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n131-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+          "credit": "The Long Goodbye (1973), United Artists / Movie Tourist",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnn-ip-9sUZF1_UDAz_jFg-McNvKg-Jo0aFkbphP833s7oFnV-TScinsYGQwVvoLlDg-1v0ldIN7s71fj1h73oFWSm-ReWKtaFQ88BF4QXkUQwOey8SS_yOVUnBThdU-1HFuYONaaSl5A/s400/MalibuColony_LongGoodbye.jpg",
+          "title": "The Long Goodbye"
+        },
+        "place": {
+          "src": "photos/n131-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.6896%2C34.03385%2C-118.6872%2C34.035349999999994&bboxSR=4326&imageSR=3857&size=720%2C450&format=jpg&f=image",
+          "note": "Aerial context near the Malibu Colony entrance; this is not an identified close-up of the gate. Capture date unknown.",
+          "caption": "Malibu Colony vicinity · aerial"
+        }
+      }
+    },
+    {
+      "id": 132,
+      "name": "Jim Stark’s drunken night",
+      "short": "Jim Stark’s drunken night",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "7529 Franklin Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.353501514866,
+        34.103522033629
+      ],
+      "productionCoordinates": [
+        -118.353501514866,
+        34.103522033629
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_rebel_cineguides",
+          "noir_rebel_alex"
+        ]
+      },
+      "people": [
+        "Jim Stark"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Rebel Without a Cause",
+          "release_year": 1955,
+          "story_role": "Jim Stark’s drunken night",
+          "filming_component": "7529 Franklin Avenue",
+          "source_ids": [
+            "noir_rebel_cineguides",
+            "noir_rebel_alex",
+            "noir_rebel_afi"
+          ],
+          "categories": [
+            "event"
+          ],
+          "characters": [
+            {
+              "name": "Jim Stark",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_rebel_cineguides",
+              "noir_rebel_alex"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n132-screen.jpg",
+          "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+          "credit": "Rebel Without a Cause (1955), Warner Bros. / Cineguides",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628318343710-80T6BTYFOKENNBG4D2S7/RC1.JPG?format=1000w",
+          "title": "Rebel Without a Cause"
+        },
+        "place": {
+          "src": "photos/n132-place.jpg",
+          "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+          "credit": "Cineguides / Google Maps2021",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628318347450-HHJFOBCJD1JFAPWSG8ZR/RC2.JPG?format=1000w",
+          "date": "2021"
+        }
+      }
+    },
+    {
+      "id": 133,
+      "name": "Dawson High School",
+      "short": "Dawson High School",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Santa Monica High School, 601 Pico Boulevard",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.485011844478,
+        34.011207783433
+      ],
+      "productionCoordinates": [
+        -118.485011844478,
+        34.011207783433
+      ],
+      "precision": "street-interpolated",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Monica",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "noir_rebel_cineguides",
+          "noir_rebel_alex"
+        ]
+      },
+      "people": [
+        "Jim Stark",
+        "Judy",
+        "Buzz Gunderson",
+        "John “Plato” Crawford"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Rebel Without a Cause",
+          "release_year": 1955,
+          "story_role": "Dawson High School",
+          "filming_component": "Santa Monica High School, 601 Pico Boulevard",
+          "source_ids": [
+            "noir_rebel_cineguides",
+            "noir_rebel_alex",
+            "noir_rebel_afi"
+          ],
+          "categories": [
+            "work"
+          ],
+          "characters": [
+            {
+              "name": "Jim Stark",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Judy",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Buzz Gunderson",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John “Plato” Crawford",
+              "relationship": "associated_with"
+            }
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_rebel_cineguides",
+              "noir_rebel_alex"
+            ]
+          }
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n133-screen.jpg",
+          "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+          "credit": "Rebel Without a Cause (1955), Warner Bros. / Cineguides",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628323592325-IC6OHDHWH86266A8ASZG/RC12.jpg?format=1000w",
+          "title": "Rebel Without a Cause"
+        },
+        "place": {
+          "src": "photos/n133-place.jpg",
+          "sourceUrl": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+          "credit": "Cineguides / Google Maps2021",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/60f9010af717a8633205fb05/1628323602971-TDX7LWGO1ITXD7ZZSX02/RC14.JPG?format=1000w",
+          "date": "2021"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noir_di_conservancy",
+      "title": "Double Indemnity: production records and location comparisons, Jean Laughton / Los Angeles Conservancy",
+      "url": "https://www.laconservancy.org/wp-content/uploads/2022/11/JeanLaughtonTour-DoubleIndemnity.pdf",
+      "source_type": "historical_research"
+    },
+    {
+      "id": "noir_di_doh",
+      "title": "Dear Old Hollywood: Double Indemnity locations and station correction",
+      "url": "https://dearoldhollywood.blogspot.com/2009/05/double-indemnity-film-locations.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_sunset_locations",
+      "title": "Sunset Boulevard locations, Worldwide Guide to Movie Locations",
+      "url": "https://www.movie-locations.com/movies/s/Sunset-Boulevard.php",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_sunset_afi",
+      "title": "AFI Catalog: Sunset Blvd.",
+      "url": "https://catalog.afi.com/Film/26513-SUNSET-BLVD",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "noir_story_locations",
+      "title": "L.A. Story locations, Worldwide Guide to Movie Locations",
+      "url": "https://www.movie-locations.com/movies/l/LA-Story.php",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_point_locations",
+      "title": "Point Blank locations, Worldwide Guide to Movie Locations",
+      "url": "https://www.movie-locations.com/movies/p/Point-Blank.php",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_point_criterion",
+      "title": "Criterion Collection: Point Blank",
+      "url": "https://www.criterion.com/films/32290-point-blank",
+      "source_type": "film_distributor"
+    },
+    {
+      "id": "noir_long_tourist",
+      "title": "Movie Tourist: The Long Goodbye, scene-by-scene comparisons",
+      "url": "https://movie-tourist.blogspot.com/2012/08/the-long-goodbye-1973.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_long_afi",
+      "title": "AFI Catalog: The Long Goodbye",
+      "url": "https://catalog.afi.com/Film/54801-THE-LONG-GOODBYE",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "noir_long_extstreet",
+      "title": "Ext.Street: The Long Goodbye scene locations",
+      "url": "https://extstreet.com/The_Long_Goodbye.html",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_rebel_cineguides",
+      "title": "Cineguides: Rebel Without a Cause comparison photographs",
+      "url": "https://www.cineguides.com/rebel-without-a-cause-1955-filming-locations",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_rebel_alex",
+      "title": "Alex Film Society: Rebel Without a Cause location program",
+      "url": "https://www.alexfilmsociety.org/newsletters/Rebel_2012_02_pgm_web.pdf",
+      "source_type": "film_society"
+    },
+    {
+      "id": "noir_story_fo",
+      "title": "Film Oblivion: L.A. Story location photographs",
+      "url": "https://filmoblivion.com/2021/01/17/l-a-story-1991/",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_story_brunch",
+      "title": "IAMNOTASTALKER: Dr. Dalmar’s brunch restaurant",
+      "url": "https://www.iamnotastalker.com/2013/08/06/the-l-a-story-brunch-restaurant",
+      "source_type": "location_research"
+    },
+    {
+      "id": "noir_rebel_afi",
+      "title": "AFI Catalog: Rebel Without a Cause",
+      "url": "https://catalog.afi.com/Film/51633-rebel-withoutacause",
+      "source_type": "film_catalog"
+    },
+    {
+      "id": "noir_point_kino",
+      "title": "Point Blank scene-to-address mapping",
+      "url": "https://www.kinoafisha.info/en/movies/8384761/locations/",
+      "source_type": "location_research"
+    }
+  ],
+  "audit": [
+    {
+      "id": 101,
+      "sources_read": [
+        "noir_di_conservancy",
+        "noir_di_doh"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 102,
+      "sources_read": [
+        "noir_di_conservancy",
+        "noir_di_doh"
+      ],
+      "story_geography": "Neff describes Los Feliz. The exterior was filmed at 6301 Quebec Drive in Beachwood Canyon; that production address is not used as a canonical pin.",
+      "precision": "neighborhood_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 103,
+      "sources_read": [
+        "noir_di_conservancy"
+      ],
+      "story_geography": "Lola explicitly asks for Vermont and Franklin. The shot uses Hollywood and Western with the Newman Drug Store behind Nino.",
+      "precision": "intersection_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 104,
+      "sources_read": [
+        "noir_di_conservancy",
+        "noir_di_doh"
+      ],
+      "story_geography": "The on-screen prop sign says Glendale. Production used Burbank Southern Pacific Station, which burned in 1981; common guides incorrectly identify the surviving Glendale building.",
+      "precision": "city_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 105,
+      "sources_read": [
+        "noir_di_conservancy"
+      ],
+      "story_geography": "Neff names a big market up in Los Feliz. The exterior was Jerry’s Market on Melrose; interiors were built on Paramount Stage11.",
+      "precision": "neighborhood_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 106,
+      "sources_read": [
+        "noir_di_conservancy"
+      ],
+      "story_geography": "Neff explicitly describes an alley at Third and Western. Bowling was filmed at La Cienega Lanes; the map marks the stated intersection, not the production building.",
+      "precision": "intersection_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 107,
+      "sources_read": [
+        "noir_di_conservancy",
+        "noir_di_doh"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "approximate_site",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 108,
+      "sources_read": [
+        "noir_story_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 109,
+      "sources_read": [
+        "noir_sunset_locations",
+        "noir_sunset_afi"
+      ],
+      "story_geography": "The film gives 10086 Sunset Boulevard. The mansion exterior was on Irving Boulevard and was demolished in1957; the filming address is retained only in provenance.",
+      "precision": "street_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 110,
+      "sources_read": [
+        "noir_sunset_locations",
+        "noir_sunset_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 111,
+      "sources_read": [
+        "noir_sunset_locations",
+        "noir_sunset_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 112,
+      "sources_read": [
+        "noir_story_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 113,
+      "sources_read": [
+        "noir_story_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 114,
+      "sources_read": [
+        "noir_story_brunch",
+        "noir_story_fo"
+      ],
+      "story_geography": "The movie states Sunset and Crescent. The entrance was filmed at426SouthNorton; the dining patio and interiors were at the demolished Ambassador Hotel coffee shop.",
+      "precision": "intersection_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 115,
+      "sources_read": [
+        "noir_story_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 116,
+      "sources_read": [
+        "noir_story_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 117,
+      "sources_read": [
+        "noir_point_locations",
+        "noir_point_criterion"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 118,
+      "sources_read": [
+        "noir_point_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 119,
+      "sources_read": [
+        "noir_point_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 120,
+      "sources_read": [
+        "noir_point_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "approximate_site",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 121,
+      "sources_read": [
+        "noir_point_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 122,
+      "sources_read": [
+        "noir_point_locations",
+        "noir_point_kino"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 123,
+      "sources_read": [
+        "noir_point_locations"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "approximate_site",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 124,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 125,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_afi"
+      ],
+      "story_geography": "Story identifies Malibu Colony; the production beach house at23844MalibuRoad lies east of the private Colony entrance.",
+      "precision": "neighborhood_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 126,
+      "sources_read": [
+        "noir_long_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 127,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_extstreet"
+      ],
+      "story_geography": "The clinic is named Burbank Care Center on screen. Production used Las Encinas Hospital in Pasadena. No evidence currently establishes that Pasadena is its canonical position.",
+      "precision": "unlocated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 128,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_extstreet"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 129,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_extstreet"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 130,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_extstreet"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "approximate_site",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 131,
+      "sources_read": [
+        "noir_long_tourist",
+        "noir_long_extstreet"
+      ],
+      "story_geography": "Scene sources identify the Malibu Colony Road entrance; a precise current gateway coordinate is not independently established.",
+      "precision": "street_explicit",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 132,
+      "sources_read": [
+        "noir_rebel_cineguides",
+        "noir_rebel_alex",
+        "noir_rebel_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    },
+    {
+      "id": 133,
+      "sources_read": [
+        "noir_rebel_cineguides",
+        "noir_rebel_alex",
+        "noir_rebel_afi"
+      ],
+      "story_geography": "No contradictory story address found in cited research; filming site retained as a proxy.",
+      "precision": "street-interpolated",
+      "photo_pair": "Actual movie frame and real-site image; aerial context explicitly identified where used."
+    }
+  ],
+  "geocoding": {
+    "provider": "US Census Geocoder",
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress",
+    "benchmark": "Public_AR_Current",
+    "method": "26 street addresses matched, then 5500Hollywood,8491SantaMonica,and4401Sunset resolved duringQA. Street interpolation is not a rooftop survey. Manual intersections and named areas remain marked approximate."
+  }
+}

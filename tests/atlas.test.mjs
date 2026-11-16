@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { filterPlaces,matchingAppearances,readState,stateHash,timeBounds,timeLabel } from '../src/logic.mjs';
+import { filterPlaces,matchingAppearances,readState,stateHash,timeBounds,timeLabel,displayEntries,selectPlace,backState } from '../src/logic.mjs';
 import {countyFog} from '../src/geo.mjs';
 const data=JSON.parse(fs.readFileSync(new URL('../src/data/atlas.json',import.meta.url)));
 const time=(year,undated=false)=>({all:false,from:year,to:year,undated});
@@ -46,14 +46,14 @@ test('address, character, title and spelling aliases search locally',()=>{
   assert.ok(filterPlaces(data.places,{query:'Voyager'}).some(p=>p.id===83));
 });
 test('shareable state roundtrips and clamps hostile/out-of-bounds inputs',()=>{
-  const state={selected:83,route:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
+  const state={selected:83,route:null,person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
   assert.deepEqual(readState(stateHash(state)),state);
   assert.deepEqual(readState('#from=9999&to=1').time,{all:true,from:1930,to:2030,undated:false});
   assert.equal(readState('#from=bad&to=1995').time.all,true);
 });
 test('map and provenance data are valid, bounded and internally linked',()=>{
   const ids=new Set(data.sources.map(s=>s.id));
-  const inLA=([lon,lat])=>lon>-119&&lon<-117.5&&lat>33.45&&lat<34.6;
+  const inLA=([lon,lat])=>lon>-119&&lon<-117.5&&lat>33.45&&lat<34.85;
   assert.ok(data.places.length>=90);
   for(const p of data.places){
     if(p.coordinates)assert.ok(inLA(p.coordinates),`${p.id}: ${p.coordinates}`);
@@ -89,13 +89,57 @@ test('deaths are searchable without changing the building category permanently',
   assert.ok(filterPlaces([trejo],{category:'death',film:'Heat'}).length);
   assert.equal(filterPlaces([griffith],{category:'death'}).length,0);
 });
-test('county fog leaves mainland and island county territory visible',()=>{
+test('county fog reveals islands only after researching a location there',()=>{
   const county=JSON.parse(fs.readFileSync(new URL('../public/la-county.geojson',import.meta.url)));
   const fog=countyFog(county);
   const insideRing=([x,y],ring)=>{let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;};
   const inFog=point=>fog.features.some(f=>insideRing(point,f.geometry.coordinates[0])&&!f.geometry.coordinates.slice(1).some(r=>insideRing(point,r)));
   assert.equal(inFog([-118.2437,34.0522]),false,'Downtown Los Angeles');
   assert.equal(inFog([-118.1445,34.1478]),false,'Pasadena');
-  assert.equal(inFog([-118.4,33.39]),false,'Catalina Island');
+  assert.equal(inFog([-118.4,33.39]),true,'Unresearched Catalina Island');
+  const revealed=countyFog(county,[[-118.4,33.39]]);
+  assert.equal(revealed.features.some(f=>insideRing([-118.4,33.39],f.geometry.coordinates[0])&&!f.geometry.coordinates.slice(1).some(r=>insideRing([-118.4,33.39],r))),false);
   assert.equal(inFog([-117.8265,33.6846]),true,'Irvine, Orange County');
+});
+
+test('All lists death events separately at full location identity',()=>{
+  const trejo=data.places.find(p=>p.id===4);
+  const entries=displayEntries([trejo]);
+  assert.deepEqual(entries.map(p=>p.category),['home','death']);
+  assert.equal(entries[1].name,'Trejo’s death');
+  assert.equal(entries[1].baseId,4);
+  assert.deepEqual(displayEntries([trejo],{category:'death'}).map(p=>p.id),[-4]);
+  assert.equal(displayEntries([trejo],{film:'Blade Runner'}).length,0);
+});
+test('location Back preserves its route or person context in shared state',()=>{
+  const base={...readState(''),tab:'journeys',route:99};
+  const place=selectPlace(base,202);
+  assert.equal(place.route,99);
+  assert.equal(backState(place).route,99);
+  assert.equal(backState(place).selected,null);
+  assert.equal(backState(backState(place)).route,null);
+  assert.deepEqual(readState(stateHash(place)),place);
+  const person=selectPlace({...readState(''),tab:'people',person:'Neil McCauley'},1);
+  assert.equal(backState(person).person,'Neil McCauley');
+  assert.deepEqual(readState(stateHash(person)),person);
+});
+test('the expansion contains 100 new sourced places with unique identities',()=>{
+  const extra=JSON.parse(fs.readFileSync(new URL('../research/expansion-100.json',import.meta.url)));
+  assert.equal(extra.places.length,100);
+  assert.equal(new Set(extra.places.map(p=>p.id)).size,100);
+  assert.equal(data.places.length,201);
+  for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
+});
+test('LAX death and channel chase use sourced sites and navigable photo entries',()=>{
+  const lax=data.places.find(p=>p.id===201);
+  assert.equal(lax.category,'death');assert.deepEqual(lax.deaths[0].people,['Neil McCauley']);
+  assert.ok(filterPlaces(data.places,{query:'Macauley'}).some(p=>p.id===201));
+  assert.equal(lax.appearances[0].story_time.year,1995);
+  const t2=data.journeys.find(j=>j.id===99);
+  assert.deepEqual(t2.stops.map(s=>s.placeId),[202,203]);
+  assert.equal(t2.stops.some(s=>s.coordinates[0]===-118.4932&&s.coordinates[1]===34.2328),false);
+  for(const j of data.journeys)for(const stop of j.stops){
+    const p=data.places.find(p=>p.id===stop.placeId);assert.ok(p,`${j.id}: ${stop.name}`);
+    assert.ok(p.media.screen.src&&p.media.place.src);
+  }
 });
