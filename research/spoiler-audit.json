@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": 23,
+      "reason": "Final protagonist confrontation; the pier itself is a safe name.",
+      "fields": [
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "D-Fens and Prendergast's final confrontation"
+      ],
+      "title": "Falling Down",
+      "name": "Venice Pier"
+    },
+    {
+      "id": 37,
+      "reason": "Reservoir Dogs undercover identity is a major twist; keep The Big Lebowski appearance visible.",
+      "fields": [
+        "appearances[title=Reservoir Dogs].story_role",
+        "mediaByTitle.Reservoir Dogs.screen"
+      ],
+      "excerpts": [
+        "Mr. Orange meets his police superior"
+      ],
+      "title": "The Big Lebowski",
+      "name": "Johnie’s Coffee Shop"
+    },
+    {
+      "id": 51,
+      "reason": "The heist switch is a material plan/outcome detail, unlike the mall name.",
+      "fields": [
+        "appearances[0].story_role"
+      ],
+      "excerpts": [
+        "Jackie's money-switch shopping mall"
+      ],
+      "title": "Jackie Brown",
+      "name": "Del Amo Fashion Center"
+    },
+    {
+      "id": 55,
+      "reason": "Katherine’s identity/refuge is part of Chinatown’s central late revelation.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Katherine's refuge",
+        "Katherine Cross"
+      ],
+      "whole_record": true,
+      "title": "Chinatown",
+      "name": "Katherine's refuge"
+    },
+    {
+      "id": 58,
+      "reason": "Climactic confrontation and ending frame. Keep the neutral Chinatown place name.",
+      "fields": [
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Evelyn and Noah Cross's Chinatown confrontation",
+        "Ending.JPG"
+      ],
+      "title": "Chinatown",
+      "name": "Chinatown"
+    },
+    {
+      "id": 72,
+      "reason": "The search being based on a false warrant discloses the deceit.",
+      "fields": [
+        "appearances[0].story_role"
+      ],
+      "excerpts": [
+        "Sandman's home / the false-warrant search"
+      ],
+      "title": "Training Day",
+      "name": "Sandman’s home"
+    },
+    {
+      "id": 73,
+      "reason": "Late confrontation/outcome, while Sara’s ordinary home name can remain.",
+      "fields": [
+        "appearances[0].story_role",
+        "notes",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Sara's home / Alonzo's final neighborhood confrontation"
+      ],
+      "title": "Training Day",
+      "name": "Sara’s home"
+    },
+    {
+      "id": 88,
+      "reason": "Diane/Betty/Rita co-identification and suicide context expose Mulholland Drive’s identity/time reversal.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "notes",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Diane Selwyn's Sierra Bonita apartment",
+        "Diane Selwyn; Betty Elms; Rita",
+        "identity and timeline follow the film's ambiguity"
+      ],
+      "whole_record": true,
+      "title": "Mulholland Drive",
+      "name": "Diane Selwyn's Sierra Bonita apartment"
+    },
+    {
+      "id": 90,
+      "reason": "Diane’s association with this diner connects the late identity/hitman story to the early dream scene.",
+      "fields": [
+        "people[name=Diane Selwyn]",
+        "appearances[0].characters[name=Diane Selwyn]"
+      ],
+      "excerpts": [
+        "Diane Selwyn"
+      ],
+      "title": "Mulholland Drive",
+      "name": "Winkie's diner"
+    },
+    {
+      "id": 96,
+      "reason": "The Player relationship fields name the murderer and victim. La La Land is safe.",
+      "fields": [
+        "appearances[title=The Player].characters",
+        "mediaByTitle.The Player.screen"
+      ],
+      "excerpts": [
+        "meets and kills David",
+        "attends screening; killed outside"
+      ],
+      "title": "La La Land",
+      "name": "Rialto Theatre"
+    },
+    {
+      "id": 207,
+      "reason": "Named survivors escape the climactic Heat bank robbery.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "McCauley & Chris’s escape"
+      ],
+      "title": "Heat",
+      "name": "McCauley & Chris’s escape"
+    },
+    {
+      "id": 216,
+      "reason": "Van Zant’s betrayal is disclosed by the ambush label and notes.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "notes",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Centinela drive-in ambush",
+        "Van Zant’s bearer-bond handoff becomes an ambush."
+      ],
+      "title": "Heat",
+      "name": "Centinela drive-in ambush"
+    },
+    {
+      "id": 219,
+      "reason": "The ordinary home is safe; murderer/victim relationships reveal its later outcome.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters"
+      ],
+      "excerpts": [
+        "Van Zant’s home, where McCauley confronts and kills him",
+        "resident; killed here",
+        "kills Van Zant"
+      ],
+      "title": "Heat",
+      "name": "Roger Van Zant’s home"
+    },
+    {
+      "id": 227,
+      "reason": "Death/mortal-wound details occur on the main police-station record, not only its derived death row.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters"
+      ],
+      "excerpts": [
+        "Sarah and Reese’s interrogation; the police-station massacre",
+        "works_and_is_mortally_wounded_here",
+        "interviews_reese_and_leaves_before_the_attack"
+      ],
+      "title": "The Terminator",
+      "name": "Central Division police station"
+    },
+    {
+      "id": 253,
+      "reason": "Standalone funeral record reveals named death without a death category.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "placement.reason",
+        "media"
+      ],
+      "excerpts": [
+        "David Kahane’s funeral",
+        "buried here"
+      ],
+      "whole_record": true,
+      "title": "The Player",
+      "name": "David Kahane’s funeral"
+    },
+    {
+      "id": 256,
+      "reason": "Investigator relationships explicitly reveal David’s death.",
+      "fields": [
+        "appearances[0].characters"
+      ],
+      "excerpts": [
+        "investigates David’s death"
+      ],
+      "title": "The Player",
+      "name": "Pasadena police station"
+    },
+    {
+      "id": 257,
+      "reason": "The ending’s romantic pairing, new shared home, image and one-year jump reveal the resolution.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "placement.reason",
+        "media"
+      ],
+      "excerpts": [
+        "Griffin & June’s new home",
+        "The screenplay advances one year for the ending.",
+        "Griffin arrives at the home he shares with June in the ending."
+      ],
+      "whole_record": true,
+      "title": "The Player",
+      "name": "Griffin & June’s new home"
+    },
+    {
+      "id": 260,
+      "reason": "The hotel record exposes Max as Iris’s killer.",
+      "fields": [
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "hotel guest; killed here",
+        "kills Iris"
+      ],
+      "title": "Strange Days",
+      "name": "Sunset Regent Hotel"
+    },
+    {
+      "id": 261,
+      "reason": "Standalone memorial discloses Jeriko’s death even though it is not a death-category record.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "placement.address",
+        "placement.reason",
+        "media"
+      ],
+      "excerpts": [
+        "Jeriko One’s memorial",
+        "South Los Angeles · memorial church"
+      ],
+      "whole_record": true,
+      "title": "Strange Days",
+      "name": "Jeriko One’s memorial"
+    },
+    {
+      "id": 262,
+      "reason": "The traffic-stop record reveals the victims, killers and witness/recording twist.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "placement.reason",
+        "media"
+      ],
+      "excerpts": [
+        "Jeriko One’s killing",
+        "records the killing",
+        "police officer; killer"
+      ],
+      "whole_record": true,
+      "title": "Strange Days",
+      "name": "Jeriko One’s killing"
+    },
+    {
+      "id": 263,
+      "reason": "Climactic murderer/traitor revelation and deaths are embedded in hotel relationships.",
+      "fields": [
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "stays in suite; killed here",
+        "kills Gant; falls to his death",
+        "delivers evidence at party"
+      ],
+      "title": "Strange Days",
+      "name": "Bonaventure Hotel"
+    },
+    {
+      "id": 271,
+      "reason": "Bob is attached to an explosion and explicitly killed in the placement reason.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "placement.reason",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Bob’s bus bombing",
+        "Bob is killed aboard the bus after leaving The Firehouse across the intersection."
+      ],
+      "title": "Speed",
+      "name": "Bob’s bus bombing"
+    },
+    {
+      "id": 277,
+      "reason": "A provenance paragraph explicitly gives Payne’s later death.",
+      "fields": [
+        "placement.reason"
+      ],
+      "excerpts": [
+        "his later death occurs in a moving tunnel"
+      ],
+      "title": "Speed",
+      "name": "Pershing Square station"
+    },
+    {
+      "id": 278,
+      "reason": "Final train escape/crash is a major ending set piece and outcome.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "placement.reason",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Hollywood subway crash",
+        "The runaway train emerges onto Hollywood Boulevard and comes to rest in front of the Chinese Theatre."
+      ],
+      "title": "Speed",
+      "name": "Hollywood subway crash"
+    },
+    {
+      "id": 287,
+      "reason": "The rescue’s success and rescuer/victim pairing reveal a central Crash reversal.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "placement.reason",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Christine’s rescue",
+        "Christine Thayer; John Ryan"
+      ],
+      "title": "Crash",
+      "name": "Christine’s rescue"
+    },
+    {
+      "id": 288,
+      "reason": "Anthony’s redemptive final action is stated directly.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "placement.reason",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Anthony frees the captives",
+        "Anthony’s release of the van’s captives"
+      ],
+      "title": "Crash",
+      "name": "Anthony frees the captives"
+    },
+    {
+      "id": 321,
+      "reason": "The Aeon hangar identifies Starling’s hidden future spacecraft.",
+      "fields": [
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Henry Starling’s headquarters and the Aeon hangar"
+      ],
+      "title": "Star Trek: Voyager",
+      "name": "Chronowerx Industries"
+    },
+    {
+      "id": 323,
+      "reason": "The rendezvous/Doctor escape discloses the outcome of the late Voyager sequence.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Rain’s rendezvous with Starling; the Doctor’s escape"
+      ],
+      "title": "Star Trek: Voyager",
+      "name": "Metro Plaza"
+    },
+    {
+      "id": 400,
+      "reason": "The base event label itself announces the double murder.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "The liquor-store murders",
+        "kills the owners and takes the surveillance tape"
+      ],
+      "title": "Menace II Society",
+      "name": "The liquor-store murders"
+    },
+    {
+      "id": 401,
+      "reason": "The ordinary home is safe; role and relationships reveal Caine/Sharif’s ending deaths.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Ronnie’s home; final drive-by shooting",
+        "visits Ronnie; killed in the final drive-by",
+        "killed in the final drive-by"
+      ],
+      "title": "Menace II Society",
+      "name": "Ronnie & Anthony’s home"
+    },
+    {
+      "id": 406,
+      "reason": "Death plus survivor identities occur in main-event prose.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Harold’s carjacking and death",
+        "survives the carjacking",
+        "is killed during the carjacking"
+      ],
+      "title": "Menace II Society",
+      "name": "Harold’s carjacking"
+    },
+    {
+      "id": 414,
+      "reason": "Final raid outcome identifies both Hodges’s killer and victim.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Final hilltop raid; Hodges’s death",
+        "is fatally shot during the raid",
+        "shoots Hodges"
+      ],
+      "title": "Colors",
+      "name": "The hilltop raid"
+    },
+    {
+      "id": 416,
+      "reason": "Home relationship and role name the drive-by killer/victim.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Robert Craig’s drive-by killing",
+        "lives here; shot outside",
+        "shoots Robert Craig"
+      ],
+      "title": "Colors",
+      "name": "Robert Craig’s home"
+    },
+    {
+      "id": 417,
+      "reason": "Mike’s death is named on the ordinary Hallenbeck house record.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Hallenbeck family home; Mike’s car bombing",
+        "dies in a car explosion outside"
+      ],
+      "title": "The Last Boy Scout",
+      "name": "Joe Hallenbeck’s home"
+    },
+    {
+      "id": 419,
+      "reason": "Main place is a named murder outcome, not only a derived death entry.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media"
+      ],
+      "excerpts": [
+        "Cory’s murder",
+        "Cory is killed after leaving the club",
+        "survives the attack"
+      ],
+      "whole_record": true,
+      "title": "The Last Boy Scout",
+      "name": "Cory’s murder"
+    },
+    {
+      "id": 421,
+      "reason": "Placement provenance reveals Marcone’s fatal ending.",
+      "fields": [
+        "placement.reason"
+      ],
+      "excerpts": [
+        "AFI places Marcone’s fatal explosion in the residential neighborhood below Griffith Observatory."
+      ],
+      "title": "The Last Boy Scout",
+      "name": "Sheldon Marcone’s mansion"
+    },
+    {
+      "id": 422,
+      "reason": "Relationships reveal the assassination’s resolution at the climax.",
+      "fields": [
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "stops the assassination attempt",
+        "attempts to kill Baynard"
+      ],
+      "title": "The Last Boy Scout",
+      "name": "Los Angeles Stallions stadium"
+    },
+    {
+      "id": 423,
+      "reason": "Base police-station character relationships list several deaths.",
+      "fields": [
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "works at the station; killed",
+        "brings the prisoners; killed",
+        "works at the station; killed outside"
+      ],
+      "title": "Assault on Precinct 13",
+      "name": "Anderson police station"
+    },
+    {
+      "id": 424,
+      "reason": "Amelia’s late death is attached to an otherwise ordinary home.",
+      "fields": [
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "takes refuge here; killed"
+      ],
+      "title": "The Nice Guys",
+      "name": "Holland & Holly March’s home"
+    },
+    {
+      "id": 426,
+      "reason": "The projector clue resolves Mrs. Glenn’s apparent sighting of Misty.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "The projector clue at Misty’s home",
+        "finds the projector clue"
+      ],
+      "title": "The Nice Guys",
+      "name": "Misty Mountains’s home"
+    },
+    {
+      "id": 428,
+      "reason": "Burned-house outcome and Dean’s death are both explicit.",
+      "fields": [
+        "name",
+        "short",
+        "appearances",
+        "placement.reason",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Dean’s burned house",
+        "Dean’s burned-down house",
+        "lives here; dies in the fire"
+      ],
+      "title": "The Nice Guys",
+      "name": "Dean’s burned house"
+    },
+    {
+      "id": 438,
+      "reason": "Past/present household linkage and 1948 murder chronology are the Dead Again mystery backbone.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Strauss mansion / St. Audrey’s orphanage",
+        "Roman and Margaret Strauss’s home",
+        "The Strauss murder is dated 1948 in the story."
+      ],
+      "whole_record": true,
+      "title": "Dead Again",
+      "name": "Strauss mansion / St. Audrey’s orphanage"
+    },
+    {
+      "id": 443,
+      "reason": "The named escape is a mystery-reveal scene rather than an ordinary bridge address.",
+      "fields": [
+        "name",
+        "short",
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Doug’s escape on Shakespeare Bridge"
+      ],
+      "title": "Dead Again",
+      "name": "Doug’s escape on Shakespeare Bridge"
+    },
+    {
+      "id": 447,
+      "reason": "Alias explicitly identifies the disguised killer, and Holly’s role gives away the double.",
+      "fields": [
+        "people",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Alexander Revelle / Sam Bouchard",
+        "husband and killer",
+        "performs as Gloria’s double"
+      ],
+      "title": "Body Double",
+      "name": "Gloria Revelle’s home"
+    },
+    {
+      "id": 451,
+      "reason": "Burial/final confrontation and killer’s alias reveal the Body Double resolution.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media"
+      ],
+      "excerpts": [
+        "Holly’s burial attempt",
+        "Alexander Revelle / Sam Bouchard",
+        "Alexander Revelle’s death"
+      ],
+      "whole_record": true,
+      "title": "Body Double",
+      "name": "Holly’s burial attempt"
+    },
+    {
+      "id": 453,
+      "reason": "The late beach scene contains Baby Jane’s climactic confession/resolution.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Jane & Blanche at the beach"
+      ],
+      "whole_record": true,
+      "title": "What Ever Happened to Baby Jane?",
+      "name": "Jane & Blanche at the beach"
+    },
+    {
+      "id": 462,
+      "reason": "Ordinary apartment name can remain; Edward’s return and reunion frame give away the ending.",
+      "fields": [
+        "appearances[0].story_role",
+        "appearances[0].characters",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Vivian and Kit’s home; Edward’s return",
+        "returns to Vivian"
+      ],
+      "title": "Pretty Woman",
+      "name": "Vivian & Kit’s apartment"
+    },
+    {
+      "id": 468,
+      "reason": "Expectations/reality is the decisive relationship reveal, unlike the ordinary apartment name.",
+      "fields": [
+        "appearances[0].story_role",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Summer’s home; expectations and reality"
+      ],
+      "title": "(500) Days of Summer",
+      "name": "Summer Finn’s apartment"
+    },
+    {
+      "id": 481,
+      "reason": "Epilogue club proves Sebastian’s career outcome and the Mia/David association reveals the romantic ending.",
+      "fields": [
+        "name",
+        "short",
+        "people",
+        "appearances",
+        "media.screen"
+      ],
+      "excerpts": [
+        "Seb’s",
+        "David",
+        "The club is in the five-years-later epilogue; 2016 plus five is an editorial date estimate."
+      ],
+      "whole_record": true,
+      "title": "La La Land",
+      "name": "Seb’s"
+    },
+    {
+      "id": 510,
+      "reason": "The horse ranch is safe; its relationships state a death and reveal that the UFO is a creature.",
+      "fields": [
+        "appearances[0].characters[name=Otis Haywood Sr.].relationship",
+        "appearances[0].characters[name=Antlers Holst].relationship"
+      ],
+      "excerpts": [
+        "runs the horse business; dies in the corral",
+        "films the creature from the ranch hills"
+      ],
+      "title": "Nope",
+      "name": "Haywood Hollywood Horses"
+    },
+    {
+      "id": 511,
+      "reason": "The ordinary theme park is safe; the wishing-well camera describes the final solution.",
+      "fields": [
+        "appearances[0].characters[name=Emerald Haywood].relationship"
+      ],
+      "excerpts": [
+        "visits Jupe and uses the wishing-well camera"
+      ],
+      "title": "Nope",
+      "name": "Jupiter’s Claim"
+    }
+  ],
+  "journeys": [
+    {
+      "id": 226,
+      "reason": "Cheritto’s survival/death branch is a climactic Heat outcome.",
+      "fields": [
+        "name",
+        "precision",
+        "stops[placeId=217].name"
+      ],
+      "excerpts": [
+        "Cheritto’s escape",
+        "Cheritto’s hostage and death"
+      ]
+    },
+    {
+      "id": 340,
+      "reason": "Ling’s death appears in a stop label of the otherwise non-spoiling car-chase route.",
+      "fields": [
+        "stops[placeId=331].name"
+      ],
+      "excerpts": [
+        "Thomas Ling’s robbery and death"
+      ]
+    },
+    {
+      "id": 98,
+      "reason": "Route stop names disclose named survivors escaping the Heat bank robbery.",
+      "fields": [
+        "stops[placeId=207].name"
+      ],
+      "excerpts": [
+        "McCauley & Chris’s escape"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "rule": "Automatic death coverage",
+      "detail": "All places[].deaths, their people/labels, derived negative-ID death entries, and category=death standalone places must be redacted independently of this curated list. Name, image, caption, alt, aria-label, selected map label, tooltip, route stop and people-page association can each leak the same fact."
+    },
+    {
+      "rule": "Ordinary bases stay useful",
+      "detail": "A home/workplace with a death remains an ordinary home/workplace. Curated field lists identify embedded spoilers beyond the separately generated death row; do not automatically obscure all innocent base location names because a death happened there."
+    },
+    {
+      "rule": "Per-appearance filtering",
+      "detail": "Shared-site appearances need separate handling:37 Reservoir Dogs has an undercover reveal while The Big Lebowski coffee-shop visit is innocent;96 The Player has murder relationships while La La Land cinema date is innocent."
+    },
+    {
+      "rule": "Alias propagation",
+      "detail": "The exact alias Alexander Revelle / Sam Bouchard appears in447 and451 and must not leak in the global People list, a person page heading, search result, tooltip, link label, or accessible name while spoilers are off. Likewise Diane Selwyn / Betty Elms / Rita associations at88 and90 reveal identity connections."
+    },
+    {
+      "rule": "Source metadata leaks",
+      "detail": "A redacted visible span over still-present text leaves aria labels, title attributes, image alt and copied text readable. Source href/imageUrl basename can reveal words in browser link preview, e.g58 Ending.JPG,43 Murder+Apartment+3.JPG,419 Shooting.JPG. Keep spoiler data out of the rendered text/attributes and cover or disable spoiler image enlargement/metadata while off; broad external source pages may independently contain spoilers."
+    },
+    {
+      "rule": "Do not keyword-censor film titles/premises",
+      "detail": "Dead Again, Kiss Me Deadly, Body Double and What Ever Happened to Baby Jane? are titles, not spoilers.496 Fisher & Sons Funeral Home is the premise of Six Feet Under, not a death outcome.512 Santa Clarita Diet zombie premise is not hidden by this audit. Ordinary robberies/chases, theatres, schools and workplaces are not all marked merely because they are plot locations."
+    },
+    {
+      "rule": "Photos need conservative treatment",
+      "detail": "This is a metadata/content audit; images were not individually inspected here. For an explicitly spoiler-marked scene or death record, cover its screen image and prevent enlargement until opt-in. A normal site photograph can remain unless its caption/alt/person-association gives away the spoiler. The sibling death record often reuses the same innocent building photo."
+    },
+    {
+      "rule": "Scope",
+      "detail": "All362places and all6journeys were enumerated and their prose searched/reviewed. This audit is intentionally conservative for late endings/revelations, but avoids treating every ordinary set-piece action as a twist. It does not add or change factual story content."
+    }
+  ]
+}
