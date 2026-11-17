@@ -2504,21 +2504,25 @@
     },
     {
       "id": 26,
-      "name": "Hush-Hush office",
-      "short": "Hush-Hush office",
+      "name": "Crossroads of the World",
+      "short": "Crossroads of the World",
       "categories": [
-        "work"
+        "work",
+        "event"
       ],
       "category": "work",
       "address": "6671 Sunset Boulevard",
       "area": "Hollywood, Los Angeles",
       "coordinates": [
-        -118.335619639459,
-        34.098035644256
+        -118.335667,
+        34.098142
       ],
-      "precision": "street-interpolated",
+      "precision": "named-venue",
       "people": [
-        "Sid Hudgens"
+        "Sid Hudgens",
+        "Tony Mendez",
+        "Lester Siegel",
+        "Max Klein"
       ],
       "featured": false,
       "appearances": [
@@ -2549,17 +2553,66 @@
               "confidential_locations"
             ]
           }
+        },
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Max Klein’s office; script option",
+          "filming_component": "Crossroads of the World office complex",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "ar_discover",
+            "ar_cross_clip"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The Burbank sequence is dated January 1980 in the final screenplay. These meetings precede the January rescue; no individual scene day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tony Mendez",
+              "relationship": "poses as producer Kevin Harkins"
+            },
+            {
+              "name": "Lester Siegel",
+              "relationship": "negotiates the script option"
+            },
+            {
+              "name": "Max Klein",
+              "relationship": "sells the script option"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
         }
       ],
       "notes": "",
       "productionCoordinates": [
-        -118.335619639459,
-        34.098035644256
+        -118.335667,
+        34.098142
       ],
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Hollywood, Los Angeles",
-        "precision": "street-interpolated"
+        "kind": "screen",
+        "address": "Crossroads of the World · Hollywood",
+        "precision": "named-venue",
+        "reason": "Argo’s screenplay names Crossroads of the World, off Sunset Boulevard, for Max Klein’s production office. Discover Los Angeles confirms the shoot in this complex. The marker represents the shared office complex; a particular Klein office suite is not established. The ArcGIS Crossroads named POI is -118.335667,34.098142, on the complex’s central ship-shaped building immediately north of Sunset.",
+        "sourceIds": [
+          "sh_argo_script",
+          "sh_argo_afi",
+          "ar_esri",
+          "ar_discover",
+          "ar_cross_clip",
+          "ar_crossroads_geo"
+        ]
       },
       "media": {
         "id": 26,
@@ -2588,6 +2641,75 @@
           "licenseUrl": "https://www.pexels.com/license/",
           "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
           "date": "2024-12-22"
+        }
+      },
+      "productionSites": [
+        {
+          "component": "Office complex",
+          "address": "Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, CA 90028",
+          "coordinates": [
+            -118.335667,
+            34.098142
+          ]
+        }
+      ],
+      "mediaByTitle": {
+        "L.A. Confidential": {
+          "id": 26,
+          "screen": {
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+            "credit": "L.A. Confidential film frame; ItsFilmedThere",
+            "alt": "Crossroads of the World in the opening credits.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCw6iyeStqBOHkmkJMbm4QUNP27MWzoSRXUrTjH6qGOJaWBwXb2lZj_3uhoCpHfKtXoFpfXGonZexs2OI8YVgkpQaeFhKCN_DY3caHgvrqqu6r9yWbhza7kDCvgbpoLo1BZFpsfbuDl_n/s1600/Top+Of+The+World.JPG",
+            "src": "photos/a-026-screen.jpg",
+            "width": 830,
+            "height": 353,
+            "title": "L.A. Confidential"
+          },
+          "place": {
+            "src": "photos/26-recent-crossroads-2024.jpg",
+            "sourceUrl": "https://www.pexels.com/photo/crossroads-of-the-world-in-los-angeles-30151764/",
+            "credit": "Darya Sannikova / Pexels",
+            "alt": "Crossroads of the World on Sunset Boulevard, photographed December 22, 2024.",
+            "imageUrl": "https://images.pexels.com/photos/30151764/pexels-photo-30151764.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "width": 1600,
+            "height": 1067,
+            "captureDate": "2024-12-22",
+            "publicationDate": "2025-01-08",
+            "dateStatus": "Pexels detailed metadata gives Taken At Dec 22, 2024 and Date Jan 8, 2025.",
+            "license": "https://www.pexels.com/license/",
+            "licenseUrl": "https://www.pexels.com/license/",
+            "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
+            "date": "2024-12-22"
+          }
+        },
+        "Argo": {
+          "screen": {
+            "src": "photos/ar26-screen.jpg",
+            "sourceUrl": "https://clip.cafe/argo-2012/you-want-me-to-be-honest-with-you-leslester-no-i-would-like-you-to-bullshit-me-max/",
+            "imageUrl": "https://clip.cafe/clipimg/you-want-me-to-be-honest-with-you-leslester-no-i-would-like-you-to-bullshit-me-max.jpg",
+            "credit": "Argo film frame; Clip.Cafe",
+            "title": "Argo",
+            "alt": "Max Klein negotiates the Argo script option with Lester and Mendez.",
+            "width": 1100,
+            "height": 619
+          },
+          "place": {
+            "src": "photos/26-recent-crossroads-2024.jpg",
+            "sourceUrl": "https://www.pexels.com/photo/crossroads-of-the-world-in-los-angeles-30151764/",
+            "credit": "Darya Sannikova / Pexels",
+            "alt": "Crossroads of the World on Sunset Boulevard, photographed December 22, 2024.",
+            "imageUrl": "https://images.pexels.com/photos/30151764/pexels-photo-30151764.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "width": 1600,
+            "height": 1067,
+            "captureDate": "2024-12-22",
+            "publicationDate": "2025-01-08",
+            "dateStatus": "Pexels detailed metadata gives Taken At Dec 22, 2024 and Date Jan 8, 2025.",
+            "license": "https://www.pexels.com/license/",
+            "licenseUrl": "https://www.pexels.com/license/",
+            "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
+            "date": "2024-12-22"
+          }
         }
       }
     },
@@ -12127,26 +12249,31 @@
     },
     {
       "id": 134,
-      "name": "Beverly Hilton assassination attempt",
-      "short": "Beverly Hilton assassination attempt",
+      "name": "The Beverly Hilton",
+      "short": "The Beverly Hilton",
       "categories": [
-        "event"
+        "event",
+        "hangout"
       ],
       "category": "event",
       "address": "9876 Wilshire Boulevard",
       "area": "Beverly Hills",
       "coordinates": [
-        -118.413246624138,
-        34.067029782727
+        -118.413008031628,
+        34.066351984658
       ],
       "productionCoordinates": [
-        -118.413246624138,
-        34.067029782727
+        -118.413008031628,
+        34.066351984658
       ],
-      "precision": "street-interpolated",
+      "precision": "named-venue",
       "people": [
         "Richard Chance",
-        "Jim Hart"
+        "Jim Hart",
+        "Tony Mendez",
+        "Lester Siegel",
+        "John Chambers",
+        "Nina"
       ],
       "featured": false,
       "appearances": [
@@ -12184,18 +12311,71 @@
           "categories": [
             "event"
           ]
+        },
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Argo press reception and script reading",
+          "filming_component": "Stardust rooftop lounge",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "ar_bh",
+            "ar_crew",
+            "ar_hilton_clip"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The Burbank sequence is dated January 1980 in the final screenplay. These meetings precede the January rescue; no individual scene day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tony Mendez",
+              "relationship": "attends the cover film’s press event"
+            },
+            {
+              "name": "Lester Siegel",
+              "relationship": "hosts the press event"
+            },
+            {
+              "name": "John Chambers",
+              "relationship": "attends the press event"
+            },
+            {
+              "name": "Nina",
+              "relationship": "publicizes the film"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
         }
       ],
       "notes": "",
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Beverly Hills",
-        "precision": "street-interpolated",
+        "kind": "screen",
+        "address": "The Beverly Hilton · Beverly Hills",
+        "precision": "named-venue",
+        "reason": "Argo’s screenplay names the Beverly Hilton and its Stardust lounge. Beverly Hills’ tourism authority identifies the actual Stardust rooftop press event, and AFI confirms the hotel played itself. The marker identifies the hotel building, not a specific rooftop camera position. The ArcGIS 9876 Wilshire PointAddress display point -118.413008,34.066352 falls within the existing Hilton hotel building; the road-interpolated Wilshire point has been replaced.",
         "sourceIds": [
           "x_live_ift",
           "x_live_fo",
           "x_live_afi",
-          "x_live_ss"
+          "x_live_ss",
+          "sh_argo_script",
+          "sh_argo_afi",
+          "ar_esri",
+          "ar_bh",
+          "ar_crew",
+          "ar_hilton_clip",
+          "ar_hilton_geo"
         ]
       },
       "media": {
@@ -12222,6 +12402,53 @@
         "matchedAddress": "9876 WILSHIRE BLVD, BEVERLY HILLS, CA, 90210",
         "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9876+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&benchmark=Public_AR_Current&format=json",
         "method": "US Census street interpolation"
+      },
+      "productionSites": [
+        {
+          "component": "Hotel and Stardust lounge",
+          "address": "The Beverly Hilton, 9876 Wilshire Boulevard, Beverly Hills, CA 90210",
+          "coordinates": [
+            -118.413008031628,
+            34.066351984658
+          ]
+        }
+      ],
+      "mediaByTitle": {
+        "To Live and Die in L.A.": {
+          "screen": {
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDhXkPof6xcb7wPRS5kFXzt4OS8b5OrPC33LM-kI-poE5Zjlp6aLYmogVKNEug3eWzBzK5ziHFfSZpLVvNqAZmJcUAIQuWX0bKCwBG5RiMnoOOkz1oj3EsnYnjvGqPMo3SYp7WsSrUH5H/s400/Hotel.JPG",
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+            "credit": "Film frame / It’s Filmed There",
+            "title": "To Live and Die in L.A.",
+            "src": "photos/n134-screen.jpg"
+          },
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+            "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+            "credit": "Film Oblivion",
+            "note": "Capture date not specified by source.",
+            "src": "photos/n134-place.jpg"
+          }
+        },
+        "Argo": {
+          "screen": {
+            "src": "photos/ar134-screen.jpg",
+            "sourceUrl": "https://clip.cafe/argo-2012/lester-nina-you-look-fabulous/",
+            "imageUrl": "https://clip.cafe/clipimg/lester-nina-you-look-fabulous.jpg",
+            "credit": "Argo film frame; Clip.Cafe",
+            "title": "Argo",
+            "alt": "Guests at Argo’s press reception in the Beverly Hilton.",
+            "width": 1100,
+            "height": 619
+          },
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+            "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+            "credit": "Film Oblivion",
+            "note": "Capture date not specified by source.",
+            "src": "photos/n134-place.jpg"
+          }
+        }
       }
     },
     {
@@ -26053,6 +26280,255 @@
         -118.2399952,
         33.7671562
       ]
+    },
+    {
+      "id": 350,
+      "name": "Studio Six Films",
+      "short": "Studio Six Films",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "4000 Warner Boulevard",
+      "area": "Burbank",
+      "coordinates": [
+        -118.337731,
+        34.149341
+      ],
+      "productionCoordinates": [
+        -118.337731,
+        34.149341
+      ],
+      "productionSites": [
+        {
+          "component": "Studio lot",
+          "address": "Warner Bros. Studios, 4000 Warner Boulevard, Burbank, CA 91522",
+          "coordinates": [
+            -118.337731,
+            34.149341
+          ]
+        }
+      ],
+      "precision": "studio-complex",
+      "placement": {
+        "kind": "screen",
+        "address": "The Burbank Studios · Burbank",
+        "precision": "studio-complex",
+        "reason": "The screenplay places Chambers’s workshop and the Studio Six production office on the Burbank studio lot, including the office on the New York Street backlot. Warner Bros. hosted the movie office; the real 1980 operation’s Sunset Gower office is a different historical location. The named-venue point locates the studio campus, not an independently verified office building. The ArcGIS named Warner Bros. POI is -118.337731,34.149341 and falls within the studio campus on aerial imagery.",
+        "sourceIds": [
+          "sh_argo_script",
+          "sh_argo_afi",
+          "ar_discover",
+          "ar_crew",
+          "ar_esri",
+          "ar_wb_map",
+          "ar_warner_geo"
+        ]
+      },
+      "people": [
+        "Tony Mendez",
+        "John Chambers",
+        "Lester Siegel"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Studio Six office and Chambers’s workshop",
+          "filming_component": "Warner Bros. studio lot and backlot",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "ar_discover",
+            "ar_crew",
+            "ar_studio_clip"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The Burbank sequence is dated January 1980 in the final screenplay. These meetings precede the January rescue; no individual scene day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tony Mendez",
+              "relationship": "sets up the film cover"
+            },
+            {
+              "name": "John Chambers",
+              "relationship": "works on the lot and answers Studio Six’s telephone"
+            },
+            {
+              "name": "Lester Siegel",
+              "relationship": "runs Studio Six with Chambers"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/ar350-screen.jpg",
+          "sourceUrl": "https://clip.cafe/argo-2012/we-got-an-office/",
+          "imageUrl": "https://clip.cafe/clipimg/we-got-an-office.jpg",
+          "credit": "Argo film frame; Clip.Cafe",
+          "title": "Argo",
+          "alt": "The Studio Six Films office on the Warner Bros. backlot.",
+          "width": 1100,
+          "height": 619
+        },
+        "place": {
+          "src": "photos/ar350-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Studio lot · aerial",
+          "alt": "The Warner Bros. studio campus and its backlot.",
+          "note": "Aerial imagery from the active basemap; image capture date is not supplied for this export.",
+          "width": 1100,
+          "height": 650,
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.341531%2C34.146941%2C-118.333931%2C34.151741&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
+        }
+      }
+    },
+    {
+      "id": 351,
+      "name": "Lester Siegel’s home",
+      "short": "Lester Siegel’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "1001 Bel Air Road · filming site",
+      "area": "Bel Air / Beverly Hills",
+      "coordinates": [
+        -118.43,
+        34.09
+      ],
+      "productionCoordinates": [
+        -118.444117968177,
+        34.093076006553
+      ],
+      "productionSites": [
+        {
+          "component": "House and grounds",
+          "address": "Former Zsa Zsa Gabor residence, 1001 Bel Air Road, Los Angeles, CA 90077",
+          "coordinates": [
+            -118.444117968177,
+            34.093076006553
+          ]
+        }
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Bel Air / Beverly Hills · approximate",
+        "precision": "area",
+        "viewport": [
+          [
+            -118.49,
+            34.055
+          ],
+          [
+            -118.385,
+            34.13
+          ]
+        ],
+        "reason": "The final screenplay heads the arrival scene Beverly Hills while describing a Bel Air home. The marker represents the broad Bel Air / Beverly Hills area, not a house or canonical street. AFI, production notes and matched frames identify the former Zsa Zsa Gabor residence at 1001 Bel Air Road only as the production house; its address and coordinates are kept separately. The ArcGIS PointAddress production point lies on the former house parcel, checked against matched aerial photographs and the current land listing.",
+        "sourceIds": [
+          "sh_argo_script",
+          "sh_argo_afi",
+          "ar_discover",
+          "ar_crew",
+          "ar_siegel",
+          "ar_esri",
+          "ar_siegel_geo",
+          "ar_siegel_land"
+        ]
+      },
+      "people": [
+        "Lester Siegel",
+        "Tony Mendez",
+        "John Chambers"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Lester’s home; choosing the Argo script",
+          "filming_component": "house exterior, rooms and pool",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "ar_discover",
+            "ar_crew",
+            "ar_siegel"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The Burbank sequence is dated January 1980 in the final screenplay. These meetings precede the January rescue; no individual scene day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lester Siegel",
+              "relationship": "lives here and agrees to produce the cover film"
+            },
+            {
+              "name": "Tony Mendez",
+              "relationship": "finds the Argo script"
+            },
+            {
+              "name": "John Chambers",
+              "relationship": "brings Mendez to Lester"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/ar351-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/01/29/lester-siegels-house-from-argo",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/e85ee8f2-e0a5-4d9a-8aaf-0a8d1a5907dd.jpg",
+          "credit": "Argo film frame; I Am Not A Stalker",
+          "title": "Argo",
+          "alt": "Mendez and Chambers arrive at Lester Siegel’s home.",
+          "width": 1019,
+          "height": 768
+        },
+        "place": {
+          "src": "photos/ar351-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Former site · aerial",
+          "alt": "The former 1001 Bel Air Road house parcel, beside the winding road and neighboring estates.",
+          "note": "The former screen house has been removed. The current property listing describes a graded development lot; this active-basemap aerial shows the former parcel. Capture date is not supplied for this export.",
+          "width": 1100,
+          "height": 650,
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.445417968177%2C34.092276006553%2C-118.442817968177%2C34.093876006552996&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
+        }
+      }
     }
   ],
   "journeys": [
@@ -29139,6 +29615,96 @@
       "title": "AFI: To Live and Die in L.A. (1985), credits and release",
       "url": "https://watch.afi.com/movie/to-live-and-die-in-l-a",
       "source_type": "film catalog"
+    },
+    {
+      "id": "ar_aerial",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "ar_bh",
+      "title": "Beverly Hills Conference & Visitors Bureau: Argo at the Beverly Hilton",
+      "url": "https://lovebeverlyhills.com/articles/view/beverly-hills-movie-filming-locations",
+      "source_type": "tourism authority"
+    },
+    {
+      "id": "ar_crew",
+      "title": "Argo production notes: location shooting",
+      "url": "https://emanuellevy.com/review/argo-location-shooting/",
+      "source_type": "production notes"
+    },
+    {
+      "id": "ar_cross_clip",
+      "title": "Argo: Lester Siegel negotiates with Max Klein",
+      "url": "https://clip.cafe/argo-2012/you-want-me-to-be-honest-with-you-leslester-no-i-would-like-you-to-bullshit-me-max/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "ar_discover",
+      "title": "Discover Los Angeles: Los Angeles locations in Argo",
+      "url": "https://www.discoverlosangeles.com/things-to-do/los-angeles-locations-in-argo",
+      "source_type": "tourism authority"
+    },
+    {
+      "id": "ar_esri",
+      "title": "Esri World Geocoding: named venues and address points",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ar_hilton_clip",
+      "title": "Argo: press reception at the Beverly Hilton",
+      "url": "https://clip.cafe/argo-2012/lester-nina-you-look-fabulous/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "ar_siegel",
+      "title": "Lester Siegel’s house from Argo: matched film frames and property photographs",
+      "url": "https://www.iamnotastalker.com/2013/01/29/lester-siegels-house-from-argo",
+      "source_type": "location research"
+    },
+    {
+      "id": "ar_siegel_land",
+      "title": "1001 Bel Air Road: current property listing",
+      "url": "https://www.compass.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/1KZIP5_pid/",
+      "source_type": "property listing"
+    },
+    {
+      "id": "ar_studio_clip",
+      "title": "Argo: Studio Six office exterior",
+      "url": "https://clip.cafe/argo-2012/we-got-an-office/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "ar_wb_map",
+      "title": "Warner Bros. 2024 studio directory and lot map",
+      "url": "https://property.warnerbros.com/download/9791_WB_2024_STUDIO_DIRECTORY_11.pdf",
+      "source_type": "studio publication"
+    },
+    {
+      "id": "ar_warner_geo",
+      "title": "Warner Bros Studios, 4000 Warner Boulevard, Burbank, CA: ArcGIS named-place/address result",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Warner+Bros+Studios%2C+4000+Warner+Boulevard%2C+Burbank%2C+CA&f=json&outFields=%2A&location=-118.38%2C34.1&searchExtent=-118.6%2C34.03%2C-118.25%2C34.2&maxLocations=2",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ar_siegel_geo",
+      "title": "1001 Bel Air Road, Los Angeles, CA: ArcGIS named-place/address result",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1001+Bel+Air+Road%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.38%2C34.1&searchExtent=-118.6%2C34.03%2C-118.25%2C34.2&maxLocations=2",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ar_crossroads_geo",
+      "title": "Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, CA: ArcGIS named-place/address result",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Crossroads+of+the+World%2C+6671+Sunset+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.38%2C34.1&searchExtent=-118.6%2C34.03%2C-118.25%2C34.2&maxLocations=2",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ar_hilton_geo",
+      "title": "Beverly Hilton, 9876 Wilshire Boulevard, Beverly Hills, CA: ArcGIS named-place/address result",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Beverly+Hilton%2C+9876+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&f=json&outFields=%2A&location=-118.38%2C34.1&searchExtent=-118.6%2C34.03%2C-118.25%2C34.2&maxLocations=2",
+      "source_type": "geographic reference"
     },
     {
       "id": "story_pins_mulholland_script",

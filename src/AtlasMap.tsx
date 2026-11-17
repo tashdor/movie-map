@@ -5,12 +5,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import {Crosshair,LocateFixed,Minus,Plus} from 'lucide-react';
 import {locationSvg} from './icons';
 import {filmColor} from './colors';
-import {countyFog,exploredCounty} from './geo.mjs';
+import {installCountyFog} from './fog';
 import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
 type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
-function fogTexture(){const size=128,data=new Uint8Array(size*size*4);for(let y=0;y<size;y++)for(let x=0;x<size;x++){const u=x/size*Math.PI*2,v=y/size*Math.PI*2;const cloud=Math.sin(u+Math.sin(v*2))*.35+Math.sin(u*3-v*2)*.2+Math.sin(u*5+v*7)*.08;const grain=((x*37+y*61+x*y*7)%23)/23;const n=cloud*17+grain*5;const i=(y*size+x)*4;data[i]=25+n;data[i+1]=33+n;data[i+2]=36+n;data[i+3]=255;}return {width:size,height:size,data};}
 function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');title.textContent=name;box.append(movie,title);return box;}
 export default function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null);
@@ -19,6 +18,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
   useEffect(()=>{
     if(!container.current)return;
     let m:maplibregl.Map;
+    let disposeFog:(()=>void)|undefined;
     try{
       m=new maplibregl.Map({container:container.current,style:`${import.meta.env.BASE_URL}atlas-style.json`,...CITY,minZoom:5,maxZoom:18,attributionControl:{compact:true},dragRotate:false,pitchWithRotate:false,canvasContextAttributes:{antialias:true}});map.current=m;
       m.addControl(new maplibregl.ScaleControl({maxWidth:100,unit:'imperial'}),'bottom-left');
@@ -28,12 +28,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
         try{
           const county=await fetch(`${import.meta.env.BASE_URL}la-county.geojson`).then(r=>{if(!r.ok)throw Error('la-county.geojson');return r.json();});
           if(map.current!==m)return;
-          m.addSource('county',{type:'geojson',data:exploredCounty(county,latest.current.coverage) as any});
-          m.addSource('county-fog',{type:'geojson',data:countyFog(county,latest.current.coverage) as any});
-          m.addImage('unexplored-mist',fogTexture());
-          m.addLayer({id:'county-fog',type:'fill',source:'county-fog',paint:{'fill-pattern':'unexplored-mist','fill-opacity':0.97}});
-          m.addLayer({id:'county-haze',type:'line',source:'county',paint:{'line-color':'#263237','line-width':22,'line-blur':16,'line-opacity':0.6}});
-          m.addLayer({id:'county-border',type:'line',source:'county',paint:{'line-color':'#d5d0bb','line-opacity':0.35,'line-width':0.7,'line-dasharray':[3,5]}});
+          disposeFog=installCountyFog(m,county,latest.current.coverage);
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
         if(map.current===m)setReady(true);
       });
@@ -43,7 +38,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();disposeFog?.();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;

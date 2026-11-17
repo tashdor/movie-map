@@ -347,3 +347,26 @@ test('To Live and Die in L.A. traces documented downtown reaches without inventi
   assert.equal(freeway.placement.kind,'unknown');
   assert.ok(freeway.productionCoordinates,'production reference remains separate');
 });
+
+test('Argo covers its Hollywood operation and switches frames at shared locations',()=>{
+  const argo=displayEntries(data.places,{film:'Argo'});
+  assert.ok(argo.length>=4);
+  assert.ok(argo.some(p=>/Studio Six/.test(p.name)));
+  for(const p of argo){
+    assert.equal(p.media.screen.title,'Argo',`${p.id}: Argo frame`);
+    for(const a of p.appearances){
+      assert.equal(a.story_time.year,1980);
+      assert.equal(a.story_time.month,1);
+      assert.doesNotMatch(a.story_role,/Tehran|embassy|CIA headquarters|Christine’s home/i);
+    }
+  }
+  for(const [id,otherFilm] of [[26,'L.A. Confidential'],[134,'To Live and Die in L.A.']]){
+    const p=data.places.find(p=>p.id===id);
+    assert.ok(p.appearances.some(a=>a.title==='Argo'));
+    assert.equal(displayEntries([p],{film:'Argo'})[0].media.screen.title,'Argo');
+    assert.equal(displayEntries([p],{film:otherFilm})[0].media.screen.title,otherFilm);
+    assert.ok(matchingAppearances(p,time(1980)).every(a=>a.title==='Argo'));
+  }
+  assert.ok(filterPlaces(data.places,{film:'Argo',query:'Beverly Hilton'}).some(p=>p.id===134));
+  assert.ok(filterPlaces(data.places,{film:'Argo',query:'Crossroads'}).some(p=>p.id===26));
+});

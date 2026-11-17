@@ -615,6 +615,65 @@
       "licenseUrl": "https://www.pexels.com/license/",
       "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
       "date": "2024-12-22"
+    },
+    "byTitle": {
+      "L.A. Confidential": {
+        "id": 26,
+        "screen": {
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+          "credit": "L.A. Confidential film frame; ItsFilmedThere",
+          "alt": "Crossroads of the World in the opening credits.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCw6iyeStqBOHkmkJMbm4QUNP27MWzoSRXUrTjH6qGOJaWBwXb2lZj_3uhoCpHfKtXoFpfXGonZexs2OI8YVgkpQaeFhKCN_DY3caHgvrqqu6r9yWbhza7kDCvgbpoLo1BZFpsfbuDl_n/s1600/Top+Of+The+World.JPG",
+          "src": "photos/a-026-screen.jpg",
+          "width": 830,
+          "height": 353,
+          "title": "L.A. Confidential"
+        },
+        "place": {
+          "src": "photos/26-recent-crossroads-2024.jpg",
+          "sourceUrl": "https://www.pexels.com/photo/crossroads-of-the-world-in-los-angeles-30151764/",
+          "credit": "Darya Sannikova / Pexels",
+          "alt": "Crossroads of the World on Sunset Boulevard, photographed December 22, 2024.",
+          "imageUrl": "https://images.pexels.com/photos/30151764/pexels-photo-30151764.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "width": 1600,
+          "height": 1067,
+          "captureDate": "2024-12-22",
+          "publicationDate": "2025-01-08",
+          "dateStatus": "Pexels detailed metadata gives Taken At Dec 22, 2024 and Date Jan 8, 2025.",
+          "license": "https://www.pexels.com/license/",
+          "licenseUrl": "https://www.pexels.com/license/",
+          "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
+          "date": "2024-12-22"
+        }
+      },
+      "Argo": {
+        "screen": {
+          "src": "photos/ar26-screen.jpg",
+          "sourceUrl": "https://clip.cafe/argo-2012/you-want-me-to-be-honest-with-you-leslester-no-i-would-like-you-to-bullshit-me-max/",
+          "imageUrl": "https://clip.cafe/clipimg/you-want-me-to-be-honest-with-you-leslester-no-i-would-like-you-to-bullshit-me-max.jpg",
+          "credit": "Argo film frame; Clip.Cafe",
+          "title": "Argo",
+          "alt": "Max Klein negotiates the Argo script option with Lester and Mendez.",
+          "width": 1100,
+          "height": 619
+        },
+        "place": {
+          "src": "photos/26-recent-crossroads-2024.jpg",
+          "sourceUrl": "https://www.pexels.com/photo/crossroads-of-the-world-in-los-angeles-30151764/",
+          "credit": "Darya Sannikova / Pexels",
+          "alt": "Crossroads of the World on Sunset Boulevard, photographed December 22, 2024.",
+          "imageUrl": "https://images.pexels.com/photos/30151764/pexels-photo-30151764.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "width": 1600,
+          "height": 1067,
+          "captureDate": "2024-12-22",
+          "publicationDate": "2025-01-08",
+          "dateStatus": "Pexels detailed metadata gives Taken At Dec 22, 2024 and Date Jan 8, 2025.",
+          "license": "https://www.pexels.com/license/",
+          "licenseUrl": "https://www.pexels.com/license/",
+          "verification": "Visually checked: original Los Angeles tower, 6671 Sunset signage and surrounding buildings, not the Disney replica.",
+          "date": "2024-12-22"
+        }
+      }
     }
   },
   "27": {
@@ -2512,6 +2571,43 @@
       "credit": "Film Oblivion",
       "note": "Capture date not specified by source.",
       "src": "photos/n134-place.jpg"
+    },
+    "byTitle": {
+      "To Live and Die in L.A.": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDhXkPof6xcb7wPRS5kFXzt4OS8b5OrPC33LM-kI-poE5Zjlp6aLYmogVKNEug3eWzBzK5ziHFfSZpLVvNqAZmJcUAIQuWX0bKCwBG5RiMnoOOkz1oj3EsnYnjvGqPMo3SYp7WsSrUH5H/s400/Hotel.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "credit": "Film frame / It’s Filmed There",
+          "title": "To Live and Die in L.A.",
+          "src": "photos/n134-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n134-place.jpg"
+        }
+      },
+      "Argo": {
+        "screen": {
+          "src": "photos/ar134-screen.jpg",
+          "sourceUrl": "https://clip.cafe/argo-2012/lester-nina-you-look-fabulous/",
+          "imageUrl": "https://clip.cafe/clipimg/lester-nina-you-look-fabulous.jpg",
+          "credit": "Argo film frame; Clip.Cafe",
+          "title": "Argo",
+          "alt": "Guests at Argo’s press reception in the Beverly Hilton.",
+          "width": 1100,
+          "height": 619
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/04/toliveanddieinla2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/04/17/to-live-and-die-in-l-a-1985/",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n134-place.jpg"
+        }
+      }
     }
   },
   "135": {
@@ -4924,6 +5020,52 @@
       "credit": "Esri World Imagery / Esri imagery contributors",
       "note": "Real aerial photograph of the Terminal Island Freeway production area. This is not a verified canonical Harbor Freeway location; acquisition date unverified.",
       "caption": "Terminal Island filming site · aerial"
+    }
+  },
+  "350": {
+    "screen": {
+      "src": "photos/ar350-screen.jpg",
+      "sourceUrl": "https://clip.cafe/argo-2012/we-got-an-office/",
+      "imageUrl": "https://clip.cafe/clipimg/we-got-an-office.jpg",
+      "credit": "Argo film frame; Clip.Cafe",
+      "title": "Argo",
+      "alt": "The Studio Six Films office on the Warner Bros. backlot.",
+      "width": 1100,
+      "height": 619
+    },
+    "place": {
+      "src": "photos/ar350-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Studio lot · aerial",
+      "alt": "The Warner Bros. studio campus and its backlot.",
+      "note": "Aerial imagery from the active basemap; image capture date is not supplied for this export.",
+      "width": 1100,
+      "height": 650,
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.341531%2C34.146941%2C-118.333931%2C34.151741&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
+    }
+  },
+  "351": {
+    "screen": {
+      "src": "photos/ar351-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/01/29/lester-siegels-house-from-argo",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/e85ee8f2-e0a5-4d9a-8aaf-0a8d1a5907dd.jpg",
+      "credit": "Argo film frame; I Am Not A Stalker",
+      "title": "Argo",
+      "alt": "Mendez and Chambers arrive at Lester Siegel’s home.",
+      "width": 1019,
+      "height": 768
+    },
+    "place": {
+      "src": "photos/ar351-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Former site · aerial",
+      "alt": "The former 1001 Bel Air Road house parcel, beside the winding road and neighboring estates.",
+      "note": "The former screen house has been removed. The current property listing describes a graded development lot; this active-basemap aerial shows the former parcel. Capture date is not supplied for this export.",
+      "width": 1100,
+      "height": 650,
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.445417968177%2C34.092276006553%2C-118.442817968177%2C34.093876006552996&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
     }
   }
 }
