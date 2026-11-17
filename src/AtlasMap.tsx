@@ -86,7 +86,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
       const outer=document.createElement('div');outer.className=`atlas-marker ${p.category} ${selected?.id===p.id?'selected':''} ${p.placement?.kind==='inferred'?'estimated':''}`;outer.style.setProperty('--film-color',filmColor(p.appearances[0].title));
       const point=m.project(p.coordinates);const roomRight=m.getContainer().clientWidth-point.x-48,roomLeft=point.x-48;const flip=roomRight<Math.min(420,p.name.length*8)&&roomLeft>roomRight;
       if(flip)outer.classList.add('opens-left');
-      const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${accessibleText(p.name)}`);icon.innerHTML=locationSvg(p.redacted?'redacted':p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
+      const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${accessibleText(p.name)}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
       const titles=[...new Set(p.appearances.map(a=>a.title))];outer.append(tooltip(p.name,titles));
       if(bounds.contains(p.coordinates)&&selected?.id===p.id){
         const label=document.createElement('div');label.className=`marker-label ${flip?'label-left':''}`;label.style.maxWidth=`${Math.max(150,Math.min(560,flip?roomLeft:roomRight))}px`;
