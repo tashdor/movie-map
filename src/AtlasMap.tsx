@@ -7,6 +7,7 @@ import {locationSvg} from './icons';
 import {filmColor} from './colors';
 import {installCountyFog} from './fog';
 import {countyCamera} from './camera.mjs';
+import {storySettingLabel} from './logic.mjs';
 import {accessibleText} from './spoilers.mjs';
 import {appendRedactedText,RedactedText} from './RedactedText';
 import type {Place,Journey} from './types';
@@ -22,7 +23,7 @@ function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   record.element.classList.toggle('opens-left',flip);
   if(record.label){record.label.classList.toggle('label-left',flip);record.label.style.maxWidth=`${Math.max(150,Math.min(560,flip?left:right))}px`;record.label.hidden=!map.getBounds().contains(record.place.coordinates);}
 }
-function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');appendRedactedText(title,name);box.append(movie,title);return box;}
+function tooltip(name:string,titles:string[],setting?:Place['storySetting']){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');appendRedactedText(title,name);box.append(movie,title);if(setting?.canonicalLA===false){const tag=document.createElement('small');tag.className='marker-setting';tag.textContent=storySettingLabel(setting,true);box.append(tag);}return box;}
 function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef(new Map<number,MarkerRecord>()),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[locating,setLocating]=useState(false);
@@ -95,7 +96,7 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
     for(const p of places){
       if(!p.coordinates)continue;active.add(p.id);
       const titles=[...new Set(p.appearances.map(a=>a.title))];
-      const signature=JSON.stringify([p.name,p.category,p.placement?.kind,titles]);
+      const signature=JSON.stringify([p.name,p.category,p.placement?.kind,titles,p.storySetting]);
       let record=markers.current.get(p.id);
       if(!record){
         const element=document.createElement('div');element.className='atlas-marker';
@@ -108,7 +109,7 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
         record.element.classList.toggle('estimated',p.placement?.kind==='inferred');
         record.element.style.setProperty('--film-color',filmColor(p.appearances[0].title));
         const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${accessibleText(p.name)}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();latest.current.onSelect(p.id);});
-        record.element.replaceChildren(icon,tooltip(p.name,titles));record.label=undefined;record.signature=signature;
+        record.element.replaceChildren(icon,tooltip(p.name,titles,p.storySetting));record.label=undefined;record.signature=signature;
       }
       const position=record.marker.getLngLat();if(position.lng!==p.coordinates[0]||position.lat!==p.coordinates[1])record.marker.setLngLat(p.coordinates);
       record.place=p;record.element.classList.toggle('selected',selected?.id===p.id);
@@ -116,7 +117,7 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
         const label=document.createElement('div');label.className='marker-label';
         const tabs=document.createElement('div');tabs.className='marker-film-tabs';
         for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',()=>latest.current.onFilm(title));tabs.append(tab);}
-        const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',()=>latest.current.onSelect(p.id));label.append(tabs,title);record.element.append(label);record.label=label;
+        const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',()=>latest.current.onSelect(p.id));label.append(tabs,title);if(p.storySetting?.canonicalLA===false){const tag=document.createElement('span');tag.className='marker-setting';tag.textContent=storySettingLabel(p.storySetting,true);label.append(tag);}record.element.append(label);record.label=label;
       }else if(selected?.id!==p.id&&record.label){record.label.remove();record.label=undefined;}
       if(record.label)alignMarker(m,record);
     }

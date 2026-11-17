@@ -1,0 +1,2076 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": 620,
+      "name": "The Myers house",
+      "short": "The Myers house",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "709 Meridian Avenue, South Pasadena · original site",
+      "area": "South Pasadena",
+      "coordinates": [
+        -118.157188168058,
+        34.117272565997
+      ],
+      "productionCoordinates": [
+        -118.157188168058,
+        34.117272565997
+      ],
+      "precision": "StreetAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "StreetAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_hal_city",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The city landmark inventory gives the original house as 709 Meridian Avenue, also called 707 by specialist guides; it was moved to 1000 Mission Street in 1987. The original-site street geocode is approximate."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Michael Myers",
+        "Sam Loomis",
+        "Laurie Strode"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "The abandoned Myers family home",
+          "filming_component": "709 Meridian Avenue, South Pasadena · original site",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift",
+            "hv_hal_city"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Michael Myers",
+              "relationship": "former home"
+            },
+            {
+              "name": "Sam Loomis",
+              "relationship": "visits the house"
+            },
+            {
+              "name": "Laurie Strode",
+              "relationship": "delivers a key"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "productionSites": [
+        {
+          "component": "Original filmed site",
+          "address": "709 Meridian Avenue, South Pasadena",
+          "coordinates": [
+            -118.157188168058,
+            34.117272565997
+          ]
+        },
+        {
+          "label": "House today",
+          "component": "Relocated in 1987",
+          "address": "1000 Mission Street, South Pasadena"
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv620-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1FgndW904xl5w1BAZMOxf00_5CvH2V7RUKEwUh0K7ZPlzdy109N8jpGvB5JYmrVU7ggHZNfQ4YuQyaPXCI8Dc4mywPdEGkk0R3QqHqau4vbDN0Xr7fTfY0dLFZ-iMosS0D2Rwj21LpPst/s1600/Halloween+House.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "The Myers house in Halloween",
+          "width": 832,
+          "height": 363,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv620-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4UQUpo9I7EqO-EAos1PCZCt76tTuDlqz2aUGywlr6034EHWaBRvg2CaP5TpcRk61d8r1Q5F7-4Obiw7ypkzxx8kD7KG1_MYEbYLO5eWEe0-eABeVQWBj7g_vyRk7P5zRPB_OMJtMakKc/s1600/Myers+House.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Myers house — real production site",
+          "width": 1280,
+          "height": 960,
+          "caption": "Site · relocated house",
+          "note": "The surviving house at its relocated 1000 Mission Street address, rather than the original filmed parcel. Capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 621,
+      "name": "Laurie Strode’s home",
+      "short": "Laurie Strode’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1115 Oxley Street, South Pasadena",
+      "area": "South Pasadena",
+      "coordinates": [
+        -118.155437167064,
+        34.11365137519
+      ],
+      "productionCoordinates": [
+        -118.155437167064,
+        34.11365137519
+      ],
+      "precision": "StreetAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "StreetAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Laurie Strode"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "The Strode family home",
+          "filming_component": "1115 Oxley Street, South Pasadena",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Laurie Strode",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv621-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA8_nXV4vw8DQ_yjBLOgA1_wWr5nAOO9D3GemdR6Td97xECo7ATjdU0olHa7FamoNwCL8SQ1cEQaB3jmxHi-uURM2xpHGZlEUNAlkrJsUfzAWfEbZX04-ez_NYbhCWd8VvJjeB0ihFPdCu/s1600/Jamie+House+1.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "Laurie Strode’s home in Halloween",
+          "width": 829,
+          "height": 357,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv621-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYEPsfd38aYms-Z53co7Vfx0x2SY9TytaZcd97rypK7x3_FeXjUvIXU2UvCUYimrga7GdUHBHa10WKiRir3gl8Shc6oTfpemABPzNu8sriLI9b29AUd3iBi6lVrD0XoUdM9KQfJt1FRKk/s1600/IMG_20170910_100547+-+Copy.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Laurie Strode’s home — real production site",
+          "width": 1600,
+          "height": 1200,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 622,
+      "name": "Tommy Doyle’s school",
+      "short": "Tommy Doyle’s school",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "110 West McLean Street, Alhambra",
+      "area": "Alhambra",
+      "coordinates": [
+        -118.132800002644,
+        34.101080011623
+      ],
+      "productionCoordinates": [
+        -118.132800002644,
+        34.101080011623
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Tommy Doyle"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "Tommy’s elementary school",
+          "filming_component": "110 West McLean Street, Alhambra",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Tommy Doyle",
+              "relationship": "attends school"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv622-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQtihl9vVqoILzz_NRdo_RIuluM8Tx8B_RyQTGo_F0Yr6qgeerAxztq99Xf_wicMCUhr0auVmvm7I-rQnvCcVJy2EEYzhvqLxH-4CeANOHXJ41AsaglZf47lpwNrnWypk4zNpF41-fv5O4/s1600/School+1.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "Tommy Doyle’s school in Halloween",
+          "width": 829,
+          "height": 359,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv622-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZoMC8VWj9WDRSlX2hDMihljL-N1GpR5ip6eui3dz_8sZ9_Sn5aW_lfgAw6H2YWGGt7OHdYu_fT0i1rYthE5a2EHQoSOanSeIGdhnDCGjZzxiTbGCx7L47q4Zc87Uhd-MFgjjxDNrwhsg/s1600/Los+Angeles+2010+210.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Tommy Doyle’s school — real production site",
+          "width": 1600,
+          "height": 1200,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 623,
+      "name": "The Wallace home",
+      "short": "The Wallace home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "1537 North Orange Grove Avenue, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.360784248617,
+        34.099258624063
+      ],
+      "productionCoordinates": [
+        -118.360784248617,
+        34.099258624063
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The facade has been remodeled; some interiors were filmed at other houses."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Lindsey Wallace",
+        "Annie Brackett",
+        "Lynda van der Klok",
+        "Bob Simms"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "Lindsey’s home; Annie’s babysitting job",
+          "filming_component": "1537 North Orange Grove Avenue, Los Angeles",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Lindsey Wallace",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Annie Brackett",
+              "relationship": "babysits Lindsey"
+            },
+            {
+              "name": "Lynda van der Klok",
+              "relationship": "visits Annie"
+            },
+            {
+              "name": "Bob Simms",
+              "relationship": "visits with Lynda"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Halloween",
+          "people": [
+            "Annie Brackett",
+            "Lynda van der Klok",
+            "Bob Simms"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv623-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjokMj3qaucuiaWyqF1vFYHmviGkRDYiersoInfWqHfokZZgbO49wdev2V9qf2mniMGioPO9UnnDvw5Mf04IWDRWDFYqgHywDmODakAXyNtUvgguU19CYUOiBVG3WtrW0MJQHVWfvDTi82y/s1600/Murder+House.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "The Wallace home in Halloween",
+          "width": 831,
+          "height": 366,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv623-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4XSoGtT3K8bWW_D3BxxeHVlcbTOej0tjBKAY1FjOz0R_c0GqJTkJ5Ng6subttrvkazFcKMTgJiZeoG9h29HiRDYehQeFKAxSfwJRwZf256Vc34n4E_rk-Bkd3pc-TFQ4P0SR2z7O7LCE/s1600/IMG_20190309_072913.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Wallace home — real production site",
+          "width": 1600,
+          "height": 1200,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 624,
+      "name": "The Doyle home",
+      "short": "The Doyle home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1530 North Orange Grove Avenue, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.360210758802,
+        34.099051800603
+      ],
+      "productionCoordinates": [
+        -118.360210758802,
+        34.099051800603
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The facade is on Orange Grove Avenue; some interior rooms were filmed at neighboring houses."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Tommy Doyle",
+        "Laurie Strode",
+        "Lindsey Wallace",
+        "Michael Myers",
+        "Sam Loomis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "Tommy’s home; Laurie’s babysitting job",
+          "filming_component": "1530 North Orange Grove Avenue, Los Angeles",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Tommy Doyle",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Laurie Strode",
+              "relationship": "babysits Tommy"
+            },
+            {
+              "name": "Lindsey Wallace",
+              "relationship": "stays with Laurie and Tommy"
+            },
+            {
+              "name": "Michael Myers",
+              "relationship": "comes to the house"
+            },
+            {
+              "name": "Sam Loomis",
+              "relationship": "comes to the house"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv624-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiunaWVuy05KJzO2crUlgB4RJy-10eOVXQFSL8ICyZIF93wNMj71U6uLqu5rUd_KNKeVHz8dRIGJ9IAcKPJ4pcz_MTphmNiAUcHMJODfYw82g7ssKw9bJHogYiNmdqknipqs56f_eJ_-bqT/s1600/Babysit+House.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "The Doyle home in Halloween",
+          "width": 834,
+          "height": 374,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv624-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlq3RQJkcLMjWwgN8-uGdsGW5gPg7uNbY5jfJE5FQ7XPghQeREYS-HxxIfvLkbktd3HfTDnZ_gI7iEnFYEAc8RON66VUirXdd7bOw4B0r_Iq-yJ33qP7JzDIfXwP2iv8hu3GwH3mbSwbU/s1600/IMG_20190309_072836+-+Copy.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Doyle home — real production site",
+          "width": 1600,
+          "height": 1200,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 625,
+      "name": "The hedge",
+      "short": "The hedge",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1019 Montrose Avenue, South Pasadena",
+      "area": "South Pasadena",
+      "coordinates": [
+        -118.143124328062,
+        34.114928005317
+      ],
+      "productionCoordinates": [
+        -118.143124328062,
+        34.114928005317
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Haddonfield, Illinois · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_hal_afi",
+          "hv_hal_ift",
+          "hv_geocoder"
+        ],
+        "reason": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "storySetting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "people": [
+        "Laurie Strode",
+        "Annie Brackett",
+        "Michael Myers"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Halloween",
+          "release_year": 1978,
+          "story_role": "Laurie and Annie encounter the Shape",
+          "filming_component": "1019 Montrose Avenue, South Pasadena",
+          "source_ids": [
+            "hv_hal_afi",
+            "hv_hal_ift"
+          ],
+          "story_time": {
+            "year": 1978,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The Haddonfield section is explicitly dated October 31, 1978.",
+            "source_ids": [
+              "hv_hal_script"
+            ],
+            "month": 10,
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Laurie Strode",
+              "relationship": "walks past the hedge"
+            },
+            {
+              "name": "Annie Brackett",
+              "relationship": "walks with Laurie"
+            },
+            {
+              "name": "Michael Myers",
+              "relationship": "stands behind the hedge"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv625-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXLbUSrONRYFCIwB-GJDDcd9Q6VpC4jOEACQ0I_GXRled2Q9ci5FV7aLGXR599N7BPoEAQ9YvHGQ1HW-OXdprw4BY7_LPJroX0FL8wKm4vGeUltMzbvj_OYOo3xeiFeHUHQfE3vRq1wac/s1600/Hedge+2.JPG",
+          "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+          "alt": "The hedge in Halloween",
+          "width": 832,
+          "height": 354,
+          "title": "Halloween",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv625-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrx8ShPcdGOwQ5eZxl-8AjVrxuSn4_sbMiTxEaYkEsIDk6xQdcaKqXLi9-DvWDxuyHXtKPZtoIAmohpKGUVbTeyCsbQkMcgx1Ge-sRRuFETAttpmM7P6VUNge9xpTXEX_nLKrm0WJvbqU/s1600/570+%25281%2529.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The hedge — real production site",
+          "width": 1600,
+          "height": 1195,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 626,
+      "name": "Valerie Gail’s home",
+      "short": "Valerie Gail’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "19625 Bryant Street, Northridge",
+      "area": "Northridge",
+      "coordinates": [
+        -118.560979216621,
+        34.227607564175
+      ],
+      "productionCoordinates": [
+        -118.560979216621,
+        34.227607564175
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Northridge · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_earth_afi",
+          "hv_earth_sj",
+          "hv_earth_rewind",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Valerie Gail",
+        "Ted Gallagher",
+        "Mac",
+        "Wiploc",
+        "Zeebo",
+        "Woody"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Earth Girls Are Easy",
+          "release_year": 1989,
+          "story_role": "Valerie and Ted’s Valley home",
+          "filming_component": "19625 Bryant Street, Northridge",
+          "source_ids": [
+            "hv_earth_afi",
+            "hv_earth_sj",
+            "hv_earth_rewind"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_earth_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Valerie Gail",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Ted Gallagher",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mac",
+              "relationship": "stays with Valerie"
+            },
+            {
+              "name": "Wiploc",
+              "relationship": "stays with Valerie"
+            },
+            {
+              "name": "Zeebo",
+              "relationship": "stays with Valerie"
+            },
+            {
+              "name": "Woody",
+              "relationship": "visits Valerie"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv626-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867853025-Q9KVG8VJW0IZUD31U373/Blank+1600+x+1490+%282%29.jpg",
+          "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+          "alt": "Valerie Gail’s home in Earth Girls Are Easy",
+          "width": 1600,
+          "height": 745,
+          "title": "Earth Girls Are Easy",
+          "spoiler": false,
+          "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+        },
+        "place": {
+          "src": "photos/extra-hv626-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867853025-Q9KVG8VJW0IZUD31U373/Blank+1600+x+1490+%282%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Valerie Gail’s home — real production site",
+          "width": 1600,
+          "height": 745,
+          "caption": "Site · source photo",
+          "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+        }
+      }
+    },
+    {
+      "id": 627,
+      "name": "Curl Up & Dye",
+      "short": "Curl Up & Dye",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "5545 West Manchester Avenue, Los Angeles · strip-mall exterior",
+      "area": "San Fernando Valley",
+      "coordinates": [
+        -118.48,
+        34.2
+      ],
+      "productionCoordinates": [
+        -118.378016770993,
+        33.960311940853
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "San Fernando Valley · approximate",
+        "precision": "area",
+        "sourceIds": [
+          "hv_earth_afi",
+          "hv_earth_sj",
+          "hv_earth_rewind",
+          "hv_geocoder"
+        ],
+        "reason": "AFI places Valerie’s salon in the San Fernando Valley. Its exterior was filmed in Westchester, so that Manchester Avenue storefront is production provenance only. The Valley marker is an editorial area estimate, not a canonical street or parcel. Set-Jetter gives 5545 West Manchester; Rewind gives 5551 in the same strip mall.",
+        "viewport": [
+          [
+            -118.6,
+            34.15
+          ],
+          [
+            -118.36,
+            34.25
+          ]
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Valerie Gail",
+        "Candy Pink",
+        "Mac",
+        "Wiploc",
+        "Zeebo"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Earth Girls Are Easy",
+          "release_year": 1989,
+          "story_role": "Valerie and Candy’s salon",
+          "filming_component": "5545 West Manchester Avenue, Los Angeles · strip-mall exterior",
+          "source_ids": [
+            "hv_earth_afi",
+            "hv_earth_sj",
+            "hv_earth_rewind"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_earth_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Valerie Gail",
+              "relationship": "works as a manicurist"
+            },
+            {
+              "name": "Candy Pink",
+              "relationship": "runs the salon"
+            },
+            {
+              "name": "Mac",
+              "relationship": "visits the salon"
+            },
+            {
+              "name": "Wiploc",
+              "relationship": "visits the salon"
+            },
+            {
+              "name": "Zeebo",
+              "relationship": "visits the salon"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv627-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867896387-8JESILF0KC5FAWLGU723/Blank+1600+x+1490+%284%29.jpg",
+          "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+          "alt": "Curl Up & Dye in Earth Girls Are Easy",
+          "width": 1600,
+          "height": 745,
+          "title": "Earth Girls Are Easy",
+          "spoiler": false,
+          "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+        },
+        "place": {
+          "src": "photos/extra-hv627-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867896387-8JESILF0KC5FAWLGU723/Blank+1600+x+1490+%284%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Curl Up & Dye — real production site",
+          "width": 1600,
+          "height": 745,
+          "caption": "Site · source photo",
+          "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+        }
+      }
+    },
+    {
+      "id": 628,
+      "name": "Deca Dance",
+      "short": "Deca Dance",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "2800 East Observatory Road, Los Angeles",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.300386517449,
+        34.118384744096
+      ],
+      "productionCoordinates": [
+        -118.300386517449,
+        34.118384744096
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Griffith Park · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_earth_afi",
+          "hv_earth_sj",
+          "hv_earth_rewind",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Valerie Gail",
+        "Candy Pink",
+        "Mac",
+        "Wiploc",
+        "Zeebo"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Earth Girls Are Easy",
+          "release_year": 1989,
+          "story_role": "The aliens’ night out",
+          "filming_component": "2800 East Observatory Road, Los Angeles",
+          "source_ids": [
+            "hv_earth_afi",
+            "hv_earth_sj",
+            "hv_earth_rewind"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_earth_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Valerie Gail",
+              "relationship": "visits the nightclub"
+            },
+            {
+              "name": "Candy Pink",
+              "relationship": "visits the nightclub"
+            },
+            {
+              "name": "Mac",
+              "relationship": "visits the nightclub"
+            },
+            {
+              "name": "Wiploc",
+              "relationship": "visits the nightclub"
+            },
+            {
+              "name": "Zeebo",
+              "relationship": "visits the nightclub"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv628-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867990632-99FD5F3JT4E68HZ81FUO/Blank+1600+x+1490+%289%29.jpg",
+          "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+          "alt": "Deca Dance in Earth Girls Are Easy",
+          "width": 1600,
+          "height": 745,
+          "title": "Earth Girls Are Easy",
+          "spoiler": false,
+          "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+        },
+        "place": {
+          "src": "photos/extra-hv628-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867990632-99FD5F3JT4E68HZ81FUO/Blank+1600+x+1490+%289%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Deca Dance — real production site",
+          "width": 1600,
+          "height": 745,
+          "caption": "Site · source photo",
+          "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+        }
+      }
+    },
+    {
+      "id": 629,
+      "name": "The gas station",
+      "short": "The gas station",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Ventura Boulevard & Laurel Canyon Boulevard, Studio City · southeast corner",
+      "area": "Studio City",
+      "coordinates": [
+        -118.395029963922,
+        34.143414987063004
+      ],
+      "productionCoordinates": [
+        -118.395249963922,
+        34.143564987063
+      ],
+      "precision": "former_site_approximate",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Studio City · street address unconfirmed",
+        "precision": "former_site_approximate",
+        "sourceIds": [
+          "hv_earth_afi",
+          "hv_earth_sj",
+          "hv_earth_rewind",
+          "hv_geocoder"
+        ],
+        "reason": "The matched gas-station exterior stood on the southeast corner of Ventura and Laurel Canyon. The station was demolished; the marker is an approximate former-forecourt point, not a surviving pump location."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Wiploc",
+        "Zeebo",
+        "Woody"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Earth Girls Are Easy",
+          "release_year": 1989,
+          "story_role": "The aliens’ gas-station stop",
+          "filming_component": "Ventura Boulevard & Laurel Canyon Boulevard, Studio City · southeast corner",
+          "source_ids": [
+            "hv_earth_afi",
+            "hv_earth_sj",
+            "hv_earth_rewind"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_earth_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Wiploc",
+              "relationship": "stops at the gas station"
+            },
+            {
+              "name": "Zeebo",
+              "relationship": "stops at the gas station"
+            },
+            {
+              "name": "Woody",
+              "relationship": "visits the gas station"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv629-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620868052871-SXKQ1C28A5YIB00Q0QFD/Blank+1600+x+1490+%2813%29.jpg",
+          "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+          "alt": "The gas station in Earth Girls Are Easy",
+          "width": 1600,
+          "height": 745,
+          "title": "Earth Girls Are Easy",
+          "spoiler": false,
+          "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+        },
+        "place": {
+          "src": "photos/extra-hv629-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620868052871-SXKQ1C28A5YIB00Q0QFD/Blank+1600+x+1490+%2813%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "The gas station — real production site",
+          "width": 1600,
+          "height": 745,
+          "caption": "Site · source photo",
+          "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+        }
+      }
+    },
+    {
+      "id": 630,
+      "name": "Julie Richman’s home",
+      "short": "Julie Richman’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "3907 Dixie Canyon Avenue, Sherman Oaks",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.423845832433,
+        34.140786763346
+      ],
+      "productionCoordinates": [
+        -118.423845832433,
+        34.140786763346
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sherman Oaks · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_valley_afi",
+          "hv_valley_fo",
+          "hv_valley_sfv",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Julie Richman",
+        "Steve Richman",
+        "Sarah Richman",
+        "Stacey",
+        "Randy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Valley Girl",
+          "release_year": 1983,
+          "story_role": "The Richman family home",
+          "filming_component": "3907 Dixie Canyon Avenue, Sherman Oaks",
+          "source_ids": [
+            "hv_valley_afi",
+            "hv_valley_fo",
+            "hv_valley_sfv"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_valley_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Julie Richman",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Steve Richman",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Sarah Richman",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Stacey",
+              "relationship": "gets ready for the party with Julie"
+            },
+            {
+              "name": "Randy",
+              "relationship": "visits Julie"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv630-screen.jpg",
+          "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlP8VAniHJDTTlxTtYz37dXbKWFMEqpfIhOnccENJli3nZBf6C9Q03V0whCfH4tnhbpbrdrTI5_x4T9QPaEfLWy3LxLL_NdL6RyWp2XHtqFYN4LnVYw_mpS3-Liaz2I8ti7Hy1DutnW9Q/s1600/2013-02-09_11h44_09.jpg",
+          "credit": "Valley Girl film frame; San Fernando Valley Blog",
+          "alt": "Julie Richman’s home in Valley Girl",
+          "width": 1152,
+          "height": 648,
+          "title": "Valley Girl",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv630-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl2.jpg?w=1024",
+          "credit": "Film Oblivion",
+          "alt": "Julie Richman’s home — real production site",
+          "width": 1024,
+          "height": 768,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 631,
+      "name": "Suzi Brent’s home",
+      "short": "Suzi Brent’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "23727 Posey Lane, West Hills",
+      "area": "West Hills",
+      "coordinates": [
+        -118.645696788396,
+        34.210054182545
+      ],
+      "productionCoordinates": [
+        -118.645696788396,
+        34.210054182545
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hills · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_valley_afi",
+          "hv_valley_fo",
+          "hv_valley_sfv",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Suzi Brent",
+        "Beth Brent",
+        "Julie Richman",
+        "Randy",
+        "Fred",
+        "Stacey"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Valley Girl",
+          "release_year": 1983,
+          "story_role": "Suzi’s house party",
+          "filming_component": "23727 Posey Lane, West Hills",
+          "source_ids": [
+            "hv_valley_afi",
+            "hv_valley_fo",
+            "hv_valley_sfv"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_valley_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Suzi Brent",
+              "relationship": "lives here and hosts the party"
+            },
+            {
+              "name": "Beth Brent",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Julie Richman",
+              "relationship": "attends the party"
+            },
+            {
+              "name": "Randy",
+              "relationship": "comes to the party"
+            },
+            {
+              "name": "Fred",
+              "relationship": "comes to the party"
+            },
+            {
+              "name": "Stacey",
+              "relationship": "attends the party"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv631-screen.jpg",
+          "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZZl0yYwAJf_vFSUPdR8ksr31o5RlsoCEBrfIryGiuXPO8X2p8NqLo6b49_vVKQIKAv_XOOlPpKdnRmAOLGsm6tn8S2yfzhF58j5rKghjoN8HrNy7Q5C1rKpUEaFHdW1OlxM_61HtqlY/s1600/2013-02-09_11h34_03.jpg",
+          "credit": "Valley Girl film frame; San Fernando Valley Blog",
+          "alt": "Suzi Brent’s home in Valley Girl",
+          "width": 1152,
+          "height": 648,
+          "title": "Valley Girl",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv631-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl1.jpg?w=1024",
+          "credit": "Film Oblivion",
+          "alt": "Suzi Brent’s home — real production site",
+          "width": 1024,
+          "height": 768,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 632,
+      "name": "Foods for Health",
+      "short": "Foods for Health",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "14543 Ventura Boulevard, Sherman Oaks",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.450159895443,
+        34.151332371007
+      ],
+      "productionCoordinates": [
+        -118.450159895443,
+        34.151332371007
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sherman Oaks · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_valley_afi",
+          "hv_valley_fo",
+          "hv_valley_sfv",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Steve Richman",
+        "Sarah Richman",
+        "Julie Richman"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Valley Girl",
+          "release_year": 1983,
+          "story_role": "The Richmans’ health-food store",
+          "filming_component": "14543 Ventura Boulevard, Sherman Oaks",
+          "source_ids": [
+            "hv_valley_afi",
+            "hv_valley_fo",
+            "hv_valley_sfv"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_valley_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Steve Richman",
+              "relationship": "runs the health-food store"
+            },
+            {
+              "name": "Sarah Richman",
+              "relationship": "runs the health-food store"
+            },
+            {
+              "name": "Julie Richman",
+              "relationship": "helps at her parents’ store"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv632-screen.jpg",
+          "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuB_NyXUm_goZjp3anhpuDRfxJFbJB4X67tV3r785ufkaIySaDYmO2BlvJxg8Fp7ffPLje-goVFO8RkLWLda0n4cZiIxsgYw7GwrH4-1qg9PurVRnHPOjM4Mmw-8NRa706s6HLXHvKlsM/s1600/2013-02-09_11h49_19.jpg",
+          "credit": "Valley Girl film frame; San Fernando Valley Blog",
+          "alt": "Foods for Health in Valley Girl",
+          "width": 1152,
+          "height": 648,
+          "title": "Valley Girl",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv632-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl3.jpg?w=768",
+          "credit": "Film Oblivion",
+          "alt": "Foods for Health — real production site",
+          "width": 768,
+          "height": 1024,
+          "caption": "Site · source photo",
+          "note": "Source photograph; capture date is not independently verified."
+        }
+      }
+    },
+    {
+      "id": 633,
+      "name": "Du-Par’s",
+      "short": "Du-Par’s",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "12036 Ventura Boulevard, Studio City · former restaurant",
+      "area": "Studio City",
+      "coordinates": [
+        -118.393777347353,
+        34.143534896031
+      ],
+      "productionCoordinates": [
+        -118.393777347353,
+        34.143534896031
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Studio City · street address unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "hv_valley_afi",
+          "hv_valley_fo",
+          "hv_valley_sfv",
+          "hv_geocoder"
+        ],
+        "reason": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted. The Studio City restaurant has closed and the premises were remodeled; the comparison photograph documents its former interior."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Julie Richman",
+        "Stacey",
+        "Suzi Brent",
+        "Loryn"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Valley Girl",
+          "release_year": 1983,
+          "story_role": "Julie and her friends’ diner",
+          "filming_component": "12036 Ventura Boulevard, Studio City · former restaurant",
+          "source_ids": [
+            "hv_valley_afi",
+            "hv_valley_fo",
+            "hv_valley_sfv"
+          ],
+          "story_time": {
+            "year": 1983,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; the US theatrical release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "hv_valley_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Julie Richman",
+              "relationship": "eats with her friends"
+            },
+            {
+              "name": "Stacey",
+              "relationship": "eats with Julie"
+            },
+            {
+              "name": "Suzi Brent",
+              "relationship": "eats with Julie"
+            },
+            {
+              "name": "Loryn",
+              "relationship": "eats with Julie"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-hv633-screen.jpg",
+          "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOrmWT6H1VUsnvp4PdFl3qz1IL4bjIL1d7BEBfp2Hdz63kNrF6BCaGTJsL_0f2iXr-JXEvyKc1iqtS8IV2BYnYttRUFzAqsHmCZmFtYNTziMt2z8gDX_4zzkZFJ3dX7DqlBJp3CaUZyVo/s1600/2013-02-09_11h50_25.jpg",
+          "credit": "Valley Girl film frame; San Fernando Valley Blog",
+          "alt": "Du-Par’s in Valley Girl",
+          "width": 1152,
+          "height": 648,
+          "title": "Valley Girl",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-hv633-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/boogienights4.jpg?w=676",
+          "credit": "Film Oblivion",
+          "alt": "Du-Par’s — real production site",
+          "width": 676,
+          "height": 504,
+          "caption": "Site · source photo",
+          "note": "Interior photographed before the restaurant closed; it is an archival view, not a claim about the premises today."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hv_hal_afi",
+      "title": "AFI Catalog: Halloween — Haddonfield story, characters and dates",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/56347",
+      "source_type": "film archive"
+    },
+    {
+      "id": "hv_hal_script",
+      "title": "Halloween screenplay — October 31, 1978 story date",
+      "url": "https://www.sellingyourscreenplay.com/wp-content/uploads/screenplay/scripts/Halloween.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "hv_hal_ift",
+      "title": "It’s Filmed There: Halloween — matched frames and locations",
+      "url": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_hal_stars",
+      "title": "Seeing Stars: Halloween — schools, homes and changed buildings",
+      "url": "https://www.seeing-stars.com/Locations/Halloween/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_hal_city",
+      "title": "City of South Pasadena: historic landmarks — Century House relocation",
+      "url": "https://www.southpasadenaca.gov/files/assets/public/v/1/city-council/documents/2018-agendas/item-no-20-12052018.pdf",
+      "source_type": "municipal historic inventory"
+    },
+    {
+      "id": "hv_earth_afi",
+      "title": "AFI Catalog: Earth Girls Are Easy — Valley setting and characters",
+      "url": "https://catalog.afi.com/Film/58037-EARTH-GIRLS-ARE-EASY",
+      "source_type": "film archive"
+    },
+    {
+      "id": "hv_earth_sj",
+      "title": "Set-Jetter: Earth Girls Are Easy — scene and site comparisons",
+      "url": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_earth_rewind",
+      "title": "The 80s Movies Rewind: Earth Girls Are Easy locations",
+      "url": "https://www.fast-rewind.com/locations_earthgirlsareeasy.htm",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_valley_afi",
+      "title": "AFI Catalog: Valley Girl (1983) — story and characters",
+      "url": "https://catalog.afi.com/Film/67726-VALLEY-GIRL",
+      "source_type": "film archive"
+    },
+    {
+      "id": "hv_valley_fo",
+      "title": "Film Oblivion: Valley Girl (1983) — photographed locations",
+      "url": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_valley_sfv",
+      "title": "San Fernando Valley Blog: Valley Girl (1983) — scene frames and addresses",
+      "url": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "hv_geocoder",
+      "title": "Esri World Geocoding Service: researched production addresses",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoder"
+    }
+  ],
+  "audit": [
+    {
+      "id": 620,
+      "production_geocode": {
+        "coordinates": [
+          -118.157188168058,
+          34.117272565997
+        ],
+        "score": 100,
+        "match": "709 Meridian Ave, South Pasadena, California, 91030",
+        "precision": "StreetAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=709+Meridian+Avenue%2C+South+Pasadena%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.157188168058,
+          34.117272565997
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The city landmark inventory gives the original house as 709 Meridian Avenue, also called 707 by specialist guides; it was moved to 1000 Mission Street in 1987. The original-site street geocode is approximate."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "Original house address differs between city inventory (709) and guides (707); house now relocated."
+      ]
+    },
+    {
+      "id": 621,
+      "production_geocode": {
+        "coordinates": [
+          -118.155437167064,
+          34.11365137519
+        ],
+        "score": 100,
+        "match": "1115 Oxley St, South Pasadena, California, 91030",
+        "precision": "StreetAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1115+Oxley+Street%2C+South+Pasadena%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.155437167064,
+          34.11365137519
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 622,
+      "production_geocode": {
+        "coordinates": [
+          -118.132800002644,
+          34.101080011623
+        ],
+        "score": 100,
+        "match": "110 W McLean St, Alhambra, California, 91801",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=110+West+McLean+Street%2C+Alhambra%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.132800002644,
+          34.101080011623
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 623,
+      "production_geocode": {
+        "coordinates": [
+          -118.360784248617,
+          34.099258624063
+        ],
+        "score": 100,
+        "match": "1537 N Orange Grove Ave, Los Angeles, California, 90046",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1537+North+Orange+Grove+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.360784248617,
+          34.099258624063
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The facade has been remodeled; some interiors were filmed at other houses."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 624,
+      "production_geocode": {
+        "coordinates": [
+          -118.360210758802,
+          34.099051800603
+        ],
+        "score": 100,
+        "match": "1530 N Orange Grove Ave, Los Angeles, California, 90046",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1530+North+Orange+Grove+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.360210758802,
+          34.099051800603
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address. The facade is on Orange Grove Avenue; some interior rooms were filmed at neighboring houses."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 625,
+      "production_geocode": {
+        "coordinates": [
+          -118.143124328062,
+          34.114928005317
+        ],
+        "score": 100,
+        "match": "1019 Montrose Ave, South Pasadena, California, 91030",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1019+Montrose+Avenue%2C+South+Pasadena%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.143124328062,
+          34.114928005317
+        ],
+        "basis": "Haddonfield is a fictional Illinois town. This point records the Los Angeles County production site, not an Illinois address."
+      },
+      "story_setting": {
+        "name": "Haddonfield, Illinois",
+        "canonicalLA": false
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 626,
+      "production_geocode": {
+        "coordinates": [
+          -118.560979216621,
+          34.227607564175
+        ],
+        "score": 100,
+        "match": "19625 Bryant St, Northridge, California, 91324",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=19625+Bryant+Street%2C+Northridge%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.560979216621,
+          34.227607564175
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 627,
+      "production_geocode": {
+        "coordinates": [
+          -118.378016770993,
+          33.960311940853
+        ],
+        "score": 100,
+        "match": "5545 W Manchester Ave, Los Angeles, California, 90045",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5545+West+Manchester+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.48,
+          34.2
+        ],
+        "basis": "AFI places Valerie’s salon in the San Fernando Valley. Its exterior was filmed in Westchester, so that Manchester Avenue storefront is production provenance only. The Valley marker is an editorial area estimate, not a canonical street or parcel. Set-Jetter gives 5545 West Manchester; Rewind gives 5551 in the same strip mall."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "Salon street numbers 5545 and 5551 refer to same strip mall; story location is the Valley, not Westchester."
+      ]
+    },
+    {
+      "id": 628,
+      "production_geocode": {
+        "coordinates": [
+          -118.300386517449,
+          34.118384744096
+        ],
+        "score": 97.85,
+        "match": "2800 E Observatory Ave, Los Angeles, California, 90027",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2800+East+Observatory+Road%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.300386517449,
+          34.118384744096
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 629,
+      "production_geocode": {
+        "coordinates": [
+          -118.395249963922,
+          34.143564987063
+        ],
+        "score": 100,
+        "match": "Laurel Canyon Blvd & Ventura Blvd, Studio City, California, 91604",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Laurel+Canyon+Boulevard+and+Ventura+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.395029963922,
+          34.143414987063004
+        ],
+        "basis": "The matched gas-station exterior stood on the southeast corner of Ventura and Laurel Canyon. The station was demolished; the marker is an approximate former-forecourt point, not a surviving pump location."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 630,
+      "production_geocode": {
+        "coordinates": [
+          -118.423845832433,
+          34.140786763346
+        ],
+        "score": 100,
+        "match": "3907 Dixie Canyon Ave, Sherman Oaks, California, 91423",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=3907+Dixie+Canyon+Avenue%2C+Sherman+Oaks%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.423845832433,
+          34.140786763346
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 631,
+      "production_geocode": {
+        "coordinates": [
+          -118.645696788396,
+          34.210054182545
+        ],
+        "score": 99.35,
+        "match": "23727 Posey Ln, Canoga Park, California, 91304",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=23727+Posey+Lane%2C+West+Hills%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.645696788396,
+          34.210054182545
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 632,
+      "production_geocode": {
+        "coordinates": [
+          -118.450159895443,
+          34.151332371007
+        ],
+        "score": 100,
+        "match": "14543 Ventura Blvd, Sherman Oaks, California, 91403",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=14543+Ventura+Boulevard%2C+Sherman+Oaks%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.450159895443,
+          34.151332371007
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    },
+    {
+      "id": 633,
+      "production_geocode": {
+        "coordinates": [
+          -118.393777347353,
+          34.143534896031
+        ],
+        "score": 100,
+        "match": "12036 Ventura Blvd, Studio City, California, 91604",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=12036+Ventura+Boulevard%2C+Studio+City%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.393777347353,
+          34.143534896031
+        ],
+        "basis": "The documented exterior is retained as a filming proxy; no independent canonical street number is asserted. The Studio City restaurant has closed and the premises were remodeled; the comparison photograph documents its former interior."
+      },
+      "story_setting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "photo_status": "film frame and photographed production site; capture dates unverified",
+      "uncertainties": [
+        "No independent canonical street address established."
+      ]
+    }
+  ]
+}

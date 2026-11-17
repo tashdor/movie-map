@@ -14,6 +14,9 @@ test('readable place links preserve filters and do not require numeric IDs',()=>
   const ranged={...state,query:'Blue Heights',category:'home',basemap:'satellite',time:{all:false,from:1990,to:2018,undated:true}};
   assert.deepEqual(readState(stateHash(ranged)),ranged);
   assert.equal(stateHash(base),'');
+  const laOnly={...base,laOnly:true};
+  assert.equal(stateHash(laOnly),'#places?setting=la');
+  assert.deepEqual(readState(stateHash(laOnly)),laOnly);
 });
 
 test('route and person links retain Back context when sharing a selected stop',()=>{

@@ -38,6 +38,7 @@ export function createAtlasLinks(data,slugs){
     const place=state.selected&&slugs.places[state.selected],route=state.route&&slugs.journeys[state.route],person=state.person&&people.byName.get(state.person),film=state.film&&films.byName.get(state.film);
     let path=place|| (route?`route/${route}`:person?`person/${person}`:state.tab==='journeys'?'routes':state.tab==='people'?'people':film?`film/${film}`:'');
     const q=new URLSearchParams();
+    if(state.laOnly)q.set('setting','la');
     if(state.selected&&!place)q.set('place',String(state.selected));
     if(state.route&&(place||!route))q.set('route',route||String(state.route));
     if(state.person&&(place||route||!person))q.set('person',person||state.person);

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {displayEntries,associatedPeople} from '../src/logic.mjs';
-import {REDACTED,accessibleText,presentPlace,presentEntries,presentJourney,redactText,sourceIsRedacted,deathIdentityPhrases} from '../src/spoilers.mjs';
+import {REDACTED,accessibleText,presentPlace,presentEntries,presentJourney,redactText,sourceIsRedacted,deathIdentityPhrases,placeSpoilerPhrases} from '../src/spoilers.mjs';
 import {markerInk,inkAppearance} from '../src/marker-ink.mjs';
 const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json'),audit=read('../research/spoiler-audit.json');
@@ -18,8 +18,9 @@ test('death entries conceal victim identities while ordinary home names and addr
   assert.equal(death.address,raw[1].address);assert.equal(death.media.place.src,raw[1].media.place.src);
   const vanZant=presentPlace(place(219),false,audit);
   assert.equal(vanZant.name,place(219).name);assert.equal(vanZant.placement.address,place(219).placement.address);
-  assert.equal(vanZant.appearances[0].story_role,`Van Zant’s home, where McCauley confronts and ${REDACTED} him`);
-  assert.equal(vanZant.appearances[0].characters[0].relationship,`resident; ${REDACTED} here`);
+  assert.equal(vanZant.appearances[0].story_role,`Van Zant’s home, ${REDACTED}`);
+  assert.equal(vanZant.appearances[0].characters[0].relationship,`resident; ${REDACTED}`);
+  assert.ok(!associatedPeople(vanZant).includes('Neil McCauley'));
   assert.deepEqual(vanZant.appearances[0].story_time,place(219).appearances[0].story_time);
   assert.equal(presentPlace(raw[1],true,audit),raw[1]);
 });
@@ -30,24 +31,24 @@ test('shared sites redact the sensitive appearance without censoring an innocent
   assert.notEqual(view('The Big Lebowski').appearances[0].story_role,REDACTED);
   const player=presentPlace(displayEntries([place(96)],{film:'The Player'})[0],false,audit);
   const musical=presentPlace(displayEntries([place(96)],{film:'La La Land'})[0],false,audit);
-  assert.ok(player.media.screen.redacted);assert.ok(!musical.media.screen.redacted);
+  assert.ok(!player.media.screen.redacted);assert.ok(!musical.media.screen.redacted);
   assert.equal(musical.media.screen.title,'La La Land');
   assert.ok(!presentPlace(place(96),false,audit).media.screen.redacted);
   assert.equal(player.appearances[0].characters[0].name,'Griffin Mill');
-  assert.equal(player.appearances[0].characters[0].relationship,`meets and ${REDACTED} David`);
+  assert.equal(player.appearances[0].characters[0].relationship,`meets ${REDACTED}`);
 });
 
 test('curated reveals redact sensitive phrases rather than entire records',()=>{
-  for(const [id,name] of [[55,`${REDACTED}'s refuge`],[88,`${REDACTED}'s Sierra Bonita apartment`],[257,`Griffin & ${REDACTED}’s new home`],[438,`${REDACTED} / St. Audrey’s orphanage`],[451,`Holly’s ${REDACTED} attempt`],[481,REDACTED]]){
+  for(const [id,name] of [[55,`${REDACTED}'s refuge`],[88,`${REDACTED}'s Sierra Bonita apartment`],[257,`Griffin & ${REDACTED}’s new home`],[438,`${REDACTED} / St. Audrey’s orphanage`],[451,REDACTED],[481,REDACTED]]){
     const view=presentPlace(place(id),false,audit);
     assert.equal(view.name,name,`${id}: only the revealing words`);
     assert.equal(view.address,place(id).address,`${id}: readable street address`);
-    assert.ok(view.media.screen.redacted,`${id}: revealing frame`);
+    assert.equal(Boolean(view.media.screen.redacted),[438,451,481].includes(id),`${id}: only revealing frames stay covered`);
   }
   const diner=presentPlace(place(90),false,audit);
   assert.ok(!associatedPeople(diner).includes('Diane Selwyn'));
   const park=presentPlace(place(511),false,audit);
-  assert.equal(park.appearances[0].characters.find(c=>c.name==='Emerald Haywood').relationship,`visits Jupe and uses the ${REDACTED}`);
+  assert.equal(park.appearances[0].characters.find(c=>c.name==='Emerald Haywood').relationship,`visits Jupe ${REDACTED}`);
   assert.equal(redactText('Alexander Revelle / Sam Bouchard'),`Alexander Revelle / ${REDACTED}`);
   assert.equal(presentPlace(place(453),false,audit).name,place(453).name);
   const orphanage=presentPlace(place(438),false,audit);
@@ -101,6 +102,52 @@ test('individual outcome words and underscored relationships keep the rest of th
   assert.equal(redactText('is_murdered_here'),`is_${REDACTED}_here`);
   assert.equal(redactText('The camera and camera operator',['camera']),`The ${REDACTED} and ${REDACTED} operator`);
   assert.equal(redactText('A snapshot of the street',['shot']),'A snapshot of the street');
+  assert.equal(redactText('lives here; shot outside',['; shot outside']),`lives here${REDACTED}`);
+});
+
+test('contextual clauses conceal victims, perpetrators and resolutions while keeping unrelated history',()=>{
+  const broiler=presentPlace(place(214),false,audit);
+  assert.match(broiler.notes,/reopened in 2009/);
+  for(const text of [broiler.notes,broiler.media.note])assert.doesNotMatch(text,/Waingro|surviv|execution/i);
+  const station=presentPlace(place(277),false,audit);
+  assert.match(station.placement.reason,/real Pershing Square Red Line station/);
+  assert.doesNotMatch(station.placement.reason,/Payne|Annie|later|tunnel/i);
+  const home=presentPlace(place(401),false,audit);
+  assert.equal(home.name,place(401).name);assert.ok(associatedPeople(home).includes('Caine Lawson'));
+  assert.ok(!associatedPeople(home).includes('Sharif Butler'));
+  assert.doesNotMatch(JSON.stringify(home.appearances),/final drive.by|killed/i);
+  assert.equal(presentPlace(place(416),false,audit).appearances[0].characters[0].relationship,`lives here${REDACTED}`);
+  assert.doesNotMatch(JSON.stringify(presentPlace(place(428),false,audit).appearances),/in the fire/);
+  assert.doesNotMatch(JSON.stringify(presentPlace(place(510),false,audit).appearances),/in the corral|Antlers/);
+});
+
+test('protected event identities cannot leak through routes, character associations or hidden-only search matches',()=>{
+  for(const id of [207,271,287,288,420,443,451]){
+    const raw=place(id),view=presentPlace(raw,false,audit);
+    assert.deepEqual(associatedPeople(view),[],id);
+    assert.equal(view.address,raw.address,id);
+    assert.doesNotMatch(view.name,/McCauley|Chris|Bob|Christine|Anthony|Jimmy|Doug|Holly/,id);
+    assert.equal(presentPlace(raw,true,audit),raw,id);
+  }
+  const route=presentJourney(data.journeys.find(j=>j.id===98),false,audit,data.places);
+  assert.equal(route.stops.find(s=>s.placeId===207).name,REDACTED);
+  assert.deepEqual(presentEntries(displayEntries([place(447)]),false,audit,'Holly Body'),[]);
+  assert.ok(presentEntries(displayEntries([place(447)]),true,audit,'Holly Body').some(p=>p.id===447));
+  assert.deepEqual(presentEntries(displayEntries([place(462)]),false,audit,'Edward Lewis'),[]);
+  assert.equal(presentEntries(displayEntries([place(462)]),false,audit,'Vivian')[0].id,462);
+  assert.ok(sourceIsRedacted('Scene reference','https://example.test/Doug-escape',false,placeSpoilerPhrases(place(443),audit)));
+});
+
+test('Gloria’s ordinary house exterior stays visible while its murder and double remain concealed',()=>{
+  const raw=place(447),home=presentPlace(raw,false,audit),death=presentPlace(displayEntries([raw])[1],false,audit);
+  assert.equal(home.name,raw.name);assert.equal(home.address,raw.address);
+  assert.equal(home.media.screen.src,raw.media.screen.src);assert.ok(home.media.screen.src);
+  assert.ok(!home.media.screen.redacted);assert.equal(home.media.place.src,raw.media.place.src);
+  assert.deepEqual(associatedPeople(home),['Gloria Revelle',`Alexander Revelle / ${REDACTED}`,'Jake Scully']);
+  assert.doesNotMatch(JSON.stringify(home.appearances[0].characters),/Sam Bouchard|double|killed|killer/i);
+  assert.equal(death.name,REDACTED);assert.doesNotMatch(death.media.screen.alt,/Gloria/i);
+  assert.equal(presentPlace(raw,true,audit),raw);
+  assert.ok(associatedPeople(presentPlace(raw,true,audit)).includes('Holly Body'));
 });
 
 test('each ink seed varies its outline and angle without changing on rerender',()=>{

@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": 600,
+      "name": "Doc Brown’s 1955 home",
+      "short": "Doc Brown’s 1955 home",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "4 Westmoreland Place, Pasadena",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.16079815764,
+        34.151708969917
+      ],
+      "productionCoordinates": [
+        -118.16079815764,
+        34.151708969917
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "4 Westmoreland Place, Pasadena",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_notes",
+          "extra_bttf_ift",
+          "extra_bttf_guide",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The pin marks the Gamble House production property. Doc’s story address is 1640 Riverside Drive in fictional Hill Valley, not Pasadena."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Emmett “Doc” Brown",
+        "Marty McFly"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Doc Brown’s home and laboratory",
+          "filming_component": "Gamble House exterior and carriage house; Blacker House entrance and interiors",
+          "source_ids": [
+            "extra_bttf_notes",
+            "extra_bttf_ift",
+            "extra_bttf_guide"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1955.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Emmett “Doc” Brown",
+              "relationship": "lives and works here"
+            },
+            {
+              "name": "Marty McFly",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "The Gamble House supplies the exterior and carriage house. The Blacker House supplies the front-door scene and interiors.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-600-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvXASOXOd7FISsrBvvF9QGyY-kPECTH-IQXhuOWlePdLKY9cL45yrIrW4rA8WxYhseF77MvlRNVqdSZRrNR3jmARNc6PqBjJQvFH3u_6im4k56kO9EBeuTf_4r8c25obsn5xLHwwIabQT8/s1200/Doc+House+2.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Marty approaches Doc’s house at night.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 714,
+          "height": 449
+        },
+        "place": {
+          "src": "photos/extra-bttf-600-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAd_im8nKGw8Jd6Xb9eja5b-hY_QNvj886H-CoalUQ-Ex0g9bAQMS2qWhDZ6kWtmlapSxySuQOG54kMR0dC2PKND6QgVgs-zpshsYDiqkz4EwhA-8XIXxexXrtAsG1X_ofok1AiF5yTdamQ2UxL3A7I3JgGDJolsYwcEK1ZJ4gNl5YnNi5WhsYDiQn/s1200/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Gamble House exterior.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 904
+        },
+        "screenGallery": [
+          {
+            "src": "photos/extra-bttf-600-garage-screen.jpg",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpGoj1BF8NLAtlJF_TpWgsrzqeJ1a4NM5RDwV9WgCt0gioV0UCl1qVnirHrZ6z-aDIRSAjGK_V8Tn4bOpY0Jx-7WxJRlJuuweLaRBtVwoBmsScgpMs3K-ndmsE0GHco_whbKStoGXfytmW/s1200/Doc+House+1.JPG",
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+            "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+            "alt": "Marty checks the 1640 address beside Doc’s carriage-house laboratory.",
+            "note": "Film frame.",
+            "title": "Back to the Future",
+            "spoiler": false,
+            "width": 714,
+            "height": 483
+          }
+        ]
+      },
+      "productionSites": [
+        {
+          "component": "House exterior and carriage-house laboratory",
+          "address": "4 Westmoreland Place, Pasadena",
+          "coordinates": [
+            -118.16079815764,
+            34.151708969917
+          ]
+        },
+        {
+          "component": "Front-door scene and house interiors",
+          "address": "1177 Hillcrest Avenue, Pasadena",
+          "coordinates": [
+            -118.133566443871,
+            34.12697623676
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "name": "Doc Brown’s 1985 garage",
+      "short": "Doc Brown’s 1985 garage",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "535 North Victory Boulevard, Burbank",
+      "area": "Burbank",
+      "coordinates": [
+        -118.319313934463,
+        34.179186109818
+      ],
+      "productionCoordinates": [
+        -118.319313934463,
+        34.179186109818
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "535 North Victory Boulevard, Burbank",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_notes",
+          "extra_bttf_ift",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The marker anchors the Burger King premises, not a surviving garage. The screenplay places this later home at Doc’s Hill Valley property; Burbank is the production site."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Emmett “Doc” Brown",
+        "Marty McFly"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Doc Brown’s garage laboratory",
+          "filming_component": "Temporary garage exterior in the Burger King parking lot",
+          "source_ids": [
+            "extra_bttf_notes",
+            "extra_bttf_ift"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1985.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Emmett “Doc” Brown",
+              "relationship": "lives and works here"
+            },
+            {
+              "name": "Marty McFly",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "The wooden garage exterior was a temporary structure removed after filming.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-601-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfuy19U1etIWR9ca46SSeCkakDNuGusZC0H_EYB_IggFOS55iDnB3__IcMI653QV3PEOZWRgefWLQWp-AwhQb-OLRZ-rXuqE_wRJ02_K99OYoY4NPzKUF-fgjOfKK1ue7Ex0Y8NeSA3-bY/s1200/Burger+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Marty skateboards away from Doc’s wooden garage.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 714,
+          "height": 399
+        },
+        "place": {
+          "src": "photos/extra-bttf-601-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjIkv_nNQE7B-3g7XAij4kxfxfBOu_X6vg1JszvbujJk3UXaQ2g30MSA7ZmvNZOjeLQGtIbPLajQ6M_uqag5lE7uXvO5DZBnyDTAvWOyWI9VR17eK75yWSVhv5LMGdmhwZ-LnJHdEzQx54t387TlWgMlCWeerMelf4jldTTsLd9ra1JyK3vyUea7_-/s1200/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The parking area where the temporary garage stood.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 903
+        }
+      }
+    },
+    {
+      "id": 602,
+      "name": "The McFly family home",
+      "short": "The McFly family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "9303 Roslyndale Avenue, Arleta, Los Angeles",
+      "area": "Arleta",
+      "coordinates": [
+        -118.433479991943,
+        34.23899601411
+      ],
+      "productionCoordinates": [
+        -118.433479991943,
+        34.23899601411
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "9303 Roslyndale Avenue, Arleta, Los Angeles",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_ift",
+          "extra_bttf_guide",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The address and point identify the real house used for the McFly home exterior. Lyon Estates is in fictional Hill Valley; it is not a Los Angeles neighborhood."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Marty McFly",
+        "George McFly",
+        "Lorraine McFly",
+        "Dave McFly",
+        "Linda McFly"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "The McFly family home",
+          "filming_component": "House exterior",
+          "source_ids": [
+            "extra_bttf_ift",
+            "extra_bttf_guide"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1985.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Marty McFly",
+              "relationship": "lives here"
+            },
+            {
+              "name": "George McFly",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Lorraine McFly",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Dave McFly",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Linda McFly",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-602-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimo7GUpTIgo-4ZzqVnQLwGbVfzmxwjhkp0OKUqTWp9sX0gvmKo1kEoON31CDRtZbfDq7r4w94mOiw-uYYtol_xYYm0LIjOg-2XCioHzo28pj8PSndw03IrEPKzCjutESg5zHGOjRGYjbvv/s1200/Marty+House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Marty arrives outside the McFly family home.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 714,
+          "height": 490
+        },
+        "place": {
+          "src": "photos/extra-bttf-602-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxL4-Zorfvoa7OIrIHXu58fBd6Zxklt1-Fd2CAtXFYCSIQm26kClkwYFaMiSajMsiIQhslacieTBxTujqP4wg_NYbyNxZC3jjTP9ofcrSxlcFjRsPQyI08wauTSLe6-BGHy5NxDoJrhyEXr8nkySLkG8tT9OIz1IUCXab4p6OMvz-qhyQbJ5WFSaZ3UYc/s1200/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Roslyndale Avenue production house.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 675
+        }
+      }
+    },
+    {
+      "id": 603,
+      "name": "Hill Valley High School",
+      "short": "Hill Valley High School",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "12417 Philadelphia Street, Whittier",
+      "area": "Whittier",
+      "coordinates": [
+        -118.044100021033,
+        33.980220008632
+      ],
+      "productionCoordinates": [
+        -118.044100021033,
+        33.980220008632
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "12417 Philadelphia Street, Whittier",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_notes",
+          "extra_bttf_ift",
+          "extra_bttf_guide",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The point anchors the Whittier High School campus used for Hill Valley High. Its physical address does not relocate Hill Valley into Los Angeles."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Marty McFly",
+        "Mr. Strickland",
+        "George McFly",
+        "Lorraine Baines"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Hill Valley High School",
+          "filming_component": "Whittier High School exterior",
+          "source_ids": [
+            "extra_bttf_notes",
+            "extra_bttf_ift",
+            "extra_bttf_guide"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1955.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Marty McFly",
+              "relationship": "visits"
+            },
+            {
+              "name": "Mr. Strickland",
+              "relationship": "works here"
+            },
+            {
+              "name": "George McFly",
+              "relationship": "attends school"
+            },
+            {
+              "name": "Lorraine Baines",
+              "relationship": "attends school"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        },
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Hill Valley High School",
+          "filming_component": "Whittier High School exterior",
+          "source_ids": [
+            "extra_bttf_notes",
+            "extra_bttf_ift",
+            "extra_bttf_guide"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1985.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Marty McFly",
+              "relationship": "attends school"
+            },
+            {
+              "name": "Mr. Strickland",
+              "relationship": "works here"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "The school exterior is in Whittier; the dance interior is a separate Hollywood church gym.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-603-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqZ2olL2tqllwQaIq1rUYR8Fzgn2lkyAHbhOKk4a7OI9HI6uU-Q3I-RMZJpYoezaqfuNP5_siVhfLWPXLrQiO14NMzPy8IwBHFi1uUrk67VzdSdjxvpxXKYbgfUWpJpVdb4979SJp2BfK/s1200/Hill+School.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Hill Valley High School exterior.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 709,
+          "height": 528
+        },
+        "place": {
+          "src": "photos/extra-bttf-603-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHDELmMqzMe_g1Z49-sAmnOKuudDzFJNGvmXcTQMcJOsVAIZFk54zeyPsUEHeKi5Xp48yCeCder0meqmBrox4GVJntzhOZ4lgygJ1H8dEoYcsZvjdxVL_RvVqGbmoLN75nhGyOBoAzk8TP/s1200/LA+2007+Pictures+435.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Whittier High School’s administration entrance.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 604,
+      "name": "River Road Tunnel",
+      "short": "River Road Tunnel",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Mount Hollywood Drive at Vermont Canyon Road, Griffith Park, Los Angeles",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.300138,
+        34.12367
+      ],
+      "productionCoordinates": [
+        -118.300138,
+        34.12367
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Mount Hollywood Drive at Vermont Canyon Road, Griffith Park, Los Angeles",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_ift2",
+          "extra_bttf_rtr2",
+          "extra_bttf_conservancy",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The pin marks the real tunnel’s eastern approach. The matching portal is documented in film-frame comparisons; it represents a Hill Valley road in the story."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Marty McFly",
+        "Biff Tannen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future Part II",
+          "release_year": 1989,
+          "story_role": "River Road Tunnel",
+          "filming_component": "Mount Hollywood Tunnel east portal",
+          "source_ids": [
+            "extra_bttf_ift2",
+            "extra_bttf_rtr2",
+            "extra_bttf_conservancy",
+            "extra_bttf_part2"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The school dance and River Road sequence occur on 12 November 1955.",
+            "source_ids": [
+              "extra_bttf_humc_dance",
+              "extra_bttf_part2"
+            ],
+            "month": 11,
+            "day": 12
+          },
+          "characters": [
+            {
+              "name": "Marty McFly",
+              "relationship": "passes through"
+            },
+            {
+              "name": "Biff Tannen",
+              "relationship": "drives through"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "The film’s River Road tunnel sequence takes place in 1955, not 2015.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-604-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisZ91AP2B_NJhyphenhyphenR-OmQGS-kPig8A2A-usCEFNyzMTy2k-e-oAOtUph9KwO1iSo2r3WY9YJhAUKEcqEzC-5BiylBFEhnc-kJZjd3TbmHcQGixO3CFsZ6wob4gClSQzIkC_eFMbDSyzN4wG9/s1200/Screen+Shot+2021-06-22+at+11.07.08+PM.png",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2025/07/back-to-future-part-ii-1989.html?m=0",
+          "credit": "Back to the Future Part II / Universal Pictures; Reel to Real Filming Locations",
+          "alt": "Biff’s car approaches the River Road tunnel with Marty hiding behind him.",
+          "note": "Film frame.",
+          "title": "Back to the Future Part II",
+          "spoiler": true,
+          "width": 1073,
+          "height": 573
+        },
+        "place": {
+          "src": "photos/extra-bttf-604-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp_x9VNERL7k_m2qwVX2Sjvbsf8fpKHqxpHxduOgC3fO0AMydsK9ssBO2ISO9kJGT35nVSf4bPrylzm5c3uOaMEaEqTE0Hj4fsQcc6IS2xSDubon14urMu2P8w-ry8cBafYEBLIIOrA_5HnQU2QQ_ey4jRSl0FItRQmReNE9QiKqQ2GdvDjwalWYVxkXwy/s1200/IMG_8954.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2025/07/back-to-future-part-ii-1989.html?m=0",
+          "credit": "Reel to Real Filming Locations",
+          "alt": "Mount Hollywood Tunnel’s eastern portal.",
+          "note": "Published in the July 2025 location comparison; exact capture date not supplied.",
+          "width": 1200,
+          "height": 676
+        }
+      }
+    },
+    {
+      "id": 605,
+      "name": "Enchantment Under the Sea dance",
+      "short": "Enchantment Under the Sea dance",
+      "category": "event",
+      "categories": [
+        "event",
+        "hangout"
+      ],
+      "address": "6817 Franklin Avenue, Hollywood, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.339047710569,
+        34.104272888091
+      ],
+      "productionCoordinates": [
+        -118.339047710569,
+        34.104272888091
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "6817 Franklin Avenue, Hollywood, Los Angeles",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_ift",
+          "extra_bttf_humc",
+          "extra_bttf_humc_dance",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The church confirms its Back to the Future filming credit and identifies its gym as the dance venue. This pin is the real Hollywood campus; the story venue remains Hill Valley High."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Marty McFly",
+        "George McFly",
+        "Lorraine Baines",
+        "Marvin Berry"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Enchantment Under the Sea dance",
+          "filming_component": "Hollywood United Methodist Church gymnasium",
+          "source_ids": [
+            "extra_bttf_ift",
+            "extra_bttf_humc",
+            "extra_bttf_humc_dance"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "The school dance and River Road sequence occur on 12 November 1955.",
+            "source_ids": [
+              "extra_bttf_humc_dance",
+              "extra_bttf_part2"
+            ],
+            "month": 11,
+            "day": 12
+          },
+          "characters": [
+            {
+              "name": "Marty McFly",
+              "relationship": "performs"
+            },
+            {
+              "name": "George McFly",
+              "relationship": "attends"
+            },
+            {
+              "name": "Lorraine Baines",
+              "relationship": "attends"
+            },
+            {
+              "name": "Marvin Berry",
+              "relationship": "performs"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "The gym stage supplied the dance interior; the school exterior was filmed in Whittier.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-605-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXkYhMLBD3svyUxQuTEUkxbkijxMQ4bdiNHg4xDrcR1Aq2znlKs4I5Zw8gERv0tvecNPs754Yn9-xeloadLI-9Cd-eCjyRaJtMIVMaAlyaxJrDgsZGZY2MP5-7ke9uJxPd914LyOH-hVB7/s1200/Dance+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Marvin Berry and the Starlighters on the school-dance stage.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 715,
+          "height": 531
+        },
+        "place": {
+          "src": "photos/extra-bttf-605-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGy2HUqlxo5tIRXwIzKy_zCDwgf9JGSfsxsoGxAUtRClNk-_rM4YIqWWMKo1X9vtgq2-GjnD8aj0NNHw7D-oznuejDmDu4ksG11Rl8BztSZa2v-VvRkcAl88vu0f2r-FCxBUu100FgQXqJ/s1200/LA+Trip+071.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The same gymnasium stage without the film’s dance decorations.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 606,
+      "name": "Twin Pines Mall",
+      "short": "Twin Pines Mall",
+      "category": "event",
+      "categories": [
+        "event",
+        "hangout"
+      ],
+      "address": "1600 South Azusa Avenue, City of Industry",
+      "area": "City of Industry",
+      "coordinates": [
+        -117.926706605557,
+        33.993405161422
+      ],
+      "productionCoordinates": [
+        -117.926706605557,
+        33.993405161422
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1600 South Azusa Avenue, City of Industry",
+        "precision": "production-site",
+        "sourceIds": [
+          "extra_bttf_ift",
+          "extra_bttf_guide",
+          "extra_bttf_geocoder"
+        ],
+        "reason": "The point anchors the real mall complex, not an exact DeLorean driving path. Twin Pines Mall belongs to fictional Hill Valley."
+      },
+      "storySetting": {
+        "name": "Hill Valley, California",
+        "canonicalLA": false
+      },
+      "people": [
+        "Emmett “Doc” Brown",
+        "Marty McFly",
+        "Einstein"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Back to the Future",
+          "release_year": 1985,
+          "story_role": "Twin Pines Mall",
+          "filming_component": "Puente Hills Mall south parking lot",
+          "source_ids": [
+            "extra_bttf_ift",
+            "extra_bttf_guide"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The story explicitly visits 1955 and 1985; this appearance belongs to 1985.",
+            "source_ids": [
+              "extra_bttf_notes"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Emmett “Doc” Brown",
+              "relationship": "tests the DeLorean"
+            },
+            {
+              "name": "Marty McFly",
+              "relationship": "records the test"
+            },
+            {
+              "name": "Einstein",
+              "relationship": "takes part in the test"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "The time-machine test was filmed in the mall’s south parking lot.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-bttf-606-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGGR-F4tMk3trHSrzbLlOtDSYlNUNsd5SNzQTY-v-QUWAjnKavM5OUs-HmLbgv3nNnh_YseyK41txdNoBoIwoLP4t7OHJ54xGEh9c8DeOxF3RQoQghyphenhyphenx_ZPfkorSUwXalOo85XBpnIfmYk/s1200/Mall+1.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Marty looks over Twin Pines Mall’s parking lot before the test.",
+          "note": "Film frame.",
+          "title": "Back to the Future",
+          "spoiler": false,
+          "width": 717,
+          "height": 493
+        },
+        "place": {
+          "src": "photos/extra-bttf-606-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis6_X-LhxfOoj5TbiKNrUQQ_YIJ50KgPHrILXRBfQnS2I6AbPTxbMOMHE9yrIIara7z_SKyDOyD0KNWe0HX74Mv3M2MZwKRtXZyIw85EvvFYX3PbeSHbdyvH73NauwkpFymbYAzIJ8poePjX9oyUTbSB4XQDAsQ-ExkBhrJHqxfcf3Zp5uqi5dSqrm4ck/s1200/B.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The matching Puente Hills Mall facade and parking lot.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "width": 1200,
+          "height": 674
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "extra_bttf_notes",
+      "title": "Back to the Future: original production notes",
+      "url": "https://www.backtothefuture.com/movies/production-notes-1985",
+      "source_type": "official production notes"
+    },
+    {
+      "id": "extra_bttf_ift",
+      "title": "Chas Demster: Back to the Future scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_bttf_ift2",
+      "title": "Chas Demster: Back to the Future Part II scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2015/01/back-to-future-part-ii.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_bttf_guide",
+      "title": "Worldwide Guide: Back to the Future locations",
+      "url": "https://www.movie-locations.com/movies/b/Back-To-The-Future.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "extra_bttf_rtr2",
+      "title": "Reel to Real: Back to the Future Part II locations",
+      "url": "https://rtrlocations.blogspot.com/2025/07/back-to-future-part-ii-1989.html?m=0",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_bttf_humc",
+      "title": "Hollywood United Methodist Church: address and filming credits",
+      "url": "https://hollywoodumc.org/faq/",
+      "source_type": "location owner"
+    },
+    {
+      "id": "extra_bttf_humc_dance",
+      "title": "Hollywood UMC: Enchantment Under the Sea Dance 2026",
+      "url": "https://www.eventbrite.com/e/enchantment-under-the-sea-dance-2026-tickets-2002848921038",
+      "source_type": "location-owner event"
+    },
+    {
+      "id": "extra_bttf_conservancy",
+      "title": "L.A. Conservancy: Griffith Park film locations",
+      "url": "https://www.laconservancy.org/wp-content/uploads/2022/11/FINAL_LRS_GriffithPark.pdf",
+      "source_type": "historic preservation organization"
+    },
+    {
+      "id": "extra_bttf_part2",
+      "title": "Back to the Future Part II: official synopsis",
+      "url": "https://www.backtothefuture.com/movies/backtothefuture2",
+      "source_type": "official film synopsis"
+    },
+    {
+      "id": "extra_bttf_geocoder",
+      "title": "Esri World Geocoding Service: address verification",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "address geocoder"
+    }
+  ],
+  "audit": [
+    {
+      "id": 600,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.16079815764,
+          34.151708969917
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4+Westmoreland+Place%2C+Pasadena%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "4 Westmoreland Pl, Pasadena, California, 91103",
+        "precision": "PointAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 601,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.319313934463,
+          34.179186109818
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=535+North+Victory+Boulevard%2C+Burbank%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "535 N Victory Blvd, Burbank, California, 91502",
+        "precision": "StreetAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 602,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.433479991943,
+          34.23899601411
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=9303+Roslyndale+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "9303 Roslyndale Ave, Arleta, California, 91331",
+        "precision": "PointAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 603,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.044100021033,
+          33.980220008632
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=12417+Philadelphia+Street%2C+Whittier%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "12417 Philadelphia St, Whittier, California, 90601",
+        "precision": "PointAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 604,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.300138,
+          34.12367
+        ],
+        "precision": "tunnel-portal",
+        "basis": "Named tunnel portal matched with specialist comparisons and aerial imagery."
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 605,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -118.339047710569,
+          34.104272888091
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6817+Franklin+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "6817 Franklin Ave, Los Angeles, California, 90028",
+        "precision": "PointAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 606,
+      "story_setting": "Hill Valley, Northern California; outside canonical Los Angeles",
+      "story_source_ids": [
+        "extra_bttf_notes"
+      ],
+      "production_geocode": {
+        "coordinates": [
+          -117.926706605557,
+          33.993405161422
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1600+South+Azusa+Avenue%2C+City+of+Industry%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "1600 S Azusa Ave, City Of Industry, California, 91748",
+        "precision": "PointAddress"
+      },
+      "photo_status": "locally downloaded film frame and matching real-place photograph; visually inspected",
+      "reviewed_on": "2026-11-17"
+    }
+  ]
+}

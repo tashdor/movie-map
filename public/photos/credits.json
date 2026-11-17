@@ -1168,6 +1168,30 @@
           }
         ]
       },
+      "Miracle Mile": {
+        "screen": {
+          "src": "photos/extra-cult-666-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW8gdI7RGfAP74KYctIi5zPst9VJpevbdb_WrVnj4ZoBffWvMrk_PQYsI4wK1vkky-xDZMkgbtbmJ5xLAm8NqIzpBIu8u0EnOIKGbgjAnGWp1amgt1PELzxyXWYvE1r4sfxirPGX_f0NU/s1600/JohniesCoffeeShop1_MiracleMile.jpg",
+          "width": 720,
+          "height": 536,
+          "title": "Miracle Mile",
+          "alt": "Johnie’s Coffee Shop in Miracle Mile",
+          "spoiler": false,
+          "credit": "Miracle Mile film frame; Movie Tourist"
+        },
+        "place": {
+          "src": "photos/extra-cult-666-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.362620427278%2C34.062650753194%2C-118.360620427278%2C34.063990753194&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Johnie’s Coffee Shop — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      },
       "Reservoir Dogs": {
         "place": {
           "src": "photos/037-place.jpg",
@@ -7968,6 +7992,1372 @@
       "alt": "The real white house at 27528 North Weeping Willow Drive.",
       "caption": "Site · undated",
       "note": "Street View photograph reproduced by the location guide. Capture date is not provided; not a claim of present-day condition."
+    }
+  },
+  "600": {
+    "screen": {
+      "src": "photos/extra-bttf-600-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvXASOXOd7FISsrBvvF9QGyY-kPECTH-IQXhuOWlePdLKY9cL45yrIrW4rA8WxYhseF77MvlRNVqdSZRrNR3jmARNc6PqBjJQvFH3u_6im4k56kO9EBeuTf_4r8c25obsn5xLHwwIabQT8/s1200/Doc+House+2.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Marty approaches Doc’s house at night.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 714,
+      "height": 449
+    },
+    "place": {
+      "src": "photos/extra-bttf-600-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAd_im8nKGw8Jd6Xb9eja5b-hY_QNvj886H-CoalUQ-Ex0g9bAQMS2qWhDZ6kWtmlapSxySuQOG54kMR0dC2PKND6QgVgs-zpshsYDiqkz4EwhA-8XIXxexXrtAsG1X_ofok1AiF5yTdamQ2UxL3A7I3JgGDJolsYwcEK1ZJ4gNl5YnNi5WhsYDiQn/s1200/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Gamble House exterior.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 904
+    },
+    "screenGallery": [
+      {
+        "src": "photos/extra-bttf-600-garage-screen.jpg",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpGoj1BF8NLAtlJF_TpWgsrzqeJ1a4NM5RDwV9WgCt0gioV0UCl1qVnirHrZ6z-aDIRSAjGK_V8Tn4bOpY0Jx-7WxJRlJuuweLaRBtVwoBmsScgpMs3K-ndmsE0GHco_whbKStoGXfytmW/s1200/Doc+House+1.JPG",
+        "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+        "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+        "alt": "Marty checks the 1640 address beside Doc’s carriage-house laboratory.",
+        "note": "Film frame.",
+        "title": "Back to the Future",
+        "spoiler": false,
+        "width": 714,
+        "height": 483
+      }
+    ]
+  },
+  "601": {
+    "screen": {
+      "src": "photos/extra-bttf-601-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfuy19U1etIWR9ca46SSeCkakDNuGusZC0H_EYB_IggFOS55iDnB3__IcMI653QV3PEOZWRgefWLQWp-AwhQb-OLRZ-rXuqE_wRJ02_K99OYoY4NPzKUF-fgjOfKK1ue7Ex0Y8NeSA3-bY/s1200/Burger+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Marty skateboards away from Doc’s wooden garage.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 714,
+      "height": 399
+    },
+    "place": {
+      "src": "photos/extra-bttf-601-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjIkv_nNQE7B-3g7XAij4kxfxfBOu_X6vg1JszvbujJk3UXaQ2g30MSA7ZmvNZOjeLQGtIbPLajQ6M_uqag5lE7uXvO5DZBnyDTAvWOyWI9VR17eK75yWSVhv5LMGdmhwZ-LnJHdEzQx54t387TlWgMlCWeerMelf4jldTTsLd9ra1JyK3vyUea7_-/s1200/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The parking area where the temporary garage stood.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 903
+    }
+  },
+  "602": {
+    "screen": {
+      "src": "photos/extra-bttf-602-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimo7GUpTIgo-4ZzqVnQLwGbVfzmxwjhkp0OKUqTWp9sX0gvmKo1kEoON31CDRtZbfDq7r4w94mOiw-uYYtol_xYYm0LIjOg-2XCioHzo28pj8PSndw03IrEPKzCjutESg5zHGOjRGYjbvv/s1200/Marty+House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Marty arrives outside the McFly family home.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 714,
+      "height": 490
+    },
+    "place": {
+      "src": "photos/extra-bttf-602-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxL4-Zorfvoa7OIrIHXu58fBd6Zxklt1-Fd2CAtXFYCSIQm26kClkwYFaMiSajMsiIQhslacieTBxTujqP4wg_NYbyNxZC3jjTP9ofcrSxlcFjRsPQyI08wauTSLe6-BGHy5NxDoJrhyEXr8nkySLkG8tT9OIz1IUCXab4p6OMvz-qhyQbJ5WFSaZ3UYc/s1200/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Roslyndale Avenue production house.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 675
+    }
+  },
+  "603": {
+    "screen": {
+      "src": "photos/extra-bttf-603-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqZ2olL2tqllwQaIq1rUYR8Fzgn2lkyAHbhOKk4a7OI9HI6uU-Q3I-RMZJpYoezaqfuNP5_siVhfLWPXLrQiO14NMzPy8IwBHFi1uUrk67VzdSdjxvpxXKYbgfUWpJpVdb4979SJp2BfK/s1200/Hill+School.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Hill Valley High School exterior.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 709,
+      "height": 528
+    },
+    "place": {
+      "src": "photos/extra-bttf-603-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHDELmMqzMe_g1Z49-sAmnOKuudDzFJNGvmXcTQMcJOsVAIZFk54zeyPsUEHeKi5Xp48yCeCder0meqmBrox4GVJntzhOZ4lgygJ1H8dEoYcsZvjdxVL_RvVqGbmoLN75nhGyOBoAzk8TP/s1200/LA+2007+Pictures+435.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Whittier High School’s administration entrance.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "604": {
+    "screen": {
+      "src": "photos/extra-bttf-604-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisZ91AP2B_NJhyphenhyphenR-OmQGS-kPig8A2A-usCEFNyzMTy2k-e-oAOtUph9KwO1iSo2r3WY9YJhAUKEcqEzC-5BiylBFEhnc-kJZjd3TbmHcQGixO3CFsZ6wob4gClSQzIkC_eFMbDSyzN4wG9/s1200/Screen+Shot+2021-06-22+at+11.07.08+PM.png",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2025/07/back-to-future-part-ii-1989.html?m=0",
+      "credit": "Back to the Future Part II / Universal Pictures; Reel to Real Filming Locations",
+      "alt": "Biff’s car approaches the River Road tunnel with Marty hiding behind him.",
+      "note": "Film frame.",
+      "title": "Back to the Future Part II",
+      "spoiler": true,
+      "width": 1073,
+      "height": 573
+    },
+    "place": {
+      "src": "photos/extra-bttf-604-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp_x9VNERL7k_m2qwVX2Sjvbsf8fpKHqxpHxduOgC3fO0AMydsK9ssBO2ISO9kJGT35nVSf4bPrylzm5c3uOaMEaEqTE0Hj4fsQcc6IS2xSDubon14urMu2P8w-ry8cBafYEBLIIOrA_5HnQU2QQ_ey4jRSl0FItRQmReNE9QiKqQ2GdvDjwalWYVxkXwy/s1200/IMG_8954.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2025/07/back-to-future-part-ii-1989.html?m=0",
+      "credit": "Reel to Real Filming Locations",
+      "alt": "Mount Hollywood Tunnel’s eastern portal.",
+      "note": "Published in the July 2025 location comparison; exact capture date not supplied.",
+      "width": 1200,
+      "height": 676
+    }
+  },
+  "605": {
+    "screen": {
+      "src": "photos/extra-bttf-605-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXkYhMLBD3svyUxQuTEUkxbkijxMQ4bdiNHg4xDrcR1Aq2znlKs4I5Zw8gERv0tvecNPs754Yn9-xeloadLI-9Cd-eCjyRaJtMIVMaAlyaxJrDgsZGZY2MP5-7ke9uJxPd914LyOH-hVB7/s1200/Dance+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Marvin Berry and the Starlighters on the school-dance stage.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 715,
+      "height": 531
+    },
+    "place": {
+      "src": "photos/extra-bttf-605-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGy2HUqlxo5tIRXwIzKy_zCDwgf9JGSfsxsoGxAUtRClNk-_rM4YIqWWMKo1X9vtgq2-GjnD8aj0NNHw7D-oznuejDmDu4ksG11Rl8BztSZa2v-VvRkcAl88vu0f2r-FCxBUu100FgQXqJ/s1200/LA+Trip+071.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The same gymnasium stage without the film’s dance decorations.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "606": {
+    "screen": {
+      "src": "photos/extra-bttf-606-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGGR-F4tMk3trHSrzbLlOtDSYlNUNsd5SNzQTY-v-QUWAjnKavM5OUs-HmLbgv3nNnh_YseyK41txdNoBoIwoLP4t7OHJ54xGEh9c8DeOxF3RQoQghyphenhyphenx_ZPfkorSUwXalOo85XBpnIfmYk/s1200/Mall+1.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Back to the Future / Universal Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Marty looks over Twin Pines Mall’s parking lot before the test.",
+      "note": "Film frame.",
+      "title": "Back to the Future",
+      "spoiler": false,
+      "width": 717,
+      "height": 493
+    },
+    "place": {
+      "src": "photos/extra-bttf-606-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis6_X-LhxfOoj5TbiKNrUQQ_YIJ50KgPHrILXRBfQnS2I6AbPTxbMOMHE9yrIIara7z_SKyDOyD0KNWe0HX74Mv3M2MZwKRtXZyIw85EvvFYX3PbeSHbdyvH73NauwkpFymbYAzIJ8poePjX9oyUTbSB4XQDAsQ-ExkBhrJHqxfcf3Zp5uqi5dSqrm4ck/s1200/B.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/back-to-future.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The matching Puente Hills Mall facade and parking lot.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "width": 1200,
+      "height": 674
+    }
+  },
+  "620": {
+    "screen": {
+      "src": "photos/extra-hv620-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1FgndW904xl5w1BAZMOxf00_5CvH2V7RUKEwUh0K7ZPlzdy109N8jpGvB5JYmrVU7ggHZNfQ4YuQyaPXCI8Dc4mywPdEGkk0R3QqHqau4vbDN0Xr7fTfY0dLFZ-iMosS0D2Rwj21LpPst/s1600/Halloween+House.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "The Myers house in Halloween",
+      "width": 832,
+      "height": 363,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv620-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4UQUpo9I7EqO-EAos1PCZCt76tTuDlqz2aUGywlr6034EHWaBRvg2CaP5TpcRk61d8r1Q5F7-4Obiw7ypkzxx8kD7KG1_MYEbYLO5eWEe0-eABeVQWBj7g_vyRk7P5zRPB_OMJtMakKc/s1600/Myers+House.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Myers house — real production site",
+      "width": 1280,
+      "height": 960,
+      "caption": "Site · relocated house",
+      "note": "The surviving house at its relocated 1000 Mission Street address, rather than the original filmed parcel. Capture date unverified."
+    }
+  },
+  "621": {
+    "screen": {
+      "src": "photos/extra-hv621-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA8_nXV4vw8DQ_yjBLOgA1_wWr5nAOO9D3GemdR6Td97xECo7ATjdU0olHa7FamoNwCL8SQ1cEQaB3jmxHi-uURM2xpHGZlEUNAlkrJsUfzAWfEbZX04-ez_NYbhCWd8VvJjeB0ihFPdCu/s1600/Jamie+House+1.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "Laurie Strode’s home in Halloween",
+      "width": 829,
+      "height": 357,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv621-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYEPsfd38aYms-Z53co7Vfx0x2SY9TytaZcd97rypK7x3_FeXjUvIXU2UvCUYimrga7GdUHBHa10WKiRir3gl8Shc6oTfpemABPzNu8sriLI9b29AUd3iBi6lVrD0XoUdM9KQfJt1FRKk/s1600/IMG_20170910_100547+-+Copy.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Laurie Strode’s home — real production site",
+      "width": 1600,
+      "height": 1200,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "622": {
+    "screen": {
+      "src": "photos/extra-hv622-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQtihl9vVqoILzz_NRdo_RIuluM8Tx8B_RyQTGo_F0Yr6qgeerAxztq99Xf_wicMCUhr0auVmvm7I-rQnvCcVJy2EEYzhvqLxH-4CeANOHXJ41AsaglZf47lpwNrnWypk4zNpF41-fv5O4/s1600/School+1.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "Tommy Doyle’s school in Halloween",
+      "width": 829,
+      "height": 359,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv622-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZoMC8VWj9WDRSlX2hDMihljL-N1GpR5ip6eui3dz_8sZ9_Sn5aW_lfgAw6H2YWGGt7OHdYu_fT0i1rYthE5a2EHQoSOanSeIGdhnDCGjZzxiTbGCx7L47q4Zc87Uhd-MFgjjxDNrwhsg/s1600/Los+Angeles+2010+210.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Tommy Doyle’s school — real production site",
+      "width": 1600,
+      "height": 1200,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "623": {
+    "screen": {
+      "src": "photos/extra-hv623-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjokMj3qaucuiaWyqF1vFYHmviGkRDYiersoInfWqHfokZZgbO49wdev2V9qf2mniMGioPO9UnnDvw5Mf04IWDRWDFYqgHywDmODakAXyNtUvgguU19CYUOiBVG3WtrW0MJQHVWfvDTi82y/s1600/Murder+House.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "The Wallace home in Halloween",
+      "width": 831,
+      "height": 366,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv623-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4XSoGtT3K8bWW_D3BxxeHVlcbTOej0tjBKAY1FjOz0R_c0GqJTkJ5Ng6subttrvkazFcKMTgJiZeoG9h29HiRDYehQeFKAxSfwJRwZf256Vc34n4E_rk-Bkd3pc-TFQ4P0SR2z7O7LCE/s1600/IMG_20190309_072913.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Wallace home — real production site",
+      "width": 1600,
+      "height": 1200,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "624": {
+    "screen": {
+      "src": "photos/extra-hv624-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiunaWVuy05KJzO2crUlgB4RJy-10eOVXQFSL8ICyZIF93wNMj71U6uLqu5rUd_KNKeVHz8dRIGJ9IAcKPJ4pcz_MTphmNiAUcHMJODfYw82g7ssKw9bJHogYiNmdqknipqs56f_eJ_-bqT/s1600/Babysit+House.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "The Doyle home in Halloween",
+      "width": 834,
+      "height": 374,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv624-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlq3RQJkcLMjWwgN8-uGdsGW5gPg7uNbY5jfJE5FQ7XPghQeREYS-HxxIfvLkbktd3HfTDnZ_gI7iEnFYEAc8RON66VUirXdd7bOw4B0r_Iq-yJ33qP7JzDIfXwP2iv8hu3GwH3mbSwbU/s1600/IMG_20190309_072836+-+Copy.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Doyle home — real production site",
+      "width": 1600,
+      "height": 1200,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "625": {
+    "screen": {
+      "src": "photos/extra-hv625-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXLbUSrONRYFCIwB-GJDDcd9Q6VpC4jOEACQ0I_GXRled2Q9ci5FV7aLGXR599N7BPoEAQ9YvHGQ1HW-OXdprw4BY7_LPJroX0FL8wKm4vGeUltMzbvj_OYOo3xeiFeHUHQfE3vRq1wac/s1600/Hedge+2.JPG",
+      "credit": "Halloween film frame; Chas Demster / It’s Filmed There",
+      "alt": "The hedge in Halloween",
+      "width": 832,
+      "height": 354,
+      "title": "Halloween",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv625-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/halloween.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrx8ShPcdGOwQ5eZxl-8AjVrxuSn4_sbMiTxEaYkEsIDk6xQdcaKqXLi9-DvWDxuyHXtKPZtoIAmohpKGUVbTeyCsbQkMcgx1Ge-sRRuFETAttpmM7P6VUNge9xpTXEX_nLKrm0WJvbqU/s1600/570+%25281%2529.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The hedge — real production site",
+      "width": 1600,
+      "height": 1195,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "626": {
+    "screen": {
+      "src": "photos/extra-hv626-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867853025-Q9KVG8VJW0IZUD31U373/Blank+1600+x+1490+%282%29.jpg",
+      "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+      "alt": "Valerie Gail’s home in Earth Girls Are Easy",
+      "width": 1600,
+      "height": 745,
+      "title": "Earth Girls Are Easy",
+      "spoiler": false,
+      "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-hv626-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867853025-Q9KVG8VJW0IZUD31U373/Blank+1600+x+1490+%282%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Valerie Gail’s home — real production site",
+      "width": 1600,
+      "height": 745,
+      "caption": "Site · source photo",
+      "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+    }
+  },
+  "627": {
+    "screen": {
+      "src": "photos/extra-hv627-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867896387-8JESILF0KC5FAWLGU723/Blank+1600+x+1490+%284%29.jpg",
+      "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+      "alt": "Curl Up & Dye in Earth Girls Are Easy",
+      "width": 1600,
+      "height": 745,
+      "title": "Earth Girls Are Easy",
+      "spoiler": false,
+      "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-hv627-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867896387-8JESILF0KC5FAWLGU723/Blank+1600+x+1490+%284%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Curl Up & Dye — real production site",
+      "width": 1600,
+      "height": 745,
+      "caption": "Site · source photo",
+      "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+    }
+  },
+  "628": {
+    "screen": {
+      "src": "photos/extra-hv628-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867990632-99FD5F3JT4E68HZ81FUO/Blank+1600+x+1490+%289%29.jpg",
+      "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+      "alt": "Deca Dance in Earth Girls Are Easy",
+      "width": 1600,
+      "height": 745,
+      "title": "Earth Girls Are Easy",
+      "spoiler": false,
+      "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-hv628-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620867990632-99FD5F3JT4E68HZ81FUO/Blank+1600+x+1490+%289%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Deca Dance — real production site",
+      "width": 1600,
+      "height": 745,
+      "caption": "Site · source photo",
+      "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+    }
+  },
+  "629": {
+    "screen": {
+      "src": "photos/extra-hv629-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620868052871-SXKQ1C28A5YIB00Q0QFD/Blank+1600+x+1490+%2813%29.jpg",
+      "credit": "Earth Girls Are Easy film frame; Robert Patterson / Set-Jetter",
+      "alt": "The gas station in Earth Girls Are Easy",
+      "width": 1600,
+      "height": 745,
+      "title": "Earth Girls Are Easy",
+      "spoiler": false,
+      "note": "Lower film-frame panel extracted from the published comparison, with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-hv629-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/earthgirlsareeasy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1620868052871-SXKQ1C28A5YIB00Q0QFD/Blank+1600+x+1490+%2813%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "The gas station — real production site",
+      "width": 1600,
+      "height": 745,
+      "caption": "Site · source photo",
+      "note": "Upper site-photograph panel extracted from the published comparison, with source credit retained. Capture date unverified; published in 2021."
+    }
+  },
+  "630": {
+    "screen": {
+      "src": "photos/extra-hv630-screen.jpg",
+      "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlP8VAniHJDTTlxTtYz37dXbKWFMEqpfIhOnccENJli3nZBf6C9Q03V0whCfH4tnhbpbrdrTI5_x4T9QPaEfLWy3LxLL_NdL6RyWp2XHtqFYN4LnVYw_mpS3-Liaz2I8ti7Hy1DutnW9Q/s1600/2013-02-09_11h44_09.jpg",
+      "credit": "Valley Girl film frame; San Fernando Valley Blog",
+      "alt": "Julie Richman’s home in Valley Girl",
+      "width": 1152,
+      "height": 648,
+      "title": "Valley Girl",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv630-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl2.jpg?w=1024",
+      "credit": "Film Oblivion",
+      "alt": "Julie Richman’s home — real production site",
+      "width": 1024,
+      "height": 768,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "631": {
+    "screen": {
+      "src": "photos/extra-hv631-screen.jpg",
+      "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZZl0yYwAJf_vFSUPdR8ksr31o5RlsoCEBrfIryGiuXPO8X2p8NqLo6b49_vVKQIKAv_XOOlPpKdnRmAOLGsm6tn8S2yfzhF58j5rKghjoN8HrNy7Q5C1rKpUEaFHdW1OlxM_61HtqlY/s1600/2013-02-09_11h34_03.jpg",
+      "credit": "Valley Girl film frame; San Fernando Valley Blog",
+      "alt": "Suzi Brent’s home in Valley Girl",
+      "width": 1152,
+      "height": 648,
+      "title": "Valley Girl",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv631-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl1.jpg?w=1024",
+      "credit": "Film Oblivion",
+      "alt": "Suzi Brent’s home — real production site",
+      "width": 1024,
+      "height": 768,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "632": {
+    "screen": {
+      "src": "photos/extra-hv632-screen.jpg",
+      "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuB_NyXUm_goZjp3anhpuDRfxJFbJB4X67tV3r785ufkaIySaDYmO2BlvJxg8Fp7ffPLje-goVFO8RkLWLda0n4cZiIxsgYw7GwrH4-1qg9PurVRnHPOjM4Mmw-8NRa706s6HLXHvKlsM/s1600/2013-02-09_11h49_19.jpg",
+      "credit": "Valley Girl film frame; San Fernando Valley Blog",
+      "alt": "Foods for Health in Valley Girl",
+      "width": 1152,
+      "height": 648,
+      "title": "Valley Girl",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv632-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2020/10/valleygirl3.jpg?w=768",
+      "credit": "Film Oblivion",
+      "alt": "Foods for Health — real production site",
+      "width": 768,
+      "height": 1024,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date is not independently verified."
+    }
+  },
+  "633": {
+    "screen": {
+      "src": "photos/extra-hv633-screen.jpg",
+      "sourceUrl": "https://sanfernandovalleyblog.blogspot.com/2012/03/filming-locations-valley-girl-1983.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOrmWT6H1VUsnvp4PdFl3qz1IL4bjIL1d7BEBfp2Hdz63kNrF6BCaGTJsL_0f2iXr-JXEvyKc1iqtS8IV2BYnYttRUFzAqsHmCZmFtYNTziMt2z8gDX_4zzkZFJ3dX7DqlBJp3CaUZyVo/s1600/2013-02-09_11h50_25.jpg",
+      "credit": "Valley Girl film frame; San Fernando Valley Blog",
+      "alt": "Du-Par’s in Valley Girl",
+      "width": 1152,
+      "height": 648,
+      "title": "Valley Girl",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-hv633-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2020/10/21/valley-girl-1983/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/boogienights4.jpg?w=676",
+      "credit": "Film Oblivion",
+      "alt": "Du-Par’s — real production site",
+      "width": 676,
+      "height": 504,
+      "caption": "Site · source photo",
+      "note": "Interior photographed before the restaurant closed; it is an archival view, not a claim about the premises today."
+    }
+  },
+  "650": {
+    "screen": {
+      "src": "photos/extra-cult-650-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9B3Z0mhSvo3lWucWjXc9NRGVeyqRDFy47athwnZaNdTHgj7WCHR48vgteSPyIe5JLGditzIHB14V0eWsrLn92Qr1EPr3wjfhdnsRAefGkxwtPuTV-zsAJwAm-3WZuKg5lqad-cXsjpPej/s1600/School.JPG",
+      "width": 846,
+      "height": 460,
+      "title": "Fast Times at Ridgemont High",
+      "alt": "Ridgemont High School in Fast Times at Ridgemont High",
+      "spoiler": false,
+      "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+    },
+    "place": {
+      "src": "photos/extra-cult-650-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.457600021537%2C34.187375013287%2C-118.45260002153701%2C34.190725013287&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Ridgemont High School — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "651": {
+    "screen": {
+      "src": "photos/extra-cult-651-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjJQPiPkwVPLw04OuZPRQZEf_uZQ5Gy9wy2cvNagzK1oiHEGTFjyLY6doq0ZT0Vuwi5gXG8e-_kl9_wnjSAf1K56poazxarG2RhDi8yWEOybULHTrjc2lfW-jYX6ZnjUWzVmta1LFVtTYU/s1600/House.JPG",
+      "width": 846,
+      "height": 460,
+      "title": "Fast Times at Ridgemont High",
+      "alt": "Brad & Stacy Hamilton’s home in Fast Times at Ridgemont High",
+      "spoiler": false,
+      "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+    },
+    "place": {
+      "src": "photos/extra-cult-651-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.65234099435601%2C34.19234804816%2C-118.650340994356%2C34.19368804816&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Brad & Stacy Hamilton’s home — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "652": {
+    "screen": {
+      "src": "photos/extra-cult-652-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit793145BOpRthsvkuFE8-jr5SXbgAv_x18cbSunHVQkd5MV9NZWTrfx1xOJap-vSShNiVNcw-Bq96Mr4ZjGEdpxfh7EbrQivB3gHFGn_5irrALp5zfHThzbN7hgrF6NYo2Z2h6xOYXIOq/s1600/Mall+Interior.JPG",
+      "width": 843,
+      "height": 461,
+      "title": "Fast Times at Ridgemont High",
+      "alt": "Ridgemont Mall in Fast Times at Ridgemont High",
+      "spoiler": false,
+      "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+    },
+    "place": {
+      "src": "photos/extra-cult-652-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.469916976796%2C34.154141982573%2C-118.464916976796%2C34.157491982573&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Ridgemont Mall — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "653": {
+    "screen": {
+      "src": "photos/extra-cult-653-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFK0CG7iiO6qJ_rF2H8IMPH7MXuC1cGfqnRz7G2UFbDr4g91v4bzU5H-j1Vw2xU1USC5T1164HBwgfSiIEy3Xkmkg2tI_qzJz2K5v76zs-YUmGaFgo3YLeMkhbgjEO3mC3QPfHYCElKhoU/s1600/Restaurant.JPG",
+      "width": 827,
+      "height": 458,
+      "title": "Fast Times at Ridgemont High",
+      "alt": "All American Burger in Fast Times at Ridgemont High",
+      "spoiler": false,
+      "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+    },
+    "place": {
+      "src": "photos/extra-cult-653-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.466098793835%2C34.052801639777%2C-118.46409879383499%2C34.054141639777&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "All American Burger — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "654": {
+    "screen": {
+      "src": "photos/extra-cult-654-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-V_ojBgKxQSCJUF9J7lic_Y8lmo7qsjWBkNrWAMShogNkU-cyzbMa-ZXcG1DFJaGjCW46cGydqrJxNlhAvJK4YdLoxZ4eAkVih_OgekyOvNYiOZTcGFl00uB-R59C7u3v9Qpm8k0bxN0/s1600/Brad.jpg",
+      "width": 1119,
+      "height": 610,
+      "title": "Fast Times at Ridgemont High",
+      "alt": "Captain Hook Fish & Chips in Fast Times at Ridgemont High",
+      "spoiler": false,
+      "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+    },
+    "place": {
+      "src": "photos/extra-cult-654-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.50302996214%2C34.226763011042%2C-118.50102996214%2C34.228103011042&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Captain Hook Fish & Chips — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "655": {
+    "screen": {
+      "src": "photos/extra-cult-655-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway1.jpg?w=1000",
+      "width": 1000,
+      "height": 414,
+      "title": "Lost Highway",
+      "alt": "Fred & Renee Madison’s home in Lost Highway",
+      "spoiler": false,
+      "credit": "Lost Highway film frame; Film Oblivion"
+    },
+    "place": {
+      "src": "photos/extra-cult-655-place.jpg",
+      "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNDCjzeJRlcoJ120CW9PMDTropxOIajpbZ9iVLIN_WkuBxdUXm8xZXP2wTj7KhuCFxTn3dMW26OO9iqfCZByndstrjfz1UyztJ2ViZvd-jM8PSiNYSly7-roWoUGqABPfeaQuYdtmhmsQzjk-DXvTNzJbprvSA6YN1o272kozYyqdihWOF7up8RUw1/w640-h588/LostHighway2.png",
+      "width": 640,
+      "height": 588,
+      "alt": "Fred & Renee Madison’s home — real filming site",
+      "credit": "Then & Now Movie Locations",
+      "date": "2021",
+      "caption": "Film / site · 2021"
+    }
+  },
+  "656": {
+    "screen": {
+      "src": "photos/extra-cult-656-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway4.jpg?w=1000",
+      "width": 1000,
+      "height": 413,
+      "title": "Lost Highway",
+      "alt": "Pete Dayton’s home in Lost Highway",
+      "spoiler": false,
+      "credit": "Lost Highway film frame; Film Oblivion"
+    },
+    "place": {
+      "src": "photos/extra-cult-656-place.jpg",
+      "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzg1CM6MZARk9FRW4y3hdyuBANDbF8bbtWYtAmX-0ZZRYCa7pg4st-8IJzdLslTIQU9apW4BHSBsOi_XjHUzJ2YiSuiXRU9onQ6SyvxSRBxHxKG_2sVT-llrkL3ygr2DbxjYN3VWY0Wz_fRWP13apDPa7GV4fylTZtLvYoqLu-pTnpq5NrkbOYDnvp/w640-h590/LostHighway4.png",
+      "width": 639,
+      "height": 590,
+      "alt": "Pete Dayton’s home — real filming site",
+      "credit": "Then & Now Movie Locations",
+      "date": "2021",
+      "caption": "Film / site · 2021"
+    }
+  },
+  "657": {
+    "screen": {
+      "src": "photos/extra-cult-657-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway5.jpg?w=1000",
+      "width": 1000,
+      "height": 414,
+      "title": "Lost Highway",
+      "alt": "Arnie’s Car Service in Lost Highway",
+      "spoiler": false,
+      "credit": "Lost Highway film frame; Film Oblivion"
+    },
+    "place": {
+      "src": "photos/extra-cult-657-place.jpg",
+      "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDlA1fJ7t2rEzmEL1xcaPUWabkvsts7SrG2EzZhAH-JVarga_Ww6FX8SI5SqvXmwT5_NeKTY1AsWl02sndH6ARHNX4R5tZW3C3-m9KG5YsTqkuo00Fp89foMetBhQs84F0o7wHtu15EpIJ9hXd-nh2BPToKwPK7mfstj3IdFlTQPyBUsFVtILWdPzo/w640-h590/LostHighway6.png",
+      "width": 640,
+      "height": 589,
+      "alt": "Arnie’s Car Service — real filming site",
+      "credit": "Then & Now Movie Locations",
+      "date": "2022",
+      "caption": "Film / site · 2022"
+    }
+  },
+  "658": {
+    "screen": {
+      "src": "photos/extra-cult-658-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway2.jpg?w=1000",
+      "width": 1000,
+      "height": 413,
+      "title": "Lost Highway",
+      "alt": "Luna Lounge in Lost Highway",
+      "spoiler": false,
+      "credit": "Lost Highway film frame; Film Oblivion"
+    },
+    "place": {
+      "src": "photos/extra-cult-658-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/08/10/lost-highway-1997/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/08/losthighway3.jpg",
+      "width": 1200,
+      "height": 900,
+      "alt": "Luna Lounge — real filming site",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by publisher."
+    }
+  },
+  "659": {
+    "screen": {
+      "src": "photos/extra-cult-659-screen.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_lead4_universal.jpg?w=1000",
+      "width": 1000,
+      "height": 561,
+      "title": "Repo Man",
+      "alt": "Helping Hand Acceptance Corporation in Repo Man",
+      "spoiler": false,
+      "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/extra-cult-659-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251816612621%2C34.033830794501%2C-118.24981661262099%2C34.035170794501&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Helping Hand Acceptance Corporation — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "660": {
+    "screen": {
+      "src": "photos/extra-cult-660-screen.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_unitedfruitcake1_universal.jpg?w=1000",
+      "width": 1000,
+      "height": 560,
+      "title": "Repo Man",
+      "alt": "United Fruitcake Outlet in Repo Man",
+      "spoiler": false,
+      "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/extra-cult-660-place.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_unitedfruitcake2_jaredcowan.jpg?w=1000",
+      "width": 1000,
+      "height": 664,
+      "alt": "United Fruitcake Outlet — real filming site",
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2024"
+    }
+  },
+  "661": {
+    "screen": {
+      "src": "photos/extra-cult-661-screen.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_liquorstore1_universal.jpg?w=1000",
+      "width": 1000,
+      "height": 561,
+      "title": "Repo Man",
+      "alt": "Lindley liquor store in Repo Man",
+      "spoiler": true,
+      "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/extra-cult-661-place.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_liquorstore2_jaredcowan.jpg?w=1000",
+      "width": 1000,
+      "height": 663,
+      "alt": "Lindley liquor store — real filming site",
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2024"
+    }
+  },
+  "662": {
+    "screen": {
+      "src": "photos/extra-cult-662-screen.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_4thstbridge3_universal.jpg?w=1000",
+      "width": 1000,
+      "height": 562,
+      "title": "Repo Man",
+      "alt": "Otto’s Fourth Street Bridge pursuit in Repo Man",
+      "spoiler": false,
+      "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/extra-cult-662-place.jpg",
+      "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_4thstbridge4_jaredcowan.jpg?w=1000",
+      "width": 1000,
+      "height": 666,
+      "alt": "Otto’s Fourth Street Bridge pursuit — real filming site",
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2024"
+    }
+  },
+  "663": {
+    "screen": {
+      "src": "photos/extra-cult-663-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/09/12/the-encino-man-house",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/09/fdc193a7-1137-4816-99c0-7575f998c78c.jpg",
+      "width": 782,
+      "height": 419,
+      "title": "Encino Man",
+      "alt": "Dave Morgan’s home in Encino Man",
+      "spoiler": false,
+      "credit": "Encino Man film frame; IAMNOTASTALKER"
+    },
+    "place": {
+      "src": "photos/extra-cult-663-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.652033629966%2C34.208707134316%2C-118.65003362996599%2C34.210047134316&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Dave Morgan’s home — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "664": {
+    "screen": {
+      "src": "photos/extra-cult-664-screen.jpg",
+      "sourceUrl": "https://www.ottplay.com/news/brendan-fraser-ke-huy-quans-journey-from-encino-man-to-oscars-2023/a5171f82bb196",
+      "imageUrl": "https://images.ottplay.com/images/brendan-fraser-and-ke-huy-quan-in-encino-man-1992-783.jpg?height=675&impolicy=ottplay-202501_high&width=1200",
+      "width": 1200,
+      "height": 675,
+      "title": "Encino Man",
+      "alt": "Encino High School in Encino Man",
+      "spoiler": false,
+      "credit": "Encino Man / Hollywood Pictures; reproduced by OTTplay"
+    },
+    "place": {
+      "src": "photos/extra-cult-664-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.419839966827%2C34.312509996446%2C-118.414839966827%2C34.315859996446&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Encino High School — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "665": {
+    "screen": {
+      "src": "photos/extra-cult-665-screen.jpg",
+      "sourceUrl": "https://www.plainzero.com/podcast/encinoman",
+      "imageUrl": "https://images.squarespace-cdn.com/content/56cb9937e32140833fc46bc1/1480885679483-BJ0MEDZDLJMCKX7Q2ESS/?content-type=image%2Fpng",
+      "width": 927,
+      "height": 551,
+      "title": "Encino Man",
+      "alt": "Mega Mountain in Encino Man",
+      "spoiler": false,
+      "credit": "Encino Man film frame; reproduced by Plain Zero"
+    },
+    "place": {
+      "src": "photos/extra-cult-665-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.60570347296199%2C34.430447984171%2C-118.600703472962%2C34.433797984171&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Mega Mountain — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "667": {
+    "screen": {
+      "src": "photos/extra-cult-667-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPDCdjeLAL0Oko5LaTnofBvbpa5eA7J8kHfXORoHycBpwi2M4pzGme2zayXmalmLl9mSEghSBrvYUT8QsBriZX2hZYJQm-Qk2hYM8AHLulqQMM7DuX_lA-_wv-PY3lxgp03fhLdhkCH4I/s1600/PageMuseum_MiracleMile.jpg",
+      "width": 720,
+      "height": 536,
+      "title": "Miracle Mile",
+      "alt": "La Brea Tar Pits & Page Museum in Miracle Mile",
+      "spoiler": false,
+      "credit": "Miracle Mile film frame; Movie Tourist"
+    },
+    "place": {
+      "src": "photos/extra-cult-667-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.359937689955%2C34.061648477313%2C-118.35493768995501%2C34.064998477313&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "La Brea Tar Pits & Page Museum — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "668": {
+    "screen": {
+      "src": "photos/extra-cult-668-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX8jK5MGwkIxd8MEZEzAcy6K1gVVmO2LZN9b15XlV0I6VT3IuU-Vyl51WDqdSZ0FOUnZQB-I8QmvX_s1GRkN72Jp1a7eCwiy1jk1AYkyGPReDk26Sd6suhjmATsFCklHtclMzroMWn_kQ/s1600/ParkLaBreaDay_MiracleMile.jpg",
+      "width": 720,
+      "height": 536,
+      "title": "Miracle Mile",
+      "alt": "Julie Peters’s Park La Brea apartment in Miracle Mile",
+      "spoiler": false,
+      "credit": "Miracle Mile film frame; Movie Tourist"
+    },
+    "place": {
+      "src": "photos/extra-cult-668-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.357114226194%2C34.064842915236%2C-118.352114226194%2C34.068192915236&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Julie Peters’s Park La Brea apartment — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "669": {
+    "screen": {
+      "src": "photos/extra-cult-669-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOlQkJ1GA1k6jGiGGKGvtmPK1fVD4WTeAnM-Dc2HoAuohPTgE8WPgrJu5AHgdpAIyoTrxLNER-6URA03vHGW5Xr9BLG241v4OGd4sI3S-4DByrDIYafhJdpXI8N-FRY1410K9sqKQvH6Q/s1600/MutualBuilding1_MiracleMile.jpg",
+      "width": 720,
+      "height": 536,
+      "title": "Miracle Mile",
+      "alt": "Mutual Benefit Life Building in Miracle Mile",
+      "spoiler": false,
+      "credit": "Miracle Mile film frame; Movie Tourist"
+    },
+    "place": {
+      "src": "photos/extra-cult-669-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.360632214452%2C34.060416127998%2C-118.355632214452%2C34.063766127998&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Mutual Benefit Life Building — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "670": {
+    "screen": {
+      "src": "photos/extra-cult-670-screen.jpg",
+      "sourceUrl": "https://mikegdp.com/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/519c5919e4b02547d84c8161/1597904316510-HQE3KM8CEG2I8K48S3WW/Under_The_Silver_Lake_021.jpg",
+      "width": 1280,
+      "height": 536,
+      "title": "Under the Silver Lake",
+      "alt": "Sam & Sarah’s Rancho Silverlake apartments in Under the Silver Lake",
+      "spoiler": false,
+      "credit": "Under the Silver Lake / A24; Michael Gioulakis, ASC"
+    },
+    "place": {
+      "src": "photos/extra-cult-670-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake5.jpg?w=1000",
+      "width": 1000,
+      "height": 745,
+      "alt": "Sam & Sarah’s Rancho Silverlake apartments — real filming site",
+      "credit": "Film Oblivion",
+      "note": "Holiday Manor pool courtyard at 11966 Laurelwood Drive, Studio City; the street exterior is a separate Los Feliz component."
+    }
+  },
+  "671": {
+    "screen": {
+      "src": "photos/extra-cult-671-screen.jpg",
+      "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+      "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_lead1_a24.jpg",
+      "width": 800,
+      "height": 500,
+      "title": "Under the Silver Lake",
+      "alt": "Echo Park Lake in Under the Silver Lake",
+      "spoiler": false,
+      "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+    },
+    "place": {
+      "src": "photos/extra-cult-671-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+      "width": 1000,
+      "height": 750,
+      "alt": "Echo Park Lake — real filming site",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by publisher."
+    }
+  },
+  "672": {
+    "screen": {
+      "src": "photos/extra-cult-672-screen.jpg",
+      "sourceUrl": "https://mikegdp.com/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/519c5919e4b02547d84c8161/1597904316213-0MJBWQO6IHLJ92TX7PQY/Under_The_Silver_Lake_058.jpg",
+      "width": 1280,
+      "height": 536,
+      "title": "Under the Silver Lake",
+      "alt": "Silver Lake Reservoir in Under the Silver Lake",
+      "spoiler": true,
+      "credit": "Under the Silver Lake / A24; Michael Gioulakis, ASC"
+    },
+    "place": {
+      "src": "photos/extra-cult-672-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.26683%2C34.095795%2C-118.26183%2C34.099145&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "Silver Lake Reservoir — real filming site",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "673": {
+    "screen": {
+      "src": "photos/extra-cult-673-screen.jpg",
+      "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+      "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_thestandard1_a24.jpg",
+      "width": 800,
+      "height": 500,
+      "title": "Under the Silver Lake",
+      "alt": "The Standard rooftop in Under the Silver Lake",
+      "spoiler": false,
+      "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+    },
+    "place": {
+      "src": "photos/extra-cult-673-place.jpg",
+      "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+      "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_thestandard2_jaredcowan.jpg",
+      "width": 800,
+      "height": 500,
+      "alt": "The Standard rooftop — real filming site",
+      "credit": "Jared Cowan / Los Angeles Magazine",
+      "date": "2019"
+    }
+  },
+  "690": {
+    "screen": {
+      "src": "photos/extra-lw-690-screen.jpg",
+      "imageUrl": "https://www.seeing-stars.com/Locations/LethalWeapon/MelsTrailer.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/LethalWeapon1.shtml",
+      "credit": "Lethal Weapon / Warner Bros.; Seeing Stars",
+      "alt": "Riggs’s beach trailer and parked pickup.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon",
+      "spoiler": false,
+      "width": 450,
+      "height": 252
+    },
+    "place": {
+      "src": "photos/extra-lw-690-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaVDzMIDpanZo_5H-xx7wOt-qWlxSO0olFsOH_HwMCoCh5qw7f8CRhvw08c_GMou-3bZm21FqRVgZWA_sjnJ3ZGJXoYVKTrsSvu0Iun40Q5HH-Hnfxpd3bwLkWqQMYenYVRJ50bl29erM/s1200/Beach.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The same beach near Grand Avenue without the film trailer.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "691": {
+    "screen": {
+      "src": "photos/extra-lw-691-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbHtv2RQKEZ22I6sDqtZtC2GhDH6WwfBN3tA6RiNkjyqSRblNwgpVxFxNe71WW7PN5zBYF0vaUzX9AjyYN0wcAPfHH_NrIuFvUA4e9sk12-L_FfBLHH4zhZlEwHJsWy0AuZDQiFMOhkMM/s1200/Cliff+House.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon.html",
+      "credit": "Lethal Weapon / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "A helicopter approaches Hunsaker’s garden during the attack.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon",
+      "spoiler": true,
+      "width": 800,
+      "height": 445
+    },
+    "place": {
+      "src": "photos/extra-lw-691-place.jpg",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.422875506244%2C33.762953251994%2C-118.420475506244%2C33.764553251993995&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Aerial of the Via Segovia production mansion.",
+      "note": "Aerial of the production property. Imagery capture date not supplied by the active basemap.",
+      "caption": "Site · aerial",
+      "width": 1000,
+      "height": 650
+    }
+  },
+  "692": {
+    "screen": {
+      "src": "photos/extra-lw-692-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi43ucJubv9D_f4DMVCOCaqi3fEatFc8vIzHWFxRnjHoja0MgGqufPWi3jpBFnQNpbA4ZiVfIN0WB62TI8tuiY9frfDPOmgkBR1Mm__UVQpefv4kJ0XTesL-UV0eBvoH2j8LHV7wSi-tmM/s1200/Stilts+2.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "The Garcia House on its hillside supports.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 2",
+      "spoiler": false,
+      "width": 800,
+      "height": 339
+    },
+    "place": {
+      "src": "photos/extra-lw-692-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPPONsZG53ori9-nf8Qi4IFTZt2mP9Si01Eg-Li2q447qNYa1w0zmMY8RKxiAwOEHW4aNNUi2f3Z0Zuayrg9p7IWxmKlF8H76dOkQjPP2a28iN9IovvfUFqFin0qJIrErbpC7DeXtZPH2uWL8q83xHwduOBgY7cklJ94YdUAzQz125h5LRkr94FTybPs/s1200/D.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The real Garcia House entrance from Mulholland Drive.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 719
+    }
+  },
+  "693": {
+    "screen": {
+      "src": "photos/extra-lw-693-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3PIAE1u25TaDeXu8IFb-caFJk8BNg_KS8g1bCJ0rWDVXO9EuB1DaCBN0GxceqN3hXVSQGqOLjUi9oepkWfqqgvu5FsncI2p8NuJkhkG_agA06kMGicx8shdX38pwBVkEj9KjXIOqjSUA/s1200/Building+3.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "The consulate entrance during an anti-apartheid protest.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 2",
+      "spoiler": false,
+      "width": 800,
+      "height": 336
+    },
+    "place": {
+      "src": "photos/extra-lw-693-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-QJ1T4zicK8RYWzEHRDZvn2JFXzrPdEWeVUXI8BMZkj5z1FjC0u3YfJi579lEQiOUwKnCU-0eH2V0QJn357xqjFL40y1tmGLo3bdp-ihCMHJHT9nP-1oynksPg06u3tyxuWw-kqX8JI/s1200/Los+Angeles+2010+059.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The same Wilshire office-building facade.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "694": {
+    "screen": {
+      "src": "photos/extra-lw-694-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0IllCGrxQ8YLfneng9cU2vOjG_FrxCybkOZyFfqf1-rc2JDQlwI-NEBCqa1TmCSFHLNB4VFtSo97wnfzk-aVAa-BBORx429lprAwMyUjRB45Epm9B38Wd38iPXEb_XWXFs2PfrKI0Fvk/s1200/Hockey.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-3.html",
+      "credit": "Lethal Weapon 3 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "A hockey game inside the Great Western Forum.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 3",
+      "spoiler": false,
+      "width": 800,
+      "height": 325
+    },
+    "place": {
+      "src": "photos/extra-lw-694-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhICnrmdJWds0y_bLsnL8EOHfV7eA2cnuNpBNjmxdW0CRVTvrsS49p56OAoV2odXXXKKHp048Qr8XKkoSEAPF9ancdQrGWPRvw2ZXh8k_iLP0b98lyCEKhrD1y2LXgpcrd8pBEFR89xZWk/s1200/LA+Trip+264.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-3.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Forum’s exterior in a location-comparison photograph.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "695": {
+    "screen": {
+      "src": "photos/extra-lw-695-screen.jpg",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2009/04/bba1df69-0b6e-42af-9fbd-773a5c6f9bbd.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2009/04/16/paradise-cove",
+      "credit": "Lethal Weapon 4 / Warner Bros.; Lindsay Blake / IAMNOTASTALKER",
+      "alt": "Riggs and Lorna walk in front of their beach home.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 4",
+      "spoiler": false,
+      "width": 1077,
+      "height": 459
+    },
+    "place": {
+      "src": "photos/extra-lw-695-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXw0D5e0U6YUiOvU1yhlX60fVkn8UUFGxZFPMm-WCms1mpwqzv_ntngacw5LOPhHK8QMG9SKQChNlINsZpFdbstlMJ_THa2lHbBDQ-jheqQJLriHMWVcRQuRY1nuEguRF-WFEigv2KHsk/s1200/Beach+1.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Paradise Cove beach and pier near the former filming facade.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "696": {
+    "screen": {
+      "src": "photos/extra-lw-696-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMGIMRVM4LmagpKdtQWgsftlDjDjS-ZT2p-XdqaPom3XEL3aBMyl6GuPTqWOqNqlFDkkqHrZn1YF40mRcmqAVxjeuLRpuWvUIEfgtpdXE3K3QHrHYAkZH-QTAjVPTaTTmaPtktyWMfJ8/s1200/Building.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+      "credit": "Lethal Weapon 4 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "A waiter climbs out of Hop Louie’s upper window during the chase.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 4",
+      "spoiler": false,
+      "width": 800,
+      "height": 332
+    },
+    "place": {
+      "src": "photos/extra-lw-696-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWyskVHbdofmt2VB1ThVLSFtHcdwQFLL2Mrz12rPDOP3U82kp986-m87RElP7SexSNhd01r0Nn6EXJ-qTgbQftoUsgORRfk_ktdfmP3G2WFKEGhZUuDLoFQoVhnFkZXL75FKOkkHV-mk/s1200/Window.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Hop Louie’s pagoda-style entrance and upper window.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "710": {
+    "screen": {
+      "src": "photos/extra-lah710-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315056889-TXAUOGDV5CDWN2MZJBOC/Last+Action+Hero+%2869%29.jpg",
+      "credit": "Last Action Hero film frame; Robert Patterson / Set-Jetter",
+      "alt": "Jack Slater’s police station in Last Action Hero",
+      "width": 2400,
+      "height": 1000,
+      "title": "Last Action Hero",
+      "spoiler": false,
+      "note": "Film-frame panel extracted from the published comparison with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-lah710-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315056889-TXAUOGDV5CDWN2MZJBOC/Last+Action+Hero+%2869%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Jack Slater’s police station — real production site",
+      "width": 2400,
+      "height": 1000,
+      "caption": "Site · source photo",
+      "note": "Site-photograph panel extracted from the published comparison with source credit retained. Capture date unverified."
+    }
+  },
+  "711": {
+    "screen": {
+      "src": "photos/extra-lah711-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315130022-YUNY21JLPEBFK4DO62XH/Last+Action+Hero+%288%29.jpg",
+      "credit": "Last Action Hero film frame; Robert Patterson / Set-Jetter",
+      "alt": "Tony Vivaldi’s mansion in Last Action Hero",
+      "width": 2401,
+      "height": 1000,
+      "title": "Last Action Hero",
+      "spoiler": false,
+      "note": "Film-frame panel extracted from the published comparison with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-lah711-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315130022-YUNY21JLPEBFK4DO62XH/Last+Action+Hero+%288%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Tony Vivaldi’s mansion — real production site",
+      "width": 2401,
+      "height": 1000,
+      "caption": "Site · source photo",
+      "note": "Site-photograph panel extracted from the published comparison with source credit retained. Capture date unverified."
+    }
+  },
+  "712": {
+    "screen": {
+      "src": "photos/extra-lah712-screen.jpg",
+      "sourceUrl": "https://extstreet.com/Last_Action_Hero.html",
+      "imageUrl": "https://extstreet.com/stills/1717456976970016169779822258701.jpg",
+      "credit": "Last Action Hero film frame; Ext.Street",
+      "alt": "The Pandora Theatre in Last Action Hero",
+      "width": 360,
+      "height": 150,
+      "title": "Last Action Hero",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-lah712-place.jpg",
+      "sourceUrl": "https://www.laconservancy.org/learn/historic-places/orpheum-theatre-and-loft-building/",
+      "imageUrl": "https://www.laconservancy.org/wp-content/uploads/2022/11/orpheum_color2_bergerconser-600x500.jpg",
+      "credit": "Los Angeles Conservancy",
+      "alt": "The Pandora Theatre — real production site",
+      "width": 600,
+      "height": 500,
+      "caption": "Site · source photo",
+      "note": "Source photograph; capture date unverified."
+    }
+  },
+  "713": {
+    "screen": {
+      "src": "photos/extra-lah713-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315113888-M7EDQ5AU41ADK4W7CJFZ/Last+Action+Hero+%289%29.jpg",
+      "credit": "Last Action Hero film frame; Robert Patterson / Set-Jetter",
+      "alt": "The Slater family home in Last Action Hero",
+      "width": 2401,
+      "height": 1000,
+      "title": "Last Action Hero",
+      "spoiler": false,
+      "note": "Film-frame panel extracted from the published comparison with source lettering retained."
+    },
+    "place": {
+      "src": "photos/extra-lah713-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315113888-M7EDQ5AU41ADK4W7CJFZ/Last+Action+Hero+%289%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "The Slater family home — real production site",
+      "width": 2401,
+      "height": 1000,
+      "caption": "Site · source photo",
+      "note": "Site-photograph panel extracted from the published comparison with source credit retained. Capture date unverified."
+    }
+  },
+  "714": {
+    "screen": {
+      "src": "photos/extra-lah714-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315012307-9YYBHIT7PTFGZFB274Y7/Last+Action+Hero+%281%29.jpg",
+      "credit": "Last Action Hero film frame; Robert Patterson / Set-Jetter",
+      "alt": "Dekker outside Lincoln Elementary School in Last Action Hero, with the Culver Hotel behind him.",
+      "width": 2401,
+      "height": 1000,
+      "note": "Panel extracted from the published scene/site comparison; source lettering retained.",
+      "title": "Last Action Hero",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/extra-lah714-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/lastactionhero",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1748315012307-9YYBHIT7PTFGZFB274Y7/Last+Action+Hero+%281%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "The Culver Hotel exterior used in the opening school sequence.",
+      "width": 2401,
+      "height": 1000,
+      "note": "Panel extracted from the published scene/site comparison; source lettering retained. Capture date unverified.",
+      "caption": "Site · source photo"
     }
   }
 }

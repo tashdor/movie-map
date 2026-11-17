@@ -49,6 +49,18 @@ test('workplace filters follow appearances rather than the building forever',()=
   assert.equal(filterPlaces([griffith],{category:'work',time:time(1984)}).length,0);
   assert.equal(filterPlaces([griffith],{category:'work',time:time(1996)}).length,1);
 });
+test('the L.A. story filter removes outside settings across search, people and derived events',()=>{
+  const outside={...griffith,id:9900,storySetting:{name:'Hill Valley, California',canonicalLA:false},deaths:[{title:'Back to the Future',people:['Invented victim']}],appearances:[{...griffith.appearances[0],title:'Back to the Future',categories:['event','death'],characters:[{name:'Doc Brown',relationship:'visits'}]}]};
+  assert.equal(displayEntries([outside]).length,2);
+  assert.equal(filterPlaces([outside],{query:'Hill Valley'}).length,1);
+  assert.deepEqual(displayEntries([outside],{laOnly:true}),[]);
+  assert.deepEqual(displayEntries([outside],{query:'Doc Brown',laOnly:true}),[]);
+  const shared={...outside,appearances:[...outside.appearances,{...griffith.appearances[0],storySetting:{name:'Los Angeles, California',canonicalLA:true},title:'L.A. story',categories:['work']} ]};
+  const entries=displayEntries([shared],{laOnly:true});
+  assert.equal(entries.length,1);assert.deepEqual(entries[0].appearances.map(a=>a.title),['L.A. story']);
+  assert.deepEqual(entries[0].deaths,[]);
+  assert.deepEqual(displayEntries([griffith],{laOnly:true}),displayEntries([griffith]));
+});
 test('contemporary estimates stay visible and the full range restores every entry',()=>{
   const nakatomi=data.places.find(p=>p.id===16);
   assert.equal(matchingAppearances(nakatomi,time(1988)).length,1);
@@ -70,7 +82,7 @@ test('unpunctuated movie titles find every location for the film',()=>{
   }
 });
 test('shareable state roundtrips and clamps hostile/out-of-bounds inputs',()=>{
-  const state={selected:83,route:null,basemap:'map',person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
+  const state={laOnly:false,selected:83,route:null,basemap:'map',person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
   assert.deepEqual(readState(stateHash(state)),state);
   assert.deepEqual(readState('#from=9999&to=1').time,{all:true,from:1930,to:2030,undated:false});
   assert.equal(readState('#from=bad&to=1995').time.all,true);

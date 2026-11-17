@@ -1,0 +1,3426 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "places": [
+    {
+      "id": 650,
+      "name": "Ridgemont High School",
+      "short": "Ridgemont High School",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "6535 Cedros Avenue, Van Nuys",
+      "area": "Van Nuys",
+      "coordinates": [
+        -118.455100021537,
+        34.189050013287
+      ],
+      "productionCoordinates": [
+        -118.455100021537,
+        34.189050013287
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "6535 Cedros Avenue, Van Nuys",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_ft_ift",
+          "cult_ft_setting",
+          "cult_ft_ss",
+          "cult_geo"
+        ],
+        "reason": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "storySetting": {
+        "name": "Ridgemont, California",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Jeff Spicoli",
+        "Mr. Hand",
+        "Stacy Hamilton",
+        "Linda Barrett",
+        "Mark Ratner",
+        "Mike Damone"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Fast Times at Ridgemont High",
+          "release_year": 1982,
+          "story_role": "Ridgemont High School",
+          "filming_component": "6535 Cedros Avenue, Van Nuys, CA",
+          "source_ids": [
+            "cult_ft_ift",
+            "cult_ft_setting",
+            "cult_ft_ss"
+          ],
+          "story_time": {
+            "year": 1982,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_ft_ift",
+              "cult_ft_setting",
+              "cult_ft_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jeff Spicoli",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Mr. Hand",
+              "relationship": "teaches here"
+            },
+            {
+              "name": "Stacy Hamilton",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Linda Barrett",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Mark Ratner",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Mike Damone",
+              "relationship": "attends school here"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Ridgemont, California",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "Van Nuys High School supplies the entrance and exterior. Canoga Park High School was another campus component.",
+      "mapsQuery": "6535 Cedros Avenue, Van Nuys, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-650-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9B3Z0mhSvo3lWucWjXc9NRGVeyqRDFy47athwnZaNdTHgj7WCHR48vgteSPyIe5JLGditzIHB14V0eWsrLn92Qr1EPr3wjfhdnsRAefGkxwtPuTV-zsAJwAm-3WZuKg5lqad-cXsjpPej/s1600/School.JPG",
+          "width": 846,
+          "height": 460,
+          "title": "Fast Times at Ridgemont High",
+          "alt": "Ridgemont High School in Fast Times at Ridgemont High",
+          "spoiler": false,
+          "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+        },
+        "place": {
+          "src": "photos/extra-cult-650-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.457600021537%2C34.187375013287%2C-118.45260002153701%2C34.190725013287&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Ridgemont High School — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 651,
+      "name": "Brad & Stacy Hamilton’s home",
+      "short": "Brad & Stacy Hamilton’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "24124 Welby Way, West Hills",
+      "area": "West Hills",
+      "coordinates": [
+        -118.651340994356,
+        34.19301804816
+      ],
+      "productionCoordinates": [
+        -118.651340994356,
+        34.19301804816
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "24124 Welby Way, West Hills",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_ft_ift",
+          "cult_ft_setting",
+          "cult_geo"
+        ],
+        "reason": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "storySetting": {
+        "name": "Ridgemont, California",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Brad Hamilton",
+        "Stacy Hamilton",
+        "Linda Barrett"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Fast Times at Ridgemont High",
+          "release_year": 1982,
+          "story_role": "Brad & Stacy Hamilton’s home",
+          "filming_component": "24124 Welby Way, West Hills, CA",
+          "source_ids": [
+            "cult_ft_ift",
+            "cult_ft_setting"
+          ],
+          "story_time": {
+            "year": 1982,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_ft_ift",
+              "cult_ft_setting"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Brad Hamilton",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Stacy Hamilton",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Linda Barrett",
+              "relationship": "visits Stacy"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Ridgemont, California",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "24124 Welby Way, West Hills, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-651-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjJQPiPkwVPLw04OuZPRQZEf_uZQ5Gy9wy2cvNagzK1oiHEGTFjyLY6doq0ZT0Vuwi5gXG8e-_kl9_wnjSAf1K56poazxarG2RhDi8yWEOybULHTrjc2lfW-jYX6ZnjUWzVmta1LFVtTYU/s1600/House.JPG",
+          "width": 846,
+          "height": 460,
+          "title": "Fast Times at Ridgemont High",
+          "alt": "Brad & Stacy Hamilton’s home in Fast Times at Ridgemont High",
+          "spoiler": false,
+          "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+        },
+        "place": {
+          "src": "photos/extra-cult-651-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.65234099435601%2C34.19234804816%2C-118.650340994356%2C34.19368804816&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Brad & Stacy Hamilton’s home — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 652,
+      "name": "Ridgemont Mall",
+      "short": "Ridgemont Mall",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "15301 Ventura Boulevard, Sherman Oaks",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.467416976796,
+        34.155816982573
+      ],
+      "productionCoordinates": [
+        -118.467416976796,
+        34.155816982573
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "15301 Ventura Boulevard, Sherman Oaks",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_ft_ift",
+          "cult_ft_setting",
+          "cult_ft_ss",
+          "cult_geo"
+        ],
+        "reason": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "storySetting": {
+        "name": "Ridgemont, California",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Stacy Hamilton",
+        "Linda Barrett",
+        "Mark Ratner",
+        "Mike Damone"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Fast Times at Ridgemont High",
+          "release_year": 1982,
+          "story_role": "Perry’s Pizza and the mall cinema",
+          "filming_component": "15301 Ventura Boulevard, Sherman Oaks, CA",
+          "source_ids": [
+            "cult_ft_ift",
+            "cult_ft_setting",
+            "cult_ft_ss"
+          ],
+          "story_time": {
+            "year": 1982,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_ft_ift",
+              "cult_ft_setting",
+              "cult_ft_ss"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Stacy Hamilton",
+              "relationship": "works at Perry’s Pizza"
+            },
+            {
+              "name": "Linda Barrett",
+              "relationship": "works at Perry’s Pizza"
+            },
+            {
+              "name": "Mark Ratner",
+              "relationship": "works at the cinema"
+            },
+            {
+              "name": "Mike Damone",
+              "relationship": "hangs out at the mall"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Ridgemont, California",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The original Sherman Oaks Galleria interiors were rebuilt. Santa Monica Place supplied separate exterior shots.",
+      "mapsQuery": "15301 Ventura Boulevard, Sherman Oaks, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-652-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit793145BOpRthsvkuFE8-jr5SXbgAv_x18cbSunHVQkd5MV9NZWTrfx1xOJap-vSShNiVNcw-Bq96Mr4ZjGEdpxfh7EbrQivB3gHFGn_5irrALp5zfHThzbN7hgrF6NYo2Z2h6xOYXIOq/s1600/Mall+Interior.JPG",
+          "width": 843,
+          "height": 461,
+          "title": "Fast Times at Ridgemont High",
+          "alt": "Ridgemont Mall in Fast Times at Ridgemont High",
+          "spoiler": false,
+          "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+        },
+        "place": {
+          "src": "photos/extra-cult-652-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.469916976796%2C34.154141982573%2C-118.464916976796%2C34.157491982573&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Ridgemont Mall — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 653,
+      "name": "All American Burger",
+      "short": "All American Burger",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "11698 San Vicente Boulevard, Los Angeles",
+      "area": "Brentwood",
+      "coordinates": [
+        -118.465098793835,
+        34.053471639777
+      ],
+      "productionCoordinates": [
+        -118.465098793835,
+        34.053471639777
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "11698 San Vicente Boulevard, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_ft_ift",
+          "cult_ft_setting",
+          "cult_geo"
+        ],
+        "reason": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "storySetting": {
+        "name": "Ridgemont, California",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Brad Hamilton",
+        "Arnold"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Fast Times at Ridgemont High",
+          "release_year": 1982,
+          "story_role": "All American Burger",
+          "filming_component": "11698 San Vicente Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "cult_ft_ift",
+            "cult_ft_setting"
+          ],
+          "story_time": {
+            "year": 1982,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_ft_ift",
+              "cult_ft_setting"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Brad Hamilton",
+              "relationship": "works here"
+            },
+            {
+              "name": "Arnold",
+              "relationship": "works here"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Ridgemont, California",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "11698 San Vicente Boulevard, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-653-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFK0CG7iiO6qJ_rF2H8IMPH7MXuC1cGfqnRz7G2UFbDr4g91v4bzU5H-j1Vw2xU1USC5T1164HBwgfSiIEy3Xkmkg2tI_qzJz2K5v76zs-YUmGaFgo3YLeMkhbgjEO3mC3QPfHYCElKhoU/s1600/Restaurant.JPG",
+          "width": 827,
+          "height": 458,
+          "title": "Fast Times at Ridgemont High",
+          "alt": "All American Burger in Fast Times at Ridgemont High",
+          "spoiler": false,
+          "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+        },
+        "place": {
+          "src": "photos/extra-cult-653-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.466098793835%2C34.052801639777%2C-118.46409879383499%2C34.054141639777&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "All American Burger — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 654,
+      "name": "Captain Hook Fish & Chips",
+      "short": "Captain Hook Fish & Chips",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "8622 Balboa Boulevard, Northridge",
+      "area": "Northridge",
+      "coordinates": [
+        -118.50202996214,
+        34.227433011042
+      ],
+      "productionCoordinates": [
+        -118.50202996214,
+        34.227433011042
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "8622 Balboa Boulevard, Northridge",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_ft_ift",
+          "cult_ft_setting",
+          "cult_geo"
+        ],
+        "reason": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "storySetting": {
+        "name": "Ridgemont, California",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Brad Hamilton"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Fast Times at Ridgemont High",
+          "release_year": 1982,
+          "story_role": "Captain Hook Fish & Chips",
+          "filming_component": "8622 Balboa Boulevard, Northridge, CA",
+          "source_ids": [
+            "cult_ft_ift",
+            "cult_ft_setting"
+          ],
+          "story_time": {
+            "year": 1982,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_ft_ift",
+              "cult_ft_setting"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Brad Hamilton",
+              "relationship": "works here"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Ridgemont, California",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The former restaurant building has changed use.",
+      "mapsQuery": "8622 Balboa Boulevard, Northridge, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-654-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-V_ojBgKxQSCJUF9J7lic_Y8lmo7qsjWBkNrWAMShogNkU-cyzbMa-ZXcG1DFJaGjCW46cGydqrJxNlhAvJK4YdLoxZ4eAkVih_OgekyOvNYiOZTcGFl00uB-R59C7u3v9Qpm8k0bxN0/s1600/Brad.jpg",
+          "width": 1119,
+          "height": 610,
+          "title": "Fast Times at Ridgemont High",
+          "alt": "Captain Hook Fish & Chips in Fast Times at Ridgemont High",
+          "spoiler": false,
+          "credit": "Fast Times at Ridgemont High film frame; Chas Demster / It’s Filmed There"
+        },
+        "place": {
+          "src": "photos/extra-cult-654-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.50302996214%2C34.226763011042%2C-118.50102996214%2C34.228103011042&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Captain Hook Fish & Chips — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 655,
+      "name": "Fred & Renee Madison’s home",
+      "short": "Fred & Renee Madison’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "7035 Senalda Road, Los Angeles",
+      "area": "Hollywood Hills",
+      "coordinates": [
+        -118.306,
+        34.113
+      ],
+      "productionCoordinates": [
+        -118.343518282447,
+        34.11573019536
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "7035 Hollis, near the observatory · approximate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "cult_lh_fo",
+          "cult_lh_story",
+          "cult_lh_address",
+          "cult_geo"
+        ],
+        "reason": "Released dialogue gives the fictional address 7035 Hollis, near the observatory. No real Hollis parcel matches. This editorial point is in the hills near Griffith Observatory; 7035 Senalda Road is the production property, not an asserted story address."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Fred Madison",
+        "Renee Madison"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lost Highway",
+          "release_year": 1997,
+          "story_role": "Fred & Renee Madison’s home",
+          "filming_component": "7035 Senalda Road, Los Angeles, CA",
+          "source_ids": [
+            "cult_lh_fo",
+            "cult_lh_story",
+            "cult_lh_address"
+          ],
+          "story_time": {
+            "year": 1997,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_lh_fo",
+              "cult_lh_story",
+              "cult_lh_address"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Fred Madison",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Renee Madison",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "7035 Senalda Road, Los Angeles, CA",
+      "deaths": [
+        {
+          "title": "Lost Highway",
+          "people": [
+            "Renee Madison"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-655-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway1.jpg?w=1000",
+          "width": 1000,
+          "height": 414,
+          "title": "Lost Highway",
+          "alt": "Fred & Renee Madison’s home in Lost Highway",
+          "spoiler": false,
+          "credit": "Lost Highway film frame; Film Oblivion"
+        },
+        "place": {
+          "src": "photos/extra-cult-655-place.jpg",
+          "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNDCjzeJRlcoJ120CW9PMDTropxOIajpbZ9iVLIN_WkuBxdUXm8xZXP2wTj7KhuCFxTn3dMW26OO9iqfCZByndstrjfz1UyztJ2ViZvd-jM8PSiNYSly7-roWoUGqABPfeaQuYdtmhmsQzjk-DXvTNzJbprvSA6YN1o272kozYyqdihWOF7up8RUw1/w640-h588/LostHighway2.png",
+          "width": 640,
+          "height": 588,
+          "alt": "Fred & Renee Madison’s home — real filming site",
+          "credit": "Then & Now Movie Locations",
+          "date": "2021",
+          "caption": "Film / site · 2021"
+        }
+      }
+    },
+    {
+      "id": 656,
+      "name": "Pete Dayton’s home",
+      "short": "Pete Dayton’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "16706 Citronia Street, Northridge",
+      "area": "Northridge",
+      "coordinates": [
+        -118.496243096188,
+        34.245944276567
+      ],
+      "productionCoordinates": [
+        -118.496243096188,
+        34.245944276567
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Northridge",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_lh_fo",
+          "cult_lh_story",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Pete Dayton",
+        "Bill Dayton",
+        "Candace Dayton"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lost Highway",
+          "release_year": 1997,
+          "story_role": "Pete Dayton’s home",
+          "filming_component": "16706 Citronia Street, Northridge, CA",
+          "source_ids": [
+            "cult_lh_fo",
+            "cult_lh_story"
+          ],
+          "story_time": {
+            "year": 1997,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_lh_fo",
+              "cult_lh_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Pete Dayton",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Bill Dayton",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Candace Dayton",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "16706 Citronia Street, Northridge, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-656-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway4.jpg?w=1000",
+          "width": 1000,
+          "height": 413,
+          "title": "Lost Highway",
+          "alt": "Pete Dayton’s home in Lost Highway",
+          "spoiler": false,
+          "credit": "Lost Highway film frame; Film Oblivion"
+        },
+        "place": {
+          "src": "photos/extra-cult-656-place.jpg",
+          "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzg1CM6MZARk9FRW4y3hdyuBANDbF8bbtWYtAmX-0ZZRYCa7pg4st-8IJzdLslTIQU9apW4BHSBsOi_XjHUzJ2YiSuiXRU9onQ6SyvxSRBxHxKG_2sVT-llrkL3ygr2DbxjYN3VWY0Wz_fRWP13apDPa7GV4fylTZtLvYoqLu-pTnpq5NrkbOYDnvp/w640-h590/LostHighway4.png",
+          "width": 639,
+          "height": 590,
+          "alt": "Pete Dayton’s home — real filming site",
+          "credit": "Then & Now Movie Locations",
+          "date": "2021",
+          "caption": "Film / site · 2021"
+        }
+      }
+    },
+    {
+      "id": 657,
+      "name": "Arnie’s Car Service",
+      "short": "Arnie’s Car Service",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "800 South La Brea Avenue, Los Angeles",
+      "area": "Mid-Wilshire",
+      "coordinates": [
+        -118.344375164408,
+        34.060295975795
+      ],
+      "productionCoordinates": [
+        -118.344375164408,
+        34.060295975795
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Mid-Wilshire",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_lh_fo",
+          "cult_lh_story",
+          "cult_lh_now",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Arnie",
+        "Pete Dayton",
+        "Phil",
+        "Mr. Eddy",
+        "Alice"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lost Highway",
+          "release_year": 1997,
+          "story_role": "Arnie’s Car Service",
+          "filming_component": "800 South La Brea Avenue, Los Angeles, CA",
+          "source_ids": [
+            "cult_lh_fo",
+            "cult_lh_story",
+            "cult_lh_now"
+          ],
+          "story_time": {
+            "year": 1997,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_lh_fo",
+              "cult_lh_story",
+              "cult_lh_now"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Arnie",
+              "relationship": "runs the garage"
+            },
+            {
+              "name": "Pete Dayton",
+              "relationship": "works as a mechanic"
+            },
+            {
+              "name": "Phil",
+              "relationship": "works as a mechanic"
+            },
+            {
+              "name": "Mr. Eddy",
+              "relationship": "brings his car for service"
+            },
+            {
+              "name": "Alice",
+              "relationship": "visits with Mr. Eddy"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "The former Firestone garage is now the All Season Brewing Company.",
+      "mapsQuery": "800 South La Brea Avenue, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-657-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway5.jpg?w=1000",
+          "width": 1000,
+          "height": 414,
+          "title": "Lost Highway",
+          "alt": "Arnie’s Car Service in Lost Highway",
+          "spoiler": false,
+          "credit": "Lost Highway film frame; Film Oblivion"
+        },
+        "place": {
+          "src": "photos/extra-cult-657-place.jpg",
+          "sourceUrl": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDlA1fJ7t2rEzmEL1xcaPUWabkvsts7SrG2EzZhAH-JVarga_Ww6FX8SI5SqvXmwT5_NeKTY1AsWl02sndH6ARHNX4R5tZW3C3-m9KG5YsTqkuo00Fp89foMetBhQs84F0o7wHtu15EpIJ9hXd-nh2BPToKwPK7mfstj3IdFlTQPyBUsFVtILWdPzo/w640-h590/LostHighway6.png",
+          "width": 640,
+          "height": 589,
+          "alt": "Arnie’s Car Service — real filming site",
+          "credit": "Then & Now Movie Locations",
+          "date": "2022",
+          "caption": "Film / site · 2022"
+        }
+      }
+    },
+    {
+      "id": 658,
+      "name": "Luna Lounge",
+      "short": "Luna Lounge",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "5108 Lankershim Boulevard, North Hollywood",
+      "area": "North Hollywood",
+      "coordinates": [
+        -118.373366910207,
+        34.163263213897
+      ],
+      "productionCoordinates": [
+        -118.373366910207,
+        34.163263213897
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "North Hollywood",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_lh_fo",
+          "cult_lh_story",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Fred Madison"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lost Highway",
+          "release_year": 1997,
+          "story_role": "Fred’s saxophone gig",
+          "filming_component": "5108 Lankershim Boulevard, North Hollywood, CA",
+          "source_ids": [
+            "cult_lh_fo",
+            "cult_lh_story"
+          ],
+          "story_time": {
+            "year": 1997,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_lh_fo",
+              "cult_lh_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Fred Madison",
+              "relationship": "plays saxophone here"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "5108 Lankershim Boulevard, North Hollywood, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-658-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/01/sc-losthighway2.jpg?w=1000",
+          "width": 1000,
+          "height": 413,
+          "title": "Lost Highway",
+          "alt": "Luna Lounge in Lost Highway",
+          "spoiler": false,
+          "credit": "Lost Highway film frame; Film Oblivion"
+        },
+        "place": {
+          "src": "photos/extra-cult-658-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/08/10/lost-highway-1997/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/08/losthighway3.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "Luna Lounge — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher."
+        }
+      }
+    },
+    {
+      "id": 659,
+      "name": "Helping Hand Acceptance Corporation",
+      "short": "Helping Hand Acceptance Corporation",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "1015 Crocker Street, Los Angeles",
+      "area": "Fashion District",
+      "coordinates": [
+        -118.261567706074,
+        34.02711245154
+      ],
+      "productionCoordinates": [
+        -118.250816612621,
+        34.034500794501
+      ],
+      "precision": "StreetAddress",
+      "placement": {
+        "kind": "screen",
+        "address": "2100 Wall Street, Los Angeles",
+        "precision": "StreetAddress",
+        "sourceIds": [
+          "cult_repo_lataco",
+          "cult_repo_script",
+          "cult_geo"
+        ],
+        "reason": "The office visibly carries 2100 Wall Street. The production lot was approximately 1015 Crocker Street and was later redeveloped. The story pin follows the visible Wall Street address, separate from the filming site."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Otto Maddox",
+        "Bud",
+        "Miller",
+        "Lite",
+        "Oly"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Repo Man",
+          "release_year": 1984,
+          "story_role": "Helping Hand Acceptance Corporation",
+          "filming_component": "1015 Crocker Street, Los Angeles, CA",
+          "source_ids": [
+            "cult_repo_lataco",
+            "cult_repo_script"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_repo_lataco",
+              "cult_repo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Otto Maddox",
+              "relationship": "works for the repo company"
+            },
+            {
+              "name": "Bud",
+              "relationship": "works for the repo company"
+            },
+            {
+              "name": "Miller",
+              "relationship": "works for the repo company"
+            },
+            {
+              "name": "Lite",
+              "relationship": "works for the repo company"
+            },
+            {
+              "name": "Oly",
+              "relationship": "works for the repo company"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "1015 Crocker Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-659-screen.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_lead4_universal.jpg?w=1000",
+          "width": 1000,
+          "height": 561,
+          "title": "Repo Man",
+          "alt": "Helping Hand Acceptance Corporation in Repo Man",
+          "spoiler": false,
+          "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/extra-cult-659-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251816612621%2C34.033830794501%2C-118.24981661262099%2C34.035170794501&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Helping Hand Acceptance Corporation — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 660,
+      "name": "United Fruitcake Outlet",
+      "short": "United Fruitcake Outlet",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "2404 East 28th Street, Vernon",
+      "area": "Vernon",
+      "coordinates": [
+        -118.229828746165,
+        34.011683493858
+      ],
+      "productionCoordinates": [
+        -118.229828746165,
+        34.011683493858
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Vernon",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_repo_lataco",
+          "cult_repo_script",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Leila",
+        "Otto Maddox"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Repo Man",
+          "release_year": 1984,
+          "story_role": "United Fruitcake Outlet",
+          "filming_component": "2404 East 28th Street, Vernon, CA",
+          "source_ids": [
+            "cult_repo_lataco",
+            "cult_repo_script"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_repo_lataco",
+              "cult_repo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Leila",
+              "relationship": "works here"
+            },
+            {
+              "name": "Otto Maddox",
+              "relationship": "drops off Leila"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "2404 East 28th Street, Vernon, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-660-screen.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_unitedfruitcake1_universal.jpg?w=1000",
+          "width": 1000,
+          "height": 560,
+          "title": "Repo Man",
+          "alt": "United Fruitcake Outlet in Repo Man",
+          "spoiler": false,
+          "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/extra-cult-660-place.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_unitedfruitcake2_jaredcowan.jpg?w=1000",
+          "width": 1000,
+          "height": 664,
+          "alt": "United Fruitcake Outlet — real filming site",
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2024"
+        }
+      }
+    },
+    {
+      "id": 661,
+      "name": "Lindley liquor store",
+      "short": "Lindley liquor store",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "death"
+      ],
+      "address": "7137 Lindley Avenue, Reseda",
+      "area": "Reseda",
+      "coordinates": [
+        -118.527683028266,
+        34.200505015534
+      ],
+      "productionCoordinates": [
+        -118.527683028266,
+        34.200505015534
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Reseda",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_repo_lataco",
+          "cult_repo_script",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Otto Maddox",
+        "Bud",
+        "Duke",
+        "Debbie"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Repo Man",
+          "release_year": 1984,
+          "story_role": "Liquor store",
+          "filming_component": "7137 Lindley Avenue, Reseda, CA",
+          "source_ids": [
+            "cult_repo_lataco",
+            "cult_repo_script"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_repo_lataco",
+              "cult_repo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Otto Maddox",
+              "relationship": "visits"
+            },
+            {
+              "name": "Bud",
+              "relationship": "visits"
+            },
+            {
+              "name": "Duke",
+              "relationship": "visits"
+            },
+            {
+              "name": "Debbie",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "7137 Lindley Avenue, Reseda, CA",
+      "deaths": [
+        {
+          "title": "Repo Man",
+          "people": [
+            "Duke"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-661-screen.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_liquorstore1_universal.jpg?w=1000",
+          "width": 1000,
+          "height": 561,
+          "title": "Repo Man",
+          "alt": "Lindley liquor store in Repo Man",
+          "spoiler": true,
+          "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/extra-cult-661-place.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_liquorstore2_jaredcowan.jpg?w=1000",
+          "width": 1000,
+          "height": 663,
+          "alt": "Lindley liquor store — real filming site",
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2024"
+        }
+      }
+    },
+    {
+      "id": 662,
+      "name": "Otto’s Fourth Street Bridge pursuit",
+      "short": "Otto’s Fourth Street Bridge pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "East 4th Street & South Santa Fe Avenue, Los Angeles",
+      "area": "Arts District",
+      "coordinates": [
+        -118.232608939629,
+        34.042072502916
+      ],
+      "productionCoordinates": [
+        -118.232608939629,
+        34.042072502916
+      ],
+      "precision": "StreetInt",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Arts District",
+        "precision": "StreetInt",
+        "sourceIds": [
+          "cult_repo_lataco",
+          "cult_repo_script",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Otto Maddox",
+        "J. Frank Parnell"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Repo Man",
+          "release_year": 1984,
+          "story_role": "Otto’s Fourth Street Bridge pursuit",
+          "filming_component": "East 4th Street & South Santa Fe Avenue, Los Angeles, CA",
+          "source_ids": [
+            "cult_repo_lataco",
+            "cult_repo_script"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_repo_lataco",
+              "cult_repo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Otto Maddox",
+              "relationship": "visits"
+            },
+            {
+              "name": "J. Frank Parnell",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "The point marks the bridge stairs at Santa Fe Avenue; it does not assert a continuous chase route.",
+      "mapsQuery": "East 4th Street & South Santa Fe Avenue, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-662-screen.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_4thstbridge3_universal.jpg?w=1000",
+          "width": 1000,
+          "height": 562,
+          "title": "Repo Man",
+          "alt": "Otto’s Fourth Street Bridge pursuit in Repo Man",
+          "spoiler": false,
+          "credit": "Repo Man / Universal Pictures; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/extra-cult-662-place.jpg",
+          "sourceUrl": "https://lataco.com/repo-man-filming-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2024/02/lataco_repoman_4thstbridge4_jaredcowan.jpg?w=1000",
+          "width": 1000,
+          "height": 666,
+          "alt": "Otto’s Fourth Street Bridge pursuit — real filming site",
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2024"
+        }
+      }
+    },
+    {
+      "id": 663,
+      "name": "Dave Morgan’s home",
+      "short": "Dave Morgan’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "7532 Sedgewick Court, West Hills",
+      "area": "West Hills",
+      "coordinates": [
+        -118.501,
+        34.154
+      ],
+      "productionCoordinates": [
+        -118.651033629966,
+        34.209377134316
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Encino · approximate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "cult_enc_home",
+          "cult_enc_story",
+          "cult_enc_news",
+          "cult_geo"
+        ],
+        "reason": "The home is explicitly in Encino in the story. Sedgewick Court in West Hills is the verified production house. The story marker is an editorial Encino neighborhood estimate; no canonical numbered street is known."
+      },
+      "storySetting": {
+        "name": "Encino, Los Angeles",
+        "canonicalLA": true
+      },
+      "people": [
+        "Dave Morgan",
+        "Stoney Brown",
+        "Link",
+        "Mr. Morgan",
+        "Mrs. Morgan"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Encino Man",
+          "release_year": 1992,
+          "story_role": "Dave Morgan’s home",
+          "filming_component": "7532 Sedgewick Court, West Hills, CA",
+          "source_ids": [
+            "cult_enc_home",
+            "cult_enc_story",
+            "cult_enc_news"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_enc_home",
+              "cult_enc_story",
+              "cult_enc_news"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Dave Morgan",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Stoney Brown",
+              "relationship": "visits Dave"
+            },
+            {
+              "name": "Link",
+              "relationship": "stays with the Morgan family"
+            },
+            {
+              "name": "Mr. Morgan",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Morgan",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Encino, Los Angeles",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "7532 Sedgewick Court, West Hills, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-663-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/09/12/the-encino-man-house",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/09/fdc193a7-1137-4816-99c0-7575f998c78c.jpg",
+          "width": 782,
+          "height": 419,
+          "title": "Encino Man",
+          "alt": "Dave Morgan’s home in Encino Man",
+          "spoiler": false,
+          "credit": "Encino Man film frame; IAMNOTASTALKER"
+        },
+        "place": {
+          "src": "photos/extra-cult-663-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.652033629966%2C34.208707134316%2C-118.65003362996599%2C34.210047134316&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Dave Morgan’s home — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 664,
+      "name": "Encino High School",
+      "short": "Encino High School",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "13356 Eldridge Avenue, Sylmar",
+      "area": "Sylmar",
+      "coordinates": [
+        -118.511,
+        34.166
+      ],
+      "productionCoordinates": [
+        -118.417339966827,
+        34.314184996446
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Encino · approximate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "cult_enc_school",
+          "cult_enc_story",
+          "cult_enc_news",
+          "cult_geo"
+        ],
+        "reason": "Encino High is the fictional school. Los Angeles Mission College in Sylmar supplied its campus and Instructional Building. The story pin is an editorial Encino estimate, not a claim that the school is in Sylmar."
+      },
+      "storySetting": {
+        "name": "Encino, Los Angeles",
+        "canonicalLA": true
+      },
+      "people": [
+        "Dave Morgan",
+        "Stoney Brown",
+        "Link",
+        "Robyn Sweeney",
+        "Matt Wilson",
+        "Kim"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Encino Man",
+          "release_year": 1992,
+          "story_role": "Encino High School",
+          "filming_component": "13356 Eldridge Avenue, Sylmar, CA",
+          "source_ids": [
+            "cult_enc_school",
+            "cult_enc_story",
+            "cult_enc_news"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_enc_school",
+              "cult_enc_story",
+              "cult_enc_news"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Dave Morgan",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Stoney Brown",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Link",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Robyn Sweeney",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Matt Wilson",
+              "relationship": "attends school here"
+            },
+            {
+              "name": "Kim",
+              "relationship": "attends school here"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Encino, Los Angeles",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "13356 Eldridge Avenue, Sylmar, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-664-screen.jpg",
+          "sourceUrl": "https://www.ottplay.com/news/brendan-fraser-ke-huy-quans-journey-from-encino-man-to-oscars-2023/a5171f82bb196",
+          "imageUrl": "https://images.ottplay.com/images/brendan-fraser-and-ke-huy-quan-in-encino-man-1992-783.jpg?height=675&impolicy=ottplay-202501_high&width=1200",
+          "width": 1200,
+          "height": 675,
+          "title": "Encino Man",
+          "alt": "Encino High School in Encino Man",
+          "spoiler": false,
+          "credit": "Encino Man / Hollywood Pictures; reproduced by OTTplay"
+        },
+        "place": {
+          "src": "photos/extra-cult-664-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.419839966827%2C34.312509996446%2C-118.414839966827%2C34.315859996446&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Encino High School — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 665,
+      "name": "Mega Mountain",
+      "short": "Mega Mountain",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "26101 Magic Mountain Parkway, Valencia",
+      "area": "Santa Clarita",
+      "coordinates": [
+        -118.603203472962,
+        34.432122984171
+      ],
+      "productionCoordinates": [
+        -118.603203472962,
+        34.432122984171
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Clarita",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_enc_news",
+          "cult_enc_story",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Mega Mountain, Los Angeles area",
+        "canonicalLA": true
+      },
+      "people": [
+        "Stoney Brown",
+        "Link"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Encino Man",
+          "release_year": 1992,
+          "story_role": "The Vapor roller coaster",
+          "filming_component": "26101 Magic Mountain Parkway, Valencia, CA",
+          "source_ids": [
+            "cult_enc_news",
+            "cult_enc_story"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_enc_news",
+              "cult_enc_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Stoney Brown",
+              "relationship": "visits"
+            },
+            {
+              "name": "Link",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Mega Mountain, Los Angeles area",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "Six Flags Magic Mountain and its Viper coaster portray Mega Mountain and the Vapor.",
+      "mapsQuery": "26101 Magic Mountain Parkway, Valencia, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-665-screen.jpg",
+          "sourceUrl": "https://www.plainzero.com/podcast/encinoman",
+          "imageUrl": "https://images.squarespace-cdn.com/content/56cb9937e32140833fc46bc1/1480885679483-BJ0MEDZDLJMCKX7Q2ESS/?content-type=image%2Fpng",
+          "width": 927,
+          "height": 551,
+          "title": "Encino Man",
+          "alt": "Mega Mountain in Encino Man",
+          "spoiler": false,
+          "credit": "Encino Man film frame; reproduced by Plain Zero"
+        },
+        "place": {
+          "src": "photos/extra-cult-665-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.60570347296199%2C34.430447984171%2C-118.600703472962%2C34.433797984171&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Mega Mountain — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 666,
+      "name": "Johnie’s Coffee Shop",
+      "short": "Johnie’s Coffee Shop",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "6101 Wilshire Boulevard, Los Angeles",
+      "area": "Miracle Mile",
+      "coordinates": [
+        -118.361620427278,
+        34.063320753194
+      ],
+      "productionCoordinates": [
+        -118.361620427278,
+        34.063320753194
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Miracle Mile",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_miracle_afi",
+          "cult_miracle_locations",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Julie Peters",
+        "Harry Washello"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Miracle Mile",
+          "release_year": 1988,
+          "story_role": "Julie’s diner",
+          "filming_component": "6101 Wilshire Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "cult_miracle_afi",
+            "cult_miracle_locations"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_miracle_afi",
+              "cult_miracle_locations"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Julie Peters",
+              "relationship": "works here"
+            },
+            {
+              "name": "Harry Washello",
+              "relationship": "visits Julie"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "6101 Wilshire Boulevard, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-666-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW8gdI7RGfAP74KYctIi5zPst9VJpevbdb_WrVnj4ZoBffWvMrk_PQYsI4wK1vkky-xDZMkgbtbmJ5xLAm8NqIzpBIu8u0EnOIKGbgjAnGWp1amgt1PELzxyXWYvE1r4sfxirPGX_f0NU/s1600/JohniesCoffeeShop1_MiracleMile.jpg",
+          "width": 720,
+          "height": 536,
+          "title": "Miracle Mile",
+          "alt": "Johnie’s Coffee Shop in Miracle Mile",
+          "spoiler": false,
+          "credit": "Miracle Mile film frame; Movie Tourist"
+        },
+        "place": {
+          "src": "photos/extra-cult-666-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.362620427278%2C34.062650753194%2C-118.360620427278%2C34.063990753194&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Johnie’s Coffee Shop — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      },
+      "mergeInto": 37
+    },
+    {
+      "id": 667,
+      "name": "La Brea Tar Pits & Page Museum",
+      "short": "La Brea Tar Pits & Page Museum",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "death"
+      ],
+      "address": "5801 Wilshire Boulevard, Los Angeles",
+      "area": "Miracle Mile",
+      "coordinates": [
+        -118.357437689955,
+        34.063323477313
+      ],
+      "productionCoordinates": [
+        -118.357437689955,
+        34.063323477313
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Miracle Mile",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_miracle_afi",
+          "cult_miracle_locations",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Harry Washello",
+        "Julie Peters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Miracle Mile",
+          "release_year": 1988,
+          "story_role": "Harry and Julie’s museum meeting",
+          "filming_component": "5801 Wilshire Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "cult_miracle_afi",
+            "cult_miracle_locations"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_miracle_afi",
+              "cult_miracle_locations"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Washello",
+              "relationship": "visits"
+            },
+            {
+              "name": "Julie Peters",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "5801 Wilshire Boulevard, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-667-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPDCdjeLAL0Oko5LaTnofBvbpa5eA7J8kHfXORoHycBpwi2M4pzGme2zayXmalmLl9mSEghSBrvYUT8QsBriZX2hZYJQm-Qk2hYM8AHLulqQMM7DuX_lA-_wv-PY3lxgp03fhLdhkCH4I/s1600/PageMuseum_MiracleMile.jpg",
+          "width": 720,
+          "height": 536,
+          "title": "Miracle Mile",
+          "alt": "La Brea Tar Pits & Page Museum in Miracle Mile",
+          "spoiler": false,
+          "credit": "Miracle Mile film frame; Movie Tourist"
+        },
+        "place": {
+          "src": "photos/extra-cult-667-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.359937689955%2C34.061648477313%2C-118.35493768995501%2C34.064998477313&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "La Brea Tar Pits & Page Museum — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Miracle Mile",
+          "people": [
+            "Harry Washello",
+            "Julie Peters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "name": "Julie Peters’s Park La Brea apartment",
+      "short": "Julie Peters’s Park La Brea apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "535 South Curson Avenue, Los Angeles",
+      "area": "Park La Brea",
+      "coordinates": [
+        -118.354614226194,
+        34.066517915236
+      ],
+      "productionCoordinates": [
+        -118.354614226194,
+        34.066517915236
+      ],
+      "precision": "StreetAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Park La Brea, Los Angeles",
+        "precision": "StreetAddress",
+        "sourceIds": [
+          "cult_miracle_afi",
+          "cult_miracle_locations",
+          "cult_miracle_director",
+          "cult_geo"
+        ],
+        "reason": "The story identifies Park La Brea. The matched tower at 535 South Curson supplies the apartment-building location; no apartment number is claimed."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Julie Peters",
+        "Ivan Peters",
+        "Lucy Peters",
+        "Harry Washello"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Miracle Mile",
+          "release_year": 1988,
+          "story_role": "Julie Peters’s Park La Brea apartment",
+          "filming_component": "535 South Curson Avenue, Los Angeles, CA",
+          "source_ids": [
+            "cult_miracle_afi",
+            "cult_miracle_locations",
+            "cult_miracle_director"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_miracle_afi",
+              "cult_miracle_locations",
+              "cult_miracle_director"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Julie Peters",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Ivan Peters",
+              "relationship": "lives in the Park La Brea complex"
+            },
+            {
+              "name": "Lucy Peters",
+              "relationship": "lives in the Park La Brea complex"
+            },
+            {
+              "name": "Harry Washello",
+              "relationship": "visits Julie"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "535 South Curson Avenue, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-668-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX8jK5MGwkIxd8MEZEzAcy6K1gVVmO2LZN9b15XlV0I6VT3IuU-Vyl51WDqdSZ0FOUnZQB-I8QmvX_s1GRkN72Jp1a7eCwiy1jk1AYkyGPReDk26Sd6suhjmATsFCklHtclMzroMWn_kQ/s1600/ParkLaBreaDay_MiracleMile.jpg",
+          "width": 720,
+          "height": 536,
+          "title": "Miracle Mile",
+          "alt": "Julie Peters’s Park La Brea apartment in Miracle Mile",
+          "spoiler": false,
+          "credit": "Miracle Mile film frame; Movie Tourist"
+        },
+        "place": {
+          "src": "photos/extra-cult-668-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.357114226194%2C34.064842915236%2C-118.352114226194%2C34.068192915236&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Julie Peters’s Park La Brea apartment — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 669,
+      "name": "Mutual Benefit Life Building",
+      "short": "Mutual Benefit Life Building",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5900 Wilshire Boulevard, Los Angeles",
+      "area": "Miracle Mile",
+      "coordinates": [
+        -118.358132214452,
+        34.062091127998
+      ],
+      "productionCoordinates": [
+        -118.358132214452,
+        34.062091127998
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Miracle Mile",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_miracle_afi",
+          "cult_miracle_locations",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Harry Washello",
+        "Julie Peters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Miracle Mile",
+          "release_year": 1988,
+          "story_role": "Mutual Benefit Life Building",
+          "filming_component": "5900 Wilshire Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "cult_miracle_afi",
+            "cult_miracle_locations"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "cult_miracle_afi",
+              "cult_miracle_locations"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Washello",
+              "relationship": "visits"
+            },
+            {
+              "name": "Julie Peters",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "The real building exterior was filmed. The pin does not identify a separate constructed rooftop set.",
+      "mapsQuery": "5900 Wilshire Boulevard, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-669-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOlQkJ1GA1k6jGiGGKGvtmPK1fVD4WTeAnM-Dc2HoAuohPTgE8WPgrJu5AHgdpAIyoTrxLNER-6URA03vHGW5Xr9BLG241v4OGd4sI3S-4DByrDIYafhJdpXI8N-FRY1410K9sqKQvH6Q/s1600/MutualBuilding1_MiracleMile.jpg",
+          "width": 720,
+          "height": 536,
+          "title": "Miracle Mile",
+          "alt": "Mutual Benefit Life Building in Miracle Mile",
+          "spoiler": false,
+          "credit": "Miracle Mile film frame; Movie Tourist"
+        },
+        "place": {
+          "src": "photos/extra-cult-669-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.360632214452%2C34.060416127998%2C-118.355632214452%2C34.063766127998&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Mutual Benefit Life Building — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 670,
+      "name": "Sam & Sarah’s Rancho Silverlake apartments",
+      "short": "Sam & Sarah’s Rancho Silverlake apartments",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "Veselich Avenue & Garden Avenue, Los Angeles",
+      "area": "Los Feliz",
+      "coordinates": [
+        -118.268805015026,
+        34.125998990669
+      ],
+      "productionCoordinates": [
+        -118.268805015026,
+        34.125998990669
+      ],
+      "precision": "StreetInt",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Feliz",
+        "precision": "StreetInt",
+        "sourceIds": [
+          "cult_utsl_lamag",
+          "cult_utsl_fo",
+          "cult_utsl_time",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sam",
+        "Sarah"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Under the Silver Lake",
+          "release_year": 2018,
+          "story_role": "Rancho Silverlake Apartments",
+          "filming_component": "Veselich Avenue & Garden Avenue, Los Angeles, CA",
+          "source_ids": [
+            "cult_utsl_lamag",
+            "cult_utsl_fo",
+            "cult_utsl_time"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "director-confirmed",
+            "basis": "Director David Robert Mitchell explicitly places the story in the fictional summer of 2011.",
+            "source_ids": [
+              "cult_utsl_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sam",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Sarah",
+              "relationship": "lives in the complex"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "The street exterior at Veselich and Garden anchors the composite. The pool courtyard was filmed at Holiday Manor, 11966 Laurelwood Drive, Studio City; the apartment interior was a set.",
+      "mapsQuery": "Veselich Avenue & Garden Avenue, Los Angeles, CA",
+      "productionSites": [
+        {
+          "component": "Street exterior",
+          "address": "Veselich Avenue & Garden Avenue, Los Angeles",
+          "coordinates": [
+            -118.268805015026,
+            34.125998990669
+          ]
+        },
+        {
+          "component": "Pool courtyard",
+          "address": "11966 Laurelwood Drive, Studio City",
+          "coordinates": [
+            -118.39246434687,
+            34.142527640316
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-670-screen.jpg",
+          "sourceUrl": "https://mikegdp.com/",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/519c5919e4b02547d84c8161/1597904316510-HQE3KM8CEG2I8K48S3WW/Under_The_Silver_Lake_021.jpg",
+          "width": 1280,
+          "height": 536,
+          "title": "Under the Silver Lake",
+          "alt": "Sam & Sarah’s Rancho Silverlake apartments in Under the Silver Lake",
+          "spoiler": false,
+          "credit": "Under the Silver Lake / A24; Michael Gioulakis, ASC"
+        },
+        "place": {
+          "src": "photos/extra-cult-670-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake5.jpg?w=1000",
+          "width": 1000,
+          "height": 745,
+          "alt": "Sam & Sarah’s Rancho Silverlake apartments — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Holiday Manor pool courtyard at 11966 Laurelwood Drive, Studio City; the street exterior is a separate Los Feliz component."
+        }
+      }
+    },
+    {
+      "id": 671,
+      "name": "Echo Park Lake",
+      "short": "Echo Park Lake",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Echo Park Lake, Los Angeles",
+      "area": "Echo Park",
+      "coordinates": [
+        -118.260025977278,
+        34.073313993436
+      ],
+      "productionCoordinates": [
+        -118.260025977278,
+        34.073313993436
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Echo Park",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_utsl_lamag",
+          "cult_utsl_fo",
+          "cult_utsl_time",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sam"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Under the Silver Lake",
+          "release_year": 2018,
+          "story_role": "Sam by the lake",
+          "filming_component": "Echo Park Lake, Los Angeles, CA",
+          "source_ids": [
+            "cult_utsl_lamag",
+            "cult_utsl_fo",
+            "cult_utsl_time"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "director-confirmed",
+            "basis": "Director David Robert Mitchell explicitly places the story in the fictional summer of 2011.",
+            "source_ids": [
+              "cult_utsl_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sam",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "Echo Park Lake, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-671-screen.jpg",
+          "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_lead1_a24.jpg",
+          "width": 800,
+          "height": 500,
+          "title": "Under the Silver Lake",
+          "alt": "Echo Park Lake in Under the Silver Lake",
+          "spoiler": false,
+          "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+        },
+        "place": {
+          "src": "photos/extra-cult-671-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+          "width": 1000,
+          "height": 750,
+          "alt": "Echo Park Lake — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher."
+        }
+      }
+    },
+    {
+      "id": 672,
+      "name": "Silver Lake Reservoir",
+      "short": "Silver Lake Reservoir",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "death"
+      ],
+      "address": "Silver Lake Reservoir, Los Angeles",
+      "area": "Silver Lake",
+      "coordinates": [
+        -118.26433,
+        34.09747
+      ],
+      "productionCoordinates": [
+        -118.26433,
+        34.09747
+      ],
+      "precision": "POI",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Silver Lake",
+        "precision": "POI",
+        "sourceIds": [
+          "cult_utsl_lamag",
+          "cult_utsl_fo",
+          "cult_utsl_time",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sam",
+        "Millicent Sevence"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Under the Silver Lake",
+          "release_year": 2018,
+          "story_role": "Silver Lake Reservoir",
+          "filming_component": "Silver Lake Reservoir, Los Angeles, CA",
+          "source_ids": [
+            "cult_utsl_lamag",
+            "cult_utsl_fo",
+            "cult_utsl_time",
+            "cult_utsl_script"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "director-confirmed",
+            "basis": "Director David Robert Mitchell explicitly places the story in the fictional summer of 2011.",
+            "source_ids": [
+              "cult_utsl_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sam",
+              "relationship": "visits"
+            },
+            {
+              "name": "Millicent Sevence",
+              "relationship": "swims here with Sam"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "The reservoir was drained during production; water was added to the photographed reservoir plates.",
+      "mapsQuery": "Silver Lake Reservoir, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-672-screen.jpg",
+          "sourceUrl": "https://mikegdp.com/",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/519c5919e4b02547d84c8161/1597904316213-0MJBWQO6IHLJ92TX7PQY/Under_The_Silver_Lake_058.jpg",
+          "width": 1280,
+          "height": 536,
+          "title": "Under the Silver Lake",
+          "alt": "Silver Lake Reservoir in Under the Silver Lake",
+          "spoiler": true,
+          "credit": "Under the Silver Lake / A24; Michael Gioulakis, ASC"
+        },
+        "place": {
+          "src": "photos/extra-cult-672-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.26683%2C34.095795%2C-118.26183%2C34.099145&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Silver Lake Reservoir — real filming site",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Under the Silver Lake",
+          "people": [
+            "Millicent Sevence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "name": "The Standard rooftop",
+      "short": "The Standard rooftop",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "550 South Flower Street, Los Angeles",
+      "area": "Downtown",
+      "coordinates": [
+        -118.257089209863,
+        34.05028915687
+      ],
+      "productionCoordinates": [
+        -118.257089209863,
+        34.05028915687
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Downtown",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "cult_utsl_lamag",
+          "cult_utsl_fo",
+          "cult_utsl_time",
+          "cult_geo"
+        ],
+        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sam",
+        "Balloon Girl"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Under the Silver Lake",
+          "release_year": 2018,
+          "story_role": "Rooftop party",
+          "filming_component": "550 South Flower Street, Los Angeles, CA",
+          "source_ids": [
+            "cult_utsl_lamag",
+            "cult_utsl_fo",
+            "cult_utsl_time"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "director-confirmed",
+            "basis": "Director David Robert Mitchell explicitly places the story in the fictional summer of 2011.",
+            "source_ids": [
+              "cult_utsl_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sam",
+              "relationship": "visits"
+            },
+            {
+              "name": "Balloon Girl",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "550 South Flower Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/extra-cult-673-screen.jpg",
+          "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_thestandard1_a24.jpg",
+          "width": 800,
+          "height": 500,
+          "title": "Under the Silver Lake",
+          "alt": "The Standard rooftop in Under the Silver Lake",
+          "spoiler": false,
+          "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+        },
+        "place": {
+          "src": "photos/extra-cult-673-place.jpg",
+          "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_thestandard2_jaredcowan.jpg",
+          "width": 800,
+          "height": 500,
+          "alt": "The Standard rooftop — real filming site",
+          "credit": "Jared Cowan / Los Angeles Magazine",
+          "date": "2019"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cult_ft_ift",
+      "title": "It’s Filmed There: Fast Times at Ridgemont High, scene-matched addresses",
+      "url": "https://www.itsfilmedthere.com/2010/02/fast-times-at-ridgemont-high.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_ft_setting",
+      "title": "The Criterion Collection: Fast Times at Ridgemont High",
+      "url": "https://www.criterion.com/films/30464-fast-times-at-ridgemont-high",
+      "source_type": "film distributor"
+    },
+    {
+      "id": "cult_ft_ss",
+      "title": "Seeing Stars: Fast Times campuses and the Sherman Oaks Galleria",
+      "url": "https://www.seeing-stars.com/Locations/80sLocations3.shtml",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_lh_fo",
+      "title": "Film Oblivion: Lost Highway, matched film frames and addresses",
+      "url": "https://filmoblivion.com/filming-locations-lost-highway-1997/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_lh_story",
+      "title": "David Lynch and Barry Gifford: Lost Highway screenplay",
+      "url": "https://thescriptsavant.com/movies/Lost_Highway.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "cult_lh_address",
+      "title": "Robert Loerzel: the Madison house and the fictional Hollis address",
+      "url": "https://www.robertloerzel.com/2019/09/26/looking-for-hollywood-history-and-david-lynchs-los-angeles-part-2/",
+      "source_type": "scene analysis and location research"
+    },
+    {
+      "id": "cult_lh_now",
+      "title": "Then & Now Movie Locations: Lost Highway, 2021 and 2022 site photographs",
+      "url": "https://www.thennowmovielocations.com/2022/04/lost-highway.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_repo_lataco",
+      "title": "Jared Cowan / L.A. TACO: Repo Man locations, with Alex Cox and crew interviews",
+      "url": "https://lataco.com/repo-man-filming-locations",
+      "source_type": "original reporting and location photography"
+    },
+    {
+      "id": "cult_repo_script",
+      "title": "Alex Cox: Repo Man screenplay",
+      "url": "https://imsdb.com/scripts/Repo-Man.html",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "cult_enc_home",
+      "title": "IAMNOTASTALKER: the Encino Man house, matched frames and exterior",
+      "url": "https://www.iamnotastalker.com/2014/09/12/the-encino-man-house",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_enc_story",
+      "title": "Disney D23: Encino Man",
+      "url": "https://d23.com/a-to-z/encino-man-film/",
+      "source_type": "studio archive"
+    },
+    {
+      "id": "cult_enc_school",
+      "title": "Los Angeles Mission College: 50th anniversary, Encino Man campus and Instructional Building",
+      "url": "https://www.lamc.edu/about/50th-anniversary",
+      "source_type": "filming venue archive"
+    },
+    {
+      "id": "cult_enc_news",
+      "title": "Los Angeles Daily News: where Encino Man was filmed",
+      "url": "https://www.dailynews.com/2017/05/22/hey-bu-ddy-encino-man-turns-25-but-heres-where-the-90s-comedy-was-really-filmed/",
+      "source_type": "local newspaper reporting"
+    },
+    {
+      "id": "cult_miracle_afi",
+      "title": "AFI Catalog: Miracle Mile, synopsis and location production history",
+      "url": "https://catalog.afi.com/Film/58198-MIRACLE-MILE",
+      "source_type": "film archive"
+    },
+    {
+      "id": "cult_miracle_locations",
+      "title": "Movie Tourist: Miracle Mile, matched frames and locations",
+      "url": "https://movie-tourist.blogspot.com/2013/04/miracle-mile-1988.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_miracle_director",
+      "title": "Steve De Jarnatt interview: Miracle Mile and Julie’s Park La Brea home",
+      "url": "https://www.comingsoon.net/horror/news/747648-interview-director-steve-de-jarnatt-looks-back-cult-classic-miracle-mile/xwp_curated_content",
+      "source_type": "director interview"
+    },
+    {
+      "id": "cult_utsl_lamag",
+      "title": "Jared Cowan / Los Angeles Magazine: Under the Silver Lake location-manager and production-designer interviews",
+      "url": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+      "source_type": "production interviews and location photography"
+    },
+    {
+      "id": "cult_utsl_fo",
+      "title": "Film Oblivion: Under the Silver Lake, matched Los Angeles addresses",
+      "url": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "cult_utsl_time",
+      "title": "MUBI Notebook: David Robert Mitchell confirms a fictional summer 2011 in Los Angeles",
+      "url": "https://mubi.com/es/notebook/posts/shadows-dancing-david-robert-mitchell-discusses-under-the-silver-lake",
+      "source_type": "director interview"
+    },
+    {
+      "id": "cult_geo",
+      "title": "Esri World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "cult_utsl_script",
+      "title": "David Robert Mitchell: Under the Silver Lake screenplay",
+      "url": "https://f004.backblazeb2.com/file/screenplays/posts/under-the-silver-lake-2018/scripts/Under%20the%20Silver%20Lake%20-%20Screenplay.pdf",
+      "source_type": "screenplay"
+    }
+  ],
+  "audit": [
+    {
+      "id": 650,
+      "production_geocode": {
+        "coordinates": [
+          -118.455100021537,
+          34.189050013287
+        ],
+        "score": 100,
+        "match": "6535 Cedros Ave, Van Nuys, California, 91411",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6535+Cedros+Avenue%2C+Van+Nuys%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.455100021537,
+          34.189050013287
+        ],
+        "basis": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 651,
+      "production_geocode": {
+        "coordinates": [
+          -118.651340994356,
+          34.19301804816
+        ],
+        "score": 100,
+        "match": "24124 Welby Way, West Hills, California, 91307",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=24124+Welby+Way%2C+West+Hills%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.651340994356,
+          34.19301804816
+        ],
+        "basis": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 652,
+      "production_geocode": {
+        "coordinates": [
+          -118.467416976796,
+          34.155816982573
+        ],
+        "score": 100,
+        "match": "15301 Ventura Blvd, Sherman Oaks, California, 91403",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=15301+Ventura+Boulevard%2C+Sherman+Oaks%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.467416976796,
+          34.155816982573
+        ],
+        "basis": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 653,
+      "production_geocode": {
+        "coordinates": [
+          -118.465098793835,
+          34.053471639777
+        ],
+        "score": 100,
+        "match": "11698 San Vicente Blvd, Los Angeles, California, 90049",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=11698+San+Vicente+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.465098793835,
+          34.053471639777
+        ],
+        "basis": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 654,
+      "production_geocode": {
+        "coordinates": [
+          -118.50202996214,
+          34.227433011042
+        ],
+        "score": 100,
+        "match": "8622 Balboa Blvd, Northridge, California, 91325",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=8622+Balboa+Boulevard%2C+Northridge%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.50202996214,
+          34.227433011042
+        ],
+        "basis": "Ridgemont is fictional and the film does not establish it as Los Angeles. Its source material is based on San Diego. This marker locates the verified Los Angeles County filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 655,
+      "production_geocode": {
+        "coordinates": [
+          -118.343518282447,
+          34.11573019536
+        ],
+        "score": 100,
+        "match": "7035 Senalda Rd, Los Angeles, California, 90068",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7035+Senalda+Road%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.306,
+          34.113
+        ],
+        "basis": "Released dialogue gives the fictional address 7035 Hollis, near the observatory. No real Hollis parcel matches. This editorial point is in the hills near Griffith Observatory; 7035 Senalda Road is the production property, not an asserted story address."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 656,
+      "production_geocode": {
+        "coordinates": [
+          -118.496243096188,
+          34.245944276567
+        ],
+        "score": 100,
+        "match": "16706 Citronia St, Northridge, California, 91343",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=16706+Citronia+Street%2C+Northridge%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.496243096188,
+          34.245944276567
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 657,
+      "production_geocode": {
+        "coordinates": [
+          -118.344375164408,
+          34.060295975795
+        ],
+        "score": 100,
+        "match": "800 S LA Brea Ave, Los Angeles, California, 90036",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=800+South+La+Brea+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.344375164408,
+          34.060295975795
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 658,
+      "production_geocode": {
+        "coordinates": [
+          -118.373366910207,
+          34.163263213897
+        ],
+        "score": 100,
+        "match": "5108 Lankershim Blvd, North Hollywood, California, 91601",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5108+Lankershim+Boulevard%2C+North+Hollywood%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.373366910207,
+          34.163263213897
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus undated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 659,
+      "production_geocode": {
+        "coordinates": [
+          -118.250816612621,
+          34.034500794501
+        ],
+        "score": 100,
+        "match": "1015 Crocker St, Los Angeles, California, 90021",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1015+Crocker+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "screen",
+        "coordinates": [
+          -118.261567706074,
+          34.02711245154
+        ],
+        "basis": "The office visibly carries 2100 Wall Street. The production lot was approximately 1015 Crocker Street and was later redeveloped. The story pin follows the visible Wall Street address, separate from the filming site."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 660,
+      "production_geocode": {
+        "coordinates": [
+          -118.229828746165,
+          34.011683493858
+        ],
+        "score": 100,
+        "match": "2404 E 28th St, Vernon, California, 90058",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2404+East+28th+Street%2C+Vernon%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.229828746165,
+          34.011683493858
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 661,
+      "production_geocode": {
+        "coordinates": [
+          -118.527683028266,
+          34.200505015534
+        ],
+        "score": 100,
+        "match": "7137 Lindley Ave, Reseda, California, 91335",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7137+Lindley+Avenue%2C+Reseda%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.527683028266,
+          34.200505015534
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Revealing scene: conceal with spoilers off."
+    },
+    {
+      "id": 662,
+      "production_geocode": {
+        "coordinates": [
+          -118.232608939629,
+          34.042072502916
+        ],
+        "score": 100,
+        "match": "E 4th St & S Santa Fe Ave, Los Angeles, California, 90013",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=East+4th+Street+%26+South+Santa+Fe+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.232608939629,
+          34.042072502916
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 663,
+      "production_geocode": {
+        "coordinates": [
+          -118.651033629966,
+          34.209377134316
+        ],
+        "score": 100,
+        "match": "7532 Sedgewick Ct, West Hills, California, 91304",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7532+Sedgewick+Court%2C+West+Hills%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.501,
+          34.154
+        ],
+        "basis": "The home is explicitly in Encino in the story. Sedgewick Court in West Hills is the verified production house. The story marker is an editorial Encino neighborhood estimate; no canonical numbered street is known."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 664,
+      "production_geocode": {
+        "coordinates": [
+          -118.417339966827,
+          34.314184996446
+        ],
+        "score": 100,
+        "match": "13356 Eldridge Ave, Sylmar, California, 91342",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=13356+Eldridge+Avenue%2C+Sylmar%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.511,
+          34.166
+        ],
+        "basis": "Encino High is the fictional school. Los Angeles Mission College in Sylmar supplied its campus and Instructional Building. The story pin is an editorial Encino estimate, not a claim that the school is in Sylmar."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 665,
+      "production_geocode": {
+        "coordinates": [
+          -118.603203472962,
+          34.432122984171
+        ],
+        "score": 100,
+        "match": "26101 Magic Mountain Pkwy, Valencia, California, 91355",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=26101+Magic+Mountain+Parkway%2C+Valencia%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.603203472962,
+          34.432122984171
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 666,
+      "production_geocode": {
+        "coordinates": [
+          -118.361620427278,
+          34.063320753194
+        ],
+        "score": 100,
+        "match": "6101 Wilshire Blvd, Los Angeles, California, 90048",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6101+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.361620427278,
+          34.063320753194
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 667,
+      "production_geocode": {
+        "coordinates": [
+          -118.357437689955,
+          34.063323477313
+        ],
+        "score": 100,
+        "match": "5801 Wilshire Blvd, Los Angeles, California, 90036",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5801+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.357437689955,
+          34.063323477313
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 668,
+      "production_geocode": {
+        "coordinates": [
+          -118.354614226194,
+          34.066517915236
+        ],
+        "score": 97.96,
+        "match": "535 S Curson Ave, Los Angeles, California, 90036",
+        "precision": "StreetAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=535+S+Curson+Avenue+West%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "note": "Plain 535 S Curson Ave resolves incorrectly north of Park La Brea; internal Curson Avenue West match is used."
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.354614226194,
+          34.066517915236
+        ],
+        "basis": "The story identifies Park La Brea. The matched tower at 535 South Curson supplies the apartment-building location; no apartment number is claimed."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 669,
+      "production_geocode": {
+        "coordinates": [
+          -118.358132214452,
+          34.062091127998
+        ],
+        "score": 100,
+        "match": "5900 Wilshire Blvd, Los Angeles, California, 90036",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5900+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.358132214452,
+          34.062091127998
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 670,
+      "production_geocode": {
+        "coordinates": [
+          -118.268805015026,
+          34.125998990669
+        ],
+        "score": 100,
+        "match": "Veselich Ave & Garden Ave, Los Angeles, California, 90039",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Veselich+Avenue+%26+Garden+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.268805015026,
+          34.125998990669
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus undated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 671,
+      "production_geocode": {
+        "coordinates": [
+          -118.260025977278,
+          34.073313993436
+        ],
+        "score": 100,
+        "match": "751 Echo Park Ave, Los Angeles, California, 90026",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=751+Echo+Park+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "note": "Echo Park Lake name alone wrongly resolves to Echo Park Avenue; lakeside frontage at 751 Echo Park Ave is used."
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.260025977278,
+          34.073313993436
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus undated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    },
+    {
+      "id": 672,
+      "production_geocode": {
+        "coordinates": [
+          -118.26433,
+          34.09747
+        ],
+        "score": 100,
+        "match": "Silver Lake Reservoir",
+        "precision": "POI",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Silver+Lake+Reservoir%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.26433,
+          34.09747
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus labeled site aerial",
+      "frame_review": "Revealing scene: conceal with spoilers off."
+    },
+    {
+      "id": 673,
+      "production_geocode": {
+        "coordinates": [
+          -118.257089209863,
+          34.05028915687
+        ],
+        "score": 100,
+        "match": "550 S Flower St, Los Angeles, California, 90071",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=550+South+Flower+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.257089209863,
+          34.05028915687
+        ],
+        "basis": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+      },
+      "photo_status": "Matched film frame plus dated site photograph",
+      "frame_review": "Ordinary location view; no critical outcome visible."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Lost Highway",
+      "site": "Lost Highway Hotel / Death Valley Junction and Silurian Dry Lake",
+      "reason": "Outside Los Angeles County."
+    },
+    {
+      "title": "Under the Silver Lake",
+      "site": "Frogtown warehouse apartment interior set",
+      "reason": "Constructed interior, not an in-story backlot location."
+    },
+    {
+      "title": "Fast Times at Ridgemont High",
+      "site": "Universal studio interiors",
+      "reason": "Studio sets/backlots do not represent independently mapped real places."
+    }
+  ]
+}

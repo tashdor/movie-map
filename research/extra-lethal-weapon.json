@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": 690,
+      "name": "Martin Riggs’s beach trailer",
+      "short": "Martin Riggs’s beach trailer",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "Dockweiler State Beach, Grand Avenue at Vista del Mar, Los Angeles County",
+      "area": "Dockweiler / El Segundo",
+      "coordinates": [
+        -118.427971,
+        33.916556
+      ],
+      "productionCoordinates": [
+        -118.427971,
+        33.916556
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Dockweiler State Beach, Grand Avenue at Vista del Mar, Los Angeles County",
+        "precision": "production-site",
+        "reason": "The point anchors the documented beach site north of Grand Avenue. The story establishes a beach home in the Los Angeles setting but gives no verified street address. It is a filming proxy, not a claim of a canonical Dockweiler address.",
+        "sourceIds": [
+          "extra_lw_ift1",
+          "extra_lw_trailer",
+          "extra_lw_afi1",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon",
+          "release_year": 1987,
+          "story_role": "Martin Riggs’s beach trailer",
+          "filming_component": "Dockweiler State Beach, Grand Avenue at Vista del Mar, Los Angeles County",
+          "source_ids": [
+            "extra_lw_ift1",
+            "extra_lw_trailer",
+            "extra_lw_afi1"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Christmas setting is explicit; 1987 release year is an editorial estimate, not a verified on-screen year.",
+            "source_ids": [
+              "extra_lw_afi1"
+            ],
+            "month": 12
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "The trailer was placed on the beach for filming.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-690-screen.jpg",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LethalWeapon/MelsTrailer.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LethalWeapon1.shtml",
+          "credit": "Lethal Weapon / Warner Bros.; Seeing Stars",
+          "alt": "Riggs’s beach trailer and parked pickup.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon",
+          "spoiler": false,
+          "width": 450,
+          "height": 252
+        },
+        "place": {
+          "src": "photos/extra-lw-690-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaVDzMIDpanZo_5H-xx7wOt-qWlxSO0olFsOH_HwMCoCh5qw7f8CRhvw08c_GMou-3bZm21FqRVgZWA_sjnJ3ZGJXoYVKTrsSvu0Iun40Q5HH-Hnfxpd3bwLkWqQMYenYVRJ50bl29erM/s1200/Beach.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The same beach near Grand Avenue without the film trailer.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 691,
+      "name": "Michael Hunsaker’s home",
+      "short": "Michael Hunsaker’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "2817 Via Segovia, Palos Verdes Estates",
+      "area": "Palos Verdes Peninsula",
+      "coordinates": [
+        -118.421675506244,
+        33.763753251994
+      ],
+      "productionCoordinates": [
+        -118.421675506244,
+        33.763753251994
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "2817 Via Segovia, Palos Verdes Estates",
+        "precision": "production-site",
+        "reason": "The coastal mansion is identified by matched film frames and an independent location guide. Its actual address is a production proxy; the film does not establish a numbered story address.",
+        "sourceIds": [
+          "extra_lw_ift1",
+          "extra_lw_hunsaker",
+          "extra_lw_afi1",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Michael Hunsaker",
+        "Roger Murtaugh",
+        "Martin Riggs"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon",
+          "release_year": 1987,
+          "story_role": "Michael Hunsaker’s home",
+          "filming_component": "2817 Via Segovia, Palos Verdes Estates",
+          "source_ids": [
+            "extra_lw_ift1",
+            "extra_lw_hunsaker",
+            "extra_lw_afi1"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Christmas setting is explicit; 1987 release year is an editorial estimate, not a verified on-screen year.",
+            "source_ids": [
+              "extra_lw_afi1"
+            ],
+            "month": 12
+          },
+          "characters": [
+            {
+              "name": "Michael Hunsaker",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "visits"
+            },
+            {
+              "name": "Martin Riggs",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-691-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbHtv2RQKEZ22I6sDqtZtC2GhDH6WwfBN3tA6RiNkjyqSRblNwgpVxFxNe71WW7PN5zBYF0vaUzX9AjyYN0wcAPfHH_NrIuFvUA4e9sk12-L_FfBLHH4zhZlEwHJsWy0AuZDQiFMOhkMM/s1200/Cliff+House.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon.html",
+          "credit": "Lethal Weapon / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "A helicopter approaches Hunsaker’s garden during the attack.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon",
+          "spoiler": true,
+          "width": 800,
+          "height": 445
+        },
+        "place": {
+          "src": "photos/extra-lw-691-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.422875506244%2C33.762953251994%2C-118.420475506244%2C33.764553251993995&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the Via Segovia production mansion.",
+          "note": "Aerial of the production property. Imagery capture date not supplied by the active basemap.",
+          "caption": "Site · aerial",
+          "width": 1000,
+          "height": 650
+        }
+      },
+      "deaths": [
+        {
+          "title": "Lethal Weapon",
+          "people": [
+            "Michael Hunsaker"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "name": "Rudd’s stilt house",
+      "short": "Rudd’s stilt house",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "7436 Mulholland Drive, Los Angeles",
+      "area": "Hollywood Hills",
+      "coordinates": [
+        -118.358951964583,
+        34.122482908015
+      ],
+      "productionCoordinates": [
+        -118.358951964583,
+        34.122482908015
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "7436 Mulholland Drive, Los Angeles",
+        "precision": "production-site",
+        "reason": "AFI documents the Mulholland Drive filming house, and the scene comparison identifies the Garcia House. The actual property anchors the screen house; no separate numbered canonical address is asserted.",
+        "sourceIds": [
+          "extra_lw_ift2",
+          "extra_lw_afi2",
+          "extra_lw_script2",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Arjen Rudd",
+        "Pieter Vorstedt",
+        "Martin Riggs",
+        "Roger Murtaugh",
+        "Leo Getz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "Rudd’s stilt house",
+          "filming_component": "7436 Mulholland Drive, Los Angeles",
+          "source_ids": [
+            "extra_lw_ift2",
+            "extra_lw_afi2",
+            "extra_lw_script2"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate, not an asserted on-screen year.",
+            "source_ids": [
+              "extra_lw_afi2"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Arjen Rudd",
+              "relationship": "uses the house"
+            },
+            {
+              "name": "Pieter Vorstedt",
+              "relationship": "appears here"
+            },
+            {
+              "name": "Martin Riggs",
+              "relationship": "visits"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "visits"
+            },
+            {
+              "name": "Leo Getz",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "John Lautner’s Garcia House supplies the stilt-house exterior.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-692-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi43ucJubv9D_f4DMVCOCaqi3fEatFc8vIzHWFxRnjHoja0MgGqufPWi3jpBFnQNpbA4ZiVfIN0WB62TI8tuiY9frfDPOmgkBR1Mm__UVQpefv4kJ0XTesL-UV0eBvoH2j8LHV7wSi-tmM/s1200/Stilts+2.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "The Garcia House on its hillside supports.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/extra-lw-692-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPPONsZG53ori9-nf8Qi4IFTZt2mP9Si01Eg-Li2q447qNYa1w0zmMY8RKxiAwOEHW4aNNUi2f3Z0Zuayrg9p7IWxmKlF8H76dOkQjPP2a28iN9IovvfUFqFin0qJIrErbpC7DeXtZPH2uWL8q83xHwduOBgY7cklJ94YdUAzQz125h5LRkr94FTybPs/s1200/D.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The real Garcia House entrance from Mulholland Drive.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 719
+        }
+      }
+    },
+    {
+      "id": 693,
+      "name": "South African consulate",
+      "short": "South African consulate",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "9090 Wilshire Boulevard, Beverly Hills",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.389332507918,
+        34.06670503042
+      ],
+      "productionCoordinates": [
+        -118.389332507918,
+        34.06670503042
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "9090 Wilshire Boulevard, Beverly Hills",
+        "precision": "production-site",
+        "reason": "The screenplay establishes a South African consulate in the Los Angeles story. Matched film frames identify 9090 Wilshire as the production building; the pin does not assert that a real consulate occupied it.",
+        "sourceIds": [
+          "extra_lw_ift2",
+          "extra_lw_afi2",
+          "extra_lw_script2",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Arjen Rudd",
+        "Pieter Vorstedt",
+        "Rika van den Haas",
+        "Martin Riggs",
+        "Roger Murtaugh",
+        "Leo Getz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "South African consulate",
+          "filming_component": "9090 Wilshire Boulevard, Beverly Hills",
+          "source_ids": [
+            "extra_lw_ift2",
+            "extra_lw_afi2",
+            "extra_lw_script2"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate, not an asserted on-screen year.",
+            "source_ids": [
+              "extra_lw_afi2"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Arjen Rudd",
+              "relationship": "works here"
+            },
+            {
+              "name": "Pieter Vorstedt",
+              "relationship": "works here"
+            },
+            {
+              "name": "Rika van den Haas",
+              "relationship": "works here"
+            },
+            {
+              "name": "Martin Riggs",
+              "relationship": "visits"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "visits"
+            },
+            {
+              "name": "Leo Getz",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "The Wilshire office building supplies the consulate entrance and garage.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-693-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3PIAE1u25TaDeXu8IFb-caFJk8BNg_KS8g1bCJ0rWDVXO9EuB1DaCBN0GxceqN3hXVSQGqOLjUi9oepkWfqqgvu5FsncI2p8NuJkhkG_agA06kMGicx8shdX38pwBVkEj9KjXIOqjSUA/s1200/Building+3.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "The consulate entrance during an anti-apartheid protest.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 336
+        },
+        "place": {
+          "src": "photos/extra-lw-693-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-QJ1T4zicK8RYWzEHRDZvn2JFXzrPdEWeVUXI8BMZkj5z1FjC0u3YfJi579lEQiOUwKnCU-0eH2V0QJn357xqjFL40y1tmGLo3bdp-ihCMHJHT9nP-1oynksPg06u3tyxuWw-kqX8JI/s1200/Los+Angeles+2010+059.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The same Wilshire office-building facade.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 694,
+      "name": "The Forum hockey game",
+      "short": "The Forum hockey game",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "3900 West Manchester Boulevard, Inglewood",
+      "area": "Inglewood",
+      "coordinates": [
+        -118.341901161867,
+        33.958284903298
+      ],
+      "productionCoordinates": [
+        -118.341901161867,
+        33.958284903298
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "3900 West Manchester Boulevard, Inglewood",
+        "precision": "production-site",
+        "reason": "Matched arena footage and contemporary reporting establish the Forum. The 1991 production date is not substituted for an explicit story date; 1992 remains a contemporary-setting estimate.",
+        "sourceIds": [
+          "extra_lw_ift3",
+          "extra_lw_forum",
+          "extra_lw_afi3",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Roger Murtaugh",
+        "Leo Getz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 3",
+          "release_year": 1992,
+          "story_role": "The Forum hockey game",
+          "filming_component": "3900 West Manchester Boulevard, Inglewood",
+          "source_ids": [
+            "extra_lw_ift3",
+            "extra_lw_forum",
+            "extra_lw_afi3"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate, not an asserted on-screen year.",
+            "source_ids": [
+              "extra_lw_afi3"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "attends"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "attends"
+            },
+            {
+              "name": "Leo Getz",
+              "relationship": "attends"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "Part of the sequence was filmed during a Kings–Maple Leafs game in November 1991.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-694-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0IllCGrxQ8YLfneng9cU2vOjG_FrxCybkOZyFfqf1-rc2JDQlwI-NEBCqa1TmCSFHLNB4VFtSo97wnfzk-aVAa-BBORx429lprAwMyUjRB45Epm9B38Wd38iPXEb_XWXFs2PfrKI0Fvk/s1200/Hockey.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-3.html",
+          "credit": "Lethal Weapon 3 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "A hockey game inside the Great Western Forum.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 3",
+          "spoiler": false,
+          "width": 800,
+          "height": 325
+        },
+        "place": {
+          "src": "photos/extra-lw-694-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhICnrmdJWds0y_bLsnL8EOHfV7eA2cnuNpBNjmxdW0CRVTvrsS49p56OAoV2odXXXKKHp048Qr8XKkoSEAPF9ancdQrGWPRvw2ZXh8k_iLP0b98lyCEKhrD1y2LXgpcrd8pBEFR89xZWk/s1200/LA+Trip+264.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-3.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Forum’s exterior in a location-comparison photograph.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 695,
+      "name": "Riggs & Lorna’s beach home",
+      "short": "Riggs & Lorna’s beach home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "28128 Pacific Coast Highway, Malibu · Paradise Cove",
+      "area": "Malibu",
+      "coordinates": [
+        -118.7876,
+        34.02035
+      ],
+      "productionCoordinates": [
+        -118.7876,
+        34.02035
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "28128 Pacific Coast Highway, Malibu · Paradise Cove",
+        "precision": "production-site",
+        "reason": "The site is identified by the café and pier in matched frames. The pin marks the beach beside the café, not a surviving private house or a confirmed story address. Earlier films used other physical beaches; no undocumented canonical move date is inferred.",
+        "sourceIds": [
+          "extra_lw_ift4",
+          "extra_lw_paradise",
+          "extra_lw_script4",
+          "extra_lw_afi4",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Lorna Cole"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 4",
+          "release_year": 1998,
+          "story_role": "Riggs & Lorna’s beach home",
+          "filming_component": "28128 Pacific Coast Highway, Malibu · Paradise Cove",
+          "source_ids": [
+            "extra_lw_ift4",
+            "extra_lw_paradise",
+            "extra_lw_script4",
+            "extra_lw_afi4"
+          ],
+          "story_time": {
+            "year": 1998,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate, not an asserted on-screen year.",
+            "source_ids": [
+              "extra_lw_afi4"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Lorna Cole",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "The beach home was a filming facade north of the Paradise Cove café.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-695-screen.jpg",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2009/04/bba1df69-0b6e-42af-9fbd-773a5c6f9bbd.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2009/04/16/paradise-cove",
+          "credit": "Lethal Weapon 4 / Warner Bros.; Lindsay Blake / IAMNOTASTALKER",
+          "alt": "Riggs and Lorna walk in front of their beach home.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 4",
+          "spoiler": false,
+          "width": 1077,
+          "height": 459
+        },
+        "place": {
+          "src": "photos/extra-lw-695-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXw0D5e0U6YUiOvU1yhlX60fVkn8UUFGxZFPMm-WCms1mpwqzv_ntngacw5LOPhHK8QMG9SKQChNlINsZpFdbstlMJ_THa2lHbBDQ-jheqQJLriHMWVcRQuRY1nuEguRF-WFEigv2KHsk/s1200/Beach+1.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Paradise Cove beach and pier near the former filming facade.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 696,
+      "name": "Hop Louie chase",
+      "short": "Hop Louie chase",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "950 Mei Ling Way, Los Angeles",
+      "area": "Chinatown",
+      "coordinates": [
+        -118.237747800647,
+        34.06542813129
+      ],
+      "productionCoordinates": [
+        -118.237747800647,
+        34.06542813129
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "950 Mei Ling Way, Los Angeles",
+        "precision": "production-site",
+        "reason": "Two independent film-frame comparisons identify Hop Louie for this part of the chase. This is the specific restaurant and window, not a reconstructed route through the surrounding rooftops.",
+        "sourceIds": [
+          "extra_lw_ift4",
+          "extra_lw_hoplouie",
+          "extra_lw_script4",
+          "extra_lw_afi4",
+          "extra_lw_geocoder"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Lee Butters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 4",
+          "release_year": 1998,
+          "story_role": "Hop Louie chase",
+          "filming_component": "950 Mei Ling Way, Los Angeles",
+          "source_ids": [
+            "extra_lw_ift4",
+            "extra_lw_hoplouie",
+            "extra_lw_script4",
+            "extra_lw_afi4"
+          ],
+          "story_time": {
+            "year": 1998,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate, not an asserted on-screen year.",
+            "source_ids": [
+              "extra_lw_afi4"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Lee Butters",
+              "relationship": "chases a waiter through the restaurant"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "The dining room and upper window appear in the Chinatown pursuit.",
+      "media": {
+        "screen": {
+          "src": "photos/extra-lw-696-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMGIMRVM4LmagpKdtQWgsftlDjDjS-ZT2p-XdqaPom3XEL3aBMyl6GuPTqWOqNqlFDkkqHrZn1YF40mRcmqAVxjeuLRpuWvUIEfgtpdXE3K3QHrHYAkZH-QTAjVPTaTTmaPtktyWMfJ8/s1200/Building.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+          "credit": "Lethal Weapon 4 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "A waiter climbs out of Hop Louie’s upper window during the chase.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 4",
+          "spoiler": false,
+          "width": 800,
+          "height": 332
+        },
+        "place": {
+          "src": "photos/extra-lw-696-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWyskVHbdofmt2VB1ThVLSFtHcdwQFLL2Mrz12rPDOP3U82kp986-m87RElP7SexSNhd01r0Nn6EXJ-qTgbQftoUsgORRfk_ktdfmP3G2WFKEGhZUuDLoFQoVhnFkZXL75FKOkkHV-mk/s1200/Window.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Hop Louie’s pagoda-style entrance and upper window.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "extra_lw_ift1",
+      "title": "Chas Demster: Lethal Weapon scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/lethal-weapon.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_ift2",
+      "title": "Chas Demster: Lethal Weapon 2 scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_ift3",
+      "title": "Chas Demster: Lethal Weapon 3 scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-3.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_ift4",
+      "title": "Chas Demster: Lethal Weapon 4 scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/02/lethal-weapon-4.html",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_afi1",
+      "title": "AFI Catalog: Lethal Weapon",
+      "url": "https://catalog.afi.com/Film/68361-LETHAL-WEAPON",
+      "source_type": "film archive"
+    },
+    {
+      "id": "extra_lw_afi2",
+      "title": "AFI Catalog: Lethal Weapon 2",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/58168",
+      "source_type": "film archive"
+    },
+    {
+      "id": "extra_lw_afi3",
+      "title": "AFI Catalog: Lethal Weapon 3",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/59301",
+      "source_type": "film archive"
+    },
+    {
+      "id": "extra_lw_afi4",
+      "title": "AFI Catalog: Lethal Weapon 4",
+      "url": "https://catalog.afi.com/Film/61010-LETHAL-WEAPON-4",
+      "source_type": "film archive"
+    },
+    {
+      "id": "extra_lw_script4",
+      "title": "Lethal Weapon 4 screenplay",
+      "url": "https://thescriptsavant.com/movies/Lethal_Weapon_4.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "extra_lw_script2",
+      "title": "Lethal Weapon 2 screenplay",
+      "url": "https://ftp.dailyscript.com/scripts/Lethal%20Weapon_2.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "extra_lw_trailer",
+      "title": "Seeing Stars: Lethal Weapon beach trailer and real-location notes",
+      "url": "https://www.seeing-stars.com/Locations/LethalWeapon1.shtml",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "extra_lw_hunsaker",
+      "title": "Seeing Stars: Hunsaker coastal house",
+      "url": "https://www.seeing-stars.com/Locations/LethalWeapon2.shtml",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "extra_lw_forum",
+      "title": "Los Angeles Times: filming at the Forum, November 1991",
+      "url": "https://www.latimes.com/archives/la-xpm-1991-11-28-sp-61-story.html",
+      "source_type": "contemporary reporting"
+    },
+    {
+      "id": "extra_lw_paradise",
+      "title": "Lindsay Blake: Paradise Cove filming comparison",
+      "url": "https://www.iamnotastalker.com/2009/04/16/paradise-cove",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_hoplouie",
+      "title": "Lindsay Blake: Hop Louie film appearances",
+      "url": "https://www.iamnotastalker.com/2018/03/14/hop-louie-from-i-love-you-man",
+      "source_type": "first-hand location photography and film-frame comparison"
+    },
+    {
+      "id": "extra_lw_imagery",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "extra_lw_geocoder",
+      "title": "Esri World Geocoding Service: address verification",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "address geocoder"
+    }
+  ],
+  "audit": [
+    {
+      "id": 690,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.427971,
+          33.916556
+        ],
+        "precision": "documented-beach-anchor",
+        "basis": "Dockweiler/Grand Avenue site independently identified by Seeing Stars and Chas Demster."
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 691,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.421675506244,
+          33.763753251994
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2817+Via+Segovia%2C+Palos+Verdes+Estates%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "2817 Via Segovia, Palos Verdes Estates, California, 90274",
+        "precision": "PointAddress"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 692,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.358951964583,
+          34.122482908015
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7436+Mulholland+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "7436 Mulholland Dr, Los Angeles, California, 90046",
+        "precision": "PointAddress"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 693,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.389332507918,
+          34.06670503042
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=9090+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "9090 Wilshire Blvd, Beverly Hills, California, 90211",
+        "precision": "PointAddress"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 694,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.341901161867,
+          33.958284903298
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=3900+West+Manchester+Boulevard%2C+Inglewood%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "3900 W Manchester Blvd, Inglewood, California, 90305",
+        "precision": "PointAddress"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 695,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.7876,
+          34.02035
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Paradise+Cove+Beach+Cafe%2C+Malibu%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "Paradise Cove Beach Cafe",
+        "precision": "POI"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "id": 696,
+      "story_setting": "Los Angeles regional story; production address is a proxy unless the named venue establishes the same place.",
+      "production_geocode": {
+        "coordinates": [
+          -118.237747800647,
+          34.06542813129
+        ],
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=950+Mei+Ling+Way%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "match": "950 Mei Ling Way, Los Angeles, California, 90012",
+        "precision": "PointAddress"
+      },
+      "photo_status": "Downloaded and visually checked film frame plus real-site photograph; Hunsaker house uses current aerial imagery.",
+      "reviewed_on": "2026-11-17"
+    },
+    {
+      "name": "Roger Murtaugh’s home",
+      "status": "excluded",
+      "reason": "Recurring exterior was a Warner/Columbia Ranch backlot house on Blondie Street, not a real residential property.",
+      "source_ids": [
+        "extra_lw_ift1",
+        "extra_lw_ift2",
+        "extra_lw_ift3",
+        "extra_lw_ift4",
+        "extra_lw_trailer"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "places": [
     {
       "id": 23,
@@ -202,17 +202,30 @@
     },
     {
       "id": 96,
-      "reason": "The Player relationship fields name the murderer and victim. La La Land is safe.",
+      "reason": "The Player relationship fields name the murderer and victim. La La Land is safe. meets and █ David still identifies Griffin as killer and David as victim; preserve meets and attends screening.",
       "title": "La La Land",
       "name": "Rialto Theatre",
       "fields": [
         "mediaByTitle.The Player.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances[title=The Player].characters[name=Griffin Mill].relationship",
+          "phrases": [
+            "and kills David"
+          ]
+        },
+        {
+          "path": "appearances[title=The Player].characters[name=David Kahane].relationship",
+          "phrases": [
+            "killed outside"
+          ]
+        }
+      ]
     },
     {
       "id": 207,
-      "reason": "Named survivors escape the climactic Heat bank robbery.",
+      "reason": "Named survivors escape the climactic Heat bank robbery. Named escape event after gunfight reveals survival. Suppress identities on this event and route98 stop; do not suppress their homes.",
       "title": "Heat",
       "name": "McCauley & Chris’s escape",
       "fields": [
@@ -222,44 +235,101 @@
         {
           "path": "name",
           "phrases": [
-            "escape"
+            "escape",
+            "McCauley & Chris’s escape"
           ]
         },
         {
           "path": "short",
           "phrases": [
-            "escape"
+            "escape",
+            "McCauley & Chris’s escape"
           ]
         },
         {
           "path": "appearances.story_role",
           "phrases": [
-            "escape"
+            "escape",
+            "McCauley & Chris’s escape"
+          ]
+        }
+      ],
+      "concealParticipants": true
+    },
+    {
+      "id": 214,
+      "name": "Johnie’s Broiler",
+      "title": "Heat",
+      "reason": "Unmasked survival outcome plus execution; retain all restaurant-history text.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "notes",
+          "phrases": [
+            "Waingro survives the attempted execution in the parking lot."
+          ]
+        },
+        {
+          "path": "media.note",
+          "phrases": [
+            "Waingro survives the attempted execution in the parking lot."
           ]
         }
       ]
     },
     {
       "id": 216,
-      "reason": "Van Zant’s betrayal is disclosed by the ambush label and notes.",
+      "reason": "Van Zant’s betrayal is disclosed by the ambush label and notes. “Van Zant handoff becomes a █” gives away double cross; hide full twist clause, retain demolition history.",
       "title": "Heat",
       "name": "Centinela drive-in ambush",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "notes",
+          "phrases": [
+            "Van Zant’s bearer-bond handoff becomes an ambush."
+          ]
+        },
+        {
+          "path": "media.note",
+          "phrases": [
+            "Van Zant’s bearer-bond handoff becomes an ambush."
+          ]
+        }
+      ]
     },
     {
       "id": 219,
-      "reason": "The ordinary home is safe; murderer/victim relationships reveal its later outcome.",
+      "reason": "The ordinary home is safe; murderer/victim relationships reveal its later outcome. Retain ordinary Van Zant home label/resident, cover complete who-does-what clauses instead of verb.",
       "title": "Heat",
       "name": "Roger Van Zant’s home",
       "fields": [],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "where McCauley confronts and kills him"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Roger Van Zant].relationship",
+          "phrases": [
+            "killed here"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Neil McCauley].relationship",
+          "phrases": [
+            "kills Van Zant"
+          ]
+        }
+      ]
     },
     {
       "id": 227,
-      "reason": "Death/mortal-wound details occur on the main police-station record, not only its derived death row.",
+      "reason": "Death/mortal-wound details occur on the main police-station record, not only its derived death row. Keep station/interrogation and workplace readable; works_and_is_█_here still signals Traxler outcome, T800 attack relationship bypasses massacre redaction.",
       "title": "The Terminator",
       "name": "Central Division police station",
       "fields": [],
@@ -268,6 +338,30 @@
           "path": "appearances.characters.relationship",
           "phrases": [
             "leaves_before_the_attack"
+          ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "the police-station massacre"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=T-800].relationship",
+          "phrases": [
+            "attacks_station"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Ed Traxler].relationship",
+          "phrases": [
+            "and_is_mortally_wounded_here"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Dr. Peter Silberman].relationship",
+          "phrases": [
+            "and_leaves_before_the_attack"
           ]
         }
       ]
@@ -318,11 +412,18 @@
     },
     {
       "id": 256,
-      "reason": "Investigator relationships explicitly reveal David’s death.",
+      "reason": "Investigator relationships explicitly reveal David’s death. investigates David’s █ reveals victim identity; retain investigates only.",
       "title": "The Player",
       "name": "Pasadena police station",
       "fields": [],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters.relationship",
+          "phrases": [
+            "David’s death"
+          ]
+        }
+      ]
     },
     {
       "id": 257,
@@ -380,13 +481,26 @@
     },
     {
       "id": 260,
-      "reason": "The hotel record exposes Max as Iris’s killer.",
+      "reason": "The hotel record exposes Max as Iris’s killer. Max being listed at Iris hotel is major twist association, not merely outcome. Hide this appearance-specific identity/people association as well as entire killer clause; keep Iris ordinary hotel role.",
       "title": "Strange Days",
       "name": "Sunset Regent Hotel",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters[name=Iris].relationship",
+          "phrases": [
+            "killed here"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Max Peltier].relationship",
+          "phrases": [
+            "kills Iris"
+          ]
+        }
+      ]
     },
     {
       "id": 261,
@@ -463,17 +577,36 @@
     },
     {
       "id": 263,
-      "reason": "Climactic murderer/traitor revelation and deaths are embedded in hotel relationships.",
+      "reason": "Climactic murderer/traitor revelation and deaths are embedded in hotel relationships. Current █ Gant; falls to his █ reveals both murders and fatal fall. Max confrontation is hidden twist context; keep safe NewYear party/hotel.",
       "title": "Strange Days",
       "name": "Bonaventure Hotel",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters[name=Philo Gant].relationship",
+          "phrases": [
+            "killed here"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Max Peltier].relationship",
+          "phrases": [
+            "kills Gant; falls to his death"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Lenny Nero].relationship",
+          "phrases": [
+            "confronts Max"
+          ]
+        }
+      ]
     },
     {
       "id": 271,
-      "reason": "Bob is attached to an explosion and explicitly killed in the placement reason.",
+      "reason": "Bob is attached to an explosion and explicitly killed in the placement reason. Name not recognized by deathOutcome because “bombing”; Bob bus █ + Bob is █ aboard bus explicitly reveals victim. Treat named fatal bus event like other death-only events.",
       "title": "Speed",
       "name": "Bob’s bus bombing",
       "fields": [
@@ -483,41 +616,78 @@
         {
           "path": "name",
           "phrases": [
-            "bombing"
+            "bombing",
+            "Bob’s bus bombing"
           ]
         },
         {
           "path": "short",
           "phrases": [
-            "bombing"
+            "bombing",
+            "Bob’s bus bombing"
           ]
         },
         {
           "path": "appearances.story_role",
           "phrases": [
-            "bombing"
+            "bombing",
+            "Bob’s bus bombing"
           ]
         },
         {
           "path": "placement.reason",
           "phrases": [
             "explodes",
-            "bombing"
+            "bombing",
+            "The first bus explodes on Main just south of Rose",
+            "the earlier bombing",
+            "Bob is killed aboard the bus after leaving The Firehouse across the intersection."
+          ]
+        }
+      ],
+      "deathVictims": [
+        "Bob"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "LAX runways",
+      "title": "Speed",
+      "reason": "Unaudited empty-bus/airliner explosion gives away empty bus survives plan/final bus detonation; preserve LAX circling provenance.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances.filming_component",
+          "phrases": [
+            "Mojave Airport for the later empty-bus/airliner explosion"
+          ]
+        },
+        {
+          "path": "placement.reason",
+          "phrases": [
+            "the later airliner explosion used Mojave Airport"
           ]
         }
       ]
     },
     {
       "id": 277,
-      "reason": "A provenance paragraph explicitly gives Payne’s later death.",
+      "reason": "A provenance paragraph explicitly gives Payne’s later death. “Payne ... his later █ occurs in a tunnel” reveals death and captor resolution. Keep station identity paragraph.",
       "title": "Speed",
       "name": "Pershing Square station",
       "fields": [],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "placement.reason",
+          "phrases": [
+            "Payne then takes Annie aboard a train; his later death occurs in a moving tunnel, not at this station pin."
+          ]
+        }
+      ]
     },
     {
       "id": 278,
-      "reason": "Final train escape/crash is a major ending set piece and outcome.",
+      "reason": "Final train escape/crash is a major ending set piece and outcome. Two isolated motion-verb masks still expose ending trajectory/resolution. Keep actual theater filming description.",
       "title": "Speed",
       "name": "Hollywood subway crash",
       "fields": [
@@ -546,14 +716,15 @@
           "path": "placement.reason",
           "phrases": [
             "emerges",
-            "comes to rest"
+            "comes to rest",
+            "The runaway train emerges onto Hollywood Boulevard and comes to rest in front of the Chinese Theatre."
           ]
         }
       ]
     },
     {
       "id": 287,
-      "reason": "The rescue’s success and rescuer/victim pairing reveal a central Crash reversal.",
+      "reason": "The rescue’s success and rescuer/victim pairing reveal a central Crash reversal. Christine’s █ + John Ryan association reveals central late-film rescue/role reversal even without word rescue. Whole event identity needs cover (not ordinary Christine locations).",
       "title": "Crash",
       "name": "Christine’s rescue",
       "fields": [
@@ -563,19 +734,22 @@
         {
           "path": "name",
           "phrases": [
-            "rescue"
+            "rescue",
+            "Christine’s rescue"
           ]
         },
         {
           "path": "short",
           "phrases": [
-            "rescue"
+            "rescue",
+            "Christine’s rescue"
           ]
         },
         {
           "path": "appearances.story_role",
           "phrases": [
-            "rescue"
+            "rescue",
+            "Christine’s rescue"
           ]
         },
         {
@@ -584,11 +758,12 @@
             "rescue"
           ]
         }
-      ]
+      ],
+      "concealParticipants": true
     },
     {
       "id": 288,
-      "reason": "Anthony’s redemptive final action is stated directly.",
+      "reason": "Anthony’s redemptive final action is stated directly. Anthony █ the captives still communicates act and moral resolution; conceal full action and event-specific identity.",
       "title": "Crash",
       "name": "Anthony frees the captives",
       "fields": [
@@ -598,32 +773,37 @@
         {
           "path": "name",
           "phrases": [
-            "frees"
+            "frees",
+            "Anthony frees the captives"
           ]
         },
         {
           "path": "short",
           "phrases": [
-            "frees"
+            "frees",
+            "Anthony frees the captives"
           ]
         },
         {
           "path": "appearances.story_role",
           "phrases": [
-            "frees"
+            "frees",
+            "Anthony frees the captives"
           ]
         },
         {
           "path": "placement.reason",
           "phrases": [
-            "release"
+            "release",
+            "Anthony’s release of the van’s captives"
           ]
         }
-      ]
+      ],
+      "concealParticipants": true
     },
     {
       "id": 321,
-      "reason": "The Aeon hangar identifies Starling’s hidden future spacecraft.",
+      "reason": "The Aeon hangar identifies Starling’s hidden future spacecraft. Aeon-only mask leaves secret hangar context.",
       "title": "Star Trek: Voyager",
       "name": "Chronowerx Industries",
       "fields": [
@@ -633,14 +813,15 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "Aeon"
+            "Aeon",
+            "and the Aeon hangar"
           ]
         }
       ]
     },
     {
       "id": 323,
-      "reason": "The rendezvous/Doctor escape discloses the outcome of the late Voyager sequence.",
+      "reason": "The rendezvous/Doctor escape discloses the outcome of the late Voyager sequence. Hide whole named outcome.",
       "title": "Star Trek: Voyager",
       "name": "Metro Plaza",
       "fields": [
@@ -650,7 +831,8 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "escape"
+            "escape",
+            "the Doctor’s escape"
           ]
         }
       ]
@@ -674,7 +856,7 @@
     },
     {
       "id": 401,
-      "reason": "The ordinary home is safe; role and relationships reveal Caine/Sharif’s ending deaths.",
+      "reason": "The ordinary home is safe; role and relationships reveal Caine/Sharif’s ending deaths. Keep Caine visits Ronnie, omit Sharif-only death edge and people duplicate.",
       "title": "Menace II Society",
       "name": "Ronnie & Anthony’s home",
       "fields": [
@@ -692,12 +874,51 @@
           "phrases": [
             "final drive-by"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Caine Lawson].relationship",
+          "phrases": [
+            "; killed in the final drive-by"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Sharif Butler].relationship",
+          "phrases": [
+            "killed in the final drive-by"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "name": "The Maxima theft",
+      "title": "Menace II Society",
+      "reason": "Previously unaudited theft outcome; retain theft as ordinary event.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "and arrest"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Caine Lawson].relationship",
+          "phrases": [
+            "and is caught"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=O-Dog].relationship",
+          "phrases": [
+            "and is caught"
+          ]
         }
       ]
     },
     {
       "id": 406,
-      "reason": "Death plus survivor identities occur in main-event prose.",
+      "reason": "Death plus survivor identities occur in main-event prose. Base carjacking name safe; omit fully concealed outcome-only edges/people duplicates.",
       "title": "Menace II Society",
       "name": "Harold’s carjacking",
       "fields": [
@@ -709,12 +930,63 @@
           "phrases": [
             "survives"
           ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Harold’s carjacking and death"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Caine Lawson].relationship",
+          "phrases": [
+            "survives the carjacking"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Harold].relationship",
+          "phrases": [
+            "is killed during the carjacking"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=A-Wax].relationship",
+          "phrases": [
+            "comes to the victims’ aid"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=O-Dog].relationship",
+          "phrases": [
+            "comes to the victims’ aid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Martin Luther King Jr. Hospital",
+      "title": "Menace II Society",
+      "reason": "Hospital association confirms survival of preceding severe shooting, omit sole edge if protecting outcome.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Caine’s treatment after the carjacking"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Caine Lawson].relationship",
+          "phrases": [
+            "receives treatment after being shot"
+          ]
         }
       ]
     },
     {
       "id": 414,
-      "reason": "Final raid outcome identifies both Hodges’s killer and victim.",
+      "reason": "Final raid outcome identifies both Hodges’s killer and victim. Keep hilltop raid and safe Danny/Frog edges, conceal victim/perpetrator-only edges.",
       "title": "Colors",
       "name": "The hilltop raid",
       "fields": [
@@ -724,7 +996,8 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "Final"
+            "Final",
+            "Hodges’s death"
           ]
         },
         {
@@ -732,12 +1005,24 @@
           "phrases": [
             "shoots"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Bob Hodges].relationship",
+          "phrases": [
+            "is fatally shot during the raid"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Bird].relationship",
+          "phrases": [
+            "shoots Hodges"
+          ]
         }
       ]
     },
     {
       "id": 416,
-      "reason": "Home relationship and role name the drive-by killer/victim.",
+      "reason": "Home relationship and role name the drive-by killer/victim. Keep Robert home/resident; omit Rocket killer-only relationship and hidden investigator predicates.",
       "title": "Colors",
       "name": "Robert Craig’s home",
       "fields": [
@@ -751,12 +1036,42 @@
             "shoots",
             "shooting"
           ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Robert Craig’s drive-by killing"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Robert Craig].relationship",
+          "phrases": [
+            "; shot outside"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Rocket].relationship",
+          "phrases": [
+            "shoots Robert Craig"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Danny McGavin].relationship",
+          "phrases": [
+            "investigates the shooting"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Bob Hodges].relationship",
+          "phrases": [
+            "investigates the shooting"
+          ]
         }
       ]
     },
     {
       "id": 417,
-      "reason": "Mike’s death is named on the ordinary Hallenbeck house record.",
+      "reason": "Mike’s death is named on the ordinary Hallenbeck house record. Keep Hallenbeck family residents; omit Mike-only fatal car association.",
       "title": "The Last Boy Scout",
       "name": "Joe Hallenbeck’s home",
       "fields": [
@@ -766,13 +1081,47 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "bombing"
+            "bombing",
+            "Mike’s car bombing"
           ]
         },
         {
           "path": "appearances.characters.relationship",
           "phrases": [
             "car explosion"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Mike Matthews].relationship",
+          "phrases": [
+            "dies in a car explosion outside"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Cory’s apartment",
+      "title": "The Last Boy Scout",
+      "reason": "Central blackmail evidence, keep Cory apartment/resident and omit secret-only investigator edges.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "the blackmail recording"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Jimmy Dix].relationship",
+          "phrases": [
+            "finds Cory’s recording"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Joe Hallenbeck].relationship",
+          "phrases": [
+            "finds Cory’s recording"
           ]
         }
       ]
@@ -795,16 +1144,63 @@
       ]
     },
     {
+      "id": 420,
+      "name": "Jimmy’s fall from the overpass",
+      "title": "The Last Boy Scout",
+      "reason": "Late attempted-murder/injury event, retain physical overpass.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "name",
+          "phrases": [
+            "Jimmy’s fall"
+          ]
+        },
+        {
+          "path": "short",
+          "phrases": [
+            "Jimmy’s fall"
+          ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Jimmy is thrown down to the street"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Jimmy Dix].relationship",
+          "phrases": [
+            "is thrown down to the street"
+          ]
+        }
+      ],
+      "concealParticipants": true
+    },
+    {
       "id": 421,
-      "reason": "Placement provenance reveals Marcone’s fatal ending.",
+      "reason": "Placement provenance reveals Marcone’s fatal ending. Kidnapping outcome; omit sole Darian mansion edge if critical. Conceal the victim and outcome together in placement evidence.",
       "title": "The Last Boy Scout",
       "name": "Sheldon Marcone’s mansion",
       "fields": [],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters[name=Darian Hallenbeck].relationship",
+          "phrases": [
+            "is held by Marcone’s men"
+          ]
+        },
+        {
+          "path": "placement.reason",
+          "phrases": [
+            "Marcone’s fatal explosion"
+          ]
+        }
+      ]
     },
     {
       "id": 422,
-      "reason": "Relationships reveal the assassination’s resolution at the climax.",
+      "reason": "Relationships reveal the assassination’s resolution at the climax. Conceal the assassination plot and its resolution, including outcome-only associations.",
       "title": "The Last Boy Scout",
       "name": "Los Angeles Stallions stadium",
       "fields": [
@@ -816,32 +1212,82 @@
           "phrases": [
             "stops"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Joe Hallenbeck].relationship",
+          "phrases": [
+            "stops the assassination attempt"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Milo].relationship",
+          "phrases": [
+            "attempts to kill Baynard"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Calvin Baynard].relationship",
+          "phrases": [
+            "is targeted during the game"
+          ]
         }
       ]
     },
     {
       "id": 423,
-      "reason": "Base police-station character relationships list several deaths.",
+      "reason": "Base police-station character relationships list several deaths. Keep safe station duties, hide full appended death clauses including outside.",
       "title": "Assault on Precinct 13",
       "name": "Anderson police station",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters[name=Julie].relationship",
+          "phrases": [
+            "; killed"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Starker].relationship",
+          "phrases": [
+            "; killed"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Chaney].relationship",
+          "phrases": [
+            "; killed outside"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Cornell].relationship",
+          "phrases": [
+            "; killed"
+          ]
+        }
+      ]
     },
     {
       "id": 424,
-      "reason": "Amelia’s late death is attached to an otherwise ordinary home.",
+      "reason": "Amelia’s late death is attached to an otherwise ordinary home. Keep safe refuge association; hide complete death suffix.",
       "title": "The Nice Guys",
       "name": "Holland & Holly March’s home",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "appearances.characters[name=Amelia Kuttner].relationship",
+          "phrases": [
+            "; killed"
+          ]
+        }
+      ]
     },
     {
       "id": 426,
-      "reason": "The projector clue resolves Mrs. Glenn’s apparent sighting of Misty.",
+      "reason": "The projector clue resolves Mrs. Glenn’s apparent sighting of Misty. Conceal the complete evidence clue rather than just the prop noun.",
       "title": "The Nice Guys",
       "name": "Misty Mountains’s home",
       "fields": [
@@ -851,20 +1297,22 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "projector"
+            "projector",
+            "The projector clue"
           ]
         },
         {
           "path": "appearances.characters.relationship",
           "phrases": [
-            "projector"
+            "projector",
+            "finds the projector clue"
           ]
         }
       ]
     },
     {
       "id": 428,
-      "reason": "Burned-house outcome and Dean’s death are both explicit.",
+      "reason": "Burned-house outcome and Dean’s death are both explicit. Keep Dean home/residence and existing burned-name masks; hide full fire death and clue predicates.",
       "title": "The Nice Guys",
       "name": "Dean’s burned house",
       "fields": [
@@ -901,12 +1349,30 @@
           "phrases": [
             "burned"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Dean].relationship",
+          "phrases": [
+            "; dies in the fire"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Holland March].relationship",
+          "phrases": [
+            "investigates Dean’s burned house"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Jackson Healy].relationship",
+          "phrases": [
+            "investigates Dean’s burned house"
+          ]
         }
       ]
     },
     {
       "id": 438,
-      "reason": "Past/present household linkage and 1948 murder chronology are the Dead Again mystery backbone.",
+      "reason": "Past/present household linkage and 1948 murder chronology are the Dead Again mystery backbone. Do not disclose the hidden family identity through the flashback date explanation.",
       "title": "Dead Again",
       "name": "Strauss mansion / St. Audrey’s orphanage",
       "fields": [
@@ -961,12 +1427,18 @@
           "phrases": [
             "1948 flashback"
           ]
+        },
+        {
+          "path": "appearances.story_time.basis",
+          "phrases": [
+            "The Strauss murder"
+          ]
         }
       ]
     },
     {
       "id": 443,
-      "reason": "The named escape is a mystery-reveal scene rather than an ordinary bridge address.",
+      "reason": "The named escape is a mystery-reveal scene rather than an ordinary bridge address. Conceal named outcome on this event only; keep on Shakespeare Bridge, propagate local identity to site alt and associations.",
       "title": "Dead Again",
       "name": "Doug’s escape on Shakespeare Bridge",
       "fields": [
@@ -976,49 +1448,89 @@
         {
           "path": "name",
           "phrases": [
-            "escape"
+            "escape",
+            "Doug’s escape"
           ]
         },
         {
           "path": "short",
           "phrases": [
-            "escape"
+            "escape",
+            "Doug’s escape"
           ]
         },
         {
           "path": "appearances.story_role",
           "phrases": [
-            "escape"
+            "escape",
+            "Doug’s escape"
           ]
         }
-      ]
+      ],
+      "concealParticipants": true
     },
     {
       "id": 447,
-      "reason": "Alias explicitly identifies the disguised killer, and Holly’s role gives away the double.",
+      "reason": "Alias explicitly identifies the disguised killer, and Holly’s role gives away the double. Keep Gloria home/resident, Alexander husband, Jake observation; omit Holly twist-only house edge. Root handles safe exterior photo.",
       "title": "Body Double",
       "name": "Gloria Revelle’s home",
-      "fields": [
-        "media.screen"
-      ],
+      "fields": [],
       "redactions": [
         {
           "path": "appearances.characters.relationship",
           "phrases": [
             "Gloria’s double"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Gloria Revelle].relationship",
+          "phrases": [
+            "and is killed here"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Alexander Revelle / Sam Bouchard].relationship",
+          "phrases": [
+            "and killer"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Holly Body].relationship",
+          "phrases": [
+            "performs as Gloria’s double"
+          ]
         }
       ]
     },
     {
       "id": 451,
-      "reason": "Burial/final confrontation and killer’s alias reveal the Body Double resolution.",
+      "reason": "Burial/final confrontation and killer’s alias reveal the Body Double resolution. Hide full named threat event and participants locally, retain physical site/address and Jake generic involvement.",
       "title": "Body Double",
       "name": "Holly’s burial attempt",
       "fields": [
         "media.screen"
       ],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "name",
+          "phrases": [
+            "Holly’s burial attempt"
+          ]
+        },
+        {
+          "path": "short",
+          "phrases": [
+            "Holly’s burial attempt"
+          ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Holly’s burial attempt"
+          ]
+        }
+      ],
+      "concealParticipants": true
     },
     {
       "id": 453,
@@ -1032,7 +1544,7 @@
     },
     {
       "id": 462,
-      "reason": "Ordinary apartment name can remain; Edward’s return and reunion frame give away the ending.",
+      "reason": "Ordinary apartment name can remain; Edward’s return and reunion frame give away the ending. Keep Vivian/Kit residents; omit Edward-only apartment edge revealing romantic resolution.",
       "title": "Pretty Woman",
       "name": "Vivian & Kit’s apartment",
       "fields": [
@@ -1042,13 +1554,20 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "return"
+            "return",
+            "Edward’s return"
           ]
         },
         {
           "path": "appearances.characters.relationship",
           "phrases": [
             "returns"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Edward Lewis].relationship",
+          "phrases": [
+            "returns to Vivian"
           ]
         }
       ]
@@ -1072,7 +1591,7 @@
     },
     {
       "id": 481,
-      "reason": "Epilogue club proves Sebastian’s career outcome and the Mia/David association reveals the romantic ending.",
+      "reason": "Epilogue club proves Sebastian’s career outcome and the Mia/David association reveals the romantic ending. Hidden owner plus owns club still reveals achieved dream; hidden David plus visits with Mia exposes new partner. Omit fully hidden edges/people duplicates.",
       "title": "La La Land",
       "name": "Seb’s",
       "fields": [
@@ -1101,7 +1620,8 @@
         {
           "path": "appearances.story_role",
           "phrases": [
-            "Sebastian"
+            "Sebastian",
+            "Sebastian’s jazz club"
           ]
         },
         {
@@ -1128,12 +1648,30 @@
           "phrases": [
             "Seb’s"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Sebastian Wilder].relationship",
+          "phrases": [
+            "owns the club"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Mia Dolan].relationship",
+          "phrases": [
+            "hears Sebastian play"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=David].relationship",
+          "phrases": [
+            "visits with Mia"
+          ]
         }
       ]
     },
     {
       "id": 510,
-      "reason": "The horse ranch is safe; its relationships state a death and reveal that the UFO is a creature.",
+      "reason": "The horse ranch is safe; its relationships state a death and reveal that the UFO is a creature. Keep Otis Sr business role; hide complete death suffix and Antlers late image plan edge.",
       "title": "Nope",
       "name": "Haywood Hollywood Horses",
       "fields": [],
@@ -1143,12 +1681,24 @@
           "phrases": [
             "creature"
           ]
+        },
+        {
+          "path": "appearances.characters[name=Otis Haywood Sr.].relationship",
+          "phrases": [
+            "; dies in the corral"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Antlers Holst].relationship",
+          "phrases": [
+            "films the creature from the ranch hills"
+          ]
         }
       ]
     },
     {
       "id": 511,
-      "reason": "The ordinary theme park is safe; the wishing-well camera describes the final solution.",
+      "reason": "The ordinary theme park is safe; the wishing-well camera describes the final solution. Keep Emerald visits Jupe; hide full endgame action/equipment clause.",
       "title": "Nope",
       "name": "Jupiter’s Claim",
       "fields": [],
@@ -1157,6 +1707,12 @@
           "path": "appearances.characters.relationship",
           "phrases": [
             "wishing-well camera"
+          ]
+        },
+        {
+          "path": "appearances.characters[name=Emerald Haywood].relationship",
+          "phrases": [
+            "and uses the wishing-well camera"
           ]
         }
       ]
@@ -1178,7 +1734,8 @@
           "path": "precision",
           "phrases": [
             "escape",
-            "ends at the hostage standoff"
+            "ends at the hostage standoff",
+            "McCauley and Chris’s escape continues separately to the grocery parking lot."
           ]
         }
       ]
@@ -1193,7 +1750,14 @@
       "id": 98,
       "reason": "Route stop names disclose named survivors escaping the Heat bank robbery.",
       "fields": [],
-      "redactions": []
+      "redactions": [
+        {
+          "path": "stops[placeId=207].name",
+          "phrases": [
+            "McCauley & Chris’s escape"
+          ]
+        }
+      ]
     }
   ],
   "notes": [
@@ -1201,5 +1765,272 @@
     "An array can be traversed without a selector, or scoped by title/name/placeId. Photo fields cover revealing screen frames only; real-place photographs remain visible.",
     "Death-victim lists are sensitive associations. Names remain available in ordinary character associations, while victim identities stay covered in death-only lists.",
     "The former whole-record flags are intentionally removed. A late scene does not make its entire description or address a spoiler."
-  ]
+  ],
+  "review": {
+    "date": "2026-11-17",
+    "scope": "Every existing place and route, including derived death events, character associations, search, captions and source metadata.",
+    "approach": "Mask complete revealing identity/outcome clauses; retain ordinary place names, physical addresses and unrelated prose.",
+    "safeImages": [
+      {
+        "placeId": 4,
+        "src": "photos/a-004-screen.jpg",
+        "reason": "House exterior only"
+      },
+      {
+        "placeId": 9,
+        "src": "photos/a-009-screen.jpg",
+        "reason": "Hotel service lane and arriving car; no injury/action"
+      },
+      {
+        "placeId": 11,
+        "src": "photos/a-011-screen.jpg",
+        "reason": "Bradbury atrium only"
+      },
+      {
+        "placeId": 20,
+        "src": "photos/a-020-screen.jpg",
+        "reason": "Surplus storefront and ordinary passersby"
+      },
+      {
+        "placeId": 23,
+        "src": "photos/a-023-screen.jpg",
+        "reason": "Aerial empty pier"
+      },
+      {
+        "placeId": 25,
+        "src": "photos/a-025-screen.jpg",
+        "reason": "House entry with visitor from behind"
+      },
+      {
+        "placeId": 27,
+        "src": "photos/a-027-screen.jpg",
+        "reason": "Diner front with arriving car"
+      },
+      {
+        "placeId": 36,
+        "src": "photos/036-screen.jpg",
+        "reason": "Three friends seated bowling-alley conversation; nobody injured"
+      },
+      {
+        "placeId": 43,
+        "src": "photos/043-screen.jpg",
+        "reason": "Ordinary apartment hallway with Jules/Vincent; no threatened victim"
+      },
+      {
+        "placeId": 54,
+        "src": "photos/054-screen.jpg",
+        "reason": "Apartment front and approaching visitor"
+      },
+      {
+        "placeId": 55,
+        "src": "photos/055-screen.jpg",
+        "reason": "Night house exterior"
+      },
+      {
+        "placeId": 58,
+        "src": "photos/058-screen.jpg",
+        "reason": "Night Chinatown street and distant pedestrians; no injury/action"
+      },
+      {
+        "placeId": 60,
+        "src": "photos/060-screen.jpg",
+        "reason": "Ordinary garage conversation, Irene+Benicio+Shannon"
+      },
+      {
+        "placeId": 63,
+        "src": "photos/063-screen.jpg",
+        "reason": "Pawnshop facade, Mustang; distant person in doorway, no injury or gun visible"
+      },
+      {
+        "placeId": 71,
+        "src": "photos/071-screen.jpg",
+        "reason": "House exterior and car"
+      },
+      {
+        "placeId": 73,
+        "src": "photos/073-screen.jpg",
+        "reason": "Apartment street and neighbors, parked cars"
+      },
+      {
+        "placeId": 82,
+        "src": "photos/082-screen.jpg",
+        "reason": "Gunshop entry, T800 walking in, no gun or violence"
+      },
+      {
+        "placeId": 84,
+        "src": "photos/a-084-screen.jpg",
+        "reason": "John on bike, foster mother by parked car"
+      },
+      {
+        "placeId": 88,
+        "src": "photos/088-screen.jpg",
+        "reason": "Cottage courtyard exterior with taxi"
+      },
+      {
+        "placeId": 96,
+        "src": "photos/ps252-screen.jpg",
+        "reason": "The Player only: Rialto frontage, lone distant pedestrian"
+      },
+      {
+        "placeId": 102,
+        "src": "photos/n102-screen.jpg",
+        "reason": "House exterior from curb"
+      },
+      {
+        "placeId": 109,
+        "src": "photos/n109-screen.jpg",
+        "reason": "Mansion exterior and approaching visitor"
+      },
+      {
+        "placeId": 118,
+        "src": "photos/n118-screen.jpg",
+        "reason": "Penthouse exterior through binocular vignette"
+      },
+      {
+        "placeId": 125,
+        "src": "photos/n125-screen.jpg",
+        "reason": "Ordinary beach-house porch arrival"
+      },
+      {
+        "placeId": 137,
+        "src": "photos/n137-screen.jpg",
+        "reason": "Desert workshop shed exterior"
+      },
+      {
+        "placeId": 142,
+        "src": "photos/n142-screen.jpg",
+        "reason": "Industrial warehouse exterior with Masters walking"
+      },
+      {
+        "placeId": 150,
+        "src": "photos/n150-screen.jpg",
+        "reason": "Gym exterior and departing men; no action/outcome"
+      },
+      {
+        "placeId": 170,
+        "src": "photos/n170-screen.jpg",
+        "reason": "House doorway with Jack, ordinary greeting"
+      },
+      {
+        "placeId": 174,
+        "src": "photos/n174-screen.jpg",
+        "reason": "Donut shop distant exterior"
+      },
+      {
+        "placeId": 176,
+        "src": "photos/n176-screen.jpg",
+        "reason": "House exterior at night"
+      },
+      {
+        "placeId": 185,
+        "src": "photos/n185-screen.jpg",
+        "reason": "Rick+Cliff beside parked car, ordinary conversation"
+      },
+      {
+        "placeId": 216,
+        "src": "photos/h216-screen.jpg",
+        "reason": "Aerial empty drive-in"
+      },
+      {
+        "placeId": 227,
+        "src": "photos/t227-screen.jpg",
+        "reason": "Station entrance and parked car, T800 ordinary entry"
+      },
+      {
+        "placeId": 256,
+        "src": "photos/ps256-screen.jpg",
+        "reason": "Griffin leaving station with detectives; no outcome"
+      },
+      {
+        "placeId": 257,
+        "src": "photos/ps257-screen.jpg",
+        "reason": "Griffin in car in front of house; June/pregnancy/reunion not visible"
+      },
+      {
+        "placeId": 321,
+        "src": "photos/vg321-screen.jpg",
+        "reason": "Plain Chronowerx tower exterior."
+      },
+      {
+        "placeId": 401,
+        "src": "photos/n401-screen.jpg",
+        "reason": "Ordinary home exterior; Ronnie stands on porch, no victim/action."
+      },
+      {
+        "placeId": 404,
+        "src": "photos/n404-screen.jpg",
+        "reason": "Ordinary establishing exterior; no protected outcome or character identity is visible."
+      },
+      {
+        "placeId": 407,
+        "src": "photos/n407-screen.jpg",
+        "reason": "Ordinary establishing exterior; no protected outcome or character identity is visible."
+      },
+      {
+        "placeId": 416,
+        "src": "photos/n416-screen.jpg",
+        "reason": "Night house exterior with van; no firing/injury visible."
+      },
+      {
+        "placeId": 417,
+        "src": "photos/n417-screen.jpg",
+        "reason": "Ordinary home lawn with Joe and Mike/dog. Safe on HOME ONLY; protect on hidden Mike death entry because face identifies him."
+      },
+      {
+        "placeId": 418,
+        "src": "photos/n418-screen.jpg",
+        "reason": "Ordinary establishing exterior; no protected outcome or character identity is visible."
+      },
+      {
+        "placeId": 422,
+        "src": "photos/n422-screen.jpg",
+        "reason": "Coliseum exterior and parked cars."
+      },
+      {
+        "placeId": 423,
+        "src": "photos/n423-screen.jpg",
+        "reason": "Empty police station exterior."
+      },
+      {
+        "placeId": 424,
+        "src": "photos/n424-screen.jpg",
+        "reason": "Ordinary house exterior and parked cars."
+      },
+      {
+        "placeId": 426,
+        "src": "photos/n426-screen.jpg",
+        "reason": "House entry/car exterior, no clue or injury."
+      },
+      {
+        "placeId": 431,
+        "src": "photos/n431-screen.jpg",
+        "reason": "Ordinary garage facade."
+      },
+      {
+        "placeId": 433,
+        "src": "photos/n433-screen.jpg",
+        "reason": "Gates/driveway exterior."
+      },
+      {
+        "placeId": 447,
+        "src": "photos/n447-screen.jpg",
+        "reason": "Nighttime house exterior with no action or plot reveal."
+      },
+      {
+        "placeId": 452,
+        "src": "photos/n452-screen.jpg",
+        "reason": "Ordinary Hudson house exterior."
+      },
+      {
+        "placeId": 468,
+        "src": "photos/n468-screen.jpg",
+        "reason": "Empty apartment foyer/gate."
+      },
+      {
+        "placeId": 511,
+        "src": "photos/n511-screen.jpg",
+        "reason": "Theme park entrance/parking; no massacre."
+      }
+    ]
+  }
 }
