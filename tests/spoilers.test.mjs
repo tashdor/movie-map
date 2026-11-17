@@ -2,19 +2,19 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {displayEntries,associatedPeople} from '../src/logic.mjs';
-import {REDACTED,accessibleText,presentPlace,presentJourney,redactText,sourceIsRedacted} from '../src/spoilers.mjs';
+import {REDACTED,accessibleText,presentPlace,presentEntries,presentJourney,redactText,sourceIsRedacted,deathIdentityPhrases} from '../src/spoilers.mjs';
 import {markerInk,inkAppearance} from '../src/marker-ink.mjs';
 const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json'),audit=read('../research/spoiler-audit.json');
 const place=id=>data.places.find(p=>p.id===id);
 
-test('death entries mask the outcome while keeping names, addresses and surrounding descriptions',()=>{
+test('death entries conceal victim identities while ordinary home names and addresses stay readable',()=>{
   const raw=displayEntries([place(4)]),home=presentPlace(raw[0],false,audit),death=presentPlace(raw[1],false,audit);
   assert.equal(home.name,'Trejo’s home');assert.equal(home.redacted,false);
-  assert.equal(death.name,`Trejo’s ${REDACTED}`);assert.equal(death.redacted,true);
-  assert.deepEqual(death.deaths[0].people,[REDACTED]);assert.deepEqual(death.appearances[0].characters,raw[1].appearances[0].characters);
+  assert.equal(death.name,REDACTED);assert.equal(death.short,REDACTED);assert.equal(death.redacted,true);
+  assert.deepEqual(death.deaths[0].people,[REDACTED]);assert.deepEqual(death.appearances[0].characters,[]);assert.ok(associatedPeople(death).every(name=>name===REDACTED));
   assert.equal(death.media.screen.redacted,true);assert.equal(death.media.screen.src,'');assert.equal(death.media.screen.sourceUrl,'');
-  assert.equal(accessibleText(`Open ${death.name}`),'Open Trejo’s Redacted');
+  assert.equal(accessibleText(`Open ${death.name}`),'Open Redacted');
   assert.equal(death.address,raw[1].address);assert.equal(death.media.place.src,raw[1].media.place.src);
   const vanZant=presentPlace(place(219),false,audit);
   assert.equal(vanZant.name,place(219).name);assert.equal(vanZant.placement.address,place(219).placement.address);
@@ -59,11 +59,40 @@ test('curated reveals redact sensitive phrases rather than entire records',()=>{
 
 test('route stop hovers use the same redactions as their location pages',()=>{
   const route=data.journeys.find(j=>j.id===226),view=presentJourney(route,false,audit,data.places);
-  assert.equal(view.name,`Cheritto’s ${REDACTED}`);
-  assert.equal(view.stops.find(s=>s.placeId===217).name,`Cheritto’s ${REDACTED} and ${REDACTED}`);
+  assert.equal(view.name,`${REDACTED}’s ${REDACTED}`);
+  assert.equal(view.stops.find(s=>s.placeId===217).name,REDACTED);
+  assert.doesNotMatch(view.precision,/Cheritto/i);
   assert.equal(view.stops[0].name,'Bank robbery');
   assert.equal(presentJourney(route,true,audit,data.places),route);
   assert.equal(sourceIsRedacted('Scene photo','https://example.test/Murder+Apartment+3.JPG'),true);
+});
+
+test('Pris is not disclosed by her death label, body, image metadata, people page or identity-only search',()=>{
+  const raw=displayEntries([place(11)]),home=presentPlace(raw[0],false,audit),death=presentPlace(raw[1],false,audit);
+  assert.equal(home.name,'J. F. Sebastian’s home');assert.ok(associatedPeople(home).includes('Pris'));
+  assert.equal(death.name,REDACTED);assert.equal(death.short,REDACTED);assert.equal(death.category,'death');
+  assert.doesNotMatch(JSON.stringify(death),/\bPris\b/i);
+  assert.ok(!associatedPeople(death).includes('Pris'));
+  assert.deepEqual(presentEntries(raw,false,audit,'Pris').map(p=>p.id),[11]);
+  assert.deepEqual(presentEntries(raw,true,audit,'Pris').map(p=>p.id),[11,-11]);
+  assert.ok(presentEntries(raw,false,audit,'304 South Broadway').some(p=>p.id===-11));
+  assert.equal(presentPlace(raw[1],true,audit).name,'Pris’s death');
+  const identities=deathIdentityPhrases(raw[1],audit);
+  assert.equal(redactText('A scene with Pris at the Bradbury Building',identities),`A scene with ${REDACTED} at the Bradbury Building`);
+  assert.equal(sourceIsRedacted('Scene reference','https://example.test/Pris-scene.jpg',false,identities),true);
+});
+
+test('named death and memorial events protect identity while real memorial landmarks remain readable',()=>{
+  for(const id of [201,217,253,261,262,331,419]){
+    const view=presentPlace(place(id),false,audit);
+    assert.equal(view.name,REDACTED,id);assert.deepEqual(associatedPeople(view),[],id);
+    assert.equal(view.address,place(id).address,id);
+  }
+  assert.equal(presentPlace(place(471),false,audit).name,place(471).name);
+  assert.equal(presentPlace(place(496),false,audit).name,'Fisher & Sons Funeral Home');
+  const route=presentJourney(data.journeys.find(j=>j.id===340),false,audit,data.places);
+  assert.doesNotMatch(JSON.stringify(route),/Thomas Ling/i);
+  assert.equal(route.stops.find(s=>s.placeId===331).name,REDACTED);
 });
 
 test('individual outcome words and underscored relationships keep the rest of their text',()=>{
