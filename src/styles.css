@@ -9,5 +9,5 @@
 /* Separate the thumb lanes so either endpoint remains draggable when years coincide. */
 .range-track input:first-of-type{top:-9px}.range-track input:last-of-type{top:9px}
 
-.atlas-marker,.route-stop-marker{z-index:1}.atlas-marker.selected>.marker-tooltip{display:none}
+.atlas-marker,.route-stop-marker{position:absolute;z-index:1}.atlas-marker.selected>.marker-tooltip{display:none}
 .map-canvas{isolation:isolate}
