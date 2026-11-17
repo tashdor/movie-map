@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 const read=(path,fallback={})=>fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):fallback;
 const box=([sw,ne])=>({type:'Polygon',coordinates:[[sw,[ne[0],sw[1]],ne,[sw[0],ne[1]],sw]]});
-const deaths={4:['Trejo'],9:['Waingro'],11:['Pris'],20:['Nick'],23:['William Foster / D-Fens'],25:['Pierce Patchett'],27:['Dick Stensland','Susan Lefferts'],36:['Donny Kerabatsos'],42:['Maynard'],43:['Brett'],45:['Joe Cabot','Nice Guy Eddie','Mr. Orange'],54:['Ida Sessions'],58:['Evelyn Mulwray'],60:['Shannon'],63:['Standard Gabriel'],64:['Blanche'],65:['Daniel'],71:['Roger'],79:['Ginger Ventura','Matt'],82:['Gun shop owner'],84:['Todd Voight'],88:['Diane Selwyn']};
+const deaths={4:['Trejo'],9:['Waingro'],11:['Pris'],20:['Nick'],23:['William Foster / D-Fens'],25:['Pierce Patchett'],27:['Dick Stensland','Susan Lefferts'],36:['Donny Kerabatsos'],42:['Maynard'],43:['Brett'],45:['Joe Cabot','Nice Guy Eddie','Mr. Orange'],54:['Ida Sessions'],58:['Evelyn Mulwray'],60:['Shannon'],63:['Standard Gabriel'],64:['Blanche'],65:['Daniel'],71:['Roger'],79:['Ginger Ventura','Matt'],82:['Gun shop owner'],84:['Todd Voight','Janelle Voight'],88:['Diane Selwyn']};
+const deathLabels={79:'Ginger Ventura & Matt’s deaths',84:'Todd & Janelle Voight’s deaths'};
 const names={3:'Vincent & Justine Hanna’s home',4:'Trejo’s home',5:'Kelso’s home',6:'Eady’s bookstore',7:'Bob’s Big Boy',8:'Kate Mantilini',9:'Waingro’s hotel',10:'The Blue Room',14:'LAPD headquarters',19:'Whammy Burger',20:'Military surplus store',21:'Bank protest',22:'MacArthur Park',23:'Venice Pier',26:'Hush-Hush office',27:'Nite Owl',28:'Frolic Room',29:'Formosa Cafe',30:'LAPD headquarters',35:'Jeffrey Lebowski’s mansion',36:'Hollywood Star Lanes',41:'Hawthorne Grill',43:'Brett’s apartment',45:'The warehouse',46:'Pat & Lorraine’s',47:'Karina’s Wholesale Diamonds',50:'Cockatoo Inn',51:'Del Amo Fashion Center',52:'Sam’s Hofbrau',58:'Chinatown',63:'The pawn shop',64:'Pink Motel',68:'Annie’s office / Vincent’s pickup',70:'Quality Cafe',72:'Sandman’s home',73:'Sara’s home',74:'Pacific Dining Car',77:'Tre’s school',78:'Westside restaurant',81:'Big Jeff’s',86:'The Galleria',92:'Toretto’s Market',95:'The Lighthouse Cafe',96:'Rialto Theatre'};
 export function enrich(atlas){
   const geography=read('research/story-geography.json',{overrides:[],sources:[]});
@@ -41,9 +42,10 @@ export function enrich(atlas){
       else if(a.title==='The Big Lebowski')a.story_time={year:1991,precision:'year',certainty:'approximate',basis:'Gulf War-era setting, earlier than the film’s release.',source_ids:['lebowski_script']};
       else if(!a.story_time||a.story_time.year===null)a.story_time={...a.story_time,year:a.release_year,precision:a.story_time?.month?'day':'year',certainty:'approximate',basis:'Contemporary setting; release year used as an editorial estimate.',source_ids:a.source_ids};
       if(p.id===77)a.story_time={year:1984,precision:'year',certainty:'approximate',basis:'Childhood section before the seven-year jump.',source_ids:a.source_ids};
+      if(p.id===79||p.id===84)a.source_ids=[...new Set([...a.source_ids,p.id===79?'terminator_afi_story':'t2_afi_time'])];
       if(deaths[p.id]){a.categories=[...new Set([...(a.categories||p.categories),'death'])];}
     }
-    if(deaths[p.id]){p.categories=[...new Set([...p.categories,'death'])];p.deaths=[{title:p.appearances[0].title,people:deaths[p.id]}];}
+    if(deaths[p.id]){p.categories=[...new Set([...p.categories,'death'])];p.deaths=[{title:p.appearances[0].title,people:deaths[p.id],...(deathLabels[p.id]?{label:deathLabels[p.id]}:{})}];}
   }
   // Mr. Lee's interior is a production component of the same story market, not a second market at Toretto's.
   if(byId.has(18))byId.get(18).notes='Exterior filmed at 464 North Madison Avenue; interior at Bob’s Market, 1234 Bellevue Avenue.';

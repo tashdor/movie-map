@@ -94,6 +94,16 @@ test('deaths are searchable without changing the building category permanently',
   assert.ok(filterPlaces([trejo],{category:'death',film:'Heat'}).length);
   assert.equal(filterPlaces([griffith],{category:'death'}).length,0);
 });
+test('both Terminator homes list every victim, including Janelle’s offscreen death',()=>{
+  const apartment=data.places.find(p=>p.id===79),home=data.places.find(p=>p.id===84);
+  assert.deepEqual(apartment.deaths[0].people,['Ginger Ventura','Matt']);
+  assert.deepEqual(home.deaths[0].people,['Todd Voight','Janelle Voight']);
+  assert.ok(apartment.appearances[0].characters.some(c=>c.name==='Matt'));
+  assert.ok(apartment.appearances[0].source_ids.includes('terminator_afi_story'));
+  assert.ok(home.appearances[0].source_ids.includes('t2_afi_time'));
+  assert.equal(displayEntries([apartment],{category:'death'})[0].name,'Ginger Ventura & Matt’s deaths');
+  assert.equal(displayEntries([home],{category:'death'})[0].name,'Todd & Janelle Voight’s deaths');
+});
 test('county fog reveals islands only after researching a location there',()=>{
   const county=JSON.parse(fs.readFileSync(new URL('../public/la-county.geojson',import.meta.url)));
   const fog=countyFog(county);

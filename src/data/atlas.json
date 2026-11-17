@@ -7209,7 +7209,8 @@
       "precision": "street-interpolated",
       "people": [
         "Sarah Connor",
-        "Ginger Ventura"
+        "Ginger Ventura",
+        "Matt"
       ],
       "featured": false,
       "appearances": [
@@ -7219,7 +7220,8 @@
           "story_role": "Sarah Connor and Ginger's apartment",
           "filming_component": "apartment building",
           "source_ids": [
-            "terminator_locations"
+            "terminator_locations",
+            "terminator_afi_story"
           ],
           "characters": [
             {
@@ -7228,6 +7230,10 @@
             },
             {
               "name": "Ginger Ventura",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Matt",
               "relationship": "associated_with"
             }
           ],
@@ -7279,7 +7285,8 @@
           "people": [
             "Ginger Ventura",
             "Matt"
-          ]
+          ],
+          "label": "Ginger Ventura & Matt’s deaths"
         }
       ]
     },
@@ -7759,7 +7766,8 @@
           "story_role": "John Connor and the Voights' home",
           "filming_component": "house",
           "source_ids": [
-            "t2_locations"
+            "t2_locations",
+            "t2_afi_time"
           ],
           "characters": [
             {
@@ -7827,8 +7835,10 @@
         {
           "title": "Terminator 2: Judgment Day",
           "people": [
-            "Todd Voight"
-          ]
+            "Todd Voight",
+            "Janelle Voight"
+          ],
+          "label": "Todd & Janelle Voight’s deaths"
         }
       ]
     },
@@ -21254,6 +21264,12 @@
       "title": "American Cinematheque: The Terminator setting",
       "url": "https://www.americancinematheque.com/now-showing/the-terminator-12-8-23/",
       "source_type": "film institution synopsis"
+    },
+    {
+      "id": "terminator_afi_story",
+      "title": "AFI: The Terminator synopsis",
+      "url": "https://catalog.afi.com/Film/57224-THE-TERMINATOR",
+      "source_type": "film archive"
     },
     {
       "id": "t2_afi_time",
