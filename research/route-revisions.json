@@ -96,8 +96,8 @@
     },
     {
       "id": 202,
-      "name": "T-1000’s truck jump",
-      "short": "T-1000’s truck jump",
+      "name": "Flood-channel chase",
+      "short": "Flood-channel chase",
       "category": "event",
       "categories": [
         "event"
@@ -120,25 +120,28 @@
         "sourceIds": [
           "route_t2_channel",
           "route_t2_bridge",
-          "route_t2_stunts"
+          "route_t2_stunts",
+          "route_t2_gate"
         ],
-        "reason": ""
+        "reason": "The Plummer Street bridge and adjacent Hayvenhurst gate are documented components of the chase. They establish this event site, but not a continuous channel path."
       },
       "people": [
         "John Connor",
-        "T-1000"
+        "T-1000",
+        "T-800"
       ],
       "featured": false,
       "appearances": [
         {
           "title": "Terminator 2: Judgment Day",
           "release_year": 1991,
-          "story_role": "T-1000’s truck jump",
-          "filming_component": "Plummer Street / Hayvenhurst Avenue · Bull Creek bridge",
+          "story_role": "Flood-channel chase",
+          "filming_component": "T-1000’s truck jump at the Plummer Street bridge; T-800’s channel entrance at the adjacent Hayvenhurst gate",
           "source_ids": [
             "route_t2_channel",
             "route_t2_bridge",
-            "route_t2_stunts"
+            "route_t2_stunts",
+            "route_t2_gate"
           ],
           "story_time": {
             "year": 1995,
@@ -156,6 +159,10 @@
             },
             {
               "name": "T-1000",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "T-800",
               "relationship": "associated_with"
             }
           ],
@@ -178,94 +185,97 @@
           "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer.jpg",
           "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
           "credit": "The Worldwide Guide to Movie Locations"
-        }
-      }
-    },
-    {
-      "id": 203,
-      "name": "T-800’s channel entrance",
-      "short": "T-800’s channel entrance",
-      "category": "event",
-      "categories": [
-        "event"
-      ],
-      "address": "Hayvenhurst Avenue · gate south of Plummer Street",
-      "area": "Los Angeles",
-      "coordinates": [
-        -118.49378,
-        34.2425
-      ],
-      "productionCoordinates": [
-        -118.49378,
-        34.2425
-      ],
-      "precision": "site-approximate",
-      "placement": {
-        "kind": "filming-proxy",
-        "address": "Hayvenhurst Avenue · gate south of Plummer Street",
-        "precision": "site-approximate",
-        "sourceIds": [
-          "route_t2_channel",
-          "route_t2_gate"
-        ],
-        "reason": "Gate identified in a frame comparison; coordinate approximates the entry immediately south of the documented bridge."
+        },
+        "note": "The bridge and adjacent gate are documented filming components; the full chase combines several channels."
       },
-      "people": [
-        "T-800",
-        "John Connor"
-      ],
-      "featured": false,
-      "appearances": [
+      "components": [
         {
-          "title": "Terminator 2: Judgment Day",
-          "release_year": 1991,
-          "story_role": "T-800’s channel entrance",
-          "filming_component": "Hayvenhurst Avenue · gate south of Plummer Street",
-          "source_ids": [
-            "route_t2_channel",
-            "route_t2_gate"
-          ],
-          "story_time": {
-            "year": 1995,
-            "precision": "year",
-            "certainty": "explicit",
-            "basis": "AFI story synopsis begins in Los Angeles in 1995.",
-            "source_ids": [
-              "t2_afi_time"
-            ]
-          },
-          "characters": [
-            {
-              "name": "T-800",
-              "relationship": "associated_with"
-            },
-            {
-              "name": "John Connor",
-              "relationship": "associated_with"
-            }
-          ],
+          "id": 203,
+          "name": "T-800’s channel entrance",
+          "short": "T-800’s channel entrance",
+          "category": "event",
           "categories": [
             "event"
-          ]
+          ],
+          "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+          "area": "Los Angeles",
+          "coordinates": [
+            -118.49378,
+            34.2425
+          ],
+          "productionCoordinates": [
+            -118.49378,
+            34.2425
+          ],
+          "precision": "site-approximate",
+          "placement": {
+            "kind": "filming-proxy",
+            "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+            "precision": "site-approximate",
+            "sourceIds": [
+              "route_t2_channel",
+              "route_t2_gate"
+            ],
+            "reason": "Gate identified in a frame comparison; coordinate approximates the entry immediately south of the documented bridge."
+          },
+          "people": [
+            "T-800",
+            "John Connor"
+          ],
+          "featured": false,
+          "appearances": [
+            {
+              "title": "Terminator 2: Judgment Day",
+              "release_year": 1991,
+              "story_role": "T-800’s channel entrance",
+              "filming_component": "Hayvenhurst Avenue · gate south of Plummer Street",
+              "source_ids": [
+                "route_t2_channel",
+                "route_t2_gate"
+              ],
+              "story_time": {
+                "year": 1995,
+                "precision": "year",
+                "certainty": "explicit",
+                "basis": "AFI story synopsis begins in Los Angeles in 1995.",
+                "source_ids": [
+                  "t2_afi_time"
+                ]
+              },
+              "characters": [
+                {
+                  "name": "T-800",
+                  "relationship": "associated_with"
+                },
+                {
+                  "name": "John Connor",
+                  "relationship": "associated_with"
+                }
+              ],
+              "categories": [
+                "event"
+              ]
+            }
+          ],
+          "notes": "",
+          "media": {
+            "screen": {
+              "src": "photos/r203-screen.jpg",
+              "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
+              "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
+              "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
+              "title": "Terminator 2: Judgment Day",
+              "note": "Cropped to the film-frame panel of comparison 38."
+            },
+            "place": {
+              "src": "photos/r203-place.jpg",
+              "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
+              "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+              "credit": "The Worldwide Guide to Movie Locations"
+            }
+          }
         }
-      ],
-      "notes": "",
-      "media": {
-        "screen": {
-          "src": "photos/r203-screen.jpg",
-          "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
-          "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
-          "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
-          "title": "Terminator 2: Judgment Day",
-          "note": "Cropped to the film-frame panel of comparison 38."
-        },
-        "place": {
-          "src": "photos/r203-place.jpg",
-          "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
-          "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
-          "credit": "The Worldwide Guide to Movie Locations"
-        }
-      }
+      ]
     },
     {
       "id": 205,
@@ -584,38 +594,6 @@
   ],
   "journeys": [
     {
-      "id": 99,
-      "name": "Channel chase",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1995,
-      "source_ids": [
-        "route_t2_channel",
-        "route_t2_bridge",
-        "route_t2_gate",
-        "route_t2_stunts",
-        "t2_afi_time"
-      ],
-      "precision": "Two verified Plummer/Hayvenhurst sites. The longer chase combines several channels; this connector does not establish a continuous path.",
-      "stops": [
-        {
-          "name": "T-1000’s truck jump",
-          "placeId": 202,
-          "coordinates": [
-            -118.493729,
-            34.242953
-          ]
-        },
-        {
-          "name": "T-800’s channel entrance",
-          "placeId": 203,
-          "coordinates": [
-            -118.49378,
-            34.2425
-          ]
-        }
-      ]
-    },
-    {
       "id": 98,
       "name": "Bank robbery",
       "title": "Heat",
@@ -649,6 +627,40 @@
           "coordinates": [
             -118.2602222,
             34.0460833
+          ]
+        }
+      ]
+    }
+  ],
+  "archived_journeys": [
+    {
+      "id": 99,
+      "name": "Channel chase",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1995,
+      "source_ids": [
+        "route_t2_channel",
+        "route_t2_bridge",
+        "route_t2_gate",
+        "route_t2_stunts",
+        "t2_afi_time"
+      ],
+      "precision": "Two verified Plummer/Hayvenhurst sites. The longer chase combines several channels; this connector does not establish a continuous path.",
+      "stops": [
+        {
+          "name": "T-1000’s truck jump",
+          "placeId": 202,
+          "coordinates": [
+            -118.493729,
+            34.242953
+          ]
+        },
+        {
+          "name": "T-800’s channel entrance",
+          "placeId": 203,
+          "coordinates": [
+            -118.49378,
+            34.2425
           ]
         }
       ]

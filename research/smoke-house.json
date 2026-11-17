@@ -1,0 +1,383 @@
+{
+  "places": [
+    {
+      "id": 310,
+      "name": "The Smoke House",
+      "short": "The Smoke House",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "4420 West Lakeside Drive",
+      "area": "Burbank",
+      "coordinates": [
+        -118.3413094,
+        34.1455689
+      ],
+      "productionCoordinates": [
+        -118.3413094,
+        34.1455689
+      ],
+      "productionSites": [
+        {
+          "component": "Interior",
+          "address": "The Smoke House, 4420 West Lakeside Drive, Burbank, CA 91505",
+          "coordinates": [
+            -118.3413094,
+            34.1455689
+          ]
+        }
+      ],
+      "precision": "official-venue-coordinate",
+      "placement": {
+        "kind": "screen",
+        "address": "The Smoke House · Burbank",
+        "precision": "official-venue-coordinate",
+        "reason": "The final Argo screenplay names the Smoke House for Mendez and Chambers’s meeting. The restaurant’s official site publishes coordinates 34.1455689,-118.3413094 and links to its Google Maps venue pin 34.1455215,-118.341308. The official point sits on the restaurant footprint in aerial imagery, beside the golf course and across Lakeside Drive from Warner Bros.",
+        "sourceIds": [
+          "sh_argo_script",
+          "sh_argo_afi",
+          "sh_argo_visit",
+          "sh_official",
+          "sh_official_location"
+        ]
+      },
+      "people": [
+        "Tony Mendez",
+        "John Chambers"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Mendez and Chambers’s planning meeting",
+          "filming_component": "restaurant interior",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "sh_argo_visit",
+            "sh_argo_clip"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The screenplay dates the Burbank sequence to January 1980. The subsequent restaurant meeting precedes the January rescue; no specific meeting day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tony Mendez",
+              "relationship": "plans the film cover"
+            },
+            {
+              "name": "John Chambers",
+              "relationship": "helps plan the cover"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/sh310-screen.jpg",
+          "sourceUrl": "https://clip.cafe/argo-2012/can-teach-somebody-be-a-director-in-a-day/",
+          "credit": "Argo film frame; Clip.Cafe",
+          "alt": "Mendez and Chambers sit in a booth inside the Smoke House.",
+          "width": 1100,
+          "height": 619,
+          "imageUrl": "https://clip.cafe/clipimg/can-teach-somebody-be-a-director-in-a-day.jpg",
+          "title": "Argo"
+        },
+        "place": {
+          "src": "photos/sh310-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Christian Hernandez / Boogie Sights, via Film Oblivion",
+          "alt": "The Smoke House dining room, with dark wood and red booths.",
+          "width": 1067,
+          "height": 800,
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland35.jpg",
+          "caption": "The Smoke House",
+          "note": "Capture date from the original image’s EXIF DateTimeOriginal. Photograph credited by Film Oblivion to Christian Hernandez of Boogie Sights.",
+          "date": "2022-02-15"
+        }
+      }
+    },
+    {
+      "id": 311,
+      "name": "Lipton’s",
+      "short": "Lipton’s",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout",
+        "event"
+      ],
+      "address": "6436 Hollywood Boulevard · Wilcox Avenue side",
+      "area": "Hollywood, Los Angeles",
+      "coordinates": [
+        -118.33094,
+        34.10125
+      ],
+      "productionCoordinates": [
+        -118.33094,
+        34.10125
+      ],
+      "productionSites": [
+        {
+          "component": "Exterior",
+          "address": "Attie Building, 6436 Hollywood Boulevard · Wilcox Avenue side, Hollywood, Los Angeles, CA 90028",
+          "coordinates": [
+            -118.33094,
+            34.10125
+          ]
+        },
+        {
+          "component": "Interior",
+          "address": "The Smoke House, 4420 West Lakeside Drive, Burbank, CA 91505",
+          "coordinates": [
+            -118.3413094,
+            34.1455689
+          ]
+        }
+      ],
+      "precision": "screen-exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Wilcox Avenue at Hollywood Boulevard · Lipton’s",
+        "precision": "screen-exterior",
+        "reason": "The film shows the Lipton’s sign over a Wilcox Avenue doorway beside the You Are the Star mural. The point follows that shown Hollywood entrance, checked against Seeing Stars’s matching Street View references. The dining room was filmed separately at the Smoke House in Burbank. The map does not place Lipton’s at the interior production address.",
+        "sourceIds": [
+          "sh_lll_exterior",
+          "sh_lll_fo",
+          "sh_attie_address",
+          "sh_official_location"
+        ]
+      },
+      "people": [
+        "Sebastian Wilder",
+        "Bill",
+        "Mia Dolan"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Sebastian’s piano job",
+          "filming_component": "Hollywood exterior; Smoke House interior",
+          "source_ids": [
+            "sh_lll_script",
+            "sh_lll_exterior",
+            "sh_lll_fo",
+            "sh_official"
+          ],
+          "story_time": {
+            "year": 2016,
+            "month": 12,
+            "precision": "month",
+            "certainty": "approximate",
+            "basis": "The restaurant scene takes place at Christmas in the contemporary story. Release year 2016 is an editorial estimate; the year is not established on screen.",
+            "source_ids": [
+              "sh_lll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "pianist; fired by Bill"
+            },
+            {
+              "name": "Bill",
+              "relationship": "restaurant manager"
+            },
+            {
+              "name": "Mia Dolan",
+              "relationship": "hears Sebastian play; visitor"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/sh311-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/5-MiasLongWalkHome.shtml",
+          "credit": "La La Land film frame; Seeing Stars / Summit Entertainment",
+          "alt": "Mia enters the door marked Lipton’s beside the Hollywood mural.",
+          "width": 699,
+          "height": 279,
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/YouAreTheStarMural3.jpg",
+          "title": "La La Land",
+          "note": "Seeing Stars states that its published mural frames were brightened. This is the actual film exterior; no image was generated."
+        },
+        "place": {
+          "src": "photos/sh311-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "alt": "Aerial of the Attie Building at Hollywood Boulevard and Wilcox Avenue.",
+          "width": 1100,
+          "height": 650,
+          "caption": "Exterior · aerial",
+          "note": "Aerial basemap of the exterior building; capture date is not supplied. The Smoke House in Burbank supplied the separate interior.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3320,34.1006,-118.3299,34.1019&bboxSR=4326&imageSR=3857&size=1100,650&format=jpg&f=image"
+        },
+        "note": "Exterior: Wilcox Avenue beside the You Are the Star mural. Interior: The Smoke House, 4420 West Lakeside Drive, Burbank."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sh_official",
+      "title": "The Smoke House: restaurant history and address",
+      "url": "https://www.smokehouse1946.com/history",
+      "source_type": "restaurant publication"
+    },
+    {
+      "id": "sh_argo_script",
+      "title": "Argo: final screenplay, scene 100",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/argo-2012.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "sh_argo_afi",
+      "title": "Argo: AFI production history",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/69015",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "sh_argo_visit",
+      "title": "Visit Burbank: Argo at The Smoke House",
+      "url": "https://visitburbank.com/film-tv-burbank-locations/",
+      "source_type": "tourism authority"
+    },
+    {
+      "id": "sh_argo_clip",
+      "title": "Argo: Mendez and Chambers plan their cover",
+      "url": "https://clip.cafe/argo-2012/can-teach-somebody-be-a-director-in-a-day/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "sh_lll_script",
+      "title": "La La Land: submission screenplay, restaurant scenes",
+      "url": "https://www.story24.film/screenplays/la-la-land.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "sh_lll_exterior",
+      "title": "La La Land: Lipton’s on-screen entrance and street references",
+      "url": "https://www.seeing-stars.com/Locations/LaLaLand/5-MiasLongWalkHome.shtml",
+      "source_type": "scene comparison and film frames"
+    },
+    {
+      "id": "sh_lll_fo",
+      "title": "La La Land: Hollywood exterior and Smoke House interior",
+      "url": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "source_type": "location research and original photographs"
+    },
+    {
+      "id": "sh_attie_address",
+      "title": "Attie Building: Hollywood Boulevard address",
+      "url": "https://en.wikipedia.org/wiki/Attie_Building",
+      "source_type": "building reference"
+    },
+    {
+      "id": "sh_census",
+      "title": "U.S. Census Bureau address geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "sh_esri",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "sh_official_location",
+      "title": "The Smoke House: official venue coordinates and directions",
+      "url": "https://www.smokehouse1946.com/",
+      "source_type": "restaurant location metadata and map link"
+    }
+  ],
+  "audit": [
+    {
+      "id": 310,
+      "verification": "Canonical name is supported by the final screenplay’s named scene, not merely by a filming credit. Only Mendez and Chambers attend this restaurant meeting; Lester Siegel is introduced at his home afterward.",
+      "time": "January 1980 is supported by the screenplay chronology. Do not use the release year or label the scene 1979.",
+      "geocode": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4420+W+Lakeside+Dr+Burbank+CA&benchmark=Public_AR_Current&format=json",
+        "matchedAddress": "4420 W LAKESIDE DR, BURBANK, CA, 91505",
+        "coordinates": [
+          -118.341443,
+          34.145741
+        ],
+        "precision": "street-interpolated",
+        "status": "Superseded by official venue point; retained only as prior street-interpolation provenance."
+      },
+      "media": "Argo wide frame and the Smoke House room photograph were visually compared. Photo capture date 2022-02-15 comes from nested EXIF DateTimeOriginal, not the Photoshop modification time in 2025.",
+      "pin_qa": {
+        "official_source": "https://www.smokehouse1946.com/",
+        "official_structured_geo": [
+          -118.3413094,
+          34.1455689
+        ],
+        "official_google_maps_pin": [
+          -118.341308,
+          34.1455215
+        ],
+        "google_maps_url": "https://www.google.com/maps/place/Smoke+House+Restaurant/@34.1455259,-118.3434967,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2bfb5f113f829:0xbc28fa219dfba425!8m2!3d34.1455215!4d-118.341308",
+        "visual_check": "Both points fall on the restaurant parcel/roof beside Lakeside Golf Club and Warner Bros. on Esri imagery. The official point replaces the Census address point approximately 23 m northwest. A northern candidate near 34.152,-118.337 is unrelated to the restaurant.",
+        "previous_point": [
+          -118.341443,
+          34.145741
+        ],
+        "imagery_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.343,34.1443,-118.3395,34.147&bboxSR=4326&imageSR=3857&size=1000,750&format=jpg&f=image"
+      }
+    },
+    {
+      "id": 311,
+      "verification": "Lipton’s is the on-screen name, visible in the selected frame. Bill is the manager, not evidence that the restaurant is named Bill’s. Hollywood is the exterior; the Smoke House is a separate interior component.",
+      "coordinate_provenance": {
+        "source": "sh_lll_exterior",
+        "reference_camera": [
+          -118.331064,
+          34.101233
+        ],
+        "exterior_point": [
+          -118.33094,
+          34.10125
+        ],
+        "precision": "approximate facade position beside the matched Street View reference"
+      },
+      "rejected_geocode": "Census matched 1648 Wilcox Avenue at latitude34.096924, substantially south of the filmed doorway at Hollywood Boulevard. That match was not used. The building address 6436 Hollywood Boulevard and the matched entrance geometry anchor the entry.",
+      "media": "Actual exterior frame and modern exterior aerial visually verified. The 2024 Gb321 street photo was identified and dated from Commons metadata, but image retrieval returned403; no unverified current street image is substituted. The older 2017 street photo is retained only as a dated reference.",
+      "referenceMedia": [
+        {
+          "src": "photos/sh311-place-2017.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland2.jpg",
+          "date": "2017-05-25",
+          "caption": "Exterior · 2017 reference",
+          "alt": "The mural and Lipton’s production doorway photographed in 2017.",
+          "note": "Older comparison photograph, not a claim of the exterior’s present appearance. Capture date from original EXIF."
+        }
+      ]
+    }
+  ]
+}

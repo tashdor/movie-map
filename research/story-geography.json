@@ -149,19 +149,58 @@
     {
       "id": 12,
       "name": "Deckard’s apartment",
-      "storyAddress": "Los Angeles · apartment 9732, 97th floor",
-      "coordinates": null,
-      "precision": "unlocated",
-      "geometry": null,
-      "reason": "The film/script establishes a high-rise apartment. Ennis House supplies architectural imagery and production exterior elements, not proof of the fictional street address. No credible precise canonical street location was found.",
+      "storyAddress": "Downtown Los Angeles · editorial estimate",
+      "coordinates": [
+        -118.255,
+        34.052
+      ],
+      "precision": "editorial-area-estimate",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.273,
+              34.035
+            ],
+            [
+              -118.235,
+              34.035
+            ],
+            [
+              -118.235,
+              34.069
+            ],
+            [
+              -118.273,
+              34.069
+            ],
+            [
+              -118.273,
+              34.035
+            ]
+          ]
+        ]
+      },
+      "reason": "Downtown is an editorial approximation. The film and shooting script establish apartment 9732 on the 97th floor, but do not identify a street or neighborhood. The Ennis House is architectural and production provenance, not proof of a downtown building or canonical address.",
       "sourceIds": [
         "deckard_architecture",
         "deckard_script",
         "blade_production"
       ],
       "productionAddress": "2607 Glendower Avenue, Los Feliz",
-      "recommendedDisplay": "directory_only",
-      "inference": false
+      "recommendedDisplay": "area_estimate",
+      "inference": true,
+      "suggestedViewport": [
+        [
+          -118.273,
+          34.035
+        ],
+        [
+          -118.235,
+          34.069
+        ]
+      ]
     },
     {
       "id": 13,

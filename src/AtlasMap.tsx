@@ -9,10 +9,10 @@ import {countyFog,exploredCounty} from './geo.mjs';
 import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props={places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
 function fogTexture(){const size=128,data=new Uint8Array(size*size*4);for(let y=0;y<size;y++)for(let x=0;x<size;x++){const u=x/size*Math.PI*2,v=y/size*Math.PI*2;const cloud=Math.sin(u+Math.sin(v*2))*.35+Math.sin(u*3-v*2)*.2+Math.sin(u*5+v*7)*.08;const grain=((x*37+y*61+x*y*7)%23)/23;const n=cloud*17+grain*5;const i=(y*size+x)*4;data[i]=25+n;data[i+1]=33+n;data[i+2]=36+n;data[i+3]=255;}return {width:size,height:size,data};}
 function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');title.textContent=name;box.append(movie,title);return box;}
-export default function AtlasMap({places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
+export default function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
   const latest=useRef({places,coverage,onView,onLocationError,onRoute});latest.current={places,coverage,onView,onLocationError,onRoute};
@@ -45,6 +45,17 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,fil
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
     return()=>{resize.disconnect();m.remove();map.current=null;gps.current=null;};
   },[]);
+  useEffect(()=>{
+    const m=map.current;if(!ready||!m)return;
+    if(basemap==='satellite'&&!m.getSource('satellite-imagery')){
+      const before=m.getLayer('county-fog')?'county-fog':undefined;
+      const labels=m.getStyle().layers.filter(layer=>layer.type==='symbol'&&layer.layout?.['text-field']);
+      m.addSource('satellite-imagery',{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:19,attribution:'Imagery © <a href="https://goto.arcgisonline.com/maps/World_Imagery">Esri, Vantor, Earthstar Geographics, GIS User Community</a>'});
+      m.addLayer({id:'satellite-imagery',type:'raster',source:'satellite-imagery',paint:{'raster-fade-duration':0}},before);
+      for(const layer of labels)if(layer.type==='symbol')m.addLayer({...layer,id:`satellite-label-${layer.id}`,paint:{...layer.paint,'text-color':'#f5f1e5','text-halo-color':'#253035','text-halo-width':1.4}},before);
+    }
+    for(const layer of m.getStyle().layers)if(layer.id==='satellite-imagery'||layer.id.startsWith('satellite-label-'))m.setLayoutProperty(layer.id,'visibility',basemap==='satellite'?'visible':'none');
+  },[basemap,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     const bounds=m.getBounds();
@@ -96,7 +107,8 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,fil
     if(!selected)m.fitBounds(bounds,{padding:75,maxZoom:14,duration:450});
     return()=>{routeMarkers.current.forEach(x=>x.remove());};
   },[journey?.id,journeys,routeMode,selected?.id,ready,onStop,onRoute]);
-  return <div className="map-shell"><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
+  return <div className={`map-shell ${basemap==='satellite'?'satellite-view':''}`}><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
+    <div className="basemap-switch" role="group" aria-label="Map view">{(['map','satellite'] as const).map(view=><button key={view} aria-pressed={basemap===view} onClick={()=>onBasemap(view)}>{view==='map'?'Map':'Satellite'}</button>)}</div>
     {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{t}</button>)}</div><strong>{selected.name}</strong><span>{selected.placement?.address||'Los Angeles'}</span></div>}
     <div className="north-arrow" aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></div>
     <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>

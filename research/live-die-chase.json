@@ -1,0 +1,979 @@
+{
+  "places": [
+    {
+      "id": 330,
+      "name": "Thomas Ling’s kidnapping",
+      "short": "Thomas Ling’s kidnapping",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Union Station, 800 North Alameda Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2366472,
+        34.0558726
+      ],
+      "precision": "station-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich",
+        "Thomas Ling"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Thomas Ling’s kidnapping",
+          "filming_component": "Union Station, 800 North Alameda Street",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Thomas Ling",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Union Station, 800 North Alameda Street",
+        "precision": "station-anchor",
+        "reason": "The screenplay names Union Station, and the released-film lobby and courtyard match the real station. This is the kidnapping prelude to the getaway; the drive from the station to Sixth Street is not traced.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld330-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/UnionStation1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld330-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-yxHmXvHOtDmSIkvrKzcUh5pReb0VHe063kW2JdUsW92D5xLj5lth7kdG1MsWgjRfeVGvvdiyIxXveIdMp-NQWKmr51sX8heyZdckM5chYMxe647a1xeeTB8f4Vv3Ay1yhz_bkSK-9quboh1lbBwovFSphLsE6unSXx2h3MpHoaOA_l8aIXIuEso37Y/w400-h299/324.JPG",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Union Station"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Union+Station%2C+800+N+Alameda+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Union Station",
+        "score": 100
+      }
+    },
+    {
+      "id": 331,
+      "name": "Thomas Ling’s robbery and death",
+      "short": "Thomas Ling’s robbery and death",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Sixth Street at Mesquit Street",
+      "area": "Arts District",
+      "coordinates": [
+        -118.229424235518,
+        34.038479181024
+      ],
+      "precision": "under-bridge-area-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich",
+        "Thomas Ling"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Thomas Ling’s robbery and death",
+          "filming_component": "Sixth Street at Mesquit Street",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss",
+            "ld_imagery"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Thomas Ling",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sixth Street at Mesquit Street",
+        "precision": "under-bridge-area-anchor",
+        "reason": "The screenplay places the robbery beneath Sixth Street Bridge, and matched released-film frames identify Sixth/Mesquit. The original viaduct was replaced; the point marks the documented under-bridge area, not a surviving original pier.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss",
+          "ld_imagery"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld331-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp5MwONNHbqBV3lbQNWcgiZTJJo_yqzCk-46-hULqTDyVQCqDZMQfM9eWV9A4JlWBQTYA6j7EPQgS2ELU3iuwTcKEaiQhIzFPeVJY7pG0kDI4AoUKg_L1Xrbgh8W48_v1TIlTh47H4keH1/s400/Under+Bridge+1.JPG",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld331-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2334%2C34.0361%2C-118.2254%2C34.0409&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the replacement Sixth Street Viaduct and Mesquit area. The bridge in the 1985 film no longer survives; acquisition date unverified.",
+          "caption": "Sixth Street · aerial"
+        }
+      },
+      "deaths": [
+        {
+          "title": "To Live and Die in L.A.",
+          "people": [
+            "Thomas Ling"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=East+6th+Street+and+Mesquit+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "E 6th St & Mesquit St, Los Angeles, California, 90021",
+        "score": 100
+      }
+    },
+    {
+      "id": 332,
+      "name": "Sixth and Mateo turn",
+      "short": "Sixth and Mateo turn",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Sixth Street at Mateo Street",
+      "area": "Arts District",
+      "coordinates": [
+        -118.232701978755,
+        34.038267998974
+      ],
+      "precision": "intersection-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Sixth and Mateo turn",
+          "filming_component": "Sixth Street at Mateo Street",
+          "source_ids": [
+            "ld_ift",
+            "ld_ss",
+            "ld_osm"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sixth Street at Mateo Street",
+        "precision": "intersection-anchor",
+        "reason": "Matched storefronts identify the Sixth/Mateo corner. The two comparison guides disagree about the east/west approach, so the map shows the street corridor without asserting a precise turn direction or subsequent continuous drive.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_ss",
+          "ld_osm"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld332-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/SouthwestBagCo.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld332-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixPnuPKasYttyJJt1pSdok_MEuohGKMap6dDN5UTF4WVzbvKHbaYVqjnkdmcB2mRtVCyjAgeBVOsD_8RUaBRhGJcWcGK_kzaD7NOP2ChbeW9r9FMEF9r44RIlrJ6L-PYPD-pM_9l28YTk/s400/Los+Angeles+November+2011+562.jpg",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Sixth and Mateo"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=East+6th+Street+and+Mateo+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "E 6th St & Mateo St, Los Angeles, California, 90013",
+        "score": 100
+      }
+    },
+    {
+      "id": 333,
+      "name": "The riverbed escape",
+      "short": "The riverbed escape",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles River, between the Sixth and Fourth Street bridges",
+      "area": "Arts District / Boyle Heights",
+      "coordinates": [
+        -118.228554802032,
+        34.040304989895
+      ],
+      "precision": "river-reach-approximation",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "The riverbed escape",
+          "filming_component": "Los Angeles River, between the Sixth and Fourth Street bridges",
+          "source_ids": [
+            "ld_ift",
+            "ld_ss",
+            "ld_usgs"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Los Angeles River, between the Sixth and Fourth Street bridges",
+        "precision": "river-reach-approximation",
+        "reason": "The released-film shots show the west-side railway crossing south of Sixth Street, followed by the riverbed beneath Sixth and Fourth. The plotted reach follows official river geometry; it is a channel-corridor reference, not a surveyed path of the car.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_ss",
+          "ld_usgs"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.231,
+                34.0376
+              ],
+              [
+                -118.227,
+                34.0376
+              ],
+              [
+                -118.227,
+                34.046
+              ],
+              [
+                -118.231,
+                34.046
+              ],
+              [
+                -118.231,
+                34.0376
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.231,
+            34.0376
+          ],
+          [
+            -118.227,
+            34.046
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld333-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/River1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld333-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4EaQySWMOxm0tqqJdnl_Er4sck2v4Aurt8CCBBnOZ5g1-_nQ9ZnBSpVepqNhjLMj599YWyAvHzk18s7Y_ux4osAsPlkR_aP1JTCFxuk6tGuCSjwjJZ1WwKnEjhJ6Hy6aPp2FUBauWe6Eg/s400/L.A.+Trip+2008+508.jpg",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "River photograph reproduced by Its Filmed There. Capture date not specified; the former Sixth Street bridge in the comparison has since been replaced.",
+          "caption": "Los Angeles River"
+        }
+      }
+    },
+    {
+      "id": 334,
+      "name": "Avenue 19 river exit",
+      "short": "Avenue 19 river exit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles River / Avenue 19 · approximate",
+      "area": "Lincoln Heights",
+      "coordinates": [
+        -118.225715179951,
+        34.079590940622
+      ],
+      "precision": "underpass-area-approximation",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Avenue 19 river exit",
+          "filming_component": "Los Angeles River / Avenue 19 · approximate",
+          "source_ids": [
+            "ld_ift",
+            "ld_usgs",
+            "ld_street_reference"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Los Angeles River / Avenue 19 · approximate",
+        "precision": "underpass-area-approximation",
+        "reason": "The frame comparison identifies an eastward underpass beneath Avenue 19, then San Fernando Road. The area point uses the lower Arroyo Seco flowline near its Los Angeles River confluence. It does not claim an exact portal coordinate or reconstruct the underground drive.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_usgs",
+          "ld_street_reference"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.2272,
+                34.0784
+              ],
+              [
+                -118.2232,
+                34.0784
+              ],
+              [
+                -118.2232,
+                34.0814
+              ],
+              [
+                -118.2272,
+                34.0814
+              ],
+              [
+                -118.2272,
+                34.0784
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.2272,
+            34.0784
+          ],
+          [
+            -118.2232,
+            34.0814
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld334-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJf-_xcB447iKt00DNRd8JpDhcsnxUAILnhckkhEP5GKfGZ7jj_cOLnpLEtJL1IpOwqDSU4IIw1QHz86Rq0pQVQKmmNBPEQefQW6dSn5U-lmf0KIXLuGdklhvNBD3D2y81zMePeCdKKIZM/s400/Chase+4.JPG",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld334-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22970000000001%2C34.0772%2C-118.2217%2C34.082&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the lower Arroyo Seco / Avenue 19 underpass area. Acquisition date unverified; this is an area reference, not an identified view of the exact portal.",
+          "caption": "Avenue 19 · aerial"
+        }
+      }
+    },
+    {
+      "id": 335,
+      "name": "The wrong-way freeway",
+      "short": "The wrong-way freeway",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles freeway · exact location unestablished",
+      "area": "Los Angeles",
+      "coordinates": null,
+      "precision": "unlocated",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "The wrong-way freeway",
+          "filming_component": "Terminal Island Freeway near the former Henry Ford Bridge, Wilmington / Long Beach.",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss",
+            "ld_petersen",
+            "ld_imagery"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles freeway · exact location unestablished",
+        "precision": "unlocated",
+        "reason": "The 1984 draft names the Harbor Freeway; the released sequence was photographed on Terminal Island Freeway. The draft also differs in the entry action. No released-film freeway name or connecting itinerary is established by the cited comparisons, so the production location is not used as a canonical pin.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss",
+          "ld_petersen",
+          "ld_imagery"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld335-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/WrongWay.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld335-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2479%2C33.764599999999994%2C-118.23190000000001%2C33.7742&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the Terminal Island Freeway production area. This is not a verified canonical Harbor Freeway location; acquisition date unverified.",
+          "caption": "Terminal Island filming site · aerial"
+        }
+      },
+      "productionCoordinates": [
+        -118.2399952,
+        33.7671562
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": 340,
+      "name": "Car chase",
+      "title": "To Live and Die in L.A.",
+      "year": 1985,
+      "source_ids": [
+        "ld_script",
+        "ld_ift",
+        "ld_ss",
+        "ld_usgs",
+        "ld_osm"
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -118.230001,
+              34.03847
+            ],
+            [
+              -118.230188,
+              34.038461
+            ],
+            [
+              -118.230882,
+              34.03841
+            ],
+            [
+              -118.232602,
+              34.038268
+            ],
+            [
+              -118.232698,
+              34.038261
+            ],
+            [
+              -118.232682,
+              34.038135
+            ],
+            [
+              -118.232679,
+              34.038099
+            ],
+            [
+              -118.232557,
+              34.036894
+            ],
+            [
+              -118.232526,
+              34.036585
+            ],
+            [
+              -118.232478,
+              34.036186
+            ]
+          ],
+          [
+            [
+              -118.22816946247332,
+              34.03855
+            ],
+            [
+              -118.22849951014393,
+              34.0400542696654
+            ],
+            [
+              -118.2285548020317,
+              34.040304989895475
+            ],
+            [
+              -118.22871122132331,
+              34.04101427977549
+            ],
+            [
+              -118.22906697776573,
+              34.04262747001771
+            ],
+            [
+              -118.22942789837766,
+              34.04412326790238
+            ],
+            [
+              -118.22963944533039,
+              34.045
+            ]
+          ],
+          [
+            [
+              -118.22639737995631,
+              34.078893140372
+            ],
+            [
+              -118.22629471360327,
+              34.07899813995499
+            ],
+            [
+              -118.22607171367216,
+              34.07922627349182
+            ],
+            [
+              -118.22571517995095,
+              34.0795909406224
+            ],
+            [
+              -118.22553077966354,
+              34.07986007412566
+            ],
+            [
+              -118.22499538025454,
+              34.080363073569
+            ]
+          ]
+        ]
+      },
+      "precision": "Verified downtown scenes and river reaches only. Gaps leave connecting streets untraced. The ambiguous freeway leg is omitted; hydrography marks the channel corridor, not an exact driving lane.",
+      "stops": [
+        {
+          "name": "Thomas Ling’s kidnapping",
+          "coordinates": [
+            -118.2366472,
+            34.0558726
+          ],
+          "placeId": 330
+        },
+        {
+          "name": "Thomas Ling’s robbery and death",
+          "coordinates": [
+            -118.229424235518,
+            34.038479181024
+          ],
+          "placeId": 331
+        },
+        {
+          "name": "Sixth and Mateo turn",
+          "coordinates": [
+            -118.232701978755,
+            34.038267998974
+          ],
+          "placeId": 332
+        },
+        {
+          "name": "The riverbed escape",
+          "coordinates": [
+            -118.228554802032,
+            34.040304989895
+          ],
+          "placeId": 333
+        },
+        {
+          "name": "Avenue 19 river exit",
+          "coordinates": [
+            -118.225715179951,
+            34.079590940622
+          ],
+          "placeId": 334
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/ld330-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/UnionStation1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld330-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-yxHmXvHOtDmSIkvrKzcUh5pReb0VHe063kW2JdUsW92D5xLj5lth7kdG1MsWgjRfeVGvvdiyIxXveIdMp-NQWKmr51sX8heyZdckM5chYMxe647a1xeeTB8f4Vv3Ay1yhz_bkSK-9quboh1lbBwovFSphLsE6unSXx2h3MpHoaOA_l8aIXIuEso37Y/w400-h299/324.JPG",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Union Station"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ld_ift",
+      "title": "Its Filmed There: To Live and Die in L.A., matched chase scenes",
+      "url": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "source_type": "scene-location comparisons"
+    },
+    {
+      "id": "ld_ss",
+      "title": "Seeing Stars: To Live and Die in L.A., chase locations",
+      "url": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "source_type": "scene-location comparisons"
+    },
+    {
+      "id": "ld_script",
+      "title": "Friedkin and Petievich screenplay, revised 1984 (scanned draft)",
+      "url": "https://cinephiliabeyond.org/wp-content/uploads/2016/01/To-Live-and-Die-in-L.A.-1984.11.08-pg65-66-Scan.compressed.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "ld_petersen",
+      "title": "William Petersen on the chase, Beyond Fest 2025 Q&A, reported by Peter Nelson",
+      "url": "https://www.forbes.com/sites/peternelson/2025/10/01/william-petersen-on-the-car-chase-in-1985s-to-live-and-die-in-la/",
+      "source_type": "participant interview"
+    },
+    {
+      "id": "ld_usgs",
+      "title": "USGS National Hydrography Dataset: large-scale flowlines",
+      "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6",
+      "source_type": "official geographic data"
+    },
+    {
+      "id": "ld_osm",
+      "title": "OpenStreetMap street centerlines via OSRM",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "map geometry"
+    },
+    {
+      "id": "ld_imagery",
+      "title": "Esri World Imagery: real aerial site photography",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial photography"
+    },
+    {
+      "id": "ld_street_reference",
+      "title": "Esri World Street Map: Avenue 19 / Arroyo Seco reference",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ld_release",
+      "title": "AFI: To Live and Die in L.A. (1985), credits and release",
+      "url": "https://watch.afi.com/movie/to-live-and-die-in-l-a",
+      "source_type": "film catalog"
+    }
+  ],
+  "audit": [
+    {
+      "id": 330,
+      "verified": true,
+      "placement": "The screenplay names Union Station, and the released-film lobby and courtyard match the real station. This is the kidnapping prelude to the getaway; the drive from the station to Sixth Street is not traced.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    },
+    {
+      "id": 331,
+      "verified": true,
+      "placement": "The screenplay places the robbery beneath Sixth Street Bridge, and matched released-film frames identify Sixth/Mesquit. The original viaduct was replaced; the point marks the documented under-bridge area, not a surviving original pier.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    },
+    {
+      "id": 332,
+      "verified": true,
+      "placement": "Matched storefronts identify the Sixth/Mateo corner. The two comparison guides disagree about the east/west approach, so the map shows the street corridor without asserting a precise turn direction or subsequent continuous drive.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    },
+    {
+      "id": 333,
+      "verified": true,
+      "placement": "The released-film shots show the west-side railway crossing south of Sixth Street, followed by the riverbed beneath Sixth and Fourth. The plotted reach follows official river geometry; it is a channel-corridor reference, not a surveyed path of the car.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    },
+    {
+      "id": 334,
+      "verified": true,
+      "placement": "The frame comparison identifies an eastward underpass beneath Avenue 19, then San Fernando Road. The area point uses the lower Arroyo Seco flowline near its Los Angeles River confluence. It does not claim an exact portal coordinate or reconstruct the underground drive.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    },
+    {
+      "id": 335,
+      "verified": true,
+      "placement": "The 1984 draft names the Harbor Freeway; the released sequence was photographed on Terminal Island Freeway. The draft also differs in the entry action. No released-film freeway name or connecting itinerary is established by the cited comparisons, so the production location is not used as a canonical pin.",
+      "photoCheck": "Actual film frame and real photograph visually inspected. No acquisition dates inferred from a publication date or filename."
+    }
+  ],
+  "routeAudit": [
+    {
+      "id": 340,
+      "decision": "A segmented downtown route is defensible; a continuous city-to-harbor route is not.",
+      "mappedSegments": [
+        "Sixth/Mesquit to Sixth/Mateo and the Mateo street corridor.",
+        "Los Angeles River reach at the Sixth/Fourth bridges.",
+        "Lower Arroyo Seco / Avenue 19 underpass area."
+      ],
+      "untraced": [
+        "Union Station to the Sixth Street robbery.",
+        "Mateo to the west-bank railway crossing and river entry.",
+        "Intervening river reaches not directly identified by the matched bridge shots.",
+        "San Fernando Road to the wrong-way freeway.",
+        "Terminal Island Freeway production choreography and the Wilmington stopping point."
+      ],
+      "primaryScriptCheck": "Scanned screenplay pages 96-105 were rendered, OCR-read and visually checked. The script names Union Station and Sixth Street Bridge. Printed page 104 names Harbor Freeway; page 105 names a downtown parking lot. Those draft references do not establish the released film’s Terminal Island or Wilmington production sites as canonical story locations.",
+      "frameCheck": "Both guides match Sixth/Mesquit, Sixth/Mateo and the river. Their turn-direction descriptions differ, so no directional claim is added for that intersection.",
+      "unmappedPlaceIds": [
+        335
+      ]
+    }
+  ],
+  "geometryProvenance": [
+    {
+      "routeId": 340,
+      "segment": 0,
+      "method": "Present-day OpenStreetMap centerlines, route output inspected and unwanted detours discarded. Geometry identifies the streets, not 1985 traffic rules or an exact lane.",
+      "source_ids": [
+        "ld_osm"
+      ],
+      "queryUrls": [
+        "https://router.project-osrm.org/route/v1/driving/-118.2300,34.03845;-118.23270,34.03827;-118.23274,34.03720?overview=full&geometries=geojson&steps=true",
+        "https://router.project-osrm.org/route/v1/driving/-118.232478,34.036186;-118.232698,34.038261?overview=full&geometries=geojson&steps=true"
+      ]
+    },
+    {
+      "routeId": 340,
+      "segment": 1,
+      "method": "USGS NHD Los Angeles River flowline clipped to the scene-identified Sixth/Fourth reach. Channel corridor only.",
+      "source_ids": [
+        "ld_usgs"
+      ],
+      "queryUrl": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=gnis_name+%3D+%27Los+Angeles+River%27&geometry=-118.245%2C34.035%2C-118.21%2C34.086&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=gnis_name%2Creachcode%2COBJECTID&outSR=4326&returnGeometry=true&f=geojson"
+    },
+    {
+      "routeId": 340,
+      "segment": 2,
+      "method": "USGS NHD lower Arroyo Seco flowline near Avenue 19. Underpass area only; no invented street connector.",
+      "source_ids": [
+        "ld_usgs",
+        "ld_street_reference"
+      ],
+      "queryUrl": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=gnis_name+%3D+%27Arroyo+Seco%27&geometry=-118.233%2C34.077%2C-118.221%2C34.086&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=gnis_name%2Creachcode%2COBJECTID&outSR=4326&returnGeometry=true&f=geojson"
+    }
+  ],
+  "photoAudit": {
+    "images": 12,
+    "inspected": true,
+    "aerials": [
+      331,
+      334,
+      335
+    ],
+    "dates": "No capture dates asserted. Other site views are archival/undated comparison photographs, not represented as photographed today."
+  },
+  "ready": true
+}

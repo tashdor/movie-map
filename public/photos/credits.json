@@ -3594,7 +3594,8 @@
       "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer.jpg",
       "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
       "credit": "The Worldwide Guide to Movie Locations"
-    }
+    },
+    "note": "The bridge and adjacent gate are documented filming components; the full chase combines several channels."
   },
   "203": {
     "screen": {
@@ -4692,6 +4693,237 @@
       "credit": "Esri World Imagery / Esri imagery contributors",
       "caption": "Lincoln Boulevard · aerial",
       "note": "Aerial photograph of Lincoln Boulevard and the 10 Freeway in Santa Monica; acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+    }
+  },
+  "310": {
+    "screen": {
+      "src": "photos/sh310-screen.jpg",
+      "sourceUrl": "https://clip.cafe/argo-2012/can-teach-somebody-be-a-director-in-a-day/",
+      "credit": "Argo film frame; Clip.Cafe",
+      "alt": "Mendez and Chambers sit in a booth inside the Smoke House.",
+      "width": 1100,
+      "height": 619,
+      "imageUrl": "https://clip.cafe/clipimg/can-teach-somebody-be-a-director-in-a-day.jpg",
+      "title": "Argo"
+    },
+    "place": {
+      "src": "photos/sh310-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Christian Hernandez / Boogie Sights, via Film Oblivion",
+      "alt": "The Smoke House dining room, with dark wood and red booths.",
+      "width": 1067,
+      "height": 800,
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland35.jpg",
+      "caption": "The Smoke House",
+      "note": "Capture date from the original image’s EXIF DateTimeOriginal. Photograph credited by Film Oblivion to Christian Hernandez of Boogie Sights.",
+      "date": "2022-02-15"
+    }
+  },
+  "311": {
+    "screen": {
+      "src": "photos/sh311-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/5-MiasLongWalkHome.shtml",
+      "credit": "La La Land film frame; Seeing Stars / Summit Entertainment",
+      "alt": "Mia enters the door marked Lipton’s beside the Hollywood mural.",
+      "width": 699,
+      "height": 279,
+      "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/YouAreTheStarMural3.jpg",
+      "title": "La La Land",
+      "note": "Seeing Stars states that its published mural frames were brightened. This is the actual film exterior; no image was generated."
+    },
+    "place": {
+      "src": "photos/sh311-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "alt": "Aerial of the Attie Building at Hollywood Boulevard and Wilcox Avenue.",
+      "width": 1100,
+      "height": 650,
+      "caption": "Exterior · aerial",
+      "note": "Aerial basemap of the exterior building; capture date is not supplied. The Smoke House in Burbank supplied the separate interior.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3320,34.1006,-118.3299,34.1019&bboxSR=4326&imageSR=3857&size=1100,650&format=jpg&f=image"
+    },
+    "note": "Exterior: Wilcox Avenue beside the You Are the Star mural. Interior: The Smoke House, 4420 West Lakeside Drive, Burbank."
+  },
+  "320": {
+    "screen": {
+      "src": "photos/vg320-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+      "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+      "title": "Star Trek: Voyager",
+      "caption": "Janeway, Chakotay, Tuvok and Paris beside the carousel.",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/MerryGoRound1.jpg"
+    },
+    "place": {
+      "src": "photos/vg320-place.jpg",
+      "sourceUrl": "https://smconservancy.org/property/looff-hippodrome-2/",
+      "credit": "Santa Monica Pier Corporation / Santa Monica Conservancy",
+      "caption": "Santa Monica Pier",
+      "note": "Capture date unverified; the Conservancy identifies this as the pier today.",
+      "imageUrl": "https://smconservancy.org/wp-content/uploads/2026/06/15-smpier-smpiercorp.com_.png"
+    }
+  },
+  "321": {
+    "screen": {
+      "src": "photos/vg321-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+      "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+      "title": "Star Trek: Voyager",
+      "caption": "Chronowerx’s exterior.",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Chronowerx-exterior.jpg"
+    },
+    "place": {
+      "src": "photos/vg321-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metro_Headquarters_Building_(May_2026).jpg",
+      "credit": "Busition / Wikimedia Commons",
+      "date": "2026-05-08",
+      "license": "CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/",
+      "caption": "Metro Headquarters, One Gateway Plaza",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Metro_Headquarters_Building_%28May_2026%29.jpg/1280px-Metro_Headquarters_Building_%28May_2026%29.jpg"
+    }
+  },
+  "322": {
+    "screen": {
+      "src": "photos/vg322-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+      "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+      "title": "Star Trek: Voyager",
+      "caption": "The away team follows Braxton along the coastal park.",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PalisadesPark2b.jpg"
+    },
+    "place": {
+      "src": "photos/vg322-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pride_of_Madeira_in_Palisades_Park,_Santa_Monica,_California.jpg",
+      "credit": "Z3lvs / Wikimedia Commons",
+      "date": "2023-03-20",
+      "license": "CC0 · https://creativecommons.org/publicdomain/zero/1.0/",
+      "caption": "Palisades Park",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg/1280px-Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg"
+    }
+  },
+  "323": {
+    "screen": {
+      "src": "photos/vg323-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager2.shtml",
+      "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+      "title": "Star Trek: Voyager",
+      "caption": "The Doctor at Starling’s rendezvous.",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/DoctorAndStarling.jpg"
+    },
+    "place": {
+      "src": "photos/vg323-place.jpg",
+      "sourceUrl": "https://www.musiccenter.org/visit-explore/visit-explore/campus/jerry-moss-plaza/",
+      "credit": "Tim Street-Porter / The Music Center",
+      "caption": "Music Center plaza after its 2019 renovation.",
+      "note": "Capture date unverified. The fountain layout and sculpture placement changed after filming.",
+      "imageUrl": "https://www.musiccenter.org/media/vrkklvry/plaza_hero.jpg?width=1400"
+    }
+  },
+  "330": {
+    "screen": {
+      "src": "photos/ld330-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/UnionStation1.jpg",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld330-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-yxHmXvHOtDmSIkvrKzcUh5pReb0VHe063kW2JdUsW92D5xLj5lth7kdG1MsWgjRfeVGvvdiyIxXveIdMp-NQWKmr51sX8heyZdckM5chYMxe647a1xeeTB8f4Vv3Ay1yhz_bkSK-9quboh1lbBwovFSphLsE6unSXx2h3MpHoaOA_l8aIXIuEso37Y/w400-h299/324.JPG",
+      "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Union Station"
+    }
+  },
+  "331": {
+    "screen": {
+      "src": "photos/ld331-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp5MwONNHbqBV3lbQNWcgiZTJJo_yqzCk-46-hULqTDyVQCqDZMQfM9eWV9A4JlWBQTYA6j7EPQgS2ELU3iuwTcKEaiQhIzFPeVJY7pG0kDI4AoUKg_L1Xrbgh8W48_v1TIlTh47H4keH1/s400/Under+Bridge+1.JPG",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld331-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2334%2C34.0361%2C-118.2254%2C34.0409&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "note": "Real aerial photograph of the replacement Sixth Street Viaduct and Mesquit area. The bridge in the 1985 film no longer survives; acquisition date unverified.",
+      "caption": "Sixth Street · aerial"
+    }
+  },
+  "332": {
+    "screen": {
+      "src": "photos/ld332-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/SouthwestBagCo.jpg",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld332-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixPnuPKasYttyJJt1pSdok_MEuohGKMap6dDN5UTF4WVzbvKHbaYVqjnkdmcB2mRtVCyjAgeBVOsD_8RUaBRhGJcWcGK_kzaD7NOP2ChbeW9r9FMEF9r44RIlrJ6L-PYPD-pM_9l28YTk/s400/Los+Angeles+November+2011+562.jpg",
+      "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Sixth and Mateo"
+    }
+  },
+  "333": {
+    "screen": {
+      "src": "photos/ld333-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/River1.jpg",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld333-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4EaQySWMOxm0tqqJdnl_Er4sck2v4Aurt8CCBBnOZ5g1-_nQ9ZnBSpVepqNhjLMj599YWyAvHzk18s7Y_ux4osAsPlkR_aP1JTCFxuk6tGuCSjwjJZ1WwKnEjhJ6Hy6aPp2FUBauWe6Eg/s400/L.A.+Trip+2008+508.jpg",
+      "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+      "note": "River photograph reproduced by Its Filmed There. Capture date not specified; the former Sixth Street bridge in the comparison has since been replaced.",
+      "caption": "Los Angeles River"
+    }
+  },
+  "334": {
+    "screen": {
+      "src": "photos/ld334-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJf-_xcB447iKt00DNRd8JpDhcsnxUAILnhckkhEP5GKfGZ7jj_cOLnpLEtJL1IpOwqDSU4IIw1QHz86Rq0pQVQKmmNBPEQefQW6dSn5U-lmf0KIXLuGdklhvNBD3D2y81zMePeCdKKIZM/s400/Chase+4.JPG",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld334-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22970000000001%2C34.0772%2C-118.2217%2C34.082&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "note": "Real aerial photograph of the lower Arroyo Seco / Avenue 19 underpass area. Acquisition date unverified; this is an area reference, not an identified view of the exact portal.",
+      "caption": "Avenue 19 · aerial"
+    }
+  },
+  "335": {
+    "screen": {
+      "src": "photos/ld335-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/WrongWay.jpg",
+      "credit": "MGM / United Artists",
+      "note": "Actual movie frame.",
+      "title": "To Live and Die in L.A."
+    },
+    "place": {
+      "src": "photos/ld335-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2479%2C33.764599999999994%2C-118.23190000000001%2C33.7742&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "note": "Real aerial photograph of the Terminal Island Freeway production area. This is not a verified canonical Harbor Freeway location; acquisition date unverified.",
+      "caption": "Terminal Island filming site · aerial"
     }
   }
 }

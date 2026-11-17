@@ -11,3 +11,7 @@
 
 .atlas-marker,.route-stop-marker{position:absolute;z-index:1}.atlas-marker.selected>.marker-tooltip{display:none}
 .map-canvas{isolation:isolate}
+.basemap-switch{position:absolute;top:18px;left:20px;display:flex;z-index:5;background:var(--paper);border:1px solid #a99d86;box-shadow:1px 2px 0 #22251e15}.basemap-switch button{padding:6px 11px;font-family:var(--condensed);font-size:16px;line-height:1.2;color:var(--ink)}.basemap-switch button+button{border-left:1px solid var(--line)}.basemap-switch button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}.basemap-switch~.unlocated-card{top:64px}.satellite-view .north-arrow{color:var(--paper);filter:drop-shadow(0 1px 1px #172024)}
+.filming-address{font-size:12px;line-height:1.45;color:var(--ink);margin:-6px 0 18px}.filming-site>span{font-size:10px;color:var(--muted);display:block;margin-bottom:2px}.filming-site>a{display:inline-flex;align-items:center;gap:5px;margin-top:5px;color:var(--red);font-size:11px;border-bottom:1px solid #a99d8666}.filming-site>a:hover{border-color:var(--red)}
+
+.filming-site+.filming-site{margin-top:10px}

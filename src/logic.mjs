@@ -37,7 +37,11 @@ export function readState(hash) {
   const q = new URLSearchParams(hash.replace(/^#/, ''));
   const from = Number(q.get('from')), to = Number(q.get('to'));
   const ranged = q.has('from') && q.has('to') && Number.isFinite(from) && Number.isFinite(to);
-  return { selected: Number(q.get('place')) || null, route: Number(q.get('route')) || null, person:q.get('person')||null, query: q.get('q') || '', category: ['home','work','hangout','event','death'].includes(q.get('type')) ? q.get('type') : 'all', film: q.get('film') || '', tab: q.get('tab') === 'people' ? 'people' : q.get('tab') === 'journeys' ? 'journeys' : 'places', time: { all: !ranged || Math.min(from,to)<=1930 && Math.max(from,to)>=2030, from: ranged ? Math.max(1930, Math.min(2030, Math.min(from,to))) : 1930, to: ranged ? Math.max(1930, Math.min(2030, Math.max(from,to))) : 2030, undated: q.get('undated') === '1' } };
+  let selected = Number(q.get('place')) || null, route = Number(q.get('route')) || null;
+  const retiredRoute = {99:202,225:213}[route];
+  if(retiredRoute){selected ||= retiredRoute;route=null;}
+  if(selected===203)selected=202;
+  return { selected, route, basemap:q.get('view')==='satellite'?'satellite':'map', person:q.get('person')||null, query: q.get('q') || '', category: ['home','work','hangout','event','death'].includes(q.get('type')) ? q.get('type') : 'all', film: q.get('film') || '', tab: retiredRoute?'places':q.get('tab') === 'people' ? 'people' : q.get('tab') === 'journeys' ? 'journeys' : 'places', time: { all: !ranged || Math.min(from,to)<=1930 && Math.max(from,to)>=2030, from: ranged ? Math.max(1930, Math.min(2030, Math.min(from,to))) : 1930, to: ranged ? Math.max(1930, Math.min(2030, Math.max(from,to))) : 2030, undated: q.get('undated') === '1' } };
 }
 
 export function stateHash(state) {
@@ -49,8 +53,26 @@ export function stateHash(state) {
   if (state.category !== 'all') q.set('type', state.category);
   if (state.film) q.set('film', state.film);
   if (state.tab !== 'places') q.set('tab', state.tab);
+  if (state.basemap === 'satellite') q.set('view','satellite');
   if (!state.time.all) { q.set('from', state.time.from); q.set('to', state.time.to); if (state.time.undated) q.set('undated','1'); }
   return q.toString() ? '#' + q : '';
+}
+
+export function peopleForEntry(place){
+  const names=place.isDeath||place.category==='death'?(place.deaths||[]).flatMap(d=>d.people):place.appearances.flatMap(a=>a.characters?.map(c=>c.name)||place.people);
+  return [...new Set(names)];
+}
+
+export function associatedPeople(place){
+  if(place.baseId&&place.isDeath)return peopleForEntry(place);
+  return [...new Set(place.appearances.flatMap(a=>a.characters?.map(c=>c.name)||place.people))];
+}
+
+/** @param {{coordinates?: number[], address?: string} | null} [site] */
+export function filmingSiteMapsUrl(place,site=null){
+  const coordinates=site?site.coordinates:place.productionCoordinates||(place.placement?.kind==='filming-proxy'?place.coordinates:null);
+  const query=coordinates?`${coordinates[1]},${coordinates[0]}`:[site?.address||place.address,place.area].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
 export function displayEntries(places,filters={}){

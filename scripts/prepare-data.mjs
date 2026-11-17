@@ -70,7 +70,6 @@ const stop=(id,name)=>byId.has(id)?{name:name||byId.get(id).name,coordinates:byI
 const journeys=[
  {id:97,name:'Going home',title:'Falling Down',year:null,source_ids:['falling_locations','falling_afi'],stops:[{name:'The abandoned car',coordinates:[-118.249,34.063]},stop(18),stop(22),stop(19),stop(20),stop(17),stop(23)].filter(Boolean)},
  {id:98,name:'The downtown escape',title:'Heat',year:1995,source_ids:['heat_locations','heat_scout'],stops:[{name:'The bank exit',coordinates:[-118.2562,34.0515]},{name:'Fifth & Flower',coordinates:[-118.2569,34.0509]},{name:'The grocery-lot escape',coordinates:[-118.2596,34.0461]}]},
- {id:99,name:'Into the channel',title:'Terminator 2: Judgment Day',year:1995,source_ids:['t2_locations','t2_afi_time'],stops:[{name:'Plummer Street truck leap',coordinates:[-118.4937,34.2429]},{name:'The motorcycle entrance',coordinates:[-118.4938,34.2422]},{name:'Bull Creek pursuit',coordinates:[-118.4932,34.2328]}]},
  {id:100,name:'A quarter mile at a time',title:'The Fast and the Furious',year:null,source_ids:['fast_locations'],stops:[{name:'Prairie & 120th',coordinates:[-118.3442,33.9239]},{name:'The racing corridor',coordinates:[-118.3442,33.9251]},{name:'Prairie & 118th',coordinates:[-118.3442,33.9264]}]}
 ];
 fs.mkdirSync('src/data',{recursive:true});

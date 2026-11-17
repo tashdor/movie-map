@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { filterPlaces,matchingAppearances,readState,stateHash,timeBounds,timeLabel,displayEntries,selectPlace,backState } from '../src/logic.mjs';
+import { filterPlaces,matchingAppearances,readState,stateHash,timeBounds,timeLabel,displayEntries,selectPlace,backState,peopleForEntry,associatedPeople,filmingSiteMapsUrl } from '../src/logic.mjs';
 import {countyFog} from '../src/geo.mjs';
 const data=JSON.parse(fs.readFileSync(new URL('../src/data/atlas.json',import.meta.url)));
 const time=(year,undated=false)=>({all:false,from:year,to:year,undated});
@@ -51,7 +51,7 @@ test('unpunctuated movie titles find every location for the film',()=>{
   }
 });
 test('shareable state roundtrips and clamps hostile/out-of-bounds inputs',()=>{
-  const state={selected:83,route:null,person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
+  const state={selected:83,route:null,basemap:'map',person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
   assert.deepEqual(readState(stateHash(state)),state);
   assert.deepEqual(readState('#from=9999&to=1').time,{all:true,from:1930,to:2030,undated:false});
   assert.equal(readState('#from=bad&to=1995').time.all,true);
@@ -70,8 +70,11 @@ test('map and provenance data are valid, bounded and internally linked',()=>{
 });
 test('story evidence overrides contradictory production coordinates',()=>{
   const get=id=>data.places.find(p=>p.id===id);
-  assert.equal(get(12).coordinates,null);
-  assert.match(get(12).placement.address,/97th floor/);
+  assert.deepEqual(get(12).coordinates,[-118.255,34.052]);
+  assert.equal(get(12).placement.kind,'inferred');
+  assert.match(get(12).placement.address,/editorial estimate/);
+  assert.match(get(12).placement.reason,/97th floor/);
+  assert.notDeepEqual(get(12).coordinates,get(12).productionCoordinates);
   assert.ok(get(80).coordinates);
   assert.equal(get(80).placement.kind,'inferred');
   assert.match(get(80).placement.address,/Pico Boulevard.*approximate/);
@@ -129,10 +132,10 @@ test('All lists death events separately at full location identity',()=>{
   assert.equal(displayEntries([trejo],{film:'Blade Runner'}).length,0);
 });
 test('location Back preserves its route or person context in shared state',()=>{
-  const base={...readState(''),tab:'journeys',route:99};
-  const place=selectPlace(base,202);
-  assert.equal(place.route,99);
-  assert.equal(backState(place).route,99);
+  const base={...readState(''),tab:'journeys',route:300};
+  const place=selectPlace(base,272);
+  assert.equal(place.route,300);
+  assert.equal(backState(place).route,300);
   assert.equal(backState(place).selected,null);
   assert.equal(backState(backState(place)).route,null);
   assert.deepEqual(readState(stateHash(place)),place);
@@ -147,14 +150,17 @@ test('the expansion contains 100 new sourced places with unique identities',()=>
   assert.ok(data.places.length>=215);
   for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
 });
-test('LAX death and channel chase use sourced sites and navigable photo entries',()=>{
+test('LAX death and the channel-chase event retain photos without a false route',()=>{
   const lax=data.places.find(p=>p.id===201);
   assert.equal(lax.category,'death');assert.deepEqual(lax.deaths[0].people,['Neil McCauley']);
   assert.ok(filterPlaces(data.places,{query:'Macauley'}).some(p=>p.id===201));
   assert.equal(lax.appearances[0].story_time.year,1995);
-  const t2=data.journeys.find(j=>j.id===99);
-  assert.deepEqual(t2.stops.map(s=>s.placeId),[202,203]);
-  assert.equal(t2.stops.some(s=>s.coordinates[0]===-118.4932&&s.coordinates[1]===34.2328),false);
+  assert.equal(data.journeys.some(j=>j.id===99),false);
+  const chase=data.places.find(p=>p.id===202);
+  assert.equal(chase.name,'Flood-channel chase');assert.equal(chase.category,'event');
+  assert.ok(chase.media.screen.src&&chase.media.place.src);
+  assert.ok(chase.people.includes('T-800')&&chase.people.includes('T-1000'));
+  assert.equal(data.places.some(p=>p.id===203),false);
   for(const j of data.journeys)for(const stop of j.stops){
     const p=data.places.find(p=>p.id===stop.placeId);assert.ok(p,`${j.id}: ${stop.name}`);
     assert.ok(p.media.screen.src&&p.media.place.src);
@@ -169,7 +175,8 @@ test('Heat covers the major robberies and keeps the bank escape branches distinc
   assert.match(get(216).name,/ambush/);
   assert.equal(get(219).coordinates,null);
   assert.match(get(219).placement.address,/Encino/);
-  assert.deepEqual(data.journeys.find(j=>j.id===225).stops.map(s=>s.placeId),[212,213,214]);
+  assert.equal(data.journeys.some(j=>j.id===225),false);
+  for(const id of [212,213,214])assert.ok(get(id)?.coordinates,`standalone robbery-sequence location ${id}`);
   assert.deepEqual(data.journeys.find(j=>j.id===226).stops.map(s=>s.placeId),[205,206,217]);
   assert.deepEqual(data.journeys.find(j=>j.id===98).stops.map(s=>s.placeId),[205,206,207]);
   assert.equal(displayEntries([get(213)],{category:'death'})[0].name,'Armored-truck guards’ deaths');
@@ -263,4 +270,80 @@ test('Speed’s bus follows separate story-road segments instead of production-s
     assert.ok(place,stop.name);
     assert.ok(place.appearances.some(a=>a.title==='Speed'));
   }
+});
+
+test('death entries identify victims while event pages retain the living participants',()=>{
+  const ambush=data.places.find(p=>p.id===216);
+  const death=displayEntries([ambush],{category:'death'})[0];
+  assert.deepEqual(peopleForEntry(death),['Van Zant’s gunman','Van Zant’s pickup driver']);
+  for(const name of ['Neil McCauley','Chris Shiherlis','Michael Cheritto']){
+    assert.equal(peopleForEntry(death).includes(name),false);
+    assert.ok(peopleForEntry(ambush).includes(name));
+  }
+  const lax=displayEntries([data.places.find(p=>p.id===201)])[0];
+  assert.deepEqual(peopleForEntry(lax),['Neil McCauley']);
+  assert.ok(associatedPeople(lax).includes('Vincent Hanna'),'Hanna still visits the LAX scene on his person page');
+  assert.equal(associatedPeople(death).includes('Neil McCauley'),false);
+});
+
+test('old route and component links open the appropriate standalone location',()=>{
+  for(const [hash,id] of [['#tab=journeys&route=99',202],['#place=203',202],['#tab=journeys&route=225',213]]){
+    const state=readState(hash);assert.equal(state.selected,id);assert.equal(state.route,null);assert.equal(state.tab,'places');
+  }
+  assert.equal(readState('#route=225&place=212&tab=journeys').selected,212);
+});
+
+test('satellite mode survives sharing and rejects unknown basemap names',()=>{
+  const state={...readState('#place=202&film=Terminator+2%3A+Judgment+Day'),basemap:'satellite'};
+  assert.deepEqual(readState(stateHash(state)),state);
+  assert.equal(readState('#view=unknown').basemap,'map');
+  assert.equal(stateHash(readState('')),'');
+});
+
+test('Google Maps opens the real filming site when the story point differs',()=>{
+  for(const id of [12,19,109,284]){
+    const p=data.places.find(p=>p.id===id),url=new URL(filmingSiteMapsUrl(p));
+    assert.equal(url.origin,'https://www.google.com');assert.equal(url.searchParams.get('api'),'1');
+    assert.equal(url.searchParams.get('query'),`${p.productionCoordinates[1]},${p.productionCoordinates[0]}`);
+  }
+  assert.equal(new URL(filmingSiteMapsUrl({address:'1 Example Street',area:'Burbank'})).searchParams.get('query'),'1 Example Street, Burbank');
+  const composite={productionCoordinates:[-118.33,34.1],address:'Exterior',area:'Los Angeles'};
+  assert.equal(new URL(filmingSiteMapsUrl(composite,{address:'Interior',coordinates:[-118.34,34.14]})).searchParams.get('query'),'34.14,-118.34');
+});
+
+test('the Smoke House and Lipton’s keep their story identities and separate filming addresses',()=>{
+  const smoke=data.places.find(p=>p.id===310),lipton=data.places.find(p=>p.id===311);
+  assert.deepEqual(smoke.appearances.map(a=>a.title),['Argo']);
+  assert.equal(smoke.appearances[0].story_time.year,1980);
+  assert.match(lipton.name,/Lipton/);
+  assert.deepEqual(lipton.appearances.map(a=>a.title),['La La Land']);
+  assert.equal(lipton.productionSites.length,2);
+  assert.deepEqual(lipton.productionSites.find(s=>s.component==='Interior').coordinates,smoke.coordinates);
+  assert.notDeepEqual(lipton.coordinates,smoke.coordinates);
+  assert.match(lipton.productionSites.find(s=>s.component==='Exterior').address,/Wilcox/);
+});
+
+test('Voyager’s city visits use local 1996 dates and retain all composite addresses',()=>{
+  for(const id of [320,321,322,323]){
+    const p=data.places.find(p=>p.id===id);assert.ok(p?.coordinates);
+    assert.equal(p.appearances[0].title,'Star Trek: Voyager');
+    assert.equal(p.appearances[0].story_time.year,1996);
+    assert.ok(p.appearances[0].episodes?.length);
+  }
+  assert.match(data.places.find(p=>p.id===320).name,/Santa Monica Pier/);
+  const hq=data.places.find(p=>p.id===321);assert.equal(hq.productionSites.length,2);
+  assert.notDeepEqual(hq.productionSites[0].coordinates,hq.productionSites[1].coordinates);
+});
+
+test('To Live and Die in L.A. traces documented downtown reaches without inventing a freeway connection',()=>{
+  const route=data.journeys.find(j=>j.id===340);
+  assert.equal(route.title,'To Live and Die in L.A.');
+  assert.deepEqual(route.stops.map(s=>s.placeId),[330,331,332,333,334]);
+  assert.equal(route.geometry.type,'MultiLineString');
+  assert.ok(route.geometry.coordinates.length>=2);
+  for(const segment of route.geometry.coordinates)for(const [,lat] of segment)assert.ok(lat>34.03&&lat<34.09);
+  const freeway=data.places.find(p=>p.id===335);
+  assert.equal(freeway.coordinates,null);
+  assert.equal(freeway.placement.kind,'unknown');
+  assert.ok(freeway.productionCoordinates,'production reference remains separate');
 });

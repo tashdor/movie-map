@@ -1048,7 +1048,10 @@
       "category": "home",
       "address": "2607 Glendower Avenue",
       "area": "Los Feliz, Los Angeles",
-      "coordinates": null,
+      "coordinates": [
+        -118.255,
+        34.052
+      ],
       "precision": "street-interpolated",
       "people": [
         "Rick Deckard",
@@ -1095,14 +1098,51 @@
         34.116014238296
       ],
       "placement": {
-        "kind": "unknown",
-        "address": "Los Angeles · apartment 9732, 97th floor",
-        "precision": "unlocated",
-        "reason": "The film/script establishes a high-rise apartment. Ennis House supplies architectural imagery and production exterior elements, not proof of the fictional street address. No credible precise canonical street location was found.",
+        "kind": "inferred",
+        "address": "Downtown Los Angeles · editorial estimate",
+        "precision": "editorial-area-estimate",
+        "reason": "Downtown is an editorial approximation. The film and shooting script establish apartment 9732 on the 97th floor, but do not identify a street or neighborhood. The Ennis House is architectural and production provenance, not proof of a downtown building or canonical address.",
         "sourceIds": [
           "deckard_architecture",
           "deckard_script",
           "blade_production"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.273,
+                34.035
+              ],
+              [
+                -118.235,
+                34.035
+              ],
+              [
+                -118.235,
+                34.069
+              ],
+              [
+                -118.273,
+                34.069
+              ],
+              [
+                -118.273,
+                34.035
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.273,
+            34.035
+          ],
+          [
+            -118.235,
+            34.069
+          ]
         ]
       },
       "media": {
@@ -18694,8 +18734,8 @@
     },
     {
       "id": 202,
-      "name": "T-1000’s truck jump",
-      "short": "T-1000’s truck jump",
+      "name": "Flood-channel chase",
+      "short": "Flood-channel chase",
       "category": "event",
       "categories": [
         "event"
@@ -18718,25 +18758,28 @@
         "sourceIds": [
           "route_t2_channel",
           "route_t2_bridge",
-          "route_t2_stunts"
+          "route_t2_stunts",
+          "route_t2_gate"
         ],
-        "reason": ""
+        "reason": "The Plummer Street bridge and adjacent Hayvenhurst gate are documented components of the chase. They establish this event site, but not a continuous channel path."
       },
       "people": [
         "John Connor",
-        "T-1000"
+        "T-1000",
+        "T-800"
       ],
       "featured": false,
       "appearances": [
         {
           "title": "Terminator 2: Judgment Day",
           "release_year": 1991,
-          "story_role": "T-1000’s truck jump",
-          "filming_component": "Plummer Street / Hayvenhurst Avenue · Bull Creek bridge",
+          "story_role": "Flood-channel chase",
+          "filming_component": "T-1000’s truck jump at the Plummer Street bridge; T-800’s channel entrance at the adjacent Hayvenhurst gate",
           "source_ids": [
             "route_t2_channel",
             "route_t2_bridge",
-            "route_t2_stunts"
+            "route_t2_stunts",
+            "route_t2_gate"
           ],
           "story_time": {
             "year": 1995,
@@ -18754,6 +18797,10 @@
             },
             {
               "name": "T-1000",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "T-800",
               "relationship": "associated_with"
             }
           ],
@@ -18776,94 +18823,97 @@
           "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer.jpg",
           "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
           "credit": "The Worldwide Guide to Movie Locations"
-        }
-      }
-    },
-    {
-      "id": 203,
-      "name": "T-800’s channel entrance",
-      "short": "T-800’s channel entrance",
-      "category": "event",
-      "categories": [
-        "event"
-      ],
-      "address": "Hayvenhurst Avenue · gate south of Plummer Street",
-      "area": "Los Angeles",
-      "coordinates": [
-        -118.49378,
-        34.2425
-      ],
-      "productionCoordinates": [
-        -118.49378,
-        34.2425
-      ],
-      "precision": "site-approximate",
-      "placement": {
-        "kind": "filming-proxy",
-        "address": "Hayvenhurst Avenue · gate south of Plummer Street",
-        "precision": "site-approximate",
-        "sourceIds": [
-          "route_t2_channel",
-          "route_t2_gate"
-        ],
-        "reason": "Gate identified in a frame comparison; coordinate approximates the entry immediately south of the documented bridge."
+        },
+        "note": "The bridge and adjacent gate are documented filming components; the full chase combines several channels."
       },
-      "people": [
-        "T-800",
-        "John Connor"
-      ],
-      "featured": false,
-      "appearances": [
+      "components": [
         {
-          "title": "Terminator 2: Judgment Day",
-          "release_year": 1991,
-          "story_role": "T-800’s channel entrance",
-          "filming_component": "Hayvenhurst Avenue · gate south of Plummer Street",
-          "source_ids": [
-            "route_t2_channel",
-            "route_t2_gate"
-          ],
-          "story_time": {
-            "year": 1995,
-            "precision": "year",
-            "certainty": "explicit",
-            "basis": "AFI story synopsis begins in Los Angeles in 1995.",
-            "source_ids": [
-              "t2_afi_time"
-            ]
-          },
-          "characters": [
-            {
-              "name": "T-800",
-              "relationship": "associated_with"
-            },
-            {
-              "name": "John Connor",
-              "relationship": "associated_with"
-            }
-          ],
+          "id": 203,
+          "name": "T-800’s channel entrance",
+          "short": "T-800’s channel entrance",
+          "category": "event",
           "categories": [
             "event"
-          ]
+          ],
+          "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+          "area": "Los Angeles",
+          "coordinates": [
+            -118.49378,
+            34.2425
+          ],
+          "productionCoordinates": [
+            -118.49378,
+            34.2425
+          ],
+          "precision": "site-approximate",
+          "placement": {
+            "kind": "filming-proxy",
+            "address": "Hayvenhurst Avenue · gate south of Plummer Street",
+            "precision": "site-approximate",
+            "sourceIds": [
+              "route_t2_channel",
+              "route_t2_gate"
+            ],
+            "reason": "Gate identified in a frame comparison; coordinate approximates the entry immediately south of the documented bridge."
+          },
+          "people": [
+            "T-800",
+            "John Connor"
+          ],
+          "featured": false,
+          "appearances": [
+            {
+              "title": "Terminator 2: Judgment Day",
+              "release_year": 1991,
+              "story_role": "T-800’s channel entrance",
+              "filming_component": "Hayvenhurst Avenue · gate south of Plummer Street",
+              "source_ids": [
+                "route_t2_channel",
+                "route_t2_gate"
+              ],
+              "story_time": {
+                "year": 1995,
+                "precision": "year",
+                "certainty": "explicit",
+                "basis": "AFI story synopsis begins in Los Angeles in 1995.",
+                "source_ids": [
+                  "t2_afi_time"
+                ]
+              },
+              "characters": [
+                {
+                  "name": "T-800",
+                  "relationship": "associated_with"
+                },
+                {
+                  "name": "John Connor",
+                  "relationship": "associated_with"
+                }
+              ],
+              "categories": [
+                "event"
+              ]
+            }
+          ],
+          "notes": "",
+          "media": {
+            "screen": {
+              "src": "photos/r203-screen.jpg",
+              "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
+              "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
+              "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
+              "title": "Terminator 2: Judgment Day",
+              "note": "Cropped to the film-frame panel of comparison 38."
+            },
+            "place": {
+              "src": "photos/r203-place.jpg",
+              "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
+              "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
+              "credit": "The Worldwide Guide to Movie Locations"
+            }
+          }
         }
-      ],
-      "notes": "",
-      "media": {
-        "screen": {
-          "src": "photos/r203-screen.jpg",
-          "imageUrl": "https://www.jamescamerononline.com/hayvenhusrt3.jpg",
-          "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations2.htm",
-          "credit": "Terminator 2 film frame / David Drummond / James Cameron Online",
-          "title": "Terminator 2: Judgment Day",
-          "note": "Cropped to the film-frame panel of comparison 38."
-        },
-        "place": {
-          "src": "photos/r203-place.jpg",
-          "imageUrl": "https://www.movie-locations.com/movies/t/Terminator-2-Hayvenhurst-and-Plummer-entrance.jpg",
-          "sourceUrl": "https://www.movie-locations.com/movies/t/Terminator-2.php",
-          "credit": "The Worldwide Guide to Movie Locations"
-        }
-      }
+      ]
     },
     {
       "id": 205,
@@ -24621,6 +24671,1388 @@
         "matchedAddress": "Lincoln Blvd & I-10 E, Santa Monica, California, 90401",
         "score": 99.84
       }
+    },
+    {
+      "id": 310,
+      "name": "The Smoke House",
+      "short": "The Smoke House",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "4420 West Lakeside Drive",
+      "area": "Burbank",
+      "coordinates": [
+        -118.3413094,
+        34.1455689
+      ],
+      "productionCoordinates": [
+        -118.3413094,
+        34.1455689
+      ],
+      "productionSites": [
+        {
+          "component": "Interior",
+          "address": "The Smoke House, 4420 West Lakeside Drive, Burbank, CA 91505",
+          "coordinates": [
+            -118.3413094,
+            34.1455689
+          ]
+        }
+      ],
+      "precision": "official-venue-coordinate",
+      "placement": {
+        "kind": "screen",
+        "address": "The Smoke House · Burbank",
+        "precision": "official-venue-coordinate",
+        "reason": "The final Argo screenplay names the Smoke House for Mendez and Chambers’s meeting. The restaurant’s official site publishes coordinates 34.1455689,-118.3413094 and links to its Google Maps venue pin 34.1455215,-118.341308. The official point sits on the restaurant footprint in aerial imagery, beside the golf course and across Lakeside Drive from Warner Bros.",
+        "sourceIds": [
+          "sh_argo_script",
+          "sh_argo_afi",
+          "sh_argo_visit",
+          "sh_official",
+          "sh_official_location"
+        ]
+      },
+      "people": [
+        "Tony Mendez",
+        "John Chambers"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Argo",
+          "release_year": 2012,
+          "story_role": "Mendez and Chambers’s planning meeting",
+          "filming_component": "restaurant interior",
+          "source_ids": [
+            "sh_argo_script",
+            "sh_argo_afi",
+            "sh_argo_visit",
+            "sh_argo_clip"
+          ],
+          "story_time": {
+            "year": 1980,
+            "month": 1,
+            "precision": "month",
+            "certainty": "explicit",
+            "basis": "The screenplay dates the Burbank sequence to January 1980. The subsequent restaurant meeting precedes the January rescue; no specific meeting day is asserted.",
+            "source_ids": [
+              "sh_argo_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tony Mendez",
+              "relationship": "plans the film cover"
+            },
+            {
+              "name": "John Chambers",
+              "relationship": "helps plan the cover"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/sh310-screen.jpg",
+          "sourceUrl": "https://clip.cafe/argo-2012/can-teach-somebody-be-a-director-in-a-day/",
+          "credit": "Argo film frame; Clip.Cafe",
+          "alt": "Mendez and Chambers sit in a booth inside the Smoke House.",
+          "width": 1100,
+          "height": 619,
+          "imageUrl": "https://clip.cafe/clipimg/can-teach-somebody-be-a-director-in-a-day.jpg",
+          "title": "Argo"
+        },
+        "place": {
+          "src": "photos/sh310-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Christian Hernandez / Boogie Sights, via Film Oblivion",
+          "alt": "The Smoke House dining room, with dark wood and red booths.",
+          "width": 1067,
+          "height": 800,
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland35.jpg",
+          "caption": "The Smoke House",
+          "note": "Capture date from the original image’s EXIF DateTimeOriginal. Photograph credited by Film Oblivion to Christian Hernandez of Boogie Sights.",
+          "date": "2022-02-15"
+        }
+      }
+    },
+    {
+      "id": 311,
+      "name": "Lipton’s",
+      "short": "Lipton’s",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout",
+        "event"
+      ],
+      "address": "6436 Hollywood Boulevard · Wilcox Avenue side",
+      "area": "Hollywood, Los Angeles",
+      "coordinates": [
+        -118.33094,
+        34.10125
+      ],
+      "productionCoordinates": [
+        -118.33094,
+        34.10125
+      ],
+      "productionSites": [
+        {
+          "component": "Exterior",
+          "address": "Attie Building, 6436 Hollywood Boulevard · Wilcox Avenue side, Hollywood, Los Angeles, CA 90028",
+          "coordinates": [
+            -118.33094,
+            34.10125
+          ]
+        },
+        {
+          "component": "Interior",
+          "address": "The Smoke House, 4420 West Lakeside Drive, Burbank, CA 91505",
+          "coordinates": [
+            -118.3413094,
+            34.1455689
+          ]
+        }
+      ],
+      "precision": "screen-exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Wilcox Avenue at Hollywood Boulevard · Lipton’s",
+        "precision": "screen-exterior",
+        "reason": "The film shows the Lipton’s sign over a Wilcox Avenue doorway beside the You Are the Star mural. The point follows that shown Hollywood entrance, checked against Seeing Stars’s matching Street View references. The dining room was filmed separately at the Smoke House in Burbank. The map does not place Lipton’s at the interior production address.",
+        "sourceIds": [
+          "sh_lll_exterior",
+          "sh_lll_fo",
+          "sh_attie_address",
+          "sh_official_location"
+        ]
+      },
+      "people": [
+        "Sebastian Wilder",
+        "Bill",
+        "Mia Dolan"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Sebastian’s piano job",
+          "filming_component": "Hollywood exterior; Smoke House interior",
+          "source_ids": [
+            "sh_lll_script",
+            "sh_lll_exterior",
+            "sh_lll_fo",
+            "sh_official"
+          ],
+          "story_time": {
+            "year": 2016,
+            "month": 12,
+            "precision": "month",
+            "certainty": "approximate",
+            "basis": "The restaurant scene takes place at Christmas in the contemporary story. Release year 2016 is an editorial estimate; the year is not established on screen.",
+            "source_ids": [
+              "sh_lll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "pianist; fired by Bill"
+            },
+            {
+              "name": "Bill",
+              "relationship": "restaurant manager"
+            },
+            {
+              "name": "Mia Dolan",
+              "relationship": "hears Sebastian play; visitor"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/sh311-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/5-MiasLongWalkHome.shtml",
+          "credit": "La La Land film frame; Seeing Stars / Summit Entertainment",
+          "alt": "Mia enters the door marked Lipton’s beside the Hollywood mural.",
+          "width": 699,
+          "height": 279,
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/YouAreTheStarMural3.jpg",
+          "title": "La La Land",
+          "note": "Seeing Stars states that its published mural frames were brightened. This is the actual film exterior; no image was generated."
+        },
+        "place": {
+          "src": "photos/sh311-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "alt": "Aerial of the Attie Building at Hollywood Boulevard and Wilcox Avenue.",
+          "width": 1100,
+          "height": 650,
+          "caption": "Exterior · aerial",
+          "note": "Aerial basemap of the exterior building; capture date is not supplied. The Smoke House in Burbank supplied the separate interior.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3320,34.1006,-118.3299,34.1019&bboxSR=4326&imageSR=3857&size=1100,650&format=jpg&f=image"
+        },
+        "note": "Exterior: Wilcox Avenue beside the You Are the Star mural. Interior: The Smoke House, 4420 West Lakeside Drive, Burbank."
+      }
+    },
+    {
+      "id": 320,
+      "name": "Santa Monica Pier",
+      "short": "Santa Monica Pier",
+      "category": "event",
+      "categories": [
+        "event",
+        "hangout"
+      ],
+      "address": "276 Santa Monica Pier",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.495403,
+        34.0101
+      ],
+      "productionCoordinates": [
+        -118.495403,
+        34.0101
+      ],
+      "productionSites": [
+        {
+          "component": "Pier / carousel exterior",
+          "address": "276 Santa Monica Pier, Santa Monica, CA 90401",
+          "coordinates": [
+            -118.495403,
+            34.0101
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "landmark",
+        "address": "Santa Monica Pier",
+        "precision": "mapped-landmark-approximate",
+        "reason": "The identifiable pier and carousel remain visible in the Los Angeles beach arrival. No spoken Venice relocation was found; the secondary-source ambiguity is recorded in the audit.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Kathryn Janeway",
+        "Chakotay",
+        "Tuvok",
+        "Tom Paris"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I"
+          ],
+          "episode_numbers": [
+            8
+          ],
+          "story_role": "The away team’s arrival in 1996 Los Angeles",
+          "filming_component": "Pier railings and carousel building; nearby beach walkway",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg320-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "Janeway, Chakotay, Tuvok and Paris beside the carousel.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/MerryGoRound1.jpg"
+        },
+        "place": {
+          "src": "photos/vg320-place.jpg",
+          "sourceUrl": "https://smconservancy.org/property/looff-hippodrome-2/",
+          "credit": "Santa Monica Pier Corporation / Santa Monica Conservancy",
+          "caption": "Santa Monica Pier",
+          "note": "Capture date unverified; the Conservancy identifies this as the pier today.",
+          "imageUrl": "https://smconservancy.org/wp-content/uploads/2026/06/15-smpier-smpiercorp.com_.png"
+        }
+      }
+    },
+    {
+      "id": 321,
+      "name": "Chronowerx Industries",
+      "short": "Chronowerx Industries",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "Los Angeles · story street address unconfirmed",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.232959,
+        34.056142
+      ],
+      "productionCoordinates": [
+        -118.232959,
+        34.056142
+      ],
+      "productionSites": [
+        {
+          "component": "Exterior",
+          "address": "One Gateway Plaza, Los Angeles, CA 90012",
+          "coordinates": [
+            -118.232959,
+            34.056142
+          ]
+        },
+        {
+          "component": "Office interior",
+          "address": "333 S Grand Avenue, Los Angeles, CA 90071 · Wells Fargo Center, south tower",
+          "coordinates": [
+            -118.252563,
+            34.051712
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street address unconfirmed",
+        "precision": "mapped-landmark-approximate",
+        "reason": "The pin identifies the recognizable headquarters exterior; the office was filmed in a separate downtown tower. No canonical street number is claimed.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Henry Starling",
+        "Kathryn Janeway",
+        "Chakotay",
+        "The Doctor",
+        "Dunbar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I",
+            "Future’s End, Part II"
+          ],
+          "episode_numbers": [
+            8,
+            9
+          ],
+          "story_role": "Henry Starling’s headquarters and the Aeon hangar",
+          "filming_component": "Metro Headquarters exterior; Wells Fargo Center south-tower office interior",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Henry Starling",
+              "relationship": "works_here"
+            },
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "The Doctor",
+              "relationship": "visits"
+            },
+            {
+              "name": "Dunbar",
+              "relationship": "works_here"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg321-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "Chronowerx’s exterior.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Chronowerx-exterior.jpg"
+        },
+        "place": {
+          "src": "photos/vg321-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metro_Headquarters_Building_(May_2026).jpg",
+          "credit": "Busition / Wikimedia Commons",
+          "date": "2026-05-08",
+          "license": "CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/",
+          "caption": "Metro Headquarters, One Gateway Plaza",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Metro_Headquarters_Building_%28May_2026%29.jpg/1280px-Metro_Headquarters_Building_%28May_2026%29.jpg"
+        }
+      }
+    },
+    {
+      "id": 322,
+      "name": "Braxton’s trail through Palisades Park",
+      "short": "Braxton’s trail through Palisades Park",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Ocean Avenue, just north of Colorado Avenue",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.49556,
+        34.01143
+      ],
+      "productionCoordinates": [
+        -118.49556,
+        34.01143
+      ],
+      "productionSites": [
+        {
+          "component": "Park walkway",
+          "address": "Palisades Park · Ocean Avenue just north of Colorado Avenue, Santa Monica, CA 90401",
+          "coordinates": [
+            -118.49556,
+            34.01143
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "landmark",
+        "address": "Braxton’s trail through Palisades Park",
+        "precision": "park-area-approximate",
+        "reason": "Scene matched to the southern park near the cannon. The point denotes that park area, not an exact character footstep.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "park-area-approximate",
+      "people": [
+        "Kathryn Janeway",
+        "Chakotay",
+        "Tuvok",
+        "Tom Paris",
+        "Braxton"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I"
+          ],
+          "episode_numbers": [
+            8
+          ],
+          "story_role": "The away team follows the stranded Captain Braxton",
+          "filming_component": "Southern Palisades Park, by the cannon above the pier",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            },
+            {
+              "name": "Braxton",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg322-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "The away team follows Braxton along the coastal park.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PalisadesPark2b.jpg"
+        },
+        "place": {
+          "src": "photos/vg322-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pride_of_Madeira_in_Palisades_Park,_Santa_Monica,_California.jpg",
+          "credit": "Z3lvs / Wikimedia Commons",
+          "date": "2023-03-20",
+          "license": "CC0 · https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "Palisades Park",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg/1280px-Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg"
+        }
+      }
+    },
+    {
+      "id": 323,
+      "name": "Metro Plaza",
+      "short": "Metro Plaza",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles · story street address unconfirmed",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.248752,
+        34.057484
+      ],
+      "productionCoordinates": [
+        -118.248752,
+        34.057484
+      ],
+      "productionSites": [
+        {
+          "component": "Rendezvous exterior",
+          "address": "The Music Center · 135 N Grand Avenue / Hope Street side, Los Angeles, CA 90012",
+          "coordinates": [
+            -118.248752,
+            34.057484
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street address unconfirmed",
+        "precision": "mapped-landmark-approximate",
+        "reason": "Rain names Metro Plaza by its fountain. The Music Center is the verified production location; its real name/address is not substituted for the spoken story name.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_ii",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Rain Robinson",
+        "Tom Paris",
+        "Tuvok",
+        "Henry Starling",
+        "The Doctor",
+        "Dunbar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part II"
+          ],
+          "episode_numbers": [
+            9
+          ],
+          "story_role": "Rain’s rendezvous with Starling; the Doctor’s escape",
+          "filming_component": "Music Center Grand Avenue steps, plaza and Hope Street side",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_ii",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rain Robinson",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Henry Starling",
+              "relationship": "visits"
+            },
+            {
+              "name": "The Doctor",
+              "relationship": "visits"
+            },
+            {
+              "name": "Dunbar",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg323-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager2.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "The Doctor at Starling’s rendezvous.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/DoctorAndStarling.jpg"
+        },
+        "place": {
+          "src": "photos/vg323-place.jpg",
+          "sourceUrl": "https://www.musiccenter.org/visit-explore/visit-explore/campus/jerry-moss-plaza/",
+          "credit": "Tim Street-Porter / The Music Center",
+          "caption": "Music Center plaza after its 2019 renovation.",
+          "note": "Capture date unverified. The fountain layout and sculpture placement changed after filming.",
+          "imageUrl": "https://www.musiccenter.org/media/vrkklvry/plaza_hero.jpg?width=1400"
+        }
+      }
+    },
+    {
+      "id": 330,
+      "name": "Thomas Ling’s kidnapping",
+      "short": "Thomas Ling’s kidnapping",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Union Station, 800 North Alameda Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2366472,
+        34.0558726
+      ],
+      "precision": "station-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich",
+        "Thomas Ling"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Thomas Ling’s kidnapping",
+          "filming_component": "Union Station, 800 North Alameda Street",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Thomas Ling",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Union Station, 800 North Alameda Street",
+        "precision": "station-anchor",
+        "reason": "The screenplay names Union Station, and the released-film lobby and courtyard match the real station. This is the kidnapping prelude to the getaway; the drive from the station to Sixth Street is not traced.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld330-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/UnionStation1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld330-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-yxHmXvHOtDmSIkvrKzcUh5pReb0VHe063kW2JdUsW92D5xLj5lth7kdG1MsWgjRfeVGvvdiyIxXveIdMp-NQWKmr51sX8heyZdckM5chYMxe647a1xeeTB8f4Vv3Ay1yhz_bkSK-9quboh1lbBwovFSphLsE6unSXx2h3MpHoaOA_l8aIXIuEso37Y/w400-h299/324.JPG",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Union Station"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Union+Station%2C+800+N+Alameda+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Union Station",
+        "score": 100
+      }
+    },
+    {
+      "id": 331,
+      "name": "Thomas Ling’s robbery and death",
+      "short": "Thomas Ling’s robbery and death",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Sixth Street at Mesquit Street",
+      "area": "Arts District",
+      "coordinates": [
+        -118.229424235518,
+        34.038479181024
+      ],
+      "precision": "under-bridge-area-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich",
+        "Thomas Ling"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Thomas Ling’s robbery and death",
+          "filming_component": "Sixth Street at Mesquit Street",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss",
+            "ld_imagery"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Thomas Ling",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sixth Street at Mesquit Street",
+        "precision": "under-bridge-area-anchor",
+        "reason": "The screenplay places the robbery beneath Sixth Street Bridge, and matched released-film frames identify Sixth/Mesquit. The original viaduct was replaced; the point marks the documented under-bridge area, not a surviving original pier.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss",
+          "ld_imagery"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld331-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp5MwONNHbqBV3lbQNWcgiZTJJo_yqzCk-46-hULqTDyVQCqDZMQfM9eWV9A4JlWBQTYA6j7EPQgS2ELU3iuwTcKEaiQhIzFPeVJY7pG0kDI4AoUKg_L1Xrbgh8W48_v1TIlTh47H4keH1/s400/Under+Bridge+1.JPG",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld331-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2334%2C34.0361%2C-118.2254%2C34.0409&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the replacement Sixth Street Viaduct and Mesquit area. The bridge in the 1985 film no longer survives; acquisition date unverified.",
+          "caption": "Sixth Street · aerial"
+        }
+      },
+      "deaths": [
+        {
+          "title": "To Live and Die in L.A.",
+          "people": [
+            "Thomas Ling"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=East+6th+Street+and+Mesquit+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "E 6th St & Mesquit St, Los Angeles, California, 90021",
+        "score": 100
+      }
+    },
+    {
+      "id": 332,
+      "name": "Sixth and Mateo turn",
+      "short": "Sixth and Mateo turn",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Sixth Street at Mateo Street",
+      "area": "Arts District",
+      "coordinates": [
+        -118.232701978755,
+        34.038267998974
+      ],
+      "precision": "intersection-anchor",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Sixth and Mateo turn",
+          "filming_component": "Sixth Street at Mateo Street",
+          "source_ids": [
+            "ld_ift",
+            "ld_ss",
+            "ld_osm"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sixth Street at Mateo Street",
+        "precision": "intersection-anchor",
+        "reason": "Matched storefronts identify the Sixth/Mateo corner. The two comparison guides disagree about the east/west approach, so the map shows the street corridor without asserting a precise turn direction or subsequent continuous drive.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_ss",
+          "ld_osm"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld332-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/SouthwestBagCo.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld332-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixPnuPKasYttyJJt1pSdok_MEuohGKMap6dDN5UTF4WVzbvKHbaYVqjnkdmcB2mRtVCyjAgeBVOsD_8RUaBRhGJcWcGK_kzaD7NOP2ChbeW9r9FMEF9r44RIlrJ6L-PYPD-pM_9l28YTk/s400/Los+Angeles+November+2011+562.jpg",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Sixth and Mateo"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=East+6th+Street+and+Mateo+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "E 6th St & Mateo St, Los Angeles, California, 90013",
+        "score": 100
+      }
+    },
+    {
+      "id": 333,
+      "name": "The riverbed escape",
+      "short": "The riverbed escape",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles River, between the Sixth and Fourth Street bridges",
+      "area": "Arts District / Boyle Heights",
+      "coordinates": [
+        -118.228554802032,
+        34.040304989895
+      ],
+      "precision": "river-reach-approximation",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "The riverbed escape",
+          "filming_component": "Los Angeles River, between the Sixth and Fourth Street bridges",
+          "source_ids": [
+            "ld_ift",
+            "ld_ss",
+            "ld_usgs"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Los Angeles River, between the Sixth and Fourth Street bridges",
+        "precision": "river-reach-approximation",
+        "reason": "The released-film shots show the west-side railway crossing south of Sixth Street, followed by the riverbed beneath Sixth and Fourth. The plotted reach follows official river geometry; it is a channel-corridor reference, not a surveyed path of the car.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_ss",
+          "ld_usgs"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.231,
+                34.0376
+              ],
+              [
+                -118.227,
+                34.0376
+              ],
+              [
+                -118.227,
+                34.046
+              ],
+              [
+                -118.231,
+                34.046
+              ],
+              [
+                -118.231,
+                34.0376
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.231,
+            34.0376
+          ],
+          [
+            -118.227,
+            34.046
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld333-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/River1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld333-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4EaQySWMOxm0tqqJdnl_Er4sck2v4Aurt8CCBBnOZ5g1-_nQ9ZnBSpVepqNhjLMj599YWyAvHzk18s7Y_ux4osAsPlkR_aP1JTCFxuk6tGuCSjwjJZ1WwKnEjhJ6Hy6aPp2FUBauWe6Eg/s400/L.A.+Trip+2008+508.jpg",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "River photograph reproduced by Its Filmed There. Capture date not specified; the former Sixth Street bridge in the comparison has since been replaced.",
+          "caption": "Los Angeles River"
+        }
+      }
+    },
+    {
+      "id": 334,
+      "name": "Avenue 19 river exit",
+      "short": "Avenue 19 river exit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles River / Avenue 19 · approximate",
+      "area": "Lincoln Heights",
+      "coordinates": [
+        -118.225715179951,
+        34.079590940622
+      ],
+      "precision": "underpass-area-approximation",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "Avenue 19 river exit",
+          "filming_component": "Los Angeles River / Avenue 19 · approximate",
+          "source_ids": [
+            "ld_ift",
+            "ld_usgs",
+            "ld_street_reference"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Los Angeles River / Avenue 19 · approximate",
+        "precision": "underpass-area-approximation",
+        "reason": "The frame comparison identifies an eastward underpass beneath Avenue 19, then San Fernando Road. The area point uses the lower Arroyo Seco flowline near its Los Angeles River confluence. It does not claim an exact portal coordinate or reconstruct the underground drive.",
+        "sourceIds": [
+          "ld_ift",
+          "ld_usgs",
+          "ld_street_reference"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.2272,
+                34.0784
+              ],
+              [
+                -118.2232,
+                34.0784
+              ],
+              [
+                -118.2232,
+                34.0814
+              ],
+              [
+                -118.2272,
+                34.0814
+              ],
+              [
+                -118.2272,
+                34.0784
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.2272,
+            34.0784
+          ],
+          [
+            -118.2232,
+            34.0814
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld334-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJf-_xcB447iKt00DNRd8JpDhcsnxUAILnhckkhEP5GKfGZ7jj_cOLnpLEtJL1IpOwqDSU4IIw1QHz86Rq0pQVQKmmNBPEQefQW6dSn5U-lmf0KIXLuGdklhvNBD3D2y81zMePeCdKKIZM/s400/Chase+4.JPG",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld334-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22970000000001%2C34.0772%2C-118.2217%2C34.082&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the lower Arroyo Seco / Avenue 19 underpass area. Acquisition date unverified; this is an area reference, not an identified view of the exact portal.",
+          "caption": "Avenue 19 · aerial"
+        }
+      }
+    },
+    {
+      "id": 335,
+      "name": "The wrong-way freeway",
+      "short": "The wrong-way freeway",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles freeway · exact location unestablished",
+      "area": "Los Angeles",
+      "coordinates": null,
+      "precision": "unlocated",
+      "people": [
+        "Richard Chance",
+        "John Vukovich"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "To Live and Die in L.A.",
+          "release_year": 1985,
+          "story_role": "The wrong-way freeway",
+          "filming_component": "Terminal Island Freeway near the former Henry Ford Bridge, Wilmington / Long Beach.",
+          "source_ids": [
+            "ld_script",
+            "ld_ift",
+            "ld_ss",
+            "ld_petersen",
+            "ld_imagery"
+          ],
+          "story_time": {
+            "year": 1985,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "ld_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Richard Chance",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Vukovich",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles freeway · exact location unestablished",
+        "precision": "unlocated",
+        "reason": "The 1984 draft names the Harbor Freeway; the released sequence was photographed on Terminal Island Freeway. The draft also differs in the entry action. No released-film freeway name or connecting itinerary is established by the cited comparisons, so the production location is not used as a canonical pin.",
+        "sourceIds": [
+          "ld_script",
+          "ld_ift",
+          "ld_ss",
+          "ld_petersen",
+          "ld_imagery"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ld335-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/WrongWay.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld335-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2479%2C33.764599999999994%2C-118.23190000000001%2C33.7742&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "note": "Real aerial photograph of the Terminal Island Freeway production area. This is not a verified canonical Harbor Freeway location; acquisition date unverified.",
+          "caption": "Terminal Island filming site · aerial"
+        }
+      },
+      "productionCoordinates": [
+        -118.2399952,
+        33.7671562
+      ]
     }
   ],
   "journeys": [
@@ -24735,38 +26167,6 @@
       ]
     },
     {
-      "id": 99,
-      "name": "Channel chase",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1995,
-      "source_ids": [
-        "route_t2_channel",
-        "route_t2_bridge",
-        "route_t2_gate",
-        "route_t2_stunts",
-        "t2_afi_time"
-      ],
-      "precision": "Two verified Plummer/Hayvenhurst sites. The longer chase combines several channels; this connector does not establish a continuous path.",
-      "stops": [
-        {
-          "name": "T-1000’s truck jump",
-          "placeId": 202,
-          "coordinates": [
-            -118.493729,
-            34.242953
-          ]
-        },
-        {
-          "name": "T-800’s channel entrance",
-          "placeId": 203,
-          "coordinates": [
-            -118.49378,
-            34.2425
-          ]
-        }
-      ]
-    },
-    {
       "id": 100,
       "name": "First street race",
       "title": "The Fast and the Furious",
@@ -24806,50 +26206,6 @@
           ]
         ]
       }
-    },
-    {
-      "id": 225,
-      "name": "Armored-truck robbery",
-      "title": "Heat",
-      "year": 1995,
-      "color": "#347b69",
-      "stops": [
-        {
-          "name": "Ambulance theft",
-          "coordinates": [
-            -118.185630803083,
-            33.780272264863
-          ],
-          "placeId": 212
-        },
-        {
-          "name": "Armored-truck robbery",
-          "coordinates": [
-            -118.271049942532,
-            34.037967698806
-          ],
-          "placeId": 213
-        },
-        {
-          "name": "Johnie’s Broiler",
-          "coordinates": [
-            -118.147127860294,
-            33.947691560699
-          ],
-          "placeId": 214
-        }
-      ],
-      "source_ids": [
-        "heat_robbery_frames",
-        "heat_robbery_sites",
-        "heat_robbery_crew",
-        "heat_robbery_ss",
-        "heat_robbery_script",
-        "heat2_author_time",
-        "heat_robbery_bfi",
-        "heat_robbery_ss1"
-      ],
-      "precision": "Filmed story stops: ambulance theft, armored-truck robbery, then the crew’s diner meeting. Connectors do not reconstruct a continuous drive."
     },
     {
       "id": 226,
@@ -26135,6 +27491,183 @@
           "caption": "Ocean Park Boulevard"
         }
       }
+    },
+    {
+      "id": 340,
+      "name": "Car chase",
+      "title": "To Live and Die in L.A.",
+      "year": 1985,
+      "source_ids": [
+        "ld_script",
+        "ld_ift",
+        "ld_ss",
+        "ld_usgs",
+        "ld_osm"
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -118.230001,
+              34.03847
+            ],
+            [
+              -118.230188,
+              34.038461
+            ],
+            [
+              -118.230882,
+              34.03841
+            ],
+            [
+              -118.232602,
+              34.038268
+            ],
+            [
+              -118.232698,
+              34.038261
+            ],
+            [
+              -118.232682,
+              34.038135
+            ],
+            [
+              -118.232679,
+              34.038099
+            ],
+            [
+              -118.232557,
+              34.036894
+            ],
+            [
+              -118.232526,
+              34.036585
+            ],
+            [
+              -118.232478,
+              34.036186
+            ]
+          ],
+          [
+            [
+              -118.22816946247332,
+              34.03855
+            ],
+            [
+              -118.22849951014393,
+              34.0400542696654
+            ],
+            [
+              -118.2285548020317,
+              34.040304989895475
+            ],
+            [
+              -118.22871122132331,
+              34.04101427977549
+            ],
+            [
+              -118.22906697776573,
+              34.04262747001771
+            ],
+            [
+              -118.22942789837766,
+              34.04412326790238
+            ],
+            [
+              -118.22963944533039,
+              34.045
+            ]
+          ],
+          [
+            [
+              -118.22639737995631,
+              34.078893140372
+            ],
+            [
+              -118.22629471360327,
+              34.07899813995499
+            ],
+            [
+              -118.22607171367216,
+              34.07922627349182
+            ],
+            [
+              -118.22571517995095,
+              34.0795909406224
+            ],
+            [
+              -118.22553077966354,
+              34.07986007412566
+            ],
+            [
+              -118.22499538025454,
+              34.080363073569
+            ]
+          ]
+        ]
+      },
+      "precision": "Verified downtown scenes and river reaches only. Gaps leave connecting streets untraced. The ambiguous freeway leg is omitted; hydrography marks the channel corridor, not an exact driving lane.",
+      "stops": [
+        {
+          "name": "Thomas Ling’s kidnapping",
+          "coordinates": [
+            -118.2366472,
+            34.0558726
+          ],
+          "placeId": 330
+        },
+        {
+          "name": "Thomas Ling’s robbery and death",
+          "coordinates": [
+            -118.229424235518,
+            34.038479181024
+          ],
+          "placeId": 331
+        },
+        {
+          "name": "Sixth and Mateo turn",
+          "coordinates": [
+            -118.232701978755,
+            34.038267998974
+          ],
+          "placeId": 332
+        },
+        {
+          "name": "The riverbed escape",
+          "coordinates": [
+            -118.228554802032,
+            34.040304989895
+          ],
+          "placeId": 333
+        },
+        {
+          "name": "Avenue 19 river exit",
+          "coordinates": [
+            -118.225715179951,
+            34.079590940622
+          ],
+          "placeId": 334
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/ld330-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/ToLiveAndDie/UnionStation1.jpg",
+          "credit": "MGM / United Artists",
+          "note": "Actual movie frame.",
+          "title": "To Live and Die in L.A."
+        },
+        "place": {
+          "src": "photos/ld330-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-yxHmXvHOtDmSIkvrKzcUh5pReb0VHe063kW2JdUsW92D5xLj5lth7kdG1MsWgjRfeVGvvdiyIxXveIdMp-NQWKmr51sX8heyZdckM5chYMxe647a1xeeTB8f4Vv3Ay1yhz_bkSK-9quboh1lbBwovFSphLsE6unSXx2h3MpHoaOA_l8aIXIuEso37Y/w400-h299/324.JPG",
+          "credit": "Site photograph reproduced by Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Union Station"
+        }
+      }
     }
   ],
   "sources": [
@@ -27402,6 +28935,210 @@
       "title": "OpenStreetMap road centerlines via OSRM",
       "url": "https://www.openstreetmap.org/copyright",
       "source_type": "map geometry"
+    },
+    {
+      "id": "sh_official",
+      "title": "The Smoke House: restaurant history and address",
+      "url": "https://www.smokehouse1946.com/history",
+      "source_type": "restaurant publication"
+    },
+    {
+      "id": "sh_argo_script",
+      "title": "Argo: final screenplay, scene 100",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/argo-2012.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "sh_argo_afi",
+      "title": "Argo: AFI production history",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/69015",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "sh_argo_visit",
+      "title": "Visit Burbank: Argo at The Smoke House",
+      "url": "https://visitburbank.com/film-tv-burbank-locations/",
+      "source_type": "tourism authority"
+    },
+    {
+      "id": "sh_argo_clip",
+      "title": "Argo: Mendez and Chambers plan their cover",
+      "url": "https://clip.cafe/argo-2012/can-teach-somebody-be-a-director-in-a-day/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "sh_lll_script",
+      "title": "La La Land: submission screenplay, restaurant scenes",
+      "url": "https://www.story24.film/screenplays/la-la-land.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "sh_lll_exterior",
+      "title": "La La Land: Lipton’s on-screen entrance and street references",
+      "url": "https://www.seeing-stars.com/Locations/LaLaLand/5-MiasLongWalkHome.shtml",
+      "source_type": "scene comparison and film frames"
+    },
+    {
+      "id": "sh_lll_fo",
+      "title": "La La Land: Hollywood exterior and Smoke House interior",
+      "url": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "source_type": "location research and original photographs"
+    },
+    {
+      "id": "sh_attie_address",
+      "title": "Attie Building: Hollywood Boulevard address",
+      "url": "https://en.wikipedia.org/wiki/Attie_Building",
+      "source_type": "building reference"
+    },
+    {
+      "id": "sh_census",
+      "title": "U.S. Census Bureau address geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "sh_esri",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "sh_official_location",
+      "title": "The Smoke House: official venue coordinates and directions",
+      "url": "https://www.smokehouse1946.com/",
+      "source_type": "restaurant location metadata and map link"
+    },
+    {
+      "id": "vg_transcript",
+      "title": "Future’s End — aired episode dialogue transcript, both parts",
+      "url": "https://chakoteya.net/Voyager/304.htm",
+      "source_type": "episode dialogue transcript; editorial scene headings distinguished from speech"
+    },
+    {
+      "id": "vg_transcript_ii",
+      "title": "Future’s End, Part II — dialogue transcript",
+      "url": "https://treklog.guide/story/futures-end-part-ii/transcript/",
+      "source_type": "episode dialogue transcript"
+    },
+    {
+      "id": "vg_official",
+      "title": "StarTrek.com — Future’s End and Rain Robinson",
+      "url": "https://www.startrek.com/news/18-years-later-voyager-two-parter-futures-end-with-sarah-silverman",
+      "source_type": "official franchise account"
+    },
+    {
+      "id": "vg_cast",
+      "title": "The Delta Flyers — Future’s End, Part I; cast commentary",
+      "url": "https://podscripts.co/podcasts/the-delta-flyers/futures-end-part-1",
+      "source_type": "first-person cast production account; podcast transcript"
+    },
+    {
+      "id": "vg_locations_i",
+      "title": "Seeing Stars — Voyager Future’s End locations, Part I",
+      "url": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+      "source_type": "visual scene comparison and filming location research"
+    },
+    {
+      "id": "vg_locations_ii",
+      "title": "Seeing Stars — Voyager Future’s End locations, Part II",
+      "url": "https://www.seeing-stars.com/Locations/Voyager2.shtml",
+      "source_type": "visual scene comparison and filming location research"
+    },
+    {
+      "id": "vg_pier_site",
+      "title": "Santa Monica Conservancy — Looff Hippodrome and Santa Monica Pier",
+      "url": "https://smconservancy.org/property/looff-hippodrome-2/",
+      "source_type": "landmark address and official local conservation photography"
+    },
+    {
+      "id": "vg_mta_photo",
+      "title": "Metro Headquarters Building — May 8, 2026 photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:Metro_Headquarters_Building_(May_2026).jpg",
+      "source_type": "real-site photograph with author, date and license"
+    },
+    {
+      "id": "vg_park_photo",
+      "title": "Palisades Park — March 20, 2023 photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:Pride_of_Madeira_in_Palisades_Park,_Santa_Monica,_California.jpg",
+      "source_type": "real-site photograph with author, date and license"
+    },
+    {
+      "id": "vg_music_site",
+      "title": "The Music Center — Jerry Moss Plaza and its 2019 renovation",
+      "url": "https://www.musiccenter.org/visit-explore/visit-explore/campus/jerry-moss-plaza/",
+      "source_type": "official site history and current plaza photography"
+    },
+    {
+      "id": "vg_park_geo",
+      "title": "Civil War Memorials — Palisades Park cannon location",
+      "url": "https://www.suvpac.org/CWM/CWM%20Los%20Angeles%20County.pdf",
+      "source_type": "landmark inventory; printed page 125 gives landmark coordinates"
+    },
+    {
+      "id": "vg_mta_census",
+      "title": "US Census — One Gateway Plaza address match",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1%20Gateway%20Plaza%2C%20Los%20Angeles%2C%20CA&benchmark=Public_AR_Current&format=json",
+      "source_type": "official geocoder; street-address cross-check"
+    },
+    {
+      "id": "vg_music_census",
+      "title": "US Census — 135 N Grand Avenue address match",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=135%20N%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA&benchmark=Public_AR_Current&format=json",
+      "source_type": "official geocoder; street-address cross-check"
+    },
+    {
+      "id": "ld_ift",
+      "title": "Its Filmed There: To Live and Die in L.A., matched chase scenes",
+      "url": "https://www.itsfilmedthere.com/2010/01/to-live-and-die-in-la.html",
+      "source_type": "scene-location comparisons"
+    },
+    {
+      "id": "ld_ss",
+      "title": "Seeing Stars: To Live and Die in L.A., chase locations",
+      "url": "https://www.seeing-stars.com/Locations/ToLiveAndDie3.shtml",
+      "source_type": "scene-location comparisons"
+    },
+    {
+      "id": "ld_script",
+      "title": "Friedkin and Petievich screenplay, revised 1984 (scanned draft)",
+      "url": "https://cinephiliabeyond.org/wp-content/uploads/2016/01/To-Live-and-Die-in-L.A.-1984.11.08-pg65-66-Scan.compressed.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "ld_petersen",
+      "title": "William Petersen on the chase, Beyond Fest 2025 Q&A, reported by Peter Nelson",
+      "url": "https://www.forbes.com/sites/peternelson/2025/10/01/william-petersen-on-the-car-chase-in-1985s-to-live-and-die-in-la/",
+      "source_type": "participant interview"
+    },
+    {
+      "id": "ld_usgs",
+      "title": "USGS National Hydrography Dataset: large-scale flowlines",
+      "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6",
+      "source_type": "official geographic data"
+    },
+    {
+      "id": "ld_osm",
+      "title": "OpenStreetMap street centerlines via OSRM",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "map geometry"
+    },
+    {
+      "id": "ld_imagery",
+      "title": "Esri World Imagery: real aerial site photography",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial photography"
+    },
+    {
+      "id": "ld_street_reference",
+      "title": "Esri World Street Map: Avenue 19 / Arroyo Seco reference",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "ld_release",
+      "title": "AFI: To Live and Die in L.A. (1985), credits and release",
+      "url": "https://watch.afi.com/movie/to-live-and-die-in-l-a",
+      "source_type": "film catalog"
     },
     {
       "id": "story_pins_mulholland_script",

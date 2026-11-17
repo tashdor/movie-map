@@ -3,50 +3,6 @@
   "sources": [],
   "journeys": [
     {
-      "id": 225,
-      "name": "Armored-truck robbery",
-      "title": "Heat",
-      "year": 1995,
-      "color": "#347b69",
-      "stops": [
-        {
-          "name": "Ambulance theft",
-          "coordinates": [
-            -118.185630803083,
-            33.780272264863
-          ],
-          "placeId": 212
-        },
-        {
-          "name": "Armored-truck robbery",
-          "coordinates": [
-            -118.271049942532,
-            34.037967698806
-          ],
-          "placeId": 213
-        },
-        {
-          "name": "Johnie’s Broiler",
-          "coordinates": [
-            -118.147127860294,
-            33.947691560699
-          ],
-          "placeId": 214
-        }
-      ],
-      "source_ids": [
-        "heat_robbery_frames",
-        "heat_robbery_sites",
-        "heat_robbery_crew",
-        "heat_robbery_ss",
-        "heat_robbery_script",
-        "heat2_author_time",
-        "heat_robbery_bfi",
-        "heat_robbery_ss1"
-      ],
-      "precision": "Filmed story stops: ambulance theft, armored-truck robbery, then the crew’s diner meeting. Connectors do not reconstruct a continuous drive."
-    },
-    {
       "id": 226,
       "name": "Cheritto’s escape",
       "title": "Heat",
@@ -89,6 +45,52 @@
         "heat_robbery_ss1"
       ],
       "precision": "Cheritto’s branch of the bank escape ends at the hostage standoff. McCauley and Chris’s escape continues separately to the grocery parking lot."
+    }
+  ],
+  "archived_journeys": [
+    {
+      "id": 225,
+      "name": "Armored-truck robbery",
+      "title": "Heat",
+      "year": 1995,
+      "color": "#347b69",
+      "stops": [
+        {
+          "name": "Ambulance theft",
+          "coordinates": [
+            -118.185630803083,
+            33.780272264863
+          ],
+          "placeId": 212
+        },
+        {
+          "name": "Armored-truck robbery",
+          "coordinates": [
+            -118.271049942532,
+            34.037967698806
+          ],
+          "placeId": 213
+        },
+        {
+          "name": "Johnie’s Broiler",
+          "coordinates": [
+            -118.147127860294,
+            33.947691560699
+          ],
+          "placeId": 214
+        }
+      ],
+      "source_ids": [
+        "heat_robbery_frames",
+        "heat_robbery_sites",
+        "heat_robbery_crew",
+        "heat_robbery_ss",
+        "heat_robbery_script",
+        "heat2_author_time",
+        "heat_robbery_bfi",
+        "heat_robbery_ss1"
+      ],
+      "precision": "Filmed story stops: ambulance theft, armored-truck robbery, then the crew’s diner meeting. Connectors do not reconstruct a continuous drive."
     }
   ]
 }

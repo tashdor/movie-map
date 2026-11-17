@@ -1,0 +1,624 @@
+{
+  "places": [
+    {
+      "id": 320,
+      "name": "Santa Monica Pier",
+      "short": "Santa Monica Pier",
+      "category": "event",
+      "categories": [
+        "event",
+        "hangout"
+      ],
+      "address": "276 Santa Monica Pier",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.495403,
+        34.0101
+      ],
+      "productionCoordinates": [
+        -118.495403,
+        34.0101
+      ],
+      "productionSites": [
+        {
+          "component": "Pier / carousel exterior",
+          "address": "276 Santa Monica Pier, Santa Monica, CA 90401",
+          "coordinates": [
+            -118.495403,
+            34.0101
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "landmark",
+        "address": "Santa Monica Pier",
+        "precision": "mapped-landmark-approximate",
+        "reason": "The identifiable pier and carousel remain visible in the Los Angeles beach arrival. No spoken Venice relocation was found; the secondary-source ambiguity is recorded in the audit.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Kathryn Janeway",
+        "Chakotay",
+        "Tuvok",
+        "Tom Paris"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I"
+          ],
+          "episode_numbers": [
+            8
+          ],
+          "story_role": "The away team’s arrival in 1996 Los Angeles",
+          "filming_component": "Pier railings and carousel building; nearby beach walkway",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg320-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "Janeway, Chakotay, Tuvok and Paris beside the carousel.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/MerryGoRound1.jpg"
+        },
+        "place": {
+          "src": "photos/vg320-place.jpg",
+          "sourceUrl": "https://smconservancy.org/property/looff-hippodrome-2/",
+          "credit": "Santa Monica Pier Corporation / Santa Monica Conservancy",
+          "caption": "Santa Monica Pier",
+          "note": "Capture date unverified; the Conservancy identifies this as the pier today.",
+          "imageUrl": "https://smconservancy.org/wp-content/uploads/2026/06/15-smpier-smpiercorp.com_.png"
+        }
+      }
+    },
+    {
+      "id": 321,
+      "name": "Chronowerx Industries",
+      "short": "Chronowerx Industries",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "Los Angeles · story street address unconfirmed",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.232959,
+        34.056142
+      ],
+      "productionCoordinates": [
+        -118.232959,
+        34.056142
+      ],
+      "productionSites": [
+        {
+          "component": "Exterior",
+          "address": "One Gateway Plaza, Los Angeles, CA 90012",
+          "coordinates": [
+            -118.232959,
+            34.056142
+          ]
+        },
+        {
+          "component": "Office interior",
+          "address": "333 S Grand Avenue, Los Angeles, CA 90071 · Wells Fargo Center, south tower",
+          "coordinates": [
+            -118.252563,
+            34.051712
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street address unconfirmed",
+        "precision": "mapped-landmark-approximate",
+        "reason": "The pin identifies the recognizable headquarters exterior; the office was filmed in a separate downtown tower. No canonical street number is claimed.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Henry Starling",
+        "Kathryn Janeway",
+        "Chakotay",
+        "The Doctor",
+        "Dunbar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I",
+            "Future’s End, Part II"
+          ],
+          "episode_numbers": [
+            8,
+            9
+          ],
+          "story_role": "Henry Starling’s headquarters and the Aeon hangar",
+          "filming_component": "Metro Headquarters exterior; Wells Fargo Center south-tower office interior",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Henry Starling",
+              "relationship": "works_here"
+            },
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "The Doctor",
+              "relationship": "visits"
+            },
+            {
+              "name": "Dunbar",
+              "relationship": "works_here"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg321-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "Chronowerx’s exterior.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Chronowerx-exterior.jpg"
+        },
+        "place": {
+          "src": "photos/vg321-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metro_Headquarters_Building_(May_2026).jpg",
+          "credit": "Busition / Wikimedia Commons",
+          "date": "2026-05-08",
+          "license": "CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/",
+          "caption": "Metro Headquarters, One Gateway Plaza",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Metro_Headquarters_Building_%28May_2026%29.jpg/1280px-Metro_Headquarters_Building_%28May_2026%29.jpg"
+        }
+      }
+    },
+    {
+      "id": 322,
+      "name": "Braxton’s trail through Palisades Park",
+      "short": "Braxton’s trail through Palisades Park",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Ocean Avenue, just north of Colorado Avenue",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.49556,
+        34.01143
+      ],
+      "productionCoordinates": [
+        -118.49556,
+        34.01143
+      ],
+      "productionSites": [
+        {
+          "component": "Park walkway",
+          "address": "Palisades Park · Ocean Avenue just north of Colorado Avenue, Santa Monica, CA 90401",
+          "coordinates": [
+            -118.49556,
+            34.01143
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "landmark",
+        "address": "Braxton’s trail through Palisades Park",
+        "precision": "park-area-approximate",
+        "reason": "Scene matched to the southern park near the cannon. The point denotes that park area, not an exact character footstep.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_i",
+          "vg_official"
+        ]
+      },
+      "precision": "park-area-approximate",
+      "people": [
+        "Kathryn Janeway",
+        "Chakotay",
+        "Tuvok",
+        "Tom Paris",
+        "Braxton"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part I"
+          ],
+          "episode_numbers": [
+            8
+          ],
+          "story_role": "The away team follows the stranded Captain Braxton",
+          "filming_component": "Southern Palisades Park, by the cannon above the pier",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_i",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kathryn Janeway",
+              "relationship": "visits"
+            },
+            {
+              "name": "Chakotay",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            },
+            {
+              "name": "Braxton",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg322-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "The away team follows Braxton along the coastal park.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PalisadesPark2b.jpg"
+        },
+        "place": {
+          "src": "photos/vg322-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pride_of_Madeira_in_Palisades_Park,_Santa_Monica,_California.jpg",
+          "credit": "Z3lvs / Wikimedia Commons",
+          "date": "2023-03-20",
+          "license": "CC0 · https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "Palisades Park",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg/1280px-Pride_of_Madeira_in_Palisades_Park%2C_Santa_Monica%2C_California.jpg"
+        }
+      }
+    },
+    {
+      "id": 323,
+      "name": "Metro Plaza",
+      "short": "Metro Plaza",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles · story street address unconfirmed",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.248752,
+        34.057484
+      ],
+      "productionCoordinates": [
+        -118.248752,
+        34.057484
+      ],
+      "productionSites": [
+        {
+          "component": "Rendezvous exterior",
+          "address": "The Music Center · 135 N Grand Avenue / Hope Street side, Los Angeles, CA 90012",
+          "coordinates": [
+            -118.248752,
+            34.057484
+          ]
+        }
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street address unconfirmed",
+        "precision": "mapped-landmark-approximate",
+        "reason": "Rain names Metro Plaza by its fountain. The Music Center is the verified production location; its real name/address is not substituted for the spoken story name.",
+        "sourceIds": [
+          "vg_transcript",
+          "vg_locations_ii",
+          "vg_official"
+        ]
+      },
+      "precision": "mapped-landmark-approximate",
+      "people": [
+        "Rain Robinson",
+        "Tom Paris",
+        "Tuvok",
+        "Henry Starling",
+        "The Doctor",
+        "Dunbar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Star Trek: Voyager",
+          "release_year": 1996,
+          "medium": "television",
+          "season": 3,
+          "episodes": [
+            "Future’s End, Part II"
+          ],
+          "episode_numbers": [
+            9
+          ],
+          "story_role": "Rain’s rendezvous with Starling; the Doctor’s escape",
+          "filming_component": "Music Center Grand Avenue steps, plaza and Hope Street side",
+          "source_ids": [
+            "vg_transcript",
+            "vg_locations_ii",
+            "vg_official"
+          ],
+          "story_time": {
+            "year": 1996,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Harry Kim’s astrometric reading explicitly establishes 1996; these are the local Earth dates, not the visitors’ home century.",
+            "source_ids": [
+              "vg_transcript"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rain Robinson",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tom Paris",
+              "relationship": "visits"
+            },
+            {
+              "name": "Tuvok",
+              "relationship": "visits"
+            },
+            {
+              "name": "Henry Starling",
+              "relationship": "visits"
+            },
+            {
+              "name": "The Doctor",
+              "relationship": "visits"
+            },
+            {
+              "name": "Dunbar",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/vg323-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager2.shtml",
+          "credit": "Star Trek: Voyager episode frame / Paramount / Gary Wayne, Seeing Stars",
+          "title": "Star Trek: Voyager",
+          "caption": "The Doctor at Starling’s rendezvous.",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/DoctorAndStarling.jpg"
+        },
+        "place": {
+          "src": "photos/vg323-place.jpg",
+          "sourceUrl": "https://www.musiccenter.org/visit-explore/visit-explore/campus/jerry-moss-plaza/",
+          "credit": "Tim Street-Porter / The Music Center",
+          "caption": "Music Center plaza after its 2019 renovation.",
+          "note": "Capture date unverified. The fountain layout and sculpture placement changed after filming.",
+          "imageUrl": "https://www.musiccenter.org/media/vrkklvry/plaza_hero.jpg?width=1400"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vg_transcript",
+      "title": "Future’s End — aired episode dialogue transcript, both parts",
+      "url": "https://chakoteya.net/Voyager/304.htm",
+      "source_type": "episode dialogue transcript; editorial scene headings distinguished from speech"
+    },
+    {
+      "id": "vg_transcript_ii",
+      "title": "Future’s End, Part II — dialogue transcript",
+      "url": "https://treklog.guide/story/futures-end-part-ii/transcript/",
+      "source_type": "episode dialogue transcript"
+    },
+    {
+      "id": "vg_official",
+      "title": "StarTrek.com — Future’s End and Rain Robinson",
+      "url": "https://www.startrek.com/news/18-years-later-voyager-two-parter-futures-end-with-sarah-silverman",
+      "source_type": "official franchise account"
+    },
+    {
+      "id": "vg_cast",
+      "title": "The Delta Flyers — Future’s End, Part I; cast commentary",
+      "url": "https://podscripts.co/podcasts/the-delta-flyers/futures-end-part-1",
+      "source_type": "first-person cast production account; podcast transcript"
+    },
+    {
+      "id": "vg_locations_i",
+      "title": "Seeing Stars — Voyager Future’s End locations, Part I",
+      "url": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+      "source_type": "visual scene comparison and filming location research"
+    },
+    {
+      "id": "vg_locations_ii",
+      "title": "Seeing Stars — Voyager Future’s End locations, Part II",
+      "url": "https://www.seeing-stars.com/Locations/Voyager2.shtml",
+      "source_type": "visual scene comparison and filming location research"
+    },
+    {
+      "id": "vg_pier_site",
+      "title": "Santa Monica Conservancy — Looff Hippodrome and Santa Monica Pier",
+      "url": "https://smconservancy.org/property/looff-hippodrome-2/",
+      "source_type": "landmark address and official local conservation photography"
+    },
+    {
+      "id": "vg_mta_photo",
+      "title": "Metro Headquarters Building — May 8, 2026 photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:Metro_Headquarters_Building_(May_2026).jpg",
+      "source_type": "real-site photograph with author, date and license"
+    },
+    {
+      "id": "vg_park_photo",
+      "title": "Palisades Park — March 20, 2023 photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:Pride_of_Madeira_in_Palisades_Park,_Santa_Monica,_California.jpg",
+      "source_type": "real-site photograph with author, date and license"
+    },
+    {
+      "id": "vg_music_site",
+      "title": "The Music Center — Jerry Moss Plaza and its 2019 renovation",
+      "url": "https://www.musiccenter.org/visit-explore/visit-explore/campus/jerry-moss-plaza/",
+      "source_type": "official site history and current plaza photography"
+    },
+    {
+      "id": "vg_park_geo",
+      "title": "Civil War Memorials — Palisades Park cannon location",
+      "url": "https://www.suvpac.org/CWM/CWM%20Los%20Angeles%20County.pdf",
+      "source_type": "landmark inventory; printed page 125 gives landmark coordinates"
+    },
+    {
+      "id": "vg_mta_census",
+      "title": "US Census — One Gateway Plaza address match",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1%20Gateway%20Plaza%2C%20Los%20Angeles%2C%20CA&benchmark=Public_AR_Current&format=json",
+      "source_type": "official geocoder; street-address cross-check"
+    },
+    {
+      "id": "vg_music_census",
+      "title": "US Census — 135 N Grand Avenue address match",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=135%20N%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA&benchmark=Public_AR_Current&format=json",
+      "source_type": "official geocoder; street-address cross-check"
+    }
+  ],
+  "audit": [
+    {
+      "id": 320,
+      "verification": "The real carousel façade and pier railing visibly match the episode frame. The conservation source confirms 276 Santa Monica Pier. Coordinate is the mapped Hippodrome landmark, not a survey of the actors’ precise positions. Seeing Stars describes a Venice Boardwalk stand-in, but no Venice claim occurs in the aired dialogue transcript. The transcript’s editorial scene headings say Santa Monica, while cast commentary at 27:52–28:11 explains importing Venice-style beach culture to the Santa Monica shoot. The record retains the visible pier and audits this disagreement rather than asserting an unsupported Venice address.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.010100,-118.495403"
+    },
+    {
+      "id": 321,
+      "verification": "Seeing Stars identifies the exterior as Metro Headquarters and the office interior from its skyline view as Wells Fargo’s south tower. One story headquarters is retained, with two labelled productionSites. Janeway/Chakotay enter Starling’s office; the Doctor is held there, and the Aeon launches from the headquarters in Part II. The exterior pin uses the building area shown in the source-linked map; Census verifies the One Gateway Plaza address but interpolates to a nearby road point. No canonical street address is inferred. The later van shot labelled outside Chronowerx was filmed near the Music Center and is not used to create a second headquarters.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.056142,-118.232959",
+      "interiorMapsUrl": "https://www.google.com/maps/search/?api=1&query=333+S+Grand+Avenue+Los+Angeles+CA"
+    },
+    {
+      "id": 322,
+      "verification": "Seeing Stars matches the crew’s coastal walk to the park’s southern end by the cannon, with a second frame looking toward Ocean Avenue near Colorado. The SUVCW landmark inventory, printed page 125, independently locates the cannon at 34.01143, -118.49556. Coordinates mark the southern park area, not a citywide park centroid. The 2023 real photo shows the same park and coast, from another section; it is not presented as the exact camera position.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.01143,-118.49556"
+    },
+    {
+      "id": 323,
+      "verification": "Part II’s spoken dialogue explicitly names Metro Plaza by the fountain. Visual comparisons identify the Music Center’s Grand Avenue steps and Hope Street plaza edge; the Doctor’s frame includes the fountain/sculpture/City Hall view. The production point comes from the source-linked matching plaza view. Census independently matches 135 N Grand Avenue but its road interpolation is not the scene viewpoint. No claim is made that the Music Center’s official real name is Metro Plaza. The owner’s plaza history confirms 2018–2019 renovation and relocation of Peace on Earth.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.057484,-118.248752"
+    },
+    {
+      "verification": "All four records use the episode’s explicit local Earth year 1996. The starship travellers’ 24th-century origin is not used to date these visits. Existing Rain Robinson / Griffith Observatory record 83 is not duplicated."
+    },
+    {
+      "verification": "Four actual episode frames were downloaded directly from Gary Wayne’s scene guide and visually inspected against the real place. Ground photographs: pier from Santa Monica Pier Corporation via the Conservancy (capture date unknown); Metro HQ by Busition, 2026-05-08, CC BY 4.0; Palisades Park by Z3lvs, 2023-03-20, CC0; renovated Music Center plaza by Tim Street-Porter (capture date unknown). Only source borders and file encoding/size were adjusted; no generated photos."
+    },
+    {
+      "verification": "Excluded: Lancaster/30th Street West footage explicitly representing Arizona; the 1967 High Sierras prologue; and the proposed Paramount lunch-lawn identification, which the location researcher describes as a suspicion rather than a verified match."
+    }
+  ]
+}
