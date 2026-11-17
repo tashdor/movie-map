@@ -1,0 +1,487 @@
+{
+  "researched_on": "2026-11-16",
+  "corrections": [
+    {
+      "id": 80,
+      "coordinates": [
+        -118.3449747,
+        34.0478296
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "Pico Boulevard · approximate",
+        "precision": "street-reference",
+        "reason": "Only Pico Boulevard is established in Sarah’s calls. The icon is a representative point on Pico in Los Angeles, not an inferred cross street or a verified nightclub parcel. Hill Street remains production provenance only.",
+        "sourceIds": [
+          "tech_noir_dialogue",
+          "tech_noir_message",
+          "story_pins_osm"
+        ],
+        "viewport": [
+          [
+            -118.3539747,
+            34.0418296
+          ],
+          [
+            -118.3359747,
+            34.0538296
+          ]
+        ]
+      },
+      "precision": "street-reference"
+    },
+    {
+      "id": 87,
+      "coordinates": [
+        -118.36745,
+        34.096175
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "1612 Havenhurst Drive · approximate",
+        "precision": "street-segment-estimate",
+        "reason": "The screenplay takes Betty north on Havenhurst after turning from Fountain and stops mid-block. The icon represents that Fountain-to-Sunset segment, not a real parcel numbered 1612. Sycamore Avenue is the production exterior only.",
+        "sourceIds": [
+          "mulholland_bfi",
+          "mulholland_study",
+          "story_pins_mulholland_script",
+          "story_pin_87_geocoder",
+          "story_pin_87_sunset_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.37145000000001,
+            34.093175
+          ],
+          [
+            -118.36345,
+            34.099175
+          ]
+        ]
+      },
+      "precision": "street-segment-estimate"
+    },
+    {
+      "id": 88,
+      "coordinates": [
+        -118.353932,
+        34.099837
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "2590 Sierra Bonita Avenue · approximate",
+        "precision": "street-reference",
+        "reason": "2590 is a fictional number. The icon uses the geocoder’s North Sierra Bonita street reference, not a matched property. Griffith Park Boulevard is the filming site only; the exact story block remains unresolved.",
+        "sourceIds": [
+          "mulholland_study",
+          "mulholland_bfi",
+          "story_pin_88_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.362932,
+            34.093837
+          ],
+          [
+            -118.344932,
+            34.105837
+          ]
+        ]
+      },
+      "precision": "street-reference"
+    },
+    {
+      "id": 89,
+      "coordinates": [
+        -118.342716,
+        34.116375
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "6980 Mulholland Drive · approximate",
+        "precision": "fictional-address-interpolation",
+        "reason": "The film supplies 6980 Mulholland Drive. The icon is a street-address interpolation of that fictional address, not identification of a real house. The Studio City production home on Eureka Drive is not the story position.",
+        "sourceIds": [
+          "mulholland_study",
+          "story_pin_89_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.346716,
+            34.113375
+          ],
+          [
+            -118.33871599999999,
+            34.119375
+          ]
+        ]
+      },
+      "precision": "fictional-address-interpolation"
+    },
+    {
+      "id": 90,
+      "coordinates": [
+        -118.3658228,
+        34.0979875
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "Sunset Boulevard · approximate",
+        "precision": "street-reference",
+        "reason": "Winkie’s is reported on Sunset Boulevard, with no established cross street. The icon is a representative point on the Hollywood/West Hollywood portion of Sunset, not a verified diner address. Gardena remains the production site only.",
+        "sourceIds": [
+          "mulholland_bfi",
+          "mulholland_study",
+          "story_pins_osm"
+        ],
+        "viewport": [
+          [
+            -118.3748228,
+            34.0919875
+          ],
+          [
+            -118.3568228,
+            34.1039875
+          ]
+        ]
+      },
+      "precision": "street-reference"
+    },
+    {
+      "id": 109,
+      "coordinates": [
+        -118.425965,
+        34.08079
+      ],
+      "placement": {
+        "kind": "inferred",
+        "address": "10086 Sunset Boulevard · approximate",
+        "precision": "fictional-address-interpolation",
+        "reason": "The screenplay places the mansion in the ten-thousand block and gives 10086 Sunset Boulevard. The icon interpolates that fictional number west of Beverly Hills, toward Bel Air; it does not identify a surviving parcel. The Irving Boulevard mansion is production provenance only.",
+        "sourceIds": [
+          "noir_sunset_locations",
+          "noir_sunset_afi",
+          "story_pins_sunset_script",
+          "story_pin_109_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.42996500000001,
+            34.07779
+          ],
+          [
+            -118.421965,
+            34.08379
+          ]
+        ]
+      },
+      "precision": "fictional-address-interpolation"
+    },
+    {
+      "id": 114,
+      "coordinates": [
+        -118.412053,
+        34.081619
+      ],
+      "placement": {
+        "kind": "screen",
+        "address": "Sunset Boulevard & Crescent Drive",
+        "precision": "intersection-explicit",
+        "reason": "The film names Sunset and Crescent; the point marks that intersection. Regent Place and the Ambassador Hotel are production components, not the restaurant’s fictional address.",
+        "sourceIds": [
+          "noir_story_brunch",
+          "story_pin_114_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.416053,
+            34.078619
+          ],
+          [
+            -118.408053,
+            34.084619
+          ]
+        ]
+      },
+      "precision": "intersection-explicit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "story_pins_mulholland_script",
+      "title": "David Lynch — Mulholland Drive screenplay, Betty’s arrival at Havenhurst",
+      "url": "https://www.lynchnet.com/mdrive/mdscript.html",
+      "source_type": "primary screenplay; pilot draft, directions corroborate existing scene"
+    },
+    {
+      "id": "story_pins_sunset_script",
+      "title": "Brackett, Wilder and Marshman — Sunset Boulevard screenplay, ten-thousand block and 10086",
+      "url": "https://dailyscript.com/scripts/sunset_bld_3_21_49.html",
+      "source_type": "primary screenplay"
+    },
+    {
+      "id": "story_pins_osm",
+      "title": "OpenStreetMap — named Los Angeles street geometries",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "map geometry; representative display anchors only"
+    },
+    {
+      "id": "story_pin_88_geocoder",
+      "title": "Esri World Geocoder — 2590 North Sierra Bonita Avenue, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2590+North+Sierra+Bonita+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "map reference; fictional numbers may interpolate and are not proof of parcels"
+    },
+    {
+      "id": "story_pin_89_geocoder",
+      "title": "Esri World Geocoder — 6980 Mulholland Drive, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6980+Mulholland+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "map reference; fictional numbers may interpolate and are not proof of parcels"
+    },
+    {
+      "id": "story_pin_109_geocoder",
+      "title": "Esri World Geocoder — 10086 Sunset Boulevard, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10086+Sunset+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "map reference; fictional numbers may interpolate and are not proof of parcels"
+    },
+    {
+      "id": "story_pin_114_geocoder",
+      "title": "Esri World Geocoder — Sunset Boulevard and North Crescent Drive, Beverly Hills, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+North+Crescent+Drive%2C+Beverly+Hills%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "map reference; fictional numbers may interpolate and are not proof of parcels"
+    },
+    {
+      "id": "story_pin_87_geocoder",
+      "title": "Esri World Geocoder — Fountain Avenue and Havenhurst Drive, West Hollywood, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Fountain+Avenue+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "map reference; fictional numbers may interpolate and are not proof of parcels"
+    },
+    {
+      "id": "story_pin_87_sunset_geocoder",
+      "title": "Esri World Geocoder — Havenhurst at Sunset",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "intersection coordinates"
+    }
+  ],
+  "audit": {
+    "scope": "All 215 existing places audited for line-only display. Seven address records had roadName; all seven replaced with icons. The sole remaining LineString place is the genuine first-street-race corridor, ID208. Unknown city-only places remain searchable without invented pins.",
+    "geocoder_responses": [
+      {
+        "query": "1612 Havenhurst Drive, West Hollywood, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1612+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "Havenhurst Dr, Los Angeles, California, 90046",
+            "location": {
+              "x": -118.367443655039,
+              "y": 34.093839973015
+            },
+            "score": 95.88,
+            "attributes": {
+              "Match_addr": "Havenhurst Dr, Los Angeles, California, 90046",
+              "Addr_type": "StreetName"
+            },
+            "extent": {
+              "xmin": -118.368443655039,
+              "ymin": 34.092839973015,
+              "xmax": -118.366443655039,
+              "ymax": 34.094839973015
+            }
+          }
+        ]
+      },
+      {
+        "query": "2590 North Sierra Bonita Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2590+North+Sierra+Bonita+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "N Sierra Bonita Ave, Los Angeles, California, 90046",
+            "location": {
+              "x": -118.353931958952,
+              "y": 34.099836505623
+            },
+            "score": 96.41,
+            "attributes": {
+              "Match_addr": "N Sierra Bonita Ave, Los Angeles, California, 90046",
+              "Addr_type": "StreetName"
+            },
+            "extent": {
+              "xmin": -118.354931958952,
+              "ymin": 34.098836505623,
+              "xmax": -118.352931958952,
+              "ymax": 34.100836505623
+            }
+          }
+        ]
+      },
+      {
+        "query": "6980 Mulholland Drive, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6980+Mulholland+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "6980 Mulholland Dr, Los Angeles, California, 90068",
+            "location": {
+              "x": -118.342715506811,
+              "y": 34.116375496765
+            },
+            "score": 100,
+            "attributes": {
+              "Match_addr": "6980 Mulholland Dr, Los Angeles, California, 90068",
+              "Addr_type": "StreetAddress"
+            },
+            "extent": {
+              "xmin": -118.343715506811,
+              "ymin": 34.115375496765,
+              "xmax": -118.341715506811,
+              "ymax": 34.117375496765
+            }
+          }
+        ]
+      },
+      {
+        "query": "10086 Sunset Boulevard, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10086+Sunset+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "10086 Sunset Blvd, Los Angeles, California, 90077",
+            "location": {
+              "x": -118.425964819798,
+              "y": 34.080789736073
+            },
+            "score": 100,
+            "attributes": {
+              "Match_addr": "10086 Sunset Blvd, Los Angeles, California, 90077",
+              "Addr_type": "StreetAddress"
+            },
+            "extent": {
+              "xmin": -118.426964819798,
+              "ymin": 34.079789736073,
+              "xmax": -118.424964819798,
+              "ymax": 34.081789736073
+            }
+          }
+        ]
+      },
+      {
+        "query": "Sunset Boulevard and North Crescent Drive, Beverly Hills, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+North+Crescent+Drive%2C+Beverly+Hills%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "W Sunset Blvd & N Crescent Dr, Beverly Hills, California, 90210",
+            "location": {
+              "x": -118.41205299758,
+              "y": 34.08161899265
+            },
+            "score": 99.84,
+            "attributes": {
+              "Match_addr": "W Sunset Blvd & N Crescent Dr, Beverly Hills, California, 90210",
+              "Addr_type": "StreetInt"
+            },
+            "extent": {
+              "xmin": -118.41305299758,
+              "ymin": 34.08061899265,
+              "xmax": -118.41105299758,
+              "ymax": 34.08261899265
+            }
+          }
+        ]
+      },
+      {
+        "query": "Fountain Avenue and Havenhurst Drive, West Hollywood, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Fountain+Avenue+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "Fountain Ave & Havenhurst Dr, West Hollywood, California, 90046",
+            "location": {
+              "x": -118.367450040936,
+              "y": 34.094370004765
+            },
+            "score": 100,
+            "attributes": {
+              "Match_addr": "Fountain Ave & Havenhurst Dr, West Hollywood, California, 90046",
+              "Addr_type": "StreetInt"
+            },
+            "extent": {
+              "xmin": -118.368450040936,
+              "ymin": 34.093370004765,
+              "xmax": -118.366450040936,
+              "ymax": 34.095370004765
+            }
+          }
+        ]
+      },
+      {
+        "query": "Sunset Boulevard and Havenhurst Drive, West Hollywood, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "W Sunset Blvd & Havenhurst Dr, Los Angeles, California, 90046",
+            "location": {
+              "x": -118.367450040936,
+              "y": 34.097979000815
+            },
+            "score": 99.74,
+            "attributes": {
+              "Match_addr": "W Sunset Blvd & Havenhurst Dr, Los Angeles, California, 90046",
+              "Addr_type": "StreetInt"
+            },
+            "extent": {
+              "xmin": -118.368450040936,
+              "ymin": 34.096979000815,
+              "xmax": -118.366450040936,
+              "ymax": 34.098979000815
+            }
+          }
+        ]
+      },
+      {
+        "query": "Pico Boulevard, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pico+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "Pico Blvd, Santa Monica, California, 90404",
+            "location": {
+              "x": -118.453027009244,
+              "y": 34.028102992581
+            },
+            "score": 100,
+            "attributes": {
+              "Match_addr": "Pico Blvd, Santa Monica, California, 90404",
+              "Addr_type": "StreetName"
+            },
+            "extent": {
+              "xmin": -118.454027009244,
+              "ymin": 34.027102992581,
+              "xmax": -118.452027009244,
+              "ymax": 34.029102992581
+            }
+          }
+        ]
+      },
+      {
+        "query": "Sunset Boulevard, Hollywood, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard%2C+Hollywood%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "candidates": [
+          {
+            "address": "Sunset Boulevard",
+            "location": {
+              "x": -118.3921237,
+              "y": 34.0950825
+            },
+            "score": 100,
+            "attributes": {
+              "Match_addr": "Sunset Boulevard",
+              "Addr_type": "POI"
+            },
+            "extent": {
+              "xmin": -118.3971237,
+              "ymin": 34.0900825,
+              "xmax": -118.3871237,
+              "ymax": 34.1000825
+            }
+          }
+        ]
+      }
+    ],
+    "estimated_icons": "Inferred icons mark street references or interpolated fictional numbers, not verified properties. The display address says approximate. Police station has no street evidence and therefore no point."
+  }
+}

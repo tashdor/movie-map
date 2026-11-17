@@ -1,0 +1,1781 @@
+{
+  "places": [
+    {
+      "id": 250,
+      "name": "Griffin Mill’s studio",
+      "short": "Griffin Mill’s studio",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "1040 North Las Palmas Avenue",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.336208,
+        34.089659
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Griffin Mill",
+        "Bonnie Sherow",
+        "Larry Levy",
+        "Joel Levison",
+        "Walter Stuckel"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Griffin’s studio",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_afi",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "studio executive"
+            },
+            {
+              "name": "Bonnie Sherow",
+              "relationship": "story editor"
+            },
+            {
+              "name": "Larry Levy",
+              "relationship": "executive"
+            },
+            {
+              "name": "Joel Levison",
+              "relationship": "studio head"
+            },
+            {
+              "name": "Walter Stuckel",
+              "relationship": "security chief"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "street-interpolated",
+        "reason": "The unnamed Hollywood studio is played by Hollywood Center Studios. No numbered story address is established; the point represents the production lot, using Census street interpolation.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_afi",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps250-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "The opening tracking shot on Griffin’s studio lot.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3qP8U61JopdnYORLnT9KobVK1VsRU5xz_iTKlb1KrofDz15Cm8KXiedQLwnWwm1mQey7TjEu_OQEYxtIZQ7w9Zt5G6q6jKSM9a9QH2EpigSPnR4jtWhlE8AdK4kyu4I-_-InaOte_Xk/s1600/CenterStudios1_ThePlayer.jpg",
+          "width": 720,
+          "height": 413
+        },
+        "place": {
+          "src": "photos/ps250-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "The Player",
+          "alt": "Aerial of the Las Palmas studio lot.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3397%2C34.08865%2C-118.3349%2C34.09115&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Filming site · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+        }
+      },
+      "productionCoordinates": [
+        -118.336208,
+        34.089659
+      ]
+    },
+    {
+      "id": 251,
+      "name": "June Gudmundsdottir & David Kahane’s home",
+      "short": "June Gudmundsdottir & David Kahane’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1921 Westholme Avenue",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.427246,
+        34.052632
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "June Gudmundsdottir",
+        "David Kahane",
+        "Griffin Mill"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "June and David’s home",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "June Gudmundsdottir",
+              "relationship": "resident"
+            },
+            {
+              "name": "David Kahane",
+              "relationship": "resident"
+            },
+            {
+              "name": "Griffin Mill",
+              "relationship": "visitor"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "reason": "Two photographed location comparisons identify the Westholme Avenue production house. No canonical numbered address is established; the point is a production-house proxy.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_jetter",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps251-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin watches June through the front window of her home.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7GoF_wFUn5BP8S5QugFiZQu293pMkEhz4W826Ntg6ZnM25QilOwMh1UGsGI5lrhAf-IDrakLovSBJ2xxl_2rB-CSgvFDGblsYwYTMX7q1U_dIvUkSWrricj0obUNu5_e7fXrCkULmCU/s1600/KahanesHouse_ThePlayer.jpg",
+          "width": 720,
+          "height": 378
+        },
+        "place": {
+          "src": "photos/ps251-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "The Player",
+          "alt": "Aerial of the Westholme Avenue production house and its block.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.4285%2C34.05205%2C-118.4261%2C34.05325&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Filming site · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+        }
+      },
+      "productionCoordinates": [
+        -118.427246,
+        34.052632
+      ]
+    },
+    {
+      "id": 253,
+      "name": "David Kahane’s funeral",
+      "short": "David Kahane’s funeral",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "6000 Santa Monica Boulevard",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.320154,
+        34.090695
+      ],
+      "precision": "cemetery",
+      "people": [
+        "Griffin Mill",
+        "June Gudmundsdottir",
+        "David Kahane"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "David’s funeral",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_player_afi",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "attends funeral"
+            },
+            {
+              "name": "June Gudmundsdottir",
+              "relationship": "attends funeral"
+            },
+            {
+              "name": "David Kahane",
+              "relationship": "buried here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "cemetery",
+        "reason": "Hollywood Forever Cemetery supplies the lakeside funeral setting. The marker represents the cemetery, not an independently established grave position.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_jetter",
+          "ps_player_afi",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps253-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin observes the lakeside funeral for David Kahane.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1qh_cIod6RUwIf91y61uVE2h_BOfSxqL5My7AZuZrJi_rvPcqcBKHd-v3cJpInDBm0JGyQQW7s_9UYSjdvS-AAJjuTmd4EPKSuqokXGIrfe3zzANBeC08K0QeGGsGqpV_G45lPFpka7o/s1600/HollywoodForeverCemetery_ThePlayer.jpg",
+          "width": 720,
+          "height": 387
+        },
+        "place": {
+          "src": "photos/ps253-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "The Player",
+          "alt": "Aerial of Hollywood Forever Cemetery, including its lake.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.322,34.087,-118.3145,34.0915&bboxSR=4326&imageSR=3857&size=1100,650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Cemetery · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The point represents the cemetery, not an exact grave."
+        }
+      },
+      "productionCoordinates": [
+        -118.320154,
+        34.090695
+      ]
+    },
+    {
+      "id": 254,
+      "name": "St. James Club",
+      "short": "St. James Club",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "work",
+        "event"
+      ],
+      "address": "8358 Sunset Boulevard",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.372116,
+        34.095058
+      ],
+      "precision": "building-footprint",
+      "people": [
+        "Griffin Mill",
+        "Tom Oakley",
+        "Andy Civella",
+        "Lenny Nero",
+        "Lornette 'Mace' Mason",
+        "Mr. Fumitsu",
+        "Palmer Strickland"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Griffin’s poolside meeting",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_afi",
+            "ps_osm_sunset",
+            "ps_strange_fo",
+            "ps_strange_locations",
+            "ps_strange_transcript"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "meets filmmakers"
+            },
+            {
+              "name": "Tom Oakley",
+              "relationship": "pitches Griffin"
+            },
+            {
+              "name": "Andy Civella",
+              "relationship": "pitches Griffin"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "work",
+            "event"
+          ]
+        },
+        {
+          "title": "Strange Days",
+          "release_year": 1995,
+          "story_role": "Mace’s client pickup",
+          "filming_component": "hotel entrance",
+          "source_ids": [
+            "ps_strange_fo",
+            "ps_strange_locations",
+            "ps_strange_transcript",
+            "ps_stjames_clip"
+          ],
+          "story_time": {
+            "year": 1999,
+            "month": 12,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "Final-film radio dates the opening to 30 December 1999; later action occurs on New Year’s Eve.",
+            "source_ids": [
+              "ps_strange_transcript",
+              "ps_strange_script"
+            ],
+            "day": 30
+          },
+          "characters": [
+            {
+              "name": "Lenny Nero",
+              "relationship": "meets client"
+            },
+            {
+              "name": "Lornette 'Mace' Mason",
+              "relationship": "chauffeurs client"
+            },
+            {
+              "name": "Mr. Fumitsu",
+              "relationship": "client"
+            },
+            {
+              "name": "Palmer Strickland",
+              "relationship": "club guest"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "screen",
+        "address": "St. James Club · Sunset Boulevard",
+        "precision": "building-footprint",
+        "reason": "Both films identify the St. James Club, the former name of Sunset Tower. The point is the mapped building footprint, not the exact poolside table or pickup position.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_afi",
+          "ps_osm_sunset",
+          "ps_strange_fo",
+          "ps_strange_locations",
+          "ps_strange_transcript"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps254-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin sits by the pool with Tom Oakley and Andy Civella.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsT3BOUG7LL2XMnrihLVcIbyJUX_y3FNqZhYWPPlUZzu90WIgbORg_9ShRi9YXskRYby2QZAX5FlzC9AoI4BGBJIUjI3v0oWaoOqh5kvb-C1WjbbTOMQat28aF4JWz69yY-K_E1q5mfoI/s1600/SunsetTower1_ThePlayer.jpg",
+          "width": 720,
+          "height": 394
+        },
+        "place": {
+          "src": "photos/ps254-place.jpg",
+          "sourceUrl": "https://www.sunsettowerhotel.com/",
+          "credit": "Sunset Tower Hotel",
+          "title": "The Player",
+          "alt": "The hotel pool terrace and Sunset Tower.",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+          "width": 500,
+          "height": 749,
+          "caption": "Site today",
+          "note": "Current hotel-site photograph; capture date is not supplied."
+        }
+      },
+      "productionCoordinates": [
+        -118.372116,
+        34.095058
+      ],
+      "mediaByTitle": {
+        "The Player": {
+          "screen": {
+            "src": "photos/ps254-screen.jpg",
+            "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+            "credit": "The Player film frame; Movie Tourist",
+            "title": "The Player",
+            "alt": "Griffin sits by the pool with Tom Oakley and Andy Civella.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsT3BOUG7LL2XMnrihLVcIbyJUX_y3FNqZhYWPPlUZzu90WIgbORg_9ShRi9YXskRYby2QZAX5FlzC9AoI4BGBJIUjI3v0oWaoOqh5kvb-C1WjbbTOMQat28aF4JWz69yY-K_E1q5mfoI/s1600/SunsetTower1_ThePlayer.jpg",
+            "width": 720,
+            "height": 394
+          },
+          "place": {
+            "src": "photos/ps254-place.jpg",
+            "sourceUrl": "https://www.sunsettowerhotel.com/",
+            "credit": "Sunset Tower Hotel",
+            "title": "The Player",
+            "alt": "The hotel pool terrace and Sunset Tower.",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+            "width": 500,
+            "height": 749,
+            "caption": "Site today",
+            "note": "Current hotel-site photograph; capture date is not supplied."
+          }
+        },
+        "Strange Days": {
+          "screen": {
+            "src": "photos/ps254-strange-screen.jpg",
+            "sourceUrl": "https://clip.cafe/strange-days-1995/nero-strickland/",
+            "credit": "Strange Days film frame; Clip.Cafe",
+            "title": "Strange Days",
+            "alt": "Lenny encounters Commissioner Strickland at St. James.",
+            "imageUrl": "https://clip.cafe/clipimg/nero-strickland.jpg",
+            "width": 720,
+            "height": 304,
+            "caption": "Strange Days · 1995"
+          },
+          "place": {
+            "src": "photos/ps254-place.jpg",
+            "sourceUrl": "https://www.sunsettowerhotel.com/",
+            "credit": "Sunset Tower Hotel",
+            "title": "The Player",
+            "alt": "The hotel pool terrace and Sunset Tower.",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+            "width": 500,
+            "height": 749,
+            "caption": "Site today",
+            "note": "Current hotel-site photograph; capture date is not supplied."
+          }
+        }
+      }
+    },
+    {
+      "id": 255,
+      "name": "LACMA",
+      "short": "LACMA",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5905 Wilshire Boulevard",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.35792,
+        34.06269
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Griffin Mill",
+        "June Gudmundsdottir"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Film gala",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_afi",
+            "ps_player_locations",
+            "ps_census",
+            "ps_lacma_official"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "attends gala"
+            },
+            {
+              "name": "June Gudmundsdottir",
+              "relationship": "attends gala"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "reason": "The gala is at LACMA’s former campus. The present-day aerial shows the replacement David Geffen Galleries and surrounding museum complex; it is not the surviving screen building.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_afi",
+          "ps_player_locations",
+          "ps_census",
+          "ps_lacma_official"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps255-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin and June arrive at the LACMA gala.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuIn6-__lwNkOKCjzMTwSkj_AbatVsaTYPVPHv6HBkfLmlpwyJ0cdYQCB1-TYl8JZlQmN7-ibXRsYkNBXbboK0YoI1aLgM7aZyl3wb5i7c_o5VoH7v1gUu2m1LgjdWhybmrHeifbsbc4/s1600/LACMA1_ThePlayer.jpg",
+          "width": 720,
+          "height": 390
+        },
+        "place": {
+          "src": "photos/ps255-place.jpg",
+          "sourceUrl": "https://unframed.lacma.org/2026/05/08/everything-you-need-know-about-lacma-new-david-geffen-galleries",
+          "credit": "Iwan Baan / LACMA",
+          "title": "The Player",
+          "alt": "The rebuilt LACMA campus with the David Geffen Galleries.",
+          "imageUrl": "https://unframed.lacma.org/sites/default/files/attachments/DGG_IwanBaan_012_062025.jpg",
+          "width": 1100,
+          "height": 734,
+          "caption": "Replacement campus",
+          "note": "LACMA’s new David Geffen Galleries replace the former 1992 campus. Iwan Baan’s aerial documents the new campus; exact capture date is not independently supplied."
+        }
+      },
+      "productionCoordinates": [
+        -118.35792,
+        34.06269
+      ]
+    },
+    {
+      "id": 256,
+      "name": "Pasadena police station",
+      "short": "Pasadena police station",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "Former 142 North Arroyo Parkway, at Holly Street",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.1472,
+        34.148
+      ],
+      "precision": "approximate-site",
+      "people": [
+        "Detective Susan Avery",
+        "Detective Paul DeLongpre",
+        "Griffin Mill"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Avery’s police station",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_locations",
+            "ps_player_script",
+            "ps_holly_builder"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Detective Susan Avery",
+              "relationship": "investigates David’s death"
+            },
+            {
+              "name": "Detective Paul DeLongpre",
+              "relationship": "investigates David’s death"
+            },
+            {
+              "name": "Griffin Mill",
+              "relationship": "questioned here"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Former station · Holly Street / Arroyo Parkway",
+        "precision": "approximate-site",
+        "reason": "The screenplay identifies Pasadena police, and location sources identify the former station at Holly and Arroyo Parkway. Holly Street Village now occupies the block; its developer documents retained Hall of Justice lofts. The point represents the former station area, not the modern police headquarters. Census’s Arroyo Boulevard match was rejected as a different street.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_locations",
+          "ps_player_script",
+          "ps_holly_builder"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps256-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin leaves the old Pasadena police station with the detectives.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQv8VoRez9XwWqoFElOla2PadR_-DYYVmhEquQevDjOoEPcfcWBGooXHpFZWHG1HF-GQuXp8hqgXZntU9762U_YJ5AGHzfaa_B8ZGoUyJFu6ZH_cs-zXKqj-z491Ql8U3zOPIlZpG4IGM/s1600/PasadenaPoliceStation_ThePlayer.jpg",
+          "width": 720,
+          "height": 385
+        },
+        "place": {
+          "src": "photos/ps256-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "The Player",
+          "alt": "Aerial of the Holly Street Village block at the former station site.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.1486%2C34.1473%2C-118.1458%2C34.148700000000005&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Filming site · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+        }
+      },
+      "productionCoordinates": [
+        -118.1472,
+        34.148
+      ]
+    },
+    {
+      "id": 257,
+      "name": "Griffin & June’s new home",
+      "short": "Griffin & June’s new home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "20 Oakmont Drive",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.490719,
+        34.067395
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Griffin Mill",
+        "June Gudmundsdottir"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Griffin and June’s new home",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_player_script",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "The screenplay advances one year for the ending. 1993 is derived from the editorial 1992 estimate for the main contemporary story.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "resident"
+            },
+            {
+              "name": "June Gudmundsdottir",
+              "relationship": "resident"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles",
+        "precision": "street-interpolated",
+        "reason": "The final home is identified by both location researchers as the Oakmont Drive production house. No canonical numbered street address is established; the point is a production-site proxy.",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_jetter",
+          "ps_player_script",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps257-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin arrives at the home he shares with June in the ending.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6eSk5XaC0vu3qIs49M99YryrfwK64IZObzydq0V7p8l9GFG2W9Z0DFw58UAVQxxhRAyIJt2QYuhYLmG3hyphenhyphen36txXvV61VijrXpaENgiMyojYJA8g0nScbLwYObu8Ur731bwFcPbZzxkY0/s1600/Mills2ndHouse1_ThePlayer.jpg",
+          "width": 720,
+          "height": 391
+        },
+        "place": {
+          "src": "photos/ps257-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "The Player",
+          "alt": "Aerial of the Oakmont Drive production property.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.49210000000001%2C34.0667%2C-118.4893%2C34.0681&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Filming site · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+        }
+      },
+      "productionCoordinates": [
+        -118.490719,
+        34.067395
+      ]
+    },
+    {
+      "id": 260,
+      "name": "Sunset Regent Hotel",
+      "short": "Sunset Regent Hotel",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "Production site: 8401 Sunset Boulevard",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.373182,
+        34.095401
+      ],
+      "precision": "building-footprint",
+      "people": [
+        "Iris",
+        "Max Peltier"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Strange Days",
+          "release_year": 1995,
+          "story_role": "Iris’s hotel",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_strange_fo",
+            "ps_strange_transcript",
+            "ps_osm_andaz"
+          ],
+          "story_time": {
+            "year": 1999,
+            "month": 12,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "Final-film radio dates the opening to 30 December 1999; later action occurs on New Year’s Eve.",
+            "source_ids": [
+              "ps_strange_transcript",
+              "ps_strange_script"
+            ],
+            "day": 30
+          },
+          "characters": [
+            {
+              "name": "Iris",
+              "relationship": "hotel guest; killed here"
+            },
+            {
+              "name": "Max Peltier",
+              "relationship": "kills Iris"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sunset Regent · Sunset Strip",
+        "precision": "building-footprint",
+        "reason": "The film names the Sunset Regent. Film Oblivion identifies its balcony sequence at the Hyatt West Hollywood, now Andaz. The hotel is a production proxy for the fictional Sunset Regent; the point follows the actual building footprint. Census’s imprecise Sunset address match was not used.",
+        "sourceIds": [
+          "ps_strange_fo",
+          "ps_strange_transcript",
+          "ps_osm_andaz"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps260-screen.jpg",
+          "sourceUrl": "https://clip.cafe/strange-days-1995/all-right-a-little-b-and-e-action/",
+          "credit": "Strange Days film frame; Clip.Cafe",
+          "title": "Strange Days",
+          "alt": "Gloved hands at Iris’s hotel-room door in the recorded point-of-view sequence.",
+          "imageUrl": "https://clip.cafe/videos/all-right-a-little-b-and-e-action.mp4",
+          "width": 720,
+          "height": 304,
+          "note": "Still extracted at 5.5 seconds from the cited published film clip."
+        },
+        "place": {
+          "src": "photos/ps260-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+          "title": "Strange Days",
+          "alt": "Aerial of the Andaz West Hollywood production hotel.",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.374582%2C34.094701%2C-118.371782%2C34.096101000000004&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "width": 1100,
+          "height": 650,
+          "caption": "Filming site · aerial",
+          "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+        }
+      },
+      "productionCoordinates": [
+        -118.373182,
+        34.095401
+      ],
+      "deaths": [
+        {
+          "title": "Strange Days",
+          "people": [
+            "Iris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "name": "Jeriko One’s memorial",
+      "short": "Jeriko One’s memorial",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "3751 West 54th Street",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.339946,
+        33.993115
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Faith Justin",
+        "Philo Gant",
+        "Max Peltier"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Strange Days",
+          "release_year": 1995,
+          "story_role": "Jeriko’s memorial",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_strange_fo",
+            "ps_strange_script",
+            "ps_strange_caps",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1999,
+            "month": 12,
+            "precision": "day",
+            "certainty": "explicit",
+            "basis": "Final-film radio dates the opening to 30 December 1999; later action occurs on New Year’s Eve.",
+            "source_ids": [
+              "ps_strange_transcript",
+              "ps_strange_script"
+            ],
+            "day": 31
+          },
+          "characters": [
+            {
+              "name": "Faith Justin",
+              "relationship": "attends memorial"
+            },
+            {
+              "name": "Philo Gant",
+              "relationship": "attends memorial"
+            },
+            {
+              "name": "Max Peltier",
+              "relationship": "watches Faith"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "South Los Angeles · memorial church",
+        "precision": "street-interpolated",
+        "reason": "The screenplay places the memorial at a South Central church. The photographed production church is at 3751 West 54th Street. Its real congregation is not asserted as the fictional church’s denomination.",
+        "sourceIds": [
+          "ps_strange_fo",
+          "ps_strange_script",
+          "ps_strange_caps",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps261-screen.jpg",
+          "sourceUrl": "https://www.screencapsmovie.com/2024/05/strange-days.html",
+          "credit": "Strange Days film frame; ScreencapsMovie",
+          "title": "Strange Days",
+          "alt": "Max watches the memorial crowd outside the church.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmztK1Iyk29ODBiZZJD-XWceMdtQzIvIJCUAzOMoYLjsPX8zvUryBRdvWCZH-yuP1BW3Ur7qfNy2i2ekxwSS3pXgLQsfFR7I_1wQmD7eFylkR-aEMi8ZI6LVVvf1U1EnfySKVgHC6eLh6Q9f9HePabJEHvbxJoQ8i4QPp8IcZncgpAJQrZXGuz-Fw/s1600/screencapsmovie.com_strange_days_(48).jpg",
+          "width": 1100,
+          "height": 468
+        },
+        "place": {
+          "src": "photos/ps261-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+          "credit": "Film Oblivion",
+          "title": "Strange Days",
+          "alt": "The West 54th Street church used for Jeriko’s memorial.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/10/strangedays9.jpg?w=1024",
+          "width": 1024,
+          "height": 768,
+          "caption": "Production church",
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.339946,
+        33.993115
+      ]
+    },
+    {
+      "id": 262,
+      "name": "Jeriko One’s killing",
+      "short": "Jeriko One’s killing",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Production site: lower Sixth Street / Santa Fe Avenue",
+      "area": "Los Angeles",
+      "coordinates": null,
+      "precision": "unlocated",
+      "people": [
+        "Jeriko One",
+        "James “Replay” Polton",
+        "Diamanda",
+        "Iris",
+        "Burton Steckler",
+        "Dwayne Engelman"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Strange Days",
+          "release_year": 1995,
+          "story_role": "Jeriko’s traffic stop",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_strange_fo",
+            "ps_strange_transcript",
+            "ps_jeriko_clip"
+          ],
+          "story_time": {
+            "year": 1999,
+            "month": 12,
+            "precision": "month",
+            "certainty": "bounded",
+            "basis": "Final-film radio dates the opening to 30 December 1999; later action occurs on New Year’s Eve.",
+            "source_ids": [
+              "ps_strange_transcript",
+              "ps_strange_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jeriko One",
+              "relationship": "killed here"
+            },
+            {
+              "name": "James “Replay” Polton",
+              "relationship": "killed here"
+            },
+            {
+              "name": "Diamanda",
+              "relationship": "killed here"
+            },
+            {
+              "name": "Iris",
+              "relationship": "records the killing"
+            },
+            {
+              "name": "Burton Steckler",
+              "relationship": "police officer; killer"
+            },
+            {
+              "name": "Dwayne Engelman",
+              "relationship": "police officer; accomplice"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles · exact location unknown",
+        "precision": "unlocated",
+        "reason": "The stop was filmed beneath the former Sixth Street Viaduct. The final-film news says the victims’ bodies were found under the Hollywood Freeway; it does not establish the actual stop’s street. No canonical point is assigned to the killing.",
+        "sourceIds": [
+          "ps_strange_fo",
+          "ps_strange_transcript",
+          "ps_jeriko_clip"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps262-screen.jpg",
+          "sourceUrl": "https://clip.cafe/strange-days-1995/you-know-what-you-pulled-over-the-wrong-black-male-tonight-officer/",
+          "credit": "Strange Days film frame; Clip.Cafe",
+          "title": "Strange Days",
+          "alt": "Steckler and Engelman confront Jeriko during the recorded traffic stop.",
+          "imageUrl": "https://clip.cafe/clipimg/you-know-what-you-pulled-over-the-wrong-black-male-tonight-officer.jpg",
+          "width": 720,
+          "height": 304
+        },
+        "place": {
+          "src": "photos/ps262-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+          "credit": "Film Oblivion",
+          "title": "Strange Days",
+          "alt": "The rebuilt Sixth Street Viaduct at Santa Fe Avenue.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/terminator2-20.jpg?w=1024",
+          "width": 1024,
+          "height": 768,
+          "caption": "Replacement viaduct",
+          "note": "The Sixth Street Viaduct seen in the 1995 film was demolished and replaced. This photo shows the new viaduct at the production location, not the surviving screen bridge or a verified canonical story address. Capture date unknown."
+        }
+      },
+      "productionCoordinates": [
+        -118.230295,
+        34.037063
+      ],
+      "deaths": [
+        {
+          "title": "Strange Days",
+          "people": [
+            "Jeriko One",
+            "James “Replay” Polton",
+            "Diamanda"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "name": "Bonaventure Hotel",
+      "short": "Bonaventure Hotel",
+      "category": "event",
+      "categories": [
+        "event",
+        "home",
+        "death"
+      ],
+      "address": "404 South Figueroa Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.256003,
+        34.053401
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Philo Gant",
+        "Faith Justin",
+        "Max Peltier",
+        "Lenny Nero",
+        "Lornette 'Mace' Mason",
+        "Palmer Strickland"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Strange Days",
+          "release_year": 1995,
+          "story_role": "New Year’s Eve party",
+          "filming_component": "interior and exterior",
+          "source_ids": [
+            "ps_strange_fo",
+            "ps_strange_locations",
+            "ps_strange_transcript",
+            "ps_bonaventure_clip",
+            "ps_census"
+          ],
+          "story_time": {
+            "year": 1999,
+            "month": 12,
+            "precision": "night",
+            "certainty": "explicit",
+            "basis": "The Bonaventure climax begins on New Year’s Eve 1999 and the closing celebration crosses midnight into 1 January 2000.",
+            "source_ids": [
+              "ps_strange_transcript",
+              "ps_strange_script"
+            ],
+            "day": 31,
+            "end_year": 2000
+          },
+          "characters": [
+            {
+              "name": "Philo Gant",
+              "relationship": "stays in suite; killed here"
+            },
+            {
+              "name": "Faith Justin",
+              "relationship": "in Gant’s suite"
+            },
+            {
+              "name": "Max Peltier",
+              "relationship": "kills Gant; falls to his death"
+            },
+            {
+              "name": "Lenny Nero",
+              "relationship": "confronts Max"
+            },
+            {
+              "name": "Lornette 'Mace' Mason",
+              "relationship": "delivers evidence at party"
+            },
+            {
+              "name": "Palmer Strickland",
+              "relationship": "receives evidence"
+            }
+          ],
+          "categories": [
+            "event",
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Bonaventure Hotel",
+        "precision": "street-interpolated",
+        "reason": "The Bonaventure is the named hotel for the ballroom and Gant’s suite. Its building address anchors these scenes. The outdoor police coda was partly filmed on Broadway; those production positions are not substituted for story geography here.",
+        "sourceIds": [
+          "ps_strange_fo",
+          "ps_strange_locations",
+          "ps_strange_transcript",
+          "ps_bonaventure_clip",
+          "ps_census"
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/ps263-screen.jpg",
+          "sourceUrl": "https://clip.cafe/strange-days-1995/i-didnt-know-you-colour-blind-max/",
+          "credit": "Strange Days film frame; Clip.Cafe",
+          "title": "Strange Days",
+          "alt": "Max confronts Lenny in Philo Gant’s hotel suite.",
+          "imageUrl": "https://clip.cafe/clipimg/i-didnt-know-you-colour-blind-max.jpg",
+          "width": 720,
+          "height": 304
+        },
+        "place": {
+          "src": "photos/ps263-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+          "credit": "Film Oblivion",
+          "title": "Strange Days",
+          "alt": "The Bonaventure Hotel towers and lower terrace.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/10/strangedays6.jpg?w=1024",
+          "width": 1024,
+          "height": 768,
+          "caption": "Site today",
+          "note": "Capture date not supplied by the photographer’s page."
+        }
+      },
+      "productionCoordinates": [
+        -118.256003,
+        34.053401
+      ],
+      "deaths": [
+        {
+          "title": "Strange Days",
+          "people": [
+            "Philo Gant",
+            "Max Peltier"
+          ]
+        }
+      ]
+    }
+  ],
+  "revisedPlaces": [
+    {
+      "id": 96,
+      "name": "Rialto Theatre",
+      "short": "Rialto Theatre",
+      "categories": [
+        "hangout",
+        "event",
+        "death"
+      ],
+      "category": "hangout",
+      "address": "1023 South Fair Oaks Avenue",
+      "area": "South Pasadena",
+      "coordinates": [
+        -118.150418491509,
+        34.114582965082
+      ],
+      "precision": "street-interpolated",
+      "people": [
+        "Mia Dolan",
+        "Sebastian Wilder",
+        "Griffin Mill",
+        "David Kahane"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian's cinema date",
+          "filming_component": "Rialto Theatre",
+          "source_ids": [
+            "lalaland_locations"
+          ],
+          "characters": [
+            {
+              "name": "Mia Dolan",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "lalaland_locations"
+            ]
+          }
+        },
+        {
+          "title": "The Player",
+          "release_year": 1992,
+          "story_role": "Griffin meets David",
+          "filming_component": "theatre and adjoining parking lot",
+          "source_ids": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_player_script",
+            "ps_player_afi"
+          ],
+          "story_time": {
+            "year": 1992,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Hollywood setting. Release year is an editorial estimate, not an asserted on-screen date.",
+            "source_ids": [
+              "ps_player_afi",
+              "ps_player_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Griffin Mill",
+              "relationship": "meets and kills David"
+            },
+            {
+              "name": "David Kahane",
+              "relationship": "attends screening; killed outside"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "productionCoordinates": [
+        -118.150418491509,
+        34.114582965082
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "South Pasadena",
+        "precision": "street-interpolated",
+        "sourceIds": [
+          "ps_player_tourist",
+          "ps_player_jetter",
+          "ps_player_script"
+        ],
+        "reason": "The film names the Rialto in Pasadena. The real theatre is in South Pasadena, and the confrontation continues into the adjoining parking lot. Existing La La Land appearance and media are retained."
+      },
+      "media": {
+        "id": 96,
+        "screen": {
+          "src": "photos/096-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/22-TheRialtoTheatre.shtml",
+          "credit": "Seeing Stars / Summit Entertainment",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Rialto1.jpg",
+          "title": "La La Land",
+          "releaseYear": 2016
+        },
+        "place": {
+          "src": "photos/096-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+        }
+      },
+      "deaths": [
+        {
+          "title": "The Player",
+          "people": [
+            "David Kahane"
+          ]
+        }
+      ],
+      "mediaByTitle": {
+        "La La Land": {
+          "id": 96,
+          "screen": {
+            "src": "photos/096-screen.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/22-TheRialtoTheatre.shtml",
+            "credit": "Seeing Stars / Summit Entertainment",
+            "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Rialto1.jpg",
+            "title": "La La Land",
+            "releaseYear": 2016
+          },
+          "place": {
+            "src": "photos/096-place.jpg",
+            "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+            "credit": "Film Oblivion",
+            "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+          }
+        },
+        "The Player": {
+          "screen": {
+            "src": "photos/ps252-screen.jpg",
+            "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+            "credit": "The Player film frame; Movie Tourist",
+            "title": "The Player",
+            "alt": "Griffin arrives at the Rialto Theatre to find David.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWHJWiWMlD-IrCk5gcHK5sk5RURW4SBFEviaNXcdJFRvL4zzO9WfkD58Jxcth4cR1bZ585l6Fu6fvXCrltn-VpAk9u-2VykzrpZWOxsdTdKj8ibKb47qKnka7cYpFkGE1_0y3i3PsVl-s/s1600/Rialto_ThePlayer.jpg",
+            "width": 736,
+            "height": 399
+          },
+          "place": {
+            "src": "photos/ps252-place.jpg",
+            "sourceUrl": "https://movielocationsandmore.blogspot.com/2013/11/the-player-1992.html",
+            "credit": "Robert / Set-Jetter",
+            "title": "The Player",
+            "alt": "The Rialto Theatre on Fair Oaks Avenue.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMSOs1M30C5J-eRPFDGp4NvWFGpuDtCPzLj13YjwhpyF-8bOLys4kBiRpIWdMsxxVUpt6UU5wJzwRTsnE2e2qyiy-nPOCAlk-_TSn_Agcfuc91NW72rFVfVSuHeSnk0KZ3TxPwEdDXHaN9/s1600/IMG_0554.JPG",
+            "width": 1100,
+            "height": 733,
+            "caption": "Rialto Theatre",
+            "note": "Photographer’s location comparison; capture date not independently established."
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ps_player_tourist",
+      "title": "The Player: scene and production-address comparisons",
+      "url": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "source_type": "location research and film frames"
+    },
+    {
+      "id": "ps_player_jetter",
+      "title": "The Player: photographed scene comparisons",
+      "url": "https://movielocationsandmore.blogspot.com/2013/11/the-player-1992.html",
+      "source_type": "location research and original photographs"
+    },
+    {
+      "id": "ps_player_afi",
+      "title": "The Player: AFI synopsis and production history",
+      "url": "https://catalog.afi.com/Film/67076-THE-PLAYER",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "ps_player_script",
+      "title": "The Player: Michael Tolkin screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/the-player-1992.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "ps_player_locations",
+      "title": "The Player: location research",
+      "url": "https://www.movie-locations.com/movies/p/Player.php",
+      "source_type": "location research"
+    },
+    {
+      "id": "ps_strange_fo",
+      "title": "Strange Days: photographed locations",
+      "url": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+      "source_type": "location research and original photographs"
+    },
+    {
+      "id": "ps_strange_locations",
+      "title": "Strange Days: St. James and Bonaventure locations",
+      "url": "https://movie-locations.com/movies/s/Strange-Days.php",
+      "source_type": "location research"
+    },
+    {
+      "id": "ps_strange_script",
+      "title": "Strange Days: Cameron and Cocks screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/strange-days-1995.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "ps_strange_transcript",
+      "title": "Strange Days: final-film dialogue",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=strange-days",
+      "source_type": "film transcript"
+    },
+    {
+      "id": "ps_strange_caps",
+      "title": "Strange Days: film stills",
+      "url": "https://www.screencapsmovie.com/2024/05/strange-days.html",
+      "source_type": "film frames"
+    },
+    {
+      "id": "ps_stjames_clip",
+      "title": "Strange Days: Lenny encounters Strickland at St. James",
+      "url": "https://clip.cafe/strange-days-1995/nero-strickland/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "ps_regent_clip",
+      "title": "Strange Days: Iris recording begins",
+      "url": "https://clip.cafe/strange-days-1995/all-right-a-little-b-and-e-action/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "ps_jeriko_clip",
+      "title": "Strange Days: Jeriko traffic stop",
+      "url": "https://clip.cafe/strange-days-1995/you-know-what-you-pulled-over-the-wrong-black-male-tonight-officer/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "ps_bonaventure_clip",
+      "title": "Strange Days: Max confronts Lenny",
+      "url": "https://clip.cafe/strange-days-1995/i-didnt-know-you-colour-blind-max/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "ps_census",
+      "title": "U.S. Census Bureau address geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "ps_osm_andaz",
+      "title": "Andaz West Hollywood building footprint",
+      "url": "https://www.openstreetmap.org/way/429313736",
+      "source_type": "geospatial data"
+    },
+    {
+      "id": "ps_osm_sunset",
+      "title": "Sunset Tower building footprint",
+      "url": "https://www.openstreetmap.org/way/429313754",
+      "source_type": "geospatial data"
+    },
+    {
+      "id": "ps_lacma_official",
+      "title": "LACMA: new David Geffen Galleries and campus photographs",
+      "url": "https://unframed.lacma.org/2026/05/08/everything-you-need-know-about-lacma-new-david-geffen-galleries",
+      "source_type": "museum publication and original photographs"
+    },
+    {
+      "id": "ps_sunset_official",
+      "title": "Sunset Tower Hotel: pool and hotel photographs",
+      "url": "https://www.sunsettowerhotel.com/",
+      "source_type": "hotel publication and photographs"
+    },
+    {
+      "id": "ps_holly_builder",
+      "title": "Holly Street Village: retained Hall of Justice conversion",
+      "url": "https://www.morleybuilders.com/project-experience/holly-street-village/?cat=53",
+      "source_type": "project developer"
+    },
+    {
+      "id": "ps_esri",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    }
+  ],
+  "audit": [
+    {
+      "id": 250,
+      "name": "Griffin Mill’s studio",
+      "verification": "The unnamed Hollywood studio is played by Hollywood Center Studios. No numbered story address is established; the point represents the production lot, using Census street interpolation.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "1040 N Las Palmas Ave Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1040+N+Las+Palmas+Ave+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "1040 N LAS PALMAS AVE, LOS ANGELES, CA, 90038",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 251,
+      "name": "June Gudmundsdottir & David Kahane’s home",
+      "verification": "Two photographed location comparisons identify the Westholme Avenue production house. No canonical numbered address is established; the point is a production-house proxy.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "1921 Westholme Avenue Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1921+Westholme+Avenue+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "1921 WESTHOLME AVE, LOS ANGELES, CA, 90025",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 253,
+      "name": "David Kahane’s funeral",
+      "verification": "Hollywood Forever Cemetery supplies the lakeside funeral setting. The marker represents the cemetery, not an independently established grave position.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "6000 Santa Monica Blvd Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6000+Santa+Monica+Blvd+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "6000 SANTA MONICA BLVD, LOS ANGELES, CA, 90038",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 254,
+      "name": "St. James Club",
+      "verification": "Both films identify the St. James Club, the former name of Sunset Tower. The point is the mapped building footprint, not the exact poolside table or pickup position.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
+    },
+    {
+      "id": 255,
+      "name": "LACMA",
+      "verification": "The gala is at LACMA’s former campus. The present-day aerial shows the replacement David Geffen Galleries and surrounding museum complex; it is not the surviving screen building.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "5905 Wilshire Blvd Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5905+Wilshire+Blvd+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "5905 W WILSHIRE BLVD, LOS ANGELES, CA, 90036",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 256,
+      "name": "Pasadena police station",
+      "verification": "The screenplay identifies Pasadena police, and location sources identify the former station at Holly and Arroyo Parkway. Holly Street Village now occupies the block; its developer documents retained Hall of Justice lofts. The point represents the former station area, not the modern police headquarters. Census’s Arroyo Boulevard match was rejected as a different street.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
+    },
+    {
+      "id": 257,
+      "name": "Griffin & June’s new home",
+      "verification": "The final home is identified by both location researchers as the Oakmont Drive production house. No canonical numbered street address is established; the point is a production-site proxy.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "20 Oakmont Drive Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=20+Oakmont+Drive+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "20 OAKMONT DR, LOS ANGELES, CA, 90049",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 260,
+      "name": "Sunset Regent Hotel",
+      "verification": "The film names the Sunset Regent. Film Oblivion identifies its balcony sequence at the Hyatt West Hollywood, now Andaz. The hotel is a production proxy for the fictional Sunset Regent; the point follows the actual building footprint. Census’s imprecise Sunset address match was not used.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
+    },
+    {
+      "id": 261,
+      "name": "Jeriko One’s memorial",
+      "verification": "The screenplay places the memorial at a South Central church. The photographed production church is at 3751 West 54th Street. Its real congregation is not asserted as the fictional church’s denomination.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "3751 W 54th St Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3751+W+54th+St+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "3751 W 54TH ST, LOS ANGELES, CA, 90043",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 262,
+      "name": "Jeriko One’s killing",
+      "verification": "The stop was filmed beneath the former Sixth Street Viaduct. The final-film news says the victims’ bodies were found under the Hollywood Freeway; it does not establish the actual stop’s street. No canonical point is assigned to the killing.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
+    },
+    {
+      "id": 263,
+      "name": "Bonaventure Hotel",
+      "verification": "The Bonaventure is the named hotel for the ballroom and Gant’s suite. Its building address anchors these scenes. The outdoor police coda was partly filmed on Broadway; those production positions are not substituted for story geography here.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established.",
+      "geocode": {
+        "query": "404 S Figueroa St Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=404+S+Figueroa+St+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "404 S FIGUEROA ST, LOS ANGELES, CA, 90071",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Rialto Theatre",
+      "verification": "The film names the Rialto in Pasadena. The real theatre is in South Pasadena, and the confrontation continues into the adjoining parking lot. Existing La La Land appearance and media are retained.",
+      "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
+    },
+    {
+      "id": 262,
+      "chronology": "Jeriko’s killing precedes the story’s replay of its recording. December 1999 is certain, but the precise day is not asserted from the final film."
+    },
+    {
+      "id": 263,
+      "deaths": "Only Philo Gant and Max Peltier deaths belong to the suite/terrace entry. Steckler and Engelman die during the street coda and are not assigned false precise hotel-room points.",
+      "geocode": {
+        "query": "404 S Figueroa St Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=404+S+Figueroa+St+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "404 S FIGUEROA ST, LOS ANGELES, CA, 90071",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "id": 255,
+      "photo": "Current source aerial shows the rebuilt campus, not a surviving 1992 screen building. The source does not establish exact capture date; publication date is not used as one.",
+      "geocode": {
+        "query": "5905 Wilshire Blvd Los Angeles CA",
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5905+Wilshire+Blvd+Los+Angeles+CA&benchmark=Public_AR_Current&format=json",
+        "match": "5905 W WILSHIRE BLVD, LOS ANGELES, CA, 90036",
+        "precision": "street-interpolated"
+      }
+    },
+    {
+      "excluded": [
+        "Two Bunch Palms: story trip outside Los Angeles County",
+        "Venice SQUID memory: original recording date not established",
+        "Unidentified Lenny Nero apartment and Retinal Fetish: no verified production anchor in reviewed sources"
+      ]
+    },
+    {
+      "id": 260,
+      "media_review": "Replaced the clip thumbnail showing Lenny in the car with the actual hotel-door POV frame at 5.5 seconds. Real-site aerial centered using the Andaz building footprint."
+    }
+  ]
+}

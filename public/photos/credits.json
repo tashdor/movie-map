@@ -1902,6 +1902,49 @@
       "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
       "credit": "Film Oblivion",
       "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+    },
+    "byTitle": {
+      "La La Land": {
+        "id": 96,
+        "screen": {
+          "src": "photos/096-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/22-TheRialtoTheatre.shtml",
+          "credit": "Seeing Stars / Summit Entertainment",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Rialto1.jpg",
+          "title": "La La Land",
+          "releaseYear": 2016
+        },
+        "place": {
+          "src": "photos/096-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+        }
+      },
+      "The Player": {
+        "screen": {
+          "src": "photos/ps252-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin arrives at the Rialto Theatre to find David.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWHJWiWMlD-IrCk5gcHK5sk5RURW4SBFEviaNXcdJFRvL4zzO9WfkD58Jxcth4cR1bZ585l6Fu6fvXCrltn-VpAk9u-2VykzrpZWOxsdTdKj8ibKb47qKnka7cYpFkGE1_0y3i3PsVl-s/s1600/Rialto_ThePlayer.jpg",
+          "width": 736,
+          "height": 399
+        },
+        "place": {
+          "src": "photos/ps252-place.jpg",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2013/11/the-player-1992.html",
+          "credit": "Robert / Set-Jetter",
+          "title": "The Player",
+          "alt": "The Rialto Theatre on Fair Oaks Avenue.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMSOs1M30C5J-eRPFDGp4NvWFGpuDtCPzLj13YjwhpyF-8bOLys4kBiRpIWdMsxxVUpt6UU5wJzwRTsnE2e2qyiy-nPOCAlk-_TSn_Agcfuc91NW72rFVfVSuHeSnk0KZ3TxPwEdDXHaN9/s1600/IMG_0554.JPG",
+          "width": 1100,
+          "height": 733,
+          "caption": "Rialto Theatre",
+          "note": "Photographer’s location comparison; capture date not independently established."
+        }
+      }
     }
   },
   "101": {
@@ -3970,6 +4013,685 @@
       "date": "2025-11-26",
       "caption": "Former filming site · aerial",
       "note": "Vantor World Imagery metadata gives capture date November 26, 2025, 0.34 m resolution, 8.47 m stated imagery accuracy. This is the real production-site area, not a photograph of a surviving police station."
+    }
+  },
+  "250": {
+    "screen": {
+      "src": "photos/ps250-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "The opening tracking shot on Griffin’s studio lot.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3qP8U61JopdnYORLnT9KobVK1VsRU5xz_iTKlb1KrofDz15Cm8KXiedQLwnWwm1mQey7TjEu_OQEYxtIZQ7w9Zt5G6q6jKSM9a9QH2EpigSPnR4jtWhlE8AdK4kyu4I-_-InaOte_Xk/s1600/CenterStudios1_ThePlayer.jpg",
+      "width": 720,
+      "height": 413
+    },
+    "place": {
+      "src": "photos/ps250-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "The Player",
+      "alt": "Aerial of the Las Palmas studio lot.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3397%2C34.08865%2C-118.3349%2C34.09115&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Filming site · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+    }
+  },
+  "251": {
+    "screen": {
+      "src": "photos/ps251-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin watches June through the front window of her home.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl7GoF_wFUn5BP8S5QugFiZQu293pMkEhz4W826Ntg6ZnM25QilOwMh1UGsGI5lrhAf-IDrakLovSBJ2xxl_2rB-CSgvFDGblsYwYTMX7q1U_dIvUkSWrricj0obUNu5_e7fXrCkULmCU/s1600/KahanesHouse_ThePlayer.jpg",
+      "width": 720,
+      "height": 378
+    },
+    "place": {
+      "src": "photos/ps251-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "The Player",
+      "alt": "Aerial of the Westholme Avenue production house and its block.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.4285%2C34.05205%2C-118.4261%2C34.05325&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Filming site · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+    }
+  },
+  "253": {
+    "screen": {
+      "src": "photos/ps253-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin observes the lakeside funeral for David Kahane.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1qh_cIod6RUwIf91y61uVE2h_BOfSxqL5My7AZuZrJi_rvPcqcBKHd-v3cJpInDBm0JGyQQW7s_9UYSjdvS-AAJjuTmd4EPKSuqokXGIrfe3zzANBeC08K0QeGGsGqpV_G45lPFpka7o/s1600/HollywoodForeverCemetery_ThePlayer.jpg",
+      "width": 720,
+      "height": 387
+    },
+    "place": {
+      "src": "photos/ps253-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "The Player",
+      "alt": "Aerial of Hollywood Forever Cemetery, including its lake.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.322,34.087,-118.3145,34.0915&bboxSR=4326&imageSR=3857&size=1100,650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Cemetery · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The point represents the cemetery, not an exact grave."
+    }
+  },
+  "254": {
+    "screen": {
+      "src": "photos/ps254-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin sits by the pool with Tom Oakley and Andy Civella.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsT3BOUG7LL2XMnrihLVcIbyJUX_y3FNqZhYWPPlUZzu90WIgbORg_9ShRi9YXskRYby2QZAX5FlzC9AoI4BGBJIUjI3v0oWaoOqh5kvb-C1WjbbTOMQat28aF4JWz69yY-K_E1q5mfoI/s1600/SunsetTower1_ThePlayer.jpg",
+      "width": 720,
+      "height": 394
+    },
+    "place": {
+      "src": "photos/ps254-place.jpg",
+      "sourceUrl": "https://www.sunsettowerhotel.com/",
+      "credit": "Sunset Tower Hotel",
+      "title": "The Player",
+      "alt": "The hotel pool terrace and Sunset Tower.",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+      "width": 500,
+      "height": 749,
+      "caption": "Site today",
+      "note": "Current hotel-site photograph; capture date is not supplied."
+    },
+    "byTitle": {
+      "The Player": {
+        "screen": {
+          "src": "photos/ps254-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+          "credit": "The Player film frame; Movie Tourist",
+          "title": "The Player",
+          "alt": "Griffin sits by the pool with Tom Oakley and Andy Civella.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsT3BOUG7LL2XMnrihLVcIbyJUX_y3FNqZhYWPPlUZzu90WIgbORg_9ShRi9YXskRYby2QZAX5FlzC9AoI4BGBJIUjI3v0oWaoOqh5kvb-C1WjbbTOMQat28aF4JWz69yY-K_E1q5mfoI/s1600/SunsetTower1_ThePlayer.jpg",
+          "width": 720,
+          "height": 394
+        },
+        "place": {
+          "src": "photos/ps254-place.jpg",
+          "sourceUrl": "https://www.sunsettowerhotel.com/",
+          "credit": "Sunset Tower Hotel",
+          "title": "The Player",
+          "alt": "The hotel pool terrace and Sunset Tower.",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+          "width": 500,
+          "height": 749,
+          "caption": "Site today",
+          "note": "Current hotel-site photograph; capture date is not supplied."
+        }
+      },
+      "Strange Days": {
+        "screen": {
+          "src": "photos/ps254-strange-screen.jpg",
+          "sourceUrl": "https://clip.cafe/strange-days-1995/nero-strickland/",
+          "credit": "Strange Days film frame; Clip.Cafe",
+          "title": "Strange Days",
+          "alt": "Lenny encounters Commissioner Strickland at St. James.",
+          "imageUrl": "https://clip.cafe/clipimg/nero-strickland.jpg",
+          "width": 720,
+          "height": 304,
+          "caption": "Strange Days · 1995"
+        },
+        "place": {
+          "src": "photos/ps254-place.jpg",
+          "sourceUrl": "https://www.sunsettowerhotel.com/",
+          "credit": "Sunset Tower Hotel",
+          "title": "The Player",
+          "alt": "The hotel pool terrace and Sunset Tower.",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/59026304197aea3c312133a4/1687378609546-XZ2IVIL8USFPEE6PI6VY/sunset-tower-hotel-the-pool.jpg?format=1500w",
+          "width": 500,
+          "height": 749,
+          "caption": "Site today",
+          "note": "Current hotel-site photograph; capture date is not supplied."
+        }
+      }
+    }
+  },
+  "255": {
+    "screen": {
+      "src": "photos/ps255-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin and June arrive at the LACMA gala.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuIn6-__lwNkOKCjzMTwSkj_AbatVsaTYPVPHv6HBkfLmlpwyJ0cdYQCB1-TYl8JZlQmN7-ibXRsYkNBXbboK0YoI1aLgM7aZyl3wb5i7c_o5VoH7v1gUu2m1LgjdWhybmrHeifbsbc4/s1600/LACMA1_ThePlayer.jpg",
+      "width": 720,
+      "height": 390
+    },
+    "place": {
+      "src": "photos/ps255-place.jpg",
+      "sourceUrl": "https://unframed.lacma.org/2026/05/08/everything-you-need-know-about-lacma-new-david-geffen-galleries",
+      "credit": "Iwan Baan / LACMA",
+      "title": "The Player",
+      "alt": "The rebuilt LACMA campus with the David Geffen Galleries.",
+      "imageUrl": "https://unframed.lacma.org/sites/default/files/attachments/DGG_IwanBaan_012_062025.jpg",
+      "width": 1100,
+      "height": 734,
+      "caption": "Replacement campus",
+      "note": "LACMA’s new David Geffen Galleries replace the former 1992 campus. Iwan Baan’s aerial documents the new campus; exact capture date is not independently supplied."
+    }
+  },
+  "256": {
+    "screen": {
+      "src": "photos/ps256-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin leaves the old Pasadena police station with the detectives.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQv8VoRez9XwWqoFElOla2PadR_-DYYVmhEquQevDjOoEPcfcWBGooXHpFZWHG1HF-GQuXp8hqgXZntU9762U_YJ5AGHzfaa_B8ZGoUyJFu6ZH_cs-zXKqj-z491Ql8U3zOPIlZpG4IGM/s1600/PasadenaPoliceStation_ThePlayer.jpg",
+      "width": 720,
+      "height": 385
+    },
+    "place": {
+      "src": "photos/ps256-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "The Player",
+      "alt": "Aerial of the Holly Street Village block at the former station site.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.1486%2C34.1473%2C-118.1458%2C34.148700000000005&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Filming site · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+    }
+  },
+  "257": {
+    "screen": {
+      "src": "photos/ps257-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/03/the-player-1992.html",
+      "credit": "The Player film frame; Movie Tourist",
+      "title": "The Player",
+      "alt": "Griffin arrives at the home he shares with June in the ending.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6eSk5XaC0vu3qIs49M99YryrfwK64IZObzydq0V7p8l9GFG2W9Z0DFw58UAVQxxhRAyIJt2QYuhYLmG3hyphenhyphen36txXvV61VijrXpaENgiMyojYJA8g0nScbLwYObu8Ur731bwFcPbZzxkY0/s1600/Mills2ndHouse1_ThePlayer.jpg",
+      "width": 720,
+      "height": 391
+    },
+    "place": {
+      "src": "photos/ps257-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "The Player",
+      "alt": "Aerial of the Oakmont Drive production property.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.49210000000001%2C34.0667%2C-118.4893%2C34.0681&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Filming site · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+    }
+  },
+  "260": {
+    "screen": {
+      "src": "photos/ps260-screen.jpg",
+      "sourceUrl": "https://clip.cafe/strange-days-1995/all-right-a-little-b-and-e-action/",
+      "credit": "Strange Days film frame; Clip.Cafe",
+      "title": "Strange Days",
+      "alt": "Gloved hands at Iris’s hotel-room door in the recorded point-of-view sequence.",
+      "imageUrl": "https://clip.cafe/videos/all-right-a-little-b-and-e-action.mp4",
+      "width": 720,
+      "height": 304,
+      "note": "Still extracted at 5.5 seconds from the cited published film clip."
+    },
+    "place": {
+      "src": "photos/ps260-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and GIS User Community",
+      "title": "Strange Days",
+      "alt": "Aerial of the Andaz West Hollywood production hotel.",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.374582%2C34.094701%2C-118.371782%2C34.096101000000004&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "width": 1100,
+      "height": 650,
+      "caption": "Filming site · aerial",
+      "note": "Aerial basemap; capture date is not supplied. The film frame and production site were checked separately."
+    }
+  },
+  "261": {
+    "screen": {
+      "src": "photos/ps261-screen.jpg",
+      "sourceUrl": "https://www.screencapsmovie.com/2024/05/strange-days.html",
+      "credit": "Strange Days film frame; ScreencapsMovie",
+      "title": "Strange Days",
+      "alt": "Max watches the memorial crowd outside the church.",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmztK1Iyk29ODBiZZJD-XWceMdtQzIvIJCUAzOMoYLjsPX8zvUryBRdvWCZH-yuP1BW3Ur7qfNy2i2ekxwSS3pXgLQsfFR7I_1wQmD7eFylkR-aEMi8ZI6LVVvf1U1EnfySKVgHC6eLh6Q9f9HePabJEHvbxJoQ8i4QPp8IcZncgpAJQrZXGuz-Fw/s1600/screencapsmovie.com_strange_days_(48).jpg",
+      "width": 1100,
+      "height": 468
+    },
+    "place": {
+      "src": "photos/ps261-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+      "credit": "Film Oblivion",
+      "title": "Strange Days",
+      "alt": "The West 54th Street church used for Jeriko’s memorial.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/10/strangedays9.jpg?w=1024",
+      "width": 1024,
+      "height": 768,
+      "caption": "Production church",
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "262": {
+    "screen": {
+      "src": "photos/ps262-screen.jpg",
+      "sourceUrl": "https://clip.cafe/strange-days-1995/you-know-what-you-pulled-over-the-wrong-black-male-tonight-officer/",
+      "credit": "Strange Days film frame; Clip.Cafe",
+      "title": "Strange Days",
+      "alt": "Steckler and Engelman confront Jeriko during the recorded traffic stop.",
+      "imageUrl": "https://clip.cafe/clipimg/you-know-what-you-pulled-over-the-wrong-black-male-tonight-officer.jpg",
+      "width": 720,
+      "height": 304
+    },
+    "place": {
+      "src": "photos/ps262-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+      "credit": "Film Oblivion",
+      "title": "Strange Days",
+      "alt": "The rebuilt Sixth Street Viaduct at Santa Fe Avenue.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/terminator2-20.jpg?w=1024",
+      "width": 1024,
+      "height": 768,
+      "caption": "Replacement viaduct",
+      "note": "The Sixth Street Viaduct seen in the 1995 film was demolished and replaced. This photo shows the new viaduct at the production location, not the surviving screen bridge or a verified canonical story address. Capture date unknown."
+    }
+  },
+  "263": {
+    "screen": {
+      "src": "photos/ps263-screen.jpg",
+      "sourceUrl": "https://clip.cafe/strange-days-1995/i-didnt-know-you-colour-blind-max/",
+      "credit": "Strange Days film frame; Clip.Cafe",
+      "title": "Strange Days",
+      "alt": "Max confronts Lenny in Philo Gant’s hotel suite.",
+      "imageUrl": "https://clip.cafe/clipimg/i-didnt-know-you-colour-blind-max.jpg",
+      "width": 720,
+      "height": 304
+    },
+    "place": {
+      "src": "photos/ps263-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2021/10/13/strange-days-1995/",
+      "credit": "Film Oblivion",
+      "title": "Strange Days",
+      "alt": "The Bonaventure Hotel towers and lower terrace.",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/10/strangedays6.jpg?w=1024",
+      "width": 1024,
+      "height": 768,
+      "caption": "Site today",
+      "note": "Capture date not supplied by the photographer’s page."
+    }
+  },
+  "270": {
+    "screen": {
+      "src": "photos/sc270-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2RHIyzyjLNGeqav_meipE7lM0JRZcgOMomVgPFzaRk7H0IaP8E-csu72i57161a1EOdshRnQBJNE_KslYnFO30yac1CbM7yIMYD-dLskWYr6zak2IdLk6vQ4eUMrDgIb7DtLI9X_VOjkE/s400/Building+1.JPG",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc270-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKcmE200I131GOovj8wnuDqKvH_9E86XiJ-T0aTJm6f_wBM7L6PHToQXdQo17SLefLUmyeZchgKkl8P7xMvKnG53XIEfoS7B9Fr7nSSCBHA4KkahyTcyPaRi9ll2QHYcUu8fMUAW9WX0mbhUKqNj9Nu4BK3oTzghiMfRcYieZYouMOj6kZ2yF6HLpK/w400-h295/B.jpg",
+      "credit": "Chas Demster / Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Gas Company Tower"
+    }
+  },
+  "271": {
+    "screen": {
+      "src": "photos/sc271-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/FirstBusExplodes.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc271-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-v5-riYpUHw10geTpPT-Izrm0Pd53ThTL3m6leAdeQEKdgGBvW5j1e_OeVbFMckXCAvUjP5WkAYIfc1wQJJ05kVbEMdEXBx2lYUP6c0BsQKEW9uVhqtyxErBuSVL1zBvSFAaWPqdN4Ms/s400/DSCF7373.JPG",
+      "credit": "Chas Demster / Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Main Street"
+    }
+  },
+  "272": {
+    "screen": {
+      "src": "photos/sc272-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/SandraChasingBus1.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc272-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhyphenhyphenBsu2kKXo8s9OyBb0dgaR1B0XgxJgDr6MRhHYy5V3yD49WiPOdHC5TsJxjfhQUi1YAEd7lgB5G1iAzqohe-zjo9HFiWkMPMw1zUh3K1rwVd3CNbhV3Xqqa8PzzBYpS0fsek-pH3-aNw/s400/Wall.jpg",
+      "credit": "Site photograph reproduced by Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Ocean Park Boulevard"
+    }
+  },
+  "273": {
+    "screen": {
+      "src": "photos/sc273-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed4.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/BusJump.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc273-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/03/30/speed-1994/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland33.jpg",
+      "credit": "Film Oblivion",
+      "note": "105/110 interchange production site; this is not an identified story jump location. Capture date not specified.",
+      "caption": "105/110 filming site"
+    }
+  },
+  "274": {
+    "screen": {
+      "src": "photos/sc274-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed5.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/LAX-Smokestacks.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc274-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.44250000000001%2C33.9261%2C-118.4105%2C33.945299999999996&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "caption": "LAX · aerial",
+      "note": "Aerial photograph of LAX’s southwest airfield; acquisition date unavailable. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+    }
+  },
+  "275": {
+    "screen": {
+      "src": "photos/sc275-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCy7VOm505PhI-7Lnd1aZSmU-FSiWIsVzTd2FuGiyafSJJBgF9ZbdyoUx8_ub-VfPz9eyX3eDMtdpJd7WFd0IO5KUtUxAnWH0fufBSxHE3K3Uq8rGA1L4H7zW-nRpZxFUOjIs-UwV6IUNX/s400/House+2.JPG",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc275-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX8aQUHg1VXRWA0qbyi4ExUE2nTDYYUpK8e3JtUf9BP-mU0jYh-5sPQbwMp4US945jR9ISJdZaSN65KKywITSh3RhmVhwAvI6AzO1lFELvp7J4y2tsv_45rdEPLJmdF4C9CTkarVsTVQg/s400/House+1.jpg",
+      "credit": "Site photograph reproduced by Its Filmed There",
+      "note": "Playa del Rey production house frontage; the facade seen in the film was temporary. This photograph does not show a verified Sun Valley story house.",
+      "caption": "Playa del Rey filming site"
+    }
+  },
+  "276": {
+    "screen": {
+      "src": "photos/sc276-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed5.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/PershingSquareCorner.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc276-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/03/30/speed-1994/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/speed5.jpg",
+      "credit": "Film Oblivion",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Pershing Square"
+    }
+  },
+  "277": {
+    "screen": {
+      "src": "photos/sc277-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed7.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/SubwayStation.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc277-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pershing_Square_(Los_Angeles_Metro_station)-July_2022.JPG",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pershing_Square_%28Los_Angeles_Metro_station%29-July_2022.JPG/1280px-Pershing_Square_%28Los_Angeles_Metro_station%29-July_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Benoît Prieur / Wikimedia Commons",
+      "license": "CC0",
+      "date": "2022-07-27",
+      "caption": "Pershing Square station"
+    }
+  },
+  "278": {
+    "screen": {
+      "src": "photos/sc278-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed7.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/Graumans.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc278-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUR0ao5MRLhaM2K37hMQgiq7Zp8pyppY1K3vSbAZjYNkVZoaXZkCaXfvYtELsHWNrERX02eM7WfCAd_xSsPmabDxcXBa-52FKVaUHVyp-P62TQ-Kd2GMkU8jcZqxWsPGcSgr6MzFATv9s/s1600/565.JPG",
+      "credit": "Site photograph reproduced by Its Filmed There",
+      "note": "Capture date not specified by publisher.",
+      "caption": "Chinese Theatre"
+    }
+  },
+  "279": {
+    "screen": {
+      "src": "photos/sc279-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/BusSmashesSigns.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "Actual film frame.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc279-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.31207%2C34.035439999999994%2C-118.30607%2C34.03904&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "caption": "Western Avenue · aerial",
+      "note": "Aerial photograph of the actual Western Avenue / 10 Freeway junction named in the story; the movie exit footage was filmed in Long Beach. Acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+    }
+  },
+  "280": {
+    "screen": {
+      "src": "photos/sc280-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjdoLo5U43624vjdUBFBAkbcV51Vhx7dPH2zCCTzKOuApBjp1MFkdCvMs6pNu44csNw57DU8v4e6Uz7q5v4U47_YVb5zpHuxhBSXLSB8seP2FQx-oZrKDHJYvn1SN-xqid-AuCcJ-U3bqU/s400/Carjacking1036CBroxtonAve_Crash.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc280-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5gV8ksUaDxcxVSeR4q_9ZMPva13X6Z84B9hI1NfZU_4mMv1c5-Wk7tzFujyLkfYnQL9r15oqm4rHe4unP3jdb0ZYGLorx9dr88HMad8O2rBQMmTLBDaaDOtNmPHAt99Z_tZnsEz6LW_-/s400/Carjacking1036CBroxtonAve_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "Site photograph reproduced in the 2013 Movie Tourist comparison; capture date not stated.",
+      "caption": "Broxton Avenue"
+    }
+  },
+  "281": {
+    "screen": {
+      "src": "photos/sc281-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDuju1T2dhLt9JwgNQc7GeLTcjBV5PxByyi99nv3hSJ6icU9IKKXOe5WNaZXfuvaouD_ZJmn8fMvit6BlRKKKYauYnXSRDCEuuxw9GFWgiofrBKZDgA0HlKsl39zR66R7PuQtbsv2jnwtU/s400/CarneysRestaurant12601Ventura_Crash.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc281-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhcScl-NRL5QjPSQ-o1Kpp_ItEqRbUf5MWODBFKabwOUyjJ-L6KrnI7M8hdlIIlrCqJYMFOPr0sXRatp_dQvy7KlS-ogR__ekpJFC7ycIj1HG67smfvHLU8bCMZ_M6MQOSVYyBrTbjwVtV/s400/CarneysRestaurant12601Ventura_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+      "caption": "Carney’s"
+    }
+  },
+  "282": {
+    "screen": {
+      "src": "photos/sc282-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Crash.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Frisk.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc282-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4w3wMgSQXl61rNgY-xFfMndPcillBgWUxPwAFm0-z_NAsDlMqEq01sFbH8H8sN0IR69AXHhQDaxMPdlr-G4gTV-cTXoFXAhkzI_NUwdGVPg9YJoC4sJojrdFvZ-JqRBRRLkkAwV-tH3B/s400/DillonStopsHoward_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+      "caption": "Radford Avenue"
+    }
+  },
+  "283": {
+    "screen": {
+      "src": "photos/sc283-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Crash2.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Crash/MerchantsStore1.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc283-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.26405%2C33.771750000000004%2C-118.26005%2C33.77415&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "caption": "Market filming site · aerial",
+      "note": "Aerial photograph of Avalon Boulevard and C Street. The market’s production building is on the northwest corner; acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+    }
+  },
+  "284": {
+    "screen": {
+      "src": "photos/sc284-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAg1PCZxCoa1qyhVco7Ne1RXGnjz7QcZfBok_MjQW2ccyioeJrkQf47OQxVSXjYySTdborEl1GhxE66ylB1F64Lmi1Ht-oRgfUfoWjhRDy5_yY8Hr65YFtw4NwrN6PeWl-WCrW4Smqn9bY/s400/PenasHouse1_Crash.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc284-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.181716%2C34.117299%2C-118.177716%2C34.119699&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "caption": "Elgin Street filming site · aerial",
+      "note": "Aerial photograph of the Elgin Street production house and neighboring blocks in Eagle Rock / Highland Park. This is not the Westchester story location. Acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+    }
+  },
+  "285": {
+    "screen": {
+      "src": "photos/sc285-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Studio.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc285-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RaleighStudios2025.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/RaleighStudios2025.jpg/1280px-RaleighStudios2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Penny Richards / Wikimedia Commons",
+      "license": "CC0",
+      "date": "2025-11-23",
+      "caption": "Raleigh Studios",
+      "note": "Raleigh Studios on Melrose Avenue, 23 November 2025. This is the production location; the screenplay calls the story workplace Columbia Studios. "
+    }
+  },
+  "286": {
+    "screen": {
+      "src": "photos/sc286-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Standoff2.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc286-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkk_ZpFRnvoMtCqQEM4r4_NU04qb5aMRDxvmkSmTTc1rKTCfVyhwJs2MausP1hpR6ErHtY9g7WP8uUaQFtjGnsSjH_K8Mvuaopn65cgj4We7q9lhEHA-2SVK2FZtW3oUJMfFhSSzp43B7E/s400/ConfrontationCostelloAve_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+      "caption": "Costello Avenue"
+    }
+  },
+  "287": {
+    "screen": {
+      "src": "photos/sc287-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEFr5zhvxS3ZdYaJsbiV3Xzq8w37XUr7wlizkANfIWm29dKPMZ1ilBg0i6K8u03fjIQq_IlNspIRdq6rhAg9Zdqpk0aXtygrePg4iKQBolKjvtyYt9jxvVNy6q-DTYVYvWs0UFtqetPU7b/s400/GaffeyAnd36SanPedro1_Crash.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc287-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj25W4Wed78BbHmH3V5bCuU4hVLeNSXdL4_BBTmly3NGzLPkGPs4O8Lbi8Ygq71Jf5ytQc6oN1fuMC-QlyV5_Mfgvb1rOrQf1RAXFaLIV8uqGn_14529WLlhOCc_Mf2M-JWU4pI3W-7OIT3/s400/GaffeyAnd36SanPedro_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "The San Pedro filming hill at Gaffey and 36th, reproduced in a 2013 comparison. The screenplay places the story accident in Studio City; capture date not stated.",
+      "caption": "San Pedro filming site"
+    }
+  },
+  "288": {
+    "screen": {
+      "src": "photos/sc288-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Chinatown.jpg",
+      "credit": "Crash / Lions Gate Films",
+      "note": "Actual film frame.",
+      "title": "Crash"
+    },
+    "place": {
+      "src": "photos/sc288-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNBrCMJ592LXYKzq11PF_m8mcOy8LNRkyk4nSphJ4DrIXXoPHCm8FEZ3Ea7ArA0U9Kt9mYyRNfYv4eDs713ONNX1ZwBkAYSlmqlT34Z35Lqc5FJJtbA3WtRUIP5g4dShDF7-lJpFIPygtK/s400/BroadwayAndOrd_Now.jpg",
+      "credit": "Movie Tourist / Yuri G.",
+      "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+      "caption": "Ord Street"
+    }
+  },
+  "289": {
+    "screen": {
+      "src": "photos/sc289-screen.jpg",
+      "sourceUrl": "https://www.seeing-stars.com/Locations/Speed2.shtml",
+      "imageUrl": "https://www.seeing-stars.com/Locations/Speed/Aerial-BusOnFreeway.jpg",
+      "credit": "Speed / Twentieth Century Fox",
+      "note": "The bus on the story’s 10 Freeway, filmed on the 105. This is a contextual freeway frame, not an isolated view of the Lincoln entry named in dialogue.",
+      "title": "Speed"
+    },
+    "place": {
+      "src": "photos/sc289-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.489903%2C34.012299999999996%2C-118.48190299999999%2C34.0171&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery / Esri imagery contributors",
+      "caption": "Lincoln Boulevard · aerial",
+      "note": "Aerial photograph of Lincoln Boulevard and the 10 Freeway in Santa Monica; acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
     }
   }
 }

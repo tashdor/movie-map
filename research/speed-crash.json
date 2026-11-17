@@ -1,0 +1,3850 @@
+{
+  "places": [
+    {
+      "id": 270,
+      "name": "Elevator hostages",
+      "short": "Elevator hostages",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "555 West 5th Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.253399998999,
+        34.049879994267
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "Jack Traven",
+        "Harry Temple",
+        "Howard Payne"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Elevator hostages",
+          "filming_component": "Gas Company Tower exterior; elevator interiors used separate production spaces.",
+          "source_ids": [
+            "sc_speed_ss1",
+            "sc_speed_ift",
+            "sc_speed_fo"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Harry Temple",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Howard Payne",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "555 West 5th Street",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "sc_speed_ss1",
+          "sc_speed_ift",
+          "sc_speed_fo"
+        ],
+        "reason": "The film establishes the downtown office tower with the Gas Company Tower exterior. This is an exterior building anchor, not a claim that the elevator shaft or every interior was filmed here."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc270-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2RHIyzyjLNGeqav_meipE7lM0JRZcgOMomVgPFzaRk7H0IaP8E-csu72i57161a1EOdshRnQBJNE_KslYnFO30yac1CbM7yIMYD-dLskWYr6zak2IdLk6vQ4eUMrDgIb7DtLI9X_VOjkE/s400/Building+1.JPG",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc270-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKcmE200I131GOovj8wnuDqKvH_9E86XiJ-T0aTJm6f_wBM7L6PHToQXdQo17SLefLUmyeZchgKkl8P7xMvKnG53XIEfoS7B9Fr7nSSCBHA4KkahyTcyPaRi9ll2QHYcUu8fMUAW9WX0mbhUKqNj9Nu4BK3oTzghiMfRcYieZYouMOj6kZ2yF6HLpK/w400-h295/B.jpg",
+          "credit": "Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Gas Company Tower"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=555+W+5th+St%2C+Los+Angeles%2C+CA+90013&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "555 W 5th St, Los Angeles, California, 90013",
+        "score": 100
+      }
+    },
+    {
+      "id": 271,
+      "name": "Bob’s bus bombing",
+      "short": "Bob’s bus bombing",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Main Street, just south of Rose Avenue",
+      "area": "Venice",
+      "coordinates": [
+        -118.477908010477,
+        33.995587795376004
+      ],
+      "precision": "documented-block-anchor",
+      "people": [
+        "Bob",
+        "Jack Traven",
+        "Howard Payne"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Bob’s bus bombing",
+          "filming_component": "Main Street immediately south of Rose Avenue; preceding coffee scene at The Firehouse, 213 Rose Avenue.",
+          "source_ids": [
+            "sc_speed_ss1",
+            "sc_speed_ift",
+            "sc_speed_dialogue"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bob",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Howard Payne",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Main Street, just south of Rose Avenue",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "sc_speed_ss1",
+          "sc_speed_ift",
+          "sc_speed_dialogue"
+        ],
+        "reason": "The first bus explodes on Main just south of Rose; released dialogue identifies the earlier bombing as Venice. Bob is killed aboard the bus after leaving The Firehouse across the intersection."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc271-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/FirstBusExplodes.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc271-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-v5-riYpUHw10geTpPT-Izrm0Pd53ThTL3m6leAdeQEKdgGBvW5j1e_OeVbFMckXCAvUjP5WkAYIfc1wQJJ05kVbEMdEXBx2lYUP6c0BsQKEW9uVhqtyxErBuSVL1zBvSFAaWPqdN4Ms/s400/DSCF7373.JPG",
+          "credit": "Chas Demster / Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Main Street"
+        }
+      },
+      "deaths": [
+        {
+          "title": "Speed",
+          "people": [
+            "Bob"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Main+Street+and+Rose+Avenue%2C+Venice%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Main St & Rose Ave, Venice, California, 90291",
+        "score": 100
+      }
+    },
+    {
+      "id": 272,
+      "name": "Annie’s bus stop",
+      "short": "Annie’s bus stop",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Ocean Park Boulevard at Main Street",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.483940976897,
+        34.002361015418
+      ],
+      "precision": "intersection-anchor",
+      "people": [
+        "Annie Porter",
+        "Sam Silver",
+        "Stephens"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Annie’s bus stop",
+          "filming_component": "Southeast corner of Ocean Park Boulevard and Main Street.",
+          "source_ids": [
+            "sc_speed_ss1",
+            "sc_speed_ift",
+            "sc_speed_main"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sam Silver",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stephens",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Ocean Park Boulevard at Main Street",
+        "precision": "intersection-anchor",
+        "sourceIds": [
+          "sc_speed_ss1",
+          "sc_speed_ift",
+          "sc_speed_main"
+        ],
+        "reason": "Payne names Ocean Park and Main in released dialogue. Annie runs east on Ocean Park to board bus 2525 at that same intersection."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc272-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/SandraChasingBus1.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc272-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhyphenhyphenBsu2kKXo8s9OyBb0dgaR1B0XgxJgDr6MRhHYy5V3yD49WiPOdHC5TsJxjfhQUi1YAEd7lgB5G1iAzqohe-zjo9HFiWkMPMw1zUh3K1rwVd3CNbhV3Xqqa8PzzBYpS0fsek-pH3-aNw/s400/Wall.jpg",
+          "credit": "Site photograph reproduced by Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Ocean Park Boulevard"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Main+Street+and+Ocean+Park+Boulevard%2C+Santa+Monica%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Main St & Ocean Park Blvd, Santa Monica, California, 90405",
+        "score": 100
+      }
+    },
+    {
+      "id": 273,
+      "name": "The freeway gap",
+      "short": "The freeway gap",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "105 Freeway · approximate",
+      "area": "105 Freeway",
+      "coordinates": [
+        -118.35,
+        33.9282
+      ],
+      "precision": "road-corridor-approximation",
+      "people": [
+        "Annie Porter",
+        "Jack Traven",
+        "Sam Silver",
+        "Ortiz",
+        "Stephens"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "The freeway gap",
+          "filming_component": "Production jump: westbound I-105 to northbound I-110 transition ramp.",
+          "source_ids": [
+            "sc_speed_ss4",
+            "sc_speed_ift",
+            "sc_speed_dialogue"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sam Silver",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Ortiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stephens",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "105 Freeway · approximate",
+        "precision": "road-corridor-approximation",
+        "sourceIds": [
+          "sc_speed_ss4",
+          "sc_speed_ift",
+          "sc_speed_dialogue"
+        ],
+        "reason": "Released dialogue names the unfinished 105 before the gap and LAX afterward. The jump was filmed on the 105-to-northbound-110 ramp, a production direction that does not establish an uninterrupted westward trip to LAX. The point represents the named freeway corridor; the story’s exact gap location is unestablished.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.403,
+                33.922
+              ],
+              [
+                -118.278,
+                33.922
+              ],
+              [
+                -118.278,
+                33.936
+              ],
+              [
+                -118.403,
+                33.936
+              ],
+              [
+                -118.403,
+                33.922
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.403,
+            33.922
+          ],
+          [
+            -118.278,
+            33.936
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc273-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed4.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/BusJump.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc273-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/03/30/speed-1994/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland33.jpg",
+          "credit": "Film Oblivion",
+          "note": "105/110 interchange production site; this is not an identified story jump location. Capture date not specified.",
+          "caption": "105/110 filming site"
+        }
+      },
+      "productionCoordinates": [
+        -118.280575889293,
+        33.928860483658
+      ]
+    },
+    {
+      "id": 274,
+      "name": "LAX runways",
+      "short": "LAX runways",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Los Angeles International Airport · airfield",
+      "area": "Westchester / LAX",
+      "coordinates": [
+        -118.4265,
+        33.9357
+      ],
+      "precision": "airfield-approximation",
+      "people": [
+        "Annie Porter",
+        "Jack Traven",
+        "Sam Silver",
+        "Ortiz",
+        "Stephens",
+        "Lieutenant McMahon"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "LAX runways",
+          "filming_component": "LAX airfield for runway circling; Mojave Airport for the later empty-bus/airliner explosion.",
+          "source_ids": [
+            "sc_speed_ss5",
+            "sc_speed_ift",
+            "sc_speed_dialogue"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sam Silver",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Ortiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stephens",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lieutenant McMahon",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Los Angeles International Airport · airfield",
+        "precision": "airfield-approximation",
+        "sourceIds": [
+          "sc_speed_ss5",
+          "sc_speed_ift",
+          "sc_speed_dialogue"
+        ],
+        "reason": "Released news dialogue explicitly identifies Los Angeles International Airport. Runway circling was filmed at LAX; the later airliner explosion used Mojave Airport. The map represents the LAX airfield, not a known taxiway loop or the out-of-county Mojave production site.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.448,
+                33.928
+              ],
+              [
+                -118.4,
+                33.928
+              ],
+              [
+                -118.4,
+                33.953
+              ],
+              [
+                -118.448,
+                33.953
+              ],
+              [
+                -118.448,
+                33.928
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.448,
+            33.928
+          ],
+          [
+            -118.4,
+            33.953
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc274-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed5.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/LAX-Smokestacks.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc274-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.44250000000001%2C33.9261%2C-118.4105%2C33.945299999999996&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "caption": "LAX · aerial",
+          "note": "Aerial photograph of LAX’s southwest airfield; acquisition date unavailable. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+        }
+      }
+    },
+    {
+      "id": 275,
+      "name": "Howard Payne’s house",
+      "short": "Howard Payne’s house",
+      "category": "home",
+      "categories": [
+        "home",
+        "death"
+      ],
+      "address": "Sun Valley · approximate",
+      "area": "Sun Valley",
+      "coordinates": [
+        -118.377008,
+        34.225094
+      ],
+      "precision": "neighborhood-approximation",
+      "people": [
+        "Howard Payne",
+        "Harry Temple"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Howard Payne’s house",
+          "filming_component": "Redlands Street and Trask Avenue, Playa del Rey; a temporary facade disguised the real house.",
+          "source_ids": [
+            "sc_speed_ss5",
+            "sc_speed_ift",
+            "sc_speed_sunvalley",
+            "sc_speed_dialogue"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Howard Payne",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Harry Temple",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Sun Valley · approximate",
+        "precision": "neighborhood-approximation",
+        "sourceIds": [
+          "sc_speed_ss5",
+          "sc_speed_ift",
+          "sc_speed_sunvalley",
+          "sc_speed_dialogue"
+        ],
+        "reason": "Released dialogue says Payne retired to Sun Valley. The raid location was filmed near LAX in Playa del Rey, which cannot establish the story house’s address in Sun Valley. The neighborhood point is approximate; the exact residence is unestablished.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.414,
+                34.2
+              ],
+              [
+                -118.35,
+                34.2
+              ],
+              [
+                -118.35,
+                34.255
+              ],
+              [
+                -118.414,
+                34.255
+              ],
+              [
+                -118.414,
+                34.2
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.414,
+            34.2
+          ],
+          [
+            -118.35,
+            34.255
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc275-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCy7VOm505PhI-7Lnd1aZSmU-FSiWIsVzTd2FuGiyafSJJBgF9ZbdyoUx8_ub-VfPz9eyX3eDMtdpJd7WFd0IO5KUtUxAnWH0fufBSxHE3K3Uq8rGA1L4H7zW-nRpZxFUOjIs-UwV6IUNX/s400/House+2.JPG",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc275-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX8aQUHg1VXRWA0qbyi4ExUE2nTDYYUpK8e3JtUf9BP-mU0jYh-5sPQbwMp4US945jR9ISJdZaSN65KKywITSh3RhmVhwAvI6AzO1lFELvp7J4y2tsv_45rdEPLJmdF4C9CTkarVsTVQg/s400/House+1.jpg",
+          "credit": "Site photograph reproduced by Its Filmed There",
+          "note": "Playa del Rey production house frontage; the facade seen in the film was temporary. This photograph does not show a verified Sun Valley story house.",
+          "caption": "Playa del Rey filming site"
+        }
+      },
+      "productionCoordinates": [
+        -118.444087960964,
+        33.95361098645
+      ],
+      "deaths": [
+        {
+          "title": "Speed",
+          "people": [
+            "Harry Temple"
+          ]
+        }
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sun+Valley%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Sun Valley, Los Angeles, California",
+        "score": 100
+      }
+    },
+    {
+      "id": 276,
+      "name": "Pershing Square ransom drop",
+      "short": "Pershing Square ransom drop",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Pershing Square, 5th Street at Hill Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.251791427961,
+        34.048820312158
+      ],
+      "precision": "intersection-anchor",
+      "people": [
+        "Howard Payne",
+        "Jack Traven",
+        "Annie Porter",
+        "Lieutenant McMahon"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Pershing Square ransom drop",
+          "filming_component": "Pershing Square / 5th Street and Hill Street.",
+          "source_ids": [
+            "sc_speed_ss5",
+            "sc_speed_ss6",
+            "sc_speed_fo",
+            "sc_speed_dialogue"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Howard Payne",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lieutenant McMahon",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Pershing Square, 5th Street at Hill Street",
+        "precision": "intersection-anchor",
+        "sourceIds": [
+          "sc_speed_ss5",
+          "sc_speed_ss6",
+          "sc_speed_fo",
+          "sc_speed_dialogue"
+        ],
+        "reason": "Payne explicitly names Pershing Square as the ransom drop. The cash pickup, police stakeout and Annie’s abduction occupy the square and adjacent 5th/Hill corners; the point marks the square’s corner rather than a specific trash can."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc276-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed5.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/PershingSquareCorner.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc276-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/03/30/speed-1994/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/speed5.jpg",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Pershing Square"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=West+5th+Street+and+South+Hill+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "W 5th St & S Hill St, Los Angeles, California, 90013",
+        "score": 100
+      }
+    },
+    {
+      "id": 277,
+      "name": "Pershing Square station",
+      "short": "Pershing Square station",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5th Street at Hill Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.2517977,
+        34.0484707
+      ],
+      "precision": "station-anchor",
+      "people": [
+        "Jack Traven",
+        "Howard Payne",
+        "Annie Porter"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Pershing Square station",
+          "filming_component": "Pershing Square Metro station entrance and platforms.",
+          "source_ids": [
+            "sc_speed_ss7",
+            "sc_speed_ift",
+            "sc_speed_pbs",
+            "sc_station_photo"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Howard Payne",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "5th Street at Hill Street",
+        "precision": "station-anchor",
+        "sourceIds": [
+          "sc_speed_ss7",
+          "sc_speed_ift",
+          "sc_speed_pbs",
+          "sc_station_photo"
+        ],
+        "reason": "The pursuit descends from the Pershing Square drop into the real Pershing Square Red Line station. Payne then takes Annie aboard a train; his later death occurs in a moving tunnel, not at this station pin."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc277-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed7.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/SubwayStation.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc277-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pershing_Square_(Los_Angeles_Metro_station)-July_2022.JPG",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pershing_Square_%28Los_Angeles_Metro_station%29-July_2022.JPG/1280px-Pershing_Square_%28Los_Angeles_Metro_station%29-July_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "credit": "Benoît Prieur / Wikimedia Commons",
+          "license": "CC0",
+          "date": "2022-07-27",
+          "caption": "Pershing Square station"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pershing+Square+Station%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Pershing Square Station",
+        "score": 100
+      }
+    },
+    {
+      "id": 278,
+      "name": "Hollywood subway crash",
+      "short": "Hollywood subway crash",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Hollywood Boulevard, outside the Chinese Theatre",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.34114,
+        34.1015
+      ],
+      "precision": "documented-block-anchor",
+      "people": [
+        "Jack Traven",
+        "Annie Porter"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Hollywood subway crash",
+          "filming_component": "6900 block of Hollywood Boulevard, outside Grauman’s Chinese Theatre.",
+          "source_ids": [
+            "sc_speed_ss7",
+            "sc_speed_ift",
+            "sc_speed_pbs"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Hollywood Boulevard, outside the Chinese Theatre",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "sc_speed_ss7",
+          "sc_speed_ift",
+          "sc_speed_pbs"
+        ],
+        "reason": "The runaway train emerges onto Hollywood Boulevard and comes to rest in front of the Chinese Theatre. The real boulevard and theatre are visible; the film combines models, matte work and a vehicle dressed as a train."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc278-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed7.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/Graumans.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc278-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUR0ao5MRLhaM2K37hMQgiq7Zp8pyppY1K3vSbAZjYNkVZoaXZkCaXfvYtELsHWNrERX02eM7WfCAd_xSsPmabDxcXBa-52FKVaUHVyp-P62TQ-Kd2GMkU8jcZqxWsPGcSgr6MzFATv9s/s1600/565.JPG",
+          "credit": "Site photograph reproduced by Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Chinese Theatre"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6925+Hollywood+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "6925 Hollywood Blvd, Los Angeles, California, 90028",
+        "score": 100
+      }
+    },
+    {
+      "id": 280,
+      "name": "The Cabots’ carjacking",
+      "short": "The Cabots’ carjacking",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Broxton Avenue, 1036 block",
+      "area": "Westwood",
+      "coordinates": [
+        -118.446404132269,
+        34.061890926241
+      ],
+      "precision": "documented-block-anchor",
+      "people": [
+        "Rick Cabot",
+        "Jean Cabot",
+        "Anthony",
+        "Peter Waters"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "The Cabots’ carjacking",
+          "filming_component": "Broxton Avenue in Westwood Village, near 1036 and the Regent Theatre.",
+          "source_ids": [
+            "sc_crash_ss1",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Rick Cabot",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jean Cabot",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Anthony",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Peter Waters",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Broxton Avenue, 1036 block",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "sc_crash_ss1",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi"
+        ],
+        "reason": "The screenplay locates the scene in Westwood, and the released-film synopsis identifies the Westside. Broxton’s visible storefronts support the block-level anchor; 1036 is a reference frontage, not a fictional home address."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc280-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjdoLo5U43624vjdUBFBAkbcV51Vhx7dPH2zCCTzKOuApBjp1MFkdCvMs6pNu44csNw57DU8v4e6Uz7q5v4U47_YVb5zpHuxhBSXLSB8seP2FQx-oZrKDHJYvn1SN-xqid-AuCcJ-U3bqU/s400/Carjacking1036CBroxtonAve_Crash.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc280-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5gV8ksUaDxcxVSeR4q_9ZMPva13X6Z84B9hI1NfZU_4mMv1c5-Wk7tzFujyLkfYnQL9r15oqm4rHe4unP3jdb0ZYGLorx9dr88HMad8O2rBQMmTLBDaaDOtNmPHAt99Z_tZnsEz6LW_-/s400/Carjacking1036CBroxtonAve_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "Site photograph reproduced in the 2013 Movie Tourist comparison; capture date not stated.",
+          "caption": "Broxton Avenue"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1036+Broxton+Avenue%2C+Los+Angeles%2C+CA+90024&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "1036 Broxton Ave, Los Angeles, California, 90024",
+        "score": 100
+      }
+    },
+    {
+      "id": 281,
+      "name": "Ryan’s diner call",
+      "short": "Ryan’s diner call",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "12601 Ventura Boulevard",
+      "area": "Studio City",
+      "coordinates": [
+        -118.407377991084,
+        34.143873985924
+      ],
+      "precision": "address-geocode",
+      "people": [
+        "John Ryan",
+        "Tom Hansen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Ryan’s diner call",
+          "filming_component": "Carney’s, 12601 Ventura Boulevard, Studio City.",
+          "source_ids": [
+            "sc_crash_ss1",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Ryan",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Tom Hansen",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "12601 Ventura Boulevard",
+        "precision": "address-geocode",
+        "sourceIds": [
+          "sc_crash_ss1",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi"
+        ],
+        "reason": "The screenplay explicitly identifies Carney’s in Studio City, matching the visible yellow railway-car restaurant and the production address. Ryan calls Shaniqua from here; she is on the phone, not physically in the diner."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc281-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDuju1T2dhLt9JwgNQc7GeLTcjBV5PxByyi99nv3hSJ6icU9IKKXOe5WNaZXfuvaouD_ZJmn8fMvit6BlRKKKYauYnXSRDCEuuxw9GFWgiofrBKZDgA0HlKsl39zR66R7PuQtbsv2jnwtU/s400/CarneysRestaurant12601Ventura_Crash.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc281-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhcScl-NRL5QjPSQ-o1Kpp_ItEqRbUf5MWODBFKabwOUyjJ-L6KrnI7M8hdlIIlrCqJYMFOPr0sXRatp_dQvy7KlS-ogR__ekpJFC7ycIj1HG67smfvHLU8bCMZ_M6MQOSVYyBrTbjwVtV/s400/CarneysRestaurant12601Ventura_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+          "caption": "Carney’s"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=12601+Ventura+Boulevard%2C+Studio+City%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "12601 Ventura Blvd, Studio City, California, 91604",
+        "score": 100
+      }
+    },
+    {
+      "id": 282,
+      "name": "The Thayers’ traffic stop",
+      "short": "The Thayers’ traffic stop",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Radford Avenue at Hoffman Street",
+      "area": "Studio City",
+      "coordinates": [
+        -118.392612011355,
+        34.144728981957
+      ],
+      "precision": "intersection-anchor",
+      "people": [
+        "Cameron Thayer",
+        "Christine Thayer",
+        "John Ryan",
+        "Tom Hansen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "The Thayers’ traffic stop",
+          "filming_component": "Radford Avenue at Hoffman Street, north of Ventura Boulevard.",
+          "source_ids": [
+            "sc_crash_ss1",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cameron Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Christine Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Ryan",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Tom Hansen",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Radford Avenue at Hoffman Street",
+        "precision": "intersection-anchor",
+        "sourceIds": [
+          "sc_crash_ss1",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi"
+        ],
+        "reason": "The screenplay places the residential traffic stop in Studio City, matching the Ventura pursuit and the Radford/Hoffman production intersection. The map marks the intersection rather than claiming a particular curb position."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc282-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Crash.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Frisk.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc282-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4w3wMgSQXl61rNgY-xFfMndPcillBgWUxPwAFm0-z_NAsDlMqEq01sFbH8H8sN0IR69AXHhQDaxMPdlr-G4gTV-cTXoFXAhkzI_NUwdGVPg9YJoC4sJojrdFvZ-JqRBRRLkkAwV-tH3B/s400/DillonStopsHoward_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+          "caption": "Radford Avenue"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Radford+Avenue+and+Hoffman+Street%2C+Studio+City%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Radford Ave & Hoffman St, Studio City, California, 91604",
+        "score": 100
+      }
+    },
+    {
+      "id": 283,
+      "name": "Farhad’s market",
+      "short": "Farhad’s market",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Avalon Boulevard, northwest corner of C Street",
+      "area": "Wilmington",
+      "coordinates": [
+        -118.26202,
+        33.77287
+      ],
+      "precision": "corner-building-anchor",
+      "people": [
+        "Farhad",
+        "Dorri",
+        "Shereen",
+        "Daniel Ruiz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Farhad’s market",
+          "filming_component": "Brick building on the northwest corner of Avalon Boulevard and C Street, Wilmington.",
+          "source_ids": [
+            "sc_crash_ss2",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_imagery"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Farhad",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Dorri",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Shereen",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Daniel Ruiz",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Avalon Boulevard, northwest corner of C Street",
+        "precision": "corner-building-anchor",
+        "sourceIds": [
+          "sc_crash_ss2",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_imagery"
+        ],
+        "reason": "Seeing Stars and the Worldwide Guide independently identify the northwest-corner building used for Farhad’s store. The final-revisions script gives no conflicting neighborhood for the corner market; this is a production-based anchor, not a spoken street address."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc283-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Crash2.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Crash/MerchantsStore1.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc283-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.26405%2C33.771750000000004%2C-118.26005%2C33.77415&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "caption": "Market filming site · aerial",
+          "note": "Aerial photograph of Avalon Boulevard and C Street. The market’s production building is on the northwest corner; acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Avalon+Boulevard+and+West+C+Street%2C+Wilmington%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "N Avalon Blvd & W C St, Wilmington, California, 90744",
+        "score": 99.87
+      }
+    },
+    {
+      "id": 284,
+      "name": "Daniel and Lara’s home",
+      "short": "Daniel and Lara’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "Westchester · approximate",
+      "area": "Westchester",
+      "coordinates": [
+        -118.397,
+        33.966
+      ],
+      "precision": "neighborhood-approximation",
+      "people": [
+        "Daniel Ruiz",
+        "Lara Ruiz",
+        "Elizabeth Ruiz",
+        "Farhad"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Daniel and Lara’s home",
+          "filming_component": "6317 Elgin Street, Eagle Rock / Highland Park.",
+          "source_ids": [
+            "sc_crash_script",
+            "sc_crash_tourist",
+            "sc_crash_afi",
+            "sc_imagery"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Daniel Ruiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Lara Ruiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Elizabeth Ruiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Farhad",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Westchester · approximate",
+        "precision": "neighborhood-approximation",
+        "sourceIds": [
+          "sc_crash_script",
+          "sc_crash_tourist",
+          "sc_crash_afi",
+          "sc_imagery"
+        ],
+        "reason": "Scene 94 of the final-revisions screenplay specifies Westchester. Elgin Street is the identifiable Eagle Rock-area filming house, not evidence that the family canonically lives there. The map uses an approximate Westchester residential-area point; the released film’s exact street is unestablished.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.422,
+                33.9515
+              ],
+              [
+                -118.37,
+                33.9515
+              ],
+              [
+                -118.37,
+                33.983
+              ],
+              [
+                -118.422,
+                33.983
+              ],
+              [
+                -118.422,
+                33.9515
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.422,
+            33.9515
+          ],
+          [
+            -118.37,
+            33.983
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc284-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAg1PCZxCoa1qyhVco7Ne1RXGnjz7QcZfBok_MjQW2ccyioeJrkQf47OQxVSXjYySTdborEl1GhxE66ylB1F64Lmi1Ht-oRgfUfoWjhRDy5_yY8Hr65YFtw4NwrN6PeWl-WCrW4Smqn9bY/s400/PenasHouse1_Crash.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc284-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.181716%2C34.117299%2C-118.177716%2C34.119699&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "caption": "Elgin Street filming site · aerial",
+          "note": "Aerial photograph of the Elgin Street production house and neighboring blocks in Eagle Rock / Highland Park. This is not the Westchester story location. Acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+        }
+      },
+      "productionCoordinates": [
+        -118.179716113107,
+        34.118498696069
+      ]
+    },
+    {
+      "id": 285,
+      "name": "Cameron’s studio",
+      "short": "Cameron’s studio",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Los Angeles · studio lot unspecified",
+      "area": "Los Angeles",
+      "coordinates": null,
+      "precision": "unlocated",
+      "people": [
+        "Cameron Thayer",
+        "Christine Thayer",
+        "Fred"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Cameron’s studio",
+          "filming_component": "Raleigh Studios, 5300 Melrose Avenue.",
+          "source_ids": [
+            "sc_crash_ss3",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi",
+            "sc_raleigh_photo"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cameron Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Christine Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Fred",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles · studio lot unspecified",
+        "precision": "unlocated",
+        "sourceIds": [
+          "sc_crash_ss3",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi",
+          "sc_raleigh_photo"
+        ],
+        "reason": "Raleigh Studios supplied the production lot. The final-revisions screenplay calls Cameron’s workplace Columbia Studios, Stage 24; the released-film location sources do not establish a precise canonical Columbia lot. Raleigh’s address is retained only as production provenance."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc285-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Studio.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc285-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:RaleighStudios2025.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/RaleighStudios2025.jpg/1280px-RaleighStudios2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "credit": "Penny Richards / Wikimedia Commons",
+          "license": "CC0",
+          "date": "2025-11-23",
+          "caption": "Raleigh Studios",
+          "note": "Raleigh Studios on Melrose Avenue, 23 November 2025. This is the production location; the screenplay calls the story workplace Columbia Studios. "
+        }
+      },
+      "productionCoordinates": [
+        -118.316384804582,
+        34.083224378565
+      ]
+    },
+    {
+      "id": 286,
+      "name": "Cameron’s police standoff",
+      "short": "Cameron’s police standoff",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Costello Avenue cul-de-sac, near 5177",
+      "area": "Sherman Oaks",
+      "coordinates": [
+        -118.438571998122,
+        34.164624979796
+      ],
+      "precision": "cul-de-sac-anchor",
+      "people": [
+        "Cameron Thayer",
+        "Anthony",
+        "Tom Hansen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Cameron’s police standoff",
+          "filming_component": "North end of Costello Avenue, near the frontage at 5177.",
+          "source_ids": [
+            "sc_crash_ss3",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cameron Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Anthony",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Tom Hansen",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Costello Avenue cul-de-sac, near 5177",
+        "precision": "cul-de-sac-anchor",
+        "sourceIds": [
+          "sc_crash_ss3",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi"
+        ],
+        "reason": "The final-revisions script locates the preceding carjacking and chase in Sherman Oaks. The standoff was filmed in the Costello cul-de-sac in that same area; 5177 identifies the visible garage frontage, not Cameron’s residence."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc286-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Standoff2.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc286-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkk_ZpFRnvoMtCqQEM4r4_NU04qb5aMRDxvmkSmTTc1rKTCfVyhwJs2MausP1hpR6ErHtY9g7WP8uUaQFtjGnsSjH_K8Mvuaopn65cgj4We7q9lhEHA-2SVK2FZtW3oUJMfFhSSzp43B7E/s400/ConfrontationCostelloAve_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+          "caption": "Costello Avenue"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5177+Costello+Avenue%2C+Sherman+Oaks%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "5177 Costello Ave, Sherman Oaks, California, 91423",
+        "score": 100
+      }
+    },
+    {
+      "id": 287,
+      "name": "Christine’s rescue",
+      "short": "Christine’s rescue",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Studio City · approximate",
+      "area": "Studio City",
+      "coordinates": [
+        -118.39525,
+        34.143565
+      ],
+      "precision": "neighborhood-approximation",
+      "people": [
+        "Christine Thayer",
+        "John Ryan"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Christine’s rescue",
+          "filming_component": "South Gaffey Street at West 36th Street, San Pedro.",
+          "source_ids": [
+            "sc_crash_script",
+            "sc_crash_ss2",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Christine Thayer",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "John Ryan",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Studio City · approximate",
+        "precision": "neighborhood-approximation",
+        "sourceIds": [
+          "sc_crash_script",
+          "sc_crash_ss2",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_afi"
+        ],
+        "reason": "Scene 64 of the final-revisions script names the crash site as a Valley street in Studio City. The rescue was filmed at Gaffey and 36th in San Pedro; the production hill cannot establish the story street. Studio City is shown approximately, with no claimed intersection.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.423,
+                34.128
+              ],
+              [
+                -118.368,
+                34.128
+              ],
+              [
+                -118.368,
+                34.158
+              ],
+              [
+                -118.423,
+                34.158
+              ],
+              [
+                -118.423,
+                34.128
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.423,
+            34.128
+          ],
+          [
+            -118.368,
+            34.158
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc287-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEFr5zhvxS3ZdYaJsbiV3Xzq8w37XUr7wlizkANfIWm29dKPMZ1ilBg0i6K8u03fjIQq_IlNspIRdq6rhAg9Zdqpk0aXtygrePg4iKQBolKjvtyYt9jxvVNy6q-DTYVYvWs0UFtqetPU7b/s400/GaffeyAnd36SanPedro1_Crash.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc287-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj25W4Wed78BbHmH3V5bCuU4hVLeNSXdL4_BBTmly3NGzLPkGPs4O8Lbi8Ygq71Jf5ytQc6oN1fuMC-QlyV5_Mfgvb1rOrQf1RAXFaLIV8uqGn_14529WLlhOCc_Mf2M-JWU4pI3W-7OIT3/s400/GaffeyAnd36SanPedro_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "The San Pedro filming hill at Gaffey and 36th, reproduced in a 2013 comparison. The screenplay places the story accident in Studio City; capture date not stated.",
+          "caption": "San Pedro filming site"
+        }
+      },
+      "productionCoordinates": [
+        -118.292834003592,
+        33.711518991604
+      ],
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Studio+City%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Studio City, Los Angeles, California",
+        "score": 100
+      }
+    },
+    {
+      "id": 288,
+      "name": "Anthony frees the captives",
+      "short": "Anthony frees the captives",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Ord Street, between Broadway and New High Street",
+      "area": "Chinatown",
+      "coordinates": [
+        -118.23962,
+        34.06017
+      ],
+      "precision": "documented-block-anchor",
+      "people": [
+        "Anthony"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Crash",
+          "release_year": 2004,
+          "story_role": "Anthony frees the captives",
+          "filming_component": "Ord Street, between Broadway and New High Street.",
+          "source_ids": [
+            "sc_crash_ss3",
+            "sc_crash_tourist",
+            "sc_crash_ml",
+            "sc_crash_script",
+            "sc_crash_afi"
+          ],
+          "story_time": {
+            "year": 2004,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 2004 festival-premiere-year approximation. U.S. theatrical release was 2005; neither release date establishes an exact story year.",
+            "source_ids": [
+              "sc_crash_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Anthony",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "story",
+        "address": "Ord Street, between Broadway and New High Street",
+        "precision": "documented-block-anchor",
+        "sourceIds": [
+          "sc_crash_ss3",
+          "sc_crash_tourist",
+          "sc_crash_ml",
+          "sc_crash_script",
+          "sc_crash_afi"
+        ],
+        "reason": "The final screenplay and the scene identify Chinatown. The matched storefronts locate Anthony’s release of the van’s captives on Ord between Broadway and New High; the point marks that block, not an invented destination for the captives."
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc288-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Crash/Chinatown.jpg",
+          "credit": "Crash / Lions Gate Films",
+          "note": "Actual film frame.",
+          "title": "Crash"
+        },
+        "place": {
+          "src": "photos/sc288-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNBrCMJ592LXYKzq11PF_m8mcOy8LNRkyk4nSphJ4DrIXXoPHCm8FEZ3Ea7ArA0U9Kt9mYyRNfYv4eDs713ONNX1ZwBkAYSlmqlT34Z35Lqc5FJJtbA3WtRUIP5g4dShDF7-lJpFIPygtK/s400/BroadwayAndOrd_Now.jpg",
+          "credit": "Movie Tourist / Yuri G.",
+          "note": "Site photograph reproduced in the 2013 comparison; capture date not stated.",
+          "caption": "Ord Street"
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ord+Street+and+North+Broadway%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Ord St & N Broadway, Los Angeles, California, 90012",
+        "score": 100
+      }
+    },
+    {
+      "id": 279,
+      "name": "Western Avenue exit",
+      "short": "Western Avenue exit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Western Avenue at the 10 Freeway · approximate",
+      "area": "Arlington Heights / Harvard Heights",
+      "coordinates": [
+        -118.309074527728,
+        34.037240000459
+      ],
+      "precision": "intersection-approximation",
+      "people": [
+        "Annie Porter",
+        "Jack Traven",
+        "Ortiz",
+        "Stephens"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Western Avenue exit",
+          "filming_component": "Shoreline Drive exit to Ocean Boulevard, Long Beach.",
+          "source_ids": [
+            "sc_speed_dialogue",
+            "sc_speed_ss3",
+            "sc_speed_ift",
+            "sc_imagery"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Jack Traven",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Ortiz",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stephens",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Western Avenue at the 10 Freeway · approximate",
+        "precision": "intersection-approximation",
+        "sourceIds": [
+          "sc_speed_dialogue",
+          "sc_speed_ss3",
+          "sc_speed_ift",
+          "sc_imagery"
+        ],
+        "reason": "Released news dialogue says the bus exited onto Western and is heading south. The exit sequence was filmed at Shoreline Drive/Ocean Boulevard in Long Beach. This point marks the story’s Western/10 junction approximately, not the Long Beach production ramp.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.311,
+                34.0348
+              ],
+              [
+                -118.307,
+                34.0348
+              ],
+              [
+                -118.307,
+                34.039
+              ],
+              [
+                -118.311,
+                34.039
+              ],
+              [
+                -118.311,
+                34.0348
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.311,
+            34.0348
+          ],
+          [
+            -118.307,
+            34.039
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc279-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed3.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/BusSmashesSigns.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc279-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.31207%2C34.035439999999994%2C-118.30607%2C34.03904&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "caption": "Western Avenue · aerial",
+          "note": "Aerial photograph of the actual Western Avenue / 10 Freeway junction named in the story; the movie exit footage was filmed in Long Beach. Acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Western+Avenue+and+Interstate+10%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "S Western Ave & I-10 W, Los Angeles, California, 90018",
+        "score": 99.68
+      }
+    },
+    {
+      "id": 289,
+      "name": "Lincoln on-ramp",
+      "short": "Lincoln on-ramp",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Lincoln Boulevard at the 10 Freeway · approximate",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.48590326425,
+        34.014700392268
+      ],
+      "precision": "intersection-approximation",
+      "people": [
+        "Annie Porter",
+        "Sam Silver",
+        "Stephens"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Speed",
+          "release_year": 1994,
+          "story_role": "Lincoln on-ramp",
+          "filming_component": "Early freeway bus shots were filmed on the 105, including near Wilmington and Willowbrook.",
+          "source_ids": [
+            "sc_speed_dialogue",
+            "sc_speed_ss2",
+            "sc_speed_main",
+            "sc_imagery"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; 1994 release-year approximation. The film does not establish an exact story year.",
+            "source_ids": [
+              "sc_speed_release"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Annie Porter",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Sam Silver",
+              "relationship": "associated_with"
+            },
+            {
+              "name": "Stephens",
+              "relationship": "associated_with"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "placement": {
+        "kind": "inferred",
+        "address": "Lincoln Boulevard at the 10 Freeway · approximate",
+        "precision": "intersection-approximation",
+        "sourceIds": [
+          "sc_speed_dialogue",
+          "sc_speed_ss2",
+          "sc_speed_main",
+          "sc_imagery"
+        ],
+        "reason": "Released news dialogue explicitly says the bus came onto the freeway at the Lincoln on-ramp. The film later identifies that first freeway as the 10. The junction is an approximate entry anchor; its precise ramp path is not established by the 105 production footage.",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.489,
+                34.0122
+              ],
+              [
+                -118.481,
+                34.0122
+              ],
+              [
+                -118.481,
+                34.0195
+              ],
+              [
+                -118.489,
+                34.0195
+              ],
+              [
+                -118.489,
+                34.0122
+              ]
+            ]
+          ]
+        },
+        "viewport": [
+          [
+            -118.489,
+            34.0122
+          ],
+          [
+            -118.481,
+            34.0195
+          ]
+        ]
+      },
+      "media": {
+        "screen": {
+          "src": "photos/sc289-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed2.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/Aerial-BusOnFreeway.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "The bus on the story’s 10 Freeway, filmed on the 105. This is a contextual freeway frame, not an isolated view of the Lincoln entry named in dialogue.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc289-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.489903%2C34.012299999999996%2C-118.48190299999999%2C34.0171&bboxSR=4326&imageSR=4326&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery / Esri imagery contributors",
+          "caption": "Lincoln Boulevard · aerial",
+          "note": "Aerial photograph of Lincoln Boulevard and the 10 Freeway in Santa Monica; acquisition date unverified. Real aerial imagery, not a street-level comparison. Acquisition date unverified."
+        }
+      },
+      "geocode": {
+        "sourceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Lincoln+Boulevard+and+Interstate+10%2C+Santa+Monica%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "method": "Esri World Geocoder",
+        "matchedAddress": "Lincoln Blvd & I-10 E, Santa Monica, California, 90401",
+        "score": 99.84
+      }
+    }
+  ],
+  "journeys": [
+    {
+      "id": 300,
+      "name": "Bus 2525",
+      "title": "Speed",
+      "year": 1994,
+      "source_ids": [
+        "sc_speed_dialogue",
+        "sc_speed_main",
+        "sc_speed_ss2",
+        "sc_speed_ss3",
+        "sc_speed_ss4",
+        "sc_speed_ss5",
+        "sc_road_geometry"
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -118.48394,
+              34.00236
+            ],
+            [
+              -118.48312,
+              34.00187
+            ]
+          ],
+          [
+            [
+              -118.481504,
+              34.017699
+            ],
+            [
+              -118.479984,
+              34.018961
+            ],
+            [
+              -118.478052,
+              34.020536
+            ],
+            [
+              -118.477544,
+              34.020963
+            ],
+            [
+              -118.476568,
+              34.021761
+            ],
+            [
+              -118.476006,
+              34.022166
+            ],
+            [
+              -118.475628,
+              34.022403
+            ],
+            [
+              -118.475197,
+              34.02264
+            ],
+            [
+              -118.474722,
+              34.022858
+            ],
+            [
+              -118.47406,
+              34.023124
+            ],
+            [
+              -118.473471,
+              34.023303
+            ],
+            [
+              -118.464551,
+              34.025716
+            ],
+            [
+              -118.464231,
+              34.025793
+            ],
+            [
+              -118.46299,
+              34.026121
+            ],
+            [
+              -118.462566,
+              34.026238
+            ],
+            [
+              -118.461446,
+              34.026511
+            ],
+            [
+              -118.457544,
+              34.027317
+            ],
+            [
+              -118.457136,
+              34.027396
+            ],
+            [
+              -118.456315,
+              34.027568
+            ],
+            [
+              -118.456011,
+              34.027616
+            ],
+            [
+              -118.455748,
+              34.027652
+            ],
+            [
+              -118.455429,
+              34.027677
+            ],
+            [
+              -118.455139,
+              34.02769
+            ],
+            [
+              -118.454725,
+              34.027693
+            ],
+            [
+              -118.454295,
+              34.027669
+            ],
+            [
+              -118.453694,
+              34.027638
+            ],
+            [
+              -118.453033,
+              34.027595
+            ],
+            [
+              -118.45263,
+              34.027581
+            ],
+            [
+              -118.45241,
+              34.027582
+            ],
+            [
+              -118.452183,
+              34.027594
+            ],
+            [
+              -118.451829,
+              34.02762
+            ],
+            [
+              -118.451497,
+              34.02765
+            ],
+            [
+              -118.451242,
+              34.027683
+            ],
+            [
+              -118.450812,
+              34.027762
+            ],
+            [
+              -118.450306,
+              34.027879
+            ],
+            [
+              -118.449478,
+              34.028105
+            ],
+            [
+              -118.448989,
+              34.02824
+            ],
+            [
+              -118.448601,
+              34.028342
+            ],
+            [
+              -118.445161,
+              34.029251
+            ],
+            [
+              -118.444867,
+              34.029321
+            ],
+            [
+              -118.444326,
+              34.02946
+            ],
+            [
+              -118.443819,
+              34.029587
+            ],
+            [
+              -118.443193,
+              34.029726
+            ],
+            [
+              -118.442594,
+              34.029853
+            ],
+            [
+              -118.441503,
+              34.030056
+            ],
+            [
+              -118.437288,
+              34.030661
+            ],
+            [
+              -118.435463,
+              34.030929
+            ],
+            [
+              -118.434892,
+              34.031013
+            ],
+            [
+              -118.433906,
+              34.031136
+            ],
+            [
+              -118.433108,
+              34.031252
+            ],
+            [
+              -118.432342,
+              34.031371
+            ],
+            [
+              -118.431745,
+              34.031449
+            ],
+            [
+              -118.430864,
+              34.031541
+            ],
+            [
+              -118.430047,
+              34.031615
+            ],
+            [
+              -118.429137,
+              34.031652
+            ],
+            [
+              -118.428311,
+              34.031669
+            ],
+            [
+              -118.427496,
+              34.031671
+            ],
+            [
+              -118.427185,
+              34.031671
+            ],
+            [
+              -118.424305,
+              34.03167
+            ],
+            [
+              -118.424135,
+              34.031671
+            ],
+            [
+              -118.423987,
+              34.031672
+            ],
+            [
+              -118.423817,
+              34.031674
+            ],
+            [
+              -118.421998,
+              34.031674
+            ],
+            [
+              -118.421635,
+              34.031676
+            ],
+            [
+              -118.419795,
+              34.03168
+            ],
+            [
+              -118.416296,
+              34.031719
+            ],
+            [
+              -118.415736,
+              34.031714
+            ],
+            [
+              -118.41525,
+              34.031686
+            ],
+            [
+              -118.414913,
+              34.031657
+            ],
+            [
+              -118.414592,
+              34.031625
+            ],
+            [
+              -118.414308,
+              34.031577
+            ],
+            [
+              -118.414002,
+              34.031529
+            ],
+            [
+              -118.413703,
+              34.031467
+            ],
+            [
+              -118.413213,
+              34.031333
+            ],
+            [
+              -118.412852,
+              34.031218
+            ],
+            [
+              -118.411414,
+              34.030711
+            ],
+            [
+              -118.410825,
+              34.030514
+            ],
+            [
+              -118.41024,
+              34.030332
+            ],
+            [
+              -118.409831,
+              34.030229
+            ],
+            [
+              -118.409176,
+              34.030108
+            ],
+            [
+              -118.408562,
+              34.030035
+            ],
+            [
+              -118.406833,
+              34.029877
+            ],
+            [
+              -118.405531,
+              34.029748
+            ],
+            [
+              -118.403524,
+              34.02958
+            ],
+            [
+              -118.402935,
+              34.029527
+            ],
+            [
+              -118.402031,
+              34.029434
+            ],
+            [
+              -118.397118,
+              34.02903
+            ],
+            [
+              -118.396892,
+              34.029018
+            ],
+            [
+              -118.396645,
+              34.029011
+            ],
+            [
+              -118.396579,
+              34.029008
+            ],
+            [
+              -118.396133,
+              34.029005
+            ],
+            [
+              -118.395772,
+              34.029034
+            ],
+            [
+              -118.395429,
+              34.029076
+            ],
+            [
+              -118.395089,
+              34.029121
+            ],
+            [
+              -118.394643,
+              34.0292
+            ],
+            [
+              -118.394231,
+              34.029292
+            ],
+            [
+              -118.393827,
+              34.029399
+            ],
+            [
+              -118.393467,
+              34.029505
+            ],
+            [
+              -118.393141,
+              34.029619
+            ],
+            [
+              -118.392905,
+              34.029706
+            ],
+            [
+              -118.392672,
+              34.029797
+            ],
+            [
+              -118.392465,
+              34.02989
+            ],
+            [
+              -118.392308,
+              34.029968
+            ],
+            [
+              -118.391776,
+              34.030245
+            ],
+            [
+              -118.3916,
+              34.030353
+            ],
+            [
+              -118.39026,
+              34.031147
+            ],
+            [
+              -118.389096,
+              34.031815
+            ],
+            [
+              -118.385932,
+              34.033711
+            ],
+            [
+              -118.385543,
+              34.033944
+            ],
+            [
+              -118.383175,
+              34.035307
+            ],
+            [
+              -118.382248,
+              34.035847
+            ],
+            [
+              -118.381913,
+              34.036039
+            ],
+            [
+              -118.381596,
+              34.036217
+            ],
+            [
+              -118.381287,
+              34.036359
+            ],
+            [
+              -118.381121,
+              34.036425
+            ],
+            [
+              -118.380951,
+              34.036487
+            ],
+            [
+              -118.380555,
+              34.036607
+            ],
+            [
+              -118.380265,
+              34.036687
+            ],
+            [
+              -118.379913,
+              34.036765
+            ],
+            [
+              -118.379553,
+              34.036822
+            ],
+            [
+              -118.379158,
+              34.036871
+            ],
+            [
+              -118.378755,
+              34.0369
+            ],
+            [
+              -118.378325,
+              34.036907
+            ],
+            [
+              -118.378042,
+              34.0369
+            ],
+            [
+              -118.377884,
+              34.036888
+            ],
+            [
+              -118.377729,
+              34.036872
+            ],
+            [
+              -118.377328,
+              34.036818
+            ],
+            [
+              -118.376165,
+              34.036576
+            ],
+            [
+              -118.37581,
+              34.036502
+            ],
+            [
+              -118.375618,
+              34.036459
+            ],
+            [
+              -118.375348,
+              34.036399
+            ],
+            [
+              -118.37315,
+              34.035947
+            ],
+            [
+              -118.372027,
+              34.035698
+            ],
+            [
+              -118.369802,
+              34.035238
+            ],
+            [
+              -118.368031,
+              34.034855
+            ],
+            [
+              -118.364368,
+              34.034059
+            ],
+            [
+              -118.363456,
+              34.033923
+            ],
+            [
+              -118.362498,
+              34.03381
+            ],
+            [
+              -118.362009,
+              34.033765
+            ],
+            [
+              -118.361552,
+              34.03374
+            ],
+            [
+              -118.361068,
+              34.033715
+            ],
+            [
+              -118.360372,
+              34.033709
+            ],
+            [
+              -118.358352,
+              34.03382
+            ],
+            [
+              -118.355924,
+              34.033932
+            ],
+            [
+              -118.355509,
+              34.033946
+            ],
+            [
+              -118.350495,
+              34.03418
+            ],
+            [
+              -118.349824,
+              34.034204
+            ],
+            [
+              -118.345445,
+              34.034409
+            ],
+            [
+              -118.344978,
+              34.03443
+            ],
+            [
+              -118.343547,
+              34.034502
+            ],
+            [
+              -118.340254,
+              34.034649
+            ],
+            [
+              -118.339206,
+              34.034696
+            ],
+            [
+              -118.337942,
+              34.034752
+            ],
+            [
+              -118.33106,
+              34.035093
+            ],
+            [
+              -118.329771,
+              34.035123
+            ],
+            [
+              -118.328948,
+              34.035169
+            ],
+            [
+              -118.327796,
+              34.035233
+            ],
+            [
+              -118.326053,
+              34.035377
+            ],
+            [
+              -118.323917,
+              34.035687
+            ],
+            [
+              -118.322127,
+              34.03595
+            ],
+            [
+              -118.321205,
+              34.036085
+            ],
+            [
+              -118.319583,
+              34.036313
+            ],
+            [
+              -118.317535,
+              34.036623
+            ],
+            [
+              -118.317425,
+              34.036596
+            ],
+            [
+              -118.316806,
+              34.036662
+            ],
+            [
+              -118.31651,
+              34.03667
+            ],
+            [
+              -118.315855,
+              34.036689
+            ],
+            [
+              -118.315198,
+              34.03673
+            ],
+            [
+              -118.314401,
+              34.036787
+            ],
+            [
+              -118.313694,
+              34.036817
+            ],
+            [
+              -118.313301,
+              34.036839
+            ],
+            [
+              -118.311819,
+              34.036885
+            ],
+            [
+              -118.311247,
+              34.036872
+            ],
+            [
+              -118.310476,
+              34.036839
+            ],
+            [
+              -118.309601,
+              34.036825
+            ],
+            [
+              -118.309097,
+              34.036831
+            ],
+            [
+              -118.309097,
+              34.036831
+            ]
+          ],
+          [
+            [
+              -118.308995,
+              34.036999
+            ],
+            [
+              -118.30898,
+              34.034
+            ]
+          ],
+          [
+            [
+              -118.300389,
+              33.927655
+            ],
+            [
+              -118.30426,
+              33.926798
+            ],
+            [
+              -118.307625,
+              33.926072
+            ],
+            [
+              -118.30856,
+              33.925894
+            ],
+            [
+              -118.309522,
+              33.925752
+            ],
+            [
+              -118.310003,
+              33.925704
+            ],
+            [
+              -118.310466,
+              33.925659
+            ],
+            [
+              -118.311461,
+              33.925581
+            ],
+            [
+              -118.312337,
+              33.925552
+            ],
+            [
+              -118.313229,
+              33.925559
+            ],
+            [
+              -118.320569,
+              33.925639
+            ],
+            [
+              -118.321732,
+              33.925649
+            ],
+            [
+              -118.321925,
+              33.92563
+            ],
+            [
+              -118.323197,
+              33.925554
+            ],
+            [
+              -118.326027,
+              33.925403
+            ],
+            [
+              -118.327097,
+              33.92536
+            ],
+            [
+              -118.328681,
+              33.925279
+            ],
+            [
+              -118.330322,
+              33.925178
+            ],
+            [
+              -118.331816,
+              33.925113
+            ],
+            [
+              -118.332504,
+              33.925069
+            ],
+            [
+              -118.333292,
+              33.925057
+            ],
+            [
+              -118.334867,
+              33.925153
+            ],
+            [
+              -118.335357,
+              33.925246
+            ],
+            [
+              -118.335872,
+              33.925367
+            ],
+            [
+              -118.336348,
+              33.925509
+            ],
+            [
+              -118.336719,
+              33.925625
+            ],
+            [
+              -118.337468,
+              33.925937
+            ],
+            [
+              -118.338043,
+              33.926193
+            ],
+            [
+              -118.33867,
+              33.926528
+            ],
+            [
+              -118.339288,
+              33.926905
+            ],
+            [
+              -118.340082,
+              33.927494
+            ],
+            [
+              -118.341086,
+              33.928237
+            ],
+            [
+              -118.344655,
+              33.930695
+            ],
+            [
+              -118.345372,
+              33.931142
+            ],
+            [
+              -118.346824,
+              33.931976
+            ],
+            [
+              -118.347733,
+              33.93241
+            ],
+            [
+              -118.348453,
+              33.932724
+            ],
+            [
+              -118.349006,
+              33.93293
+            ],
+            [
+              -118.349527,
+              33.93309
+            ],
+            [
+              -118.350092,
+              33.933258
+            ],
+            [
+              -118.350735,
+              33.933422
+            ],
+            [
+              -118.35127,
+              33.93355
+            ],
+            [
+              -118.351879,
+              33.933678
+            ],
+            [
+              -118.352378,
+              33.933754
+            ],
+            [
+              -118.353031,
+              33.933818
+            ],
+            [
+              -118.353546,
+              33.933846
+            ],
+            [
+              -118.354129,
+              33.93386
+            ],
+            [
+              -118.354764,
+              33.933832
+            ],
+            [
+              -118.35503,
+              33.933807
+            ],
+            [
+              -118.355297,
+              33.933782
+            ],
+            [
+              -118.35588,
+              33.933697
+            ],
+            [
+              -118.356378,
+              33.933583
+            ],
+            [
+              -118.359234,
+              33.932759
+            ],
+            [
+              -118.361004,
+              33.932201
+            ],
+            [
+              -118.361528,
+              33.932037
+            ],
+            [
+              -118.362823,
+              33.931622
+            ],
+            [
+              -118.364584,
+              33.931076
+            ],
+            [
+              -118.365905,
+              33.930677
+            ],
+            [
+              -118.366668,
+              33.93048
+            ],
+            [
+              -118.367183,
+              33.930359
+            ],
+            [
+              -118.367586,
+              33.930288
+            ],
+            [
+              -118.368075,
+              33.93021
+            ],
+            [
+              -118.368465,
+              33.930178
+            ],
+            [
+              -118.36956,
+              33.930161
+            ],
+            [
+              -118.370246,
+              33.930151
+            ],
+            [
+              -118.371882,
+              33.930133
+            ],
+            [
+              -118.37349,
+              33.930138
+            ],
+            [
+              -118.373861,
+              33.930144
+            ],
+            [
+              -118.374232,
+              33.930156
+            ],
+            [
+              -118.374525,
+              33.930166
+            ],
+            [
+              -118.37482,
+              33.93018
+            ],
+            [
+              -118.375026,
+              33.930193
+            ],
+            [
+              -118.37521,
+              33.930204
+            ],
+            [
+              -118.375387,
+              33.930218
+            ],
+            [
+              -118.375637,
+              33.930242
+            ],
+            [
+              -118.375921,
+              33.930275
+            ],
+            [
+              -118.376254,
+              33.930328
+            ],
+            [
+              -118.376477,
+              33.930366
+            ],
+            [
+              -118.376668,
+              33.930403
+            ],
+            [
+              -118.37853,
+              33.930828
+            ],
+            [
+              -118.378667,
+              33.930853
+            ],
+            [
+              -118.379957,
+              33.931119
+            ],
+            [
+              -118.380457,
+              33.931206
+            ],
+            [
+              -118.381129,
+              33.931286
+            ],
+            [
+              -118.381604,
+              33.931318
+            ],
+            [
+              -118.382034,
+              33.931326
+            ],
+            [
+              -118.38258,
+              33.931319
+            ],
+            [
+              -118.383507,
+              33.931298
+            ],
+            [
+              -118.385165,
+              33.931228
+            ],
+            [
+              -118.386336,
+              33.931214
+            ],
+            [
+              -118.386803,
+              33.931233
+            ],
+            [
+              -118.387885,
+              33.931314
+            ],
+            [
+              -118.389553,
+              33.93139
+            ],
+            [
+              -118.390518,
+              33.931437
+            ],
+            [
+              -118.390859,
+              33.931454
+            ],
+            [
+              -118.391664,
+              33.931502
+            ],
+            [
+              -118.392021,
+              33.931527
+            ],
+            [
+              -118.392372,
+              33.931542
+            ],
+            [
+              -118.393286,
+              33.931598
+            ],
+            [
+              -118.394335,
+              33.931607
+            ],
+            [
+              -118.395484,
+              33.931619
+            ],
+            [
+              -118.397266,
+              33.931634
+            ],
+            [
+              -118.398011,
+              33.931619
+            ],
+            [
+              -118.399056,
+              33.931572
+            ],
+            [
+              -118.400039,
+              33.93152
+            ],
+            [
+              -118.400603,
+              33.931508
+            ],
+            [
+              -118.401011,
+              33.931501
+            ]
+          ]
+        ]
+      },
+      "precision": "Named road corridors and documented scene stops. Gaps leave unverified connecting streets untraced; present-day road centerlines do not establish an exact 1994 drive.",
+      "stops": [
+        {
+          "name": "Annie’s bus stop",
+          "coordinates": [
+            -118.483940976897,
+            34.002361015418
+          ],
+          "placeId": 272
+        },
+        {
+          "name": "Lincoln on-ramp",
+          "coordinates": [
+            -118.48590326425,
+            34.014700392268
+          ],
+          "placeId": 289
+        },
+        {
+          "name": "Western Avenue exit",
+          "coordinates": [
+            -118.309074527728,
+            34.037240000459
+          ],
+          "placeId": 279
+        },
+        {
+          "name": "The freeway gap · approximate",
+          "coordinates": [
+            -118.35,
+            33.9282
+          ],
+          "placeId": 273
+        },
+        {
+          "name": "LAX runways",
+          "coordinates": [
+            -118.4265,
+            33.9357
+          ],
+          "placeId": 274
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/sc272-screen.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Speed/SandraChasingBus1.jpg",
+          "credit": "Speed / Twentieth Century Fox",
+          "note": "Actual film frame.",
+          "title": "Speed"
+        },
+        "place": {
+          "src": "photos/sc272-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/speed.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhyphenhyphenBsu2kKXo8s9OyBb0dgaR1B0XgxJgDr6MRhHYy5V3yD49WiPOdHC5TsJxjfhQUi1YAEd7lgB5G1iAzqohe-zjo9HFiWkMPMw1zUh3K1rwVd3CNbhV3Xqqa8PzzBYpS0fsek-pH3-aNw/s400/Wall.jpg",
+          "credit": "Site photograph reproduced by Its Filmed There",
+          "note": "Capture date not specified by publisher.",
+          "caption": "Ocean Park Boulevard"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sc_speed_ss1",
+      "title": "Seeing Stars: Speed, part 1",
+      "url": "https://www.seeing-stars.com/Locations/Speed1.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss2",
+      "title": "Seeing Stars: Speed, part 2",
+      "url": "https://www.seeing-stars.com/Locations/Speed2.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss3",
+      "title": "Seeing Stars: Speed, part 3",
+      "url": "https://www.seeing-stars.com/Locations/Speed3.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss4",
+      "title": "Seeing Stars: Speed, part 4",
+      "url": "https://www.seeing-stars.com/Locations/Speed4.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss5",
+      "title": "Seeing Stars: Speed, part 5",
+      "url": "https://www.seeing-stars.com/Locations/Speed5.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss6",
+      "title": "Seeing Stars: Speed, part 6",
+      "url": "https://www.seeing-stars.com/Locations/Speed6.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ss7",
+      "title": "Seeing Stars: Speed, part 7",
+      "url": "https://www.seeing-stars.com/Locations/Speed7.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_ift",
+      "title": "Its Filmed There: Speed (frame-by-frame locations)",
+      "url": "https://www.itsfilmedthere.com/2010/01/speed.html",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_fo",
+      "title": "Film Oblivion: Speed (site photographs)",
+      "url": "https://filmoblivion.com/2018/03/30/speed-1994/",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_speed_dialogue",
+      "title": "Speed: released-film dialogue transcript",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=170107",
+      "source_type": "film dialogue transcript"
+    },
+    {
+      "id": "sc_speed_sunvalley",
+      "title": "Speed film excerpt: Payne retired to Sun Valley",
+      "url": "https://clip.cafe/speed-1994/howard-payne-atlanta-p-d-bomb-squad/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "sc_speed_main",
+      "title": "Speed film excerpt: Ocean Park and Main",
+      "url": "https://clip.cafe/speed-1994/you-think-im-gonna-tell-that/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "sc_speed_pbs",
+      "title": "PBS SoCal: How Speed captured a changing Los Angeles",
+      "url": "https://www.pbssocal.org/shows/kcet-must-see-movies/how-1994s-speed-captured-a-changing-los-angeles",
+      "source_type": "film criticism / geography"
+    },
+    {
+      "id": "sc_speed_release",
+      "title": "20th Century Studios: Speed",
+      "url": "https://www.20thcenturystudios.com/movies/speed",
+      "source_type": "distributor"
+    },
+    {
+      "id": "sc_crash_ss1",
+      "title": "Seeing Stars: Crash, part 1",
+      "url": "https://www.seeing-stars.com/Locations/Crash.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_crash_ss2",
+      "title": "Seeing Stars: Crash, part 2",
+      "url": "https://www.seeing-stars.com/Locations/Crash2.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_crash_ss3",
+      "title": "Seeing Stars: Crash, part 3",
+      "url": "https://www.seeing-stars.com/Locations/Crash3.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_crash_tourist",
+      "title": "Movie Tourist: Crash (matched frames and site photographs)",
+      "url": "https://movie-tourist.blogspot.com/2013/04/crash-2004.html",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_crash_ml",
+      "title": "The Worldwide Guide to Movie Locations: Crash",
+      "url": "https://movie-locations.com/movies/c/Crash-2004.php",
+      "source_type": "location research"
+    },
+    {
+      "id": "sc_crash_script",
+      "title": "Crash: final-revisions screenplay, 18 March 2004",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/crash-2004.pdf?v=1729114891",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "sc_crash_afi",
+      "title": "AFI Catalog: Crash (2005), release history and synopsis",
+      "url": "https://catalog.afi.com/Film/54472-CRASH",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "sc_imagery",
+      "title": "Esri World Imagery: aerial site photography",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial photography"
+    },
+    {
+      "id": "sc_station_photo",
+      "title": "Benoit Prieur: Pershing Square station, 27 July 2022",
+      "url": "https://commons.wikimedia.org/wiki/File:Pershing_Square_(Los_Angeles_Metro_station)-July_2022.JPG",
+      "source_type": "photograph"
+    },
+    {
+      "id": "sc_raleigh_photo",
+      "title": "Penny Richards: Raleigh Studios, 23 November 2025",
+      "url": "https://commons.wikimedia.org/wiki/File:RaleighStudios2025.jpg",
+      "source_type": "photograph"
+    },
+    {
+      "id": "sc_road_geometry",
+      "title": "OpenStreetMap road centerlines via OSRM",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "map geometry"
+    }
+  ],
+  "audit": [
+    {
+      "id": 270,
+      "verified": true,
+      "setting": "The film establishes the downtown office tower with the Gas Company Tower exterior. This is an exterior building anchor, not a claim that the elevator shaft or every interior was filmed here.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 271,
+      "verified": true,
+      "setting": "The first bus explodes on Main just south of Rose; released dialogue identifies the earlier bombing as Venice. Bob is killed aboard the bus after leaving The Firehouse across the intersection.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 272,
+      "verified": true,
+      "setting": "Payne names Ocean Park and Main in released dialogue. Annie runs east on Ocean Park to board bus 2525 at that same intersection.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 273,
+      "verified": true,
+      "setting": "Released dialogue names the unfinished 105 before the gap and LAX afterward. The jump was filmed on the 105-to-northbound-110 ramp, a production direction that does not establish an uninterrupted westward trip to LAX. The point represents the named freeway corridor; the story’s exact gap location is unestablished.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 274,
+      "verified": true,
+      "setting": "Released news dialogue explicitly identifies Los Angeles International Airport. Runway circling was filmed at LAX; the later airliner explosion used Mojave Airport. The map represents the LAX airfield, not a known taxiway loop or the out-of-county Mojave production site.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 275,
+      "verified": true,
+      "setting": "Released dialogue says Payne retired to Sun Valley. The raid location was filmed near LAX in Playa del Rey, which cannot establish the story house’s address in Sun Valley. The neighborhood point is approximate; the exact residence is unestablished.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 276,
+      "verified": true,
+      "setting": "Payne explicitly names Pershing Square as the ransom drop. The cash pickup, police stakeout and Annie’s abduction occupy the square and adjacent 5th/Hill corners; the point marks the square’s corner rather than a specific trash can.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 277,
+      "verified": true,
+      "setting": "The pursuit descends from the Pershing Square drop into the real Pershing Square Red Line station. Payne then takes Annie aboard a train; his later death occurs in a moving tunnel, not at this station pin.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 278,
+      "verified": true,
+      "setting": "The runaway train emerges onto Hollywood Boulevard and comes to rest in front of the Chinese Theatre. The real boulevard and theatre are visible; the film combines models, matte work and a vehicle dressed as a train.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 280,
+      "verified": true,
+      "setting": "The screenplay locates the scene in Westwood, and the released-film synopsis identifies the Westside. Broxton’s visible storefronts support the block-level anchor; 1036 is a reference frontage, not a fictional home address.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 281,
+      "verified": true,
+      "setting": "The screenplay explicitly identifies Carney’s in Studio City, matching the visible yellow railway-car restaurant and the production address. Ryan calls Shaniqua from here; she is on the phone, not physically in the diner.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 282,
+      "verified": true,
+      "setting": "The screenplay places the residential traffic stop in Studio City, matching the Ventura pursuit and the Radford/Hoffman production intersection. The map marks the intersection rather than claiming a particular curb position.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 283,
+      "verified": true,
+      "setting": "Seeing Stars and the Worldwide Guide independently identify the northwest-corner building used for Farhad’s store. The final-revisions script gives no conflicting neighborhood for the corner market; this is a production-based anchor, not a spoken street address.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 284,
+      "verified": true,
+      "setting": "Scene 94 of the final-revisions screenplay specifies Westchester. Elgin Street is the identifiable Eagle Rock-area filming house, not evidence that the family canonically lives there. The map uses an approximate Westchester residential-area point; the released film’s exact street is unestablished.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 285,
+      "verified": true,
+      "setting": "Raleigh Studios supplied the production lot. The final-revisions screenplay calls Cameron’s workplace Columbia Studios, Stage 24; the released-film location sources do not establish a precise canonical Columbia lot. Raleigh’s address is retained only as production provenance.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 286,
+      "verified": true,
+      "setting": "The final-revisions script locates the preceding carjacking and chase in Sherman Oaks. The standoff was filmed in the Costello cul-de-sac in that same area; 5177 identifies the visible garage frontage, not Cameron’s residence.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 287,
+      "verified": true,
+      "setting": "Scene 64 of the final-revisions script names the crash site as a Valley street in Studio City. The rescue was filmed at Gaffey and 36th in San Pedro; the production hill cannot establish the story street. Studio City is shown approximately, with no claimed intersection.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 288,
+      "verified": true,
+      "setting": "The final screenplay and the scene identify Chinatown. The matched storefronts locate Anthony’s release of the van’s captives on Ord between Broadway and New High; the point marks that block, not an invented destination for the captives.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 279,
+      "verified": true,
+      "setting": "Released news dialogue says the bus exited onto Western and is heading south. The exit sequence was filmed at Shoreline Drive/Ocean Boulevard in Long Beach. This point marks the story’s Western/10 junction approximately, not the Long Beach production ramp.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    },
+    {
+      "id": 289,
+      "verified": true,
+      "setting": "Released news dialogue explicitly says the bus came onto the freeway at the Lincoln on-ramp. The film later identifies that first freeway as the 10. The junction is an approximate entry anchor; its precise ramp path is not established by the 105 production footage.",
+      "photos": "Actual movie frame and real site photograph visually checked; capture date asserted only when verified."
+    }
+  ],
+  "routeAudit": [
+    {
+      "id": 300,
+      "canonicalEvidence": [
+        "Released dialogue: 2525 runs downtown from Venice; Ocean Park and Main.",
+        "News dialogue: bus entered at the Lincoln on-ramp, then exited onto Western southbound.",
+        "Mac directs the bus onto the unused 105; later news explicitly recaps the 10, city streets, 105, and LAX."
+      ],
+      "excludedProductionGeography": [
+        "Early 105 shots stand in for the 10.",
+        "Shoreline Drive/Ocean Boulevard in Long Beach stand in for Western Avenue.",
+        "Pico/West Boulevard and Athens Way/Imperial are production anchors, not a verified continuous link between Western and the 105.",
+        "The 105-to-northbound-110 jump ramp is not substituted for a westbound route to LAX.",
+        "Mojave Airport explosion footage does not move the story away from LAX."
+      ],
+      "geometry": "MultiLineString: short eastbound Ocean Park scene; 10 freeway corridor; short southbound Western corridor; 105 westbound corridor. No invented surface-road connectors or airport taxiway loop.",
+      "lineSourceUrls": [
+        "https://router.project-osrm.org/route/v1/driving/-118.485416,34.014489;-118.309097,34.036831?overview=full&geometries=geojson&steps=true&hints=GjeDjP___38CAAAABAAAACgAAAAIAAAAVKcXQNGQCkAlHctBJ4ElQQIAAAAEAAAAKAAAAAgAAADEfwAAWA7w-BkFBwJoDvD4JAUHAgIA_xMAAAAA%3BTm5Jg____38UAAAAJgAAAFkAAABlAAAAUTY6QhVrJEJg-kxD0t9qQxQAAAAmAAAAWQAAAGUAAADEfwAAF7_y-F9cBwIUv_L4CF0HAgYAnwUAAAAA",
+        "https://router.project-osrm.org/route/v1/driving/-118.300389,33.927655;-118.393416,33.931261?overview=full&geometries=geojson&steps=true&hints=Ng6JhP___38FAAAApQAAAGYAAAC9AgAAm0VNQe4ruUO6UW5DQdLLRAUAAAClAAAAZgAAAL0CAADEfwAAG-Hy-OexBQKs4PL4QLMFAgQA_w8AAAAA%3B2IpHg____38gAAAAPAAAABwBAAAAAAAAMH6YQl5EfkK1QiVEAAAAACAAAAA8AAAAHAEAAAAAAADEfwAAuHXx-P2_BQLIdfH4lL4FAhYAfwUAAAAA"
+      ],
+      "unlocatedDeaths": [
+        {
+          "name": "Helen",
+          "setting": "105 Freeway",
+          "reason": "Killed during the driver transfer; exact point unestablished."
+        },
+        {
+          "name": "Howard Payne",
+          "setting": "Moving subway train",
+          "reason": "Killed in a tunnel after leaving Pershing Square; exact tunnel position unestablished."
+        }
+      ]
+    }
+  ],
+  "dateAudit": {
+    "Speed": "1994 approximate contemporary setting, not an asserted exact canonical year.",
+    "Crash": "Haggis film; TIFF premiere 10 September 2004, U.S. release 6 May 2005. Story year 2004 is approximate."
+  },
+  "photoAudit": {
+    "verified": true,
+    "comparisonNotes": "All 40 JPEGs inspected in contact sheets. Fifteen site images are ground-level photographs; five are aerial views (LAX, market, Elgin production house, and the Lincoln and Western junctions). Dates are supplied only for the 2022 station and 2025 Raleigh photographs. Earlier location-blog photographs are archival/undated, not represented as captured today."
+  },
+  "ready": true
+}

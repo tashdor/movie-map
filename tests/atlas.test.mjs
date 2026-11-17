@@ -72,8 +72,10 @@ test('story evidence overrides contradictory production coordinates',()=>{
   const get=id=>data.places.find(p=>p.id===id);
   assert.equal(get(12).coordinates,null);
   assert.match(get(12).placement.address,/97th floor/);
-  assert.equal(get(80).coordinates,null);
-  assert.equal(get(80).placement.roadName,'Pico Boulevard');
+  assert.ok(get(80).coordinates);
+  assert.equal(get(80).placement.kind,'inferred');
+  assert.match(get(80).placement.address,/Pico Boulevard.*approximate/);
+  assert.notDeepEqual(get(80).coordinates,get(80).productionCoordinates);
   assert.equal(get(19).placement.kind,'inferred');
   assert.ok(get(19).coordinates[1]>34.03);
   assert.notDeepEqual(get(19).coordinates,get(19).productionCoordinates);
@@ -142,7 +144,7 @@ test('the expansion contains 100 new sourced places with unique identities',()=>
   const extra=JSON.parse(fs.readFileSync(new URL('../research/expansion-100.json',import.meta.url)));
   assert.equal(extra.places.length,100);
   assert.equal(new Set(extra.places.map(p=>p.id)).size,100);
-  assert.equal(data.places.length,215);
+  assert.ok(data.places.length>=215);
   for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
 });
 test('LAX death and channel chase use sourced sites and navigable photo entries',()=>{
@@ -185,11 +187,14 @@ test('Frank’s shares eligible L.A. stories and switches to the selected movie 
   assert.equal(displayEntries([franks],{film:'Gone Girl'}).length,0);
 });
 
-test('the Terminator police-station massacre is mapped as an attributed filming proxy',()=>{
+test('the Terminator station never uses Vernon as its story position',()=>{
   const station=data.places.find(p=>p.id===227);
-  assert.equal(station.placement.kind,'filming-proxy');
-  assert.ok(station.coordinates);
-  assert.match(station.placement.address,/unconfirmed/);
+  assert.equal(station.placement.kind,'unknown');
+  assert.equal(station.coordinates,null);
+  assert.match(station.placement.address,/story address unknown/);
+  assert.match(station.placement.reason,/Central Division/);
+  assert.match(station.placement.reason,/West Highland/);
+  assert.ok(station.productionCoordinates,'the production site stays in provenance');
   assert.equal(station.appearances[0].story_time.year,1984);
   const death=displayEntries([station],{category:'death'})[0];
   assert.equal(death.name,'Police-station massacre');
@@ -198,4 +203,64 @@ test('the Terminator police-station massacre is mapped as an attributed filming 
   assert.ok(filterPlaces([station],{query:'police station massacre'}).length);
   const labelOnly={...station,deaths:[{title:'The Terminator',people:['Other officers'],label:'Station siege'}]};
   assert.equal(filterPlaces([labelOnly],{query:'Station siege'}).length,1);
+});
+
+test('buildings with street-only story addresses have icons, not whole-street lines',()=>{
+  const get=id=>data.places.find(p=>p.id===id);
+  for(const id of [80,87,88,89,90,109,114]){
+    const p=get(id);
+    assert.ok(p.coordinates,`${id}: a location icon`);
+    assert.equal(p.placement.geometry,undefined);
+    assert.equal(p.placement.roadName,undefined);
+    assert.notDeepEqual(p.coordinates,p.productionCoordinates);
+    if(id!==114){assert.equal(p.placement.kind,'inferred');assert.match(p.placement.address,/approximate/);}
+  }
+  assert.ok(get(87).coordinates[1]>34.09437&&get(87).coordinates[1]<34.097979,'Havenhurst between Fountain and Sunset');
+  assert.ok(get(109).coordinates[0]<-118.42,'Norma’s fictional ten-thousand block, toward Bel Air');
+  assert.ok(Math.abs(get(114).coordinates[0]+118.412053)<.00001,'Dalmar’s named intersection');
+  for(const p of data.places){
+    assert.equal(p.placement?.roadName,undefined,`${p.id}: no whole-street building highlight`);
+    if(p.placement?.geometry&&/LineString/.test(p.placement.geometry.type)){
+      assert.equal(p.category,'event',`${p.id}: only travel events can have linear geometry`);
+      assert.ok(data.journeys.some(j=>j.stops.some(s=>s.placeId===p.id)),`${p.id}: line has a journey`);
+    }
+  }
+});
+
+test('the four added films have dated, sourced locations and matching film frames',()=>{
+  assert.equal(new Set(data.places.map(p=>p.id)).size,data.places.length);
+  for(const title of ['Crash','The Player','Strange Days','Speed']){
+    const places=filterPlaces(data.places,{film:title});
+    assert.ok(places.length>=4,`${title}: substantial location coverage`);
+    for(const place of displayEntries(places,{film:title})){
+      assert.ok(place.appearances.every(a=>a.title===title));
+      assert.equal(place.media.screen.title,title,`${place.id}: correct film frame`);
+      for(const appearance of place.appearances){
+        assert.ok(appearance.source_ids.length);
+        assert.ok(timeBounds(appearance),`${title}: canonical time or explicit estimate`);
+      }
+    }
+  }
+  for(const p of filterPlaces(data.places,{film:'Strange Days'}))for(const a of p.appearances.filter(a=>a.title==='Strange Days')){
+    assert.equal(a.story_time.year,1999);
+    assert.ok((a.story_time.end_year||1999)<=2000);
+  }
+});
+
+test('Speed’s bus follows separate story-road segments instead of production-site connectors',()=>{
+  const bus=data.journeys.find(j=>j.id===300);
+  assert.equal(bus.title,'Speed');
+  assert.equal(bus.year,1994);
+  assert.equal(bus.geometry.type,'MultiLineString');
+  assert.ok(bus.geometry.coordinates.length>=3,'unverified gaps stay disconnected');
+  assert.ok(bus.stops.length>=5);
+  for(const segment of bus.geometry.coordinates){
+    assert.ok(segment.length>=2);
+    for(const [lon,lat] of segment){assert.ok(Number.isFinite(lon)&&Number.isFinite(lat));assert.ok(lon>-119&&lon<-117.5&&lat>33.45&&lat<34.85);}
+  }
+  for(const stop of bus.stops){
+    const place=data.places.find(p=>p.id===stop.placeId);
+    assert.ok(place,stop.name);
+    assert.ok(place.appearances.some(a=>a.title==='Speed'));
+  }
 });

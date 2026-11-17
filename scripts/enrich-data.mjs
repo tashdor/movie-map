@@ -28,8 +28,6 @@ export function enrich(atlas){
       if(o.geometry){p.placement.viewport=[[Math.min(...o.geometry.coordinates[0].map(c=>c[0])),Math.min(...o.geometry.coordinates[0].map(c=>c[1]))],[Math.max(...o.geometry.coordinates[0].map(c=>c[0])),Math.max(...o.geometry.coordinates[0].map(c=>c[1]))]];p.placement.kind='inferred';}
       if(geocodes[p.id])p.coordinates=geocodes[p.id].coordinates;
     }
-    const streets={80:['Pico Boulevard',[[-118.5,34.005],[-118.25,34.055]]],87:['Havenhurst Drive',[[-118.373,34.078],[-118.361,34.107]]],88:['Sierra Bonita Avenue',[[-118.36,34.07],[-118.346,34.112]]],89:['Mulholland Drive',[[-118.399,34.103],[-118.32,34.142]]],90:['Sunset Boulevard',[[-118.508,34.02],[-118.24,34.105]]]};
-    if(streets[p.id]){p.placement.roadName=streets[p.id][0];p.placement.viewport=streets[p.id][1];p.coordinates=null;}
     if(p.id===65){p.address='4331 Leimert Boulevard';p.notes='Exterior: 4331 Leimert Boulevard. Interior: Grand Star Jazz Club, 943 Sun Mun Way.';}
     if(p.id===20){p.placement={kind:'inferred',address:'Central Los Angeles · estimated',precision:'area_inferred',reason:'The production site on Sunset Boulevard conflicts with a westward narrative progression. Exact story position is not established.',sourceIds:['falling_sites'],geometry:box([[-118.37,34.038],[-118.29,34.085]]),viewport:[[-118.37,34.038],[-118.29,34.085]]};p.coordinates=[-118.332,34.061];}
     if(p.id===30){p.placement={kind:'screen',address:'Los Angeles City Hall',precision:'building_exterior',sourceIds:['confidential_locations']};p.coordinates=[-118.2436,34.0537];}
@@ -60,12 +58,16 @@ export function enrich(atlas){
   const catalog={schema_version:1,researched_on:'2026-11-15',places:expanded.flatMap(d=>d.places),sources:[...new Map(expanded.flatMap(d=>d.sources).map(s=>[s.id,s])).values()],audit:expanded.flatMap(d=>d.audit||[])};
   if(catalog.places.length!==100)throw Error('Expansion must contain 100 researched places');
   fs.writeFileSync('research/expansion-100.json',JSON.stringify(catalog,null,2)+'\n');
-  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json']){
+  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json','research/player-strange-days.json','research/speed-crash.json']){
     const extra=read(path,{places:[],sources:[]});
     for(const source of extra.sources){if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}}
     for(const place of extra.places){if(byId.has(place.id))throw Error(`Duplicate place ${place.id}`);atlas.places.push(place);byId.set(place.id,place);}
+    for(const revised of extra.revisedPlaces||[]){const place=byId.get(revised.id);if(!place)throw Error(`Missing revised place ${revised.id}`);Object.assign(place,revised);}
     for(const revised of extra.journeys||[]){const index=atlas.journeys.findIndex(j=>j.id===revised.id);if(index<0)atlas.journeys.push(revised);else atlas.journeys[index]=revised;}
   }
+  const corrections=read('research/story-map-corrections.json',{corrections:[],sources:[]});
+  for(const source of corrections.sources)if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}
+  for(const correction of corrections.corrections){const place=byId.get(correction.id);if(!place)throw Error(`Missing corrected place ${correction.id}`);Object.assign(place,correction);}
   const race=byId.get(208);if(race?.routeAnchors){const j=atlas.journeys.find(j=>j.id===100);j.stops=race.routeAnchors.map(s=>({...s,placeId:208}));j.geometry=race.geometry||race.placement?.geometry;j.source_ids=race.appearances[0].source_ids;}
   const car=byId.get(211);if(car){const j=atlas.journeys.find(j=>j.id===97);j.stops[0]={name:car.name,coordinates:car.coordinates,placeId:211};j.source_ids=[...new Set([...j.source_ids,...car.appearances[0].source_ids])];}
   for(const p of atlas.places)if(p.media)media[p.id]={...p.media,...(p.mediaByTitle?{byTitle:p.mediaByTitle}:{})};

@@ -12,28 +12,24 @@
       ],
       "address": "Formerly 6000 S Boyle Avenue",
       "area": "Vernon",
-      "coordinates": [
-        -118.2119171,
-        33.9871716
-      ],
+      "coordinates": null,
       "productionCoordinates": [
         -118.2119171,
         33.9871716
       ],
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Los Angeles · exact story address unconfirmed",
-        "precision": "former-site-approximate",
-        "reason": "The original film’s door reads Central Division; T2 calls it West Highland. The street address is not established. This approximate point marks the demolished Bethlehem Steel office used as the station, not a confirmed fictional station address.",
+        "kind": "unknown",
+        "address": "Los Angeles · story address unknown",
+        "precision": "unlocated",
+        "reason": "The original film entrance reads Central Division. Terminator 2 retrospectively calls the 1984 station West Highland, a fictional division name without a verified street address. These conflicting labels do not establish a real precinct or neighbourhood. The demolished office at 6000 S Boyle Avenue in Vernon is known only as the production location.",
         "sourceIds": [
-          "t227_hfl",
           "t227_rtr",
           "t227_t2_script",
-          "t227_site_map",
-          "t227_census"
+          "t227_hfl",
+          "t227_afi"
         ]
       },
-      "precision": "former-site-approximate",
+      "precision": "unlocated",
       "people": [
         "Sarah Connor",
         "Kyle Reese",
@@ -228,6 +224,10 @@
     {
       "id": 227,
       "verification": "Film-frame source image URL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFlX2Gy6roafeMlgJSJgb53kOEmf3CqbrvrEv37wIw8VXQK4fGUny_946NL5fewKJeAaQC2YXOxymLcoY9bL9BJ15W4_4aI38eO4Yu1Jn7QQ1ebUJnv4PQbBCaSy3yxD93nh6UxSwXRpbHAhkpaCgcNeA5zCW-jH2TLB6FZsYyn8IkccVfXZ-2d8ApNdbw/s1090/Screenshot%202024-11-01%20at%204.31.43%E2%80%AFAM.png"
+    },
+    {
+      "id": 227,
+      "verification": "2026-11-16 correction: removed the Vernon production proxy from story-map placement. Neither the original Central Division door nor the T2 West Highland name establishes a street or neighbourhood. Keep the searchable event and production photos, with null story coordinates and the real production coordinates in provenance."
     }
   ]
 }

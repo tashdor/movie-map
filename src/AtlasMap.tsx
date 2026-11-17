@@ -26,10 +26,9 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,fil
       g.on('geolocate',()=>setLocating(false));g.on('error',event=>{setLocating(false);latest.current.onLocationError(event.code===1?'Location access denied':event.code===3?'Location request timed out':'Location unavailable');});
       m.on('load',async()=>{
         try{
-          const [county,streets]=await Promise.all(['la-county.geojson','story-streets.geojson'].map(file=>fetch(`${import.meta.env.BASE_URL}${file}`).then(r=>{if(!r.ok)throw Error(file);return r.json();})));
+          const county=await fetch(`${import.meta.env.BASE_URL}la-county.geojson`).then(r=>{if(!r.ok)throw Error('la-county.geojson');return r.json();});
           if(map.current!==m)return;
           m.addSource('county',{type:'geojson',data:exploredCounty(county,latest.current.coverage) as any});
-          m.addSource('story-streets',{type:'geojson',data:streets});
           m.addSource('county-fog',{type:'geojson',data:countyFog(county,latest.current.coverage) as any});
           m.addImage('unexplored-mist',fogTexture());
           m.addLayer({id:'county-fog',type:'fill',source:'county-fog',paint:{'fill-pattern':'unexplored-mist','fill-opacity':0.97}});
@@ -73,12 +72,11 @@ export default function AtlasMap({places,selected,journey,journeys,routeMode,fil
   useEffect(()=>{const m=map.current;if(!ready||!m||!film)return;const bounds=new maplibregl.LngLatBounds();for(const p of latest.current.places)if(p.coordinates)bounds.extend(p.coordinates);if(!bounds.isEmpty())m.fitBounds(bounds,{padding:60,maxZoom:13,duration:450});},[film,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
-    for(const id of ['story-road','story-area-line','story-area-fill'])if(m.getLayer(id))m.removeLayer(id);
+    for(const id of ['story-area-line','story-area-fill'])if(m.getLayer(id))m.removeLayer(id);
     if(m.getSource('story-area'))m.removeSource('story-area');
     if(!selected)return;
     const color=filmColor(selected.appearances[0].title);
     if(selected.placement?.geometry){m.addSource('story-area',{type:'geojson',data:{type:'Feature',properties:{},geometry:selected.placement.geometry} as any});if(selected.placement.geometry.type==='Polygon')m.addLayer({id:'story-area-fill',type:'fill',source:'story-area',paint:{'fill-color':color,'fill-opacity':0.08}});m.addLayer({id:'story-area-line',type:'line',source:'story-area',paint:{'line-color':color,'line-width':1.7,'line-dasharray':[4,3]}});}
-    if(selected.placement?.roadName)m.addLayer({id:'story-road',type:'line',source:'story-streets',filter:['==',['get','street'],selected.placement.roadName],paint:{'line-color':color,'line-width':5,'line-opacity':0.8}});
     if(selected.placement?.viewport)m.fitBounds(selected.placement.viewport,{padding:65,duration:450});else if(selected.coordinates)m.flyTo({center:selected.coordinates,zoom:Math.max(m.getZoom(),13),duration:450,essential:false});else m.flyTo({...CITY,duration:450});
   },[selected?.id,ready]);
   useEffect(()=>{
