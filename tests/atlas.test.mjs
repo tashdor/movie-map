@@ -169,6 +169,37 @@ test('the expansion contains 100 new sourced places with unique identities',()=>
   assert.ok(data.places.length>=215);
   for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
 });
+test('the second expansion adds 100 distinct, dated, sourced places within Los Angeles County',()=>{
+  const extra=JSON.parse(fs.readFileSync(new URL('../research/expansion2-100.json',import.meta.url)));
+  assert.equal(extra.places.length,100);
+  assert.deepEqual(extra.places.map(p=>p.id).sort((a,b)=>a-b),Array.from({length:100},(_,i)=>400+i));
+  const county=JSON.parse(fs.readFileSync(new URL('../public/la-county.geojson',import.meta.url))).features[0].geometry;
+  const inRing=([x,y],ring)=>{let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;};
+  const inCounty=c=>county.coordinates.some(p=>inRing(c,p[0])&&!p.slice(1).some(r=>inRing(c,r)));
+  for(const p of extra.places){
+    assert.equal(data.places.filter(x=>x.id===p.id).length,1);
+    assert.ok(inCounty(p.coordinates),`${p.id}: story point outside county`);
+    assert.ok(inCounty(p.productionCoordinates),`${p.id}: production point outside county`);
+    assert.ok(p.address&&p.people.length&&p.placement.reason,`${p.id}: incomplete research`);
+    assert.equal(p.placement.geometry?.type?.includes('LineString')||false,false);
+    for(const a of p.appearances){assert.ok(a.source_ids.length);assert.ok(Number.isInteger(a.story_time?.year));assert.ok(a.story_time.basis);}
+  }
+});
+test('new television places are recurring landmarks with story-first geography and period filters',()=>{
+  const tv=JSON.parse(fs.readFileSync(new URL('../research/expansion2-tv.json',import.meta.url)));
+  assert.equal(tv.places.length,12);
+  assert.ok(tv.places.every(p=>p.appearances.every(a=>a.medium==='television'&&!a.episodes?.length)));
+  const get=id=>data.places.find(p=>p.id===id);
+  assert.equal(filterPlaces(tv.places,{film:'Baywatch',time:time(1995)}).length,2);
+  assert.equal(filterPlaces(tv.places,{film:'Baywatch',time:time(2010)}).length,0);
+  assert.match(get(495).placement.address,/805 Saint Cloud Road/);
+  assert.match(get(497).placement.address,/953 Hillcrest Drive/);
+  for(const id of [495,497,498]){assert.equal(get(id).placement.kind,'inferred');assert.notDeepEqual(get(id).coordinates,get(id).productionCoordinates);}
+  assert.ok(get(498).coordinates[0]<-118.3,'the Peach Pit is not pinned at its Pasadena exterior');
+  assert.equal(get(499).productionSites.length,2,'the Griffin exterior and Prince interior are one story bar');
+  assert.match(get(499).media.place.caption,/Prince interior/);
+  assert.equal(data.places.filter(p=>p.name==='Craig Jones’s home').length,1,'the existing Friday home is not counted twice');
+});
 test('LAX death and the channel-chase event retain photos without a false route',()=>{
   const lax=data.places.find(p=>p.id===201);
   assert.equal(lax.category,'death');assert.deepEqual(lax.deaths[0].people,['Neil McCauley']);

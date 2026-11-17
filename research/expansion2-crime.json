@@ -1,0 +1,3616 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "places": [
+    {
+      "id": 400,
+      "name": "The liquor-store murders",
+      "short": "The liquor-store murders",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "5121 West Pico Boulevard",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.27,
+        33.96
+      ],
+      "productionCoordinates": [
+        -118.350171,
+        34.048204
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "South Los Angeles · approximate",
+        "precision": "area",
+        "reason": "The Mid-City production store stands for the South Los Angeles setting. The story gives no street; the marker is a broad editorial South L.A. estimate. The real Pico address is provenance only.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo",
+          "ex2_menace_gfl",
+          "ex2_menace_academy"
+        ],
+        "viewport": [
+          [
+            -118.335,
+            33.915
+          ],
+          [
+            -118.205,
+            34.005
+          ]
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "O-Dog"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Opening liquor-store robbery",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo",
+            "ex2_menace_gfl",
+            "ex2_menace_academy"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo",
+              "ex2_menace_gfl",
+              "ex2_menace_academy"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "witnesses the robbery"
+            },
+            {
+              "name": "O-Dog",
+              "relationship": "kills the owners and takes the surveillance tape"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n400-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_liquorstore-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "The liquor-store murders in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n400-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_liquorstore-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "The liquor-store murders — real filming site",
+          "caption": "Site · undated",
+          "note": "Jared Cowan’s site photograph, published in 2018; capture day unreported.",
+          "width": 1000,
+          "height": 714
+        }
+      },
+      "deaths": [
+        {
+          "title": "Menace II Society",
+          "people": [
+            "Liquor-store owner",
+            "Liquor-store owner’s wife"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "name": "Ronnie & Anthony’s home",
+      "short": "Ronnie & Anthony’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "2809 7th Avenue",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.325027,
+        34.029303
+      ],
+      "productionCoordinates": [
+        -118.325027,
+        34.029303
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "2809 7th Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo",
+          "ex2_menace_gfl"
+        ]
+      },
+      "people": [
+        "Ronnie",
+        "Anthony",
+        "Caine Lawson",
+        "Sharif Butler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Ronnie’s home; final drive-by shooting",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo",
+            "ex2_menace_gfl"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo",
+              "ex2_menace_gfl"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ronnie",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Anthony",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Caine Lawson",
+              "relationship": "visits Ronnie; killed in the final drive-by"
+            },
+            {
+              "name": "Sharif Butler",
+              "relationship": "killed in the final drive-by"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n401-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ronnie-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Ronnie & Anthony’s home in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n401-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ronnie-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Ronnie & Anthony’s home — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 665
+        }
+      },
+      "deaths": [
+        {
+          "title": "Menace II Society",
+          "people": [
+            "Caine Lawson",
+            "Sharif Butler"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Caine’s grandparents’ home",
+      "short": "Caine’s grandparents’ home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "Jordan Downs Housing Community · Grape Street",
+      "area": "Watts",
+      "coordinates": [
+        -118.2376,
+        33.9472
+      ],
+      "productionCoordinates": [
+        -118.2376,
+        33.9472
+      ],
+      "precision": "campus",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Jordan Downs Housing Community · Grape Street",
+        "precision": "campus",
+        "reason": "Jordan Downs is named in the story. The point represents the housing community, not a verified unit; redevelopment has removed original buildings.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo"
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "Caine’s grandfather",
+        "Caine’s grandmother"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "The grandparents’ home in Jordan Downs",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Caine’s grandfather",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Caine’s grandmother",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n402-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_jordandowns-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Caine’s grandparents’ home in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n402-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_jordandowns-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Caine’s grandparents’ home — real filming site",
+          "caption": "Original buildings · 2018",
+          "note": "2018 photograph of the original Jordan Downs buildings; archival, before redevelopment.",
+          "width": 1000,
+          "height": 665
+        }
+      }
+    },
+    {
+      "id": 403,
+      "name": "Ilena’s home",
+      "short": "Ilena’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4920 11th Avenue",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.3290481839,
+        33.998343946411
+      ],
+      "productionCoordinates": [
+        -118.3290481839,
+        33.998343946411
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "4920 11th Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Ilena",
+        "Ilena’s cousin",
+        "Caine Lawson"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Ilena’s home",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ilena",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Ilena’s cousin",
+              "relationship": "visits Ilena"
+            },
+            {
+              "name": "Caine Lawson",
+              "relationship": "becomes involved with Ilena"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n403-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ilenashouse-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Ilena’s home in Menace II Society",
+          "caption": "Screen/site comparison",
+          "note": "Published comparison combines the movie frame and Jared Cowan’s site photograph. It is not an unaltered standalone movie frame.",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 662
+        },
+        "place": {
+          "src": "photos/n403-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3299481839%2C33.997743946411%2C-118.3281481839%2C33.998943946410996&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Ilena’s home — real filming site",
+          "caption": "Filming site · aerial",
+          "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+          "width": 1000,
+          "height": 650
+        }
+      },
+      "productionGeocode": {
+        "query": "4920 11th Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4920+11th+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "4920 11th Ave, Los Angeles, California, 90043",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "4920 11th Ave, Los Angeles, California, 90043",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 404,
+      "name": "The Maxima theft",
+      "short": "The Maxima theft",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1800 North Highland Avenue · Franklin Place garage exit",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.337220036582,
+        34.104288981345
+      ],
+      "productionCoordinates": [
+        -118.337220036582,
+        34.104288981345
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1800 North Highland Avenue · Franklin Place garage exit",
+        "precision": "building_exterior",
+        "reason": "The scene’s garage exit faces Franklin Place; the marker follows that entrance, rather than the middle of the larger property.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "O-Dog",
+        "A-Wax"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "The stolen Maxima and arrest",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "steals the Nissan and is caught"
+            },
+            {
+              "name": "O-Dog",
+              "relationship": "steals the Nissan and is caught"
+            },
+            {
+              "name": "A-Wax",
+              "relationship": "brings Caine and O-Dog to the garage"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n404-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_garage-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "The Maxima theft in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n404-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_garage-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "The Maxima theft — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 665
+        }
+      },
+      "productionGeocode": {
+        "query": "1800 North Highland Avenue · Franklin Place garage exit, Hollywood, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1800+North+Highland+Avenue+%C2%B7+Franklin+Place+garage+exit%2C+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1800 N Highland Ave, Los Angeles, California, 90028",
+        "attributes": {
+          "Score": 95.76,
+          "Match_addr": "1800 N Highland Ave, Los Angeles, California, 90028",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 405,
+      "name": "The graduation party",
+      "short": "The graduation party",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "2181 Cambridge Street",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.28,
+        33.98
+      ],
+      "productionCoordinates": [
+        -118.305632,
+        34.044681
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "South Los Angeles · approximate",
+        "precision": "area",
+        "reason": "The Harvard Heights house is a production stand-in for the South L.A. social setting. No story street is established; this South L.A. marker is an editorial estimate.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_gfl"
+        ],
+        "viewport": [
+          [
+            -118.345,
+            33.934999999999995
+          ],
+          [
+            -118.215,
+            34.025
+          ]
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "Harold",
+        "O-Dog",
+        "A-Wax",
+        "Sharif Butler",
+        "Stacy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Graduation-night house party",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_gfl"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_gfl"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "attends the graduation party"
+            },
+            {
+              "name": "Harold",
+              "relationship": "attends the graduation party"
+            },
+            {
+              "name": "O-Dog",
+              "relationship": "attends the graduation party"
+            },
+            {
+              "name": "A-Wax",
+              "relationship": "attends the graduation party"
+            },
+            {
+              "name": "Sharif Butler",
+              "relationship": "attends the graduation party"
+            },
+            {
+              "name": "Stacy",
+              "relationship": "attends the graduation party"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n405-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_partyhouse-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "The graduation party in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n405-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_partyhouse-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "The graduation party — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 662
+        }
+      }
+    },
+    {
+      "id": 406,
+      "name": "Harold’s carjacking",
+      "short": "Harold’s carjacking",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "3423 West 43rd Place",
+      "area": "Leimert Park",
+      "coordinates": [
+        -118.332448,
+        34.004313
+      ],
+      "productionCoordinates": [
+        -118.332448,
+        34.004313
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "3423 West 43rd Place",
+        "precision": "building_exterior",
+        "reason": "The carjacking is filmed at 43rd Place near Crenshaw. The adjacent gas-station scene is edited from a different corner; no continuous sight line is asserted.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_gfl",
+          "ex2_menace_fo"
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "Harold",
+        "A-Wax",
+        "O-Dog"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Harold’s carjacking and death",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_gfl",
+            "ex2_menace_fo"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_gfl",
+              "ex2_menace_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "survives the carjacking"
+            },
+            {
+              "name": "Harold",
+              "relationship": "is killed during the carjacking"
+            },
+            {
+              "name": "A-Wax",
+              "relationship": "comes to the victims’ aid"
+            },
+            {
+              "name": "O-Dog",
+              "relationship": "comes to the victims’ aid"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n406-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_carjacking-3.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Harold’s carjacking in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n406-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_carjacking-4.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Harold’s carjacking — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 665
+        }
+      },
+      "deaths": [
+        {
+          "title": "Menace II Society",
+          "people": [
+            "Harold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Martin Luther King Jr. Hospital",
+      "short": "Martin Luther King Jr. Hospital",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1680 East 120th Street",
+      "area": "Willowbrook",
+      "coordinates": [
+        -118.243800037654,
+        33.922639979945
+      ],
+      "productionCoordinates": [
+        -118.243800037654,
+        33.922639979945
+      ],
+      "precision": "campus",
+      "placement": {
+        "kind": "screen",
+        "address": "1680 East 120th Street",
+        "precision": "campus",
+        "reason": "The story and location research identify Martin Luther King Jr. Hospital. The marker represents the medical campus; the photographed original building has been remodeled.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_fo",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Caine Lawson"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "Caine’s treatment after the carjacking",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_fo"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_fo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "receives treatment after being shot"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n407-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_hospital-1.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Martin Luther King Jr. Hospital in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 562
+        },
+        "place": {
+          "src": "photos/n407-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_hospital-2.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Martin Luther King Jr. Hospital — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 665
+        }
+      },
+      "productionGeocode": {
+        "query": "1680 East 120th Street, Willowbrook, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1680+East+120th+Street%2C+Willowbrook%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1680 E 120th St, Los Angeles, California, 90059",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "1680 E 120th St, Los Angeles, California, 90059",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 408,
+      "name": "Centinela Park barbecue",
+      "short": "Centinela Park barbecue",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "700 East Warren Lane · Edward Vincent Jr. Park",
+      "area": "Inglewood",
+      "coordinates": [
+        -118.347863041958,
+        33.971405180158
+      ],
+      "productionCoordinates": [
+        -118.347863041958,
+        33.971405180158
+      ],
+      "precision": "campus",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "700 East Warren Lane · Edward Vincent Jr. Park",
+        "precision": "campus",
+        "reason": "Warren Lane along Edward Vincent Jr. Park is the documented production location. The marker represents the park edge, not an independently named canonical picnic table.",
+        "sourceIds": [
+          "ex2_menace_taco",
+          "ex2_menace_park_official"
+        ]
+      },
+      "people": [
+        "Caine Lawson",
+        "Ilena",
+        "Sharif Butler",
+        "Mr. Butler",
+        "Stacy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Menace II Society",
+          "release_year": 1993,
+          "story_role": "The barbecue; Caine meets Ilena",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_menace_taco",
+            "ex2_menace_park_official"
+          ],
+          "story_time": {
+            "year": 1993,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_menace_taco",
+              "ex2_menace_park_official"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Caine Lawson",
+              "relationship": "meets Ilena and joins the barbecue"
+            },
+            {
+              "name": "Ilena",
+              "relationship": "meets Caine"
+            },
+            {
+              "name": "Sharif Butler",
+              "relationship": "joins the barbecue"
+            },
+            {
+              "name": "Mr. Butler",
+              "relationship": "talks with the young men"
+            },
+            {
+              "name": "Stacy",
+              "relationship": "joins the barbecue"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n408-screen.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_park-2.jpg?w=1000",
+          "credit": "Menace II Society film frame; L.A. TACO",
+          "alt": "Centinela Park barbecue in Menace II Society",
+          "title": "Menace II Society",
+          "width": 1000,
+          "height": 563
+        },
+        "place": {
+          "src": "photos/n408-place.jpg",
+          "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_park-3.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Centinela Park barbecue — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 665
+        }
+      }
+    },
+    {
+      "id": 409,
+      "name": "Frog’s gang hideout",
+      "short": "Frog’s gang hideout",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Toluca Substation · 1304 West 2nd Street",
+      "area": "Westlake",
+      "coordinates": [
+        -118.259367830241,
+        34.060905717342
+      ],
+      "productionCoordinates": [
+        -118.259367830241,
+        34.060905717342
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Toluca Substation · 1304 West 2nd Street",
+        "precision": "building_exterior",
+        "reason": "The substation building is the hangout; the neighboring tunnel is a separate production component. The restored substation now sits within an apartment complex.",
+        "sourceIds": [
+          "ex2_colors_taco",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Frog",
+        "Danny McGavin",
+        "Bob Hodges"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "The 21st Street gang’s substation hangout",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_taco",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_taco",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Frog",
+              "relationship": "uses the hideout"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "questions the gang"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "questions the gang"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n409-screen.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_belmonttunnel1_orionpictures.jpg?w=1000",
+          "credit": "Colors film frame; L.A. TACO",
+          "alt": "Frog’s gang hideout in Colors",
+          "title": "Colors",
+          "width": 1000,
+          "height": 551
+        },
+        "place": {
+          "src": "photos/n409-place.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_belmonttunnel2_jaredcowan.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Frog’s gang hideout — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 666
+        }
+      },
+      "productionGeocode": {
+        "query": "Toluca Substation · 1304 West 2nd Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Toluca+Substation+%C2%B7+1304+West+2nd+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1304 W 2nd St, Los Angeles, California, 90026",
+        "attributes": {
+          "Score": 96.3,
+          "Match_addr": "1304 W 2nd St, Los Angeles, California, 90026",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 410,
+      "name": "Watts Towers chase crash",
+      "short": "Watts Towers chase crash",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Watts Towers · 1765 East 107th Street",
+      "area": "Watts",
+      "coordinates": [
+        -118.2412,
+        33.9386
+      ],
+      "productionCoordinates": [
+        -118.2412,
+        33.9386
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Watts Towers · 1765 East 107th Street",
+        "precision": "building_exterior",
+        "reason": "Location manager Kojo Lewis confirms Watts Towers was scripted for the crash. Breakaway replicas supplied the impact pieces; the real landmark was not destroyed.",
+        "sourceIds": [
+          "ex2_colors_taco",
+          "ex2_colors_its",
+          "ex2_colors_afi"
+        ]
+      },
+      "people": [
+        "Danny McGavin",
+        "Bob Hodges"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "The car-chase crash at Watts Towers",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_taco",
+            "ex2_colors_its",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_taco",
+              "ex2_colors_its",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Danny McGavin",
+              "relationship": "pursues the gang car"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "pursues the gang car"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n410-screen.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_wattstowers3_orionpictures.jpg?w=1000",
+          "credit": "Colors film frame; L.A. TACO",
+          "alt": "Watts Towers chase crash in Colors",
+          "title": "Colors",
+          "width": 1000,
+          "height": 551
+        },
+        "place": {
+          "src": "photos/n410-place.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_wattstowers2_jaredcowan.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "Watts Towers chase crash — real filming site",
+          "caption": "Site · 2016",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "date": "2016",
+          "width": 1000,
+          "height": 665
+        }
+      }
+    },
+    {
+      "id": 411,
+      "name": "Louisa Gomez’s restaurant",
+      "short": "Louisa Gomez’s restaurant",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout"
+      ],
+      "address": "Former restaurant · 10800 South San Pedro Street",
+      "area": "Watts",
+      "coordinates": [
+        -118.26935520315,
+        33.938104717032
+      ],
+      "productionCoordinates": [
+        -118.26935520315,
+        33.938104717032
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Former restaurant · 10800 South San Pedro Street",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_colors_its",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Louisa Gomez",
+        "Danny McGavin",
+        "Bob Hodges"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "Louisa’s restaurant workplace",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_its",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_its",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Louisa Gomez",
+              "relationship": "works here"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "meets Louisa here"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "stops for food"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n411-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaT_DOtGwHBAF15myjxm7Utmz4WQ0-lEAONm4AU2m1Ro5ouEE_a1-X5VY6AV_tgLklUMqqIl_ess5IEES7X8O6RN4sI_qDHTE6qw4aOVQ1dNK1_M-OLykFjK10P2qfeR_yxOKrf4Ezeug/s1200/Diner.JPG",
+          "credit": "Colors film frame; ItsFilmedThere",
+          "alt": "Louisa Gomez’s restaurant in Colors",
+          "title": "Colors",
+          "width": 800,
+          "height": 439
+        },
+        "place": {
+          "src": "photos/n411-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCLCd2iINxmA8EQKRRKme_0BzyA4NUwjQbk6gvhN8EIIzypxI6anKZRwfwm_l1hxuup_Bnu3YLmTDw9kmk2SsWd4BctDrFtHvJjELEYjIA9Y3EBIfT82FfgHC8B8F3n-d5-MdZPtmEfMQf/s1200/Restaurant+1.jpg",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Louisa Gomez’s restaurant — real filming site",
+          "caption": "Former site · undated",
+          "note": "Photograph of the former restaurant site; the screen restaurant was demolished.",
+          "width": 843,
+          "height": 462
+        }
+      },
+      "productionGeocode": {
+        "query": "Former restaurant · 10800 South San Pedro Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Former+restaurant+%C2%B7+10800+South+San+Pedro+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "10800 S San Pedro St, Los Angeles, California, 90061",
+        "attributes": {
+          "Score": 96.79,
+          "Match_addr": "10800 S San Pedro St, Los Angeles, California, 90061",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 412,
+      "name": "White Fence’s bridge hangout",
+      "short": "White Fence’s bridge hangout",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Lorena Street Bridge · lower East 4th Street at Bernal Avenue",
+      "area": "Boyle Heights",
+      "coordinates": [
+        -118.197501505817,
+        34.034622667373
+      ],
+      "productionCoordinates": [
+        -118.197501505817,
+        34.034622667373
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Lorena Street Bridge · lower East 4th Street at Bernal Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_colors_taco",
+          "ex2_colors_its",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Bob Hodges",
+        "Danny McGavin"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "White Fence gang meeting beneath the bridge",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_taco",
+            "ex2_colors_its",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_taco",
+              "ex2_colors_its",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bob Hodges",
+              "relationship": "questions the gang members"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "questions the gang members"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n412-screen.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_lorenabridge1_orionpictures.jpg?w=1000",
+          "credit": "Colors film frame; L.A. TACO",
+          "alt": "White Fence’s bridge hangout in Colors",
+          "title": "Colors",
+          "width": 1000,
+          "height": 550
+        },
+        "place": {
+          "src": "photos/n412-place.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_lorenabridge2_jaredcowan.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "White Fence’s bridge hangout — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 666
+        }
+      },
+      "productionGeocode": {
+        "query": "3329 East 4th Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=3329+East+4th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "3329 E 4th St, Los Angeles, California, 90063",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "3329 E 4th St, Los Angeles, California, 90063",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 413,
+      "name": "The 21st Street party house",
+      "short": "The 21st Street party house",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "1070 North Hicks Avenue",
+      "area": "City Terrace",
+      "coordinates": [
+        -118.190743344925,
+        34.049482440599
+      ],
+      "productionCoordinates": [
+        -118.190743344925,
+        34.049482440599
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "1070 North Hicks Avenue",
+        "precision": "building_exterior",
+        "reason": "The location-manager interview places the party attack in City Terrace; the Hicks Avenue address is the matched production house, without a canonical street number.",
+        "sourceIds": [
+          "ex2_colors_its",
+          "ex2_colors_taco",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Frog",
+        "Bird",
+        "Danny McGavin",
+        "Bob Hodges"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "The drive-by attack on the 21st Street party",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_its",
+            "ex2_colors_taco",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_its",
+              "ex2_colors_taco",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Frog",
+              "relationship": "attends the party"
+            },
+            {
+              "name": "Bird",
+              "relationship": "attends the party"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "responds to the attack"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "responds to the attack"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n413-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSOAwWaHbklld1XAOPTK9tSUTnIOB_xToe0jq13rH06eVdvbSJXkzWPEf-OuGSTvAc6O-8iaGcgEJsJv31P5lDE5200K4-BPHEob508LmLoR_pg0BVgoXiO9Vqp518ZaZwL32b8pZv7uw/s1200/Big+House+1.JPG",
+          "credit": "Colors film frame; ItsFilmedThere",
+          "alt": "The 21st Street party house in Colors",
+          "title": "Colors",
+          "width": 800,
+          "height": 441
+        },
+        "place": {
+          "src": "photos/n413-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.191643344925%2C34.048882440599%2C-118.189843344925%2C34.050082440599&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "The 21st Street party house — real filming site",
+          "caption": "Filming site · aerial",
+          "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+          "width": 1000,
+          "height": 650
+        }
+      },
+      "productionGeocode": {
+        "query": "1070 North Hicks Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1070+North+Hicks+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1070 N Hicks Ave, Los Angeles, California, 90063",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "1070 N Hicks Ave, Los Angeles, California, 90063",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 414,
+      "name": "The hilltop raid",
+      "short": "The hilltop raid",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Figueroa Terrace · between Beaudry Avenue and Centennial Street",
+      "area": "Victor Heights",
+      "coordinates": [
+        -118.245229990336,
+        34.068701013023
+      ],
+      "productionCoordinates": [
+        -118.245229990336,
+        34.068701013023
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Figueroa Terrace · between Beaudry Avenue and Centennial Street",
+        "precision": "area",
+        "reason": "Kojo Lewis identifies Figueroa Terrace and the adjoining hilltop. The point marks that area, not a precise firing position. This replaces the older guide’s unsupported Vista Hermosa guess.",
+        "sourceIds": [
+          "ex2_colors_taco",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Bob Hodges",
+        "Danny McGavin",
+        "Frog",
+        "Bird"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "Final hilltop raid; Hodges’s death",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_taco",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_taco",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bob Hodges",
+              "relationship": "is fatally shot during the raid"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "joins the raid"
+            },
+            {
+              "name": "Frog",
+              "relationship": "is present during the raid"
+            },
+            {
+              "name": "Bird",
+              "relationship": "shoots Hodges"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n414-screen.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_hilltop4_orionpictures.jpg?w=1000",
+          "credit": "Colors film frame; L.A. TACO",
+          "alt": "The hilltop raid in Colors",
+          "title": "Colors",
+          "width": 1000,
+          "height": 549
+        },
+        "place": {
+          "src": "photos/n414-place.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_hilltop2_jaredcowan.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "The hilltop raid — real filming site",
+          "caption": "Site · undated",
+          "note": "View from Figueroa Terrace in the 2023 article; the former empty raid hill now has apartments.",
+          "width": 1000,
+          "height": 666
+        }
+      },
+      "deaths": [
+        {
+          "title": "Colors",
+          "people": [
+            "Bob Hodges"
+          ]
+        }
+      ],
+      "productionGeocode": {
+        "query": "1015 Figueroa Terrace, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1015+Figueroa+Terrace%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1015 Figueroa Ter, Los Angeles, California, 90012",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "1015 Figueroa Ter, Los Angeles, California, 90012",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 415,
+      "name": "High Top’s Venice escape",
+      "short": "High Top’s Venice escape",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Windward Avenue at Pacific Avenue",
+      "area": "Venice",
+      "coordinates": [
+        -118.47186,
+        33.98716
+      ],
+      "productionCoordinates": [
+        -118.47186,
+        33.98716
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Windward Avenue at Pacific Avenue",
+        "precision": "building_exterior",
+        "reason": "The location manager confirms Venice is the story setting. This event marks the Windward/Pacific start, not a reconstructed continuous chase route.",
+        "sourceIds": [
+          "ex2_colors_taco",
+          "ex2_colors_its",
+          "ex2_colors_afi"
+        ]
+      },
+      "people": [
+        "Clarence “High Top” Brown",
+        "Bob Hodges",
+        "Danny McGavin"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "High Top steals a motorcycle; pursuit begins",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_taco",
+            "ex2_colors_its",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_taco",
+              "ex2_colors_its",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Clarence “High Top” Brown",
+              "relationship": "steals a motorcycle and flees"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "pursues High Top"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "pursues High Top"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n415-screen.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_venice2_orionpictures.jpg?w=1000",
+          "credit": "Colors film frame; L.A. TACO",
+          "alt": "High Top’s Venice escape in Colors",
+          "title": "Colors",
+          "width": 1000,
+          "height": 551
+        },
+        "place": {
+          "src": "photos/n415-place.jpg",
+          "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_venice1_jaredcowan.jpg?w=1000",
+          "credit": "Jared Cowan / L.A. TACO",
+          "alt": "High Top’s Venice escape — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1000,
+          "height": 666
+        }
+      }
+    },
+    {
+      "id": 416,
+      "name": "Robert Craig’s home",
+      "short": "Robert Craig’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "115 West 111th Street",
+      "area": "Watts",
+      "coordinates": [
+        -118.274558353366,
+        33.935064014017
+      ],
+      "productionCoordinates": [
+        -118.274558353366,
+        33.935064014017
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "115 West 111th Street",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_colors_its",
+          "ex2_colors_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Robert Craig",
+        "Rocket",
+        "Danny McGavin",
+        "Bob Hodges"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Colors",
+          "release_year": 1988,
+          "story_role": "Robert Craig’s drive-by killing",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_colors_its",
+            "ex2_colors_afi"
+          ],
+          "story_time": {
+            "year": 1988,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_colors_its",
+              "ex2_colors_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Robert Craig",
+              "relationship": "lives here; shot outside"
+            },
+            {
+              "name": "Rocket",
+              "relationship": "shoots Robert Craig"
+            },
+            {
+              "name": "Danny McGavin",
+              "relationship": "investigates the shooting"
+            },
+            {
+              "name": "Bob Hodges",
+              "relationship": "investigates the shooting"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n416-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjRhZXSSjc8XViVq8xsA82Y4S7-JgcWzeaSqvSbMRwzLvrjx097imm1yG1YIc-NEuGhkY8wZ_RtacUiUUwFQ-GrQaDLC3Zo2jvd2D3flypPM8T2JeiBolIr7BmpkpEtDXt4jiognV-OLU/s1200/First+Driveby+1.JPG",
+          "credit": "Colors film frame; ItsFilmedThere",
+          "alt": "Robert Craig’s home in Colors",
+          "title": "Colors",
+          "width": 800,
+          "height": 440
+        },
+        "place": {
+          "src": "photos/n416-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.275458353366%2C33.934464014017%2C-118.273658353366%2C33.935664014017&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Robert Craig’s home — real filming site",
+          "caption": "Filming site · aerial",
+          "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+          "width": 1000,
+          "height": 650
+        }
+      },
+      "deaths": [
+        {
+          "title": "Colors",
+          "people": [
+            "Robert Craig"
+          ]
+        }
+      ],
+      "productionGeocode": {
+        "query": "115 West 111th Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=115+West+111th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "115 W 111th St, Los Angeles, California, 90061",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "115 W 111th St, Los Angeles, California, 90061",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 417,
+      "name": "Joe Hallenbeck’s home",
+      "short": "Joe Hallenbeck’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "15515 Via de las Olas",
+      "area": "Pacific Palisades",
+      "coordinates": [
+        -118.531430996271,
+        34.035827859322
+      ],
+      "productionCoordinates": [
+        -118.531430996271,
+        34.035827859322
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "15515 Via de las Olas",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_lastboy_its",
+          "ex2_lastboy_afi",
+          "ex2_lastboy_plot",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Joe Hallenbeck",
+        "Sarah Hallenbeck",
+        "Darian Hallenbeck",
+        "Mike Matthews"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Hallenbeck family home; Mike’s car bombing",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_afi",
+            "ex2_lastboy_plot"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_afi",
+              "ex2_lastboy_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Sarah Hallenbeck",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Darian Hallenbeck",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mike Matthews",
+              "relationship": "dies in a car explosion outside"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n417-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1hoKtr8BfdaBacpFLMkUp470qoDtAf3fEnZd2ik7BTzLgMSiGlTkCS-gKxUjG8o2lPUO9iWa9ooEjgcl7xk8k0XYOo734cL80ij4qHocxVOvWxvPHFcbdn74rDDRd8DErQ8a8ZiYVEH/s1200/Blowup+1.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Joe Hallenbeck’s home in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 833,
+          "height": 357
+        },
+        "place": {
+          "src": "photos/n417-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5KlbxZYxR1t_f-yoqvo5hBKe0cyacxsXZUMpicuz4R0XukzKdD_olTBEVslPto4DxxeaD3zNnUllMCwjw6vij0_qdWk7vK6ipNX0MnVSTfec0YcHgCMpNsSqMFReeEcBmDU55JNaogEs/s1200/Los+Angeles+November+2011+608.jpg",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Joe Hallenbeck’s home — real filming site",
+          "caption": "House before 2025 fire · 2011",
+          "note": "Archival November 2011 site photo. The location guide reports the house was destroyed in the 2025 fire.",
+          "date": "2011-11",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      "deaths": [
+        {
+          "title": "The Last Boy Scout",
+          "people": [
+            "Mike Matthews"
+          ]
+        }
+      ],
+      "productionGeocode": {
+        "query": "15515 Via de las Olas, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=15515+Via+de+las+Olas%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "15515 Via DE las Olas, Pacific Palisades, California, 90272",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "15515 Via DE las Olas, Pacific Palisades, California, 90272",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 418,
+      "name": "Cory’s apartment",
+      "short": "Cory’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "Harper House · 1334 North Harper Avenue",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.368486044169,
+        34.095436895311
+      ],
+      "productionCoordinates": [
+        -118.368486044169,
+        34.095436895311
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Harper House · 1334 North Harper Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_lastboy_its",
+          "ex2_lastboy_afi",
+          "ex2_lastboy_plot",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Cory",
+        "Jimmy Dix",
+        "Joe Hallenbeck"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Cory’s apartment; the blackmail recording",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_afi",
+            "ex2_lastboy_plot"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_afi",
+              "ex2_lastboy_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cory",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Jimmy Dix",
+              "relationship": "finds Cory’s recording"
+            },
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "finds Cory’s recording"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n418-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-T2_LL3fO-fWxoo0rfo8gcq1TcxMXSPcw5Nd-wHju1m7HK6r6JspnhHB3S7_o3LCX5iZ0cWSXqrDc95-UGiaQaLFC_Z17brnGRPFpg8h-xuBtnmO3OiKeKdkbHCwFikyFYFONQcHGspB/s1200/Apartment+Building.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Cory’s apartment in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 840,
+          "height": 356
+        },
+        "place": {
+          "src": "photos/n418-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-sbgOkiGJDXSVvjvrk1ljINnqIHYOVf6Xus611ms6IICMJxuyZSlkjNenFUIpYXoCMf68pM6jwCielyB-Reaytq15fPhYrtMMBG_6WSvQzlkbMcE8KHB2JChti1NlBbYPad8h9wDNQJ6RANjoGGn4YGo0pfUtPcHE_HaDNLFa-eJ5s9gK-sHI8ja1/s1200/c.jpg",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Cory’s apartment — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1200,
+          "height": 761
+        }
+      },
+      "productionGeocode": {
+        "query": "Harper House · 1334 North Harper Avenue, West Hollywood, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Harper+House+%C2%B7+1334+North+Harper+Avenue%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1334 N Harper Ave, West Hollywood, California, 90046",
+        "attributes": {
+          "Score": 97.5,
+          "Match_addr": "1334 N Harper Ave, West Hollywood, California, 90046",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 419,
+      "name": "Cory’s murder",
+      "short": "Cory’s murder",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "109 West 5th Street",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.248715018038,
+        34.046981993153
+      ],
+      "productionCoordinates": [
+        -118.248715018038,
+        34.046981993153
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "109 West 5th Street",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_lastboy_its",
+          "ex2_lastboy_imdb",
+          "ex2_lastboy_plot",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Cory",
+        "Joe Hallenbeck",
+        "Jimmy Dix"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Cory is killed after leaving the club",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_imdb",
+            "ex2_lastboy_plot"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_imdb",
+              "ex2_lastboy_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cory",
+              "relationship": "is killed here"
+            },
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "fights the hitmen"
+            },
+            {
+              "name": "Jimmy Dix",
+              "relationship": "survives the attack"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n419-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2WE4EhyphenhyphenrBAKuBhn34EoTgPHoo_l72yR-XwojNB0Rgn-SNhHfGvBw3vuIu3PG7o7LStecme-YwYR38enltQ3A6CfnY9fSzklhOKY9x6q84bRxQth-wLlMwDNi6MWs-4kk_TJpu7mCVphJX/s1200/Shooting.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Cory’s murder in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 839,
+          "height": 356
+        },
+        "place": {
+          "src": "photos/n419-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiawBZdcL4LwsZHsGSI48xq7_qv7VNVqqLa5ChX0JujJ19jrinWvROt9aa_Gn-4h7Bgz-i9BMYDZxjZC8v8QIQ2Sl1Irjkofvql7V2assW8TOAxjbTB4QNNQKeSH_MU45BSF9FzEcOTwuribVVhPwMYVanvDBhjYE70HP6zXXnIUTlElexTTSMGfZHHvDY/s1200/A.JPG",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Cory’s murder — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1200,
+          "height": 658
+        }
+      },
+      "deaths": [
+        {
+          "title": "The Last Boy Scout",
+          "people": [
+            "Cory"
+          ]
+        }
+      ],
+      "productionGeocode": {
+        "query": "109 West 5th Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=109+West+5th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "109 W 5th St, Los Angeles, California, 90013",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "109 W 5th St, Los Angeles, California, 90013",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 420,
+      "name": "Jimmy’s fall from the overpass",
+      "short": "Jimmy’s fall from the overpass",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "355 South Grand Avenue",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.252783174744,
+        34.052155261884
+      ],
+      "productionCoordinates": [
+        -118.252783174744,
+        34.052155261884
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "355 South Grand Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_lastboy_its",
+          "ex2_lastboy_afi",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Jimmy Dix",
+        "Joe Hallenbeck"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Jimmy is thrown down to the street",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jimmy Dix",
+              "relationship": "is thrown down to the street"
+            },
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "looks for Jimmy"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n420-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjldaQp6kT6nOYZ-DPOSLyJii20TBaxHlTBpwjomNdFnOTHXD30PnueNh2_NeFHrlj1xEYxes9jmcBOUIO3jpLXe5JrweC3a3FluYQ1KajZx-_4CzZFKmJxcO7di2g2ClbXigH-DtxgFf88/s1200/Overpass.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Jimmy’s fall from the overpass in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 841,
+          "height": 358
+        },
+        "place": {
+          "src": "photos/n420-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixDMheZY99lMziN1ujkCOU8M99EkOH6Rp-h-zqTgSfmwnj8beUS2rRva833lLctM4lQ2YZm2pRu5pCcwMjF3f-wqFt60UoKYiHOYjO8YYtHCaeqSc8nw-uQl-Xyo97XBJ8oPhGEKKNAyEX7f7OPaPKAeq96jAYTCMndPrgrezz9Ae98NKJfOII3Ang278/s1200/A.JPG",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Jimmy’s fall from the overpass — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1200,
+          "height": 674
+        }
+      },
+      "productionGeocode": {
+        "query": "355 South Grand Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=355+South+Grand+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "355 S Grand Ave, Los Angeles, California, 90071",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "355 S Grand Ave, Los Angeles, California, 90071",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 421,
+      "name": "Sheldon Marcone’s mansion",
+      "short": "Sheldon Marcone’s mansion",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "1125 Oak Grove Avenue",
+      "area": "Los Feliz / Hollywood Hills",
+      "coordinates": [
+        -118.302,
+        34.116
+      ],
+      "productionCoordinates": [
+        -118.12816036778,
+        34.126817022509
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Below Griffith Observatory · approximate",
+        "precision": "area",
+        "viewport": [
+          [
+            -118.33,
+            34.1
+          ],
+          [
+            -118.27,
+            34.13
+          ]
+        ],
+        "reason": "AFI places Marcone’s fatal explosion in the residential neighborhood below Griffith Observatory. The San Marino mansion is a production site; this story pin is an editorial Los Feliz / Hollywood Hills estimate, not a canonical parcel. The real mansion photograph and address remain production provenance.",
+        "sourceIds": [
+          "ex2_lastboy_afi",
+          "ex2_lastboy_its",
+          "ex2_crime_geocode"
+        ]
+      },
+      "people": [
+        "Sheldon Marcone",
+        "Joe Hallenbeck",
+        "Milo",
+        "Darian Hallenbeck"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Marcone’s mansion",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_afi",
+            "ex2_lastboy_plot"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_afi",
+              "ex2_lastboy_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sheldon Marcone",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "is brought here"
+            },
+            {
+              "name": "Milo",
+              "relationship": "works for Marcone"
+            },
+            {
+              "name": "Darian Hallenbeck",
+              "relationship": "is held by Marcone’s men"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n421-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIs-0OcKKLj0F1LjxpyllbpyRtgKR7_2RS2foKi_3MJL-q3aStvUuLSvtS7_dgmDI8n_D6eSESD6OLrXS8BcoJlRb25mOFpiR6gUNsL0Mz1NoUVHcFg_eB56WK-EyVWLBDrANsES2dlrMi/s1200/Mansion.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Sheldon Marcone’s mansion in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 846,
+          "height": 358
+        },
+        "place": {
+          "src": "photos/n421-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvR2Pa6Dv9bIEaXkp-jsPP4RZxGnC5PEXZprND1Y1KAxYoMX2dJuJlW4f1vOICy8MvVM3Pq2j3ZgPvKjckqvKWrnQxosfvxRcKu4D_QboIG276Fayrzr7aHctqvDTWPxEwp7biGvbc08/s1600/588.JPG",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Sheldon Marcone’s mansion — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1200,
+          "height": 896
+        }
+      },
+      "productionGeocode": {
+        "query": "1125 Oak Grove Avenue, San Marino, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1125+Oak+Grove+Avenue%2C+San+Marino%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "1125 Oak Grove Ave, San Marino, California, 91108",
+        "attributes": {
+          "Score": 100,
+          "Match_addr": "1125 Oak Grove Ave, San Marino, California, 91108",
+          "Addr_type": "PointAddress"
+        }
+      }
+    },
+    {
+      "id": 422,
+      "name": "Los Angeles Stallions stadium",
+      "short": "Los Angeles Stallions stadium",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "Los Angeles Memorial Coliseum · 3911 South Figueroa Street",
+      "area": "Exposition Park",
+      "coordinates": [
+        -118.2862321,
+        34.0140413
+      ],
+      "productionCoordinates": [
+        -118.2862321,
+        34.0140413
+      ],
+      "precision": "campus",
+      "placement": {
+        "kind": "screen",
+        "address": "Los Angeles Memorial Coliseum · 3911 South Figueroa Street",
+        "precision": "campus",
+        "reason": "AFI’s production history reports the climax was filmed at the Coliseum with 6,000 extras. This point covers the Los Angeles Stallions home venue; the opening Cleveland setting is excluded. Another production listing mentions San Diego Stadium but does not displace the AFI evidence for the Coliseum climax.",
+        "sourceIds": [
+          "ex2_lastboy_its",
+          "ex2_lastboy_imdb",
+          "ex2_lastboy_plot",
+          "ex2_crime_geocode",
+          "ex2_lastboy_afi"
+        ]
+      },
+      "people": [
+        "Jimmy Dix",
+        "Joe Hallenbeck",
+        "Milo",
+        "Calvin Baynard"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Last Boy Scout",
+          "release_year": 1991,
+          "story_role": "Stallions stadium exterior",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_lastboy_its",
+            "ex2_lastboy_imdb",
+            "ex2_lastboy_plot",
+            "ex2_lastboy_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_lastboy_its",
+              "ex2_lastboy_imdb",
+              "ex2_lastboy_plot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jimmy Dix",
+              "relationship": "formerly played for the Stallions"
+            },
+            {
+              "name": "Joe Hallenbeck",
+              "relationship": "stops the assassination attempt"
+            },
+            {
+              "name": "Milo",
+              "relationship": "attempts to kill Baynard"
+            },
+            {
+              "name": "Calvin Baynard",
+              "relationship": "is targeted during the game"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n422-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDoG79N0fykcKFcJdzfn6RCtS8ECW7U40mHhorxoJf0_exSx5DcKmbwzytpgxRon4EuVtYceXY0cZsXF5OHLBFN0NZRMtaOvsp_o4eIoCxgwjc7hzDdv_BKpir4VhDN8uD1ADQqehhcYV/s1200/Stadium.JPG",
+          "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+          "alt": "Los Angeles Stallions stadium in The Last Boy Scout",
+          "title": "The Last Boy Scout",
+          "width": 834,
+          "height": 361
+        },
+        "place": {
+          "src": "photos/n422-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZT6clYFS-UnKxJNlF2jf7EKrDTpluStan4F9AOhohxr6SjHKYNODVHovgyY8_KFLy1k5bgGlVDNjAcFFj5rMomJi5-QDUYyIynCQkHcBwIhLiJ6jubpkF2z7OC40pVk_93fxAtWoHrufE/s1200/LA+2007+Pictures+427.jpg",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Los Angeles Stallions stadium — real filming site",
+          "caption": "Coliseum exterior · 2007",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "date": "2007",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      "productionGeocode": {
+        "query": "Los Angeles Memorial Coliseum · 3911 South Figueroa Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Los+Angeles+Memorial+Coliseum+%C2%B7+3911+South+Figueroa+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "Los Angeles Memorial Coliseum",
+        "attributes": {
+          "Score": 99.84,
+          "Match_addr": "Los Angeles Memorial Coliseum",
+          "Addr_type": "POI"
+        }
+      }
+    },
+    {
+      "id": 423,
+      "name": "Anderson police station",
+      "short": "Anderson police station",
+      "category": "work",
+      "categories": [
+        "work",
+        "event",
+        "death"
+      ],
+      "address": "Former Venice police station · 685 North Venice Boulevard",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.29,
+        33.97
+      ],
+      "productionCoordinates": [
+        -118.467083411636,
+        33.986933140255
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Anderson · South Los Angeles · approximate",
+        "precision": "area",
+        "reason": "The story places the Anderson precinct in South Los Angeles. Venice supplied its facade; studio sets supplied the interior. The marker is an editorial South L.A. estimate, not the Venice production building.",
+        "sourceIds": [
+          "ex2_assault_its",
+          "ex2_assault_laist",
+          "ex2_assault_afi",
+          "ex2_crime_geocode"
+        ],
+        "viewport": [
+          [
+            -118.355,
+            33.925
+          ],
+          [
+            -118.22500000000001,
+            34.015
+          ]
+        ]
+      },
+      "people": [
+        "Ethan Bishop",
+        "Leigh",
+        "Napoleon Wilson",
+        "Wells",
+        "Julie",
+        "Starker",
+        "Chaney",
+        "Cornell"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Assault on Precinct 13",
+          "release_year": 1976,
+          "story_role": "The siege at the decommissioned Anderson precinct",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_assault_its",
+            "ex2_assault_laist",
+            "ex2_assault_afi"
+          ],
+          "story_time": {
+            "year": 1976,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact story date.",
+            "source_ids": [
+              "ex2_assault_its",
+              "ex2_assault_laist",
+              "ex2_assault_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ethan Bishop",
+              "relationship": "commands the station during the siege"
+            },
+            {
+              "name": "Leigh",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Napoleon Wilson",
+              "relationship": "helps defend the station"
+            },
+            {
+              "name": "Wells",
+              "relationship": "is detained during the siege"
+            },
+            {
+              "name": "Julie",
+              "relationship": "works at the station; killed"
+            },
+            {
+              "name": "Starker",
+              "relationship": "brings the prisoners; killed"
+            },
+            {
+              "name": "Chaney",
+              "relationship": "works at the station; killed outside"
+            },
+            {
+              "name": "Cornell",
+              "relationship": "is detained during the siege; killed"
+            }
+          ],
+          "categories": [
+            "work",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n423-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/06/assault-on-precinct-13-1976.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinq82fAK1V-xlXEAoWyid5T-6waD61A-r3FXmBKVEkuTn7ICcvrJtlWO0dze6_8JBdW2jvHH-XgFOwOlWDhMvtafmxFikza6d1DS_B-EDHirnWo8TNvJCFNJu9zHOHoyJybz1i_i45owjZ/s1200/Police+1.jpg",
+          "credit": "Assault on Precinct 13 film frame; ItsFilmedThere",
+          "alt": "Anderson police station in Assault on Precinct 13",
+          "title": "Assault on Precinct 13",
+          "width": 1200,
+          "height": 524
+        },
+        "place": {
+          "src": "photos/n423-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/06/assault-on-precinct-13-1976.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieMsxNig4DKcxYXDULjvk6bc7bbuSV-BjG1Bv8fqlSTRU5H1TT-UmGiX4pK-B_P-HNJcNrXq06VDE4e4QdYEsB4lcpIv1or3K3LwyaMGuL0AaZYr7EelqmJ0T5cLpoFwl6FutiTUbk2KV3/s1200/028.JPG",
+          "credit": "Chas Demster / ItsFilmedThere",
+          "alt": "Anderson police station — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 1200,
+          "height": 896
+        }
+      },
+      "deaths": [
+        {
+          "title": "Assault on Precinct 13",
+          "people": [
+            "Julie",
+            "Chaney",
+            "Starker",
+            "Cornell",
+            "Prison transport guards"
+          ]
+        }
+      ],
+      "productionGeocode": {
+        "query": "Former Venice police station · 685 North Venice Boulevard, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Former+Venice+police+station+%C2%B7+685+North+Venice+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type%2CScore&maxLocations=1",
+        "matchedAddress": "685 N Venice Blvd, Venice, California, 90291",
+        "attributes": {
+          "Score": 94.64,
+          "Match_addr": "685 N Venice Blvd, Venice, California, 90291",
+          "Addr_type": "StreetAddressExt"
+        }
+      }
+    },
+    {
+      "id": 424,
+      "name": "Holland & Holly March’s home",
+      "short": "Holland & Holly March’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "4255 Enoro Drive",
+      "area": "View Park-Windsor Hills",
+      "coordinates": [
+        -118.349346,
+        34.003605
+      ],
+      "productionCoordinates": [
+        -118.349346,
+        34.003605
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "4255 Enoro Drive",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_fo",
+          "ex2_nice_ml",
+          "ex2_nice_plot"
+        ]
+      },
+      "people": [
+        "Holland March",
+        "Holly March",
+        "Jackson Healy",
+        "Amelia Kuttner"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "March family home",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_fo",
+            "ex2_nice_ml",
+            "ex2_nice_plot"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Holland March",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Holly March",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Jackson Healy",
+              "relationship": "visits March"
+            },
+            {
+              "name": "Amelia Kuttner",
+              "relationship": "takes refuge here; killed"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n424-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/b76f5-holland-marchs-home.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Holland & Holly March’s home in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 326
+        },
+        "place": {
+          "src": "photos/n424-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/face2-holland-marchs-home2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Holland & Holly March’s home — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 700,
+          "height": 381
+        }
+      },
+      "deaths": [
+        {
+          "title": "The Nice Guys",
+          "people": [
+            "Amelia Kuttner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "name": "Mrs. Glenn’s home",
+      "short": "Mrs. Glenn’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4585 West Mount Vernon Drive",
+      "area": "View Park-Windsor Hills",
+      "coordinates": [
+        -118.355071,
+        33.995461
+      ],
+      "productionCoordinates": [
+        -118.355071,
+        33.995461
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "4585 West Mount Vernon Drive",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_fo",
+          "ex2_nice_cinema"
+        ]
+      },
+      "people": [
+        "Mrs. Glenn",
+        "Holland March",
+        "Jackson Healy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "March’s client Mrs. Glenn’s home",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_fo",
+            "ex2_nice_cinema"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mrs. Glenn",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Holland March",
+              "relationship": "works for Mrs. Glenn"
+            },
+            {
+              "name": "Jackson Healy",
+              "relationship": "joins the investigation"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n425-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/b85f8-mrs-glenns.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Mrs. Glenn’s home in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 344
+        },
+        "place": {
+          "src": "photos/n425-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/e1861-mrs-glenns2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Mrs. Glenn’s home — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 700,
+          "height": 376
+        }
+      }
+    },
+    {
+      "id": 426,
+      "name": "Misty Mountains’s home",
+      "short": "Misty Mountains’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "5003 Parkglen Avenue",
+      "area": "View Park-Windsor Hills",
+      "coordinates": [
+        -118.350887,
+        33.997871
+      ],
+      "productionCoordinates": [
+        -118.350887,
+        33.997871
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "5003 Parkglen Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_fo",
+          "ex2_nice_plot",
+          "ex2_nice_script"
+        ]
+      },
+      "people": [
+        "Misty Mountains",
+        "Mrs. Glenn",
+        "Holland March",
+        "Jackson Healy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "The projector clue at Misty’s home",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_fo",
+            "ex2_nice_plot",
+            "ex2_nice_script"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Misty Mountains",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Glenn",
+              "relationship": "leads the investigators to the house"
+            },
+            {
+              "name": "Holland March",
+              "relationship": "finds the projector clue"
+            },
+            {
+              "name": "Jackson Healy",
+              "relationship": "finds the projector clue"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n426-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/d4e10-mistys-home.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Misty Mountains’s home in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 351
+        },
+        "place": {
+          "src": "photos/n426-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/913e6-mistys-home2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Misty Mountains’s home — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 700,
+          "height": 368
+        }
+      }
+    },
+    {
+      "id": 427,
+      "name": "Sunset Star Lanes",
+      "short": "Sunset Star Lanes",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Covina Bowl · 1060 West San Bernardino Road",
+      "area": "Covina",
+      "coordinates": [
+        -117.911367,
+        34.087797
+      ],
+      "productionCoordinates": [
+        -117.911367,
+        34.087797
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Covina Bowl · 1060 West San Bernardino Road",
+        "precision": "building_exterior",
+        "reason": "Covina Bowl supplies the exterior of the fictional Sunset Star Lanes. The name alone does not establish a Sunset Boulevard street address. The marker is the documented production exterior proxy.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_fo",
+          "ex2_nice_ml"
+        ]
+      },
+      "people": [
+        "Holland March",
+        "Holly March",
+        "Jackson Healy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "Holly’s birthday at the bowling alley",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_fo",
+            "ex2_nice_ml"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Holland March",
+              "relationship": "meets Healy at Holly’s birthday"
+            },
+            {
+              "name": "Holly March",
+              "relationship": "celebrates her birthday"
+            },
+            {
+              "name": "Jackson Healy",
+              "relationship": "meets March and Holly"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n427-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/79e43-bowling-alley.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Sunset Star Lanes in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 326
+        },
+        "place": {
+          "src": "photos/n427-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/5f8ab-bowling-alley2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Sunset Star Lanes — real filming site",
+          "caption": "Former bowling alley · undated",
+          "note": "Undated street-view image, before the bowling alley’s 2017 closure and later housing conversion; archival.",
+          "width": 700,
+          "height": 352
+        }
+      }
+    },
+    {
+      "id": 428,
+      "name": "Dean’s burned house",
+      "short": "Dean’s burned house",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "6222 Echo Street",
+      "area": "Highland Park",
+      "coordinates": [
+        -118.185915,
+        34.112748
+      ],
+      "productionCoordinates": [
+        -118.185915,
+        34.112748
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "6222 Echo Street",
+        "precision": "building_exterior",
+        "reason": "The normal house exterior is a location proxy; the burned appearance is set dressing. No canonical street number is established.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_cinema",
+          "ex2_nice_plot"
+        ]
+      },
+      "people": [
+        "Dean",
+        "Amelia Kuttner",
+        "Holland March",
+        "Jackson Healy",
+        "Holly March"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "Dean’s burned-down house",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_cinema",
+            "ex2_nice_plot"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Dean",
+              "relationship": "lives here; dies in the fire"
+            },
+            {
+              "name": "Amelia Kuttner",
+              "relationship": "works with Dean"
+            },
+            {
+              "name": "Holland March",
+              "relationship": "investigates Dean’s burned house"
+            },
+            {
+              "name": "Jackson Healy",
+              "relationship": "investigates Dean’s burned house"
+            },
+            {
+              "name": "Holly March",
+              "relationship": "finds clues at the house"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n428-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/c3b6e-burned-out.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Dean’s burned house in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/n428-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/0d18e-burned-out2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Dean’s burned house — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 700,
+          "height": 361
+        }
+      },
+      "deaths": [
+        {
+          "title": "The Nice Guys",
+          "people": [
+            "Dean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "name": "Healy’s first house call",
+      "short": "Healy’s first house call",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "3975 Kenway Avenue",
+      "area": "View Park-Windsor Hills",
+      "coordinates": [
+        -118.34452,
+        34.003353
+      ],
+      "productionCoordinates": [
+        -118.34452,
+        34.003353
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "3975 Kenway Avenue",
+        "precision": "building_exterior",
+        "reason": "No conflicting story street is established in the cited references; this pin uses the documented production site as a proxy, rather than asserting a canonical street address.",
+        "sourceIds": [
+          "ex2_nice_gfl",
+          "ex2_nice_fo",
+          "ex2_nice_ml"
+        ]
+      },
+      "people": [
+        "Jackson Healy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Nice Guys",
+          "release_year": 2016,
+          "story_role": "Healy’s opening assault assignment",
+          "filming_component": "exterior / location component",
+          "source_ids": [
+            "ex2_nice_gfl",
+            "ex2_nice_fo",
+            "ex2_nice_ml"
+          ],
+          "story_time": {
+            "year": 1977,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Explicit 1977 setting; release year is 2016.",
+            "source_ids": [
+              "ex2_nice_fo",
+              "ex2_nice_primary"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jackson Healy",
+              "relationship": "assaults the resident on an assignment"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n429-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/7ccd5-healy-punches-guy.png?w=700",
+          "credit": "The Nice Guys film frame; Global Film Locations",
+          "alt": "Healy’s first house call in The Nice Guys",
+          "title": "The Nice Guys",
+          "width": 700,
+          "height": 323
+        },
+        "place": {
+          "src": "photos/n429-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/5ce34-healy-punches-guy2.png?w=700",
+          "credit": "Google Street View / Global Film Locations",
+          "alt": "Healy’s first house call — real filming site",
+          "caption": "Site · undated",
+          "note": "Site photograph published with the cited location research. Capture date is not established.",
+          "width": 700,
+          "height": 376
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ex2_menace_taco",
+      "title": "Jared Cowan / L.A. TACO: Menace II Society, with location manager Earl West",
+      "url": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "source_type": "location-manager interview and matched photographs"
+    },
+    {
+      "id": "ex2_menace_fo",
+      "title": "Film Oblivion: Menace II Society",
+      "url": "https://filmoblivion.com/2022/04/13/menace-ii-society-1993/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "ex2_menace_gfl",
+      "title": "Global Film Locations: Menace II Society",
+      "url": "https://globalfilmlocations.net/2020/08/19/menace-ii-society-1993-film-locations/",
+      "source_type": "matched frames and geocodes"
+    },
+    {
+      "id": "ex2_menace_academy",
+      "title": "Academy Museum: Menace II Society",
+      "url": "https://www.academymuseum.org/programs/detail/menace-ii-society-0189099f-bf4f-2f6d-8909-85e8c1219a7f",
+      "source_type": "film institution synopsis"
+    },
+    {
+      "id": "ex2_colors_its",
+      "title": "Chas Demster / ItsFilmedThere: Colors",
+      "url": "https://www.itsfilmedthere.com/2011/08/colors.html",
+      "source_type": "specialist scene/frame research"
+    },
+    {
+      "id": "ex2_colors_taco",
+      "title": "Jared Cowan / L.A. TACO: Colors, with location manager Kojo Lewis",
+      "url": "https://lataco.com/film-locations-colors-hopper",
+      "source_type": "location-manager interview and matched photographs"
+    },
+    {
+      "id": "ex2_colors_afi",
+      "title": "AFI: Colors story and production history",
+      "url": "https://catalog.afi.com/Film/68374-COLORS",
+      "source_type": "film archive synopsis"
+    },
+    {
+      "id": "ex2_lastboy_its",
+      "title": "Chas Demster / ItsFilmedThere: The Last Boy Scout",
+      "url": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "source_type": "specialist scene/frame research"
+    },
+    {
+      "id": "ex2_lastboy_afi",
+      "title": "AFI: The Last Boy Scout",
+      "url": "https://catalog.afi.com/Film/58927-THE-LAST-BOY-SCOUT",
+      "source_type": "film archive synopsis"
+    },
+    {
+      "id": "ex2_lastboy_imdb",
+      "title": "The Last Boy Scout: component filming locations",
+      "url": "https://www.imdb.com/title/tt0102266/locations/",
+      "source_type": "production-location corroboration"
+    },
+    {
+      "id": "ex2_lastboy_plot",
+      "title": "The Last Boy Scout: story synopsis",
+      "url": "https://en.wikipedia.org/wiki/The_Last_Boy_Scout",
+      "source_type": "secondary story reference"
+    },
+    {
+      "id": "ex2_assault_its",
+      "title": "Chas Demster / ItsFilmedThere: Assault on Precinct 13 (1976)",
+      "url": "https://www.itsfilmedthere.com/2013/06/assault-on-precinct-13-1976.html",
+      "source_type": "matched screen/site photographs"
+    },
+    {
+      "id": "ex2_assault_laist",
+      "title": "LAist: John Carpenter’s Los Angeles",
+      "url": "https://laist.com/news/entertainment/mapping-john-carpenters-los-angeles",
+      "source_type": "story/production geography"
+    },
+    {
+      "id": "ex2_assault_afi",
+      "title": "AFI: Assault on Precinct 13 (1976)",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/56075",
+      "source_type": "film archive synopsis"
+    },
+    {
+      "id": "ex2_nice_gfl",
+      "title": "Global Film Locations: The Nice Guys",
+      "url": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "source_type": "matched screen/site photographs and geocodes"
+    },
+    {
+      "id": "ex2_nice_fo",
+      "title": "Film Oblivion: The Nice Guys",
+      "url": "https://filmoblivion.com/2023/11/27/the-nice-guys-2016/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "ex2_nice_ml",
+      "title": "Worldwide Guide to Movie Locations: The Nice Guys",
+      "url": "https://www.movie-locations.com/movies/n/Nice-Guys.php",
+      "source_type": "story/production geography"
+    },
+    {
+      "id": "ex2_nice_plot",
+      "title": "The Nice Guys: story synopsis",
+      "url": "https://en.wikipedia.org/wiki/The_Nice_Guys",
+      "source_type": "secondary story reference"
+    },
+    {
+      "id": "ex2_nice_script",
+      "title": "The Nice Guys: dialogue transcript",
+      "url": "https://www.scripts.com/script/the_nice_guys_20945",
+      "source_type": "film transcript"
+    },
+    {
+      "id": "ex2_nice_primary",
+      "title": "Warner Bros.: The Nice Guys official trailer and synopsis",
+      "url": "https://www.youtube.com/watch?v=GQR5zsLHbYw",
+      "source_type": "studio synopsis"
+    },
+    {
+      "id": "ex2_nice_cinema",
+      "title": "The Cinemaholic: The Nice Guys locations",
+      "url": "https://thecinemaholic.com/where-was-the-nice-guys-filmed/",
+      "source_type": "location corroboration"
+    },
+    {
+      "id": "ex2_crime_geocode",
+      "title": "Esri World Geocoding Service: public filming-address lookup",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "address geocoder"
+    },
+    {
+      "id": "ex2_menace_park_official",
+      "title": "L.A. County: Edward Vincent Jr. Park address",
+      "url": "https://locator.lacounty.gov/lac/Location/3178269/city-of-inglewood-parks-recreation-and-community-services-department---edward-vincent-jr-park",
+      "source_type": "official park address"
+    },
+    {
+      "id": "ex2_crime_aerial",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "active basemap aerial imagery"
+    }
+  ],
+  "audit": [
+    "The 30 places are distinct new sites, not route interpolation points. Existing City Hall and Lincoln Heights Jail sites are not duplicated.",
+    "The Shield’s Barn was investigated but omitted: the original church and later studio replica do not establish a strong precise story pin in fictional Farmington.",
+    "The Nice Guys LA Auto Show, Sid Shattuck mansion, adult theater and police-station material filmed in Atlanta are excluded despite their L.A. story setting.",
+    "Menace II Society Mid-City liquor-store and Harvard Heights party locations are moved to explicitly labeled editorial South L.A. estimates; production addresses and images remain provenance.",
+    "Assault on Precinct 13’s Anderson station is a South L.A. estimate. The facade filmed in Venice does not place the fictional precinct there.",
+    "Colors’ final raid follows the 2023 location-manager interview at Figueroa Terrace. The older guide’s Vista Hermosa guess is rejected.",
+    "Last Boy Scout: AFI’s production history reports the climax at the Coliseum with 6,000 extras. The Cleveland opening setting is excluded. IMDb also lists San Diego Stadium; its differing component claim is not used to assert that the climax occurred outside L.A.",
+    "House/site images are dated only when evidence states capture dates. 2011 Hallenbeck and 2007 Coliseum images are archival, clearly captioned. Hallenbeck house was destroyed in the 2025 fire.",
+    "Global Film Locations site pairs are undated Google Street View images, not assertions of current appearance. Covina Bowl’s image precedes closure/redevelopment.",
+    "Ilena’s movie-side picture is an expressly captioned screen/site comparison from L.A. TACO, not a standalone frame; site side uses active-basemap aerial.",
+    "Jordan Downs point is a community-level location; the exact grandparents’ unit is not asserted and 2018 site imagery predates redevelopment.",
+    "AFI locates Marcone’s fatal explosion below Griffith Observatory, so his mansion uses an editorial Los Feliz / Hollywood Hills pin; San Marino is production provenance only."
+  ]
+}

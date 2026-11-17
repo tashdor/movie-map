@@ -1,0 +1,3850 @@
+{
+  "places": [
+    {
+      "id": 460,
+      "name": "Cher Horowitz’s home",
+      "short": "Cher Horowitz’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "5148 Louise Avenue, Encino",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.397280982881,
+        34.093428004577
+      ],
+      "productionCoordinates": [
+        -118.508379421434,
+        34.164616639803
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and interior",
+          "address": "5148 Louise Avenue, Encino, CA",
+          "coordinates": [
+            -118.508379421434,
+            34.164616639803
+          ]
+        }
+      ],
+      "precision": "street-estimate",
+      "placement": {
+        "kind": "inferred",
+        "address": "901 Drury Lane · Beverly Hills · approximate",
+        "precision": "street-estimate",
+        "reason": "The film’s mail gives 901 Drury Lane, Beverly Hills. The Encino house is the production exterior and interior, not the story address. Drury Lane’s representative point is an editorial street estimate; no canonical parcel is asserted.",
+        "sourceIds": [
+          "n2_cl_ift",
+          "n2_cl_address",
+          "n2_geo_esri",
+          "n2_cl_cher",
+          "n2_geo_460"
+        ]
+      },
+      "people": [
+        "Cher Horowitz",
+        "Mel Horowitz",
+        "Josh Lucas"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Cher and Mel’s home",
+          "filming_component": "House exterior and interior",
+          "source_ids": [
+            "n2_cl_ift",
+            "n2_cl_address",
+            "n2_geo_esri",
+            "n2_cl_cher",
+            "n2_geo_460"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_cl_ift",
+              "n2_cl_address"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mel Horowitz",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Josh Lucas",
+              "relationship": "visits Cher"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2008/10/179bc4fa-6ae4-46f8-bd65-36210bef2a0d.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2008/10/03/chers-house-from-clueless",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "",
+          "src": "photos/n460-screen.jpg",
+          "title": "Clueless",
+          "width": 766,
+          "height": 435
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2008/10/3502ab0b-7219-4620-a3c0-f5c973b36c36.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2008/10/03/chers-house-from-clueless",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "",
+          "caption": "Site · 2008",
+          "date": "2008",
+          "note": "Photograph published in October 2008; archival street view of the filming house gate.",
+          "src": "photos/n460-place.jpg",
+          "width": 800,
+          "height": 600
+        }
+      }
+    },
+    {
+      "id": 461,
+      "name": "Bronson Alcott High School",
+      "short": "Bronson Alcott High School",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "work"
+      ],
+      "address": "Occidental College, 1600 Campus Road, Los Angeles",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.404,
+        34.073
+      ],
+      "productionCoordinates": [
+        -118.21285,
+        34.1275
+      ],
+      "productionSites": [
+        {
+          "component": "Campus exteriors",
+          "address": "Occidental College, 1600 Campus Road, Los Angeles, CA",
+          "coordinates": [
+            -118.21285,
+            34.1275
+          ]
+        }
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Beverly Hills · approximate",
+        "precision": "area",
+        "reason": "Bronson Alcott is the fictional Beverly Hills high school. Occidental College supplies the campus exteriors; additional interiors were shot at Grant High School. This estimated Beverly Hills point does not identify a real school parcel.",
+        "sourceIds": [
+          "n2_cl_ift",
+          "n2_cl_address",
+          "n2_geo_esri",
+          "n2_cl_school",
+          "n2_geo_461"
+        ],
+        "viewport": [
+          [
+            -118.419,
+            34.065
+          ],
+          [
+            -118.389,
+            34.081
+          ]
+        ]
+      },
+      "people": [
+        "Cher Horowitz",
+        "Dionne Davenport",
+        "Tai Frasier",
+        "Mr. Hall",
+        "Miss Geist"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Clueless",
+          "release_year": 1995,
+          "story_role": "Cher, Dionne and Tai’s school",
+          "filming_component": "Campus exteriors",
+          "source_ids": [
+            "n2_cl_ift",
+            "n2_cl_address",
+            "n2_geo_esri",
+            "n2_cl_school",
+            "n2_geo_461"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_cl_ift",
+              "n2_cl_address"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cher Horowitz",
+              "relationship": "attends school"
+            },
+            {
+              "name": "Dionne Davenport",
+              "relationship": "attends school"
+            },
+            {
+              "name": "Tai Frasier",
+              "relationship": "attends school"
+            },
+            {
+              "name": "Mr. Hall",
+              "relationship": "teaches here"
+            },
+            {
+              "name": "Miss Geist",
+              "relationship": "teaches here"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/08/69032cdb-ba53-4013-9422-820cd0293dda.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/08/04/the-clueless-guide-to-occidental-college",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "ScreenShot186",
+          "src": "photos/n461-screen.jpg",
+          "title": "Clueless",
+          "width": 1024,
+          "height": 584
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/08/8d69df81-e9fa-4699-be30-d7020a8d49dc.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/08/04/the-clueless-guide-to-occidental-college",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "Clueless Occidental College (6 of 22)",
+          "caption": "Site · 2014",
+          "date": "2014",
+          "note": "Campus photograph published in August 2014.",
+          "src": "photos/n461-place.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "id": 462,
+      "name": "Vivian & Kit’s apartment",
+      "short": "Vivian & Kit’s apartment",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "1738 North Las Palmas Avenue, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.336022011161,
+        34.102684182163
+      ],
+      "productionCoordinates": [
+        -118.336022011161,
+        34.102684182163
+      ],
+      "productionSites": [
+        {
+          "component": "Apartment building and fire escape",
+          "address": "1738 North Las Palmas Avenue, Los Angeles, CA",
+          "coordinates": [
+            -118.336022011161,
+            34.102684182163
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1738 North Las Palmas Avenue, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The Las Palmas Hotel exterior and fire escape establish Vivian and Kit’s Hollywood apartment. Production street retained as the uncontradicted exterior proxy.",
+        "sourceIds": [
+          "n2_pw_ift",
+          "n2_pw_fo",
+          "n2_pw_afi",
+          "n2_geo_esri",
+          "n2_geo_462"
+        ]
+      },
+      "people": [
+        "Vivian Ward",
+        "Kit De Luca",
+        "Edward Lewis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Vivian and Kit’s home; Edward’s return",
+          "filming_component": "Apartment building and fire escape",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo",
+            "n2_pw_afi",
+            "n2_geo_esri",
+            "n2_geo_462"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_pw_ift",
+              "n2_pw_fo",
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Vivian Ward",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Kit De Luca",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Edward Lewis",
+              "relationship": "returns to Vivian"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4NlCyG8AxwGQuRmItmRpHEJoBVwhsxiFn_5zqRdxWf_Cw4iBJmtm44VtkqUVZD6NpyC10GDLsjDGWDQln_TpqVjDsXkaIFAMv51WTReLDf91LaGweBPWCxV2C9IEMaJoNZSCkKDzSvbY/s1600/Motel.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "title": "Pretty Woman",
+          "alt": "Vivian’s Las Palmas Hotel building in Pretty Woman.",
+          "src": "photos/n462-screen.jpg",
+          "width": 836,
+          "height": 455
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n462-place.jpg",
+          "caption": "Site · source photo",
+          "width": 900,
+          "height": 1200
+        }
+      }
+    },
+    {
+      "id": 463,
+      "name": "The Beverly Wilshire",
+      "short": "The Beverly Wilshire",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Beverly Wilshire Hotel, 9500 Wilshire Boulevard, Beverly Hills",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.400343,
+        34.066926
+      ],
+      "productionCoordinates": [
+        -118.400343,
+        34.066926
+      ],
+      "productionSites": [
+        {
+          "component": "Hotel exterior",
+          "address": "Beverly Wilshire Hotel, 9500 Wilshire Boulevard, Beverly Hills, CA",
+          "coordinates": [
+            -118.400343,
+            34.066926
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "screen",
+        "address": "Beverly Wilshire Hotel, 9500 Wilshire Boulevard, Beverly Hills",
+        "precision": "named-venue",
+        "reason": "The named Beverly Wilshire plays Edward’s hotel. The point identifies the Wilshire hotel frontage; hotel interiors also used other production components.",
+        "sourceIds": [
+          "n2_pw_ift",
+          "n2_pw_fo",
+          "n2_pw_afi",
+          "n2_geo_esri",
+          "n2_geo_463"
+        ]
+      },
+      "people": [
+        "Vivian Ward",
+        "Edward Lewis",
+        "Barney Thompson"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Edward and Vivian’s hotel",
+          "filming_component": "Hotel exterior",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo",
+            "n2_pw_afi",
+            "n2_geo_esri",
+            "n2_geo_463"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_pw_ift",
+              "n2_pw_fo",
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Vivian Ward",
+              "relationship": "stays with Edward"
+            },
+            {
+              "name": "Edward Lewis",
+              "relationship": "stays here"
+            },
+            {
+              "name": "Barney Thompson",
+              "relationship": "manages the hotel"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAzTNaJzkM2fo5SoXFNNCvI8Pk79VlqzIZERR5Eu9fxGCEBfeVfL9Z-fDIxd7L1qaP1NidiuMNyaWOmUXUdQ4R8yIkh-0NrfJDbZFVam3rGAJIzUdPvF_bDWc0LtaQGt3YTfvlgxO5Cc/s1600/Regent+Beverly+Wilshire.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n463-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 836,
+          "height": 453
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n463-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 464,
+      "name": "The Voltaire",
+      "short": "The Voltaire",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "Cicada Restaurant, 617 South Olive Street, Los Angeles",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.254713946141,
+        34.047895327233
+      ],
+      "productionCoordinates": [
+        -118.254713946141,
+        34.047895327233
+      ],
+      "productionSites": [
+        {
+          "component": "Restaurant dining room",
+          "address": "Cicada Restaurant, 617 South Olive Street, Los Angeles, CA",
+          "coordinates": [
+            -118.254713946141,
+            34.047895327233
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Cicada Restaurant, 617 South Olive Street, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "Dialogue names the restaurant the Voltaire. The filmed dining room was Rex Il Ristorante, now Cicada, in the Oviatt Building; no canonical street address is given. The physical dining room supplies the proxy.",
+        "sourceIds": [
+          "n2_pw_ift",
+          "n2_pw_fo",
+          "n2_pw_afi",
+          "n2_geo_esri",
+          "n2_pw_voltaire",
+          "n2_geo_464",
+          "n2_cicada_venue"
+        ]
+      },
+      "people": [
+        "Vivian Ward",
+        "Edward Lewis",
+        "James Morse",
+        "David Morse"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Business dinner with the Morses",
+          "filming_component": "Restaurant dining room",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo",
+            "n2_pw_afi",
+            "n2_geo_esri",
+            "n2_pw_voltaire",
+            "n2_geo_464",
+            "n2_cicada_venue"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_pw_ift",
+              "n2_pw_fo",
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Vivian Ward",
+              "relationship": "joins the business dinner"
+            },
+            {
+              "name": "Edward Lewis",
+              "relationship": "negotiates over dinner"
+            },
+            {
+              "name": "James Morse",
+              "relationship": "attends dinner"
+            },
+            {
+              "name": "David Morse",
+              "relationship": "attends dinner"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJ3YA7Mki64ZZ9_G4AgBlbfi2YpaX7StRze-yY0J5oW90qwZ5-rr_fdP7sXSBJ3mCbJztU_x6VScA0118On4qfAtiHedTgJfVUkY9inWaDsn2elgzlKh4DTXvJB81LhpXFx22qlW-XWi65vEK-hkU6f1jU6LCouyVqZ2YNjs6Ex2BQ-7DWMZ75DwrHXE/s1600/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n464-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 1600,
+          "height": 856
+        },
+        "place": {
+          "imageUrl": "https://static.wixstatic.com/media/526d92_38ed8ce3625f4630b3b52c91eb31fb28~mv2.png",
+          "sourceUrl": "https://www.cicadarestaurant.com/",
+          "credit": "Cicada Restaurant & Lounge",
+          "alt": "The real entrance to Cicada in the Oviatt Building.",
+          "caption": "Entrance · venue photo",
+          "note": "Venue’s current website photograph; capture date is not supplied.",
+          "src": "photos/n464-place.jpg",
+          "width": 1600,
+          "height": 626
+        }
+      }
+    },
+    {
+      "id": 465,
+      "name": "The Blue Banana",
+      "short": "The Blue Banana",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "6708 Hollywood Boulevard, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.336503802955,
+        34.101395632188
+      ],
+      "productionCoordinates": [
+        -118.336503802955,
+        34.101395632188
+      ],
+      "productionSites": [
+        {
+          "component": "Club storefront exterior",
+          "address": "6708 Hollywood Boulevard, Los Angeles, CA",
+          "coordinates": [
+            -118.336503802955,
+            34.101395632188
+          ]
+        },
+        {
+          "component": "Club interior and rear entrance",
+          "address": "4067 West Pico Boulevard, Los Angeles, CA"
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "6708 Hollywood Boulevard, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The fictional Blue Banana combines a dressed 6708 Hollywood Boulevard storefront with the interior and rear entrance of 4067 West Pico Boulevard. The Hollywood exterior anchors the story club; the Pico component is not a second club.",
+        "sourceIds": [
+          "n2_pw_ift",
+          "n2_pw_fo",
+          "n2_pw_afi",
+          "n2_geo_esri",
+          "n2_geo_465"
+        ]
+      },
+      "people": [
+        "Vivian Ward",
+        "Kit De Luca"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Kit’s Hollywood club",
+          "filming_component": "Club storefront exterior",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo",
+            "n2_pw_afi",
+            "n2_geo_esri",
+            "n2_geo_465"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_pw_ift",
+              "n2_pw_fo",
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Vivian Ward",
+              "relationship": "looks for Kit"
+            },
+            {
+              "name": "Kit De Luca",
+              "relationship": "spends time here"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlDHFh8PXoPalz2iKAvYXk4bhQByfghaVWqSS3QnxWwEVdTVfDk77N1YdJX5a2pzB6dq7YCL0y78ZLqFkj80aRbpIlT3Hg2PWl9T2ZkIX_9SyHRoVnRYgcukddREJ-MN40DpgJn-MJwgc/s1600/C.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n465-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 1600,
+          "height": 851
+        },
+        "place": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWiMJV834Fn-BJnz2Ow7vE5iTKJDARra9NOJk2epMr2yMQygwY_2hdRBPEBXn8TjwbtkwECbd0hWrgatmpOJZo5Uh_yUuojjtG8JvtM3Z-2xbPCN5LXo3L5WeC8uXolEwhCtXAjDUc1j4/s1600/Z.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n465-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1600,
+          "height": 1200
+        }
+      }
+    },
+    {
+      "id": 466,
+      "name": "Edward Lewis’s office",
+      "short": "Edward Lewis’s office",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "333 South Hope Street, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.253456493026,
+        34.053478429119
+      ],
+      "productionCoordinates": [
+        -118.253456493026,
+        34.053478429119
+      ],
+      "productionSites": [
+        {
+          "component": "Office tower and plaza",
+          "address": "333 South Hope Street, Los Angeles, CA",
+          "coordinates": [
+            -118.253456493026,
+            34.053478429119
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "333 South Hope Street, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "Edward’s Los Angeles workplace and lawn are filmed at Bank of America Plaza, 333 South Hope Street. No separate canonical business street is established.",
+        "sourceIds": [
+          "n2_pw_ift",
+          "n2_pw_fo",
+          "n2_pw_afi",
+          "n2_geo_esri",
+          "n2_geo_466"
+        ]
+      },
+      "people": [
+        "Edward Lewis",
+        "Philip Stuckey"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Edward’s Los Angeles office",
+          "filming_component": "Office tower and plaza",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo",
+            "n2_pw_afi",
+            "n2_geo_esri",
+            "n2_geo_466"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_pw_ift",
+              "n2_pw_fo",
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Edward Lewis",
+              "relationship": "conducts business here"
+            },
+            {
+              "name": "Philip Stuckey",
+              "relationship": "works with Edward"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkeSxhvtZ39jxeasAJcpNfKWat8U7-j8TZ9ToQEDDL7ETne-eZsIt_gXnjSukNUC65ph3_NHisKJbgI0wHFh-wAkb4EBDCMDOK0dn5S53dsUBKpLiRjnzQmOIqpvzjIrx7edBxojyLd2w/s1600/Building.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n466-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 837,
+          "height": 452
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman3.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n466-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 467,
+      "name": "Tom Hansen’s apartment",
+      "short": "Tom Hansen’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "432 South Main Street, Los Angeles",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.247806419734,
+        34.047221547946
+      ],
+      "productionCoordinates": [
+        -118.247806419734,
+        34.047221547946
+      ],
+      "productionSites": [
+        {
+          "component": "Apartment building exterior",
+          "address": "432 South Main Street, Los Angeles, CA",
+          "coordinates": [
+            -118.247806419734,
+            34.047221547946
+          ]
+        },
+        {
+          "component": "Apartment interior",
+          "address": "Fenton Building, 833 South Spring Street, Los Angeles, CA"
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "432 South Main Street, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The Canadian Building supplies Tom’s apartment exterior; Fenton Building supplies interiors. The Main Street exterior is the proxy for his fictional home, not the production address of the interior.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_geo_467"
+        ]
+      },
+      "people": [
+        "Tom Hansen",
+        "Summer Finn",
+        "Rachel Hansen",
+        "Paul",
+        "McKenzie"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "Tom’s home",
+          "filming_component": "Apartment building exterior",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_geo_467"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tom Hansen",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Summer Finn",
+              "relationship": "visits Tom"
+            },
+            {
+              "name": "Rachel Hansen",
+              "relationship": "visits her brother"
+            },
+            {
+              "name": "Paul",
+              "relationship": "visits Tom"
+            },
+            {
+              "name": "McKenzie",
+              "relationship": "visits Tom"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://clip.cafe/img800/that-girl-paul-seriously.jpg",
+          "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/that-girl-paul-seriously/",
+          "credit": "(500) Days of Summer film frame; Clip.Cafe",
+          "alt": "That girl Paul seriouslyDid you bang her NoWhat hum job Hand job Man noNo jobs I'm still unemployed We We kissed - 500 Days of Summer",
+          "caption": "Apartment interior",
+          "src": "photos/n467-screen.jpg",
+          "title": "(500) Days of Summer",
+          "width": 800,
+          "height": 334
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer11.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "caption": "Exterior site",
+          "src": "photos/n467-place.jpg",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 468,
+      "name": "Summer Finn’s apartment",
+      "short": "Summer Finn’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "706 South Normandie Avenue, Los Angeles",
+      "area": "Central Los Angeles",
+      "coordinates": [
+        -118.273,
+        34.061
+      ],
+      "productionCoordinates": [
+        -118.299652933283,
+        34.059460761053
+      ],
+      "productionSites": [
+        {
+          "component": "Apartment building",
+          "address": "706 South Normandie Avenue, Los Angeles, CA",
+          "coordinates": [
+            -118.299652933283,
+            34.059460761053
+          ]
+        }
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Central Los Angeles · approximate",
+        "precision": "area",
+        "reason": "The apartment was filmed at the Barclay on Normandie, but the visible downtown skyline was composited. This central-Los-Angeles estimate acknowledges the impossible production view; the canonical neighborhood and street are unresolved.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_geo_468"
+        ],
+        "viewport": [
+          [
+            -118.288,
+            34.053
+          ],
+          [
+            -118.258,
+            34.069
+          ]
+        ]
+      },
+      "people": [
+        "Summer Finn",
+        "Tom Hansen"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "Summer’s home; expectations and reality",
+          "filming_component": "Apartment building",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_geo_468"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Summer Finn",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Tom Hansen",
+              "relationship": "visits Summer"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://clip.cafe/clipimg/tom-walked-her-apartment-s1.jpg",
+          "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/tom-walked-her-apartment-s1/",
+          "credit": "(500) Days of Summer film frame; Clip.Cafe",
+          "title": "(500) Days of Summer",
+          "alt": "Tom approaches Summer’s apartment for her party.",
+          "src": "photos/n468-screen.jpg",
+          "width": 1600,
+          "height": 667
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer9.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n468-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 469,
+      "name": "Tom’s bench",
+      "short": "Tom’s bench",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "356 South Olive Street, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.250530064369,
+        34.0509882559065
+      ],
+      "productionCoordinates": [
+        -118.250530064369,
+        34.0509882559065
+      ],
+      "productionSites": [
+        {
+          "component": "Park bench",
+          "address": "356 South Olive Street, Los Angeles, CA",
+          "coordinates": [
+            -118.250530064369,
+            34.0509882559065
+          ]
+        }
+      ],
+      "precision": "named-park",
+      "placement": {
+        "kind": "screen",
+        "address": "Angels Knoll · Bunker Hill",
+        "precision": "named-park",
+        "reason": "Angels Knoll supplies the bench and the recognizable downtown view. The film calls it Angelus Plaza; the nearby real senior-housing complex is not substituted for the bench site. The point uses the documented park location, not a street-geocoder interpolation.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_500_maps",
+          "n2_geo_469"
+        ]
+      },
+      "people": [
+        "Tom Hansen",
+        "Summer Finn"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "Tom’s favorite bench",
+          "filming_component": "Park bench",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_500_maps",
+            "n2_geo_469"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tom Hansen",
+              "relationship": "returns to his favorite bench"
+            },
+            {
+              "name": "Summer Finn",
+              "relationship": "sits with Tom"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://clip.cafe/img800/this-is-my-favorite-spot.jpg",
+          "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-is-my-favorite-spot/",
+          "credit": "(500) Days of Summer film frame; Clip.Cafe",
+          "alt": "This is my favorite spot. - 500 Days of Summer",
+          "src": "photos/n469-screen.jpg",
+          "title": "(500) Days of Summer",
+          "width": 800,
+          "height": 334
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer10-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "caption": "Former park · source photo",
+          "src": "photos/n469-place.jpg",
+          "width": 1200,
+          "height": 891
+        }
+      }
+    },
+    {
+      "id": 470,
+      "name": "The Mill",
+      "short": "The Mill",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Redwood Bar & Grill, 316 West 2nd Street, Los Angeles",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.24743,
+        34.052746
+      ],
+      "productionCoordinates": [
+        -118.24743,
+        34.052746
+      ],
+      "productionSites": [
+        {
+          "component": "Karaoke bar interior",
+          "address": "Redwood Bar & Grill, 316 West 2nd Street, Los Angeles, CA",
+          "coordinates": [
+            -118.24743,
+            34.052746
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Redwood Bar & Grill, 316 West 2nd Street, Los Angeles",
+        "precision": "named-venue",
+        "reason": "The story karaoke bar is called the Mill. The Redwood Bar & Grill supplies the matched interior; no contrary canonical street has been established.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_500_redwood",
+          "n2_geo_470"
+        ]
+      },
+      "people": [
+        "Tom Hansen",
+        "Summer Finn",
+        "McKenzie"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "The coworkers’ karaoke bar",
+          "filming_component": "Karaoke bar interior",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_500_redwood",
+            "n2_geo_470"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tom Hansen",
+              "relationship": "sings karaoke"
+            },
+            {
+              "name": "Summer Finn",
+              "relationship": "sings karaoke"
+            },
+            {
+              "name": "McKenzie",
+              "relationship": "sings karaoke"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/b7e9a918-330a-44fe-aa7d-5b68592d23cb.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/01/03/redwood-bar-grill-from-bridesmaids",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "ScreenShot6767",
+          "src": "photos/n470-screen.jpg",
+          "title": "(500) Days of Summer",
+          "width": 1017,
+          "height": 768
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/a86074b1-2252-4aab-820c-d8fc4c5e9fef.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/01/03/redwood-bar-grill-from-bridesmaids",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "Redwood Bar & Grill Bridesmaids (10 of 25)",
+          "caption": "Site · 2013",
+          "date": "2013",
+          "note": "Interior photograph published in January 2013.",
+          "src": "photos/n470-place.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "id": 471,
+      "name": "Arthur J. Will Memorial Fountain",
+      "short": "Arthur J. Will Memorial Fountain",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Arthur J. Will Memorial Fountain, Los Angeles",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.247153162992,
+        34.0565194209721
+      ],
+      "productionCoordinates": [
+        -118.247153162992,
+        34.0565194209721
+      ],
+      "productionSites": [
+        {
+          "component": "Fountain",
+          "address": "Arthur J. Will Memorial Fountain, Los Angeles, CA",
+          "coordinates": [
+            -118.247153162992,
+            34.0565194209721
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "screen",
+        "address": "Arthur J. Will Memorial Fountain, Los Angeles",
+        "precision": "named-venue",
+        "reason": "The named Civic Center fountain appears in Tom’s dance sequence and in Vivian and Edward’s walk. MovieMaps supplies the downtown fountain point; the same-name geocoder result in Monrovia was rejected.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_500_maps",
+          "n2_geo_471"
+        ]
+      },
+      "people": [
+        "Tom Hansen",
+        "Vivian Ward",
+        "Edward Lewis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "Tom’s dance by the fountain",
+          "filming_component": "Fountain",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_500_maps",
+            "n2_geo_471"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tom Hansen",
+              "relationship": "dances beside the fountain"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        },
+        {
+          "title": "Pretty Woman",
+          "release_year": 1990,
+          "story_role": "Vivian and Edward’s fountain walk",
+          "filming_component": "fountain",
+          "source_ids": [
+            "n2_pw_ift",
+            "n2_pw_fo"
+          ],
+          "story_time": {
+            "year": 1990,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate.",
+            "source_ids": [
+              "n2_pw_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Vivian Ward",
+              "relationship": "walks with Edward"
+            },
+            {
+              "name": "Edward Lewis",
+              "relationship": "walks with Vivian"
+            }
+          ],
+          "categories": [
+            "event",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n471-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 835,
+          "height": 454
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n471-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 472,
+      "name": "New Hampshire Greeting Card Company",
+      "short": "New Hampshire Greeting Card Company",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "Fenton Building, 833 South Spring Street, Los Angeles",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.254524766586,
+        34.042419471798
+      ],
+      "productionCoordinates": [
+        -118.254524766586,
+        34.042419471798
+      ],
+      "productionSites": [
+        {
+          "component": "Office interiors",
+          "address": "Fenton Building, 833 South Spring Street, Los Angeles, CA",
+          "coordinates": [
+            -118.254524766586,
+            34.042419471798
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Fenton Building, 833 South Spring Street, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The Los Angeles Conservancy identifies the Fenton Building as the greeting-card workplace. It also supplied apartment interiors; these are separate fictional places with separate exterior anchors.",
+        "sourceIds": [
+          "n2_500_fo",
+          "n2_500_ml",
+          "n2_500_conservancy",
+          "n2_500_script",
+          "n2_geo_esri",
+          "n2_geo_472",
+          "n2_aerial"
+        ]
+      },
+      "people": [
+        "Tom Hansen",
+        "Summer Finn",
+        "Vance",
+        "McKenzie"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "(500) Days of Summer",
+          "release_year": 2009,
+          "story_role": "Tom and Summer’s workplace",
+          "filming_component": "Office interiors",
+          "source_ids": [
+            "n2_500_fo",
+            "n2_500_ml",
+            "n2_500_conservancy",
+            "n2_500_script",
+            "n2_geo_esri",
+            "n2_geo_472",
+            "n2_aerial"
+          ],
+          "story_time": {
+            "year": 2009,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_500_fo",
+              "n2_500_ml",
+              "n2_500_conservancy",
+              "n2_500_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tom Hansen",
+              "relationship": "writes greeting cards"
+            },
+            {
+              "name": "Summer Finn",
+              "relationship": "works as Vance’s assistant"
+            },
+            {
+              "name": "Vance",
+              "relationship": "runs the company"
+            },
+            {
+              "name": "McKenzie",
+              "relationship": "works with Tom"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://clip.cafe/img800/this-friday-all-can-karaoke-at-the-mill-no.jpg",
+          "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-friday-all-can-karaoke-at-the-mill-no/",
+          "credit": "(500) Days of Summer film frame; Clip.Cafe",
+          "alt": "This Friday all you can karaoke at the Mill NoCome on They're not gonna let you back in there after last timeAh I wasn't that badDude you threw up on the stage you tried to fight the bartenderand you threatened to burn the place downBut I didn't burn the - 500 Days of Summer",
+          "src": "photos/n472-screen.jpg",
+          "title": "(500) Days of Summer",
+          "width": 800,
+          "height": 334
+        },
+        "place": {
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.255624766586%2C34.041769471798%2C-118.25342476658601%2C34.043069471798&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "The Fenton Building block in downtown Los Angeles",
+          "src": "photos/n472-place.jpg",
+          "caption": "Workplace block · aerial",
+          "note": "Active-basemap aerial of the Fenton block; capture date is not supplied.",
+          "width": 1100,
+          "height": 650
+        }
+      }
+    },
+    {
+      "id": 473,
+      "name": "Amanda Woods’s home",
+      "short": "Amanda Woods’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "1883 Orlando Road, San Marino",
+      "area": "Brentwood",
+      "coordinates": [
+        -118.4915,
+        34.0585
+      ],
+      "productionCoordinates": [
+        -118.111764275521,
+        34.133268447655
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and gardens",
+          "address": "1883 Orlando Road, San Marino, CA",
+          "coordinates": [
+            -118.111764275521,
+            34.133268447655
+          ]
+        }
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Brentwood · approximate",
+        "precision": "area",
+        "reason": "Amanda’s house is in Brentwood near Arthur’s home in the screenplay and story. The exterior was filmed in San Marino. This broad Brentwood estimate preserves their neighborhood relationship without inventing a street or claiming an adjacent parcel.",
+        "sourceIds": [
+          "n2_hol_script",
+          "n2_hol_sony",
+          "n2_geo_esri",
+          "n2_hol_amanda",
+          "n2_hol_neighbors",
+          "n2_geo_473"
+        ],
+        "viewport": [
+          [
+            -118.5065,
+            34.0505
+          ],
+          [
+            -118.4765,
+            34.066500000000005
+          ]
+        ]
+      },
+      "people": [
+        "Amanda Woods",
+        "Iris Simpkins",
+        "Miles"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Holiday",
+          "release_year": 2006,
+          "story_role": "Amanda’s house; Iris’s home exchange",
+          "filming_component": "House exterior and gardens",
+          "source_ids": [
+            "n2_hol_script",
+            "n2_hol_sony",
+            "n2_geo_esri",
+            "n2_hol_amanda",
+            "n2_hol_neighbors",
+            "n2_geo_473"
+          ],
+          "story_time": {
+            "year": 2006,
+            "month": 12,
+            "precision": "month",
+            "certainty": "approximate",
+            "basis": "December holiday setting is explicit; contemporary release year is the editorial year estimate.",
+            "source_ids": [
+              "n2_hol_script",
+              "n2_hol_sony"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Amanda Woods",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Iris Simpkins",
+              "relationship": "stays during the house exchange"
+            },
+            {
+              "name": "Miles",
+              "relationship": "visits Iris"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/06/416d5be7-af76-4888-b9fe-b2ea2fbc9a38.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/06/15/amandas-house-from-the-holiday",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "ScreenShot4724",
+          "src": "photos/n473-screen.jpg",
+          "title": "The Holiday",
+          "width": 794,
+          "height": 600
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/06/e03c886e-a5a3-4fe7-aa83-f08c3cc1d6a4.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/06/15/amandas-house-from-the-holiday",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "IMG_0522",
+          "caption": "Site · 2010",
+          "date": "2010",
+          "note": "Exterior photograph published in June 2010.",
+          "src": "photos/n473-place.jpg",
+          "width": 800,
+          "height": 600
+        }
+      }
+    },
+    {
+      "id": 474,
+      "name": "Arthur Abbott’s home",
+      "short": "Arthur Abbott’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "163 South Rockingham Avenue, Los Angeles",
+      "area": "Brentwood",
+      "coordinates": [
+        -118.493279087587,
+        34.055439082
+      ],
+      "productionCoordinates": [
+        -118.493279087587,
+        34.055439082
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and rooms",
+          "address": "163 South Rockingham Avenue, Los Angeles, CA",
+          "coordinates": [
+            -118.493279087587,
+            34.055439082
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "163 South Rockingham Avenue, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The screenplay places Arthur in Brentwood, consistent with the 163 South Rockingham filming house. That street address remains a filming proxy, not a spoken canonical address.",
+        "sourceIds": [
+          "n2_hol_script",
+          "n2_hol_sony",
+          "n2_geo_esri",
+          "n2_hol_arthur",
+          "n2_hol_neighbors",
+          "n2_geo_474"
+        ]
+      },
+      "people": [
+        "Arthur Abbott",
+        "Iris Simpkins"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Holiday",
+          "release_year": 2006,
+          "story_role": "Arthur’s home",
+          "filming_component": "House exterior and rooms",
+          "source_ids": [
+            "n2_hol_script",
+            "n2_hol_sony",
+            "n2_geo_esri",
+            "n2_hol_arthur",
+            "n2_hol_neighbors",
+            "n2_geo_474"
+          ],
+          "story_time": {
+            "year": 2006,
+            "month": 12,
+            "precision": "month",
+            "certainty": "approximate",
+            "basis": "December holiday setting is explicit; contemporary release year is the editorial year estimate.",
+            "source_ids": [
+              "n2_hol_script",
+              "n2_hol_sony"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Arthur Abbott",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Iris Simpkins",
+              "relationship": "befriends Arthur"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/12/0eafea21-6591-4eff-8c38-6720eea05142.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/12/22/arthur-abbotts-house-from-the-holiday",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "ScreenShot2554",
+          "src": "photos/n474-screen.jpg",
+          "title": "The Holiday",
+          "width": 1015,
+          "height": 768
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/12/388dd649-fbfd-4c32-9c06-c344ffdaa828.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/12/22/arthur-abbotts-house-from-the-holiday",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "P1020338",
+          "caption": "Site · 2011",
+          "date": "2011",
+          "note": "Exterior photograph published in December 2011.",
+          "src": "photos/n474-place.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "id": 475,
+      "name": "Blockbuster Video",
+      "short": "Blockbuster Video",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "11770 San Vicente Boulevard, Los Angeles",
+      "area": "Brentwood",
+      "coordinates": [
+        -118.467931960927,
+        34.052876566561
+      ],
+      "productionCoordinates": [
+        -118.467931960927,
+        34.052876566561
+      ],
+      "productionSites": [
+        {
+          "component": "Video-store interior",
+          "address": "11770 San Vicente Boulevard, Los Angeles, CA",
+          "coordinates": [
+            -118.467931960927,
+            34.052876566561
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "11770 San Vicente Boulevard, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "Iris and Miles visit a Brentwood Blockbuster. Matched windows, entrance and street trees identify the former 11770 San Vicente store; the bank conversion photograph is labeled archival.",
+        "sourceIds": [
+          "n2_hol_script",
+          "n2_hol_sony",
+          "n2_geo_esri",
+          "n2_hol_video",
+          "n2_geo_475"
+        ]
+      },
+      "people": [
+        "Iris Simpkins",
+        "Miles"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Holiday",
+          "release_year": 2006,
+          "story_role": "Iris and Miles rent films",
+          "filming_component": "Video-store interior",
+          "source_ids": [
+            "n2_hol_script",
+            "n2_hol_sony",
+            "n2_geo_esri",
+            "n2_hol_video",
+            "n2_geo_475"
+          ],
+          "story_time": {
+            "year": 2006,
+            "month": 12,
+            "precision": "month",
+            "certainty": "approximate",
+            "basis": "December holiday setting is explicit; contemporary release year is the editorial year estimate.",
+            "source_ids": [
+              "n2_hol_script",
+              "n2_hol_sony"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Iris Simpkins",
+              "relationship": "rents films"
+            },
+            {
+              "name": "Miles",
+              "relationship": "compares film scores"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/12/cfca4acb-7d82-48ce-972e-6eb88ada5a28.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/12/23/blockbuster-video-from-the-holiday",
+          "credit": "Film frame; I Am Not A Stalker",
+          "alt": "ScreenShot837",
+          "src": "photos/n475-screen.jpg",
+          "title": "The Holiday",
+          "width": 785,
+          "height": 438
+        },
+        "place": {
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/12/3dd2f6a1-a0c3-4ea7-a78f-3a541485406e.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/12/23/blockbuster-video-from-the-holiday",
+          "credit": "Lindsay Blake / I Am Not A Stalker",
+          "alt": "The Holiday Blockbuster Video (3 of 13)",
+          "caption": "Former store · 2014",
+          "date": "2014",
+          "note": "The former video store had become a bank when this December 2014 photograph was published.",
+          "src": "photos/n475-place.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "id": 476,
+      "name": "Sebastian’s apartment",
+      "short": "Sebastian’s apartment",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "8404 Willis Avenue, Panorama City",
+      "area": "San Fernando Valley",
+      "coordinates": [
+        -118.24,
+        34.065
+      ],
+      "productionCoordinates": [
+        -118.455174033742,
+        34.223686216503
+      ],
+      "productionSites": [
+        {
+          "component": "Apartment courtyard and interiors",
+          "address": "8404 Willis Avenue, Panorama City, CA",
+          "coordinates": [
+            -118.455174033742,
+            34.223686216503
+          ]
+        }
+      ],
+      "precision": "area",
+      "placement": {
+        "kind": "inferred",
+        "address": "Chinatown vicinity · approximate",
+        "precision": "area",
+        "reason": "Mia walks through Chinatown immediately before visiting Sebastian at night. This editorial Chinatown-area estimate follows that story cue; it is not a confirmed neighborhood or address. The courtyard was filmed at 8404 Willis Avenue in Panorama City, kept as production provenance.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_ll_seb",
+          "n2_ll_ad",
+          "n2_geo_476"
+        ],
+        "viewport": [
+          [
+            -118.255,
+            34.056999999999995
+          ],
+          [
+            -118.225,
+            34.073
+          ]
+        ]
+      },
+      "people": [
+        "Sebastian Wilder",
+        "Mia Dolan",
+        "Laura"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Sebastian’s home",
+          "filming_component": "Apartment courtyard and interiors",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_ll_seb",
+            "n2_ll_ad",
+            "n2_geo_476"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_ll_fo",
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mia Dolan",
+              "relationship": "stays with Sebastian"
+            },
+            {
+              "name": "Laura",
+              "relationship": "visits her brother"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-109.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-109.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n476-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://www.seeingstars.net/Locations/LaLaLand/WillisApartments.jpg",
+          "sourceUrl": "https://www.seeingstars.net/Locations/LaLaLand/9-SebsApartment.shtml",
+          "credit": "Willis Avenue Apartments; Seeing Stars",
+          "alt": "The real courtyard at Willis Avenue Apartments",
+          "caption": "Courtyard · source photo",
+          "note": "Apartment-property photograph reproduced by the location researcher; capture date is not supplied.",
+          "src": "photos/n476-place.jpg",
+          "width": 409,
+          "height": 476
+        }
+      }
+    },
+    {
+      "id": 477,
+      "name": "A Lovely Night",
+      "short": "A Lovely Night",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Cathy’s Corner, Mount Hollywood Drive, Los Angeles",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.3082,
+        34.1393
+      ],
+      "productionCoordinates": [
+        -118.3082,
+        34.1393
+      ],
+      "productionSites": [
+        {
+          "component": "Dance overlook",
+          "address": "Cathy’s Corner, Mount Hollywood Drive, Los Angeles, CA",
+          "coordinates": [
+            -118.3082,
+            34.1393
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "screen",
+        "address": "Cathy’s Corner, Mount Hollywood Drive, Los Angeles",
+        "precision": "named-venue",
+        "reason": "The dance overlook was filmed at Cathy’s Corner on Mount Hollywood Drive. The source identifies this specific viewpoint; the bench, lamppost and parked cars were production additions. No drivable walking route from the party is inferred.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_geo_477"
+        ]
+      },
+      "people": [
+        "Mia Dolan",
+        "Sebastian Wilder"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian’s hilltop dance",
+          "filming_component": "Dance overlook",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_geo_477"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_ll_fo",
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mia Dolan",
+              "relationship": "dances with Sebastian"
+            },
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "dances with Mia"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-169.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-169.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n477-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland3.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n477-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 478,
+      "name": "Hermosa Beach Pier",
+      "short": "Hermosa Beach Pier",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Hermosa Beach Pier, Hermosa Beach",
+      "area": "Hermosa Beach",
+      "coordinates": [
+        -118.4031667,
+        33.8616667
+      ],
+      "productionCoordinates": [
+        -118.4031667,
+        33.8616667
+      ],
+      "productionSites": [
+        {
+          "component": "Pier",
+          "address": "Hermosa Beach Pier, Hermosa Beach, CA",
+          "coordinates": [
+            -118.4031667,
+            33.8616667
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "screen",
+        "address": "Hermosa Beach Pier, Hermosa Beach",
+        "precision": "named-venue",
+        "reason": "Sebastian sings on Hermosa Beach Pier. The point is on the actual pier, using the City’s project coordinates rather than the inaccurate rounded GeoNames meteorological-station point.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_ll_pier",
+          "n2_geo_478"
+        ]
+      },
+      "people": [
+        "Sebastian Wilder"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "City of Stars on the pier",
+          "filming_component": "Pier",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_ll_pier",
+            "n2_geo_478"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_ll_fo",
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "sings City of Stars"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-217.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-217.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n478-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland30-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n478-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 479,
+      "name": "Angels Flight",
+      "short": "Angels Flight",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.251599985292,
+        34.052149981285
+      ],
+      "productionCoordinates": [
+        -118.251599985292,
+        34.052149981285
+      ],
+      "productionSites": [
+        {
+          "component": "Railway",
+          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles, CA",
+          "coordinates": [
+            -118.251599985292,
+            34.052149981285
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "The recognizable Angels Flight railway appears in Mia and Sebastian’s summer montage. The marker identifies its upper station, not an invented journey beyond the railway.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_geo_479"
+        ]
+      },
+      "people": [
+        "Mia Dolan",
+        "Sebastian Wilder"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian’s railway ride",
+          "filming_component": "Railway",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_geo_479"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_ll_fo",
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mia Dolan",
+              "relationship": "rides with Sebastian"
+            },
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "rides with Mia"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-361.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-361.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n479-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n479-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 480,
+      "name": "Grand Central Market",
+      "short": "Grand Central Market",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "Grand Central Market, 317 South Broadway, Los Angeles",
+      "area": "Downtown Los Angeles",
+      "coordinates": [
+        -118.248622984741,
+        34.050693877065
+      ],
+      "productionCoordinates": [
+        -118.248622984741,
+        34.050693877065
+      ],
+      "productionSites": [
+        {
+          "component": "Market interior",
+          "address": "Grand Central Market, 317 South Broadway, Los Angeles, CA",
+          "coordinates": [
+            -118.248622984741,
+            34.050693877065
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "screen",
+        "address": "Grand Central Market, 317 South Broadway, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "Mia and Sebastian eat inside Grand Central Market during their summer montage. The named market is retained as the story place.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_geo_480"
+        ]
+      },
+      "people": [
+        "Mia Dolan",
+        "Sebastian Wilder"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Mia and Sebastian’s market date",
+          "filming_component": "Market interior",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_geo_480"
+          ],
+          "story_time": {
+            "year": 2016,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year used as an editorial estimate, not a confirmed calendar year.",
+            "source_ids": [
+              "n2_ll_fo",
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mia Dolan",
+              "relationship": "eats with Sebastian"
+            },
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "eats with Mia"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-343.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-343.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n480-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland32.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n480-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 481,
+      "name": "Seb’s",
+      "short": "Seb’s",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "6202 Santa Monica Boulevard, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.324645673076,
+        34.090600914364
+      ],
+      "productionCoordinates": [
+        -118.324645673076,
+        34.090600914364
+      ],
+      "productionSites": [
+        {
+          "component": "Club storefront exterior",
+          "address": "6202 Santa Monica Boulevard, Los Angeles, CA",
+          "coordinates": [
+            -118.324645673076,
+            34.090600914364
+          ]
+        },
+        {
+          "component": "Club interior",
+          "address": "The Blind Donkey, 149 Linden Avenue, Long Beach, CA"
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "6202 Santa Monica Boulevard, Los Angeles",
+        "precision": "building-exterior",
+        "reason": "Seb’s is a composite: Hollywood storefront at 6202 Santa Monica Boulevard and interior at the Blind Donkey, 149 Linden Avenue, Long Beach. The exterior anchors one fictional Hollywood club; the interior is not mapped as another club.",
+        "sourceIds": [
+          "n2_ll_fo",
+          "n2_ll_script",
+          "n2_geo_esri",
+          "n2_geo_481"
+        ]
+      },
+      "people": [
+        "Sebastian Wilder",
+        "Mia Dolan",
+        "David"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "La La Land",
+          "release_year": 2016,
+          "story_role": "Sebastian’s jazz club",
+          "filming_component": "Club storefront exterior",
+          "source_ids": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_geo_481"
+          ],
+          "story_time": {
+            "year": 2021,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "The club is in the five-years-later epilogue; 2016 plus five is an editorial date estimate.",
+            "source_ids": [
+              "n2_ll_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sebastian Wilder",
+              "relationship": "owns the club"
+            },
+            {
+              "name": "Mia Dolan",
+              "relationship": "hears Sebastian play"
+            },
+            {
+              "name": "David",
+              "relationship": "visits with Mia"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-655.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-655.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n481-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland21.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "caption": "Exterior site",
+          "src": "photos/n481-place.jpg",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 482,
+      "name": "Gary Valentine’s home",
+      "short": "Gary Valentine’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "7902 Goodland Avenue, North Hollywood",
+      "area": "San Fernando Valley",
+      "coordinates": [
+        -118.412971402711,
+        34.214083405311
+      ],
+      "productionCoordinates": [
+        -118.412971402711,
+        34.214083405311
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and kitchen",
+          "address": "7902 Goodland Avenue, North Hollywood, CA",
+          "coordinates": [
+            -118.412971402711,
+            34.214083405311
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "7902 Goodland Avenue, North Hollywood",
+        "precision": "building-exterior",
+        "reason": "The production designer documents the existing Valley house and its dressed kitchen; the address is identified by specialist location research. With no conflicting canonical street established, its physical exterior supplies the proxy.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_geo_482"
+        ]
+      },
+      "people": [
+        "Gary Valentine"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "Gary’s family home",
+          "filming_component": "House exterior and kitchen",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_geo_482"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gary Valentine",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19534.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "title": "Licorice Pizza",
+          "alt": "Gary takes a telephone call at home, beside the kitchen.",
+          "note": "Matched to the film still in production designer Florencia Martin’s ADG submission, page8.",
+          "src": "photos/n482-screen.jpg",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza41.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n482-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 881
+        }
+      }
+    },
+    {
+      "id": 483,
+      "name": "The Kane family home",
+      "short": "The Kane family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "12801 Miranda Street, North Hollywood",
+      "area": "San Fernando Valley",
+      "coordinates": [
+        -118.411881671479,
+        34.175077296875
+      ],
+      "productionCoordinates": [
+        -118.411881671479,
+        34.175077296875
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and rooms",
+          "address": "12801 Miranda Street, North Hollywood, CA",
+          "coordinates": [
+            -118.411881671479,
+            34.175077296875
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "12801 Miranda Street, North Hollywood",
+        "precision": "building-exterior",
+        "reason": "The production designer documents Alana’s family house in the Valley; matched location research identifies the Miranda Street property. No exact canonical street is asserted.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_geo_483"
+        ]
+      },
+      "people": [
+        "Alana Kane",
+        "Este Kane",
+        "Danielle Kane",
+        "Mr. Kane",
+        "Mrs. Kane"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "Alana’s family home",
+          "filming_component": "House exterior and rooms",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_geo_483"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Alana Kane",
+              "relationship": "lives with her family"
+            },
+            {
+              "name": "Este Kane",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Danielle Kane",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mr. Kane",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Kane",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19593.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "alt": "Licorice Pizza scene",
+          "src": "photos/n483-screen.jpg",
+          "title": "Licorice Pizza",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza28.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n483-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 882
+        }
+      }
+    },
+    {
+      "id": 484,
+      "name": "Fat Bernie’s / Pinball Palace",
+      "short": "Fat Bernie’s / Pinball Palace",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "21758 Devonshire Street, Chatsworth",
+      "area": "Chatsworth",
+      "coordinates": [
+        -118.603742848432,
+        34.257047238879
+      ],
+      "productionCoordinates": [
+        -118.603742848432,
+        34.257047238879
+      ],
+      "productionSites": [
+        {
+          "component": "Waterbed shop and pinball arcade",
+          "address": "21758 Devonshire Street, Chatsworth, CA",
+          "coordinates": [
+            -118.603742848432,
+            34.257047238879
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "21758 Devonshire Street, Chatsworth",
+        "precision": "building-exterior",
+        "reason": "The production designer identifies the Chatsworth storefront conversion from waterbed shop to pinball arcade. Both businesses share one story premises and are one map place.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_geo_484"
+        ]
+      },
+      "people": [
+        "Gary Valentine",
+        "Alana Kane",
+        "Greg"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "Gary’s waterbed shop and pinball arcade",
+          "filming_component": "Waterbed shop and pinball arcade",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_geo_484"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gary Valentine",
+              "relationship": "runs the waterbed and pinball businesses"
+            },
+            {
+              "name": "Alana Kane",
+              "relationship": "works with Gary"
+            },
+            {
+              "name": "Greg",
+              "relationship": "works with Gary"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19598.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "alt": "Licorice Pizza scene",
+          "src": "photos/n484-screen.jpg",
+          "title": "Licorice Pizza",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n484-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 485,
+      "name": "Joel Wachs’s campaign office",
+      "short": "Joel Wachs’s campaign office",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "21702 Sherman Way, Canoga Park",
+      "area": "Canoga Park",
+      "coordinates": [
+        -118.601792882477,
+        34.200846494269
+      ],
+      "productionCoordinates": [
+        -118.601792882477,
+        34.200846494269
+      ],
+      "productionSites": [
+        {
+          "component": "Campaign-office storefront and rooms",
+          "address": "21702 Sherman Way, Canoga Park, CA",
+          "coordinates": [
+            -118.601792882477,
+            34.200846494269
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "21702 Sherman Way, Canoga Park",
+        "precision": "building-exterior",
+        "reason": "The production designer describes conversion of a local storefront into Wachs’s campaign office; location research identifies 21702 Sherman Way. This is the film office, not a claim about the politician’s actual historical headquarters.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_geo_485"
+        ]
+      },
+      "people": [
+        "Joel Wachs",
+        "Alana Kane"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "Alana’s campaign job",
+          "filming_component": "Campaign-office storefront and rooms",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_geo_485"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joel Wachs",
+              "relationship": "runs his campaign"
+            },
+            {
+              "name": "Alana Kane",
+              "relationship": "volunteers here"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19726.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "alt": "Licorice Pizza scene",
+          "src": "photos/n485-screen.jpg",
+          "title": "Licorice Pizza",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza16.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n485-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 486,
+      "name": "Jon Peters’s home",
+      "short": "Jon Peters’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "4450 Balboa Avenue, Encino",
+      "area": "Encino",
+      "coordinates": [
+        -118.50447555003,
+        34.151992487792
+      ],
+      "productionCoordinates": [
+        -118.50447555003,
+        34.151992487792
+      ],
+      "productionSites": [
+        {
+          "component": "House exterior and rooms",
+          "address": "4450 Balboa Avenue, Encino, CA",
+          "coordinates": [
+            -118.50447555003,
+            34.151992487792
+          ]
+        }
+      ],
+      "precision": "building-exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "4450 Balboa Avenue, Encino",
+        "precision": "building-exterior",
+        "reason": "The production designer confirms that the Tudor house and steep driveway were used for Jon Peters’s scenes. The Encino production house is retained as a proxy; the montage’s Tarzana roads do not move this house to every stunt location.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_geo_486"
+        ]
+      },
+      "people": [
+        "Jon Peters",
+        "Gary Valentine",
+        "Alana Kane"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "The waterbed delivery",
+          "filming_component": "House exterior and rooms",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_geo_486"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jon Peters",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Gary Valentine",
+              "relationship": "delivers a waterbed"
+            },
+            {
+              "name": "Alana Kane",
+              "relationship": "delivers a waterbed"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19657.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "alt": "Licorice Pizza scene",
+          "src": "photos/n486-screen.jpg",
+          "title": "Licorice Pizza",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza24-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n486-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 894
+        }
+      }
+    },
+    {
+      "id": 487,
+      "name": "Tail o’ the Cock",
+      "short": "Tail o’ the Cock",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "6550 Odessa Avenue, Van Nuys",
+      "area": "Studio City",
+      "coordinates": [
+        -118.415195708356,
+        34.145196440697
+      ],
+      "productionCoordinates": [
+        -118.488643811312,
+        34.189896501689
+      ],
+      "productionSites": [
+        {
+          "component": "Restaurant interior replica",
+          "address": "6550 Odessa Avenue, Van Nuys, CA",
+          "coordinates": [
+            -118.488643811312,
+            34.189896501689
+          ]
+        }
+      ],
+      "precision": "named-venue",
+      "placement": {
+        "kind": "inferred",
+        "address": "12950 Ventura Boulevard · Studio City",
+        "precision": "named-venue",
+        "reason": "The film names the historic Valley restaurant Tail o’ the Cock. The museum and city history place it at 12950 Ventura Boulevard, Studio City. Its room was recreated at Billingsley’s, 6550 Odessa Avenue, Van Nuys. The marker follows the named story venue; the production replica remains separately credited.",
+        "sourceIds": [
+          "n2_lp_fo",
+          "n2_lp_adg",
+          "n2_lp_1973",
+          "n2_geo_esri",
+          "n2_lp_tail",
+          "n2_lp_tail_city",
+          "n2_geo_487"
+        ]
+      },
+      "people": [
+        "Gary Valentine",
+        "Alana Kane",
+        "Jack Holden",
+        "Rex Blau"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Licorice Pizza",
+          "release_year": 2021,
+          "story_role": "Gary and Alana’s dinner; Holden’s stunt",
+          "filming_component": "Restaurant interior replica",
+          "source_ids": [
+            "n2_lp_fo",
+            "n2_lp_adg",
+            "n2_lp_1973",
+            "n2_geo_esri",
+            "n2_lp_tail",
+            "n2_lp_tail_city",
+            "n2_geo_487"
+          ],
+          "story_time": {
+            "year": 1973,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The studio publication places the story in the San Fernando Valley circa 1973.",
+            "source_ids": [
+              "n2_lp_1973"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gary Valentine",
+              "relationship": "dines with Alana"
+            },
+            {
+              "name": "Alana Kane",
+              "relationship": "meets Gary and later Jack Holden"
+            },
+            {
+              "name": "Jack Holden",
+              "relationship": "drinks with Rex Blau"
+            },
+            {
+              "name": "Rex Blau",
+              "relationship": "stages the motorcycle stunt"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19495.jpg",
+          "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+          "credit": "Licorice Pizza film frame; SHOT.CAFE",
+          "alt": "Licorice Pizza scene",
+          "src": "photos/n487-screen.jpg",
+          "title": "Licorice Pizza",
+          "width": 1600,
+          "height": 672
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza45-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n487-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n2_cl_ift",
+      "title": "Clueless: matched location scenes",
+      "url": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_cl_cher",
+      "title": "Cher’s house: film frames and site photographs",
+      "url": "https://www.iamnotastalker.com/2008/10/03/chers-house-from-clueless",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_cl_school",
+      "title": "Clueless: Occidental campus components",
+      "url": "https://www.iamnotastalker.com/2014/08/04/the-clueless-guide-to-occidental-college",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_cl_address",
+      "title": "Clueless: the Beverly Hills address on the mail",
+      "url": "https://www.glamour.com/story/17-years-ago-today-clueless-wa",
+      "source_type": "screen address research"
+    },
+    {
+      "id": "n2_pw_ift",
+      "title": "Pretty Woman: matched screen and site photographs",
+      "url": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_pw_fo",
+      "title": "Pretty Woman: Hollywood and downtown sites",
+      "url": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_pw_afi",
+      "title": "AFI Catalog: Pretty Woman",
+      "url": "https://catalog.afi.com/Film/55709-PRETTY-WOMAN",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "n2_pw_voltaire",
+      "title": "Pretty Woman: Edward names the Voltaire",
+      "url": "https://clip.cafe/pretty-woman-1990/hello-never-ever-pick-up-the-phone-why-are-you-calling-me-did-you-buy-clothes-today-got-a-dress-a/",
+      "source_type": "film excerpt"
+    },
+    {
+      "id": "n2_500_fo",
+      "title": "(500) Days of Summer: matched Los Angeles sites",
+      "url": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_500_ml",
+      "title": "(500) Days of Summer: story locations and composite geography",
+      "url": "https://www.movie-locations.com/movies/0/500-Days-Of-Summer.php",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_500_conservancy",
+      "title": "Los Angeles Conservancy: 500 Days in Downtown L.A.",
+      "url": "https://www.laconservancy.org/wp-content/uploads/2022/10/500DaysOfSummer_selfguided.pdf",
+      "source_type": "preservation organization"
+    },
+    {
+      "id": "n2_500_maps",
+      "title": "MovieMaps: Los Angeles location coordinates",
+      "url": "https://moviemaps.org/movies/2o",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_500_redwood",
+      "title": "The Mill: matched karaoke frame and Redwood interior",
+      "url": "https://www.iamnotastalker.com/2013/01/03/redwood-bar-grill-from-bridesmaids",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_500_script",
+      "title": "(500) Days of Summer screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/500-days-of-summer-2009.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "n2_hol_sony",
+      "title": "Sony Pictures: The Holiday",
+      "url": "https://www.sonypictures.com/movies/theholiday",
+      "source_type": "studio synopsis"
+    },
+    {
+      "id": "n2_hol_script",
+      "title": "The Holiday: Nancy Meyers screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/the-holiday-2006.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "n2_hol_amanda",
+      "title": "Amanda’s house: matched exterior frames",
+      "url": "https://www.iamnotastalker.com/2010/06/15/amandas-house-from-the-holiday",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_hol_arthur",
+      "title": "Arthur Abbott’s house: matched scenes and property",
+      "url": "https://www.iamnotastalker.com/2011/12/22/arthur-abbotts-house-from-the-holiday",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_hol_neighbors",
+      "title": "The Holiday: the houses are neighbors in the story",
+      "url": "https://lamag.com/news/scene-it-before-arthur-abbotts-house-from-the-holiday/",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_hol_video",
+      "title": "The Holiday: former Brentwood Blockbuster",
+      "url": "https://www.iamnotastalker.com/2014/12/23/blockbuster-video-from-the-holiday",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_ll_fo",
+      "title": "La La Land: sites and exterior/interior composites",
+      "url": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_ll_seb",
+      "title": "Sebastian’s apartment: screen geography and matched courtyard",
+      "url": "https://www.seeingstars.net/Locations/LaLaLand/9-SebsApartment.shtml",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_ll_script",
+      "title": "La La Land: August 2015 screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/la-la-land-2016.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "n2_ll_ad",
+      "title": "La La Land: interview with production designer David Wasco",
+      "url": "https://www.architecturaldigest.com/story/la-la-land-set-design",
+      "source_type": "production designer interview"
+    },
+    {
+      "id": "n2_ll_pier",
+      "title": "City of Hermosa Beach: pier repairs and location",
+      "url": "https://ceqanet.lci.ca.gov/2022050539/2",
+      "source_type": "city project geography"
+    },
+    {
+      "id": "n2_lp_fo",
+      "title": "Licorice Pizza: matched San Fernando Valley sites",
+      "url": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "source_type": "location research"
+    },
+    {
+      "id": "n2_lp_adg",
+      "title": "Florencia Martin: Licorice Pizza production design submission",
+      "url": "https://assets.adg.org/media/submissions/2021-12-20_10-38-42/Licorice_Pizza_ADG_Submission_12_2021_FM_Smaller_File_.pdf",
+      "source_type": "production designer publication"
+    },
+    {
+      "id": "n2_lp_1973",
+      "title": "MGM / United Artists: Licorice Pizza in 1973",
+      "url": "https://d5tlfha2av0cx.cloudfront.net/annapurna/2021/article/licoricepizza/Jan_18_UAR_Advertorial_Licorice_Pizza.pdf",
+      "source_type": "studio publication"
+    },
+    {
+      "id": "n2_lp_tail",
+      "title": "Valley Relics Museum: Tail o’ the Cock address",
+      "url": "https://valleyrelicsmuseum.org/archives/items/show/585",
+      "source_type": "museum collection"
+    },
+    {
+      "id": "n2_lp_tail_city",
+      "title": "Los Angeles City Planning: Studio City historical context",
+      "url": "https://planning.lacity.gov/StaffRpt/InitialRpts/VTT-72928.pdf",
+      "source_type": "municipal historical research"
+    },
+    {
+      "id": "n2_geo_esri",
+      "title": "Esri World Geocoding address and named-place reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_aerial",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "n2_geo_460",
+      "title": "5148 Louise Avenue, Encino, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=5148+Louise+Avenue%2C+Encino%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_461",
+      "title": "Occidental College, 1600 Campus Road, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Occidental+College%2C+1600+Campus+Road%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_462",
+      "title": "1738 North Las Palmas Avenue, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1738+North+Las+Palmas+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_463",
+      "title": "Beverly Wilshire Hotel, 9500 Wilshire Boulevard, Beverly Hills, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Beverly+Wilshire+Hotel%2C+9500+Wilshire+Boulevard%2C+Beverly+Hills%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_464",
+      "title": "Cicada Restaurant, 617 South Olive Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cicada+Restaurant%2C+617+South+Olive+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_465",
+      "title": "6708 Hollywood Boulevard, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6708+Hollywood+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_466",
+      "title": "333 South Hope Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=333+South+Hope+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_467",
+      "title": "432 South Main Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=432+South+Main+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_468",
+      "title": "706 South Normandie Avenue, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=706+South+Normandie+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_469",
+      "title": "356 South Olive Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=356+South+Olive+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_470",
+      "title": "Redwood Bar & Grill, 316 West 2nd Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Redwood+Bar+%26+Grill%2C+316+West+2nd+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_471",
+      "title": "Arthur J. Will Memorial Fountain, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Arthur+J.+Will+Memorial+Fountain%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_472",
+      "title": "Fenton Building, 833 South Spring Street, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Fenton+Building%2C+833+South+Spring+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_473",
+      "title": "1883 Orlando Road, San Marino, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1883+Orlando+Road%2C+San+Marino%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_474",
+      "title": "163 South Rockingham Avenue, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=163+South+Rockingham+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_475",
+      "title": "11770 San Vicente Boulevard, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=11770+San+Vicente+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_476",
+      "title": "8404 Willis Avenue, Panorama City, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=8404+Willis+Avenue%2C+Panorama+City%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_477",
+      "title": "Cathy’s Corner, Mount Hollywood Drive, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cathy%E2%80%99s+Corner%2C+Mount+Hollywood+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_478",
+      "title": "Hermosa Beach Pier, Hermosa Beach, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Hermosa+Beach+Pier%2C+Hermosa+Beach%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_479",
+      "title": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Angels+Flight+Railway%2C+350+South+Grand+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_480",
+      "title": "Grand Central Market, 317 South Broadway, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Grand+Central+Market%2C+317+South+Broadway%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_481",
+      "title": "6202 Santa Monica Boulevard, Los Angeles, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6202+Santa+Monica+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_482",
+      "title": "7902 Goodland Avenue, North Hollywood, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7902+Goodland+Avenue%2C+North+Hollywood%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_483",
+      "title": "12801 Miranda Street, North Hollywood, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=12801+Miranda+Street%2C+North+Hollywood%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_484",
+      "title": "21758 Devonshire Street, Chatsworth, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=21758+Devonshire+Street%2C+Chatsworth%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_485",
+      "title": "21702 Sherman Way, Canoga Park, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=21702+Sherman+Way%2C+Canoga+Park%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_486",
+      "title": "4450 Balboa Avenue, Encino, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4450+Balboa+Avenue%2C+Encino%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_geo_487",
+      "title": "6550 Odessa Avenue, Van Nuys, CA — address reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6550+Odessa+Avenue%2C+Van+Nuys%2C+CA&f=json&outFields=%2A&location=-118.35%2C34.07&searchExtent=-119%2C33.6%2C-117.5%2C34.5&maxLocations=1",
+      "source_type": "geographic reference"
+    },
+    {
+      "id": "n2_cicada_venue",
+      "title": "Cicada Restaurant: current entrance and film venue",
+      "url": "https://www.cicadarestaurant.com/",
+      "source_type": "venue publication"
+    }
+  ],
+  "audit": [
+    {
+      "id": 460,
+      "verification": "The film’s mail gives 901 Drury Lane, Beverly Hills. The Encino house is the production exterior and interior, not the story address. Drury Lane’s representative point is an editorial street estimate; no canonical parcel is asserted."
+    },
+    {
+      "id": 461,
+      "verification": "Bronson Alcott is the fictional Beverly Hills high school. Occidental College supplies the campus exteriors; additional interiors were shot at Grant High School. This estimated Beverly Hills point does not identify a real school parcel."
+    },
+    {
+      "id": 462,
+      "verification": "The Las Palmas Hotel exterior and fire escape establish Vivian and Kit’s Hollywood apartment. Production street retained as the uncontradicted exterior proxy."
+    },
+    {
+      "id": 463,
+      "verification": "The named Beverly Wilshire plays Edward’s hotel. The point identifies the Wilshire hotel frontage; hotel interiors also used other production components."
+    },
+    {
+      "id": 464,
+      "verification": "Dialogue names the restaurant the Voltaire. The filmed dining room was Rex Il Ristorante, now Cicada, in the Oviatt Building; no canonical street address is given. The physical dining room supplies the proxy."
+    },
+    {
+      "id": 465,
+      "verification": "The fictional Blue Banana combines a dressed 6708 Hollywood Boulevard storefront with the interior and rear entrance of 4067 West Pico Boulevard. The Hollywood exterior anchors the story club; the Pico component is not a second club."
+    },
+    {
+      "id": 466,
+      "verification": "Edward’s Los Angeles workplace and lawn are filmed at Bank of America Plaza, 333 South Hope Street. No separate canonical business street is established."
+    },
+    {
+      "id": 467,
+      "verification": "The Canadian Building supplies Tom’s apartment exterior; Fenton Building supplies interiors. The Main Street exterior is the proxy for his fictional home, not the production address of the interior."
+    },
+    {
+      "id": 468,
+      "verification": "The apartment was filmed at the Barclay on Normandie, but the visible downtown skyline was composited. This central-Los-Angeles estimate acknowledges the impossible production view; the canonical neighborhood and street are unresolved."
+    },
+    {
+      "id": 469,
+      "verification": "Angels Knoll supplies the bench and the recognizable downtown view. The film calls it Angelus Plaza; the nearby real senior-housing complex is not substituted for the bench site. The point uses the documented park location, not a street-geocoder interpolation."
+    },
+    {
+      "id": 470,
+      "verification": "The story karaoke bar is called the Mill. The Redwood Bar & Grill supplies the matched interior; no contrary canonical street has been established."
+    },
+    {
+      "id": 471,
+      "verification": "The named Civic Center fountain appears in Tom’s dance sequence and in Vivian and Edward’s walk. MovieMaps supplies the downtown fountain point; the same-name geocoder result in Monrovia was rejected."
+    },
+    {
+      "id": 472,
+      "verification": "The Los Angeles Conservancy identifies the Fenton Building as the greeting-card workplace. It also supplied apartment interiors; these are separate fictional places with separate exterior anchors."
+    },
+    {
+      "id": 473,
+      "verification": "Amanda’s house is in Brentwood near Arthur’s home in the screenplay and story. The exterior was filmed in San Marino. This broad Brentwood estimate preserves their neighborhood relationship without inventing a street or claiming an adjacent parcel."
+    },
+    {
+      "id": 474,
+      "verification": "The screenplay places Arthur in Brentwood, consistent with the 163 South Rockingham filming house. That street address remains a filming proxy, not a spoken canonical address."
+    },
+    {
+      "id": 475,
+      "verification": "Iris and Miles visit a Brentwood Blockbuster. Matched windows, entrance and street trees identify the former 11770 San Vicente store; the bank conversion photograph is labeled archival."
+    },
+    {
+      "id": 476,
+      "verification": "Mia walks through Chinatown immediately before visiting Sebastian at night. This editorial Chinatown-area estimate follows that story cue; it is not a confirmed neighborhood or address. The courtyard was filmed at 8404 Willis Avenue in Panorama City, kept as production provenance."
+    },
+    {
+      "id": 477,
+      "verification": "The dance overlook was filmed at Cathy’s Corner on Mount Hollywood Drive. The source identifies this specific viewpoint; the bench, lamppost and parked cars were production additions. No drivable walking route from the party is inferred."
+    },
+    {
+      "id": 478,
+      "verification": "Sebastian sings on Hermosa Beach Pier. The point is on the actual pier, using the City’s project coordinates rather than the inaccurate rounded GeoNames meteorological-station point."
+    },
+    {
+      "id": 479,
+      "verification": "The recognizable Angels Flight railway appears in Mia and Sebastian’s summer montage. The marker identifies its upper station, not an invented journey beyond the railway."
+    },
+    {
+      "id": 480,
+      "verification": "Mia and Sebastian eat inside Grand Central Market during their summer montage. The named market is retained as the story place."
+    },
+    {
+      "id": 481,
+      "verification": "Seb’s is a composite: Hollywood storefront at 6202 Santa Monica Boulevard and interior at the Blind Donkey, 149 Linden Avenue, Long Beach. The exterior anchors one fictional Hollywood club; the interior is not mapped as another club."
+    },
+    {
+      "id": 482,
+      "verification": "The production designer documents the existing Valley house and its dressed kitchen; the address is identified by specialist location research. With no conflicting canonical street established, its physical exterior supplies the proxy."
+    },
+    {
+      "id": 483,
+      "verification": "The production designer documents Alana’s family house in the Valley; matched location research identifies the Miranda Street property. No exact canonical street is asserted."
+    },
+    {
+      "id": 484,
+      "verification": "The production designer identifies the Chatsworth storefront conversion from waterbed shop to pinball arcade. Both businesses share one story premises and are one map place."
+    },
+    {
+      "id": 485,
+      "verification": "The production designer describes conversion of a local storefront into Wachs’s campaign office; location research identifies 21702 Sherman Way. This is the film office, not a claim about the politician’s actual historical headquarters."
+    },
+    {
+      "id": 486,
+      "verification": "The production designer confirms that the Tudor house and steep driveway were used for Jon Peters’s scenes. The Encino production house is retained as a proxy; the montage’s Tarzana roads do not move this house to every stunt location."
+    },
+    {
+      "id": 487,
+      "verification": "The film names the historic Valley restaurant Tail o’ the Cock. The museum and city history place it at 12950 Ventura Boulevard, Studio City. Its room was recreated at Billingsley’s, 6550 Odessa Avenue, Van Nuys. The marker follows the named story venue; the production replica remains separately credited."
+    },
+    {
+      "excluded": "Her",
+      "reason": "Near-future calendar is unspecified and Shanghai footage complicates city geography; deferred rather than using contemporary release-year dating."
+    },
+    {
+      "excluded": "The Holiday English sites and La La Land’s Nevada childhood home",
+      "reason": "Not set in Los Angeles, despite some California production sites."
+    },
+    {
+      "excluded": "(500) Days of Summer wedding at Point Fermin",
+      "reason": "Train journey implies an out-of-city destination; no canonical Los Angeles-county setting established."
+    },
+    {
+      "excluded": "Duplicate Warner Bros studio campus and Bradbury Building",
+      "reason": "Already mapped; not counted again toward the expansion."
+    },
+    {
+      "verification": "All archival real-site photographs carry their source publication year or an explicit undated-source caption. No claim that old location-blog photos depict the present day."
+    }
+  ]
+}

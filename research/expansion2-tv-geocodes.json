@@ -1,0 +1,182 @@
+{
+  "488": {
+    "address": "15100 Ocean Front Walk, Pacific Palisades, CA",
+    "coordinates": [
+      -118.527609,
+      34.031749
+    ],
+    "matched": "Ocean Front Walk, Santa Monica, California, 90401",
+    "type": "StreetName",
+    "score": 92.53,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=15100+Ocean+Front+Walk%2C+Pacific+Palisades%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1",
+    "rejected_match": {
+      "address": "15100 Ocean Front Walk, Pacific Palisades, CA",
+      "coordinates": [
+        -118.500175825655,
+        34.014379805407
+      ],
+      "matched": "Ocean Front Walk, Santa Monica, California, 90401",
+      "type": "StreetName",
+      "score": 92.53,
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=15100+Ocean+Front+Walk%2C+Pacific+Palisades%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+    },
+    "method": "Named building identified by cast account and Sir Storia coordinates",
+    "source_url": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters"
+  },
+  "489": {
+    "address": "469 Sherman Canal, Venice, CA",
+    "coordinates": [
+      -118.463560966059,
+      33.984559990458
+    ],
+    "matched": "469 Sherman Canal, Venice, California, 90291",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=469+Sherman+Canal%2C+Venice%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "490": {
+    "address": "28128 Pacific Coast Highway, Malibu, CA",
+    "coordinates": [
+      -118.7876,
+      34.0207
+    ],
+    "matched": "28128 Pacific Coast Hwy, Malibu, California, 90265",
+    "type": "manual-site-area",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=28128+Pacific+Coast+Highway%2C+Malibu%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1",
+    "rejected_postal_match": {
+      "address": "28128 Pacific Coast Highway, Malibu, CA",
+      "coordinates": [
+        -118.789538209694,
+        34.01947619115
+      ],
+      "matched": "28128 Pacific Coast Hwy, Malibu, California, 90265",
+      "type": "PointAddress",
+      "score": 100,
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=28128+Pacific+Coast+Highway%2C+Malibu%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+    },
+    "method": "Cafe parking lot matched to source photographs and active aerial imagery",
+    "source_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.793%2C34.017%2C-118.785%2C34.022&bboxSR=4326&imageSR=4326&size=1000%2C625&format=jpg&f=image"
+  },
+  "491": {
+    "address": "837 Traction Avenue, Los Angeles, CA",
+    "coordinates": [
+      -118.234714725164,
+      34.044762004188
+    ],
+    "matched": "837 Traction Ave, Los Angeles, California, 90013",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=837+Traction+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "492": {
+    "address": "10336 Dunleer Drive, Los Angeles, CA",
+    "coordinates": [
+      -118.410233873134,
+      34.036380142922
+    ],
+    "matched": "10336 Dunleer Dr, Los Angeles, California, 90064",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10336+Dunleer+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "493": {
+    "address": "121 South Cliffwood Avenue, Los Angeles, CA",
+    "coordinates": [
+      -118.486000997241,
+      34.056295586776
+    ],
+    "matched": "121 S Cliffwood Ave, Los Angeles, California, 90049",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=121+South+Cliffwood+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "494": {
+    "address": "2211 Fox Hills Drive, Los Angeles, CA",
+    "coordinates": [
+      -118.416076897837,
+      34.051725186432
+    ],
+    "matched": "2211 Fox Hills Dr, Los Angeles, California, 90064",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2211+Fox+Hills+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "495": {
+    "address": "251 North Bristol Avenue, Los Angeles, CA",
+    "coordinates": [
+      -118.489429950011,
+      34.060018073795
+    ],
+    "matched": "251 N Bristol Ave, Los Angeles, California, 90049",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=251+North+Bristol+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "496": {
+    "address": "2302 West 25th Street, Los Angeles, CA",
+    "coordinates": [
+      -118.318057664818,
+      34.033510221184
+    ],
+    "matched": "2302 W 25th St, Los Angeles, California, 90018",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2302+West+25th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "497": {
+    "address": "1675 East Altadena Drive, Altadena, CA",
+    "coordinates": [
+      -118.11611180106,
+      34.191005176022
+    ],
+    "matched": "1675 E Altadena Dr, Altadena, California, 91001",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1675+East+Altadena+Drive%2C+Altadena%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "498": {
+    "address": "45 South Fair Oaks Avenue, Pasadena, CA",
+    "coordinates": [
+      -118.150757894921,
+      34.144978427396
+    ],
+    "matched": "45 S Fair Oaks Ave, Pasadena, California, 91105",
+    "type": "PointAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=45+South+Fair+Oaks+Avenue%2C+Pasadena%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "499": {
+    "address": "3038 Los Feliz Boulevard, Los Angeles, CA",
+    "coordinates": [
+      -118.265469951087,
+      34.125021821399
+    ],
+    "matched": "3038 Los Feliz Blvd, Los Angeles, California, 90039",
+    "type": "StreetAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=3038+Los+Feliz+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "banks-story": {
+    "address": "805 Saint Cloud Road, Los Angeles, CA",
+    "coordinates": [
+      -118.438310787543,
+      34.086377419743
+    ],
+    "matched": "Saint Cloud Rd, Los Angeles, California, 90077",
+    "type": "StreetName",
+    "score": 96.38,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=805+Saint+Cloud+Road%2C+Los+Angeles%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  },
+  "walsh-story": {
+    "address": "953 Hillcrest Drive, Beverly Hills, CA",
+    "coordinates": [
+      -118.416942598831,
+      34.106413691605
+    ],
+    "matched": "953 Hillcrest Dr, Beverly Hills, California, 90210",
+    "type": "StreetAddress",
+    "score": 100,
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=953+Hillcrest+Drive%2C+Beverly+Hills%2C+CA&f=json&outFields=Addr_type%2CMatch_addr&maxLocations=1"
+  }
+}

@@ -5067,5 +5067,2322 @@
       "height": 650,
       "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.445417968177%2C34.092276006553%2C-118.442817968177%2C34.093876006552996&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
     }
+  },
+  "400": {
+    "screen": {
+      "src": "photos/n400-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_liquorstore-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "The liquor-store murders in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n400-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_liquorstore-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "The liquor-store murders — real filming site",
+      "caption": "Site · undated",
+      "note": "Jared Cowan’s site photograph, published in 2018; capture day unreported.",
+      "width": 1000,
+      "height": 714
+    }
+  },
+  "401": {
+    "screen": {
+      "src": "photos/n401-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ronnie-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Ronnie & Anthony’s home in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n401-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ronnie-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Ronnie & Anthony’s home — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "402": {
+    "screen": {
+      "src": "photos/n402-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_jordandowns-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Caine’s grandparents’ home in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n402-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_jordandowns-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Caine’s grandparents’ home — real filming site",
+      "caption": "Original buildings · 2018",
+      "note": "2018 photograph of the original Jordan Downs buildings; archival, before redevelopment.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "403": {
+    "screen": {
+      "src": "photos/n403-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_ilenashouse-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Ilena’s home in Menace II Society",
+      "caption": "Screen/site comparison",
+      "note": "Published comparison combines the movie frame and Jared Cowan’s site photograph. It is not an unaltered standalone movie frame.",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 662
+    },
+    "place": {
+      "src": "photos/n403-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3299481839%2C33.997743946411%2C-118.3281481839%2C33.998943946410996&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Ilena’s home — real filming site",
+      "caption": "Filming site · aerial",
+      "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+      "width": 1000,
+      "height": 650
+    }
+  },
+  "404": {
+    "screen": {
+      "src": "photos/n404-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_garage-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "The Maxima theft in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n404-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_garage-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "The Maxima theft — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "405": {
+    "screen": {
+      "src": "photos/n405-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_partyhouse-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "The graduation party in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n405-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_partyhouse-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "The graduation party — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 662
+    }
+  },
+  "406": {
+    "screen": {
+      "src": "photos/n406-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_carjacking-3.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Harold’s carjacking in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n406-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_carjacking-4.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Harold’s carjacking — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "407": {
+    "screen": {
+      "src": "photos/n407-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_hospital-1.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Martin Luther King Jr. Hospital in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 562
+    },
+    "place": {
+      "src": "photos/n407-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_hospital-2.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Martin Luther King Jr. Hospital — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "408": {
+    "screen": {
+      "src": "photos/n408-screen.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_park-2.jpg?w=1000",
+      "credit": "Menace II Society film frame; L.A. TACO",
+      "alt": "Centinela Park barbecue in Menace II Society",
+      "title": "Menace II Society",
+      "width": 1000,
+      "height": 563
+    },
+    "place": {
+      "src": "photos/n408-place.jpg",
+      "sourceUrl": "https://lataco.com/photographing-the-filming-locations-of-menace-ii-society-25-years-later",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/m2s_park-3.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Centinela Park barbecue — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "409": {
+    "screen": {
+      "src": "photos/n409-screen.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_belmonttunnel1_orionpictures.jpg?w=1000",
+      "credit": "Colors film frame; L.A. TACO",
+      "alt": "Frog’s gang hideout in Colors",
+      "title": "Colors",
+      "width": 1000,
+      "height": 551
+    },
+    "place": {
+      "src": "photos/n409-place.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_belmonttunnel2_jaredcowan.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Frog’s gang hideout — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 666
+    }
+  },
+  "410": {
+    "screen": {
+      "src": "photos/n410-screen.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_wattstowers3_orionpictures.jpg?w=1000",
+      "credit": "Colors film frame; L.A. TACO",
+      "alt": "Watts Towers chase crash in Colors",
+      "title": "Colors",
+      "width": 1000,
+      "height": 551
+    },
+    "place": {
+      "src": "photos/n410-place.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_wattstowers2_jaredcowan.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "Watts Towers chase crash — real filming site",
+      "caption": "Site · 2016",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "date": "2016",
+      "width": 1000,
+      "height": 665
+    }
+  },
+  "411": {
+    "screen": {
+      "src": "photos/n411-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaT_DOtGwHBAF15myjxm7Utmz4WQ0-lEAONm4AU2m1Ro5ouEE_a1-X5VY6AV_tgLklUMqqIl_ess5IEES7X8O6RN4sI_qDHTE6qw4aOVQ1dNK1_M-OLykFjK10P2qfeR_yxOKrf4Ezeug/s1200/Diner.JPG",
+      "credit": "Colors film frame; ItsFilmedThere",
+      "alt": "Louisa Gomez’s restaurant in Colors",
+      "title": "Colors",
+      "width": 800,
+      "height": 439
+    },
+    "place": {
+      "src": "photos/n411-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCLCd2iINxmA8EQKRRKme_0BzyA4NUwjQbk6gvhN8EIIzypxI6anKZRwfwm_l1hxuup_Bnu3YLmTDw9kmk2SsWd4BctDrFtHvJjELEYjIA9Y3EBIfT82FfgHC8B8F3n-d5-MdZPtmEfMQf/s1200/Restaurant+1.jpg",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Louisa Gomez’s restaurant — real filming site",
+      "caption": "Former site · undated",
+      "note": "Photograph of the former restaurant site; the screen restaurant was demolished.",
+      "width": 843,
+      "height": 462
+    }
+  },
+  "412": {
+    "screen": {
+      "src": "photos/n412-screen.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_lorenabridge1_orionpictures.jpg?w=1000",
+      "credit": "Colors film frame; L.A. TACO",
+      "alt": "White Fence’s bridge hangout in Colors",
+      "title": "Colors",
+      "width": 1000,
+      "height": 550
+    },
+    "place": {
+      "src": "photos/n412-place.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_lorenabridge2_jaredcowan.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "White Fence’s bridge hangout — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 666
+    }
+  },
+  "413": {
+    "screen": {
+      "src": "photos/n413-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSOAwWaHbklld1XAOPTK9tSUTnIOB_xToe0jq13rH06eVdvbSJXkzWPEf-OuGSTvAc6O-8iaGcgEJsJv31P5lDE5200K4-BPHEob508LmLoR_pg0BVgoXiO9Vqp518ZaZwL32b8pZv7uw/s1200/Big+House+1.JPG",
+      "credit": "Colors film frame; ItsFilmedThere",
+      "alt": "The 21st Street party house in Colors",
+      "title": "Colors",
+      "width": 800,
+      "height": 441
+    },
+    "place": {
+      "src": "photos/n413-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.191643344925%2C34.048882440599%2C-118.189843344925%2C34.050082440599&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "The 21st Street party house — real filming site",
+      "caption": "Filming site · aerial",
+      "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+      "width": 1000,
+      "height": 650
+    }
+  },
+  "414": {
+    "screen": {
+      "src": "photos/n414-screen.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_hilltop4_orionpictures.jpg?w=1000",
+      "credit": "Colors film frame; L.A. TACO",
+      "alt": "The hilltop raid in Colors",
+      "title": "Colors",
+      "width": 1000,
+      "height": 549
+    },
+    "place": {
+      "src": "photos/n414-place.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_hilltop2_jaredcowan.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "The hilltop raid — real filming site",
+      "caption": "Site · undated",
+      "note": "View from Figueroa Terrace in the 2023 article; the former empty raid hill now has apartments.",
+      "width": 1000,
+      "height": 666
+    }
+  },
+  "415": {
+    "screen": {
+      "src": "photos/n415-screen.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_venice2_orionpictures.jpg?w=1000",
+      "credit": "Colors film frame; L.A. TACO",
+      "alt": "High Top’s Venice escape in Colors",
+      "title": "Colors",
+      "width": 1000,
+      "height": 551
+    },
+    "place": {
+      "src": "photos/n415-place.jpg",
+      "sourceUrl": "https://lataco.com/film-locations-colors-hopper",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/lataco_colors_venice1_jaredcowan.jpg?w=1000",
+      "credit": "Jared Cowan / L.A. TACO",
+      "alt": "High Top’s Venice escape — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1000,
+      "height": 666
+    }
+  },
+  "416": {
+    "screen": {
+      "src": "photos/n416-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/08/colors.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjRhZXSSjc8XViVq8xsA82Y4S7-JgcWzeaSqvSbMRwzLvrjx097imm1yG1YIc-NEuGhkY8wZ_RtacUiUUwFQ-GrQaDLC3Zo2jvd2D3flypPM8T2JeiBolIr7BmpkpEtDXt4jiognV-OLU/s1200/First+Driveby+1.JPG",
+      "credit": "Colors film frame; ItsFilmedThere",
+      "alt": "Robert Craig’s home in Colors",
+      "title": "Colors",
+      "width": 800,
+      "height": 440
+    },
+    "place": {
+      "src": "photos/n416-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.275458353366%2C33.934464014017%2C-118.273658353366%2C33.935664014017&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Robert Craig’s home — real filming site",
+      "caption": "Filming site · aerial",
+      "note": "Active-basemap aerial; capture date is not provided. This depicts the physical filming site, not an inferred story position.",
+      "width": 1000,
+      "height": 650
+    }
+  },
+  "417": {
+    "screen": {
+      "src": "photos/n417-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1hoKtr8BfdaBacpFLMkUp470qoDtAf3fEnZd2ik7BTzLgMSiGlTkCS-gKxUjG8o2lPUO9iWa9ooEjgcl7xk8k0XYOo734cL80ij4qHocxVOvWxvPHFcbdn74rDDRd8DErQ8a8ZiYVEH/s1200/Blowup+1.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Joe Hallenbeck’s home in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 833,
+      "height": 357
+    },
+    "place": {
+      "src": "photos/n417-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5KlbxZYxR1t_f-yoqvo5hBKe0cyacxsXZUMpicuz4R0XukzKdD_olTBEVslPto4DxxeaD3zNnUllMCwjw6vij0_qdWk7vK6ipNX0MnVSTfec0YcHgCMpNsSqMFReeEcBmDU55JNaogEs/s1200/Los+Angeles+November+2011+608.jpg",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Joe Hallenbeck’s home — real filming site",
+      "caption": "House before 2025 fire · 2011",
+      "note": "Archival November 2011 site photo. The location guide reports the house was destroyed in the 2025 fire.",
+      "date": "2011-11",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "418": {
+    "screen": {
+      "src": "photos/n418-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-T2_LL3fO-fWxoo0rfo8gcq1TcxMXSPcw5Nd-wHju1m7HK6r6JspnhHB3S7_o3LCX5iZ0cWSXqrDc95-UGiaQaLFC_Z17brnGRPFpg8h-xuBtnmO3OiKeKdkbHCwFikyFYFONQcHGspB/s1200/Apartment+Building.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Cory’s apartment in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 840,
+      "height": 356
+    },
+    "place": {
+      "src": "photos/n418-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-sbgOkiGJDXSVvjvrk1ljINnqIHYOVf6Xus611ms6IICMJxuyZSlkjNenFUIpYXoCMf68pM6jwCielyB-Reaytq15fPhYrtMMBG_6WSvQzlkbMcE8KHB2JChti1NlBbYPad8h9wDNQJ6RANjoGGn4YGo0pfUtPcHE_HaDNLFa-eJ5s9gK-sHI8ja1/s1200/c.jpg",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Cory’s apartment — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1200,
+      "height": 761
+    }
+  },
+  "419": {
+    "screen": {
+      "src": "photos/n419-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2WE4EhyphenhyphenrBAKuBhn34EoTgPHoo_l72yR-XwojNB0Rgn-SNhHfGvBw3vuIu3PG7o7LStecme-YwYR38enltQ3A6CfnY9fSzklhOKY9x6q84bRxQth-wLlMwDNi6MWs-4kk_TJpu7mCVphJX/s1200/Shooting.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Cory’s murder in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 839,
+      "height": 356
+    },
+    "place": {
+      "src": "photos/n419-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiawBZdcL4LwsZHsGSI48xq7_qv7VNVqqLa5ChX0JujJ19jrinWvROt9aa_Gn-4h7Bgz-i9BMYDZxjZC8v8QIQ2Sl1Irjkofvql7V2assW8TOAxjbTB4QNNQKeSH_MU45BSF9FzEcOTwuribVVhPwMYVanvDBhjYE70HP6zXXnIUTlElexTTSMGfZHHvDY/s1200/A.JPG",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Cory’s murder — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1200,
+      "height": 658
+    }
+  },
+  "420": {
+    "screen": {
+      "src": "photos/n420-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjldaQp6kT6nOYZ-DPOSLyJii20TBaxHlTBpwjomNdFnOTHXD30PnueNh2_NeFHrlj1xEYxes9jmcBOUIO3jpLXe5JrweC3a3FluYQ1KajZx-_4CzZFKmJxcO7di2g2ClbXigH-DtxgFf88/s1200/Overpass.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Jimmy’s fall from the overpass in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 841,
+      "height": 358
+    },
+    "place": {
+      "src": "photos/n420-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixDMheZY99lMziN1ujkCOU8M99EkOH6Rp-h-zqTgSfmwnj8beUS2rRva833lLctM4lQ2YZm2pRu5pCcwMjF3f-wqFt60UoKYiHOYjO8YYtHCaeqSc8nw-uQl-Xyo97XBJ8oPhGEKKNAyEX7f7OPaPKAeq96jAYTCMndPrgrezz9Ae98NKJfOII3Ang278/s1200/A.JPG",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Jimmy’s fall from the overpass — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1200,
+      "height": 674
+    }
+  },
+  "421": {
+    "screen": {
+      "src": "photos/n421-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIs-0OcKKLj0F1LjxpyllbpyRtgKR7_2RS2foKi_3MJL-q3aStvUuLSvtS7_dgmDI8n_D6eSESD6OLrXS8BcoJlRb25mOFpiR6gUNsL0Mz1NoUVHcFg_eB56WK-EyVWLBDrANsES2dlrMi/s1200/Mansion.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Sheldon Marcone’s mansion in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 846,
+      "height": 358
+    },
+    "place": {
+      "src": "photos/n421-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvR2Pa6Dv9bIEaXkp-jsPP4RZxGnC5PEXZprND1Y1KAxYoMX2dJuJlW4f1vOICy8MvVM3Pq2j3ZgPvKjckqvKWrnQxosfvxRcKu4D_QboIG276Fayrzr7aHctqvDTWPxEwp7biGvbc08/s1600/588.JPG",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Sheldon Marcone’s mansion — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1200,
+      "height": 896
+    }
+  },
+  "422": {
+    "screen": {
+      "src": "photos/n422-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDoG79N0fykcKFcJdzfn6RCtS8ECW7U40mHhorxoJf0_exSx5DcKmbwzytpgxRon4EuVtYceXY0cZsXF5OHLBFN0NZRMtaOvsp_o4eIoCxgwjc7hzDdv_BKpir4VhDN8uD1ADQqehhcYV/s1200/Stadium.JPG",
+      "credit": "The Last Boy Scout film frame; ItsFilmedThere",
+      "alt": "Los Angeles Stallions stadium in The Last Boy Scout",
+      "title": "The Last Boy Scout",
+      "width": 834,
+      "height": 361
+    },
+    "place": {
+      "src": "photos/n422-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/last-boy-scout.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZT6clYFS-UnKxJNlF2jf7EKrDTpluStan4F9AOhohxr6SjHKYNODVHovgyY8_KFLy1k5bgGlVDNjAcFFj5rMomJi5-QDUYyIynCQkHcBwIhLiJ6jubpkF2z7OC40pVk_93fxAtWoHrufE/s1200/LA+2007+Pictures+427.jpg",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Los Angeles Stallions stadium — real filming site",
+      "caption": "Coliseum exterior · 2007",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "date": "2007",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "423": {
+    "screen": {
+      "src": "photos/n423-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/06/assault-on-precinct-13-1976.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinq82fAK1V-xlXEAoWyid5T-6waD61A-r3FXmBKVEkuTn7ICcvrJtlWO0dze6_8JBdW2jvHH-XgFOwOlWDhMvtafmxFikza6d1DS_B-EDHirnWo8TNvJCFNJu9zHOHoyJybz1i_i45owjZ/s1200/Police+1.jpg",
+      "credit": "Assault on Precinct 13 film frame; ItsFilmedThere",
+      "alt": "Anderson police station in Assault on Precinct 13",
+      "title": "Assault on Precinct 13",
+      "width": 1200,
+      "height": 524
+    },
+    "place": {
+      "src": "photos/n423-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/06/assault-on-precinct-13-1976.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieMsxNig4DKcxYXDULjvk6bc7bbuSV-BjG1Bv8fqlSTRU5H1TT-UmGiX4pK-B_P-HNJcNrXq06VDE4e4QdYEsB4lcpIv1or3K3LwyaMGuL0AaZYr7EelqmJ0T5cLpoFwl6FutiTUbk2KV3/s1200/028.JPG",
+      "credit": "Chas Demster / ItsFilmedThere",
+      "alt": "Anderson police station — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 1200,
+      "height": 896
+    }
+  },
+  "424": {
+    "screen": {
+      "src": "photos/n424-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/b76f5-holland-marchs-home.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Holland & Holly March’s home in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 326
+    },
+    "place": {
+      "src": "photos/n424-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/face2-holland-marchs-home2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Holland & Holly March’s home — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 700,
+      "height": 381
+    }
+  },
+  "425": {
+    "screen": {
+      "src": "photos/n425-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/b85f8-mrs-glenns.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Mrs. Glenn’s home in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 344
+    },
+    "place": {
+      "src": "photos/n425-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/e1861-mrs-glenns2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Mrs. Glenn’s home — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 700,
+      "height": 376
+    }
+  },
+  "426": {
+    "screen": {
+      "src": "photos/n426-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/d4e10-mistys-home.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Misty Mountains’s home in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 351
+    },
+    "place": {
+      "src": "photos/n426-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/913e6-mistys-home2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Misty Mountains’s home — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 700,
+      "height": 368
+    }
+  },
+  "427": {
+    "screen": {
+      "src": "photos/n427-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/79e43-bowling-alley.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Sunset Star Lanes in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 326
+    },
+    "place": {
+      "src": "photos/n427-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/5f8ab-bowling-alley2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Sunset Star Lanes — real filming site",
+      "caption": "Former bowling alley · undated",
+      "note": "Undated street-view image, before the bowling alley’s 2017 closure and later housing conversion; archival.",
+      "width": 700,
+      "height": 352
+    }
+  },
+  "428": {
+    "screen": {
+      "src": "photos/n428-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/c3b6e-burned-out.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Dean’s burned house in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 339
+    },
+    "place": {
+      "src": "photos/n428-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/0d18e-burned-out2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Dean’s burned house — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 700,
+      "height": 361
+    }
+  },
+  "429": {
+    "screen": {
+      "src": "photos/n429-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/7ccd5-healy-punches-guy.png?w=700",
+      "credit": "The Nice Guys film frame; Global Film Locations",
+      "alt": "Healy’s first house call in The Nice Guys",
+      "title": "The Nice Guys",
+      "width": 700,
+      "height": 323
+    },
+    "place": {
+      "src": "photos/n429-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2020/04/25/the-nice-guys-2016-film-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/5ce34-healy-punches-guy2.png?w=700",
+      "credit": "Google Street View / Global Film Locations",
+      "alt": "Healy’s first house call — real filming site",
+      "caption": "Site · undated",
+      "note": "Site photograph published with the cited location research. Capture date is not established.",
+      "width": 700,
+      "height": 376
+    }
+  },
+  "430": {
+    "screen": {
+      "src": "photos/n430-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx-_SoTgl2TTUx__ojP4_USHTWOGFT3oyD3rvMLynCetR082ump0bM1keYWZ2Uo5-47sRNeEBCujMGg-YFM7zD2m02rwPlKrRd1R6aBvWzKat1mBKfJY1x1Rb_OftU_hN4-9_vUEgnWto/s1600/HammersApt1_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Mike Hammer’s apartment in Kiss Me Deadly",
+      "width": 720,
+      "height": 434,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n430-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_j-2U6oPJUUYS9FeHI7x_qRIR4-ZLMPKxzNkG-_23LNyhyiSrJqI_fGRm7M2CUeJWsryti6-w65dFepBY4anb-cwUXbdL549MTE43KTxhXtdNP-5f-0xbM0j695P-6R3iiAs_RAmINO5J1rYf-NgH_eeIde3IAdcCgAiOM_2O90rBfYzbcb-hISHlohw/s1600/HammersApt1_Now720.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Mike Hammer’s apartment — real production site",
+      "width": 720,
+      "height": 435,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "431": {
+    "screen": {
+      "src": "photos/n431-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEielTXY3sDDE_B82QYzVPzxTbGYpttr5mzt7SADxEftO5lQ8lF0oq19u6I_eacrAzrpcsAWGDVeREHBcNWYkoPVFGTrvVCRAVpRiDAmz2AMnUq2ZPznE4IDLE6eojkXhU1LwUey3BRa_p8/s1600/NicksGarage_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Nick’s garage in Kiss Me Deadly",
+      "width": 720,
+      "height": 433,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n431-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.282368992762%2C34.074467982704%2C-118.27996899276201%2C34.076067982704&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Nick’s garage — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "The garage has been demolished; aerial of the former northwest corner site. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "432": {
+    "screen": {
+      "src": "photos/n432-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGvcLiFd7dwGpowdDFjg8AUMJ30T3n7Wrxm4UygqTZ-MiBm8T8qdS_xIojqE6bGh_poskrujykgAB4S9TfpoqIYGbqQoPQQIR88HHBD47pZHo_-D95trMCx52YQMetHdm0wU2LlwLhxI/s1600/RayDikersHouse_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Ray Diker’s home in Kiss Me Deadly",
+      "width": 720,
+      "height": 433,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n432-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghxc8JyfnUnZ6ttWKd9WsasmG4X-9ItlsaUf5AMl6JB_9YbMpPvMtTcClR466_6rCfl13EH3FwEjSRultjA7Y02eMiHNIOf2_FyyZY5P1pnTgmWqlrZrgTff7R8tfGERjI_-didvCqCgMMpoIDCVp58UFT0U5hyJFF6-QWgqBmdfIqs9OjpLnJg1yTwYI/s1600/RayDikersHouse_Now720.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Ray Diker’s home — real production site",
+      "width": 690,
+      "height": 416,
+      "caption": "Site",
+      "note": "Replacement site; the house was demolished in the 1960s."
+    }
+  },
+  "433": {
+    "screen": {
+      "src": "photos/n433-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ4UBUi9rORTVtQv2mKNPQZr55esE-2V2DGVlTJxpacAtlydzNKMQEA1cHkF8f4mDmBTaWpScCNvtRlW6qsBy229coDccCzbKGivJnSMW2qWfpR4qaEwlgEDNdnEdbVG_cH5yuk9vnj8c/s1600/EvellosHouse_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Carl Evello’s home in Kiss Me Deadly",
+      "width": 720,
+      "height": 430,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n433-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUSw_rXzuQLk1tVuInJitjB8B8K8zStD1bF_x_ntt5apimOtwXswZCzwU1NtB5s1ybzAOLeN5lPJx-o1nKXWa9eaBTGmSYmTA0FGY-5lWNj8Geg05OLD98k_TTEIXm-fozU1CPqZqTQ82GOjUUe1Ra66pfqPyysqTFTFf6AraDG87nrgrRgpvMClaAxc/s1600/EvellosHouse_Now720.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Carl Evello’s home — real production site",
+      "width": 720,
+      "height": 434,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "434": {
+    "screen": {
+      "src": "photos/n434-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKTjw6xipKiQczuz-42VlGML5z-pCyGVKfaSq69b1Wl8RtvmrjJNcpZaNKXKm3FsIcqb-6bHIJvHvdvo_v4ZY4hOpnLn3GqdX0J7pjnXW8YxAZWsdpTD7sSosUBnT6PtXL5gTPrh9AP4/s1600/TrivagosHouse_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Carmen Trivago’s boardinghouse in Kiss Me Deadly",
+      "width": 720,
+      "height": 431,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n434-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251334325703%2C34.051563887454%2C-118.248934325703%2C34.053163887454&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Carmen Trivago’s boardinghouse — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Aerial of the former Hill Crest Hotel site; the hotel and original Third Street steps were demolished. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "435": {
+    "screen": {
+      "src": "photos/n435-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5gDX4nNP22_91meEV__xYV7vNdomzyomlanYlg1YbSMJrCNX7TATrMyZJjym4Jh_2uP_CnM1kg9dFYIxxwjm7dwuVzM5qExhPpLSo31ziaAKoq0Y2jsMbLicO-htnWrfz7-_xWVk3kBQ/s1600/PigalleClub_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Club Pigalle in Kiss Me Deadly",
+      "width": 720,
+      "height": 431,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n435-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_APLhGRLhDCsHxfhtkU-37MtykH6SOC4a_wSKLVfWgOB1cxItYJSIVGjaI7151OuKFnlHuwTphpWA_cu2q_tN9BIalbcZo8lqcnQRn5b_CtV3OEVO4J382WJTZ6OmtBFVXAaVixFmLF3XpbtZU-uGzwktLqKITlQvNJSIHRPSWfDY1gYop3Ts2ceP8Xs/s1600/PigalleClub_Now720P.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Club Pigalle — real production site",
+      "width": 720,
+      "height": 434,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "436": {
+    "screen": {
+      "src": "photos/n436-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyj7d5qUI3FLurs2dYM-qEnDUYWtChzzXPPBDGhbXPDNV8K5hrGdhS4JZwpTBKbLooKw8zi4_fYAHSN5BGJHNGhmmO8LBNEOceqIdFFKD3tDTNrnsUchEpmLc6siIVxMeY8TNuj8RuDWs/s1600/HollywoodAthleticClub_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Hollywood Athletic Club locker in Kiss Me Deadly",
+      "width": 720,
+      "height": 436,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n436-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdilCsvEgYfUCln4-NUIE-HBuAEH0jt97M_9ecb9dHRjo1Nu8Tb0d2KvfQlKVB1qEge75tA2VVFLcb2TE_MBxj0BroJ35_n56eC_cG_H0KNuDkP8nRT5HFnR9sHAWFhBgk38heSc3nVQAfbbO-Y0_fVrjgzF8nTyE2KsLvcYChr7UW2G-S6IxSYt2MlwM/s1600/HollywoodAthleticClub_Now720.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Hollywood Athletic Club locker — real production site",
+      "width": 720,
+      "height": 434,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "437": {
+    "screen": {
+      "src": "photos/n437-screen.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjys1tmvMR7g51mw_lhFh9cLBHFrN7y4q0oWaWnUEfLMSADeartmJsiTwx2H0oWjogEmHM5uWDGxP8yImIc_BMNRvv43oWNFBZr0HXWFii1vjOtxJVvcQMjGgyF7CJRru8hoQDgwamkXAw/s1600/BeachHouse2_KissMeDeadly.jpg",
+      "credit": "Kiss Me Deadly film frame; Movie Tourist",
+      "alt": "Soberin’s beach house in Kiss Me Deadly",
+      "width": 720,
+      "height": 430,
+      "title": "Kiss Me Deadly"
+    },
+    "place": {
+      "src": "photos/n437-place.jpg",
+      "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHkYyLTA-K0JeRXFQXhXO_r8HqG6f5XSiizhRlgZ4VAbmWf2IQkohimBPpIzvykOf1CNt9MFVJ2zN17MpkyrF-vZ3Vepi64XWy-XqKFuZba27EQ_7z3Fwncl1hpB5DdI269wSUhqQpGERiWGjMu2a-4DDLgQqblbP8yxzQcckTlEL-zscAlln-8q5LDpw/s1600/BeachHouse2_Now720_1.jpg",
+      "credit": "Movie Tourist",
+      "alt": "Soberin’s beach house — real production site",
+      "width": 720,
+      "height": 434,
+      "caption": "Site",
+      "note": "Westward Beach comparison; the film house no longer stands."
+    }
+  },
+  "438": {
+    "screen": {
+      "src": "photos/n438-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMLNWPShloosHIoJ40pv3dWmDKp7CVglDrJ_Mk4Vac7uMhN5f5KO3-hDoCXTE61_v47XlZ3Q7TlEXOH8Pf5QC2BADojuEiE3L6XR5eXiBBCBCujJWlIkoWDUp2atj2NUnKDkICjw28D5U8/s1600/Mansion+1.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Strauss mansion / St. Audrey’s orphanage in Dead Again",
+      "width": 834,
+      "height": 469,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n438-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.171149603346%2C34.136552027063004%2C-118.168749603346%2C34.138152027063&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Strauss mansion / St. Audrey’s orphanage — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Photograph published by the cited location researcher; capture date unverified. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "439": {
+    "screen": {
+      "src": "photos/n439-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijLUYq6foEkZksgqsGuksD0zMQv8G0vTDfh8ZDjUeIuFJfPZVUlgtJVubF5_fnOFszuAZB_5dOcXd_opdJIlt2g0Nkv0hXgPW6vfRuMBn2tXQRN4ObVut0xR9LTzLZ8GAhYKHN6XGesSFD/s1600/House.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Mike Church’s home in Dead Again",
+      "width": 834,
+      "height": 468,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n439-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3sNWaVW3VNIFtK3j-rE8FRq6BGeZicLQTP1bURkWRQWbuXAAs12VzysYqTjac8ZGB2icSz0Mxcv7pu4dGxJXu-8qH_LoeLxPFGC46aR6VegIAeLkgOeEqFRIwlWFWiTO57Yf4HxLWyeQ8/s1600/DSCF2021.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Mike Church’s home — real production site",
+      "width": 1100,
+      "height": 821,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "440": {
+    "screen": {
+      "src": "photos/n440-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyxpqroNUa-skSJdUr2fW6VUg7BQhZQNxraxRp_PLWVxtEYYQyXHiQCqbsHbpWgAbraR5vD8dwFkHkvWHH5SxaPWkc3VnfQeW_Hk0_0tHWV7a_p5nUhyphenhyphenVwkF2Ipyb4lk8B4UpHyjXksyy/s1600/Antique.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Laughing Duke Fine Antiques in Dead Again",
+      "width": 841,
+      "height": 472,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n440-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRWh0UBffrfmEppV13MTR4gCzEHDQ_XJccfSe2k6QcD3nUA2l1jfTWq-9PIyUmH6JGlN8s6EogUYn8BP_Q13ISFrCtcMdcU-HLxLUJS0yq0qpkbuURFzcurEBK8GXQhViWJLBYQGvof4CZPV2Z4PHS8u2q_7Ipdzu3dgP3hehOnxLrvzww9CIO3nQVduw/s3089/A.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Laughing Duke Fine Antiques — real production site",
+      "width": 1100,
+      "height": 619,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "441": {
+    "screen": {
+      "src": "photos/n441-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG1V06ej5qmY342qZDAjsMbx6J8Kgh8B1qfbqWpYAeYOgjNIrUH9NRwSCzUzInMiusqKnr8c926WWzU_cEMDlFrWt7pTHXawlhYEY0reodWerWXhfUvaIHYUfJ69tdW6GpYuspLUNLmL9d/s1600/Syds.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Syd’s in Dead Again",
+      "width": 843,
+      "height": 408,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n441-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.318253009904%2C34.061236016985%2C-118.315853009904%2C34.062836016984996&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Syd’s — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "The nightclub was demolished; aerial of the replacement property. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "442": {
+    "screen": {
+      "src": "photos/n442-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfdNQ_HpZoCPX8l-CBWL_Cp7yIozn1HWSaM4K0xZ_nQuNuB4EvzHZOJrjRKRrYltPiZnMgw2yfUpSdE1wYdwL7_RQOZEXBsVetM6jz5QQcDwLHSJf7fbWqayxPJfJQ303WmOO5E2rC9GRd/s1600/Market.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Cozy Carlisle’s market in Dead Again",
+      "width": 841,
+      "height": 471,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n442-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiumxyeB__CNQSX72us2eYo9qRM285SkpTb9R95ufHFzdsWX0IEjub9f1xXy5lxHWPNoWtjxVyDnTooxpjqisCtxMNMq7GvWWRJIZP94ybvMXUNDT3TGS16b66jicWw-nHZrJ0CQQa9WkWg/s1600/DSCF1939.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Cozy Carlisle’s market — real production site",
+      "width": 1100,
+      "height": 821,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "443": {
+    "screen": {
+      "src": "photos/n443-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2lJxPCxcTHBlcllvY2Qqr3NU0CgTof0CorHC_IRnDbTHoD7Iv70ITzdKXYOm8sEP-ESw9aSwWDOvH0ovwNAyCWDXJLsyGw2sM_qUjnjJ-qqxyhA2KMXVSSQcEYll6FzizkgUQ-y1kCnIM/s1600/Bridge+1.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "Doug’s escape on Shakespeare Bridge in Dead Again",
+      "width": 834,
+      "height": 468,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n443-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh-vrBoU5iJ64oOEe1Dim7vVgbZZdYgleFDmSVtASpQ2jooOFto4gbi_-DtqLlatzucNBpzYYOugqEZU843Lo-r87rJrqdEsBH3mbiegYFKXYEdEP6KW5Q8LCSc-_p12Vo7A61MeK_TME/s1600/Los+Angeles+2011+446.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Doug’s escape on Shakespeare Bridge — real production site",
+      "width": 1100,
+      "height": 825,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "444": {
+    "screen": {
+      "src": "photos/n444-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7JHcBqZOSpPOKQuOdJHFd9H2V_U9JyQMqrdhtZnF4EcCV1cSPfjCOyLW6zFfmZ6O_ePepxHxa0N57u1yridKSEkuPGyvRwDc5Cm_Jmy1W8qZo88lSG8sdSx5WZNqc1I1ufxFSJ8XXvyq5/s1600/Retirement.JPG",
+      "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+      "alt": "The Meadows rest home in Dead Again",
+      "width": 843,
+      "height": 471,
+      "title": "Dead Again"
+    },
+    "place": {
+      "src": "photos/n444-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9P6zZbTOJaW18jldRRXjk9NaMP1BQGv_aMFbDkY2Gn9gxn7N9q6FupPN2-CuO_Pcp2qOeU4obmO0kFqPa5ykndloy9_z92n9zh8KsmevH5oyvHO_lFAOUxDCFOZGBYHU_m4lonwgKWcsHD-GJZ5zE4sWCIW9-Lof6snqaBLPzsRaWRViWqUUgiPvF_9w/s2819/A.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The Meadows rest home — real production site",
+      "width": 1100,
+      "height": 618,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "445": {
+    "screen": {
+      "src": "photos/n445-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7_MUO31HrSGdWNHNUCMSdvqJSrmc5KwAQi2DeFzesmgFvc3vcknaFtrlbpfMPQ4OcnPgDFr8auoBH6hyphenhyphenWdruXOewBP2iOSqFQ6cVs2Cc4N-rZi7UQA9ODXmUR8U1lKXPBdBrjySp_TxiN/s1600/His+House.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Jake Scully’s apartment in Body Double",
+      "width": 832,
+      "height": 454,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n445-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZwNVjztxK-0VXn_gemrsmuqsXSvSHXPfUZHzY0MSDastUmco23gHKUDgnmgZeYBI9MR_G5Qb0yJfQcUX6NwghI4QutS_6W_NXxAj8BRCw1P0T9VkYOydnMNeTBHZjZ9LrSvIPdl0R71E/s1600/IMG_20170908_140951+-+Copy.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Jake Scully’s apartment — real production site",
+      "width": 1100,
+      "height": 825,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "446": {
+    "screen": {
+      "src": "photos/n446-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc_g5EBM9XOEYgpZyQj8tbsBnKg4QYeyxuGP1mL4N1J9LT8YHwl7N8Ar50uv-AG9RfrY7KHnFilE45iUjDG614Xa53wAsJQvZr20QpIMTFTZakTxX9xFrYJxEP1mmTnBRe9zu19yA9OP-W/s1600/Chemisphere.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Jake’s Chemosphere house-sit in Body Double",
+      "width": 825,
+      "height": 455,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n446-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKxEZfZekz8FaTHYE_p8Br9wF9YlwAJCtg42aLTuftP_Mz4CfREL3YP0gVm0ri-il1-nATmK5hcGG5OdSBXF8T5pjdOztoU9KhIQjvo1D1VxDfwTtKuO8yIMcH3tO-TGcE4dxxjlrGxfQ/s1600/DSCF2222.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Jake’s Chemosphere house-sit — real production site",
+      "width": 1100,
+      "height": 822,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "447": {
+    "screen": {
+      "src": "photos/n447-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSpwJwvxCXKivPB0t47rmcmwqn1RSzaFrnHEiYeCc8bJOpKaeChtFbh6QoNDmiJoESi2qCwEjdVJSEaq9V0ikBGnKk8fUbm_a5UxaggDfQXeBoDciVN4uj8_27XP25KMIctceDfCoOmtyJ/s1600/Spied+House.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Gloria Revelle’s home in Body Double",
+      "width": 826,
+      "height": 448,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n447-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.378117568211%2C34.095894432244%2C-118.375717568211%2C34.097494432244&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Gloria Revelle’s home — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Aerial of the Miller Drive production house; its position differs from the inferred story home. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "448": {
+    "screen": {
+      "src": "photos/n448-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsTOoSyWgPfRlV4LKk21-q7t2452RZyj4sXJdjbUkWYJ9NbeaIE3BfzTGIFyHAvpc8SysbII0VWqdWhqd8k09grjmOrHIRoiK4Vi0thJ-hKZFqKBHeTih2typaomvvvG2d6Xpn77JTDRB/s1600/Mall+1.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Bellini’s at the Rodeo Collection in Body Double",
+      "width": 828,
+      "height": 451,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n448-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk-rpjUI_qWHXtDv7nXHD1bxnsdYt1_z6R0dogn34LMy5hGrv4CswEX84C2asJ3VyR8HYRy3Gxt15hoNKLQee8jYzEzntEv3ZL07DsogVaQdkoK9GImWvhOUyMeBW1dik9n3GjggH1jqk/s1600/DSCF6592+-+Copy.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Bellini’s at the Rodeo Collection — real production site",
+      "width": 1100,
+      "height": 822,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "449": {
+    "screen": {
+      "src": "photos/n449-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7qyq1eflSTu7XVR81AQNHRjGJZE9X6jQnqM28SFBx1qCLsN_O_-vRrsHbAC6NUt_gGtWy_QbOB-i-u_a0ne74m-ASpVYrKmrLfOZTC7R2PUao8Q28nmpAV7g74Go0EhCcsonWQ66_lXTj/s1600/Motel+1.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Beach Terrace Motel in Body Double",
+      "width": 826,
+      "height": 453,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n449-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghXQ7G8WPmepSin5mpbFfOcNZFDX2pjwZx9BoZFLAAAM6hf2fzI1F3Xv1b21mDzvXZbFa_rwuBaWLES_ZSTV1tljso5PLjCISktJWg_2Okcv0WxQggEvmoac3FS0TiBgsMsZeT8U1QhtlIypJeAvCkdyaOypf_fse1YZl-PXoLy0hBH4liLEocoTj1/s2039/A.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Beach Terrace Motel — real production site",
+      "width": 1100,
+      "height": 657,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "450": {
+    "screen": {
+      "src": "photos/n450-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-I2d5Y3i6_rinDE6jeatk3NBUQaMAFZmMD_c86iO6Z_rmD_nhYOCt_NMYk8J8n5YYGfdsZkfRCQuUnybvDfiCWew3ARJMr2B_YakK8-ywP4KrqHCWoN9TcqgxgU7CQBm5PpOjpIq6hyF6QszCBCYatGRggG4t4fOhsmLm-9N1sOqUOs4Th1_TX2fp/s761/Tunnel.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Jake’s tunnel pursuit in Body Double",
+      "width": 761,
+      "height": 452,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n450-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSMP-hrIwBwSbNUaysBGFH21g71n1m9yKmxbT_PiE3KSAETVYZHZqgFB4kHwTlech1flm2GCBjr0E6KKKp87tS_WvMlZW-32F9PfdNJAZuVe2BAvaqS-_oIESzSICIc0frIdTmjy7fOOtXW5x87YBBYEafQg6fw_aEeR2iikVAlK46fGpNfVWzQc1t/s868/LA%202007%20Pictures%20449.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Jake’s tunnel pursuit — real production site",
+      "width": 868,
+      "height": 651,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "451": {
+    "screen": {
+      "src": "photos/n451-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeGF3lwucT5Rl4qUth-RXst_csZbdc2EaxCuQeI8t8-3noA2FbdLgq6tP5uJbPrGurC7l53k5lYLfYoM4hbClKWY8GjA84mqcQLjECeQv_D-uav6p2IS2iUHm5CkhLyxS1lgy9zZKR59S4/s1600/Reservoir.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Holly’s burial attempt in Body Double",
+      "width": 827,
+      "height": 452,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n451-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSJ9NPByJAs2lrUfvN9qBeKKSWBBwJKMJQl2JrS3Q2n1zYyWSi3uZMaHdjP_u52G0mAyLeE3HPo7kJNOAJkmwQrqFRfGyUq2Hew7LHulPH9L_Jw9-a6EK4b46zsVHbM1dEZNxUXrDTrSHTEC1cLo2i5i6QUeTgVY86Z3s_VMpnpG5OVx_LJNJhOpB/s1400/B.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Holly’s burial attempt — Los Angeles Aqueduct Cascades",
+      "width": 1100,
+      "height": 786,
+      "caption": "Site",
+      "note": "Los Angeles Aqueduct Cascades comparison; the Mulholland gate is a separate production component, not a connecting route."
+    }
+  },
+  "452": {
+    "screen": {
+      "src": "photos/n452-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666476643523-RHJA8SUVHY4ZJU8J03WN/What+Ever+Happened+to+Baby+Jane+%281%29.jpg",
+      "credit": "What Ever Happened to Baby Jane? film frame; Set-Jetter / Robert Patterson",
+      "alt": "Jane & Blanche Hudson’s home in What Ever Happened to Baby Jane?",
+      "width": 797,
+      "height": 450,
+      "title": "What Ever Happened to Baby Jane?",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+    },
+    "place": {
+      "src": "photos/n452-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666476643523-RHJA8SUVHY4ZJU8J03WN/What+Ever+Happened+to+Baby+Jane+%281%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Jane & Blanche Hudson’s home — real production site",
+      "width": 797,
+      "height": 450,
+      "caption": "Site",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "453": {
+    "screen": {
+      "src": "photos/n453-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666477004614-I0FP5Z4IAU0MDABD485C/What+Ever+Happened+to+Baby+Jane+%2895%29.jpg",
+      "credit": "What Ever Happened to Baby Jane? film frame; Set-Jetter / Robert Patterson",
+      "alt": "Jane & Blanche at the beach in What Ever Happened to Baby Jane?",
+      "width": 797,
+      "height": 450,
+      "title": "What Ever Happened to Baby Jane?",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+    },
+    "place": {
+      "src": "photos/n453-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666477004614-I0FP5Z4IAU0MDABD485C/What+Ever+Happened+to+Baby+Jane+%2895%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Jane & Blanche at the beach — real production site",
+      "width": 797,
+      "height": 450,
+      "caption": "Site",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "454": {
+    "screen": {
+      "src": "photos/n454-screen.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/mildredpierce",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1678156884131-1YEWOTHO7NEGI4PU7PK7/Mildred+Pierce+%281%29.jpg",
+      "credit": "Mildred Pierce film frame; Set-Jetter / Robert Patterson",
+      "alt": "Mildred & Veda Pierce’s home in Mildred Pierce",
+      "width": 600,
+      "height": 450,
+      "title": "Mildred Pierce",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+    },
+    "place": {
+      "src": "photos/n454-place.jpg",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/mildredpierce",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1678156884131-1YEWOTHO7NEGI4PU7PK7/Mildred+Pierce+%281%29.jpg",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "Mildred & Veda Pierce’s home — real production site",
+      "width": 600,
+      "height": 450,
+      "caption": "Site",
+      "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "455": {
+    "screen": {
+      "src": "photos/n455-screen.jpg",
+      "sourceUrl": "https://www.filmnoirfoundation.org/dennismay.html",
+      "imageUrl": "https://www.filmnoirfoundation.org/img/fnf06/mildred_still.jpg",
+      "credit": "Mildred Pierce film frame; Film Noir Foundation",
+      "alt": "Monte Beragon’s beach house in Mildred Pierce",
+      "width": 246,
+      "height": 190,
+      "title": "Mildred Pierce"
+    },
+    "place": {
+      "src": "photos/n455-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.755434304072%2C34.027890040125%2C-118.753034304072%2C34.029490040125&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Monte Beragon’s beach house — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Former beach-house site; the screen house collapsed during a January 1983 storm. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "456": {
+    "screen": {
+      "src": "photos/n456-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq0w9SJYZ7oC9yRJDgRolQoLZyrhvgY-1YZnflzgb4xdJe0TBeFKyIDb4z-f6Rzbl8SaL_e7AUFwxgOlEXrARfuuNRZMIX55UwbvCqALsw1UCDSXHCM051x1YiF_5nPk17AuNu5Sv_L6_Z/s1600/Bar.JPG",
+      "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+      "alt": "Barney’s Beanery in Body Double",
+      "width": 831,
+      "height": 451,
+      "title": "Body Double"
+    },
+    "place": {
+      "src": "photos/n456-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvApqQeB3DzQn6Yj2ut6W5pbv1eCfMK6k4_erWAwnRn4VaM7LHdYGsRY7iPqCubXbiNEFMv_IFix4MpO8wEN5tKpVzQPYw1Xi_F-LQSPg5NylpCRptt0KN3DMnpuphU4JUBA7EJqIIxbVA/s1600/Los+Angeles+2011+255.jpg",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Barney’s Beanery — real production site",
+      "width": 1100,
+      "height": 825,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "457": {
+    "screen": {
+      "src": "photos/n457-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrqPbtfLQEUC7sDF5jAiGJqhmBM2yrkbQqwNi46MRkLDJ1Xmc7wqLUGjp24DpbueRBg_8pkyQHXY5MsuTgTd19dyzSziOsP9xBKfKu5LZhg2aFWd4t4Sxmt_K4X62gMREsXNztxasUosJH/s1600/Jim+1.jpg",
+      "credit": "Rebel Without a Cause film frame; Chas Demster / It’s Filmed There",
+      "alt": "Jim Stark’s home in Rebel Without a Cause",
+      "width": 1100,
+      "height": 431,
+      "title": "Rebel Without a Cause"
+    },
+    "place": {
+      "src": "photos/n457-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-rN47btVuuGOj1ts8l7O9DEpBwTYXE3zwKmPTlzGhTgWkqr40Ky-dFcgd6I3uiNSM3l2d7cyR4YC9iotASXEX4gzIFOYroDEJm1tjW1zmDkU9XJa55RwCqMgHkI5TsGPChW-SVApvtGw/s1600/IMG_4778.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Jim Stark’s home — real production site",
+      "width": 800,
+      "height": 506,
+      "caption": "Site",
+      "note": "The Citrus Avenue alley and Stark garage production exterior, not the story’s Angelo address."
+    }
+  },
+  "458": {
+    "screen": {
+      "src": "photos/n458-screen.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijP48b962LDir4gX5FS6DLDvIiHrc4Q15EXoWZbcXJq2LmAcc2-T6PEj5jnLczP_Syh2oEVmEVHlQrJ_GaMDdhibRuZAv2NQmq8hVMA0M4A9nCy0tyDi0XbvX-S5qBjpfDzowJ33sslVLV/s1600/Judy+2.jpg",
+      "credit": "Rebel Without a Cause film frame; Chas Demster / It’s Filmed There",
+      "alt": "Judy’s home in Rebel Without a Cause",
+      "width": 1100,
+      "height": 433,
+      "title": "Rebel Without a Cause"
+    },
+    "place": {
+      "src": "photos/n458-place.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp4BhqDjSbKnqYf4Xul43ypeJga_okyT7wTDqxrSdzp_WrSBXG8xidMs8MNyYTYRI7NibzHlHrxlwX1KRuaD8eEkEjNA9OlsJuqWW13LSDpt9-rxM7FCJWb8abVa_hITcs-BX9EiF8qwg/s1600/IMG_4780.JPG",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Judy’s home — real production site",
+      "width": 800,
+      "height": 502,
+      "caption": "Site",
+      "note": "Photograph published by the cited location researcher; capture date unverified."
+    }
+  },
+  "459": {
+    "screen": {
+      "src": "photos/n459-screen.jpg",
+      "sourceUrl": "https://silentlocations.com/2012/10/15/harold-lloyd-film-noir-criss-cross-and-the-hill-street-tunnel/",
+      "imageUrl": "https://silentlocations.com/wp-content/uploads/2012/10/p-10.jpg",
+      "credit": "Criss Cross film frame; John Bengtson",
+      "alt": "Steve Thompson’s family home in Criss Cross",
+      "width": 629,
+      "height": 469,
+      "title": "Criss Cross",
+      "note": "Film-frame portion separated from the historian’s side-by-side archival comparison. "
+    },
+    "place": {
+      "src": "photos/n459-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2469%2C34.0551%2C-118.2445%2C34.0567&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Steve Thompson’s family home — real production site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Film-frame portion separated from the historian’s side-by-side archival comparison. Aerial of former Court Hill; the house, tunnel and hill were removed during redevelopment. Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "460": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2008/10/179bc4fa-6ae4-46f8-bd65-36210bef2a0d.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2008/10/03/chers-house-from-clueless",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "",
+      "src": "photos/n460-screen.jpg",
+      "title": "Clueless",
+      "width": 766,
+      "height": 435
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2008/10/3502ab0b-7219-4620-a3c0-f5c973b36c36.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2008/10/03/chers-house-from-clueless",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "",
+      "caption": "Site · 2008",
+      "date": "2008",
+      "note": "Photograph published in October 2008; archival street view of the filming house gate.",
+      "src": "photos/n460-place.jpg",
+      "width": 800,
+      "height": 600
+    }
+  },
+  "461": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/08/69032cdb-ba53-4013-9422-820cd0293dda.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/08/04/the-clueless-guide-to-occidental-college",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "ScreenShot186",
+      "src": "photos/n461-screen.jpg",
+      "title": "Clueless",
+      "width": 1024,
+      "height": 584
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/08/8d69df81-e9fa-4699-be30-d7020a8d49dc.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/08/04/the-clueless-guide-to-occidental-college",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "Clueless Occidental College (6 of 22)",
+      "caption": "Site · 2014",
+      "date": "2014",
+      "note": "Campus photograph published in August 2014.",
+      "src": "photos/n461-place.jpg",
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "462": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4NlCyG8AxwGQuRmItmRpHEJoBVwhsxiFn_5zqRdxWf_Cw4iBJmtm44VtkqUVZD6NpyC10GDLsjDGWDQln_TpqVjDsXkaIFAMv51WTReLDf91LaGweBPWCxV2C9IEMaJoNZSCkKDzSvbY/s1600/Motel.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "title": "Pretty Woman",
+      "alt": "Vivian’s Las Palmas Hotel building in Pretty Woman.",
+      "src": "photos/n462-screen.jpg",
+      "width": 836,
+      "height": 455
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n462-place.jpg",
+      "caption": "Site · source photo",
+      "width": 900,
+      "height": 1200
+    }
+  },
+  "463": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAzTNaJzkM2fo5SoXFNNCvI8Pk79VlqzIZERR5Eu9fxGCEBfeVfL9Z-fDIxd7L1qaP1NidiuMNyaWOmUXUdQ4R8yIkh-0NrfJDbZFVam3rGAJIzUdPvF_bDWc0LtaQGt3YTfvlgxO5Cc/s1600/Regent+Beverly+Wilshire.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "alt": "Pretty Woman scene",
+      "src": "photos/n463-screen.jpg",
+      "title": "Pretty Woman",
+      "width": 836,
+      "height": 453
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman2.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n463-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "464": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJ3YA7Mki64ZZ9_G4AgBlbfi2YpaX7StRze-yY0J5oW90qwZ5-rr_fdP7sXSBJ3mCbJztU_x6VScA0118On4qfAtiHedTgJfVUkY9inWaDsn2elgzlKh4DTXvJB81LhpXFx22qlW-XWi65vEK-hkU6f1jU6LCouyVqZ2YNjs6Ex2BQ-7DWMZ75DwrHXE/s1600/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "alt": "Pretty Woman scene",
+      "src": "photos/n464-screen.jpg",
+      "title": "Pretty Woman",
+      "width": 1600,
+      "height": 856
+    },
+    "place": {
+      "imageUrl": "https://static.wixstatic.com/media/526d92_38ed8ce3625f4630b3b52c91eb31fb28~mv2.png",
+      "sourceUrl": "https://www.cicadarestaurant.com/",
+      "credit": "Cicada Restaurant & Lounge",
+      "alt": "The real entrance to Cicada in the Oviatt Building.",
+      "caption": "Entrance · venue photo",
+      "note": "Venue’s current website photograph; capture date is not supplied.",
+      "src": "photos/n464-place.jpg",
+      "width": 1600,
+      "height": 626
+    }
+  },
+  "465": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlDHFh8PXoPalz2iKAvYXk4bhQByfghaVWqSS3QnxWwEVdTVfDk77N1YdJX5a2pzB6dq7YCL0y78ZLqFkj80aRbpIlT3Hg2PWl9T2ZkIX_9SyHRoVnRYgcukddREJ-MN40DpgJn-MJwgc/s1600/C.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "alt": "Pretty Woman scene",
+      "src": "photos/n465-screen.jpg",
+      "title": "Pretty Woman",
+      "width": 1600,
+      "height": 851
+    },
+    "place": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWiMJV834Fn-BJnz2Ow7vE5iTKJDARra9NOJk2epMr2yMQygwY_2hdRBPEBXn8TjwbtkwECbd0hWrgatmpOJZo5Uh_yUuojjtG8JvtM3Z-2xbPCN5LXo3L5WeC8uXolEwhCtXAjDUc1j4/s1600/Z.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n465-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "466": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkeSxhvtZ39jxeasAJcpNfKWat8U7-j8TZ9ToQEDDL7ETne-eZsIt_gXnjSukNUC65ph3_NHisKJbgI0wHFh-wAkb4EBDCMDOK0dn5S53dsUBKpLiRjnzQmOIqpvzjIrx7edBxojyLd2w/s1600/Building.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "alt": "Pretty Woman scene",
+      "src": "photos/n466-screen.jpg",
+      "title": "Pretty Woman",
+      "width": 837,
+      "height": 452
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/03/prettywoman3.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/03/18/pretty-woman-1990/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n466-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "467": {
+    "screen": {
+      "imageUrl": "https://clip.cafe/img800/that-girl-paul-seriously.jpg",
+      "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/that-girl-paul-seriously/",
+      "credit": "(500) Days of Summer film frame; Clip.Cafe",
+      "alt": "That girl Paul seriouslyDid you bang her NoWhat hum job Hand job Man noNo jobs I'm still unemployed We We kissed - 500 Days of Summer",
+      "caption": "Apartment interior",
+      "src": "photos/n467-screen.jpg",
+      "title": "(500) Days of Summer",
+      "width": 800,
+      "height": 334
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer11.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "caption": "Exterior site",
+      "src": "photos/n467-place.jpg",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "468": {
+    "screen": {
+      "imageUrl": "https://clip.cafe/clipimg/tom-walked-her-apartment-s1.jpg",
+      "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/tom-walked-her-apartment-s1/",
+      "credit": "(500) Days of Summer film frame; Clip.Cafe",
+      "title": "(500) Days of Summer",
+      "alt": "Tom approaches Summer’s apartment for her party.",
+      "src": "photos/n468-screen.jpg",
+      "width": 1600,
+      "height": 667
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer9.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n468-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "469": {
+    "screen": {
+      "imageUrl": "https://clip.cafe/img800/this-is-my-favorite-spot.jpg",
+      "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-is-my-favorite-spot/",
+      "credit": "(500) Days of Summer film frame; Clip.Cafe",
+      "alt": "This is my favorite spot. - 500 Days of Summer",
+      "src": "photos/n469-screen.jpg",
+      "title": "(500) Days of Summer",
+      "width": 800,
+      "height": 334
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer10-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "caption": "Former park · source photo",
+      "src": "photos/n469-place.jpg",
+      "width": 1200,
+      "height": 891
+    }
+  },
+  "470": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/b7e9a918-330a-44fe-aa7d-5b68592d23cb.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/01/03/redwood-bar-grill-from-bridesmaids",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "ScreenShot6767",
+      "src": "photos/n470-screen.jpg",
+      "title": "(500) Days of Summer",
+      "width": 1017,
+      "height": 768
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/01/a86074b1-2252-4aab-820c-d8fc4c5e9fef.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/01/03/redwood-bar-grill-from-bridesmaids",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "Redwood Bar & Grill Bridesmaids (10 of 25)",
+      "caption": "Site · 2013",
+      "date": "2013",
+      "note": "Interior photograph published in January 2013.",
+      "src": "photos/n470-place.jpg",
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "471": {
+    "screen": {
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+      "credit": "Pretty Woman film frame; It’s Filmed There",
+      "alt": "Pretty Woman scene",
+      "src": "photos/n471-screen.jpg",
+      "title": "Pretty Woman",
+      "width": 835,
+      "height": 454
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n471-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "472": {
+    "screen": {
+      "imageUrl": "https://clip.cafe/img800/this-friday-all-can-karaoke-at-the-mill-no.jpg",
+      "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-friday-all-can-karaoke-at-the-mill-no/",
+      "credit": "(500) Days of Summer film frame; Clip.Cafe",
+      "alt": "This Friday all you can karaoke at the Mill NoCome on They're not gonna let you back in there after last timeAh I wasn't that badDude you threw up on the stage you tried to fight the bartenderand you threatened to burn the place downBut I didn't burn the - 500 Days of Summer",
+      "src": "photos/n472-screen.jpg",
+      "title": "(500) Days of Summer",
+      "width": 800,
+      "height": 334
+    },
+    "place": {
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.255624766586%2C34.041769471798%2C-118.25342476658601%2C34.043069471798&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "The Fenton Building block in downtown Los Angeles",
+      "src": "photos/n472-place.jpg",
+      "caption": "Workplace block · aerial",
+      "note": "Active-basemap aerial of the Fenton block; capture date is not supplied.",
+      "width": 1100,
+      "height": 650
+    }
+  },
+  "473": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/06/416d5be7-af76-4888-b9fe-b2ea2fbc9a38.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2010/06/15/amandas-house-from-the-holiday",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "ScreenShot4724",
+      "src": "photos/n473-screen.jpg",
+      "title": "The Holiday",
+      "width": 794,
+      "height": 600
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/06/e03c886e-a5a3-4fe7-aa83-f08c3cc1d6a4.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2010/06/15/amandas-house-from-the-holiday",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "IMG_0522",
+      "caption": "Site · 2010",
+      "date": "2010",
+      "note": "Exterior photograph published in June 2010.",
+      "src": "photos/n473-place.jpg",
+      "width": 800,
+      "height": 600
+    }
+  },
+  "474": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/12/0eafea21-6591-4eff-8c38-6720eea05142.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2011/12/22/arthur-abbotts-house-from-the-holiday",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "ScreenShot2554",
+      "src": "photos/n474-screen.jpg",
+      "title": "The Holiday",
+      "width": 1015,
+      "height": 768
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/12/388dd649-fbfd-4c32-9c06-c344ffdaa828.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2011/12/22/arthur-abbotts-house-from-the-holiday",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "P1020338",
+      "caption": "Site · 2011",
+      "date": "2011",
+      "note": "Exterior photograph published in December 2011.",
+      "src": "photos/n474-place.jpg",
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "475": {
+    "screen": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/12/cfca4acb-7d82-48ce-972e-6eb88ada5a28.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/12/23/blockbuster-video-from-the-holiday",
+      "credit": "Film frame; I Am Not A Stalker",
+      "alt": "ScreenShot837",
+      "src": "photos/n475-screen.jpg",
+      "title": "The Holiday",
+      "width": 785,
+      "height": 438
+    },
+    "place": {
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/12/3dd2f6a1-a0c3-4ea7-a78f-3a541485406e.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/12/23/blockbuster-video-from-the-holiday",
+      "credit": "Lindsay Blake / I Am Not A Stalker",
+      "alt": "The Holiday Blockbuster Video (3 of 13)",
+      "caption": "Former store · 2014",
+      "date": "2014",
+      "note": "The former video store had become a bank when this December 2014 photograph was published.",
+      "src": "photos/n475-place.jpg",
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "476": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-109.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-109.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n476-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://www.seeingstars.net/Locations/LaLaLand/WillisApartments.jpg",
+      "sourceUrl": "https://www.seeingstars.net/Locations/LaLaLand/9-SebsApartment.shtml",
+      "credit": "Willis Avenue Apartments; Seeing Stars",
+      "alt": "The real courtyard at Willis Avenue Apartments",
+      "caption": "Courtyard · source photo",
+      "note": "Apartment-property photograph reproduced by the location researcher; capture date is not supplied.",
+      "src": "photos/n476-place.jpg",
+      "width": 409,
+      "height": 476
+    }
+  },
+  "477": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-169.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-169.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n477-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland3.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n477-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "478": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-217.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-217.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n478-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland30-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n478-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "479": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-361.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-361.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n479-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n479-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "480": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-343.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-343.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n480-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland32.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n480-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "481": {
+    "screen": {
+      "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-655.jpg",
+      "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-655.htm",
+      "credit": "La La Land film frame; Screenmusings",
+      "alt": "La La Land scene",
+      "src": "photos/n481-screen.jpg",
+      "title": "La La Land",
+      "width": 1600,
+      "height": 623
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland21.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "caption": "Exterior site",
+      "src": "photos/n481-place.jpg",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "482": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19534.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "title": "Licorice Pizza",
+      "alt": "Gary takes a telephone call at home, beside the kitchen.",
+      "note": "Matched to the film still in production designer Florencia Martin’s ADG submission, page8.",
+      "src": "photos/n482-screen.jpg",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza41.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n482-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 881
+    }
+  },
+  "483": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19593.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "alt": "Licorice Pizza scene",
+      "src": "photos/n483-screen.jpg",
+      "title": "Licorice Pizza",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza28.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n483-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 882
+    }
+  },
+  "484": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19598.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "alt": "Licorice Pizza scene",
+      "src": "photos/n484-screen.jpg",
+      "title": "Licorice Pizza",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza2.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n484-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "485": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19726.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "alt": "Licorice Pizza scene",
+      "src": "photos/n485-screen.jpg",
+      "title": "Licorice Pizza",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza16.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n485-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "486": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19657.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "alt": "Licorice Pizza scene",
+      "src": "photos/n486-screen.jpg",
+      "title": "Licorice Pizza",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza24-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n486-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 894
+    }
+  },
+  "487": {
+    "screen": {
+      "imageUrl": "https://shot.cafe/images/o/licorice-pizza-2021-279-19495.jpg",
+      "sourceUrl": "https://shot.cafe/movie/licorice-pizza-2021-279",
+      "credit": "Licorice Pizza film frame; SHOT.CAFE",
+      "alt": "Licorice Pizza scene",
+      "src": "photos/n487-screen.jpg",
+      "title": "Licorice Pizza",
+      "width": 1600,
+      "height": 672
+    },
+    "place": {
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/01/licoricepizza45-1.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/01/15/licorice-pizza-2021/",
+      "credit": "Film Oblivion",
+      "alt": "Real filming site",
+      "note": "Source photograph; capture date is not supplied.",
+      "src": "photos/n487-place.jpg",
+      "caption": "Site · source photo",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "488": {
+    "screen": {
+      "src": "photos/n488-screen.jpg",
+      "sourceUrl": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters",
+      "imageUrl": "https://pub-978de2a118d0436ba7a246005ab7a25a.r2.dev/images/pbc_1942858786/6r82uh6p1w76j7e/2893a439087459368aea807a96083ec94e2838d2f00b5e4051b86c7f2f1368b5_qxpy6uuls2.webp",
+      "credit": "Baywatch / NBC / syndicated television television frame; Sir Storia gallery (original photographer not identified)",
+      "alt": "Summer Quinn and C. J. Parker outside the Los Angeles County Baywatch lifeguard headquarters.",
+      "width": 1100,
+      "height": 825,
+      "title": "Baywatch"
+    },
+    "place": {
+      "src": "photos/n488-place.jpg",
+      "sourceUrl": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters",
+      "imageUrl": "https://pub-978de2a118d0436ba7a246005ab7a25a.r2.dev/images/pbc_1942858786/6r82uh6p1w76j7e/2d1ea1f1a7c89653_48iasnbuvf.webp",
+      "credit": "Site photograph; Sir Storia gallery (original photographer not identified)",
+      "alt": "Real filming site for Baywatch headquarters.",
+      "width": 1100,
+      "height": 636,
+      "caption": "Site · undated",
+      "note": "Source gallery does not identify a capture date or the original photographer. This is the original Will Rogers headquarters, not the Venice reboot site."
+    }
+  },
+  "489": {
+    "screen": {
+      "src": "photos/n489-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/09/03/mitchs-house-from-baywatch",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/09/59b4b9f3-db35-461c-ab59-4ae2a7b597c8.jpg",
+      "credit": "Baywatch / NBC / syndicated television television frame; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Mitch & Hobie Buchannon’s home on screen.",
+      "width": 636,
+      "height": 352,
+      "title": "Baywatch"
+    },
+    "place": {
+      "src": "photos/n489-place.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2013/09/03/mitchs-house-from-baywatch",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/09/04c45f5b-5f2f-43e9-84f2-4f3497e7c9df.jpg",
+      "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Real filming site for Mitch & Hobie Buchannon’s home.",
+      "width": 1024,
+      "height": 768,
+      "caption": "Site · 2012 archive",
+      "note": "The source describes photographing the canal house during a July 2012 visit; the image is archival."
+    }
+  },
+  "490": {
+    "screen": {
+      "src": "photos/n490-screen.jpg",
+      "sourceUrl": "https://rockfordfilesfilminglocations.blogspot.com/2013/08/what-was-locations-of-jim-rockfords.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggYuQNVIOg3pQD1ummLxbbF_vCuJD41-7CdapSNUkG9MDxSsnPHifQjKXVio_aNOnfdWQZd2QkAFWKuPaoq7UpwEyIMsFOb8n_HWBQZe9_3jAHcTm81iGjjJemKE_cE2sJmWbTrvvaLB-n/s400/images+(3).jpg",
+      "credit": "Universal Television / NBC television frame; Rockford Files Filming Locations",
+      "alt": "Jim Rockford’s trailer on screen.",
+      "width": 240,
+      "height": 183,
+      "title": "The Rockford Files"
+    },
+    "place": {
+      "src": "photos/n490-place.jpg",
+      "sourceUrl": "https://rockfordfilesfilminglocations.blogspot.com/2013/08/what-was-locations-of-jim-rockfords.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf7riLfy-JIWbYcTNEBXE3dvGWBDPLBrCZFk6Pn_2NKMYb_nceAz98QIbEauf3GjsQ3fMCkNUfLqqCan_RQKAFHIhtD113VoPFL9x4C-EOUYHwUIyHfNr1ASeIqBrojHbDWz9arl2lW9Np/s1600/889Capture.JPG",
+      "credit": "Site photograph; Rockford Files Filming Locations",
+      "alt": "Real filming site for Jim Rockford’s trailer.",
+      "width": 644,
+      "height": 496,
+      "caption": "Trailer site · undated",
+      "note": "The trailer was a production prop and is absent. The source’s site photo has no verified capture date."
+    }
+  },
+  "491": {
+    "screen": {
+      "src": "photos/n491-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2012/04/17/the-new-girl-apartment-building",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/04/02a2436b-bb67-46ab-b53c-f33dd2f6fd04.jpg",
+      "credit": "20th Century Fox Television / Fox television frame; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Apartment 4D on screen.",
+      "width": 1021,
+      "height": 768,
+      "title": "New Girl"
+    },
+    "place": {
+      "src": "photos/n491-place.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2012/04/17/the-new-girl-apartment-building",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/04/d0470a15-9938-47e0-a554-fc0df7e1b921.jpg",
+      "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Real filming site for Apartment 4D.",
+      "width": 1024,
+      "height": 768,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "492": {
+    "screen": {
+      "src": "photos/n492-screen.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_DunphyHouse2.jpg",
+      "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+      "alt": "The Dunphy family home on screen.",
+      "width": 720,
+      "height": 404,
+      "title": "Modern Family"
+    },
+    "place": {
+      "src": "photos/n492-place.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_DunphyHouse.jpg",
+      "credit": "Site photograph; Brands & Films / Erik",
+      "alt": "Real filming site for The Dunphy family home.",
+      "width": 550,
+      "height": 350,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "493": {
+    "screen": {
+      "src": "photos/n493-screen.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_JayAndGloria2.jpg",
+      "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+      "alt": "Jay & Gloria’s home on screen.",
+      "width": 720,
+      "height": 404,
+      "title": "Modern Family"
+    },
+    "place": {
+      "src": "photos/n493-place.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_JayAndGloria.jpg",
+      "credit": "Site photograph; Brands & Films / Erik",
+      "alt": "Real filming site for Jay & Gloria’s home.",
+      "width": 581,
+      "height": 394,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "494": {
+    "screen": {
+      "src": "photos/n494-screen.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_CamAndMitch2.jpg",
+      "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+      "alt": "Mitchell & Cameron’s home on screen.",
+      "width": 720,
+      "height": 404,
+      "title": "Modern Family"
+    },
+    "place": {
+      "src": "photos/n494-place.jpg",
+      "sourceUrl": "https://brandsandfilms.com/?p=8983",
+      "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_CamAndMitch.jpg",
+      "credit": "Site photograph; Brands & Films / Erik",
+      "alt": "Real filming site for Mitchell & Cameron’s home.",
+      "width": 660,
+      "height": 415,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "495": {
+    "screen": {
+      "src": "photos/n495-screen.jpg",
+      "sourceUrl": "https://hookedonhouses.net/2020/09/15/fresh-prince-of-bel-air-house-brentwood/",
+      "imageUrl": "https://hookedonhouses.net/wp-content/uploads/2020/09/exterior-of-Fresh-Prince-of-Bel-Air-house-1.jpg",
+      "credit": "NBC Productions / Warner Bros. Television television frame; Hooked on Houses (original photographer not identified)",
+      "alt": "The Banks family home on screen.",
+      "width": 800,
+      "height": 500,
+      "title": "The Fresh Prince of Bel-Air"
+    },
+    "place": {
+      "src": "photos/n495-place.jpg",
+      "sourceUrl": "https://hookedonhouses.net/2020/09/15/fresh-prince-of-bel-air-house-brentwood/",
+      "imageUrl": "https://hookedonhouses.net/wp-content/uploads/2020/09/Fresh-Prince-House-251-N.-Bristol-Ave-Brentwood.jpg",
+      "credit": "Site photograph; Hooked on Houses (original photographer not identified)",
+      "alt": "Real filming site for The Banks family home.",
+      "width": 800,
+      "height": 602,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "496": {
+    "screen": {
+      "src": "photos/n496-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2010/10/29/the-fisher-sons-funeral-home-from-six-feet-under",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/10/3e12c093-7fb7-4e2c-895b-2682f254cd69.jpg",
+      "credit": "HBO television frame; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Fisher & Sons Funeral Home on screen.",
+      "width": 765,
+      "height": 600,
+      "title": "Six Feet Under"
+    },
+    "place": {
+      "src": "photos/n496-place.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2010/10/29/the-fisher-sons-funeral-home-from-six-feet-under",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/10/d31e5fd9-24f9-4a8f-9351-f778832e6e59.jpg",
+      "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Real filming site for Fisher & Sons Funeral Home.",
+      "width": 640,
+      "height": 427,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "497": {
+    "screen": {
+      "src": "photos/n497-screen.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1NwDHTdfPmQ8aVqZ37TxLBCbyh-pti5EB0qzvmljbXDYtrqZdh5iWzjtVjekR4QXrTGZQ_e5u5vREvE9GoxzrThKcGaOcc2fLdZiagofMXj3venbhykg5l8YS3EkN6kshAEHjdVuyB-5Kjau9CmlZis7-hiouAuUlp2puw17fBoWEcFKYZuM8GVF8hg/w400-h250/Screen%20Shot%202022-09-10%20at%209.38.24%20AM.png",
+      "credit": "Spelling Television / Fox television frame; Reel to Real Locations / btkphotos",
+      "alt": "Casa Walsh on screen.",
+      "width": 400,
+      "height": 249,
+      "title": "Beverly Hills, 90210"
+    },
+    "place": {
+      "src": "photos/n497-place.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg37qoToNXtgfSY6j6plu8MXZm3TUSXLejIorNiNlcU-9VoavRDBiwsPlVrrGt22B8LTU4LgrkR5gEs86NPiPXDEQuXbCmX4U77hG5NEkqbbvRGiLGNTViDUXD7e9LGh_XvRI4M7-9X8qe1lAxkcvB8cCzs2Gim3ZLpipynCvgC0T2g0uNzbJ-8VWucQbU5/w400-h256/IMG_0941.jpg",
+      "credit": "Site photograph; Reel to Real Locations / btkphotos",
+      "alt": "Real filming site for Casa Walsh.",
+      "width": 400,
+      "height": 256,
+      "caption": "Site · archive",
+      "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+    }
+  },
+  "498": {
+    "screen": {
+      "src": "photos/n498-screen.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRGSj4csk6p24Pujv9NbUcSV_EjCFkKJOthvcM0VfNCqLNhVIa2ubDDxE0DM-fJbU0D3FXb9HwP4MLxpOqx4Do4xnwaxQX-PQw7wdr0C5kq9U7facXiDG2K5Zevk6n_vrGSj525keTXvka1WkQnwAsETwDANpHzamkfsHBmL_ue8CkmPXi1-6G-2DYAQ/w400-h284/Screen%20Shot%202022-04-10%20at%2011.36.02%20AM.png",
+      "credit": "Spelling Television / Fox television frame; Reel to Real Locations / btkphotos",
+      "alt": "The Peach Pit on screen.",
+      "width": 400,
+      "height": 284,
+      "title": "Beverly Hills, 90210"
+    },
+    "place": {
+      "src": "photos/n498-place.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm1-mPEDP__UxBndV_l8Jj4bskVcdHT7yhZqHIoKI6hCt5kJyoVTnqInWUKAVWuDF19N9WfUlAiISk7m8_uFrcw5pPBijAGV8sW1gEL7RYHTJGlIEGI2xQ9BjEQSBSHB9pRVmZyljABgbDiSiiSOAv49KOHKXCIbRxwc2zWrzkCqnAfOab6vodRd7mWA/w400-h288/IMG_0964.jpg",
+      "credit": "Site photograph; Reel to Real Locations / btkphotos",
+      "alt": "Real filming site for The Peach Pit.",
+      "width": 400,
+      "height": 288,
+      "caption": "Former diner · archive",
+      "note": "The 2021 section of the source shows the former diner frontage after later restaurant uses; it is not an operating Peach Pit."
+    }
+  },
+  "499": {
+    "screen": {
+      "src": "photos/n499-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2012/05/21/the-prince-restaurant-from-new-girl/",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/05/7575883c-c5b1-491c-ab14-e9ab9aba862d.jpg",
+      "credit": "20th Century Fox Television / Fox television frame; Lindsay Blake / I Am Not A Stalker",
+      "alt": "The Griffin on screen.",
+      "width": 1023,
+      "height": 768,
+      "title": "New Girl"
+    },
+    "place": {
+      "src": "photos/n499-place.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2012/05/21/the-prince-restaurant-from-new-girl/",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/05/200e0ddd-dd6b-4679-ac07-84464acfccd3.jpg",
+      "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+      "alt": "Real filming site for The Griffin.",
+      "width": 900,
+      "height": 675,
+      "caption": "Prince interior · archive",
+      "note": "This photo shows The Prince, 3198 West 7th Street, the first-season interior component. The marker uses the Griffin exterior. Later interiors were a studio recreation."
+    }
   }
 }

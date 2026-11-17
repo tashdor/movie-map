@@ -1,0 +1,1548 @@
+{
+  "places": [
+    {
+      "id": 488,
+      "name": "Baywatch headquarters",
+      "short": "Baywatch headquarters",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout"
+      ],
+      "address": "Will Rogers State Beach Lifeguard Headquarters, 15100 Ocean Front Walk, Pacific Palisades, CA",
+      "area": "Pacific Palisades",
+      "coordinates": [
+        -118.527609,
+        34.031749
+      ],
+      "productionCoordinates": [
+        -118.527609,
+        34.031749
+      ],
+      "precision": "named_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Will Rogers State Beach · lifeguard headquarters",
+        "precision": "named_site",
+        "reason": "Alexandra Paul identifies the real Will Rogers lifeguard station and the office/deck built above it. The 1999 report confirms this was the California headquarters before the move to Hawaii. The 2026 Venice reboot headquarters is a different location.",
+        "sourceIds": [
+          "x2tv_baycast",
+          "x2tv_bay1999",
+          "x2tv_bayhq"
+        ]
+      },
+      "people": [
+        "Mitch Buchannon",
+        "Stephanie Holden",
+        "C. J. Parker",
+        "Caroline Holden",
+        "Cody Madison"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Baywatch",
+          "medium": "television",
+          "release_year": 1989,
+          "story_role": "Lifeguard headquarters and beach",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_bayhq",
+            "x2tv_baycast",
+            "x2tv_bay1999"
+          ],
+          "story_time": {
+            "year": 1992,
+            "end_year": 1999,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate 1990s California-era period, anchored by Alexandra Paul’s original-series work and contemporary July 1999 reporting; not the Hawaii seasons or the 2026 reboot.",
+            "source_ids": [
+              "x2tv_bayhq",
+              "x2tv_baycast",
+              "x2tv_bay1999"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mitch Buchannon",
+              "relationship": "works here"
+            },
+            {
+              "name": "Stephanie Holden",
+              "relationship": "works here"
+            },
+            {
+              "name": "C. J. Parker",
+              "relationship": "works here"
+            },
+            {
+              "name": "Caroline Holden",
+              "relationship": "works here"
+            },
+            {
+              "name": "Cody Madison",
+              "relationship": "works here"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n488-screen.jpg",
+          "sourceUrl": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters",
+          "imageUrl": "https://pub-978de2a118d0436ba7a246005ab7a25a.r2.dev/images/pbc_1942858786/6r82uh6p1w76j7e/2893a439087459368aea807a96083ec94e2838d2f00b5e4051b86c7f2f1368b5_qxpy6uuls2.webp",
+          "credit": "Baywatch / NBC / syndicated television television frame; Sir Storia gallery (original photographer not identified)",
+          "alt": "Summer Quinn and C. J. Parker outside the Los Angeles County Baywatch lifeguard headquarters.",
+          "width": 1100,
+          "height": 825,
+          "title": "Baywatch"
+        },
+        "place": {
+          "src": "photos/n488-place.jpg",
+          "sourceUrl": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters",
+          "imageUrl": "https://pub-978de2a118d0436ba7a246005ab7a25a.r2.dev/images/pbc_1942858786/6r82uh6p1w76j7e/2d1ea1f1a7c89653_48iasnbuvf.webp",
+          "credit": "Site photograph; Sir Storia gallery (original photographer not identified)",
+          "alt": "Real filming site for Baywatch headquarters.",
+          "width": 1100,
+          "height": 636,
+          "caption": "Site · undated",
+          "note": "Source gallery does not identify a capture date or the original photographer. This is the original Will Rogers headquarters, not the Venice reboot site."
+        }
+      }
+    },
+    {
+      "id": 489,
+      "name": "Mitch & Hobie Buchannon’s home",
+      "short": "Mitch & Hobie Buchannon’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "469 Sherman Canal, Venice, CA",
+      "area": "Venice",
+      "coordinates": [
+        -118.463560966059,
+        33.984559990458
+      ],
+      "productionCoordinates": [
+        -118.463560966059,
+        33.984559990458
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Venice Canals · approximate",
+        "precision": "area_inferred",
+        "reason": "The recurring exterior is 469 Sherman Canal. The character reference gives a fictional Talanca address in Venice, so the canal-side filming house supplies an approximate display point rather than a verified canonical parcel. Interiors were built on a stage.",
+        "sourceIds": [
+          "x2tv_mitch",
+          "x2tv_baymitch"
+        ]
+      },
+      "people": [
+        "Mitch Buchannon",
+        "Hobie Buchannon"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Baywatch",
+          "medium": "television",
+          "release_year": 1989,
+          "story_role": "Mitch and Hobie’s canal-side home",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_mitch",
+            "x2tv_baymitch"
+          ],
+          "story_time": {
+            "year": 1989,
+            "end_year": 1999,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_mitch",
+              "x2tv_baymitch"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mitch Buchannon",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Hobie Buchannon",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n489-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/09/03/mitchs-house-from-baywatch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/09/59b4b9f3-db35-461c-ab59-4ae2a7b597c8.jpg",
+          "credit": "Baywatch / NBC / syndicated television television frame; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Mitch & Hobie Buchannon’s home on screen.",
+          "width": 636,
+          "height": 352,
+          "title": "Baywatch"
+        },
+        "place": {
+          "src": "photos/n489-place.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2013/09/03/mitchs-house-from-baywatch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2013/09/04c45f5b-5f2f-43e9-84f2-4f3497e7c9df.jpg",
+          "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Real filming site for Mitch & Hobie Buchannon’s home.",
+          "width": 1024,
+          "height": 768,
+          "caption": "Site · 2012 archive",
+          "note": "The source describes photographing the canal house during a July 2012 visit; the image is archival."
+        }
+      }
+    },
+    {
+      "id": 490,
+      "name": "Jim Rockford’s trailer",
+      "short": "Jim Rockford’s trailer",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "28128 Pacific Coast Highway, Malibu, CA",
+      "area": "Malibu",
+      "coordinates": [
+        -118.7876,
+        34.0207
+      ],
+      "productionCoordinates": [
+        -118.7876,
+        34.0207
+      ],
+      "precision": "site_area",
+      "placement": {
+        "kind": "screen",
+        "address": "29 Cove Road, Malibu · Paradise Cove",
+        "precision": "site_area",
+        "reason": "The recurring Paradise Cove lot plays Rockford’s Malibu home/office at fictional 29 Cove Road. The earlier PCH/Tonga Lei site is a separate production phase and is not given a second pin. Exact trailer position within the parking area is approximate. The address geocoder resolves inside the mobile-home park; the display point instead marks the cafe parking lot verified against aerial imagery.",
+        "sourceIds": [
+          "x2tv_rockford",
+          "x2tv_rockstory",
+          "x2tv_rockford_lot"
+        ]
+      },
+      "people": [
+        "Jim Rockford"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Rockford Files",
+          "medium": "television",
+          "release_year": 1974,
+          "story_role": "Home and private-investigation office",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_rockford",
+            "x2tv_rockstory"
+          ],
+          "story_time": {
+            "year": 1975,
+            "end_year": 1980,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate contemporary period for the principal-series Paradise Cove exterior after the initial PCH location; reunion movies are not assigned dates here.",
+            "source_ids": [
+              "x2tv_rockford",
+              "x2tv_rockstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jim Rockford",
+              "relationship": "Home and private-investigation office"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n490-screen.jpg",
+          "sourceUrl": "https://rockfordfilesfilminglocations.blogspot.com/2013/08/what-was-locations-of-jim-rockfords.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggYuQNVIOg3pQD1ummLxbbF_vCuJD41-7CdapSNUkG9MDxSsnPHifQjKXVio_aNOnfdWQZd2QkAFWKuPaoq7UpwEyIMsFOb8n_HWBQZe9_3jAHcTm81iGjjJemKE_cE2sJmWbTrvvaLB-n/s400/images+(3).jpg",
+          "credit": "Universal Television / NBC television frame; Rockford Files Filming Locations",
+          "alt": "Jim Rockford’s trailer on screen.",
+          "width": 240,
+          "height": 183,
+          "title": "The Rockford Files"
+        },
+        "place": {
+          "src": "photos/n490-place.jpg",
+          "sourceUrl": "https://rockfordfilesfilminglocations.blogspot.com/2013/08/what-was-locations-of-jim-rockfords.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf7riLfy-JIWbYcTNEBXE3dvGWBDPLBrCZFk6Pn_2NKMYb_nceAz98QIbEauf3GjsQ3fMCkNUfLqqCan_RQKAFHIhtD113VoPFL9x4C-EOUYHwUIyHfNr1ASeIqBrojHbDWz9arl2lW9Np/s1600/889Capture.JPG",
+          "credit": "Site photograph; Rockford Files Filming Locations",
+          "alt": "Real filming site for Jim Rockford’s trailer.",
+          "width": 644,
+          "height": 496,
+          "caption": "Trailer site · undated",
+          "note": "The trailer was a production prop and is absent. The source’s site photo has no verified capture date."
+        }
+      }
+    },
+    {
+      "id": 491,
+      "name": "Apartment 4D",
+      "short": "Apartment 4D",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "837 Traction Avenue, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.234714725164,
+        34.044762004188
+      ],
+      "productionCoordinates": [
+        -118.234714725164,
+        34.044762004188
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "837 Traction Avenue, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "Recurring exterior used as a map proxy; an independent canonical street address has not been established.",
+        "sourceIds": [
+          "x2tv_newgirl",
+          "x2tv_newdesign",
+          "x2tv_newtime",
+          "x2tv_newstory"
+        ]
+      },
+      "people": [
+        "Jessica Day",
+        "Nick Miller",
+        "Winston Schmidt",
+        "Winston Bishop",
+        "Coach"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "New Girl",
+          "medium": "television",
+          "release_year": 2011,
+          "story_role": "Shared Arts District loft",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_newgirl",
+            "x2tv_newdesign",
+            "x2tv_newtime",
+            "x2tv_newstory"
+          ],
+          "story_time": {
+            "year": 2011,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary first six seasons begin in 2011; the final-season range includes Fox’s announced three-year jump after the 2017 sixth-season finale. End year is an editorial estimate, not the 2018 broadcast year.",
+            "source_ids": [
+              "x2tv_newgirl",
+              "x2tv_newdesign",
+              "x2tv_newtime",
+              "x2tv_newstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jessica Day",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Nick Miller",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Winston Schmidt",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Winston Bishop",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Coach",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n491-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/04/17/the-new-girl-apartment-building",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/04/02a2436b-bb67-46ab-b53c-f33dd2f6fd04.jpg",
+          "credit": "20th Century Fox Television / Fox television frame; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Apartment 4D on screen.",
+          "width": 1021,
+          "height": 768,
+          "title": "New Girl"
+        },
+        "place": {
+          "src": "photos/n491-place.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/04/17/the-new-girl-apartment-building",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/04/d0470a15-9938-47e0-a554-fc0df7e1b921.jpg",
+          "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Real filming site for Apartment 4D.",
+          "width": 1024,
+          "height": 768,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 492,
+      "name": "The Dunphy family home",
+      "short": "The Dunphy family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "10336 Dunleer Drive, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.410233873134,
+        34.036380142922
+      ],
+      "productionCoordinates": [
+        -118.410233873134,
+        34.036380142922
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "10336 Dunleer Drive, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "Recurring exterior used as a map proxy; an independent canonical street address has not been established.",
+        "sourceIds": [
+          "x2tv_modern",
+          "x2tv_modernsites",
+          "x2tv_modernstory"
+        ]
+      },
+      "people": [
+        "Phil Dunphy",
+        "Claire Dunphy",
+        "Haley Dunphy",
+        "Alex Dunphy",
+        "Luke Dunphy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Modern Family",
+          "medium": "television",
+          "release_year": 2009,
+          "story_role": "Dunphy family home",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_modern",
+            "x2tv_modernsites",
+            "x2tv_modernstory"
+          ],
+          "story_time": {
+            "year": 2009,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_modern",
+              "x2tv_modernsites",
+              "x2tv_modernstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Phil Dunphy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Claire Dunphy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Haley Dunphy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Alex Dunphy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Luke Dunphy",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n492-screen.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_DunphyHouse2.jpg",
+          "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+          "alt": "The Dunphy family home on screen.",
+          "width": 720,
+          "height": 404,
+          "title": "Modern Family"
+        },
+        "place": {
+          "src": "photos/n492-place.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_DunphyHouse.jpg",
+          "credit": "Site photograph; Brands & Films / Erik",
+          "alt": "Real filming site for The Dunphy family home.",
+          "width": 550,
+          "height": 350,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 493,
+      "name": "Jay & Gloria’s home",
+      "short": "Jay & Gloria’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "121 South Cliffwood Avenue, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.486000997241,
+        34.056295586776
+      ],
+      "productionCoordinates": [
+        -118.486000997241,
+        34.056295586776
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "121 South Cliffwood Avenue, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "Recurring exterior used as a map proxy; an independent canonical street address has not been established.",
+        "sourceIds": [
+          "x2tv_modern",
+          "x2tv_modernsites",
+          "x2tv_modernstory"
+        ]
+      },
+      "people": [
+        "Jay Pritchett",
+        "Gloria Delgado-Pritchett",
+        "Manny Delgado",
+        "Joe Pritchett"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Modern Family",
+          "medium": "television",
+          "release_year": 2009,
+          "story_role": "Pritchett-Delgado family home",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_modern",
+            "x2tv_modernsites",
+            "x2tv_modernstory"
+          ],
+          "story_time": {
+            "year": 2009,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_modern",
+              "x2tv_modernsites",
+              "x2tv_modernstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jay Pritchett",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Gloria Delgado-Pritchett",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Manny Delgado",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Joe Pritchett",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n493-screen.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_JayAndGloria2.jpg",
+          "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+          "alt": "Jay & Gloria’s home on screen.",
+          "width": 720,
+          "height": 404,
+          "title": "Modern Family"
+        },
+        "place": {
+          "src": "photos/n493-place.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_JayAndGloria.jpg",
+          "credit": "Site photograph; Brands & Films / Erik",
+          "alt": "Real filming site for Jay & Gloria’s home.",
+          "width": 581,
+          "height": 394,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 494,
+      "name": "Mitchell & Cameron’s home",
+      "short": "Mitchell & Cameron’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "2211 Fox Hills Drive, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.416076897837,
+        34.051725186432
+      ],
+      "productionCoordinates": [
+        -118.416076897837,
+        34.051725186432
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "2211 Fox Hills Drive, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "Recurring exterior used as a map proxy; an independent canonical street address has not been established.",
+        "sourceIds": [
+          "x2tv_modern",
+          "x2tv_modernsites",
+          "x2tv_modernstory"
+        ]
+      },
+      "people": [
+        "Mitchell Pritchett",
+        "Cameron Tucker",
+        "Lily Tucker-Pritchett"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Modern Family",
+          "medium": "television",
+          "release_year": 2009,
+          "story_role": "Pritchett-Tucker family duplex",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_modern",
+            "x2tv_modernsites",
+            "x2tv_modernstory"
+          ],
+          "story_time": {
+            "year": 2009,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_modern",
+              "x2tv_modernsites",
+              "x2tv_modernstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mitchell Pritchett",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Cameron Tucker",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Lily Tucker-Pritchett",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n494-screen.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_CamAndMitch2.jpg",
+          "credit": "20th Century Fox Television / ABC television frame; Brands & Films / Erik",
+          "alt": "Mitchell & Cameron’s home on screen.",
+          "width": 720,
+          "height": 404,
+          "title": "Modern Family"
+        },
+        "place": {
+          "src": "photos/n494-place.jpg",
+          "sourceUrl": "https://brandsandfilms.com/?p=8983",
+          "imageUrl": "https://brandsandfilms.com/wp-content/uploads/2013/10/ModernFamily_CamAndMitch.jpg",
+          "credit": "Site photograph; Brands & Films / Erik",
+          "alt": "Real filming site for Mitchell & Cameron’s home.",
+          "width": 660,
+          "height": 415,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 495,
+      "name": "The Banks family home",
+      "short": "The Banks family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "251 North Bristol Avenue, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.438310787543,
+        34.086377419743
+      ],
+      "productionCoordinates": [
+        -118.489429950011,
+        34.060018073795
+      ],
+      "precision": "street_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "805 Saint Cloud Road, Bel Air · approximate",
+        "precision": "street_inferred",
+        "reason": "The episode For Sale by Owner explicitly gives 805 Saint Cloud Road. The street can be located in Bel Air, but the address geocoder only resolves the street rather than a parcel, so the point is approximate. The familiar 251 North Bristol Avenue exterior is in Brentwood and is kept only as the filming address.",
+        "sourceIds": [
+          "x2tv_freshaddress",
+          "x2tv_banks",
+          "x2tv_esri"
+        ]
+      },
+      "people": [
+        "Will Smith",
+        "Philip Banks",
+        "Vivian Banks",
+        "Carlton Banks",
+        "Hilary Banks",
+        "Ashley Banks",
+        "Geoffrey Butler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Fresh Prince of Bel-Air",
+          "medium": "television",
+          "release_year": 1990,
+          "story_role": "Banks family home",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_banks",
+            "x2tv_freshaddress"
+          ],
+          "story_time": {
+            "year": 1990,
+            "end_year": 1996,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_banks",
+              "x2tv_freshaddress"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Will Smith",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Philip Banks",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Vivian Banks",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Carlton Banks",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Hilary Banks",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Ashley Banks",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Geoffrey Butler",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n495-screen.jpg",
+          "sourceUrl": "https://hookedonhouses.net/2020/09/15/fresh-prince-of-bel-air-house-brentwood/",
+          "imageUrl": "https://hookedonhouses.net/wp-content/uploads/2020/09/exterior-of-Fresh-Prince-of-Bel-Air-house-1.jpg",
+          "credit": "NBC Productions / Warner Bros. Television television frame; Hooked on Houses (original photographer not identified)",
+          "alt": "The Banks family home on screen.",
+          "width": 800,
+          "height": 500,
+          "title": "The Fresh Prince of Bel-Air"
+        },
+        "place": {
+          "src": "photos/n495-place.jpg",
+          "sourceUrl": "https://hookedonhouses.net/2020/09/15/fresh-prince-of-bel-air-house-brentwood/",
+          "imageUrl": "https://hookedonhouses.net/wp-content/uploads/2020/09/Fresh-Prince-House-251-N.-Bristol-Ave-Brentwood.jpg",
+          "credit": "Site photograph; Hooked on Houses (original photographer not identified)",
+          "alt": "Real filming site for The Banks family home.",
+          "width": 800,
+          "height": 602,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 496,
+      "name": "Fisher & Sons Funeral Home",
+      "short": "Fisher & Sons Funeral Home",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "2302 West 25th Street, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.318057664818,
+        34.033510221184
+      ],
+      "productionCoordinates": [
+        -118.318057664818,
+        34.033510221184
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "2302 West 25th Street, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "Recurring exterior used as a map proxy; an independent canonical street address has not been established.",
+        "sourceIds": [
+          "x2tv_fisher",
+          "x2tv_fisherstory"
+        ]
+      },
+      "people": [
+        "Ruth Fisher",
+        "Nate Fisher",
+        "David Fisher",
+        "Claire Fisher",
+        "Federico Diaz"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Six Feet Under",
+          "medium": "television",
+          "release_year": 2001,
+          "story_role": "Fisher family home and funeral business",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_fisher",
+            "x2tv_fisherstory",
+            "x2tv_fisherpilot"
+          ],
+          "story_time": {
+            "year": 2000,
+            "end_year": 2005,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "The story begins at Christmas 2000; the principal narrative runs through 2005. The finale’s later-life montage does not establish occupancy of this building in those future years.",
+            "source_ids": [
+              "x2tv_fisher",
+              "x2tv_fisherstory",
+              "x2tv_fisherpilot"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ruth Fisher",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Nate Fisher",
+              "relationship": "lives and works here"
+            },
+            {
+              "name": "David Fisher",
+              "relationship": "runs the funeral business"
+            },
+            {
+              "name": "Claire Fisher",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Federico Diaz",
+              "relationship": "works as the restorative artist"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n496-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/10/29/the-fisher-sons-funeral-home-from-six-feet-under",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/10/3e12c093-7fb7-4e2c-895b-2682f254cd69.jpg",
+          "credit": "HBO television frame; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Fisher & Sons Funeral Home on screen.",
+          "width": 765,
+          "height": 600,
+          "title": "Six Feet Under"
+        },
+        "place": {
+          "src": "photos/n496-place.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/10/29/the-fisher-sons-funeral-home-from-six-feet-under",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/10/d31e5fd9-24f9-4a8f-9351-f778832e6e59.jpg",
+          "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Real filming site for Fisher & Sons Funeral Home.",
+          "width": 640,
+          "height": 427,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 497,
+      "name": "Casa Walsh",
+      "short": "Casa Walsh",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "1675 East Altadena Drive, Altadena, CA",
+      "area": "Altadena",
+      "coordinates": [
+        -118.416942598831,
+        34.106413691605
+      ],
+      "productionCoordinates": [
+        -118.11611180106,
+        34.191005176022
+      ],
+      "precision": "street_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "953 Hillcrest Drive, Beverly Hills · approximate",
+        "precision": "street_inferred",
+        "reason": "The series’ recurring address is 953 Hillcrest Drive in Beverly Hills; early episodes also use 933. The display point follows the stated Beverly Hills street/address and does not claim the unrelated real house there is the screen house. The exterior at 1675 East Altadena Drive is filming provenance only.",
+        "sourceIds": [
+          "x2tv_walshaddress",
+          "x2tv_peach",
+          "x2tv_esri"
+        ]
+      },
+      "people": [
+        "Brandon Walsh",
+        "Brenda Walsh",
+        "Jim Walsh",
+        "Cindy Walsh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills, 90210",
+          "medium": "television",
+          "release_year": 1990,
+          "story_role": "Walsh family home; later Brandon’s shared home",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_peach",
+            "x2tv_walshaddress",
+            "x2tv_walshcurrent"
+          ],
+          "story_time": {
+            "year": 1990,
+            "end_year": 2000,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_peach",
+              "x2tv_walshaddress",
+              "x2tv_walshcurrent"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Brandon Walsh",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Brenda Walsh",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Jim Walsh",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Cindy Walsh",
+              "relationship": "lives here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "The original family leaves in stages; the date range covers the recurring home, not continuous tenancy by all four Walshes.",
+      "media": {
+        "screen": {
+          "src": "photos/n497-screen.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1NwDHTdfPmQ8aVqZ37TxLBCbyh-pti5EB0qzvmljbXDYtrqZdh5iWzjtVjekR4QXrTGZQ_e5u5vREvE9GoxzrThKcGaOcc2fLdZiagofMXj3venbhykg5l8YS3EkN6kshAEHjdVuyB-5Kjau9CmlZis7-hiouAuUlp2puw17fBoWEcFKYZuM8GVF8hg/w400-h250/Screen%20Shot%202022-09-10%20at%209.38.24%20AM.png",
+          "credit": "Spelling Television / Fox television frame; Reel to Real Locations / btkphotos",
+          "alt": "Casa Walsh on screen.",
+          "width": 400,
+          "height": 249,
+          "title": "Beverly Hills, 90210"
+        },
+        "place": {
+          "src": "photos/n497-place.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg37qoToNXtgfSY6j6plu8MXZm3TUSXLejIorNiNlcU-9VoavRDBiwsPlVrrGt22B8LTU4LgrkR5gEs86NPiPXDEQuXbCmX4U77hG5NEkqbbvRGiLGNTViDUXD7e9LGh_XvRI4M7-9X8qe1lAxkcvB8cCzs2Gim3ZLpipynCvgC0T2g0uNzbJ-8VWucQbU5/w400-h256/IMG_0941.jpg",
+          "credit": "Site photograph; Reel to Real Locations / btkphotos",
+          "alt": "Real filming site for Casa Walsh.",
+          "width": 400,
+          "height": 256,
+          "caption": "Site · archive",
+          "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
+        }
+      }
+    },
+    {
+      "id": 498,
+      "name": "The Peach Pit",
+      "short": "The Peach Pit",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "work"
+      ],
+      "address": "45 South Fair Oaks Avenue, Pasadena, CA",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.4,
+        34.067
+      ],
+      "productionCoordinates": [
+        -118.150757894921,
+        34.144978427396
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Beverly Hills / West Los Angeles · editorial estimate",
+        "precision": "area_inferred",
+        "reason": "The recurring diner belongs to the show’s Beverly Hills / western-Los-Angeles story world; a street address is not verified. This is a broad editorial estimate. The long-running season-two-onward exterior is the former Rose City / Ruby’s diner at 45 South Fair Oaks Avenue in Pasadena, not a canonical Pasadena diner. Earlier exteriors are not additional story locations.",
+        "sourceIds": [
+          "x2tv_peach",
+          "x2tv_peachstory"
+        ]
+      },
+      "people": [
+        "Nat Bussichio",
+        "Brandon Walsh",
+        "Brenda Walsh",
+        "Kelly Taylor",
+        "Dylan McKay",
+        "Donna Martin",
+        "Steve Sanders",
+        "David Silver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Beverly Hills, 90210",
+          "medium": "television",
+          "release_year": 1990,
+          "story_role": "Nat’s diner and the group’s regular hangout",
+          "filming_component": "recurring exterior",
+          "source_ids": [
+            "x2tv_peach",
+            "x2tv_peachstory"
+          ],
+          "story_time": {
+            "year": 1990,
+            "end_year": 2000,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary series period used as an editorial range for the recurring location; this does not assert continuous occupancy by every listed character.",
+            "source_ids": [
+              "x2tv_peach",
+              "x2tv_peachstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Nat Bussichio",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Brandon Walsh",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Brenda Walsh",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Kelly Taylor",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Dylan McKay",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Donna Martin",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Steve Sanders",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "David Silver",
+              "relationship": "regular patron"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n498-screen.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRGSj4csk6p24Pujv9NbUcSV_EjCFkKJOthvcM0VfNCqLNhVIa2ubDDxE0DM-fJbU0D3FXb9HwP4MLxpOqx4Do4xnwaxQX-PQw7wdr0C5kq9U7facXiDG2K5Zevk6n_vrGSj525keTXvka1WkQnwAsETwDANpHzamkfsHBmL_ue8CkmPXi1-6G-2DYAQ/w400-h284/Screen%20Shot%202022-04-10%20at%2011.36.02%20AM.png",
+          "credit": "Spelling Television / Fox television frame; Reel to Real Locations / btkphotos",
+          "alt": "The Peach Pit on screen.",
+          "width": 400,
+          "height": 284,
+          "title": "Beverly Hills, 90210"
+        },
+        "place": {
+          "src": "photos/n498-place.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm1-mPEDP__UxBndV_l8Jj4bskVcdHT7yhZqHIoKI6hCt5kJyoVTnqInWUKAVWuDF19N9WfUlAiISk7m8_uFrcw5pPBijAGV8sW1gEL7RYHTJGlIEGI2xQ9BjEQSBSHB9pRVmZyljABgbDiSiiSOAv49KOHKXCIbRxwc2zWrzkCqnAfOab6vodRd7mWA/w400-h288/IMG_0964.jpg",
+          "credit": "Site photograph; Reel to Real Locations / btkphotos",
+          "alt": "Real filming site for The Peach Pit.",
+          "width": 400,
+          "height": 288,
+          "caption": "Former diner · archive",
+          "note": "The 2021 section of the source shows the former diner frontage after later restaurant uses; it is not an operating Peach Pit."
+        }
+      }
+    },
+    {
+      "id": 499,
+      "name": "The Griffin",
+      "short": "The Griffin",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "work"
+      ],
+      "address": "3038 Los Feliz Boulevard, Los Angeles, CA",
+      "area": "Los Angeles",
+      "coordinates": [
+        -118.265469951087,
+        34.125021821399
+      ],
+      "productionCoordinates": [
+        -118.265469951087,
+        34.125021821399
+      ],
+      "precision": "building_exterior",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "3038 Los Feliz Boulevard, Los Angeles, CA",
+        "precision": "building_exterior",
+        "reason": "The recurring exterior is The Griffin in Atwater Village; the first-season interior is The Prince in Koreatown. They represent one bar, not two character destinations. A separate canonical street address is not established.",
+        "sourceIds": [
+          "x2tv_griffin",
+          "x2tv_prince",
+          "x2tv_newstory"
+        ]
+      },
+      "people": [
+        "Nick Miller",
+        "Jessica Day",
+        "Winston Schmidt",
+        "Winston Bishop",
+        "Cece Parekh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "New Girl",
+          "medium": "television",
+          "release_year": 2011,
+          "story_role": "Nick’s bar and the friends’ regular hangout",
+          "filming_component": "Griffin exterior / Prince first-season interior",
+          "source_ids": [
+            "x2tv_griffin",
+            "x2tv_prince",
+            "x2tv_newstory"
+          ],
+          "story_time": {
+            "year": 2011,
+            "end_year": 2017,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate contemporary period for the original-series bar, beginning in 2011; the final-season future jump is not treated as evidence of continued presence at this workplace.",
+            "source_ids": [
+              "x2tv_griffin",
+              "x2tv_prince",
+              "x2tv_newstory"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Nick Miller",
+              "relationship": "bartender and later co-owner"
+            },
+            {
+              "name": "Jessica Day",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Winston Schmidt",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Winston Bishop",
+              "relationship": "regular patron"
+            },
+            {
+              "name": "Cece Parekh",
+              "relationship": "regular patron"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "work"
+          ]
+        }
+      ],
+      "notes": "One story bar: The Griffin exterior in Atwater Village, The Prince interior in Koreatown, and a later studio recreation.",
+      "media": {
+        "screen": {
+          "src": "photos/n499-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/05/21/the-prince-restaurant-from-new-girl/",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/05/7575883c-c5b1-491c-ab14-e9ab9aba862d.jpg",
+          "credit": "20th Century Fox Television / Fox television frame; Lindsay Blake / I Am Not A Stalker",
+          "alt": "The Griffin on screen.",
+          "width": 1023,
+          "height": 768,
+          "title": "New Girl"
+        },
+        "place": {
+          "src": "photos/n499-place.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2012/05/21/the-prince-restaurant-from-new-girl/",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2012/05/200e0ddd-dd6b-4679-ac07-84464acfccd3.jpg",
+          "credit": "Site photograph; Lindsay Blake / I Am Not A Stalker",
+          "alt": "Real filming site for The Griffin.",
+          "width": 900,
+          "height": 675,
+          "caption": "Prince interior · archive",
+          "note": "This photo shows The Prince, 3198 West 7th Street, the first-season interior component. The marker uses the Griffin exterior. Later interiors were a studio recreation."
+        }
+      },
+      "productionSites": [
+        {
+          "component": "Recurring bar exterior",
+          "address": "3038 Los Feliz Boulevard, Los Angeles, CA",
+          "coordinates": [
+            -118.265469951087,
+            34.125021821399
+          ]
+        },
+        {
+          "component": "First-season interior",
+          "address": "The Prince, 3198 West 7th Street, Los Angeles, CA",
+          "coordinates": [
+            -118.2971,
+            34.0597
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "x2tv_mitch",
+      "title": "Mitch Buchannon’s recurring canal house — matched exteriors",
+      "url": "https://www.iamnotastalker.com/2013/09/03/mitchs-house-from-baywatch",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_modern",
+      "title": "Modern Family’s three recurring homes — screen/site comparisons",
+      "url": "https://brandsandfilms.com/?p=8983",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_rockford",
+      "title": "Rockford’s trailer sites and fictional Cove Road address",
+      "url": "https://rockfordfilesfilminglocations.blogspot.com/2013/08/what-was-locations-of-jim-rockfords.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_newgirl",
+      "title": "The New Girl loft — matched recurring exteriors",
+      "url": "https://www.iamnotastalker.com/2012/04/17/the-new-girl-apartment-building",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_prince",
+      "title": "Nick’s bar — original Prince interior and screen frames",
+      "url": "https://www.iamnotastalker.com/2012/05/21/the-prince-restaurant-from-new-girl/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_griffin",
+      "title": "Nick’s bar — Griffin exterior / Prince interior composite",
+      "url": "https://lamag.com/tv/scene-it-before-the-bar-from-new-girl-/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_banks",
+      "title": "The Banks home — screen address and Brentwood exterior",
+      "url": "https://hookedonhouses.net/2020/09/15/fresh-prince-of-bel-air-house-brentwood/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_fisher",
+      "title": "Fisher & Sons — matched house and funeral-home exterior",
+      "url": "https://www.iamnotastalker.com/2010/10/29/the-fisher-sons-funeral-home-from-six-feet-under",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_peach",
+      "title": "Beverly Hills, 90210 — Walsh house and Peach Pit comparisons",
+      "url": "https://rtrlocations.blogspot.com/2015/12/beverly-hills-90210-1990-2000.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_bayhq",
+      "title": "Original Baywatch headquarters — site gallery and coordinates",
+      "url": "https://sirstoria.com/locations/california/los-angeles/baywatch-lifeguard-headquarters",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_baycast",
+      "title": "Alexandra Paul identifies the original Baywatch headquarters",
+      "url": "https://alexandrapaul.com/ask-alexandra-november-2014/",
+      "source_type": "cast member’s firsthand account"
+    },
+    {
+      "id": "x2tv_bay1999",
+      "title": "1999 reporting from Baywatch’s original headquarters before Hawaii",
+      "url": "https://archives.starbulletin.com/1999/07/20/features/story1.html",
+      "source_type": "contemporary reporting"
+    },
+    {
+      "id": "x2tv_baymitch",
+      "title": "Mitch Buchannon — Venice home and fictional Talanca address",
+      "url": "https://en.wikipedia.org/wiki/Mitch_Buchannon",
+      "source_type": "character reference"
+    },
+    {
+      "id": "x2tv_newdesign",
+      "title": "New Girl production designer: the loft is in downtown’s Arts District",
+      "url": "https://www.architecturaldigest.com/gallery/new-girl-fox-set-design-slideshow",
+      "source_type": "production designer interview"
+    },
+    {
+      "id": "x2tv_newtime",
+      "title": "Fox: final New Girl season follows a three-year time jump",
+      "url": "https://www.foxflash.com/releases/view/final-season-of-new-girl-to-premiere-tuesday-april-10-on-fox",
+      "source_type": "network press release"
+    },
+    {
+      "id": "x2tv_newstory",
+      "title": "Netflix: New Girl’s Los Angeles roommates and Apartment 4D",
+      "url": "https://www.netflix.com/tudum/articles/new-girl-best-episodes",
+      "source_type": "distributor editorial"
+    },
+    {
+      "id": "x2tv_modernsites",
+      "title": "Modern Family — exterior addresses for all three family homes",
+      "url": "https://www.seeing-stars.com/Locations/ModernFamily.shtml",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "x2tv_modernstory",
+      "title": "Modern Family — Los Angeles family premise and series chronology",
+      "url": "https://en.wikipedia.org/wiki/Modern_Family",
+      "source_type": "series reference"
+    },
+    {
+      "id": "x2tv_freshaddress",
+      "title": "For Sale by Owner — dialogue states 805 Saint Cloud Road",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e25&tv-show=the-fresh-prince-of-bel-air",
+      "source_type": "episode dialogue transcript"
+    },
+    {
+      "id": "x2tv_walshaddress",
+      "title": "Casa Walsh — Beverly Hills story address and changing occupants",
+      "url": "https://90210.fandom.com/wiki/Casa_Walsh",
+      "source_type": "episode-referenced character/location reference"
+    },
+    {
+      "id": "x2tv_walshcurrent",
+      "title": "LAist: the Walsh filming house after the 2025 Eaton Fire",
+      "url": "https://laist.com/news/arts-and-entertainment/beverly-hills-90210-shaped-generations-of-teen-tv",
+      "source_type": "local reporting"
+    },
+    {
+      "id": "x2tv_peachstory",
+      "title": "Beverly Hills, 90210 — recurring Beverly Hills / West Los Angeles setting",
+      "url": "https://en.wikipedia.org/wiki/Beverly_Hills%2C_90210",
+      "source_type": "series and production reference"
+    },
+    {
+      "id": "x2tv_fisherstory",
+      "title": "Six Feet Under — the Fisher family’s Los Angeles funeral business",
+      "url": "https://www.hbo.com/six-feet-under",
+      "source_type": "network series page"
+    },
+    {
+      "id": "x2tv_rockstory",
+      "title": "The Rockford Files — Malibu home/office and series chronology",
+      "url": "https://en.wikipedia.org/wiki/The_Rockford_Files",
+      "source_type": "series reference"
+    },
+    {
+      "id": "x2tv_esri",
+      "title": "ArcGIS World Geocoding Service — address verification",
+      "url": "https://developers.arcgis.com/rest/geocode/find-address-candidates/",
+      "source_type": "geocoder documentation"
+    },
+    {
+      "id": "x2tv_fisherpilot",
+      "title": "Six Feet Under — pilot screenplay and Christmas opening",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/six-feet-under-101-pilot-2001.pdf",
+      "source_type": "production screenplay"
+    },
+    {
+      "id": "x2tv_rockford_lot",
+      "title": "Paradise Cove — aerial check of the parking lot beside the cafe",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.793%2C34.017%2C-118.785%2C34.022&bboxSR=4326&imageSR=4326&size=1000%2C625&format=jpg&f=image",
+      "source_type": "aerial geospatial verification"
+    }
+  ],
+  "audit": [
+    {
+      "subject": "Selection",
+      "decision": "Twelve recurring television landmarks; no episode-only destinations. Craig Jones’s Friday home already exists as place 200 and is not counted again."
+    },
+    {
+      "subject": "Baywatch",
+      "decision": "Original California headquarters and Mitch’s canal house only; Hawaii, 2017 film’s Florida world and the 2026 reboot excluded."
+    },
+    {
+      "subject": "Story geography",
+      "decision": "Banks home moved to stated Bel Air street; Casa Walsh moved to stated Beverly Hills address; Peach Pit is an explicitly approximate Beverly Hills / West LA point, not Pasadena."
+    },
+    {
+      "subject": "Composite",
+      "decision": "New Girl’s bar has one point and separately identified exterior/interior production components."
+    },
+    {
+      "subject": "Photographs",
+      "decision": "Photos are real source frames and site photos. Archived or undated images are labeled; no claim that every ground-level image was captured recently."
+    }
+  ]
+}

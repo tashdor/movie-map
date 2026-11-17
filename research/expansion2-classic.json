@@ -1,0 +1,3983 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": 430,
+      "name": "Mike Hammer’s apartment",
+      "short": "Mike Hammer’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "10401 Wilshire Boulevard, Los Angeles",
+      "area": "Westwood",
+      "coordinates": [
+        -118.429607720314,
+        34.06724692046
+      ],
+      "productionCoordinates": [
+        -118.429607720314,
+        34.06724692046
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westwood",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Mike Hammer",
+        "Velda Wickman"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Mike Hammer’s apartment",
+          "filming_component": "10401 Wilshire Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Hammer",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Velda Wickman",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n430-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx-_SoTgl2TTUx__ojP4_USHTWOGFT3oyD3rvMLynCetR082ump0bM1keYWZ2Uo5-47sRNeEBCujMGg-YFM7zD2m02rwPlKrRd1R6aBvWzKat1mBKfJY1x1Rb_OftU_hN4-9_vUEgnWto/s1600/HammersApt1_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Mike Hammer’s apartment in Kiss Me Deadly",
+          "width": 720,
+          "height": 434,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n430-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_j-2U6oPJUUYS9FeHI7x_qRIR4-ZLMPKxzNkG-_23LNyhyiSrJqI_fGRm7M2CUeJWsryti6-w65dFepBY4anb-cwUXbdL549MTE43KTxhXtdNP-5f-0xbM0j695P-6R3iiAs_RAmINO5J1rYf-NgH_eeIde3IAdcCgAiOM_2O90rBfYzbcb-hISHlohw/s1600/HammersApt1_Now720.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Mike Hammer’s apartment — real production site",
+          "width": 720,
+          "height": 435,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 431,
+      "name": "Nick’s garage",
+      "short": "Nick’s garage",
+      "category": "work",
+      "categories": [
+        "work",
+        "event",
+        "death"
+      ],
+      "address": "Temple Street & Dillon Street, Los Angeles",
+      "area": "Westlake",
+      "coordinates": [
+        -118.281168992762,
+        34.075267982704
+      ],
+      "productionCoordinates": [
+        -118.281168992762,
+        34.075267982704
+      ],
+      "precision": "StreetInt",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westlake",
+        "precision": "StreetInt",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Nick",
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Nick’s garage",
+          "filming_component": "Temple Street & Dillon Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Nick",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "work",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Kiss Me Deadly",
+          "people": [
+            "Nick"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n431-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEielTXY3sDDE_B82QYzVPzxTbGYpttr5mzt7SADxEftO5lQ8lF0oq19u6I_eacrAzrpcsAWGDVeREHBcNWYkoPVFGTrvVCRAVpRiDAmz2AMnUq2ZPznE4IDLE6eojkXhU1LwUey3BRa_p8/s1600/NicksGarage_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Nick’s garage in Kiss Me Deadly",
+          "width": 720,
+          "height": 433,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n431-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.282368992762%2C34.074467982704%2C-118.27996899276201%2C34.076067982704&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Nick’s garage — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "The garage has been demolished; aerial of the former northwest corner site. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 432,
+      "name": "Ray Diker’s home",
+      "short": "Ray Diker’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "611 West Cesar E. Chavez Avenue, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.251325067032,
+        34.055348509962
+      ],
+      "productionCoordinates": [
+        -118.242822959201,
+        34.060327994665
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "121 Flower Street, Bunker Hill · approximate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_kmd_flower",
+          "e2c_bunkerhill",
+          "e2c_geocoder"
+        ],
+        "reason": "The film gives 121 Flower Street. The Johnson house at the former Sunset Boulevard/Hill Place corner was only its production exterior. This point interpolates the number on South Flower Street in Bunker Hill; it does not identify a surviving story parcel."
+      },
+      "people": [
+        "Ray Diker",
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Ray Diker’s home",
+          "filming_component": "611 West Cesar E. Chavez Avenue, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi",
+            "e2c_kmd_flower",
+            "e2c_bunkerhill"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi",
+              "e2c_kmd_flower",
+              "e2c_bunkerhill"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ray Diker",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n432-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGvcLiFd7dwGpowdDFjg8AUMJ30T3n7Wrxm4UygqTZ-MiBm8T8qdS_xIojqE6bGh_poskrujykgAB4S9TfpoqIYGbqQoPQQIR88HHBD47pZHo_-D95trMCx52YQMetHdm0wU2LlwLhxI/s1600/RayDikersHouse_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Ray Diker’s home in Kiss Me Deadly",
+          "width": 720,
+          "height": 433,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n432-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghxc8JyfnUnZ6ttWKd9WsasmG4X-9ItlsaUf5AMl6JB_9YbMpPvMtTcClR466_6rCfl13EH3FwEjSRultjA7Y02eMiHNIOf2_FyyZY5P1pnTgmWqlrZrgTff7R8tfGERjI_-didvCqCgMMpoIDCVp58UFT0U5hyJFF6-QWgqBmdfIqs9OjpLnJg1yTwYI/s1600/RayDikersHouse_Now720.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Ray Diker’s home — real production site",
+          "width": 690,
+          "height": 416,
+          "caption": "Site",
+          "note": "Replacement site; the house was demolished in the 1960s."
+        }
+      }
+    },
+    {
+      "id": 433,
+      "name": "Carl Evello’s home",
+      "short": "Carl Evello’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "603 Doheny Road, Beverly Hills",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.404340808468,
+        34.090442412575
+      ],
+      "productionCoordinates": [
+        -118.404340808468,
+        34.090442412575
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Beverly Hills",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Carl Evello",
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Carl Evello’s home",
+          "filming_component": "603 Doheny Road, Beverly Hills, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Carl Evello",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Kiss Me Deadly",
+          "people": [
+            "Carl Evello"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n433-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ4UBUi9rORTVtQv2mKNPQZr55esE-2V2DGVlTJxpacAtlydzNKMQEA1cHkF8f4mDmBTaWpScCNvtRlW6qsBy229coDccCzbKGivJnSMW2qWfpR4qaEwlgEDNdnEdbVG_cH5yuk9vnj8c/s1600/EvellosHouse_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Carl Evello’s home in Kiss Me Deadly",
+          "width": 720,
+          "height": 430,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n433-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUSw_rXzuQLk1tVuInJitjB8B8K8zStD1bF_x_ntt5apimOtwXswZCzwU1NtB5s1ybzAOLeN5lPJx-o1nKXWa9eaBTGmSYmTA0FGY-5lWNj8Geg05OLD98k_TTEIXm-fozU1CPqZqTQ82GOjUUe1Ra66pfqPyysqTFTFf6AraDG87nrgrRgpvMClaAxc/s1600/EvellosHouse_Now720.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Carl Evello’s home — real production site",
+          "width": 720,
+          "height": 434,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 434,
+      "name": "Carmen Trivago’s boardinghouse",
+      "short": "Carmen Trivago’s boardinghouse",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "West 3rd Street & South Olive Street, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.250134325703,
+        34.052363887454
+      ],
+      "productionCoordinates": [
+        -118.250134325703,
+        34.052363887454
+      ],
+      "precision": "StreetInt",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Bunker Hill",
+        "precision": "StreetInt",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Carmen Trivago",
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Carmen Trivago’s boardinghouse",
+          "filming_component": "West 3rd Street & South Olive Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Carmen Trivago",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n434-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKTjw6xipKiQczuz-42VlGML5z-pCyGVKfaSq69b1Wl8RtvmrjJNcpZaNKXKm3FsIcqb-6bHIJvHvdvo_v4ZY4hOpnLn3GqdX0J7pjnXW8YxAZWsdpTD7sSosUBnT6PtXL5gTPrh9AP4/s1600/TrivagosHouse_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Carmen Trivago’s boardinghouse in Kiss Me Deadly",
+          "width": 720,
+          "height": 431,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n434-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.251334325703%2C34.051563887454%2C-118.248934325703%2C34.053163887454&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Carmen Trivago’s boardinghouse — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Aerial of the former Hill Crest Hotel site; the hotel and original Third Street steps were demolished. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 435,
+      "name": "Club Pigalle",
+      "short": "Club Pigalle",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "4135 South Figueroa Street, Los Angeles",
+      "area": "South Los Angeles",
+      "coordinates": [
+        -118.28299834313,
+        34.008569323462
+      ],
+      "productionCoordinates": [
+        -118.28299834313,
+        34.008569323462
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "South Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Club Pigalle",
+          "filming_component": "4135 South Figueroa Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits the nightclub"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n435-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5gDX4nNP22_91meEV__xYV7vNdomzyomlanYlg1YbSMJrCNX7TATrMyZJjym4Jh_2uP_CnM1kg9dFYIxxwjm7dwuVzM5qExhPpLSo31ziaAKoq0Y2jsMbLicO-htnWrfz7-_xWVk3kBQ/s1600/PigalleClub_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Club Pigalle in Kiss Me Deadly",
+          "width": 720,
+          "height": 431,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n435-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_APLhGRLhDCsHxfhtkU-37MtykH6SOC4a_wSKLVfWgOB1cxItYJSIVGjaI7151OuKFnlHuwTphpWA_cu2q_tN9BIalbcZo8lqcnQRn5b_CtV3OEVO4J382WJTZ6OmtBFVXAaVixFmLF3XpbtZU-uGzwktLqKITlQvNJSIHRPSWfDY1gYop3Ts2ceP8Xs/s1600/PigalleClub_Now720P.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Club Pigalle — real production site",
+          "width": 720,
+          "height": 434,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 436,
+      "name": "Hollywood Athletic Club locker",
+      "short": "Hollywood Athletic Club locker",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "6525 Sunset Boulevard, Los Angeles",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.331878584964,
+        34.098155104601
+      ],
+      "productionCoordinates": [
+        -118.331878584964,
+        34.098155104601
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Mike Hammer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Hollywood Athletic Club locker",
+          "filming_component": "6525 Sunset Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Hammer",
+              "relationship": "associated with this scene"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n436-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyj7d5qUI3FLurs2dYM-qEnDUYWtChzzXPPBDGhbXPDNV8K5hrGdhS4JZwpTBKbLooKw8zi4_fYAHSN5BGJHNGhmmO8LBNEOceqIdFFKD3tDTNrnsUchEpmLc6siIVxMeY8TNuj8RuDWs/s1600/HollywoodAthleticClub_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Hollywood Athletic Club locker in Kiss Me Deadly",
+          "width": 720,
+          "height": 436,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n436-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdilCsvEgYfUCln4-NUIE-HBuAEH0jt97M_9ecb9dHRjo1Nu8Tb0d2KvfQlKVB1qEge75tA2VVFLcb2TE_MBxj0BroJ35_n56eC_cG_H0KNuDkP8nRT5HFnR9sHAWFhBgk38heSc3nVQAfbbO-Y0_fVrjgzF8nTyE2KsLvcYChr7UW2G-S6IxSYt2MlwM/s1600/HollywoodAthleticClub_Now720.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Hollywood Athletic Club locker — real production site",
+          "width": 720,
+          "height": 434,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 437,
+      "name": "Soberin’s beach house",
+      "short": "Soberin’s beach house",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "Westward Beach Road, Malibu",
+      "area": "Point Dume",
+      "coordinates": [
+        -118.8163,
+        34.0067
+      ],
+      "productionCoordinates": [
+        -118.8163,
+        34.0067
+      ],
+      "precision": "beach-area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Point Dume",
+        "precision": "beach-area",
+        "sourceIds": [
+          "e2c_kmd_locations",
+          "e2c_kmd_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "people": [
+        "Dr. G. E. Soberin",
+        "Gabrielle",
+        "Mike Hammer",
+        "Velda Wickman"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Kiss Me Deadly",
+          "release_year": 1955,
+          "story_role": "Soberin’s beach house",
+          "filming_component": "Westward Beach Road, Malibu, CA",
+          "source_ids": [
+            "e2c_kmd_locations",
+            "e2c_kmd_afi"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_kmd_locations",
+              "e2c_kmd_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Dr. G. E. Soberin",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Gabrielle",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Mike Hammer",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Velda Wickman",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Kiss Me Deadly",
+          "people": [
+            "Dr. G. E. Soberin",
+            "Gabrielle"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n437-screen.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjys1tmvMR7g51mw_lhFh9cLBHFrN7y4q0oWaWnUEfLMSADeartmJsiTwx2H0oWjogEmHM5uWDGxP8yImIc_BMNRvv43oWNFBZr0HXWFii1vjOtxJVvcQMjGgyF7CJRru8hoQDgwamkXAw/s1600/BeachHouse2_KissMeDeadly.jpg",
+          "credit": "Kiss Me Deadly film frame; Movie Tourist",
+          "alt": "Soberin’s beach house in Kiss Me Deadly",
+          "width": 720,
+          "height": 430,
+          "title": "Kiss Me Deadly"
+        },
+        "place": {
+          "src": "photos/n437-place.jpg",
+          "sourceUrl": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHkYyLTA-K0JeRXFQXhXO_r8HqG6f5XSiizhRlgZ4VAbmWf2IQkohimBPpIzvykOf1CNt9MFVJ2zN17MpkyrF-vZ3Vepi64XWy-XqKFuZba27EQ_7z3Fwncl1hpB5DdI269wSUhqQpGERiWGjMu2a-4DDLgQqblbP8yxzQcckTlEL-zscAlln-8q5LDpw/s1600/BeachHouse2_Now720_1.jpg",
+          "credit": "Movie Tourist",
+          "alt": "Soberin’s beach house — real production site",
+          "width": 720,
+          "height": 434,
+          "caption": "Site",
+          "note": "Westward Beach comparison; the film house no longer stands."
+        }
+      }
+    },
+    {
+      "id": 438,
+      "name": "Strauss mansion / St. Audrey’s orphanage",
+      "short": "Strauss mansion / St. Audrey’s orphanage",
+      "category": "home",
+      "categories": [
+        "home",
+        "work",
+        "event"
+      ],
+      "address": "380 South San Rafael Avenue, Pasadena",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.169949603346,
+        34.137352027063
+      ],
+      "productionCoordinates": [
+        -118.169949603346,
+        34.137352027063
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Pasadena",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Mike Church",
+        "Grace",
+        "Father Timothy",
+        "Roman Strauss",
+        "Margaret Strauss",
+        "Inga",
+        "Frankie"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Strauss mansion / St. Audrey’s orphanage",
+          "filming_component": "380 South San Rafael Avenue, Pasadena, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Church",
+              "relationship": "grew up at the orphanage"
+            },
+            {
+              "name": "Grace",
+              "relationship": "is sheltered at the orphanage"
+            },
+            {
+              "name": "Father Timothy",
+              "relationship": "runs the orphanage"
+            }
+          ],
+          "categories": [
+            "home",
+            "work",
+            "event"
+          ]
+        },
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Roman and Margaret Strauss’s home",
+          "filming_component": "The same mansion exterior in the 1948 flashback",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1948,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The Strauss murder is dated 1948 in the story.",
+            "source_ids": [
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Roman Strauss",
+              "relationship": "lives or works in the Strauss household"
+            },
+            {
+              "name": "Margaret Strauss",
+              "relationship": "lives or works in the Strauss household"
+            },
+            {
+              "name": "Inga",
+              "relationship": "lives or works in the Strauss household"
+            },
+            {
+              "name": "Frankie",
+              "relationship": "lives or works in the Strauss household"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n438-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMLNWPShloosHIoJ40pv3dWmDKp7CVglDrJ_Mk4Vac7uMhN5f5KO3-hDoCXTE61_v47XlZ3Q7TlEXOH8Pf5QC2BADojuEiE3L6XR5eXiBBCBCujJWlIkoWDUp2atj2NUnKDkICjw28D5U8/s1600/Mansion+1.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Strauss mansion / St. Audrey’s orphanage in Dead Again",
+          "width": 834,
+          "height": 469,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n438-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.171149603346%2C34.136552027063004%2C-118.168749603346%2C34.138152027063&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Strauss mansion / St. Audrey’s orphanage — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Photograph published by the cited location researcher; capture date unverified. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 439,
+      "name": "Mike Church’s home",
+      "short": "Mike Church’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "2079 Kenilworth Avenue, Los Angeles",
+      "area": "Silver Lake",
+      "coordinates": [
+        -118.26930239716,
+        34.096530691765
+      ],
+      "productionCoordinates": [
+        -118.26930239716,
+        34.096530691765
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Silver Lake",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Mike Church",
+        "Grace"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Mike Church’s home",
+          "filming_component": "2079 Kenilworth Avenue, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mike Church",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Grace",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n439-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijLUYq6foEkZksgqsGuksD0zMQv8G0vTDfh8ZDjUeIuFJfPZVUlgtJVubF5_fnOFszuAZB_5dOcXd_opdJIlt2g0Nkv0hXgPW6vfRuMBn2tXQRN4ObVut0xR9LTzLZ8GAhYKHN6XGesSFD/s1600/House.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Mike Church’s home in Dead Again",
+          "width": 834,
+          "height": 468,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n439-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3sNWaVW3VNIFtK3j-rE8FRq6BGeZicLQTP1bURkWRQWbuXAAs12VzysYqTjac8ZGB2icSz0Mxcv7pu4dGxJXu-8qH_LoeLxPFGC46aR6VegIAeLkgOeEqFRIwlWFWiTO57Yf4HxLWyeQ8/s1600/DSCF2021.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Mike Church’s home — real production site",
+          "width": 1100,
+          "height": 821,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 440,
+      "name": "Laughing Duke Fine Antiques",
+      "short": "Laughing Duke Fine Antiques",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "7216 Beverly Boulevard, Los Angeles",
+      "area": "Fairfax",
+      "coordinates": [
+        -118.346814046775,
+        34.075882250478
+      ],
+      "productionCoordinates": [
+        -118.346814046775,
+        34.075882250478
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Fairfax",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Franklyn Madson",
+        "Mike Church",
+        "Grace"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Laughing Duke Fine Antiques",
+          "filming_component": "7216 Beverly Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Franklyn Madson",
+              "relationship": "runs the antique shop and hypnotizes Grace"
+            },
+            {
+              "name": "Mike Church",
+              "relationship": "brings Grace for treatment"
+            },
+            {
+              "name": "Grace",
+              "relationship": "undergoes hypnosis"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n440-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyxpqroNUa-skSJdUr2fW6VUg7BQhZQNxraxRp_PLWVxtEYYQyXHiQCqbsHbpWgAbraR5vD8dwFkHkvWHH5SxaPWkc3VnfQeW_Hk0_0tHWV7a_p5nUhyphenhyphenVwkF2Ipyb4lk8B4UpHyjXksyy/s1600/Antique.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Laughing Duke Fine Antiques in Dead Again",
+          "width": 841,
+          "height": 472,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n440-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRWh0UBffrfmEppV13MTR4gCzEHDQ_XJccfSe2k6QcD3nUA2l1jfTWq-9PIyUmH6JGlN8s6EogUYn8BP_Q13ISFrCtcMdcU-HLxLUJS0yq0qpkbuURFzcurEBK8GXQhViWJLBYQGvof4CZPV2Z4PHS8u2q_7Ipdzu3dgP3hehOnxLrvzww9CIO3nQVduw/s3089/A.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Laughing Duke Fine Antiques — real production site",
+          "width": 1100,
+          "height": 619,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 441,
+      "name": "Syd’s",
+      "short": "Syd’s",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "4101 Wilshire Boulevard, Los Angeles",
+      "area": "Mid-Wilshire",
+      "coordinates": [
+        -118.317053009904,
+        34.062036016985
+      ],
+      "productionCoordinates": [
+        -118.317053009904,
+        34.062036016985
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Mid-Wilshire",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Roman Strauss",
+        "Margaret Strauss",
+        "Gray Baker"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Syd’s",
+          "filming_component": "4101 Wilshire Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1948,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "The 1948 flashback is established by the Strauss murder chronology.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Roman Strauss",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Margaret Strauss",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Gray Baker",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n441-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG1V06ej5qmY342qZDAjsMbx6J8Kgh8B1qfbqWpYAeYOgjNIrUH9NRwSCzUzInMiusqKnr8c926WWzU_cEMDlFrWt7pTHXawlhYEY0reodWerWXhfUvaIHYUfJ69tdW6GpYuspLUNLmL9d/s1600/Syds.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Syd’s in Dead Again",
+          "width": 843,
+          "height": 408,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n441-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.318253009904%2C34.061236016985%2C-118.315853009904%2C34.062836016984996&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Syd’s — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "The nightclub was demolished; aerial of the replacement property. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 442,
+      "name": "Cozy Carlisle’s market",
+      "short": "Cozy Carlisle’s market",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "2511 West Sunset Boulevard, Los Angeles",
+      "area": "Silver Lake",
+      "coordinates": [
+        -118.26934137301,
+        34.079897182099
+      ],
+      "productionCoordinates": [
+        -118.26934137301,
+        34.079897182099
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Silver Lake",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Cozy Carlisle",
+        "Mike Church"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Cozy Carlisle’s market",
+          "filming_component": "2511 West Sunset Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cozy Carlisle",
+              "relationship": "works in the market"
+            },
+            {
+              "name": "Mike Church",
+              "relationship": "seeks Cozy’s advice"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n442-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfdNQ_HpZoCPX8l-CBWL_Cp7yIozn1HWSaM4K0xZ_nQuNuB4EvzHZOJrjRKRrYltPiZnMgw2yfUpSdE1wYdwL7_RQOZEXBsVetM6jz5QQcDwLHSJf7fbWqayxPJfJQ303WmOO5E2rC9GRd/s1600/Market.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Cozy Carlisle’s market in Dead Again",
+          "width": 841,
+          "height": 471,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n442-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiumxyeB__CNQSX72us2eYo9qRM285SkpTb9R95ufHFzdsWX0IEjub9f1xXy5lxHWPNoWtjxVyDnTooxpjqisCtxMNMq7GvWWRJIZP94ybvMXUNDT3TGS16b66jicWw-nHZrJ0CQQa9WkWg/s1600/DSCF1939.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Cozy Carlisle’s market — real production site",
+          "width": 1100,
+          "height": 821,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 443,
+      "name": "Doug’s escape on Shakespeare Bridge",
+      "short": "Doug’s escape on Shakespeare Bridge",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Franklin Avenue & St George Street, Los Angeles",
+      "area": "Franklin Hills",
+      "coordinates": [
+        -118.278598011601,
+        34.105446019259
+      ],
+      "productionCoordinates": [
+        -118.278598011601,
+        34.105446019259
+      ],
+      "precision": "StreetInt",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Franklin Hills",
+        "precision": "StreetInt",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Doug",
+        "Mike Church"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "Doug’s escape on Shakespeare Bridge",
+          "filming_component": "Franklin Avenue & St George Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Doug",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Mike Church",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n443-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2lJxPCxcTHBlcllvY2Qqr3NU0CgTof0CorHC_IRnDbTHoD7Iv70ITzdKXYOm8sEP-ESw9aSwWDOvH0ovwNAyCWDXJLsyGw2sM_qUjnjJ-qqxyhA2KMXVSSQcEYll6FzizkgUQ-y1kCnIM/s1600/Bridge+1.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "Doug’s escape on Shakespeare Bridge in Dead Again",
+          "width": 834,
+          "height": 468,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n443-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh-vrBoU5iJ64oOEe1Dim7vVgbZZdYgleFDmSVtASpQ2jooOFto4gbi_-DtqLlatzucNBpzYYOugqEZU843Lo-r87rJrqdEsBH3mbiegYFKXYEdEP6KW5Q8LCSc-_p12Vo7A61MeK_TME/s1600/Los+Angeles+2011+446.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Doug’s escape on Shakespeare Bridge — real production site",
+          "width": 1100,
+          "height": 825,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 444,
+      "name": "The Meadows rest home",
+      "short": "The Meadows rest home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "720 South Mariposa Avenue, Los Angeles",
+      "area": "Koreatown",
+      "coordinates": [
+        -118.298594382731,
+        34.0591372615
+      ],
+      "productionCoordinates": [
+        -118.298594382731,
+        34.0591372615
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Koreatown",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_dead_locations",
+          "e2c_dead_afi",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Inga",
+        "Mike Church",
+        "Grace"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Dead Again",
+          "release_year": 1991,
+          "story_role": "The Meadows rest home",
+          "filming_component": "720 South Mariposa Avenue, Los Angeles, CA",
+          "source_ids": [
+            "e2c_dead_locations",
+            "e2c_dead_afi"
+          ],
+          "story_time": {
+            "year": 1991,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_dead_locations",
+              "e2c_dead_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Inga",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mike Church",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Grace",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n444-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7JHcBqZOSpPOKQuOdJHFd9H2V_U9JyQMqrdhtZnF4EcCV1cSPfjCOyLW6zFfmZ6O_ePepxHxa0N57u1yridKSEkuPGyvRwDc5Cm_Jmy1W8qZo88lSG8sdSx5WZNqc1I1ufxFSJ8XXvyq5/s1600/Retirement.JPG",
+          "credit": "Dead Again film frame; Chas Demster / It’s Filmed There",
+          "alt": "The Meadows rest home in Dead Again",
+          "width": 843,
+          "height": 471,
+          "title": "Dead Again"
+        },
+        "place": {
+          "src": "photos/n444-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9P6zZbTOJaW18jldRRXjk9NaMP1BQGv_aMFbDkY2Gn9gxn7N9q6FupPN2-CuO_Pcp2qOeU4obmO0kFqPa5ykndloy9_z92n9zh8KsmevH5oyvHO_lFAOUxDCFOZGBYHU_m4lonwgKWcsHD-GJZ5zE4sWCIW9-Lof6snqaBLPzsRaWRViWqUUgiPvF_9w/s2819/A.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The Meadows rest home — real production site",
+          "width": 1100,
+          "height": 618,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 445,
+      "name": "Jake Scully’s apartment",
+      "short": "Jake Scully’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "322 North Sycamore Avenue, Los Angeles",
+      "area": "Fairfax",
+      "coordinates": [
+        -118.342752092678,
+        34.076898933424
+      ],
+      "productionCoordinates": [
+        -118.342752092678,
+        34.076898933424
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Fairfax",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Jake Scully",
+        "Carol"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Jake Scully’s apartment",
+          "filming_component": "322 North Sycamore Avenue, Los Angeles, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jake Scully",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Carol",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n445-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7_MUO31HrSGdWNHNUCMSdvqJSrmc5KwAQi2DeFzesmgFvc3vcknaFtrlbpfMPQ4OcnPgDFr8auoBH6hyphenhyphenWdruXOewBP2iOSqFQ6cVs2Cc4N-rZi7UQA9ODXmUR8U1lKXPBdBrjySp_TxiN/s1600/His+House.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Jake Scully’s apartment in Body Double",
+          "width": 832,
+          "height": 454,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n445-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZwNVjztxK-0VXn_gemrsmuqsXSvSHXPfUZHzY0MSDastUmco23gHKUDgnmgZeYBI9MR_G5Qb0yJfQcUX6NwghI4QutS_6W_NXxAj8BRCw1P0T9VkYOydnMNeTBHZjZ9LrSvIPdl0R71E/s1600/IMG_20170908_140951+-+Copy.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Jake Scully’s apartment — real production site",
+          "width": 1100,
+          "height": 825,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 446,
+      "name": "Jake’s Chemosphere house-sit",
+      "short": "Jake’s Chemosphere house-sit",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "7776 Torreyson Drive, Los Angeles",
+      "area": "Hollywood Hills",
+      "coordinates": [
+        -118.368764826268,
+        34.127581452079
+      ],
+      "productionCoordinates": [
+        -118.368764826268,
+        34.127581452079
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood Hills",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Jake Scully",
+        "Sam Bouchard",
+        "Holly Body"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Jake’s Chemosphere house-sit",
+          "filming_component": "7776 Torreyson Drive, Los Angeles, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jake Scully",
+              "relationship": "house-sits here"
+            },
+            {
+              "name": "Sam Bouchard",
+              "relationship": "offers Jake the house-sitting arrangement"
+            },
+            {
+              "name": "Holly Body",
+              "relationship": "visits Jake here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n446-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc_g5EBM9XOEYgpZyQj8tbsBnKg4QYeyxuGP1mL4N1J9LT8YHwl7N8Ar50uv-AG9RfrY7KHnFilE45iUjDG614Xa53wAsJQvZr20QpIMTFTZakTxX9xFrYJxEP1mmTnBRe9zu19yA9OP-W/s1600/Chemisphere.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Jake’s Chemosphere house-sit in Body Double",
+          "width": 825,
+          "height": 455,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n446-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKxEZfZekz8FaTHYE_p8Br9wF9YlwAJCtg42aLTuftP_Mz4CfREL3YP0gVm0ri-il1-nATmK5hcGG5OdSBXF8T5pjdOztoU9KhIQjvo1D1VxDfwTtKuO8yIMcH3tO-TGcE4dxxjlrGxfQ/s1600/DSCF2222.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Jake’s Chemosphere house-sit — real production site",
+          "width": 1100,
+          "height": 822,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 447,
+      "name": "Gloria Revelle’s home",
+      "short": "Gloria Revelle’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "1405 Miller Drive, Los Angeles",
+      "area": "Hollywood Hills",
+      "coordinates": [
+        -118.3698,
+        34.1264
+      ],
+      "productionCoordinates": [
+        -118.376917568211,
+        34.096694432244
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Opposite the Chemosphere, Hollywood Hills · approximate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder"
+        ],
+        "reason": "The film places Gloria’s windows across the canyon within the Chemosphere telescope’s view. The Miller Drive house and Cromwell Avenue gate are geographically separate production components, so neither is treated as the story address. This editorial point is on a nearby opposite slope; no canonical parcel is known."
+      },
+      "people": [
+        "Gloria Revelle",
+        "Alexander Revelle / Sam Bouchard",
+        "Holly Body",
+        "Jake Scully"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Gloria Revelle’s home",
+          "filming_component": "1405 Miller Drive, Los Angeles, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gloria Revelle",
+              "relationship": "lives here and is killed here"
+            },
+            {
+              "name": "Alexander Revelle / Sam Bouchard",
+              "relationship": "husband and killer"
+            },
+            {
+              "name": "Holly Body",
+              "relationship": "performs as Gloria’s double"
+            },
+            {
+              "name": "Jake Scully",
+              "relationship": "watches from across the canyon"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Body Double",
+          "people": [
+            "Gloria Revelle"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n447-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSpwJwvxCXKivPB0t47rmcmwqn1RSzaFrnHEiYeCc8bJOpKaeChtFbh6QoNDmiJoESi2qCwEjdVJSEaq9V0ikBGnKk8fUbm_a5UxaggDfQXeBoDciVN4uj8_27XP25KMIctceDfCoOmtyJ/s1600/Spied+House.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Gloria Revelle’s home in Body Double",
+          "width": 826,
+          "height": 448,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n447-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.378117568211%2C34.095894432244%2C-118.375717568211%2C34.097494432244&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Gloria Revelle’s home — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Aerial of the Miller Drive production house; its position differs from the inferred story home. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 448,
+      "name": "Bellini’s at the Rodeo Collection",
+      "short": "Bellini’s at the Rodeo Collection",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "421 North Rodeo Drive, Beverly Hills",
+      "area": "Beverly Hills",
+      "coordinates": [
+        -118.403742927315,
+        34.069489456746
+      ],
+      "productionCoordinates": [
+        -118.403742927315,
+        34.069489456746
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Beverly Hills",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Gloria Revelle",
+        "Jake Scully"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Bellini’s at the Rodeo Collection",
+          "filming_component": "421 North Rodeo Drive, Beverly Hills, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gloria Revelle",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Jake Scully",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n448-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsTOoSyWgPfRlV4LKk21-q7t2452RZyj4sXJdjbUkWYJ9NbeaIE3BfzTGIFyHAvpc8SysbII0VWqdWhqd8k09grjmOrHIRoiK4Vi0thJ-hKZFqKBHeTih2typaomvvvG2d6Xpn77JTDRB/s1600/Mall+1.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Bellini’s at the Rodeo Collection in Body Double",
+          "width": 828,
+          "height": 451,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n448-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk-rpjUI_qWHXtDv7nXHD1bxnsdYt1_z6R0dogn34LMy5hGrv4CswEX84C2asJ3VyR8HYRy3Gxt15hoNKLQee8jYzEzntEv3ZL07DsogVaQdkoK9GImWvhOUyMeBW1dik9n3GjggH1jqk/s1600/DSCF6592+-+Copy.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Bellini’s at the Rodeo Collection — real production site",
+          "width": 1100,
+          "height": 822,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 449,
+      "name": "Beach Terrace Motel",
+      "short": "Beach Terrace Motel",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "1700 East Ocean Boulevard, Long Beach",
+      "area": "Long Beach",
+      "coordinates": [
+        -118.17235328172,
+        33.764819513897
+      ],
+      "productionCoordinates": [
+        -118.17235328172,
+        33.764819513897
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Long Beach",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder",
+          "e2c_body_dialogue"
+        ],
+        "reason": "The dialogue names the Beach Terrace Motel and the beach, without identifying a city or neighborhood. The researched Long Beach exteriors remain filming proxies; no independent canonical Long Beach address is asserted. The motel and nearby tunnel form the same screen beach sequence."
+      },
+      "people": [
+        "Gloria Revelle",
+        "Jake Scully"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Beach Terrace Motel",
+          "filming_component": "1700 East Ocean Boulevard, Long Beach, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story",
+            "e2c_body_dialogue"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Gloria Revelle",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Jake Scully",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n449-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7qyq1eflSTu7XVR81AQNHRjGJZE9X6jQnqM28SFBx1qCLsN_O_-vRrsHbAC6NUt_gGtWy_QbOB-i-u_a0ne74m-ASpVYrKmrLfOZTC7R2PUao8Q28nmpAV7g74Go0EhCcsonWQ66_lXTj/s1600/Motel+1.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Beach Terrace Motel in Body Double",
+          "width": 826,
+          "height": 453,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n449-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghXQ7G8WPmepSin5mpbFfOcNZFDX2pjwZx9BoZFLAAAM6hf2fzI1F3Xv1b21mDzvXZbFa_rwuBaWLES_ZSTV1tljso5PLjCISktJWg_2Okcv0WxQggEvmoac3FS0TiBgsMsZeT8U1QhtlIypJeAvCkdyaOypf_fse1YZl-PXoLy0hBH4liLEocoTj1/s2039/A.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Beach Terrace Motel — real production site",
+          "width": 1100,
+          "height": 657,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 450,
+      "name": "Jake’s tunnel pursuit",
+      "short": "Jake’s tunnel pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "2100 East Ocean Boulevard, Long Beach",
+      "area": "Long Beach",
+      "coordinates": [
+        -118.168199964877,
+        33.763000012265
+      ],
+      "productionCoordinates": [
+        -118.168199964877,
+        33.763000012265
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Long Beach",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder",
+          "e2c_body_dialogue"
+        ],
+        "reason": "The dialogue names the Beach Terrace Motel and the beach, without identifying a city or neighborhood. The researched Long Beach exteriors remain filming proxies; no independent canonical Long Beach address is asserted. The motel and nearby tunnel form the same screen beach sequence."
+      },
+      "people": [
+        "Jake Scully",
+        "Gloria Revelle"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Jake’s tunnel pursuit",
+          "filming_component": "2100 East Ocean Boulevard, Long Beach, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story",
+            "e2c_body_dialogue"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jake Scully",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Gloria Revelle",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n450-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-I2d5Y3i6_rinDE6jeatk3NBUQaMAFZmMD_c86iO6Z_rmD_nhYOCt_NMYk8J8n5YYGfdsZkfRCQuUnybvDfiCWew3ARJMr2B_YakK8-ywP4KrqHCWoN9TcqgxgU7CQBm5PpOjpIq6hyF6QszCBCYatGRggG4t4fOhsmLm-9N1sOqUOs4Th1_TX2fp/s761/Tunnel.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Jake’s tunnel pursuit in Body Double",
+          "width": 761,
+          "height": 452,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n450-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSMP-hrIwBwSbNUaysBGFH21g71n1m9yKmxbT_PiE3KSAETVYZHZqgFB4kHwTlech1flm2GCBjr0E6KKKp87tS_WvMlZW-32F9PfdNJAZuVe2BAvaqS-_oIESzSICIc0frIdTmjy7fOOtXW5x87YBBYEafQg6fw_aEeR2iikVAlK46fGpNfVWzQc1t/s868/LA%202007%20Pictures%20449.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Jake’s tunnel pursuit — real production site",
+          "width": 868,
+          "height": 651,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 451,
+      "name": "Holly’s burial attempt",
+      "short": "Holly’s burial attempt",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "14001 Foothill Boulevard, Los Angeles",
+      "area": "Sylmar",
+      "coordinates": [
+        -118.49653,
+        34.32258
+      ],
+      "productionCoordinates": [
+        -118.49653,
+        34.32258
+      ],
+      "precision": "scene-area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Sylmar",
+        "precision": "scene-area",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder",
+          "e2c_body_afi"
+        ],
+        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "people": [
+        "Holly Body",
+        "Jake Scully",
+        "Alexander Revelle / Sam Bouchard"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Holly’s burial attempt",
+          "filming_component": "14001 Foothill Boulevard, Los Angeles, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story",
+            "e2c_body_afi"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Holly Body",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Jake Scully",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Alexander Revelle / Sam Bouchard",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n451-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeGF3lwucT5Rl4qUth-RXst_csZbdc2EaxCuQeI8t8-3noA2FbdLgq6tP5uJbPrGurC7l53k5lYLfYoM4hbClKWY8GjA84mqcQLjECeQv_D-uav6p2IS2iUHm5CkhLyxS1lgy9zZKR59S4/s1600/Reservoir.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Holly’s burial attempt in Body Double",
+          "width": 827,
+          "height": 452,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n451-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSJ9NPByJAs2lrUfvN9qBeKKSWBBwJKMJQl2JrS3Q2n1zYyWSi3uZMaHdjP_u52G0mAyLeE3HPo7kJNOAJkmwQrqFRfGyUq2Hew7LHulPH9L_Jw9-a6EK4b46zsVHbM1dEZNxUXrDTrSHTEC1cLo2i5i6QUeTgVY86Z3s_VMpnpG5OVx_LJNJhOpB/s1400/B.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Holly’s burial attempt — Los Angeles Aqueduct Cascades",
+          "width": 1100,
+          "height": 786,
+          "caption": "Site",
+          "note": "Los Angeles Aqueduct Cascades comparison; the Mulholland gate is a separate production component, not a connecting route."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Body Double",
+          "people": [
+            "Alexander Revelle / Sam Bouchard"
+          ],
+          "label": "Alexander Revelle’s death"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "name": "Jane & Blanche Hudson’s home",
+      "short": "Jane & Blanche Hudson’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "172 South McCadden Place, Los Angeles",
+      "area": "Hancock Park",
+      "coordinates": [
+        -118.336864643887,
+        34.071469010819
+      ],
+      "productionCoordinates": [
+        -118.336864643887,
+        34.071469010819
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hancock Park",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_baby_locations",
+          "e2c_baby_story",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Jane Hudson",
+        "Blanche Hudson",
+        "Elvira Stitt",
+        "Edwin Flagg"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "What Ever Happened to Baby Jane?",
+          "release_year": 1962,
+          "story_role": "Jane & Blanche Hudson’s home",
+          "filming_component": "172 South McCadden Place, Los Angeles, CA",
+          "source_ids": [
+            "e2c_baby_locations",
+            "e2c_baby_story"
+          ],
+          "story_time": {
+            "year": 1962,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_baby_locations",
+              "e2c_baby_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jane Hudson",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Blanche Hudson",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Elvira Stitt",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Edwin Flagg",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "What Ever Happened to Baby Jane?",
+          "people": [
+            "Elvira Stitt"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n452-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666476643523-RHJA8SUVHY4ZJU8J03WN/What+Ever+Happened+to+Baby+Jane+%281%29.jpg",
+          "credit": "What Ever Happened to Baby Jane? film frame; Set-Jetter / Robert Patterson",
+          "alt": "Jane & Blanche Hudson’s home in What Ever Happened to Baby Jane?",
+          "width": 797,
+          "height": 450,
+          "title": "What Ever Happened to Baby Jane?",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+        },
+        "place": {
+          "src": "photos/n452-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666476643523-RHJA8SUVHY4ZJU8J03WN/What+Ever+Happened+to+Baby+Jane+%281%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Jane & Blanche Hudson’s home — real production site",
+          "width": 797,
+          "height": 450,
+          "caption": "Site",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 453,
+      "name": "Jane & Blanche at the beach",
+      "short": "Jane & Blanche at the beach",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Westward Beach Road, Malibu",
+      "area": "Point Dume",
+      "coordinates": [
+        -118.8169,
+        34.008
+      ],
+      "productionCoordinates": [
+        -118.8169,
+        34.008
+      ],
+      "precision": "beach-area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Point Dume",
+        "precision": "beach-area",
+        "sourceIds": [
+          "e2c_baby_locations",
+          "e2c_baby_story",
+          "e2c_geocoder"
+        ],
+        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "people": [
+        "Jane Hudson",
+        "Blanche Hudson"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "What Ever Happened to Baby Jane?",
+          "release_year": 1962,
+          "story_role": "Jane & Blanche at the beach",
+          "filming_component": "Westward Beach Road, Malibu, CA",
+          "source_ids": [
+            "e2c_baby_locations",
+            "e2c_baby_story"
+          ],
+          "story_time": {
+            "year": 1962,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_baby_locations",
+              "e2c_baby_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jane Hudson",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Blanche Hudson",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n453-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666477004614-I0FP5Z4IAU0MDABD485C/What+Ever+Happened+to+Baby+Jane+%2895%29.jpg",
+          "credit": "What Ever Happened to Baby Jane? film frame; Set-Jetter / Robert Patterson",
+          "alt": "Jane & Blanche at the beach in What Ever Happened to Baby Jane?",
+          "width": 797,
+          "height": 450,
+          "title": "What Ever Happened to Baby Jane?",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+        },
+        "place": {
+          "src": "photos/n453-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1666477004614-I0FP5Z4IAU0MDABD485C/What+Ever+Happened+to+Baby+Jane+%2895%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Jane & Blanche at the beach — real production site",
+          "width": 797,
+          "height": 450,
+          "caption": "Site",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 454,
+      "name": "Mildred & Veda Pierce’s home",
+      "short": "Mildred & Veda Pierce’s home",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "1143 North Jackson Street, Glendale",
+      "area": "Glendale",
+      "coordinates": [
+        -118.250006082584,
+        34.16311229773
+      ],
+      "productionCoordinates": [
+        -118.250006082584,
+        34.16311229773
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1143 Corvallis Street, Glendale · filming proxy",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_mildred_locations",
+          "e2c_mildred_discover",
+          "e2c_mildred_afi",
+          "e2c_mildred_guide",
+          "e2c_geocoder"
+        ],
+        "reason": "Mildred names fictional Corvallis Street. The preserved Jackson Street exterior represents the Glendale home; its production address is not asserted as the canonical street."
+      },
+      "people": [
+        "Mildred Pierce",
+        "Veda Pierce",
+        "Kay Pierce",
+        "Bert Pierce"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Mildred Pierce",
+          "release_year": 1945,
+          "story_role": "Mildred & Veda Pierce’s home",
+          "filming_component": "1143 North Jackson Street, Glendale, CA",
+          "source_ids": [
+            "e2c_mildred_locations",
+            "e2c_mildred_discover",
+            "e2c_mildred_afi",
+            "e2c_mildred_guide"
+          ],
+          "story_time": {
+            "year": 1945,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_mildred_locations",
+              "e2c_mildred_discover",
+              "e2c_mildred_afi",
+              "e2c_mildred_guide"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Mildred Pierce",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Veda Pierce",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Kay Pierce",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Bert Pierce",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n454-screen.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/mildredpierce",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1678156884131-1YEWOTHO7NEGI4PU7PK7/Mildred+Pierce+%281%29.jpg",
+          "credit": "Mildred Pierce film frame; Set-Jetter / Robert Patterson",
+          "alt": "Mildred & Veda Pierce’s home in Mildred Pierce",
+          "width": 600,
+          "height": 450,
+          "title": "Mildred Pierce",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. "
+        },
+        "place": {
+          "src": "photos/n454-place.jpg",
+          "sourceUrl": "https://www.set-jetter.com/ontheset/mildredpierce",
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1678156884131-1YEWOTHO7NEGI4PU7PK7/Mildred+Pierce+%281%29.jpg",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "Mildred & Veda Pierce’s home — real production site",
+          "width": 600,
+          "height": 450,
+          "caption": "Site",
+          "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 455,
+      "name": "Monte Beragon’s beach house",
+      "short": "Monte Beragon’s beach house",
+      "category": "home",
+      "categories": [
+        "home",
+        "event",
+        "death"
+      ],
+      "address": "26652 Latigo Shore Drive, Malibu",
+      "area": "Malibu",
+      "coordinates": [
+        -118.754234304072,
+        34.028690040125
+      ],
+      "productionCoordinates": [
+        -118.754234304072,
+        34.028690040125
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Malibu",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_mildred_locations",
+          "e2c_mildred_discover",
+          "e2c_mildred_afi",
+          "e2c_mildred_guide",
+          "e2c_mildred_beach",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Monte Beragon",
+        "Mildred Pierce",
+        "Veda Pierce",
+        "Wally Fay"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Mildred Pierce",
+          "release_year": 1945,
+          "story_role": "Monte Beragon’s beach house",
+          "filming_component": "26652 Latigo Shore Drive, Malibu, CA",
+          "source_ids": [
+            "e2c_mildred_locations",
+            "e2c_mildred_discover",
+            "e2c_mildred_afi",
+            "e2c_mildred_guide",
+            "e2c_mildred_beach"
+          ],
+          "story_time": {
+            "year": 1945,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_mildred_locations",
+              "e2c_mildred_discover",
+              "e2c_mildred_afi",
+              "e2c_mildred_guide",
+              "e2c_mildred_beach"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Monte Beragon",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mildred Pierce",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Veda Pierce",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Wally Fay",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home",
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Mildred Pierce",
+          "people": [
+            "Monte Beragon"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n455-screen.jpg",
+          "sourceUrl": "https://www.filmnoirfoundation.org/dennismay.html",
+          "imageUrl": "https://www.filmnoirfoundation.org/img/fnf06/mildred_still.jpg",
+          "credit": "Mildred Pierce film frame; Film Noir Foundation",
+          "alt": "Monte Beragon’s beach house in Mildred Pierce",
+          "width": 246,
+          "height": 190,
+          "title": "Mildred Pierce"
+        },
+        "place": {
+          "src": "photos/n455-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.755434304072%2C34.027890040125%2C-118.753034304072%2C34.029490040125&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Monte Beragon’s beach house — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Former beach-house site; the screen house collapsed during a January 1983 storm. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 456,
+      "name": "Barney’s Beanery",
+      "short": "Barney’s Beanery",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "8447 Santa Monica Boulevard, West Hollywood",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.37470147683,
+        34.090850736988
+      ],
+      "productionCoordinates": [
+        -118.37470147683,
+        34.090850736988
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "West Hollywood",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "e2c_body_locations",
+          "e2c_body_rewind",
+          "e2c_body_story",
+          "e2c_geocoder"
+        ],
+        "reason": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "people": [
+        "Jake Scully",
+        "Sam Bouchard"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Body Double",
+          "release_year": 1984,
+          "story_role": "Barney’s Beanery",
+          "filming_component": "8447 Santa Monica Boulevard, West Hollywood, CA",
+          "source_ids": [
+            "e2c_body_locations",
+            "e2c_body_rewind",
+            "e2c_body_story"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_body_locations",
+              "e2c_body_rewind",
+              "e2c_body_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jake Scully",
+              "relationship": "associated with this scene"
+            },
+            {
+              "name": "Sam Bouchard",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n456-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq0w9SJYZ7oC9yRJDgRolQoLZyrhvgY-1YZnflzgb4xdJe0TBeFKyIDb4z-f6Rzbl8SaL_e7AUFwxgOlEXrARfuuNRZMIX55UwbvCqALsw1UCDSXHCM051x1YiF_5nPk17AuNu5Sv_L6_Z/s1600/Bar.JPG",
+          "credit": "Body Double film frame; Chas Demster / It’s Filmed There",
+          "alt": "Barney’s Beanery in Body Double",
+          "width": 831,
+          "height": 451,
+          "title": "Body Double"
+        },
+        "place": {
+          "src": "photos/n456-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvApqQeB3DzQn6Yj2ut6W5pbv1eCfMK6k4_erWAwnRn4VaM7LHdYGsRY7iPqCubXbiNEFMv_IFix4MpO8wEN5tKpVzQPYw1Xi_F-LQSPg5NylpCRptt0KN3DMnpuphU4JUBA7EJqIIxbVA/s1600/Los+Angeles+2011+255.jpg",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Barney’s Beanery — real production site",
+          "width": 1100,
+          "height": 825,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 457,
+      "name": "Jim Stark’s home",
+      "short": "Jim Stark’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4505 West 62nd Street, Los Angeles",
+      "area": "Windsor Hills",
+      "coordinates": [
+        -118.424580867732,
+        34.085107312802
+      ],
+      "productionCoordinates": [
+        -118.355722249651,
+        33.98357813432
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "1753 Angelo · editorial estimate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "e2c_rebel_locations",
+          "e2c_rebel_guide",
+          "e2c_rebel_script",
+          "e2c_geocoder"
+        ],
+        "reason": "The film gives 1753 Angelo without a suffix. This editorial estimate interpolates that number on real Angelo Drive in Beverly Hills. The Windsor Hills alley and garage are production components, and no claim is made that the film verifies this parcel."
+      },
+      "people": [
+        "Jim Stark",
+        "Frank Stark",
+        "Carol Stark"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Rebel Without a Cause",
+          "release_year": 1955,
+          "story_role": "Jim Stark’s home",
+          "filming_component": "4505 West 62nd Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_rebel_locations",
+            "e2c_rebel_guide",
+            "e2c_rebel_script"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_rebel_locations",
+              "e2c_rebel_guide",
+              "e2c_rebel_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jim Stark",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Frank Stark",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Carol Stark",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n457-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrqPbtfLQEUC7sDF5jAiGJqhmBM2yrkbQqwNi46MRkLDJ1Xmc7wqLUGjp24DpbueRBg_8pkyQHXY5MsuTgTd19dyzSziOsP9xBKfKu5LZhg2aFWd4t4Sxmt_K4X62gMREsXNztxasUosJH/s1600/Jim+1.jpg",
+          "credit": "Rebel Without a Cause film frame; Chas Demster / It’s Filmed There",
+          "alt": "Jim Stark’s home in Rebel Without a Cause",
+          "width": 1100,
+          "height": 431,
+          "title": "Rebel Without a Cause"
+        },
+        "place": {
+          "src": "photos/n457-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-rN47btVuuGOj1ts8l7O9DEpBwTYXE3zwKmPTlzGhTgWkqr40Ky-dFcgd6I3uiNSM3l2d7cyR4YC9iotASXEX4gzIFOYroDEJm1tjW1zmDkU9XJa55RwCqMgHkI5TsGPChW-SVApvtGw/s1600/IMG_4778.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Jim Stark’s home — real production site",
+          "width": 800,
+          "height": 506,
+          "caption": "Site",
+          "note": "The Citrus Avenue alley and Stark garage production exterior, not the story’s Angelo address."
+        }
+      }
+    },
+    {
+      "id": 458,
+      "name": "Judy’s home",
+      "short": "Judy’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "6122 South Citrus Avenue, Los Angeles",
+      "area": "Windsor Hills",
+      "coordinates": [
+        -118.424930867732,
+        34.085507312802
+      ],
+      "productionCoordinates": [
+        -118.356021483595,
+        33.983896981917
+      ],
+      "precision": "area_inferred",
+      "placement": {
+        "kind": "inferred",
+        "address": "Near Jim Stark’s home · editorial estimate",
+        "precision": "area_inferred",
+        "sourceIds": [
+          "e2c_rebel_locations",
+          "e2c_rebel_guide",
+          "e2c_rebel_script",
+          "e2c_geocoder"
+        ],
+        "reason": "Jim meets Judy just outside their homes on his way to school. Their adjacent production alley is in Windsor Hills, but Jim’s dialogue address is 1753 Angelo. Judy’s exact story address is unstated; this editorial point keeps the homes near each other around the Angelo estimate."
+      },
+      "people": [
+        "Judy",
+        "Judy’s father",
+        "Judy’s mother"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Rebel Without a Cause",
+          "release_year": 1955,
+          "story_role": "Judy’s home",
+          "filming_component": "6122 South Citrus Avenue, Los Angeles, CA",
+          "source_ids": [
+            "e2c_rebel_locations",
+            "e2c_rebel_guide",
+            "e2c_rebel_script"
+          ],
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_rebel_locations",
+              "e2c_rebel_guide",
+              "e2c_rebel_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Judy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Judy’s father",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Judy’s mother",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n458-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijP48b962LDir4gX5FS6DLDvIiHrc4Q15EXoWZbcXJq2LmAcc2-T6PEj5jnLczP_Syh2oEVmEVHlQrJ_GaMDdhibRuZAv2NQmq8hVMA0M4A9nCy0tyDi0XbvX-S5qBjpfDzowJ33sslVLV/s1600/Judy+2.jpg",
+          "credit": "Rebel Without a Cause film frame; Chas Demster / It’s Filmed There",
+          "alt": "Judy’s home in Rebel Without a Cause",
+          "width": 1100,
+          "height": 433,
+          "title": "Rebel Without a Cause"
+        },
+        "place": {
+          "src": "photos/n458-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp4BhqDjSbKnqYf4Xul43ypeJga_okyT7wTDqxrSdzp_WrSBXG8xidMs8MNyYTYRI7NibzHlHrxlwX1KRuaD8eEkEjNA9OlsJuqWW13LSDpt9-rxM7FCJWb8abVa_hITcs-BX9EiF8qwg/s1600/IMG_4780.JPG",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "Judy’s home — real production site",
+          "width": 800,
+          "height": 502,
+          "caption": "Site",
+          "note": "Photograph published by the cited location researcher; capture date unverified."
+        }
+      }
+    },
+    {
+      "id": 459,
+      "name": "Steve Thompson’s family home",
+      "short": "Steve Thompson’s family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "215 North Hill Street, Los Angeles",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.2457,
+        34.0559
+      ],
+      "productionCoordinates": [
+        -118.2457,
+        34.0559
+      ],
+      "precision": "historical-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Civic Center",
+        "precision": "historical-site",
+        "sourceIds": [
+          "e2c_cross_history",
+          "e2c_cross_afi",
+          "e2c_bunkerhill",
+          "e2c_geocoder"
+        ],
+        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "people": [
+        "Steve Thompson",
+        "Mrs. Thompson",
+        "Anna Dundee"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Criss Cross",
+          "release_year": 1949,
+          "story_role": "Steve Thompson’s family home",
+          "filming_component": "215 North Hill Street, Los Angeles, CA",
+          "source_ids": [
+            "e2c_cross_history",
+            "e2c_cross_afi",
+            "e2c_bunkerhill"
+          ],
+          "story_time": {
+            "year": 1949,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "e2c_cross_history",
+              "e2c_cross_afi",
+              "e2c_bunkerhill"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Steve Thompson",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Thompson",
+              "relationship": "visits or appears here"
+            },
+            {
+              "name": "Anna Dundee",
+              "relationship": "visits or appears here"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n459-screen.jpg",
+          "sourceUrl": "https://silentlocations.com/2012/10/15/harold-lloyd-film-noir-criss-cross-and-the-hill-street-tunnel/",
+          "imageUrl": "https://silentlocations.com/wp-content/uploads/2012/10/p-10.jpg",
+          "credit": "Criss Cross film frame; John Bengtson",
+          "alt": "Steve Thompson’s family home in Criss Cross",
+          "width": 629,
+          "height": 469,
+          "title": "Criss Cross",
+          "note": "Film-frame portion separated from the historian’s side-by-side archival comparison. "
+        },
+        "place": {
+          "src": "photos/n459-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2469%2C34.0551%2C-118.2445%2C34.0567&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Steve Thompson’s family home — real production site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Film-frame portion separated from the historian’s side-by-side archival comparison. Aerial of former Court Hill; the house, tunnel and hill were removed during redevelopment. Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "e2c_kmd_locations",
+      "title": "Movie Tourist: Kiss Me Deadly, matched scenes and locations",
+      "url": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_kmd_afi",
+      "title": "AFI Catalog: Kiss Me Deadly",
+      "url": "https://catalog.afi.com/Film/51550-KISS-ME-DEADLY",
+      "source_type": "film archive"
+    },
+    {
+      "id": "e2c_kmd_flower",
+      "title": "Filmsite: Kiss Me Deadly, Ray Diker at 121 Flower Street",
+      "url": "https://www.filmsite.org/kiss2.html",
+      "source_type": "scene analysis"
+    },
+    {
+      "id": "e2c_bunkerhill",
+      "title": "Jim Dawson: Bunker Hill Goes to the Movies",
+      "url": "https://electricearl.com/bh/index.html",
+      "source_type": "local-history location research"
+    },
+    {
+      "id": "e2c_dead_locations",
+      "title": "It’s Filmed There: Dead Again, timestamped comparisons",
+      "url": "https://www.itsfilmedthere.com/2011/03/dead-again.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_dead_afi",
+      "title": "AFI Catalog: Dead Again",
+      "url": "https://catalog.afi.com/Film/58846-DEAD-AGAIN",
+      "source_type": "film archive"
+    },
+    {
+      "id": "e2c_body_locations",
+      "title": "It’s Filmed There: Body Double, timestamped comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/01/body-double.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_body_rewind",
+      "title": "80s Movies Rewind: Body Double location notes",
+      "url": "https://www.fast-rewind.com/locations_bodydouble.htm",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_body_story",
+      "title": "Body Double: plot and Hollywood setting",
+      "url": "https://en.wikipedia.org/wiki/Body_Double",
+      "source_type": "secondary story reference"
+    },
+    {
+      "id": "e2c_baby_locations",
+      "title": "Set-Jetter: What Ever Happened to Baby Jane?",
+      "url": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_baby_story",
+      "title": "What Ever Happened to Baby Jane?: story and setting",
+      "url": "https://en.wikipedia.org/wiki/What_Ever_Happened_to_Baby_Jane%3F_(film)",
+      "source_type": "secondary story reference"
+    },
+    {
+      "id": "e2c_mildred_locations",
+      "title": "Set-Jetter: Mildred Pierce",
+      "url": "https://www.set-jetter.com/ontheset/mildredpierce",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_mildred_discover",
+      "title": "Discover Los Angeles: Mildred Pierce’s Glendale house and Malibu beach house",
+      "url": "https://www.discoverlosangeles.com/things-to-do/go-on-location-film-noir-locations-in-los-angeles",
+      "source_type": "city tourism location research"
+    },
+    {
+      "id": "e2c_mildred_beach",
+      "title": "Film Noir Foundation: Dennis May on the Mildred Pierce beach house",
+      "url": "https://www.filmnoirfoundation.org/dennismay.html",
+      "source_type": "film preservation organization / eyewitness account"
+    },
+    {
+      "id": "e2c_mildred_afi",
+      "title": "AFI Catalog: Mildred Pierce",
+      "url": "https://catalog.afi.com/Film/24502-MILDRED-PIERCE",
+      "source_type": "film archive"
+    },
+    {
+      "id": "e2c_mildred_guide",
+      "title": "Worldwide Guide: Mildred Pierce exteriors and studio interiors",
+      "url": "https://www.movie-locations.com/movies/m/Mildred-Pierce.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_rebel_locations",
+      "title": "It’s Filmed There: Rebel Without a Cause",
+      "url": "https://www.itsfilmedthere.com/2013/07/rebel-without-cause.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_rebel_guide",
+      "title": "Worldwide Guide: Rebel Without a Cause story and filming geography",
+      "url": "https://www.movie-locations.com/movies/r/Rebel-Without-A-Cause.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "e2c_rebel_script",
+      "title": "Rebel Without a Cause screenplay",
+      "url": "https://araratfilm.org/wp-content/uploads/2011/06/rebelwithoutcause-script1.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "e2c_cross_history",
+      "title": "John Bengtson: Criss Cross and the Hill Street Tunnel",
+      "url": "https://silentlocations.com/2012/10/15/harold-lloyd-film-noir-criss-cross-and-the-hill-street-tunnel/",
+      "source_type": "film-location historian"
+    },
+    {
+      "id": "e2c_cross_afi",
+      "title": "AFI Catalog: Criss Cross",
+      "url": "https://catalog.afi.com/Film/25889-CRISS-CROSS",
+      "source_type": "film archive"
+    },
+    {
+      "id": "e2c_geocoder",
+      "title": "Esri World Geocoding Service: address candidate reference",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "public address geocoder"
+    },
+    {
+      "id": "e2c_imagery",
+      "title": "Esri World Imagery: real-site aerials",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "imagery service"
+    },
+    {
+      "id": "e2c_body_afi",
+      "title": "AFI Catalog: Body Double, aqueduct rescue and Sam’s fall",
+      "url": "https://catalog.afi.com/Film/68262-BODY-DOUBLE",
+      "source_type": "film archive"
+    },
+    {
+      "id": "e2c_body_dialogue",
+      "title": "Body Double dialogue transcript: Beach Terrace Motel sequence",
+      "url": "https://www.stockq.org/moviescript/B/body-double.php",
+      "source_type": "film dialogue transcript"
+    }
+  ],
+  "audit": [
+    {
+      "id": 430,
+      "production_geocode": {
+        "coordinates": [
+          -118.429607720314,
+          34.06724692046
+        ],
+        "score": 100,
+        "match": "10401 Wilshire Blvd, Los Angeles, California, 90024",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10401+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.429607720314,
+          34.06724692046
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 431,
+      "production_geocode": {
+        "coordinates": [
+          -118.281168992762,
+          34.075267982704
+        ],
+        "score": 99.68,
+        "match": "W Temple St & N Dillon St, Los Angeles, California, 90026",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Temple+Street+%26+Dillon+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.281168992762,
+          34.075267982704
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 432,
+      "production_geocode": {
+        "coordinates": [
+          -118.242822959201,
+          34.060327994665
+        ],
+        "score": 100,
+        "match": "611 W Cesar E Chavez Ave, Los Angeles, California, 90012",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=611+West+Cesar+E.+Chavez+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.251325067032,
+          34.055348509962
+        ],
+        "basis": "The film gives 121 Flower Street. The Johnson house at the former Sunset Boulevard/Hill Place corner was only its production exterior. This point interpolates the number on South Flower Street in Bunker Hill; it does not identify a surviving story parcel."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 433,
+      "production_geocode": {
+        "coordinates": [
+          -118.404340808468,
+          34.090442412575
+        ],
+        "score": 100,
+        "match": "603 Doheny Rd, Beverly Hills, California, 90210",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=603+Doheny+Road%2C+Beverly+Hills%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.404340808468,
+          34.090442412575
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 434,
+      "production_geocode": {
+        "coordinates": [
+          -118.250134325703,
+          34.052363887454
+        ],
+        "score": 100,
+        "match": "W 3rd St & S Olive St, Los Angeles, California, 90013",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=West+3rd+Street+%26+South+Olive+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.250134325703,
+          34.052363887454
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 435,
+      "production_geocode": {
+        "coordinates": [
+          -118.28299834313,
+          34.008569323462
+        ],
+        "score": 100,
+        "match": "4135 S Figueroa St, Los Angeles, California, 90037",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4135+South+Figueroa+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.28299834313,
+          34.008569323462
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 436,
+      "production_geocode": {
+        "coordinates": [
+          -118.331878584964,
+          34.098155104601
+        ],
+        "score": 100,
+        "match": "6525 Sunset Blvd, Los Angeles, California, 90028",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6525+Sunset+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.331878584964,
+          34.098155104601
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 437,
+      "production_geocode": {
+        "coordinates": [
+          -118.8163,
+          34.0067
+        ],
+        "precision": "beach-area",
+        "method": "historical or scene-location reference"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.8163,
+          34.0067
+        ],
+        "basis": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 438,
+      "production_geocode": {
+        "coordinates": [
+          -118.169949603346,
+          34.137352027063
+        ],
+        "score": 100,
+        "match": "380 S San Rafael Ave, Pasadena, California, 91105",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=380+South+San+Rafael+Avenue%2C+Pasadena%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.169949603346,
+          34.137352027063
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 439,
+      "production_geocode": {
+        "coordinates": [
+          -118.26930239716,
+          34.096530691765
+        ],
+        "score": 100,
+        "match": "2079 Kenilworth Ave, Los Angeles, California, 90039",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2079+Kenilworth+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.26930239716,
+          34.096530691765
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 440,
+      "production_geocode": {
+        "coordinates": [
+          -118.346814046775,
+          34.075882250478
+        ],
+        "score": 100,
+        "match": "7216 Beverly Blvd, Los Angeles, California, 90036",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7216+Beverly+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.346814046775,
+          34.075882250478
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 441,
+      "production_geocode": {
+        "coordinates": [
+          -118.317053009904,
+          34.062036016985
+        ],
+        "score": 100,
+        "match": "4101 Wilshire Blvd, Los Angeles, California, 90010",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4101+Wilshire+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.317053009904,
+          34.062036016985
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 442,
+      "production_geocode": {
+        "coordinates": [
+          -118.26934137301,
+          34.079897182099
+        ],
+        "score": 100,
+        "match": "2511 W Sunset Blvd, Los Angeles, California, 90026",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2511+West+Sunset+Boulevard%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.26934137301,
+          34.079897182099
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 443,
+      "production_geocode": {
+        "coordinates": [
+          -118.278598011601,
+          34.105446019259
+        ],
+        "score": 100,
+        "match": "Franklin Ave & St George St, Los Angeles, California, 90027",
+        "precision": "StreetInt",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Franklin+Avenue+%26+St+George+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.278598011601,
+          34.105446019259
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 444,
+      "production_geocode": {
+        "coordinates": [
+          -118.298594382731,
+          34.0591372615
+        ],
+        "score": 100,
+        "match": "720 S Mariposa Ave, Los Angeles, California, 90005",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=720+South+Mariposa+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.298594382731,
+          34.0591372615
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 445,
+      "production_geocode": {
+        "coordinates": [
+          -118.342752092678,
+          34.076898933424
+        ],
+        "score": 100,
+        "match": "322 N Sycamore Ave, Los Angeles, California, 90036",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=322+North+Sycamore+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.342752092678,
+          34.076898933424
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 446,
+      "production_geocode": {
+        "coordinates": [
+          -118.368764826268,
+          34.127581452079
+        ],
+        "score": 100,
+        "match": "7776 Torreyson Dr, Los Angeles, California, 90046",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7776+Torreyson+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.368764826268,
+          34.127581452079
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 447,
+      "production_geocode": {
+        "coordinates": [
+          -118.376917568211,
+          34.096694432244
+        ],
+        "score": 100,
+        "match": "1405 Miller Dr, Los Angeles, California, 90069",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1405+Miller+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.3698,
+          34.1264
+        ],
+        "basis": "The film places Gloria’s windows across the canyon within the Chemosphere telescope’s view. The Miller Drive house and Cromwell Avenue gate are geographically separate production components, so neither is treated as the story address. This editorial point is on a nearby opposite slope; no canonical parcel is known."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 448,
+      "production_geocode": {
+        "coordinates": [
+          -118.403742927315,
+          34.069489456746
+        ],
+        "score": 100,
+        "match": "421 N Rodeo Dr, Beverly Hills, California, 90210",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=421+North+Rodeo+Drive%2C+Beverly+Hills%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.403742927315,
+          34.069489456746
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 449,
+      "production_geocode": {
+        "coordinates": [
+          -118.17235328172,
+          33.764819513897
+        ],
+        "score": 100,
+        "match": "1700 E Ocean Blvd, Long Beach, California, 90802",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1700+East+Ocean+Boulevard%2C+Long+Beach%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.17235328172,
+          33.764819513897
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 450,
+      "production_geocode": {
+        "coordinates": [
+          -118.168199964877,
+          33.763000012265
+        ],
+        "score": 100,
+        "match": "2100 E Ocean Blvd, Long Beach, California, 90803",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2100+East+Ocean+Boulevard%2C+Long+Beach%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.168199964877,
+          33.763000012265
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 451,
+      "production_geocode": {
+        "coordinates": [
+          -118.49653,
+          34.32258
+        ],
+        "precision": "scene-area",
+        "method": "historical or scene-location reference"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.49653,
+          34.32258
+        ],
+        "basis": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 452,
+      "production_geocode": {
+        "coordinates": [
+          -118.336864643887,
+          34.071469010819
+        ],
+        "score": 100,
+        "match": "172 S McCadden Pl, Los Angeles, California, 90004",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=172+South+McCadden+Place%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.336864643887,
+          34.071469010819
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 453,
+      "production_geocode": {
+        "coordinates": [
+          -118.8169,
+          34.008
+        ],
+        "precision": "beach-area",
+        "method": "historical or scene-location reference"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.8169,
+          34.008
+        ],
+        "basis": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 454,
+      "production_geocode": {
+        "coordinates": [
+          -118.250006082584,
+          34.16311229773
+        ],
+        "score": 100,
+        "match": "1143 N Jackson St, Glendale, California, 91207",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1143+North+Jackson+Street%2C+Glendale%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.250006082584,
+          34.16311229773
+        ],
+        "basis": "Mildred names fictional Corvallis Street. The preserved Jackson Street exterior represents the Glendale home; its production address is not asserted as the canonical street."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 455,
+      "production_geocode": {
+        "coordinates": [
+          -118.754234304072,
+          34.028690040125
+        ],
+        "score": 100,
+        "match": "26652 Latigo Shore Dr, Malibu, California, 90265",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=26652+Latigo+Shore+Drive%2C+Malibu%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.754234304072,
+          34.028690040125
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "id": 456,
+      "production_geocode": {
+        "coordinates": [
+          -118.37470147683,
+          34.090850736988
+        ],
+        "match": "8447 Santa Monica Blvd, West Hollywood, California, 90069",
+        "precision": "PointAddress",
+        "score": 100,
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=8447+Santa+Monica+Boulevard%2C+West+Hollywood%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.37470147683,
+          34.090850736988
+        ],
+        "basis": "Uncontradicted screen exterior retained only as a filming proxy, not independently established canon."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 457,
+      "production_geocode": {
+        "coordinates": [
+          -118.355722249651,
+          33.98357813432
+        ],
+        "score": 100,
+        "match": "4505 W 62nd St, Los Angeles, California, 90043",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4505+West+62nd+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.424580867732,
+          34.085107312802
+        ],
+        "basis": "The film gives 1753 Angelo without a suffix. This editorial estimate interpolates that number on real Angelo Drive in Beverly Hills. The Windsor Hills alley and garage are production components, and no claim is made that the film verifies this parcel."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 458,
+      "production_geocode": {
+        "coordinates": [
+          -118.356021483595,
+          33.983896981917
+        ],
+        "score": 100,
+        "match": "6122 S Citrus Ave, Los Angeles, California, 90043",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=6122+South+Citrus+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "inferred",
+        "coordinates": [
+          -118.424930867732,
+          34.085507312802
+        ],
+        "basis": "Jim meets Judy just outside their homes on his way to school. Their adjacent production alley is in Windsor Hills, but Jim’s dialogue address is 1753 Angelo. Judy’s exact story address is unstated; this editorial point keeps the homes near each other around the Angelo estimate."
+      },
+      "photo_status": "film frame plus undated comparison-site photograph"
+    },
+    {
+      "id": 459,
+      "production_geocode": {
+        "coordinates": [
+          -118.2457,
+          34.0559
+        ],
+        "precision": "historical-site",
+        "method": "historical or scene-location reference"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.2457,
+          34.0559
+        ],
+        "basis": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+      },
+      "photo_status": "film frame plus labeled site aerial"
+    },
+    {
+      "excluded": "In a Lonely Place apartment / Villa Primavera",
+      "reason": "The film used a studio recreation; the real building was the design inspiration, not the filmed courtyard.",
+      "source": "https://www.discoverlosangeles.com/things-to-do/go-on-location-film-noir-locations-in-los-angeles"
+    },
+    {
+      "excluded": "The Big Sleep (1946) sites",
+      "reason": "Studio-created streets and houses, so no real-world character address has been invented.",
+      "source": "https://www.abebooks.co.uk/9781841504858/World-Film-Locations-Angeles-Solomons-1841504858/plp"
+    },
+    {
+      "excluded": "Rebel abandoned mansion, Griffith Observatory, Dead Again Lincoln Heights Jail / High Tower apartment",
+      "reason": "These physical sites already exist in the atlas; not counted as new places."
+    },
+    {
+      "excluded": "Mildred’s individual restaurant branches",
+      "reason": "Competing exterior identifications and uncertain story placement; not padding the addition with restaurant branches."
+    },
+    {
+      "check": "Body Double motel/tunnel story geography",
+      "ids": [
+        449,
+        450
+      ],
+      "result": "Dialogue transcript names Beach Terrace Motel and the beach; no Santa Monica, Malibu or Long Beach city name appears. AFI synopsis also supplies no conflicting beach locality. Long Beach production points retained as explicitly labeled proxies, rather than canon.",
+      "sources": [
+        "https://www.stockq.org/moviescript/B/body-double.php",
+        "https://catalog.afi.com/Film/68262-BODY-DOUBLE"
+      ]
+    }
+  ]
+}
