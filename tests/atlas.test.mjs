@@ -200,6 +200,31 @@ test('new television places are recurring landmarks with story-first geography a
   assert.match(get(499).media.place.caption,/Prince interior/);
   assert.equal(data.places.filter(p=>p.name==='Craig Jones’s home').length,1,'the existing Friday home is not counted twice');
 });
+test('Angels Flight searches find Summer’s adjacent bench without inventing a railway ride',()=>{
+  const matches=filterPlaces(data.places,{film:'(500) Days of Summer',query:'Angels Flight'});
+  assert.deepEqual(matches.map(p=>p.id),[469]);
+  assert.match(matches[0].name,/Angels Knoll/);
+  assert.match(matches[0].placement.address,/beside Angels Flight/);
+  assert.equal(data.places.find(p=>p.id===479).appearances.some(a=>a.title==='(500) Days of Summer'),false);
+});
+test('northern additions are local story places with original-set provenance and recurring TV presence',()=>{
+  const north=JSON.parse(fs.readFileSync(new URL('../research/north-county.json',import.meta.url)));
+  assert.deepEqual(north.places.map(p=>p.id),[510,511,512]);
+  for(const p of north.places){
+    assert.ok(p.coordinates[1]>34.4&&p.coordinates[1]<34.6);
+    assert.equal(data.places.filter(x=>x.id===p.id).length,1);
+    assert.ok(p.placement.reason&&p.appearances[0].source_ids.length>1);
+  }
+  const park=data.places.find(p=>p.id===511);
+  assert.match(park.placement.address,/Agua Dulce/);
+  assert.match(park.placement.reason,/Universal/);
+  assert.match(park.media.place.caption,/aerial/);
+  const home=data.places.find(p=>p.id===512);
+  assert.equal(home.appearances[0].title,'Santa Clarita Diet');
+  assert.ok(home.people.includes('Sheila Hammond')&&home.people.includes('Joel Hammond'));
+  const craig=JSON.parse(fs.readFileSync(new URL('../research/baywatch-craig.json',import.meta.url)));
+  assert.equal((craig.places||[]).length,0,'unverified Craig production address must not become a pin');
+});
 test('LAX death and the channel-chase event retain photos without a false route',()=>{
   const lax=data.places.find(p=>p.id===201);
   assert.equal(lax.category,'death');assert.deepEqual(lax.deaths[0].people,['Neil McCauley']);

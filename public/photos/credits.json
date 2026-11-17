@@ -6672,7 +6672,7 @@
       "imageUrl": "https://clip.cafe/img800/this-is-my-favorite-spot.jpg",
       "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-is-my-favorite-spot/",
       "credit": "(500) Days of Summer film frame; Clip.Cafe",
-      "alt": "This is my favorite spot. - 500 Days of Summer",
+      "alt": "Tom and Summer sit on the bench at Angels Knoll, beside Angels Flight.",
       "src": "photos/n469-screen.jpg",
       "title": "(500) Days of Summer",
       "width": 800,
@@ -7383,6 +7383,75 @@
       "height": 675,
       "caption": "Prince interior · archive",
       "note": "This photo shows The Prince, 3198 West 7th Street, the first-season interior component. The marker uses the Griffin exterior. Later interiors were a studio recreation."
+    }
+  },
+  "510": {
+    "screen": {
+      "src": "photos/n510-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-nope-2022/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2024/01/sc-nope1.jpg?w=1000",
+      "credit": "Universal Pictures film frame; Film Oblivion",
+      "width": 1000,
+      "height": 446,
+      "alt": "OJ Haywood beside the corral, with the Haywood family house behind him.",
+      "title": "Nope"
+    },
+    "place": {
+      "src": "photos/n510-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/09/26/nope-2022/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/nope1-1.jpg?w=1024",
+      "credit": "Film Oblivion",
+      "width": 1024,
+      "height": 767,
+      "alt": "Aerial view of the original ranch corral after the movie house was dismantled.",
+      "caption": "Former set · aerial",
+      "note": "Aerial screenshot of the actual ranch and corral published by the location researcher. The movie house has been dismantled; capture date is not supplied."
+    }
+  },
+  "511": {
+    "screen": {
+      "src": "photos/n511-screen.jpg",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-nope-2022/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2024/01/sc-nope5.jpg?w=1000",
+      "credit": "Universal Pictures film frame; Film Oblivion",
+      "width": 1000,
+      "height": 448,
+      "alt": "The Western storefronts and visitors at Jupiter’s Claim in Nope.",
+      "title": "Nope"
+    },
+    "place": {
+      "src": "photos/n511-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3245%2C34.5250%2C-118.3202%2C34.5280&bboxSR=4326&imageSR=4326&size=1000%2C700&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Former set parcel · aerial",
+      "alt": "The original Agua Dulce Movie Ranch parcel used for Jupiter’s Claim, after removal of the theme-park set.",
+      "note": "Active-basemap aerial of the original parcel. Capture date is not supplied; the film’s park set was dismantled and rebuilt at Universal Studios for its tour. This is not the Universal replica.",
+      "width": 1000,
+      "height": 700
+    }
+  },
+  "512": {
+    "screen": {
+      "src": "photos/n512-screen.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2018/03/21/santa-clarita-diet-filming-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/e4464-hammond-house2.png",
+      "credit": "Netflix television frame; Global Film Locations",
+      "width": 848,
+      "height": 396,
+      "alt": "The Hammonds’ recurring white house in the middle of the cul-de-sac.",
+      "title": "Santa Clarita Diet"
+    },
+    "place": {
+      "src": "photos/n512-place.jpg",
+      "sourceUrl": "https://globalfilmlocations.net/2018/03/21/santa-clarita-diet-filming-locations/",
+      "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/67eb2-hammond-house3.png",
+      "credit": "Google Street View via Global Film Locations",
+      "width": 1011,
+      "height": 576,
+      "alt": "The real white house at 27528 North Weeping Willow Drive.",
+      "caption": "Site · undated",
+      "note": "Street View photograph reproduced by the location guide. Capture date is not provided; not a claim of present-day condition."
     }
   }
 }

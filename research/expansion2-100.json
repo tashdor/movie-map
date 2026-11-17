@@ -7699,8 +7699,8 @@
     },
     {
       "id": 469,
-      "name": "Tom’s bench",
-      "short": "Tom’s bench",
+      "name": "Angels Knoll · Tom’s bench",
+      "short": "Angels Knoll · Tom’s bench",
       "category": "hangout",
       "categories": [
         "hangout",
@@ -7729,9 +7729,9 @@
       "precision": "named-park",
       "placement": {
         "kind": "screen",
-        "address": "Angels Knoll · Bunker Hill",
+        "address": "Angels Knoll, beside Angels Flight · Bunker Hill",
         "precision": "named-park",
-        "reason": "Angels Knoll supplies the bench and the recognizable downtown view. The film calls it Angelus Plaza; the nearby real senior-housing complex is not substituted for the bench site. The point uses the documented park location, not a street-geocoder interpolation.",
+        "reason": "Angels Knoll supplies the bench and the recognizable downtown view. The film calls it Angelus Plaza; the nearby real senior-housing complex is not substituted for the bench site. The point uses the documented park location, not a street-geocoder interpolation. The bench is beside Angels Flight, rather than a ride on the railway; the Conservancy identifies the bench scene at Angels Knoll.",
         "sourceIds": [
           "n2_500_fo",
           "n2_500_ml",
@@ -7796,7 +7796,7 @@
           "imageUrl": "https://clip.cafe/img800/this-is-my-favorite-spot.jpg",
           "sourceUrl": "https://clip.cafe/500-days-of-summer-2009/this-is-my-favorite-spot/",
           "credit": "(500) Days of Summer film frame; Clip.Cafe",
-          "alt": "This is my favorite spot. - 500 Days of Summer",
+          "alt": "Tom and Summer sit on the bench at Angels Knoll, beside Angels Flight.",
           "src": "photos/n469-screen.jpg",
           "title": "(500) Days of Summer",
           "width": 800,

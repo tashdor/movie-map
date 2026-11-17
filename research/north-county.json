@@ -1,0 +1,530 @@
+{
+  "places": [
+    {
+      "id": 510,
+      "name": "Haywood Hollywood Horses",
+      "short": "Haywood Hollywood Horses",
+      "category": "home",
+      "categories": [
+        "home",
+        "work",
+        "event"
+      ],
+      "address": "Firestone Ranch, 35100 Anthony Road, Santa Clarita, CA 91390",
+      "area": "Agua Dulce / Santa Clarita",
+      "coordinates": [
+        -118.294222222222,
+        34.545444444444
+      ],
+      "productionCoordinates": [
+        -118.294222222222,
+        34.545444444444
+      ],
+      "precision": "named_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Agua Dulce / Santa Clarita · Haywood Hollywood Horses",
+        "precision": "named_site",
+        "reason": "The story is in Agua Dulce. Production designer Ruth De Jong confirms practical adjoining ranches, not a different region standing for the town. The point follows the documented original house/corral site at Firestone Ranch. The movie house was built for production and dismantled; the remaining ranch and stables are the real site.",
+        "sourceIds": [
+          "nc_nope_designer",
+          "nc_nope_fo",
+          "nc_nope_kodak",
+          "nc_nope_script",
+          "nc_nope_story"
+        ]
+      },
+      "people": [
+        "Otis “OJ” Haywood Jr.",
+        "Emerald Haywood",
+        "Otis Haywood Sr.",
+        "Angel Torres",
+        "Antlers Holst"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nope",
+          "release_year": 2022,
+          "story_role": "The Haywood family ranch and horse-handling business",
+          "filming_component": "ranch grounds and practical exterior sets",
+          "source_ids": [
+            "nc_nope_designer",
+            "nc_nope_fo",
+            "nc_nope_kodak",
+            "nc_nope_script",
+            "nc_nope_story"
+          ],
+          "story_time": {
+            "year": 2022,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact calendar year.",
+            "source_ids": [
+              "nc_nope_designer",
+              "nc_nope_fo",
+              "nc_nope_kodak",
+              "nc_nope_script",
+              "nc_nope_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Otis “OJ” Haywood Jr.",
+              "relationship": "lives here and trains horses"
+            },
+            {
+              "name": "Emerald Haywood",
+              "relationship": "returns to the family ranch"
+            },
+            {
+              "name": "Otis Haywood Sr.",
+              "relationship": "runs the horse business; dies in the corral"
+            },
+            {
+              "name": "Angel Torres",
+              "relationship": "installs the cameras and helps the Haywoods"
+            },
+            {
+              "name": "Antlers Holst",
+              "relationship": "films the creature from the ranch hills"
+            }
+          ],
+          "categories": [
+            "home",
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Nope",
+          "people": [
+            "Otis Haywood Sr.",
+            "Antlers Holst"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n510-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-nope-2022/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2024/01/sc-nope1.jpg?w=1000",
+          "credit": "Universal Pictures film frame; Film Oblivion",
+          "width": 1000,
+          "height": 446,
+          "alt": "OJ Haywood beside the corral, with the Haywood family house behind him.",
+          "title": "Nope"
+        },
+        "place": {
+          "src": "photos/n510-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/09/26/nope-2022/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/nope1-1.jpg?w=1024",
+          "credit": "Film Oblivion",
+          "width": 1024,
+          "height": 767,
+          "alt": "Aerial view of the original ranch corral after the movie house was dismantled.",
+          "caption": "Former set · aerial",
+          "note": "Aerial screenshot of the actual ranch and corral published by the location researcher. The movie house has been dismantled; capture date is not supplied."
+        }
+      }
+    },
+    {
+      "id": 511,
+      "name": "Jupiter’s Claim",
+      "short": "Jupiter’s Claim",
+      "category": "work",
+      "categories": [
+        "work",
+        "hangout",
+        "event"
+      ],
+      "address": "Agua Dulce Movie Ranch, 34855 Petersen Road, Agua Dulce, CA 91390",
+      "area": "Agua Dulce",
+      "coordinates": [
+        -118.322361111111,
+        34.526416666667
+      ],
+      "productionCoordinates": [
+        -118.322361111111,
+        34.526416666667
+      ],
+      "precision": "named_site",
+      "placement": {
+        "kind": "screen",
+        "address": "Agua Dulce · Jupiter’s Claim",
+        "precision": "named_site",
+        "reason": "The named Agua Dulce park was built at this original ranch. Its main street and Star Lasso arena are one story destination, not separate pins. Production designer Ruth De Jong confirms the working local ranch geography. The entrance was a separate Acton component; the later Universal Studios tour rebuild is not the story location.",
+        "sourceIds": [
+          "nc_nope_designer",
+          "nc_nope_fo",
+          "nc_nope_kodak",
+          "nc_nope_script",
+          "nc_nope_story"
+        ]
+      },
+      "people": [
+        "Ricky “Jupe” Park",
+        "Amber Park",
+        "Otis “OJ” Haywood Jr.",
+        "Emerald Haywood",
+        "Mary Jo Elliott"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Nope",
+          "release_year": 2022,
+          "story_role": "Jupe’s Western theme park and Star Lasso show",
+          "filming_component": "ranch grounds and practical exterior sets",
+          "source_ids": [
+            "nc_nope_designer",
+            "nc_nope_fo",
+            "nc_nope_kodak",
+            "nc_nope_script",
+            "nc_nope_story"
+          ],
+          "story_time": {
+            "year": 2022,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate, not an asserted exact calendar year.",
+            "source_ids": [
+              "nc_nope_designer",
+              "nc_nope_fo",
+              "nc_nope_kodak",
+              "nc_nope_script",
+              "nc_nope_story"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Ricky “Jupe” Park",
+              "relationship": "owns and operates the theme park"
+            },
+            {
+              "name": "Amber Park",
+              "relationship": "runs the park with Jupe"
+            },
+            {
+              "name": "Otis “OJ” Haywood Jr.",
+              "relationship": "sells horses to Jupe"
+            },
+            {
+              "name": "Emerald Haywood",
+              "relationship": "visits Jupe and uses the wishing-well camera"
+            },
+            {
+              "name": "Mary Jo Elliott",
+              "relationship": "attends the Star Lasso show"
+            }
+          ],
+          "categories": [
+            "work",
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "Nope",
+          "people": [
+            "Ricky “Jupe” Park",
+            "Amber Park",
+            "Mary Jo Elliott",
+            "Star Lasso audience"
+          ],
+          "label": "Star Lasso massacre"
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/n511-screen.jpg",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-nope-2022/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2024/01/sc-nope5.jpg?w=1000",
+          "credit": "Universal Pictures film frame; Film Oblivion",
+          "width": 1000,
+          "height": 448,
+          "alt": "The Western storefronts and visitors at Jupiter’s Claim in Nope.",
+          "title": "Nope"
+        },
+        "place": {
+          "src": "photos/n511-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3245%2C34.5250%2C-118.3202%2C34.5280&bboxSR=4326&imageSR=4326&size=1000%2C700&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Former set parcel · aerial",
+          "alt": "The original Agua Dulce Movie Ranch parcel used for Jupiter’s Claim, after removal of the theme-park set.",
+          "note": "Active-basemap aerial of the original parcel. Capture date is not supplied; the film’s park set was dismantled and rebuilt at Universal Studios for its tour. This is not the Universal replica.",
+          "width": 1000,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 512,
+      "name": "The Hammond family home",
+      "short": "The Hammond family home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "27528 North Weeping Willow Drive, Santa Clarita, CA 91354",
+      "area": "Santa Clarita",
+      "coordinates": [
+        -118.555559394209,
+        34.440256699193
+      ],
+      "productionCoordinates": [
+        -118.555559394209,
+        34.440256699193
+      ],
+      "precision": "named_site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Santa Clarita · The Hammond family home",
+        "precision": "named_site",
+        "reason": "The series explicitly concerns the Hammond family in Santa Clarita; creator and local production reporting confirm that local story setting. The recurring exterior is documented at this address. The street number is retained as a production proxy, not independently established on-screen canon. The other sale/listing houses in the guide are not extra Hammond residences.",
+        "sourceIds": [
+          "nc_diet_netflix",
+          "nc_diet_creator",
+          "nc_diet_locations",
+          "nc_diet_latlong",
+          "nc_diet_signal",
+          "nc_diet_geo"
+        ]
+      },
+      "people": [
+        "Sheila Hammond",
+        "Joel Hammond",
+        "Abby Hammond",
+        "Eric Bemis"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Santa Clarita Diet",
+          "release_year": 2017,
+          "story_role": "Sheila, Joel and Abby’s recurring home",
+          "filming_component": "recurring house exterior",
+          "source_ids": [
+            "nc_diet_netflix",
+            "nc_diet_creator",
+            "nc_diet_locations",
+            "nc_diet_latlong",
+            "nc_diet_signal",
+            "nc_diet_geo"
+          ],
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "The contemporary story is estimated at its 2017 premiere period. The tightly continuous plot is not automatically stretched across all three broadcast years.",
+            "source_ids": [
+              "nc_diet_netflix",
+              "nc_diet_creator",
+              "nc_diet_locations",
+              "nc_diet_latlong",
+              "nc_diet_signal",
+              "nc_diet_geo"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sheila Hammond",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Joel Hammond",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Abby Hammond",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Eric Bemis",
+              "relationship": "neighbor and frequent visitor"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "medium": "television"
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/n512-screen.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2018/03/21/santa-clarita-diet-filming-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/e4464-hammond-house2.png",
+          "credit": "Netflix television frame; Global Film Locations",
+          "width": 848,
+          "height": 396,
+          "alt": "The Hammonds’ recurring white house in the middle of the cul-de-sac.",
+          "title": "Santa Clarita Diet"
+        },
+        "place": {
+          "src": "photos/n512-place.jpg",
+          "sourceUrl": "https://globalfilmlocations.net/2018/03/21/santa-clarita-diet-filming-locations/",
+          "imageUrl": "https://globalfilmlocations.net/wp-content/uploads/2024/11/67eb2-hammond-house3.png",
+          "credit": "Google Street View via Global Film Locations",
+          "width": 1011,
+          "height": 576,
+          "alt": "The real white house at 27528 North Weeping Willow Drive.",
+          "caption": "Site · undated",
+          "note": "Street View photograph reproduced by the location guide. Capture date is not provided; not a claim of present-day condition."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "nc_nope_designer",
+      "title": "Ruth De Jong: Nope’s adjoining Agua Dulce ranches and practical geography",
+      "url": "https://www.cntraveler.com/story/on-location-jordan-peele-nope",
+      "source_type": "production designer interview"
+    },
+    {
+      "id": "nc_nope_fo",
+      "title": "Nope — original ranch/set locations and coordinates",
+      "url": "https://filmoblivion.com/filming-locations-nope-2022/",
+      "source_type": "specialist matched-location research"
+    },
+    {
+      "id": "nc_nope_site",
+      "title": "Nope — original ranch photographs and relocated Universal park distinction",
+      "url": "https://filmoblivion.com/2022/09/26/nope-2022/",
+      "source_type": "specialist site photographs"
+    },
+    {
+      "id": "nc_nope_kodak",
+      "title": "Kodak: Agua Dulce valley and the constructed ranch/theme-park geography",
+      "url": "https://www.kodak.com/en/motion/blog-post/nope/",
+      "source_type": "cinematographer production interview"
+    },
+    {
+      "id": "nc_nope_script",
+      "title": "Nope — Jordan Peele’s screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/nope-2022.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "nc_nope_story",
+      "title": "Nope — Agua Dulce story and Star Lasso victims",
+      "url": "https://en.wikipedia.org/wiki/Nope_(film)",
+      "source_type": "plot and character reference"
+    },
+    {
+      "id": "nc_diet_netflix",
+      "title": "Netflix: Santa Clarita Diet premise and episodes",
+      "url": "https://www.netflix.com/title/80095815",
+      "source_type": "network series page"
+    },
+    {
+      "id": "nc_diet_creator",
+      "title": "Victor Fresco on Santa Clarita Diet’s local setting and recurring Hammond home",
+      "url": "https://www.hometownstation.com/santa-clarita-news/arts-and-entertainment/santa-clarita-diet-creator-invites-khts-on-set-ahead-of-second-season-225928",
+      "source_type": "creator interview and set visit"
+    },
+    {
+      "id": "nc_diet_locations",
+      "title": "Santa Clarita Diet — matched Hammond home exterior",
+      "url": "https://globalfilmlocations.net/2018/03/21/santa-clarita-diet-filming-locations/",
+      "source_type": "specialist screen/site comparison"
+    },
+    {
+      "id": "nc_diet_latlong",
+      "title": "Santa Clarita Diet — Hammond house coordinates and series chronology",
+      "url": "https://www.latlong.net/location/santa-clarita-diet-locations-768",
+      "source_type": "location reference"
+    },
+    {
+      "id": "nc_diet_signal",
+      "title": "2016 Signal reporting: Hammond family story in northern L.A. County",
+      "url": "https://signalscv.com/2016/11/santa-clarita-diet-premiere-feb-3-netflix/",
+      "source_type": "contemporary local production reporting"
+    },
+    {
+      "id": "nc_jupiter_aerial",
+      "title": "Original Jupiter’s Claim parcel — active Esri World Imagery export",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.3245%2C34.5250%2C-118.3202%2C34.5280&bboxSR=4326&imageSR=4326&size=1000%2C700&format=jpg&f=image",
+      "source_type": "aerial geospatial reference"
+    },
+    {
+      "id": "nc_duel_venue",
+      "title": "Le Chene: the real Chuck’s Cafe production site",
+      "url": "https://lechene.com/history-of-le-chene/",
+      "source_type": "venue history"
+    },
+    {
+      "id": "nc_duel_sites",
+      "title": "Duel — northbound opening and desert production geography",
+      "url": "https://www.itsfilmedthere.com/2024/06/duel.html",
+      "source_type": "matched-location research"
+    },
+    {
+      "id": "nc_weeds_story",
+      "title": "Weeds — Agrestic’s fictional San Fernando Valley setting",
+      "url": "https://en.wikipedia.org/wiki/Weeds_(TV_series)",
+      "source_type": "series setting reference"
+    },
+    {
+      "id": "nc_t2_compound",
+      "title": "T2 — unverified story location of Enrique’s compound",
+      "url": "https://www.reddit.com/r/Terminator/comments/s918o8/where_exactly_is_enriques_compound/",
+      "source_type": "research lead only; not location proof"
+    },
+    {
+      "id": "nc_diet_geo",
+      "title": "Hammond exterior address — ArcGIS PointAddress match",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=27528+North+Weeping+Willow+Drive%2C+Santa+Clarita%2C+CA&f=json&outFields=%2A&maxLocations=1",
+      "source_type": "address geocoder"
+    }
+  ],
+  "audit": [
+    {
+      "subject": "Selection",
+      "decision": "Three strongly supported northern-county places: two central Nope ranch/park settings and the recurring Santa Clarita Diet home. No episode-only TV stops."
+    },
+    {
+      "subject": "Nope",
+      "decision": "The original rural sets are distinguished from the later Universal tour replica. Source coordinates are original-set points, not mailing-address geocodes. Park and Star Lasso arena count once."
+    },
+    {
+      "subject": "Duel / Chuck’s Cafe",
+      "decision": "Researched but not added. The opening shows travel north out of Los Angeles via the Palmdale/Lancaster exit and the venue confirms production at Le Chene. The story’s exact cafe/county is not independently established; generic California-highway geography does not prove a Santa Clarita story address.",
+      "sources": [
+        "nc_duel_venue",
+        "nc_duel_sites"
+      ]
+    },
+    {
+      "subject": "T2 desert compound / Cactus Jack’s",
+      "decision": "Lancaster production locations do not prove that Enrique’s fictional compound or the associated roadside stop is in Lancaster. Charon Mesa is not a located canonical LA County address; not added as a northern story pin.",
+      "sources": [
+        "nc_t2_compound"
+      ]
+    },
+    {
+      "subject": "Weeds / Agrestic",
+      "decision": "The fictional town is placed in the San Fernando Valley. Its Stevenson Ranch exteriors therefore would not establish northern story geography.",
+      "sources": [
+        "nc_weeds_story"
+      ]
+    },
+    {
+      "subject": "Familiar Antelope Valley stand-ins",
+      "decision": "Kill Bill’s Texas chapel, Palm Springs’ namesake story, Nevada motels, and other out-of-LA story stand-ins were not included merely because filmed locally."
+    },
+    {
+      "subject": "Photographs",
+      "decision": "All screen images are actual film/TV frames. Two Nope site views are explicitly aerials of original sites, not current standing sets. The Hammond site image is undated Street View, labeled accordingly."
+    }
+  ]
+}

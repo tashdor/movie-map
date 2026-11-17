@@ -1,27 +1,11 @@
 import type {Map,CanvasSource,Coordinates} from 'maplibre-gl';
 import {exploredCounty} from './geo.mjs';
 
-function mistPattern(){
-  const tile=document.createElement('canvas');tile.width=tile.height=256;
-  const context=tile.getContext('2d')!;
-  const pixels=context.createImageData(256,256);
-  for(let y=0;y<256;y++)for(let x=0;x<256;x++){
-    const u=x/256*Math.PI*2,v=y/256*Math.PI*2;
-    const cloud=Math.sin(u+Math.sin(v*2))*.35+Math.sin(u*3-v*2)*.2+Math.sin(u*5+v*7)*.08;
-    const grain=((x*37+y*61+x*y*7)%23)/23;
-    const n=cloud*17+grain*5,i=(y*256+x)*4;
-    pixels.data[i]=25+n;pixels.data[i+1]=33+n;pixels.data[i+2]=36+n;pixels.data[i+3]=255;
-  }
-  context.putImageData(pixels,0,0);
-  return tile;
-}
-
 export function installCountyFog(map:Map,county:any,locations:[number,number][]){
   const polygons=exploredCounty(county,locations).features[0].geometry.coordinates;
   const canvas=document.createElement('canvas'),mask=document.createElement('canvas');
   const context=canvas.getContext('2d'),maskContext=mask.getContext('2d');
   if(!context||!maskContext)throw Error('Fog canvas unavailable');
-  const pattern=context.createPattern(mistPattern(),'repeat')!;
   const nativeBlur=typeof Reflect.get(context,'filter')==='string';
   // Overscan keeps the veil continuous while the map moves between redraws.
   const feather=56,margin=192,padding=feather*3;
@@ -45,7 +29,7 @@ export function installCountyFog(map:Map,county:any,locations:[number,number][])
       maskContext.closePath();
     }
     maskContext.fillStyle='#fff';maskContext.fill('evenodd');
-    context.globalCompositeOperation='source-over';if(nativeBlur)context.filter='none';context.fillStyle=pattern;
+    context.globalCompositeOperation='source-over';if(nativeBlur)context.filter='none';context.fillStyle='#000';
     context.fillRect(0,0,width,height);
     context.globalCompositeOperation='destination-out';
     if(nativeBlur){

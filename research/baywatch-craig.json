@@ -1,0 +1,184 @@
+{
+  "researched_on": "2026-11-17",
+  "places": [],
+  "sources": [
+    {
+      "id": "bc_indeep_official",
+      "title": "Baywatch official channel — In Deep, season 1 episode 2",
+      "url": "https://www.youtube.com/watch?v=Wj_-b2qksws",
+      "source_type": "official full episode"
+    },
+    {
+      "id": "bc_indeep_apple",
+      "title": "Apple TV: Craig and Gina offer their storage room to Eddie",
+      "url": "https://tv.apple.com/us/episode/in-deep/umc.cmc.4aeybivs3dh9g61so96koiab1?showId=umc.cmc.49vdm7hjc6b20dqnl9j6c8zxi",
+      "source_type": "distributor episode synopsis"
+    },
+    {
+      "id": "bc_prime",
+      "title": "Prime Video: recurring Craig and Gina home / Rookie School",
+      "url": "https://www.primevideo.com/detail/0JE7NEL01SXQ95GXEIT7QKDP0V",
+      "source_type": "distributor season guide"
+    },
+    {
+      "id": "bc_connecticut",
+      "title": "Baywatch 2.17 dialogue — Craig and Gina have moved to Connecticut",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e17&tv-show=baywatch-1989",
+      "source_type": "episode dialogue transcript"
+    },
+    {
+      "id": "bc_venice_recap",
+      "title": "In Deep review — Craig’s Venice loft and Eddie’s storage room",
+      "url": "https://unobtainium13.com/tag/christopher-murphy/",
+      "source_type": "episode review"
+    },
+    {
+      "id": "bc_firstseason",
+      "title": "Baywatch episode list — original 1989–1990 season",
+      "url": "https://en.wikipedia.org/wiki/List_of_Baywatch_episodes",
+      "source_type": "episode chronology reference"
+    },
+    {
+      "id": "bc_character",
+      "title": "Craig Pomeroy — home law practice and Eddie’s room",
+      "url": "https://baywatch.fandom.com/wiki/Craig_Pomeroy",
+      "source_type": "character and episode reference"
+    }
+  ],
+  "unlocatedCandidates": [
+    {
+      "id": 500,
+      "name": "Craig & Gina Pomeroy’s loft",
+      "short": "Craig & Gina Pomeroy’s loft",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "Filming address unverified",
+      "area": "Venice, Los Angeles",
+      "coordinates": null,
+      "precision": "unlocated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Venice · exact address unknown",
+        "precision": "unlocated",
+        "reason": "The recurring glass-block loft is established as Craig and Gina’s home, where Eddie stays in their storage room. The official episode identifies the interior and doorway but does not establish a street number. Its real production site and whether the interior was a location or studio construction remain unverified. It is distinct from both the pilot apartment and Mitch’s Sherman Canal house.",
+        "sourceIds": [
+          "bc_indeep_official",
+          "bc_indeep_apple",
+          "bc_prime",
+          "bc_venice_recap"
+        ]
+      },
+      "people": [
+        "Craig Pomeroy",
+        "Gina Pomeroy",
+        "Eddie Kramer"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Baywatch",
+          "medium": "television",
+          "release_year": 1989,
+          "story_role": "Craig and Gina’s recurring loft; Eddie’s room",
+          "filming_component": "Glass-block loft interior; production address unverified",
+          "source_ids": [
+            "bc_indeep_official",
+            "bc_indeep_apple",
+            "bc_prime",
+            "bc_venice_recap",
+            "bc_character"
+          ],
+          "story_time": {
+            "year": 1989,
+            "end_year": 1990,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary original-season period; later dialogue explicitly places Craig and Gina in Connecticut. This entry does not treat their later guest appearances as continued occupancy of this home.",
+            "source_ids": [
+              "bc_firstseason",
+              "bc_connecticut"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Craig Pomeroy",
+              "relationship": "lives here; works as a lawyer from home"
+            },
+            {
+              "name": "Gina Pomeroy",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Eddie Kramer",
+              "relationship": "stays in the storage room"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bw500-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=Wj_-b2qksws",
+          "imageUrl": "https://www.youtube.com/watch?v=Wj_-b2qksws",
+          "credit": "Baywatch television frame; official Baywatch / Fremantle channel",
+          "title": "Baywatch",
+          "alt": "The glass-block loft, white steel stairs and dining area of Craig and Gina’s recurring home.",
+          "width": 640,
+          "height": 360,
+          "note": "Frame from In Deep, approximately 32:40–33:10 in the official upload. This is an on-screen interior, not a present-day site photograph."
+        }
+      },
+      "additionalScreenImages": [
+        {
+          "src": "photos/bw500-secondary-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=Wj_-b2qksws",
+          "imageUrl": "https://www.youtube.com/watch?v=Wj_-b2qksws",
+          "credit": "Baywatch television frame; official Baywatch / Fremantle channel",
+          "title": "Baywatch",
+          "alt": "Eddie Kramer and Craig Pomeroy seated in the recurring loft.",
+          "width": 640,
+          "height": 360,
+          "note": "Frame from In Deep, approximately 32:40–33:10 in the official upload. This is an on-screen interior, not a present-day site photograph."
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "status": "unlocated_candidate",
+      "decision": "Keep this record outside places[] until an actual production site is identified. No marker or real-site photograph has been invented."
+    },
+    {
+      "identity": "User confirmed the recurring glass-block loft where Eddie stays, not the different beach apartment seen in the pilot."
+    },
+    {
+      "official_episode_review": "The In Deep upload cuts from the Venice boardwalk to a tight wooden doorway, then the distinctive white-steel/glass-block loft. The transition has no identifiable street facade or number. Frames were extracted from the official upload, not a fan montage."
+    },
+    {
+      "geography": "The episode review calls the story home a Venice loft. Primary distributor summaries establish the residents and recurring housesitting, but do not provide an address."
+    },
+    {
+      "production_uncertainty": "Mitch’s documented studio-set history is not evidence that Craig’s loft is also a set. Neither a location address nor a studio claim is asserted."
+    },
+    {
+      "archive_research": "The live MovieShotsLA domain does not resolve. Internet Archive CDX returned392 distinct2007–2015 HTML URLs and no Baywatch-named URL. The archived2013home/television index and early all-categories, Venice Canals, and filming-locations categories were inspected. The2013television index contains no items; the old canal gallery uses generic photo labels without identifying this loft."
+    },
+    {
+      "missing_evidence": [
+        "Verified real production address",
+        "Matched exterior or current/archival real-site photograph"
+      ]
+    },
+    {
+      "crew_search": "Production-designer credits for the first season name Ray Storey and John Leimanis. Focused public interview/book/location searches found no loft-specific statement establishing a street address or studio construction. These general credits cannot support a specific-site attribution."
+    }
+  ]
+}
