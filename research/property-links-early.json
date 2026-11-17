@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "entries": [
+    {
+      "id": 1,
+      "address": "1870 Blue Heights Drive",
+      "url": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+      "verifiedOn": "2026-11-17",
+      "parcelNumber": "5556015004"
+    },
+    {
+      "id": 2,
+      "address": "19514 Romar Street",
+      "url": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 3,
+      "address": "2634 6th Street",
+      "url": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 4,
+      "address": "1219 Dodds Circle",
+      "url": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 5,
+      "address": "1235 Dodds Circle",
+      "url": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 12,
+      "address": "2607 Glendower Avenue",
+      "url": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 24,
+      "address": "501 Wilcox Avenue",
+      "url": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 25,
+      "address": "4616 Dundee Drive",
+      "url": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 31,
+      "address": "606 Venezia Avenue",
+      "url": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 34,
+      "address": "10104 Angelo View Drive",
+      "url": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 35,
+      "address": "10231 Charing Cross Road",
+      "url": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 38,
+      "address": "1541 Summitridge Drive",
+      "url": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 39,
+      "address": "3519 La Clede Avenue",
+      "url": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 48,
+      "address": "17575 Yukon Avenue",
+      "url": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 53,
+      "address": "1315 South El Molino Avenue",
+      "url": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 55,
+      "address": "1972 North Canyon Drive",
+      "url": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 71,
+      "address": "1031 Everett Street",
+      "url": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 72,
+      "address": "2313 East 113th Street",
+      "url": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 73,
+      "address": "4142 Palmwood Drive",
+      "url": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 75,
+      "address": "5918 Cimarron Street",
+      "url": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 76,
+      "address": "5906 Cimarron Street",
+      "url": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 84,
+      "address": "19828 Valerio Street",
+      "url": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 87,
+      "address": "450 North Sycamore Avenue",
+      "url": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 88,
+      "address": "2900 Griffith Park Boulevard",
+      "url": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 89,
+      "address": "3760 Eureka Drive",
+      "url": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 91,
+      "address": "722 East Kensington Road",
+      "url": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 94,
+      "address": "1728 East 3rd Street",
+      "url": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 101,
+      "address": "1825 North Kingsley Drive",
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 102,
+      "address": "6301 Quebec Drive",
+      "url": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 112,
+      "address": "1206 North Orange Grove Avenue",
+      "url": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 113,
+      "address": "884 Palm Avenue",
+      "url": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 124,
+      "address": "2182 Broadview Terrace, Hollywood, CA 90068",
+      "url": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+      "verifiedOn": "2026-11-17",
+      "note": "Verified Broadview Terrace component of the listed High Tower/Broadview filming address; no separate apartment unit is asserted."
+    },
+    {
+      "id": 125,
+      "address": "23844 Malibu Road",
+      "url": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 138,
+      "address": "22664 Pacific Coast Highway",
+      "url": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 144,
+      "address": "1442 West F Street",
+      "url": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 169,
+      "address": "3503 West 187th Street",
+      "url": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 171,
+      "address": "4214 Lobos Road",
+      "url": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 176,
+      "address": "16801 Encino Hills Drive",
+      "url": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 185,
+      "address": "10969 Alta View Drive",
+      "url": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 187,
+      "address": "5870 Franklin Avenue",
+      "url": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+      "verifiedOn": "2026-11-17",
+      "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+    },
+    {
+      "id": 193,
+      "address": "705 North Sierra Drive",
+      "url": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 200,
+      "address": "1418 West 126th Street",
+      "url": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 218,
+      "address": "26940 Malibu Cove Colony Drive",
+      "url": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 219,
+      "address": "9024 Thrasher Avenue",
+      "url": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 257,
+      "address": "20 Oakmont Drive",
+      "url": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 351,
+      "address": "1001 Bel Air Road",
+      "url": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+      "verifiedOn": "2026-11-17"
+    }
+  ],
+  "audit": [
+    {
+      "id": 11,
+      "address": "304 South Broadway",
+      "reason": "Bradbury Building is a commercial building, not a verified residential property listing."
+    },
+    {
+      "id": 17,
+      "address": "18 Ozone Avenue",
+      "reason": "No exact Zillow property or whole-building page could be verified for 18 Ozone Avenue. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 33,
+      "address": "630 South Broadway",
+      "reason": "Palace Theatre is a commercial theatre used for the loft/interior; no residential property link is appropriate."
+    },
+    {
+      "id": 43,
+      "address": "Van Ness Avenue at Harold Way",
+      "reason": "Only an intersection is given for the apartment; no independently verified numbered residential property to link."
+    },
+    {
+      "id": 45,
+      "address": "5860 North Figueroa Street",
+      "reason": "The active place is the warehouse; its legacy home category does not establish a residential property."
+    },
+    {
+      "id": 54,
+      "address": "848 1/2 East Kensington Road",
+      "reason": "No exact Zillow property or whole-building page could be verified for 848 1/2 East Kensington Road. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 59,
+      "address": "607 South Park View Street",
+      "reason": "No exact Zillow property or whole-building page could be verified for 607 South Park View Street. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 79,
+      "address": "420 South Lafayette Park Place",
+      "reason": "No exact Zillow property or whole-building page could be verified for 420 South Lafayette Park Place. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 109,
+      "address": "Former Jenkins/Getty mansion, 641 South Irving Boulevard",
+      "reason": "The Jenkins/Getty mansion used in the film was demolished; do not link its replacement property."
+    },
+    {
+      "id": 117,
+      "address": "1338 Miller Drive",
+      "reason": "No exact Zillow property or whole-building page could be verified for 1338 Miller Drive. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 118,
+      "address": "Huntley Hotel, 1111 Second Street",
+      "reason": "Huntley Hotel is a hotel, not a verified residential home or apartment listing."
+    },
+    {
+      "id": 121,
+      "address": "7655 Curson Terrace",
+      "reason": "No exact Zillow property or whole-building page could be verified for 7655 Curson Terrace. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 135,
+      "address": "757 Kingman Avenue",
+      "reason": "No exact Zillow property or whole-building page could be verified for 757 Kingman Avenue. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 140,
+      "address": "255 Viewland Place",
+      "reason": "The Viewland Place house is documented as a former/demolished site; do not link a replacement parcel as the home."
+    },
+    {
+      "id": 149,
+      "address": "5050 Woodman Avenue",
+      "reason": "No exact Zillow property or whole-building page could be verified for 5050 Woodman Avenue. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 151,
+      "address": "506 South Grand Avenue",
+      "reason": "The former Biltmore/Beverly Palm hotel filming site is commercial lodging, not a residential listing."
+    },
+    {
+      "id": 170,
+      "address": "19515 East Cameron Avenue",
+      "reason": "No exact Zillow property or whole-building page could be verified for 19515 East Cameron Avenue. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 186,
+      "address": "10974 Alta View Drive",
+      "reason": "No exact Zillow property or whole-building page could be verified for 10974 Alta View Drive. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 251,
+      "address": "1921 Westholme Avenue",
+      "reason": "No exact Zillow property or whole-building page could be verified for 1921 Westholme Avenue. Neighboring properties, different-city matches and arbitrary apartment-unit listings were rejected."
+    },
+    {
+      "id": 260,
+      "address": "Production site: 8401 Sunset Boulevard",
+      "reason": "Sunset Tower/fictional Sunset Regent is a hotel, not a residential listing."
+    },
+    {
+      "id": 263,
+      "address": "404 South Figueroa Street",
+      "reason": "Bonaventure is a hotel, not a residential listing."
+    },
+    {
+      "id": 275,
+      "address": "Sun Valley · approximate",
+      "reason": "Only an approximate Sun Valley area is established; no numbered property address is verified."
+    },
+    {
+      "id": 284,
+      "address": "Westchester · approximate",
+      "reason": "Only an approximate Westchester area is established; no numbered property address is verified."
+    }
+  ]
+}

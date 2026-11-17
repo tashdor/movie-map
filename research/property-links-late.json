@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "entries": [
+    {
+      "id": 401,
+      "address": "2809 7th Ave, Los Angeles, CA 90018",
+      "url": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 403,
+      "address": "4920 11th Ave, Los Angeles, CA 90043",
+      "url": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 416,
+      "address": "115 W 111th St, Los Angeles, CA 90061",
+      "url": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 417,
+      "address": "15515 Via De Las Olas, Pacific Palisades, CA 90272",
+      "url": "https://www.zillow.com/homedetails/15515-Via-De-Las-Olas-Pacific-Palisades-CA-90272/20541329_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/15515-Via-De-Las-Olas-Pacific-Palisades-CA-90272/20541329_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 421,
+      "address": "1125 Oak Grove Ave, San Marino, CA 91108",
+      "url": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 424,
+      "address": "4255 Enoro Dr, Los Angeles, CA 90008",
+      "url": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 425,
+      "address": "4585 Mount Vernon Dr, Los Angeles, CA 90043",
+      "url": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 426,
+      "address": "5003 Parkglen Ave, Los Angeles, CA 90043",
+      "url": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 430,
+      "address": "10401 Wilshire Blvd, Los Angeles, CA 90024",
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+      "verifiedOn": "2026-11-17",
+      "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+    },
+    {
+      "id": 433,
+      "address": "603 Doheny Rd, Beverly Hills, CA 90210",
+      "url": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 438,
+      "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+      "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 439,
+      "address": "2079 Kenilworth Ave, Los Angeles, CA 90039",
+      "url": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 444,
+      "address": "720 S Mariposa Ave, Los Angeles, CA",
+      "url": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+      "verifiedOn": "2026-11-17",
+      "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+    },
+    {
+      "id": 446,
+      "address": "7776 Torreyson Dr, Los Angeles, CA 90046",
+      "url": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 447,
+      "address": "1405 Miller Dr, Los Angeles, CA 90069",
+      "url": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 452,
+      "address": "172 S McCadden Pl, Los Angeles, CA 90004",
+      "url": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 458,
+      "address": "6122 S Citrus Ave, Los Angeles, CA 90043",
+      "url": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 460,
+      "address": "5148 Louise Ave, Encino, CA 91316",
+      "url": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 468,
+      "address": "706 S Normandie Ave, Los Angeles, CA 90005",
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+      "verifiedOn": "2026-11-17",
+      "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+    },
+    {
+      "id": 473,
+      "address": "1883 Orlando Rd, San Marino, CA 91108",
+      "url": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 474,
+      "address": "163 S Rockingham Ave, Los Angeles, CA 90049",
+      "url": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 482,
+      "address": "7902 Goodland Ave, North Hollywood, CA 91605",
+      "url": "https://www.zillow.com/homedetails/7902-Goodland-Ave-North-Hollywood-CA-91605/19997626_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/browse/homes/ca/los-angeles-county/91605/27/",
+      "verifiedOn": "2026-11-17",
+      "note": "Zillow’s public property index identifies this exact address and links directly to the listed property URL; the detail-page fetch was unavailable during verification."
+    },
+    {
+      "id": 483,
+      "address": "12801 Miranda St, Valley Village, CA 91607",
+      "url": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 486,
+      "address": "4450 Balboa Ave, Encino, CA 91316",
+      "url": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 489,
+      "address": "469 Sherman Canal, Venice, CA 90291",
+      "url": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+      "verifiedOn": "2026-11-17",
+      "zillowAddress": "469 Sherman Ave, Venice, CA 90291",
+      "note": "Zillow uses Sherman Ave for the canal-front residence; its page identifies parcel 4227013011 and describes the Venice Canals corner location. Atlas filming address retained as Sherman Canal."
+    },
+    {
+      "id": 491,
+      "address": "837 Traction Ave, Los Angeles, CA 90013",
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+      "verifiedOn": "2026-11-17",
+      "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+    },
+    {
+      "id": 492,
+      "address": "10336 Dunleer Dr, Los Angeles, CA 90064",
+      "url": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 493,
+      "address": "121 S Cliffwood Ave, Los Angeles, CA 90049",
+      "url": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 494,
+      "address": "2211 Fox Hills Dr, Los Angeles, CA 90064",
+      "url": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 495,
+      "address": "251 N Bristol Ave, Los Angeles, CA 90049",
+      "url": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 496,
+      "address": "2302 W 25th St, Los Angeles, CA 90018",
+      "url": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 497,
+      "address": "1675 E Altadena Dr, Altadena, CA 91001",
+      "url": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 512,
+      "address": "27528 N Weeping Willow Dr, Valencia, CA 91354",
+      "url": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+      "verifiedOn": "2026-11-17"
+    }
+  ],
+  "audit": [
+    {
+      "id": 402,
+      "reason": "The atlas identifies the Jordan Downs community, not a verified house or unit; redevelopment has removed original buildings. No unit or individual-property link inferred."
+    },
+    {
+      "id": 418,
+      "reason": "Zillow exposed a listing for unit C at 1334 N Harper Avenue, but the filming apartment unit is unverified and no whole-building Zillow page was verified. Do not imply unit C was filmed."
+    },
+    {
+      "id": 428,
+      "reason": "No exact Zillow page for 6222 Echo Street in Los Angeles was verified. Nearby or out-of-state Echo addresses were excluded."
+    },
+    {
+      "id": 432,
+      "reason": "The original Johnson house was a historical Bunker Hill production site, not a verified surviving home at the modern address; no current-property listing is substituted."
+    },
+    {
+      "id": 434,
+      "reason": "Only the 3rd Street/Olive Street historical Bunker Hill area is established, without a verified numbered surviving boardinghouse parcel."
+    },
+    {
+      "id": 437,
+      "reason": "The atlas establishes a Point Dume beach scene area, not a numbered beach-house parcel."
+    },
+    {
+      "id": 445,
+      "reason": "No exact Zillow building or property page for 322 North Sycamore Avenue, Los Angeles, was verified. South Sycamore and apartment 322 in unrelated buildings were excluded."
+    },
+    {
+      "id": 454,
+      "reason": "The real 1143 North Jackson Street, Glendale, address appears on other real-estate platforms, but an exact Zillow property page was not verified."
+    },
+    {
+      "id": 455,
+      "reason": "No exact Zillow page for the historic 26652 Latigo Shore Drive filming house was verified. Listings for nearby Latigo Shore addresses were excluded."
+    },
+    {
+      "id": 457,
+      "reason": "No exact Zillow page for 4505 West 62nd Street, Los Angeles, was verified. Nearby 4458 West 62nd and out-of-state addresses were excluded."
+    },
+    {
+      "id": 459,
+      "reason": "This is a historical 215 North Hill Street / Civic Center site, not a verified surviving residential property."
+    },
+    {
+      "id": 462,
+      "reason": "The production exterior is the Las Palmas Hotel rather than a verified residential apartment parcel; no individual residence is invented."
+    },
+    {
+      "id": 467,
+      "reason": "The Canadian Building exterior and a different interior stand in for the apartment. No exact Zillow residential building page for 432 South Main Street, Los Angeles, was verified."
+    },
+    {
+      "id": 476,
+      "reason": "8404 Willis Avenue is an identifiable apartment complex, but no exact Zillow building page was verified. No guessed apartment-unit link is substituted."
+    },
+    {
+      "id": 490,
+      "reason": "Rockford’s temporary trailer site was a Paradise Cove parking area with a fictional street address; no current mobile-home or nearby residential listing is substituted."
+    },
+    {
+      "id": 510,
+      "reason": "The Haywood movie house was a temporary practical set and dismantled. A real ranch parcel or neighboring residence is not presented as the fictional house’s Zillow page."
+    }
+  ]
+}

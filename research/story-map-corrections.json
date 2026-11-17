@@ -204,6 +204,31 @@
         ]
       },
       "precision": "intersection-explicit"
+    },
+    {
+      "id": 1,
+      "coordinates": [
+        -118.37883738646532,
+        34.102833091490766
+      ],
+      "productionCoordinates": [
+        -118.37883738646532,
+        34.102833091490766
+      ],
+      "precision": "county-building-footprint",
+      "mapsQuery": "1870 Blue Heights Drive, Los Angeles, CA 90069",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1870 Blue Heights Drive, Los Angeles",
+        "precision": "county-building-footprint",
+        "reason": "The Los Angeles County Assessor identifies 1870 Blue Heights Drive as parcel 5556-015-004. The marker is the centre of the county-mapped house footprint within that parcel, replacing an interpolated street point about 119 metres away. The same physical house appears as Eady’s home in Heat and Harry Bosch’s home in Bosch; the address remains a production-site proxy.",
+        "sourceIds": [
+          "heat_locations",
+          "heat_scout",
+          "eady_bosch_county_parcel",
+          "eady_bosch_county_building"
+        ]
+      }
     }
   ],
   "sources": [
@@ -260,6 +285,18 @@
       "title": "Esri World Geocoder — Havenhurst at Sunset",
       "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
       "source_type": "intersection coordinates"
+    },
+    {
+      "id": "eady_bosch_county_parcel",
+      "title": "Los Angeles County Assessor: 1870 Blue Heights Drive, parcel 5556-015-004",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%275556015004%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=pjson",
+      "source_type": "official county parcel geometry"
+    },
+    {
+      "id": "eady_bosch_county_building",
+      "title": "Los Angeles County Public Works: building 446989860017 at 1870 Blue Heights Drive",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.37858784235148%2C34.10276602635747%5D%2C%5B-118.3786784998863%2C34.10271094943863%5D%2C%5B-118.37872639792936%2C34.1026818091271%5D%2C%5B-118.3787365953317%2C34.10263588747008%5D%2C%5B-118.37894479042306%2C34.10263325626007%5D%2C%5B-118.37894244729888%2C34.10301277414209%5D%2C%5B-118.3789419392177%2C34.10309746558227%5D%2C%5B-118.37887808847228%2C34.10309799554865%5D%2C%5B-118.37858784235148%2C34.10276602635747%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=pjson",
+      "source_type": "official building footprint geometry"
     }
   ],
   "audit": {

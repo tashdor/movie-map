@@ -20,12 +20,10 @@
     },
     {
       "id": 37,
-      "reason": "Reservoir Dogs undercover identity is a major twist; keep The Big Lebowski appearance visible.",
+      "reason": "Reservoir Dogs undercover identity is a major twist. Mask the revealing role phrase; the exterior frame is safe, while the meeting gallery frame carries its own spoiler flag.",
       "title": "The Big Lebowski",
       "name": "Johnie’s Coffee Shop",
-      "fields": [
-        "mediaByTitle.Reservoir Dogs.screen"
-      ],
+      "fields": [],
       "redactions": [
         {
           "path": "appearances[title=Reservoir Dogs].story_role",

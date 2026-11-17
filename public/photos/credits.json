@@ -21,7 +21,97 @@
       "height": 798,
       "dateStatus": "Capture date not supplied by source."
     },
-    "note": "Heat frame used for shared Eady/Bosch property; Bosch frame not yet added."
+    "byTitle": {
+      "Heat": {
+        "id": 1,
+        "screen": {
+          "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+          "credit": "Heat film frame; L.A. TACO",
+          "alt": "Eady inside her hillside home in Heat.",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_EadysHouse2.jpg?w=710",
+          "src": "photos/a-001-screen.jpg",
+          "width": 710,
+          "height": 294,
+          "title": "Heat"
+        },
+        "place": {
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "alt": "The house at 1870 Blue Heights Drive photographed from below.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat11-1.jpg",
+          "src": "photos/a-001-place.jpg",
+          "width": 1100,
+          "height": 798,
+          "dateStatus": "Capture date not supplied by source."
+        }
+      },
+      "Bosch": {
+        "place": {
+          "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+          "credit": "Film Oblivion",
+          "alt": "The house at 1870 Blue Heights Drive photographed from below.",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat11-1.jpg",
+          "src": "photos/a-001-place.jpg",
+          "width": 1100,
+          "height": 798,
+          "dateStatus": "Capture date not supplied by source."
+        },
+        "screen": {
+          "src": "photos/improved-001-bosch-exterior-cantilever.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/b5d08302-1d03-4dba-aa30-a59eed3656e0.jpg",
+          "credit": "Bosch television frame; IAMNOTASTALKER",
+          "title": "Bosch",
+          "alt": "The cantilevered house and its supporting stilts in Bosch.",
+          "caption": "Cantilevered exterior",
+          "width": 1024,
+          "height": 576,
+          "spoiler": false,
+          "note": "Source image includes a series-name overlay."
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-001-bosch-exterior-wide.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/07477e4d-a6b6-4db3-aed3-f45edf862163.jpg",
+            "credit": "Bosch television frame; IAMNOTASTALKER",
+            "title": "Bosch",
+            "alt": "The hillside setting of Harry Bosch’s home in Bosch.",
+            "caption": "Hillside exterior",
+            "width": 1024,
+            "height": 576,
+            "spoiler": false,
+            "note": "Source image includes a series-name overlay."
+          },
+          {
+            "src": "photos/improved-001-bosch-interior-wide.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/32e61434-3fde-4633-8d6f-da09ee6a1ef0.jpg",
+            "credit": "Bosch television frame; IAMNOTASTALKER",
+            "title": "Bosch",
+            "alt": "Harry Bosch’s kitchen and dining area in Bosch.",
+            "caption": "Kitchen and dining area",
+            "width": 1024,
+            "height": 576,
+            "spoiler": false,
+            "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+          },
+          {
+            "src": "photos/improved-001-bosch-interior-window.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/1270db9c-5a5b-4fd0-82de-343d16727555.jpg",
+            "credit": "Bosch television frame; IAMNOTASTALKER",
+            "title": "Bosch",
+            "alt": "The living-room windows and city view at Harry Bosch’s home in Bosch.",
+            "caption": "Living room and view",
+            "width": 1024,
+            "height": 576,
+            "spoiler": false,
+            "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+          }
+        ]
+      }
+    }
   },
   "2": {
     "id": 2,
@@ -352,6 +442,69 @@
       "width": 940,
       "height": 625,
       "dateStatus": "Capture date not supplied by source."
+    },
+    "byTitle": {
+      "Blade Runner": {
+        "id": 15,
+        "screen": {
+          "sourceUrl": "https://moviemaps.org/images/1cz0",
+          "credit": "Blade Runner film frame; MovieMaps",
+          "alt": "Deckard drives through the Second Street Tunnel.",
+          "imageUrl": "https://storage.googleapis.com/moviemaps/img/1cz0.d4twqk.940.jpg",
+          "src": "photos/a-015-screen.jpg",
+          "width": 940,
+          "height": 391,
+          "title": "Blade Runner"
+        },
+        "place": {
+          "sourceUrl": "https://moviemaps.org/images/261m",
+          "credit": "Jeff Hitchcock / CC BY, via MovieMaps",
+          "alt": "Second Street Tunnel.",
+          "imageUrl": "https://storage.googleapis.com/moviemaps/img/261m.29zxix.940.jpg",
+          "src": "photos/a-015-place.jpg",
+          "width": 940,
+          "height": 625,
+          "dateStatus": "Capture date not supplied by source."
+        }
+      },
+      "The Terminator": {
+        "place": {
+          "sourceUrl": "https://moviemaps.org/images/261m",
+          "credit": "Jeff Hitchcock / CC BY, via MovieMaps",
+          "alt": "Second Street Tunnel.",
+          "imageUrl": "https://storage.googleapis.com/moviemaps/img/261m.29zxix.940.jpg",
+          "src": "photos/a-015-place.jpg",
+          "width": 940,
+          "height": 625,
+          "dateStatus": "Capture date not supplied by source."
+        },
+        "screen": {
+          "src": "photos/improved-015-terminator-second-street-30.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHiD0W2uCHk8fwVbIjhWBd5DaYKEjukJ750AU21nHxaED9zOjftp3WizEEjN6Ka-9Se6wwlXQZY6o_4Kj_IVM0_2HHfDcYgCmDw2yZzo7RiMH4HjK37PIlqAye7K9_J2i3pq2JSsOhuEJ1/s1600/Tunnel+1.jpg",
+          "credit": "The Terminator film frame; It’s Filmed There",
+          "title": "The Terminator",
+          "alt": "The tiled interior of the Second Street Tunnel during the chase in The Terminator.",
+          "caption": "Tunnel interior",
+          "width": 1280,
+          "height": 688,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-015-terminator-second-street-32.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqZ8r_mFwdrM-qERpYhdpH2aRxwgj1sm9rDMt-wMyOC7UsKiJPuKsvcPnKCXaJ5frfy_zG0gLv0a0ps8oK-Sz-iZXoI3xmpy8fSBio8thRFrl0MyHJNuC8j4_ehh5cXKOsek8pgp_yyXmP/s1600/Tunnel+2.jpg",
+            "credit": "The Terminator film frame; It’s Filmed There",
+            "title": "The Terminator",
+            "alt": "A truck enters the Second Street Tunnel in The Terminator.",
+            "caption": "Tunnel entrance",
+            "width": 1280,
+            "height": 684,
+            "spoiler": false
+          }
+        ]
+      }
     }
   },
   "16": {
@@ -776,19 +929,45 @@
   "31": {
     "id": 31,
     "screen": {
-      "src": "photos/031-screen.jpg",
+      "src": "photos/improved-031-lebowski-dude-home-1.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
-      "credit": "It's Filmed There",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj4K9iBDA5r4mWWaa2QUaRNwR6-WrRB8yRs1Yn6_Q-FAAKf-kVtAAT8S3AqQ1zxCRL7nRohDrFoYLxS_cXD4HbmPdkMXuXt9Y18QE4Udu61ITn_snKWtGMRTrKfT2vqagXGgucyOGPQ2rq/s400/dude+1.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYn0ZSh0ehxdrniZeUwYMWlkun95A6vnwsTgqbH7yx0Rex229UYiRkJ-0Mr_-CSD2txkjFnHrno2n-qtxvwmPxx8JLuIzOjoyVQlEIRQ1-CUXaTeerq60O6dy8BMBbe1NMQWRDy8em-xpy/s1600/Dude+House+2.jpg",
+      "credit": "The Big Lebowski film frame; It’s Filmed There",
       "title": "The Big Lebowski",
-      "releaseYear": 1998
+      "alt": "The Dude’s bungalow courtyard and neighboring cottages in The Big Lebowski.",
+      "caption": "Bungalow courtyard",
+      "width": 1280,
+      "height": 690,
+      "spoiler": false
     },
     "place": {
       "src": "photos/031-place.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
       "credit": "It's Filmed There",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI-Gln3OArbqJPGioj2Ljx4PEHOIt2KhLWGHZAQAnxenwmOcFvNj0IGxfXaeujDxIpDH9iaZLC8hhF_Bl6g8YFEsv_niIgbNVKFlYEoFVQRqaXHhmyk8jOr7I_-6G4QoRGEwtX0IShYwmu/s400/DSCF2366.JPG"
-    }
+    },
+    "screenGallery": [
+      {
+        "src": "photos/improved-031-lebowski-dude-home-3.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnaZ3Q_MBJgd34VCNaJTqiKOWPOjoi-fBmAprUWaa0S1gfuk87Xp5g0CED8NrNkZ2pA8g7jPxObooOjcZBDX802oKQwye6-nCjPTgvmEBY-scJzJOEn3RPuS1x70ERT_67l-Di429r3uZp/s1600/Dude+House+3.jpg",
+        "credit": "The Big Lebowski film frame; It’s Filmed There",
+        "title": "The Big Lebowski",
+        "alt": "The lane outside The Dude’s bungalow compound in The Big Lebowski.",
+        "caption": "Lane outside the bungalows",
+        "width": 1280,
+        "height": 690,
+        "spoiler": false
+      },
+      {
+        "src": "photos/031-screen.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+        "credit": "It's Filmed There",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj4K9iBDA5r4mWWaa2QUaRNwR6-WrRB8yRs1Yn6_Q-FAAKf-kVtAAT8S3AqQ1zxCRL7nRohDrFoYLxS_cXD4HbmPdkMXuXt9Y18QE4Udu61ITn_snKWtGMRTrKfT2vqagXGgucyOGPQ2rq/s400/dude+1.jpg",
+        "title": "The Big Lebowski",
+        "releaseYear": 1998
+      }
+    ]
   },
   "32": {
     "id": 32,
@@ -823,7 +1002,48 @@
       "credit": "Jared Cowan / Los Angeles Magazine",
       "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
     },
-    "note": "Maude’s Palace Theatre loft component; shared property also used for the Club Silencio rear entrance."
+    "note": "Maude’s Palace Theatre loft component; shared property also used for the Club Silencio rear entrance.",
+    "byTitle": {
+      "The Big Lebowski": {
+        "id": 33,
+        "screen": {
+          "src": "photos/033-screen.jpg",
+          "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+          "credit": "PolyGram Filmed Entertainment, reproduced by Los Angeles Magazine",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft1.jpg",
+          "title": "The Big Lebowski",
+          "releaseYear": 1998
+        },
+        "place": {
+          "src": "photos/033-place.jpg",
+          "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+          "credit": "Jared Cowan / Los Angeles Magazine",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
+        },
+        "note": "Maude’s Palace Theatre loft component; shared property also used for the Club Silencio rear entrance."
+      },
+      "Mulholland Drive": {
+        "place": {
+          "src": "photos/033-place.jpg",
+          "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+          "credit": "Jared Cowan / Los Angeles Magazine",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
+        },
+        "screen": {
+          "src": "photos/improved-033-mulholland-club-silencio.jpg",
+          "sourceUrl": "https://www.bfi.org.uk/features/mulholland-drive-david-lynch-locations",
+          "imageUrl": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2021-10/mulholland-drive-2001-club-silencio-exterior.jpg/600x0/mulholland-drive-2001-club-silencio-exterior.jpg",
+          "credit": "Mulholland Drive film frame; BFI",
+          "title": "Mulholland Drive",
+          "alt": "The rear entrance and blue neon sign of Club Silencio in Mulholland Drive.",
+          "caption": "Club entrance",
+          "width": 600,
+          "height": 318,
+          "spoiler": false
+        },
+        "screenGallery": []
+      }
+    }
   },
   "34": {
     "id": 34,
@@ -881,18 +1101,119 @@
   "37": {
     "id": 37,
     "screen": {
-      "src": "photos/037-screen.jpg",
-      "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
-      "credit": "It's Filmed There",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2sDoIU6sTK2VmwqdhrjCZDa-50iVp7G6ryMY_D6PPDlq7RQeejOuHT281Lvd7Ma9c2ouImdUaDoNiqovwv1A_bXurgb7fUWAJlzu0A9LhCJ2_il6fDVPrOImpE8d152uXWzx79NtpyjXw/s400/Coffee+1.jpg",
+      "src": "photos/improved-037-lebowski-johnies-35.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/36d6dc8e-5aa4-4bfc-9b5c-d515d8f1a959.jpg",
+      "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
       "title": "The Big Lebowski",
-      "releaseYear": 1998
+      "alt": "The dining counter, booths and green walls inside Johnie’s Coffee Shop in The Big Lebowski.",
+      "caption": "Dining counter",
+      "width": 1022,
+      "height": 768,
+      "spoiler": false
     },
     "place": {
       "src": "photos/037-place.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
       "credit": "It's Filmed There",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+    },
+    "screenGallery": [
+      {
+        "src": "photos/improved-037-lebowski-johnies-33.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/70bb13a3-1862-4025-a6a7-3c3ec97e870c.jpg",
+        "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+        "title": "The Big Lebowski",
+        "alt": "The Dude and Walter at a window-side table inside Johnie’s Coffee Shop in The Big Lebowski.",
+        "caption": "Window-side table",
+        "width": 1022,
+        "height": 768,
+        "spoiler": false
+      }
+    ],
+    "byTitle": {
+      "The Big Lebowski": {
+        "id": 37,
+        "screen": {
+          "src": "photos/improved-037-lebowski-johnies-35.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/36d6dc8e-5aa4-4bfc-9b5c-d515d8f1a959.jpg",
+          "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+          "title": "The Big Lebowski",
+          "alt": "The dining counter, booths and green walls inside Johnie’s Coffee Shop in The Big Lebowski.",
+          "caption": "Dining counter",
+          "width": 1022,
+          "height": 768,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/037-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-037-lebowski-johnies-33.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/70bb13a3-1862-4025-a6a7-3c3ec97e870c.jpg",
+            "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+            "title": "The Big Lebowski",
+            "alt": "The Dude and Walter at a window-side table inside Johnie’s Coffee Shop in The Big Lebowski.",
+            "caption": "Window-side table",
+            "width": 1022,
+            "height": 768,
+            "spoiler": false
+          }
+        ]
+      },
+      "Reservoir Dogs": {
+        "place": {
+          "src": "photos/037-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+        },
+        "screen": {
+          "src": "photos/improved-037-reservoir-johnies-25.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/e2c70acd-d00e-41b3-8c09-f14a48a19199.jpg",
+          "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+          "title": "Reservoir Dogs",
+          "alt": "The neon-lit Johnie’s Coffee Shop exterior at night in Reservoir Dogs.",
+          "caption": "Exterior at night",
+          "width": 1021,
+          "height": 768,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-037-reservoir-johnies-24.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/7c04ca7a-72b0-4964-9bc4-4769c6a05ed4.jpg",
+            "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+            "title": "Reservoir Dogs",
+            "alt": "The dining-room booths and front entrance of Johnie’s Coffee Shop in Reservoir Dogs.",
+            "caption": "Dining room and entrance",
+            "width": 1024,
+            "height": 767,
+            "spoiler": false
+          },
+          {
+            "src": "photos/improved-037-reservoir-johnies-26.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/fe5764e0-6ddb-4e97-9cea-564b23d13f5d.jpg",
+            "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+            "title": "Reservoir Dogs",
+            "alt": "Mr. Orange walks through the counter area of Johnie’s Coffee Shop in Reservoir Dogs.",
+            "caption": "Counter and booths",
+            "width": 1021,
+            "height": 768,
+            "spoiler": true
+          }
+        ]
+      }
     }
   },
   "38": {
@@ -1626,19 +1947,24 @@
   "79": {
     "id": 79,
     "screen": {
-      "src": "photos/079-screen.jpg",
+      "src": "photos/improved-079-terminator-sarah-apartment.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
-      "credit": "It's Filmed There",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtCjo1EHpcvhvBo3fU1ERgi2YTjr_cJbXkoCMYjbP_oqshB6NMAscahFU6TNvBb4xWM3SKxw55FzNvhsG3y8-cpBV6vQfMPcR0Pd5AgarZMYYeA-AqwWnqFNVEmsSdqLoyOdxYxzzjzkf/s400/Apartment+2.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtCjo1EHpcvhvBo3fU1ERgi2YTjr_cJbXkoCMYjbP_oqshB6NMAscahFU6TNvBb4xWM3SKxw55FzNvhsG3y8-cpBV6vQfMPcR0Pd5AgarZMYYeA-AqwWnqFNVEmsSdqLoyOdxYxzzjzkf/s1600/Apartment+2.jpg",
+      "credit": "The Terminator film frame; It’s Filmed There",
       "title": "The Terminator",
-      "releaseYear": 1984
+      "alt": "The entrance and exterior of Sarah and Ginger’s apartment building in The Terminator.",
+      "caption": "Apartment entrance",
+      "width": 1276,
+      "height": 687,
+      "spoiler": false
     },
     "place": {
       "src": "photos/079-place.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
       "credit": "It's Filmed There",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0aO-bXf3jx3so70D46W-LLu9Bg26Qitj5a68jFwbN8CNjpNBB1SNLMu6u2dxpZcMX5wm_ILZGGBySKZ1RFsjfdeCdr9Ei8fIEsfDXsHCkCV3rDTKP3BOAXsEOitn5brMM-dtWCz9C71_w/s400/DSCF1793.JPG"
-    }
+    },
+    "screenGallery": []
   },
   "80": {
     "id": 80,
@@ -1707,18 +2033,128 @@
   "83": {
     "id": 83,
     "screen": {
-      "src": "photos/083-screen.jpg",
+      "src": "photos/improved-083-terminator-observatory-wide.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
-      "credit": "It's Filmed There",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s400/Observatory+1.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s1600/Observatory+1.jpg",
+      "credit": "The Terminator film frame; It’s Filmed There",
       "title": "The Terminator",
-      "releaseYear": 1984
+      "alt": "Griffith Observatory and its forecourt at night in The Terminator.",
+      "caption": "Observatory at night",
+      "width": 1280,
+      "height": 708,
+      "spoiler": false
     },
     "place": {
       "src": "photos/083-place.jpg",
       "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
       "credit": "It's Filmed There",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+    },
+    "screenGallery": [],
+    "byTitle": {
+      "The Terminator": {
+        "id": 83,
+        "screen": {
+          "src": "photos/improved-083-terminator-observatory-wide.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s1600/Observatory+1.jpg",
+          "credit": "The Terminator film frame; It’s Filmed There",
+          "title": "The Terminator",
+          "alt": "Griffith Observatory and its forecourt at night in The Terminator.",
+          "caption": "Observatory at night",
+          "width": 1280,
+          "height": 708,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        },
+        "screenGallery": []
+      },
+      "Star Trek: Voyager": {
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        },
+        "screen": {
+          "src": "photos/improved-083-voyager-observatory-approach.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Observatory-ParisAndTuvok.jpg",
+          "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+          "title": "Star Trek: Voyager",
+          "alt": "Paris and Tuvok approach Griffith Observatory and the Astronomers Monument in Star Trek: Voyager.",
+          "caption": "Observatory approach",
+          "width": 600,
+          "height": 454,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-083-voyager-observatory-terrace.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+            "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PhaserBattleOutsideObservatory2.jpg",
+            "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+            "title": "Star Trek: Voyager",
+            "alt": "The Griffith Observatory forecourt during the outdoor encounter in Star Trek: Voyager.",
+            "caption": "Observatory forecourt",
+            "width": 600,
+            "height": 454,
+            "spoiler": false
+          }
+        ]
+      },
+      "La La Land": {
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        },
+        "screen": {
+          "src": "photos/improved-083-lalaland-observatory-approach.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory1.jpg",
+          "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+          "title": "La La Land",
+          "alt": "Griffith Observatory illuminated at night in La La Land.",
+          "caption": "Observatory at night",
+          "width": 600,
+          "height": 239,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-083-lalaland-observatory-rotunda.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+            "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory2.jpg",
+            "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+            "title": "La La Land",
+            "alt": "Mia and Sebastian at the Foucault pendulum in Griffith Observatory’s rotunda in La La Land.",
+            "caption": "Foucault pendulum rotunda",
+            "width": 600,
+            "height": 239,
+            "spoiler": false
+          },
+          {
+            "src": "photos/improved-083-lalaland-planetarium.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+            "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory3.jpg",
+            "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+            "title": "La La Land",
+            "alt": "The planetarium auditorium during the dance in La La Land.",
+            "caption": "Planetarium dance",
+            "width": 600,
+            "height": 239,
+            "spoiler": false,
+            "note": "The waltz was filmed on a studio recreation of the pre-renovation Griffith planetarium auditorium; the exterior and rotunda were filmed at the Observatory."
+          }
+        ]
+      }
     }
   },
   "84": {
@@ -6715,16 +7151,6 @@
     }
   },
   "471": {
-    "screen": {
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
-      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
-      "credit": "Pretty Woman film frame; It’s Filmed There",
-      "alt": "Pretty Woman scene",
-      "src": "photos/n471-screen.jpg",
-      "title": "Pretty Woman",
-      "width": 835,
-      "height": 454
-    },
     "place": {
       "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
       "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
@@ -6735,6 +7161,96 @@
       "caption": "Site · source photo",
       "width": 1200,
       "height": 900
+    },
+    "screen": {
+      "src": "photos/improved-471-summer-fountain-17.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/d0989a8a-7690-4a96-8f7a-e31233e47009.jpg",
+      "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+      "title": "(500) Days of Summer",
+      "alt": "The Arthur J. Will Memorial Fountain and surrounding Civic Center buildings in (500) Days of Summer.",
+      "caption": "Fountain and Civic Center",
+      "width": 800,
+      "height": 329,
+      "spoiler": false
+    },
+    "screenGallery": [
+      {
+        "src": "photos/improved-471-summer-fountain-18.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/e664ff7d-8931-4b8c-b6ef-d284b507268f.jpg",
+        "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+        "title": "(500) Days of Summer",
+        "alt": "Tom walks beside the Arthur J. Will Memorial Fountain in (500) Days of Summer.",
+        "caption": "Beside the fountain",
+        "width": 800,
+        "height": 331,
+        "spoiler": false
+      }
+    ],
+    "byTitle": {
+      "Pretty Woman": {
+        "screen": {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+          "credit": "Pretty Woman film frame; It’s Filmed There",
+          "alt": "Pretty Woman scene",
+          "src": "photos/n471-screen.jpg",
+          "title": "Pretty Woman",
+          "width": 835,
+          "height": 454
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n471-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      "(500) Days of Summer": {
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+          "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n471-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        },
+        "screen": {
+          "src": "photos/improved-471-summer-fountain-17.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/d0989a8a-7690-4a96-8f7a-e31233e47009.jpg",
+          "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+          "title": "(500) Days of Summer",
+          "alt": "The Arthur J. Will Memorial Fountain and surrounding Civic Center buildings in (500) Days of Summer.",
+          "caption": "Fountain and Civic Center",
+          "width": 800,
+          "height": 329,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-471-summer-fountain-18.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/e664ff7d-8931-4b8c-b6ef-d284b507268f.jpg",
+            "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+            "title": "(500) Days of Summer",
+            "alt": "Tom walks beside the Arthur J. Will Memorial Fountain in (500) Days of Summer.",
+            "caption": "Beside the fountain",
+            "width": 800,
+            "height": 331,
+            "spoiler": false
+          }
+        ]
+      }
     }
   },
   "472": {

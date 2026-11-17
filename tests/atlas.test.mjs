@@ -105,9 +105,9 @@ test('story evidence overrides contradictory production coordinates',()=>{
   assert.equal(get(45).appearances.length,1);
   assert.equal(filterPlaces(data.places,{film:'Falling Down'}).some(p=>p.id===92),false);
 });
-test('every directory entry has local, attributed screen and site images',()=>{
-  for(const p of data.places)for(const pair of [p.media,...Object.values(p.mediaByTitle||{})])for(const kind of ['screen','place']){
-    const photo=pair?.[kind];assert.ok(photo?.src,`${p.id}: ${kind}`);
+test('every directory entry and gallery has local, attributed screen and site images',()=>{
+  for(const p of data.places)for(const pair of [p.media,...Object.values(p.mediaByTitle||{})])for(const [kind,photo] of [['screen',pair?.screen],['place',pair?.place],...(pair?.screenGallery||[]).map(p=>['gallery',p])]){
+    assert.ok(photo?.src,`${p.id}: ${kind}`);
     assert.ok(fs.statSync(new URL('../public/'+photo.src,import.meta.url)).size>1000);
     assert.match(photo.sourceUrl,/^https?:/);assert.ok(photo.credit);
   }

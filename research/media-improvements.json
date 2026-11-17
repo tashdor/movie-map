@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "updates": [
+    {
+      "id": 1,
+      "title": "Bosch",
+      "screen": {
+        "src": "photos/improved-001-bosch-exterior-cantilever.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/b5d08302-1d03-4dba-aa30-a59eed3656e0.jpg",
+        "credit": "Bosch television frame; IAMNOTASTALKER",
+        "title": "Bosch",
+        "alt": "The cantilevered house and its supporting stilts in Bosch.",
+        "caption": "Cantilevered exterior",
+        "width": 1024,
+        "height": 576,
+        "spoiler": false,
+        "note": "Source image includes a series-name overlay."
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-001-bosch-exterior-wide.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/07477e4d-a6b6-4db3-aed3-f45edf862163.jpg",
+          "credit": "Bosch television frame; IAMNOTASTALKER",
+          "title": "Bosch",
+          "alt": "The hillside setting of Harry Bosch’s home in Bosch.",
+          "caption": "Hillside exterior",
+          "width": 1024,
+          "height": 576,
+          "spoiler": false,
+          "note": "Source image includes a series-name overlay."
+        },
+        {
+          "src": "photos/improved-001-bosch-interior-wide.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/32e61434-3fde-4633-8d6f-da09ee6a1ef0.jpg",
+          "credit": "Bosch television frame; IAMNOTASTALKER",
+          "title": "Bosch",
+          "alt": "Harry Bosch’s kitchen and dining area in Bosch.",
+          "caption": "Kitchen and dining area",
+          "width": 1024,
+          "height": 576,
+          "spoiler": false,
+          "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+        },
+        {
+          "src": "photos/improved-001-bosch-interior-window.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/1270db9c-5a5b-4fd0-82de-343d16727555.jpg",
+          "credit": "Bosch television frame; IAMNOTASTALKER",
+          "title": "Bosch",
+          "alt": "The living-room windows and city view at Harry Bosch’s home in Bosch.",
+          "caption": "Living room and view",
+          "width": 1024,
+          "height": 576,
+          "spoiler": false,
+          "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 83,
+      "title": "Star Trek: Voyager",
+      "screen": {
+        "src": "photos/improved-083-voyager-observatory-approach.jpg",
+        "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+        "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Observatory-ParisAndTuvok.jpg",
+        "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+        "title": "Star Trek: Voyager",
+        "alt": "Paris and Tuvok approach Griffith Observatory and the Astronomers Monument in Star Trek: Voyager.",
+        "caption": "Observatory approach",
+        "width": 600,
+        "height": 454,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-083-voyager-observatory-terrace.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PhaserBattleOutsideObservatory2.jpg",
+          "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+          "title": "Star Trek: Voyager",
+          "alt": "The Griffith Observatory forecourt during the outdoor encounter in Star Trek: Voyager.",
+          "caption": "Observatory forecourt",
+          "width": 600,
+          "height": 454,
+          "spoiler": false
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 83,
+      "title": "La La Land",
+      "screen": {
+        "src": "photos/improved-083-lalaland-observatory-approach.jpg",
+        "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+        "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory1.jpg",
+        "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+        "title": "La La Land",
+        "alt": "Griffith Observatory illuminated at night in La La Land.",
+        "caption": "Observatory at night",
+        "width": 600,
+        "height": 239,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-083-lalaland-observatory-rotunda.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory2.jpg",
+          "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+          "title": "La La Land",
+          "alt": "Mia and Sebastian at the Foucault pendulum in Griffith Observatory’s rotunda in La La Land.",
+          "caption": "Foucault pendulum rotunda",
+          "width": 600,
+          "height": 239,
+          "spoiler": false
+        },
+        {
+          "src": "photos/improved-083-lalaland-planetarium.jpg",
+          "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+          "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory3.jpg",
+          "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+          "title": "La La Land",
+          "alt": "The planetarium auditorium during the dance in La La Land.",
+          "caption": "Planetarium dance",
+          "width": 600,
+          "height": 239,
+          "spoiler": false,
+          "note": "The waltz was filmed on a studio recreation of the pre-renovation Griffith planetarium auditorium; the exterior and rotunda were filmed at the Observatory."
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 33,
+      "title": "Mulholland Drive",
+      "screen": {
+        "src": "photos/improved-033-mulholland-club-silencio.jpg",
+        "sourceUrl": "https://www.bfi.org.uk/features/mulholland-drive-david-lynch-locations",
+        "imageUrl": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2021-10/mulholland-drive-2001-club-silencio-exterior.jpg/600x0/mulholland-drive-2001-club-silencio-exterior.jpg",
+        "credit": "Mulholland Drive film frame; BFI",
+        "title": "Mulholland Drive",
+        "alt": "The rear entrance and blue neon sign of Club Silencio in Mulholland Drive.",
+        "caption": "Club entrance",
+        "width": 600,
+        "height": 318,
+        "spoiler": false
+      },
+      "screenGallery": [],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 37,
+      "title": "Reservoir Dogs",
+      "screen": {
+        "src": "photos/improved-037-reservoir-johnies-25.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/e2c70acd-d00e-41b3-8c09-f14a48a19199.jpg",
+        "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+        "title": "Reservoir Dogs",
+        "alt": "The neon-lit Johnie’s Coffee Shop exterior at night in Reservoir Dogs.",
+        "caption": "Exterior at night",
+        "width": 1021,
+        "height": 768,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-037-reservoir-johnies-24.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/7c04ca7a-72b0-4964-9bc4-4769c6a05ed4.jpg",
+          "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+          "title": "Reservoir Dogs",
+          "alt": "The dining-room booths and front entrance of Johnie’s Coffee Shop in Reservoir Dogs.",
+          "caption": "Dining room and entrance",
+          "width": 1024,
+          "height": 767,
+          "spoiler": false
+        },
+        {
+          "src": "photos/improved-037-reservoir-johnies-26.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/fe5764e0-6ddb-4e97-9cea-564b23d13f5d.jpg",
+          "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+          "title": "Reservoir Dogs",
+          "alt": "Mr. Orange walks through the counter area of Johnie’s Coffee Shop in Reservoir Dogs.",
+          "caption": "Counter and booths",
+          "width": 1021,
+          "height": 768,
+          "spoiler": true
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 37,
+      "title": "The Big Lebowski",
+      "screen": {
+        "src": "photos/improved-037-lebowski-johnies-35.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/36d6dc8e-5aa4-4bfc-9b5c-d515d8f1a959.jpg",
+        "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+        "title": "The Big Lebowski",
+        "alt": "The dining counter, booths and green walls inside Johnie’s Coffee Shop in The Big Lebowski.",
+        "caption": "Dining counter",
+        "width": 1022,
+        "height": 768,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-037-lebowski-johnies-33.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/70bb13a3-1862-4025-a6a7-3c3ec97e870c.jpg",
+          "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+          "title": "The Big Lebowski",
+          "alt": "The Dude and Walter at a window-side table inside Johnie’s Coffee Shop in The Big Lebowski.",
+          "caption": "Window-side table",
+          "width": 1022,
+          "height": 768,
+          "spoiler": false
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 31,
+      "title": "The Big Lebowski",
+      "screen": {
+        "src": "photos/improved-031-lebowski-dude-home-1.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYn0ZSh0ehxdrniZeUwYMWlkun95A6vnwsTgqbH7yx0Rex229UYiRkJ-0Mr_-CSD2txkjFnHrno2n-qtxvwmPxx8JLuIzOjoyVQlEIRQ1-CUXaTeerq60O6dy8BMBbe1NMQWRDy8em-xpy/s1600/Dude+House+2.jpg",
+        "credit": "The Big Lebowski film frame; It’s Filmed There",
+        "title": "The Big Lebowski",
+        "alt": "The Dude’s bungalow courtyard and neighboring cottages in The Big Lebowski.",
+        "caption": "Bungalow courtyard",
+        "width": 1280,
+        "height": 690,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-031-lebowski-dude-home-3.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnaZ3Q_MBJgd34VCNaJTqiKOWPOjoi-fBmAprUWaa0S1gfuk87Xp5g0CED8NrNkZ2pA8g7jPxObooOjcZBDX802oKQwye6-nCjPTgvmEBY-scJzJOEn3RPuS1x70ERT_67l-Di429r3uZp/s1600/Dude+House+3.jpg",
+          "credit": "The Big Lebowski film frame; It’s Filmed There",
+          "title": "The Big Lebowski",
+          "alt": "The lane outside The Dude’s bungalow compound in The Big Lebowski.",
+          "caption": "Lane outside the bungalows",
+          "width": 1280,
+          "height": 690,
+          "spoiler": false
+        }
+      ],
+      "preserveExistingScreen": true,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 15,
+      "title": "The Terminator",
+      "screen": {
+        "src": "photos/improved-015-terminator-second-street-30.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHiD0W2uCHk8fwVbIjhWBd5DaYKEjukJ750AU21nHxaED9zOjftp3WizEEjN6Ka-9Se6wwlXQZY6o_4Kj_IVM0_2HHfDcYgCmDw2yZzo7RiMH4HjK37PIlqAye7K9_J2i3pq2JSsOhuEJ1/s1600/Tunnel+1.jpg",
+        "credit": "The Terminator film frame; It’s Filmed There",
+        "title": "The Terminator",
+        "alt": "The tiled interior of the Second Street Tunnel during the chase in The Terminator.",
+        "caption": "Tunnel interior",
+        "width": 1280,
+        "height": 688,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-015-terminator-second-street-32.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqZ8r_mFwdrM-qERpYhdpH2aRxwgj1sm9rDMt-wMyOC7UsKiJPuKsvcPnKCXaJ5frfy_zG0gLv0a0ps8oK-Sz-iZXoI3xmpy8fSBio8thRFrl0MyHJNuC8j4_ehh5cXKOsek8pgp_yyXmP/s1600/Tunnel+2.jpg",
+          "credit": "The Terminator film frame; It’s Filmed There",
+          "title": "The Terminator",
+          "alt": "A truck enters the Second Street Tunnel in The Terminator.",
+          "caption": "Tunnel entrance",
+          "width": 1280,
+          "height": 684,
+          "spoiler": false
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    },
+    {
+      "id": 83,
+      "title": "The Terminator",
+      "screen": {
+        "src": "photos/improved-083-terminator-observatory-wide.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s1600/Observatory+1.jpg",
+        "credit": "The Terminator film frame; It’s Filmed There",
+        "title": "The Terminator",
+        "alt": "Griffith Observatory and its forecourt at night in The Terminator.",
+        "caption": "Observatory at night",
+        "width": 1280,
+        "height": 708,
+        "spoiler": false
+      },
+      "screenGallery": [],
+      "preserveExistingScreen": false,
+      "reason": "Replaces the 400-pixel source thumbnail with the same native higher-resolution frame."
+    },
+    {
+      "id": 79,
+      "title": "The Terminator",
+      "screen": {
+        "src": "photos/improved-079-terminator-sarah-apartment.jpg",
+        "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtCjo1EHpcvhvBo3fU1ERgi2YTjr_cJbXkoCMYjbP_oqshB6NMAscahFU6TNvBb4xWM3SKxw55FzNvhsG3y8-cpBV6vQfMPcR0Pd5AgarZMYYeA-AqwWnqFNVEmsSdqLoyOdxYxzzjzkf/s1600/Apartment+2.jpg",
+        "credit": "The Terminator film frame; It’s Filmed There",
+        "title": "The Terminator",
+        "alt": "The entrance and exterior of Sarah and Ginger’s apartment building in The Terminator.",
+        "caption": "Apartment entrance",
+        "width": 1276,
+        "height": 687,
+        "spoiler": false
+      },
+      "screenGallery": [],
+      "preserveExistingScreen": false,
+      "reason": "Replaces the 400-pixel source thumbnail with the same native higher-resolution frame."
+    },
+    {
+      "id": 471,
+      "title": "(500) Days of Summer",
+      "screen": {
+        "src": "photos/improved-471-summer-fountain-17.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/d0989a8a-7690-4a96-8f7a-e31233e47009.jpg",
+        "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+        "title": "(500) Days of Summer",
+        "alt": "The Arthur J. Will Memorial Fountain and surrounding Civic Center buildings in (500) Days of Summer.",
+        "caption": "Fountain and Civic Center",
+        "width": 800,
+        "height": 329,
+        "spoiler": false
+      },
+      "screenGallery": [
+        {
+          "src": "photos/improved-471-summer-fountain-18.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/e664ff7d-8931-4b8c-b6ef-d284b507268f.jpg",
+          "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+          "title": "(500) Days of Summer",
+          "alt": "Tom walks beside the Arthur J. Will Memorial Fountain in (500) Days of Summer.",
+          "caption": "Beside the fountain",
+          "width": 800,
+          "height": 331,
+          "spoiler": false
+        }
+      ],
+      "preserveExistingScreen": false,
+      "reason": "Adds distinct, visually checked views of the location from this title."
+    }
+  ],
+  "audit": [
+    {
+      "id": 1,
+      "title": "Heat",
+      "decision": "retain_existing",
+      "reason": "The existing Eady window/interior frame is more representative than the alternative close-up of Eady and McCauley; no clearly better Heat frame was verified."
+    },
+    {
+      "id": 83,
+      "title": "Star Trek: Voyager",
+      "decision": "reject_composite",
+      "reason": "The source’s Observatory-Rain.jpg includes an inset portrait over a building view; accepted genuine full frames instead."
+    },
+    {
+      "id": 87,
+      "title": "Mulholland Drive",
+      "decision": "retain_existing",
+      "reason": "The BFI exterior candidate is the same frame already used in the atlas; no duplicate added."
+    },
+    {
+      "id": 88,
+      "title": "Mulholland Drive",
+      "decision": "retain_existing",
+      "reason": "The BFI bungalow candidate is the same frame already used in the atlas; no duplicate added."
+    },
+    {
+      "id": 90,
+      "title": "Mulholland Drive",
+      "decision": "retain_existing",
+      "reason": "The exterior candidate duplicates the existing frame; the other candidate is a character close-up rather than a useful location view."
+    },
+    {
+      "id": 22,
+      "title": "Drive",
+      "decision": "no_new_frame",
+      "sourceUrl": "https://www.set-jetter.com/ontheset/tag/Drive",
+      "reason": "Verified source supplies then-and-now composites containing the photographer and a movie frame. These were not mislabeled as pure film stills or added to the gallery."
+    },
+    {
+      "id": 74,
+      "title": "Chinatown",
+      "decision": "no_new_frame",
+      "reason": "The location appears in an in-story photograph. No usable image of that exact photograph was verified; a Training Day frame should not be presented as Chinatown."
+    },
+    {
+      "id": 471,
+      "title": "Pretty Woman",
+      "decision": "retain_existing",
+      "reason": "Existing fountain frame is representative; add the distinct (500) Days of Summer frames as a separate title-specific pair."
+    }
+  ]
+}

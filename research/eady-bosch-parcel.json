@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "id": 1,
+  "address": "1870 BLUE HEIGHTS DR LOS ANGELES CA 90069",
+  "parcel": "5556015004",
+  "coordinates": [
+    -118.37883738646532,
+    34.102833091490766
+  ],
+  "precision": "county-building-footprint",
+  "previousCoordinates": [
+    -118.379307813957,
+    34.103831596255
+  ],
+  "correctionDistanceMetres": 119.3,
+  "sourceUrl": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%275556015004%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=pjson",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.37858784235148,
+          34.10276602635747
+        ],
+        [
+          -118.3786784998863,
+          34.10271094943863
+        ],
+        [
+          -118.37872639792936,
+          34.1026818091271
+        ],
+        [
+          -118.3787365953317,
+          34.10263588747008
+        ],
+        [
+          -118.37894479042306,
+          34.10263325626007
+        ],
+        [
+          -118.37894244729888,
+          34.10301277414209
+        ],
+        [
+          -118.3789419392177,
+          34.10309746558227
+        ],
+        [
+          -118.37887808847228,
+          34.10309799554865
+        ],
+        [
+          -118.37858784235148,
+          34.10276602635747
+        ]
+      ]
+    ]
+  },
+  "note": "The building footprint centre lies within the official parcel at 1870 Blue Heights Drive; it replaces the interpolated street point. This identifies the real production house, without asserting a different on-screen street address.",
+  "parcelCentroid": [
+    -118.37880531,
+    34.10282719
+  ],
+  "building": {
+    "id": "446989860017",
+    "sourceUrl": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.37858784235148%2C34.10276602635747%5D%2C%5B-118.3786784998863%2C34.10271094943863%5D%2C%5B-118.37872639792936%2C34.1026818091271%5D%2C%5B-118.3787365953317%2C34.10263588747008%5D%2C%5B-118.37894479042306%2C34.10263325626007%5D%2C%5B-118.37894244729888%2C34.10301277414209%5D%2C%5B-118.3789419392177%2C34.10309746558227%5D%2C%5B-118.37887808847228%2C34.10309799554865%5D%2C%5B-118.37858784235148%2C34.10276602635747%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=pjson",
+    "sourceDataset": "LARIAC building footprints",
+    "sourceImageryYear": "2008",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -118.3788313227186,
+            34.1027573214884
+          ],
+          [
+            -118.37889518869058,
+            34.102760199087
+          ],
+          [
+            -118.37889501105403,
+            34.10279394412119
+          ],
+          [
+            -118.37893541850893,
+            34.102795740386746
+          ],
+          [
+            -118.37893108257447,
+            34.10285939518469
+          ],
+          [
+            -118.3788889556083,
+            34.10285721935362
+          ],
+          [
+            -118.37888119251174,
+            34.102900962762334
+          ],
+          [
+            -118.37875569414449,
+            34.10289237059456
+          ],
+          [
+            -118.37874048315706,
+            34.10287433707436
+          ],
+          [
+            -118.37874393874833,
+            34.10282780430228
+          ],
+          [
+            -118.3788313227186,
+            34.1027573214884
+          ]
+        ]
+      ]
+    }
+  }
+}

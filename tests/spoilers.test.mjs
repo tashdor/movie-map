@@ -81,6 +81,22 @@ test('each ink seed varies its outline and angle without changing on rerender',(
   assert.ok(new Set(Array.from({length:16},(_,i)=>inkAppearance('bar:'+i)['--ink-tilt'])).size>10);
 });
 
+test('gallery frames keep individual spoiler protection and restore their original images on opt-in',()=>{
+  const home=place(1),screen=home.media.screen;
+  const gallery={...home,media:{...home.media,screenGallery:[{...screen,src:'revealing-frame.jpg',spoiler:true},{...screen,src:'ordinary-room.jpg'}]}};
+  const view=presentPlace(gallery,false,audit);
+  assert.equal(view.media.screen.src,screen.src);
+  assert.equal(view.media.screenGallery[0].src,'');assert.equal(view.media.screenGallery[0].redacted,true);
+  assert.equal(view.media.screenGallery[1].src,'ordinary-room.jpg');
+  assert.equal(presentPlace(gallery,true,audit),gallery);
+  const primaryReveal={...gallery,media:{...gallery.media,screen:{...screen,spoiler:true}}};
+  assert.equal(presentPlace(primaryReveal,false,audit).media.screen.src,'');
+  assert.equal(presentPlace(primaryReveal,false,audit).media.screenGallery[1].src,'ordinary-room.jpg');
+  const knownSafeExterior={...place(4),media:{...place(4).media,screen:{...place(4).media.screen,spoiler:false}}};
+  assert.equal(presentPlace(knownSafeExterior,false,audit).media.screen.src,place(4).media.screen.src);
+  assert.deepEqual(presentPlace(knownSafeExterior,false,audit).deaths[0].people,[REDACTED]);
+});
+
 test('redaction preserves canonical data, geometry and stable location identities',()=>{
   const before=JSON.stringify(data);
   for(const p of displayEntries(data.places)){

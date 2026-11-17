@@ -47,7 +47,8 @@ function safePhoto(photo,phrases=[]){
 }
 function safePair(pair,coverScreen=false,phrases=[]){
   if(!pair)return pair;
-  return {...pair,screen:coverScreen||isRedacted(redactText(pair.screen?.alt||'',phrases))?coverPhoto(pair.screen):safePhoto(pair.screen,phrases),place:safePhoto(pair.place,phrases),note:redactText(pair.note||'',phrases)};
+  const screenPhoto=photo=>photo?.redacted||photo?.spoiler===true||photo?.spoiler!==false&&(coverScreen||isRedacted(redactText(photo?.alt||'',phrases)))?coverPhoto(photo):safePhoto(photo,phrases);
+  return {...pair,screen:screenPhoto(pair.screen),screenGallery:pair.screenGallery?.map(screenPhoto),place:safePhoto(pair.place,phrases),note:redactText(pair.note||'',phrases)};
 }
 
 export function presentPlace(place,showSpoilers,audit){

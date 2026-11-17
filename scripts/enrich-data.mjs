@@ -73,6 +73,23 @@ export function enrich(atlas){
   const corrections=read('research/story-map-corrections.json',{corrections:[],sources:[]});
   for(const source of corrections.sources)if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}
   for(const correction of corrections.corrections){const place=byId.get(correction.id);if(!place)throw Error(`Missing corrected place ${correction.id}`);Object.assign(place,correction);}
+  for(const path of ['research/property-links-early.json','research/property-links-late.json']){
+    for(const {id,...link} of read(path,{entries:[]}).entries){
+      const place=byId.get(id);if(!place)throw Error(`Missing property-link place ${id}`);
+      if(!place.appearances.some(a=>(a.categories||place.categories).includes('home')))throw Error(`Property link is not a home: ${id}`);
+      place.propertyLinks=[...(place.propertyLinks||[]),link];
+    }
+  }
+  for(const update of read('research/media-improvements.json',{updates:[]}).updates){
+    const place=byId.get(update.id);if(!place)throw Error(`Missing improved-photo place ${update.id}`);
+    if(!place.appearances.some(a=>a.title===update.title))throw Error(`Photo title does not appear at ${update.id}: ${update.title}`);
+    const original=place.mediaByTitle?.[update.title]||(place.media?.screen?.title===update.title?place.media:undefined);
+    const gallery=[...(update.screenGallery||[]),...((update.preserveExistingScreen||update.keepExisting)&&original?.screen?[original.screen]:[])];
+    const pair={...(original||{place:place.media?.place}),screen:{...update.screen,title:update.title},screenGallery:[...new Map(gallery.filter(p=>p.src!==update.screen.src).map(p=>[p.src,{...p,title:update.title}])).values()]};
+    if(update.id===1){delete pair.note;if(place.media)delete place.media.note;}
+    if(place.appearances.length>1||place.mediaByTitle){place.mediaByTitle||={};const primaryTitle=place.media?.screen?.title;if(primaryTitle&&!place.mediaByTitle[primaryTitle])place.mediaByTitle[primaryTitle]=place.media;place.mediaByTitle[update.title]=pair;}
+    if(place.appearances[0].title===update.title||place.media?.screen?.title===update.title)place.media=pair;
+  }
   const race=byId.get(208);if(race?.routeAnchors){const j=atlas.journeys.find(j=>j.id===100);j.stops=race.routeAnchors.map(s=>({...s,placeId:208}));j.geometry=race.geometry||race.placement?.geometry;j.source_ids=race.appearances[0].source_ids;}
   const car=byId.get(211);if(car){const j=atlas.journeys.find(j=>j.id===97);j.stops[0]={name:car.name,coordinates:car.coordinates,placeId:211};j.source_ids=[...new Set([...j.source_ids,...car.appearances[0].source_ids])];}
   for(const p of atlas.places){if(p.media)media[p.id]={...p.media,...(p.mediaByTitle?{byTitle:p.mediaByTitle}:{})};for(const component of p.components||[])if(component.media)media[component.id]=component.media;}

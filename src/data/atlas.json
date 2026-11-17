@@ -11,10 +11,10 @@
       "address": "1870 Blue Heights Drive",
       "area": "Los Angeles",
       "coordinates": [
-        -118.379307813957,
-        34.103831596255
+        -118.37883738646532,
+        34.102833091490766
       ],
-      "precision": "street-interpolated",
+      "precision": "county-building-footprint",
       "people": [
         "Eady",
         "Harry Bosch",
@@ -87,13 +87,20 @@
       ],
       "notes": "Shared physical house; each occupant belongs to a separate screen story. Do not infer transfer dates or a canonical sale.",
       "productionCoordinates": [
-        -118.379307813957,
-        34.103831596255
+        -118.37883738646532,
+        34.102833091490766
       ],
       "placement": {
         "kind": "filming-proxy",
-        "address": "Los Angeles",
-        "precision": "street-interpolated"
+        "address": "1870 Blue Heights Drive, Los Angeles",
+        "precision": "county-building-footprint",
+        "reason": "The Los Angeles County Assessor identifies 1870 Blue Heights Drive as parcel 5556-015-004. The marker is the centre of the county-mapped house footprint within that parcel, replacing an interpolated street point about 119 metres away. The same physical house appears as Eady’s home in Heat and Harry Bosch’s home in Bosch; the address remains a production-site proxy.",
+        "sourceIds": [
+          "heat_locations",
+          "heat_scout",
+          "eady_bosch_county_parcel",
+          "eady_bosch_county_building"
+        ]
       },
       "media": {
         "id": 1,
@@ -116,8 +123,109 @@
           "width": 1100,
           "height": 798,
           "dateStatus": "Capture date not supplied by source."
+        }
+      },
+      "mapsQuery": "1870 Blue Heights Drive, Los Angeles, CA 90069",
+      "propertyLinks": [
+        {
+          "address": "1870 Blue Heights Drive",
+          "url": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+          "verifiedOn": "2026-11-17",
+          "parcelNumber": "5556015004"
+        }
+      ],
+      "mediaByTitle": {
+        "Heat": {
+          "id": 1,
+          "screen": {
+            "sourceUrl": "https://lataco.com/where-the-movie-heat-was-shot-in-la",
+            "credit": "Heat film frame; L.A. TACO",
+            "alt": "Eady inside her hillside home in Heat.",
+            "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/LATaco_Heat_EadysHouse2.jpg?w=710",
+            "src": "photos/a-001-screen.jpg",
+            "width": 710,
+            "height": 294,
+            "title": "Heat"
+          },
+          "place": {
+            "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+            "credit": "Film Oblivion",
+            "alt": "The house at 1870 Blue Heights Drive photographed from below.",
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat11-1.jpg",
+            "src": "photos/a-001-place.jpg",
+            "width": 1100,
+            "height": 798,
+            "dateStatus": "Capture date not supplied by source."
+          }
         },
-        "note": "Heat frame used for shared Eady/Bosch property; Bosch frame not yet added."
+        "Bosch": {
+          "place": {
+            "sourceUrl": "https://filmoblivion.com/2017/05/21/heat-1995/",
+            "credit": "Film Oblivion",
+            "alt": "The house at 1870 Blue Heights Drive photographed from below.",
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/05/heat11-1.jpg",
+            "src": "photos/a-001-place.jpg",
+            "width": 1100,
+            "height": 798,
+            "dateStatus": "Capture date not supplied by source."
+          },
+          "screen": {
+            "src": "photos/improved-001-bosch-exterior-cantilever.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/b5d08302-1d03-4dba-aa30-a59eed3656e0.jpg",
+            "credit": "Bosch television frame; IAMNOTASTALKER",
+            "title": "Bosch",
+            "alt": "The cantilevered house and its supporting stilts in Bosch.",
+            "caption": "Cantilevered exterior",
+            "width": 1024,
+            "height": 576,
+            "spoiler": false,
+            "note": "Source image includes a series-name overlay."
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-001-bosch-exterior-wide.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/07477e4d-a6b6-4db3-aed3-f45edf862163.jpg",
+              "credit": "Bosch television frame; IAMNOTASTALKER",
+              "title": "Bosch",
+              "alt": "The hillside setting of Harry Bosch’s home in Bosch.",
+              "caption": "Hillside exterior",
+              "width": 1024,
+              "height": 576,
+              "spoiler": false,
+              "note": "Source image includes a series-name overlay."
+            },
+            {
+              "src": "photos/improved-001-bosch-interior-wide.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/32e61434-3fde-4633-8d6f-da09ee6a1ef0.jpg",
+              "credit": "Bosch television frame; IAMNOTASTALKER",
+              "title": "Bosch",
+              "alt": "Harry Bosch’s kitchen and dining area in Bosch.",
+              "caption": "Kitchen and dining area",
+              "width": 1024,
+              "height": 576,
+              "spoiler": false,
+              "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+            },
+            {
+              "src": "photos/improved-001-bosch-interior-window.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2019/01/1270db9c-5a5b-4fd0-82de-343d16727555.jpg",
+              "credit": "Bosch television frame; IAMNOTASTALKER",
+              "title": "Bosch",
+              "alt": "The living-room windows and city view at Harry Bosch’s home in Bosch.",
+              "caption": "Living room and view",
+              "width": 1024,
+              "height": 576,
+              "spoiler": false,
+              "note": "The series portrays the same home with practical interiors and, in later seasons, a studio recreation; the source discusses this distinction. Source image includes a series-name overlay."
+            }
+          ]
+        }
       }
     },
     {
@@ -205,7 +313,16 @@
           "height": 768,
           "dateStatus": "Capture date not supplied by source."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "19514 Romar Street",
+          "url": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 3,
@@ -293,7 +410,16 @@
           "dateStatus": "Capture date not supplied by source."
         },
         "note": "Only the house interior appears in Heat; exterior photograph identifies the production property."
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2634 6th Street",
+          "url": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 4,
@@ -391,6 +517,15 @@
             "Trejo"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "1219 Dodds Circle",
+          "url": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -481,7 +616,16 @@
           "height": 825,
           "dateStatus": "Capture date not supplied by source."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1235 Dodds Circle",
+          "url": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 6,
@@ -1173,7 +1317,16 @@
           "date": "2023-04"
         },
         "note": "Use as real filming-site comparison only. The month archive also corroborates the caption: https://irontongue.blogspot.com/2023/06/ ."
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2607 Glendower Avenue",
+          "url": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 13,
@@ -1466,6 +1619,69 @@
           "width": 940,
           "height": 625,
           "dateStatus": "Capture date not supplied by source."
+        }
+      },
+      "mediaByTitle": {
+        "Blade Runner": {
+          "id": 15,
+          "screen": {
+            "sourceUrl": "https://moviemaps.org/images/1cz0",
+            "credit": "Blade Runner film frame; MovieMaps",
+            "alt": "Deckard drives through the Second Street Tunnel.",
+            "imageUrl": "https://storage.googleapis.com/moviemaps/img/1cz0.d4twqk.940.jpg",
+            "src": "photos/a-015-screen.jpg",
+            "width": 940,
+            "height": 391,
+            "title": "Blade Runner"
+          },
+          "place": {
+            "sourceUrl": "https://moviemaps.org/images/261m",
+            "credit": "Jeff Hitchcock / CC BY, via MovieMaps",
+            "alt": "Second Street Tunnel.",
+            "imageUrl": "https://storage.googleapis.com/moviemaps/img/261m.29zxix.940.jpg",
+            "src": "photos/a-015-place.jpg",
+            "width": 940,
+            "height": 625,
+            "dateStatus": "Capture date not supplied by source."
+          }
+        },
+        "The Terminator": {
+          "place": {
+            "sourceUrl": "https://moviemaps.org/images/261m",
+            "credit": "Jeff Hitchcock / CC BY, via MovieMaps",
+            "alt": "Second Street Tunnel.",
+            "imageUrl": "https://storage.googleapis.com/moviemaps/img/261m.29zxix.940.jpg",
+            "src": "photos/a-015-place.jpg",
+            "width": 940,
+            "height": 625,
+            "dateStatus": "Capture date not supplied by source."
+          },
+          "screen": {
+            "src": "photos/improved-015-terminator-second-street-30.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHiD0W2uCHk8fwVbIjhWBd5DaYKEjukJ750AU21nHxaED9zOjftp3WizEEjN6Ka-9Se6wwlXQZY6o_4Kj_IVM0_2HHfDcYgCmDw2yZzo7RiMH4HjK37PIlqAye7K9_J2i3pq2JSsOhuEJ1/s1600/Tunnel+1.jpg",
+            "credit": "The Terminator film frame; It’s Filmed There",
+            "title": "The Terminator",
+            "alt": "The tiled interior of the Second Street Tunnel during the chase in The Terminator.",
+            "caption": "Tunnel interior",
+            "width": 1280,
+            "height": 688,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-015-terminator-second-street-32.jpg",
+              "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+              "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqZ8r_mFwdrM-qERpYhdpH2aRxwgj1sm9rDMt-wMyOC7UsKiJPuKsvcPnKCXaJ5frfy_zG0gLv0a0ps8oK-Sz-iZXoI3xmpy8fSBio8thRFrl0MyHJNuC8j4_ehh5cXKOsek8pgp_yyXmP/s1600/Tunnel+2.jpg",
+              "credit": "The Terminator film frame; It’s Filmed There",
+              "title": "The Terminator",
+              "alt": "A truck enters the Second Street Tunnel in The Terminator.",
+              "caption": "Tunnel entrance",
+              "width": 1280,
+              "height": 684,
+              "spoiler": false
+            }
+          ]
         }
       }
     },
@@ -2402,7 +2618,16 @@
           "height": 619,
           "dateStatus": "Capture date not supplied by source."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "501 Wilcox Avenue",
+          "url": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 25,
@@ -2499,6 +2724,15 @@
           "people": [
             "Pierce Patchett"
           ]
+        }
+      ],
+      "propertyLinks": [
+        {
+          "address": "4616 Dundee Drive",
+          "url": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+          "verifiedOn": "2026-11-17"
         }
       ]
     },
@@ -3157,20 +3391,56 @@
       "media": {
         "id": 31,
         "screen": {
-          "src": "photos/031-screen.jpg",
+          "src": "photos/improved-031-lebowski-dude-home-1.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
-          "credit": "It's Filmed There",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj4K9iBDA5r4mWWaa2QUaRNwR6-WrRB8yRs1Yn6_Q-FAAKf-kVtAAT8S3AqQ1zxCRL7nRohDrFoYLxS_cXD4HbmPdkMXuXt9Y18QE4Udu61ITn_snKWtGMRTrKfT2vqagXGgucyOGPQ2rq/s400/dude+1.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYn0ZSh0ehxdrniZeUwYMWlkun95A6vnwsTgqbH7yx0Rex229UYiRkJ-0Mr_-CSD2txkjFnHrno2n-qtxvwmPxx8JLuIzOjoyVQlEIRQ1-CUXaTeerq60O6dy8BMBbe1NMQWRDy8em-xpy/s1600/Dude+House+2.jpg",
+          "credit": "The Big Lebowski film frame; It’s Filmed There",
           "title": "The Big Lebowski",
-          "releaseYear": 1998
+          "alt": "The Dude’s bungalow courtyard and neighboring cottages in The Big Lebowski.",
+          "caption": "Bungalow courtyard",
+          "width": 1280,
+          "height": 690,
+          "spoiler": false
         },
         "place": {
           "src": "photos/031-place.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI-Gln3OArbqJPGioj2Ljx4PEHOIt2KhLWGHZAQAnxenwmOcFvNj0IGxfXaeujDxIpDH9iaZLC8hhF_Bl6g8YFEsv_niIgbNVKFlYEoFVQRqaXHhmyk8jOr7I_-6G4QoRGEwtX0IShYwmu/s400/DSCF2366.JPG"
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-031-lebowski-dude-home-3.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnaZ3Q_MBJgd34VCNaJTqiKOWPOjoi-fBmAprUWaa0S1gfuk87Xp5g0CED8NrNkZ2pA8g7jPxObooOjcZBDX802oKQwye6-nCjPTgvmEBY-scJzJOEn3RPuS1x70ERT_67l-Di429r3uZp/s1600/Dude+House+3.jpg",
+            "credit": "The Big Lebowski film frame; It’s Filmed There",
+            "title": "The Big Lebowski",
+            "alt": "The lane outside The Dude’s bungalow compound in The Big Lebowski.",
+            "caption": "Lane outside the bungalows",
+            "width": 1280,
+            "height": 690,
+            "spoiler": false
+          },
+          {
+            "src": "photos/031-screen.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj4K9iBDA5r4mWWaa2QUaRNwR6-WrRB8yRs1Yn6_Q-FAAKf-kVtAAT8S3AqQ1zxCRL7nRohDrFoYLxS_cXD4HbmPdkMXuXt9Y18QE4Udu61ITn_snKWtGMRTrKfT2vqagXGgucyOGPQ2rq/s400/dude+1.jpg",
+            "title": "The Big Lebowski",
+            "releaseYear": 1998
+          }
+        ]
+      },
+      "propertyLinks": [
+        {
+          "address": "606 Venezia Avenue",
+          "url": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
         }
-      }
+      ]
     },
     {
       "id": 32,
@@ -3360,6 +3630,47 @@
           "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
         },
         "note": "Maude’s Palace Theatre loft component; shared property also used for the Club Silencio rear entrance."
+      },
+      "mediaByTitle": {
+        "The Big Lebowski": {
+          "id": 33,
+          "screen": {
+            "src": "photos/033-screen.jpg",
+            "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+            "credit": "PolyGram Filmed Entertainment, reproduced by Los Angeles Magazine",
+            "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft1.jpg",
+            "title": "The Big Lebowski",
+            "releaseYear": 1998
+          },
+          "place": {
+            "src": "photos/033-place.jpg",
+            "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+            "credit": "Jared Cowan / Los Angeles Magazine",
+            "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
+          },
+          "note": "Maude’s Palace Theatre loft component; shared property also used for the Club Silencio rear entrance."
+        },
+        "Mulholland Drive": {
+          "place": {
+            "src": "photos/033-place.jpg",
+            "sourceUrl": "https://lamag.com/news/big-lebowski-locations-20-years/",
+            "credit": "Jared Cowan / Los Angeles Magazine",
+            "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_loft3.jpg"
+          },
+          "screen": {
+            "src": "photos/improved-033-mulholland-club-silencio.jpg",
+            "sourceUrl": "https://www.bfi.org.uk/features/mulholland-drive-david-lynch-locations",
+            "imageUrl": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2021-10/mulholland-drive-2001-club-silencio-exterior.jpg/600x0/mulholland-drive-2001-club-silencio-exterior.jpg",
+            "credit": "Mulholland Drive film frame; BFI",
+            "title": "Mulholland Drive",
+            "alt": "The rear entrance and blue neon sign of Club Silencio in Mulholland Drive.",
+            "caption": "Club entrance",
+            "width": 600,
+            "height": 318,
+            "spoiler": false
+          },
+          "screenGallery": []
+        }
       }
     },
     {
@@ -3483,7 +3794,16 @@
           "credit": "Jared Cowan / Los Angeles Magazine",
           "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/lebowski_treehorn1.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "10104 Angelo View Drive",
+          "url": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 35,
@@ -3608,7 +3928,16 @@
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwot02gBonJog6qkcpWnpeaEtLNjinOw-TFjeVPEVrqRUFGsLuJgM3PDq1lE14xvDdmdTh4-2JlzIW2P_jBtH7CWZum-gL62LwS9V8xY9uTD_HVJueglFEswQdm2U59qhteFQ0gWn3bmxR/s400/LA+2007+Pictures+345.jpg"
         },
         "note": "Interior filming site: Greystone Mansion; exterior filmed at 10231 Charing Cross Road."
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "10231 Charing Cross Road",
+          "url": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 36,
@@ -3801,18 +4130,119 @@
       "media": {
         "id": 37,
         "screen": {
-          "src": "photos/037-screen.jpg",
-          "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
-          "credit": "It's Filmed There",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2sDoIU6sTK2VmwqdhrjCZDa-50iVp7G6ryMY_D6PPDlq7RQeejOuHT281Lvd7Ma9c2ouImdUaDoNiqovwv1A_bXurgb7fUWAJlzu0A9LhCJ2_il6fDVPrOImpE8d152uXWzx79NtpyjXw/s400/Coffee+1.jpg",
+          "src": "photos/improved-037-lebowski-johnies-35.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/36d6dc8e-5aa4-4bfc-9b5c-d515d8f1a959.jpg",
+          "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
           "title": "The Big Lebowski",
-          "releaseYear": 1998
+          "alt": "The dining counter, booths and green walls inside Johnie’s Coffee Shop in The Big Lebowski.",
+          "caption": "Dining counter",
+          "width": 1022,
+          "height": 768,
+          "spoiler": false
         },
         "place": {
           "src": "photos/037-place.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-037-lebowski-johnies-33.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/70bb13a3-1862-4025-a6a7-3c3ec97e870c.jpg",
+            "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+            "title": "The Big Lebowski",
+            "alt": "The Dude and Walter at a window-side table inside Johnie’s Coffee Shop in The Big Lebowski.",
+            "caption": "Window-side table",
+            "width": 1022,
+            "height": 768,
+            "spoiler": false
+          }
+        ]
+      },
+      "mediaByTitle": {
+        "The Big Lebowski": {
+          "id": 37,
+          "screen": {
+            "src": "photos/improved-037-lebowski-johnies-35.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/36d6dc8e-5aa4-4bfc-9b5c-d515d8f1a959.jpg",
+            "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+            "title": "The Big Lebowski",
+            "alt": "The dining counter, booths and green walls inside Johnie’s Coffee Shop in The Big Lebowski.",
+            "caption": "Dining counter",
+            "width": 1022,
+            "height": 768,
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/037-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-037-lebowski-johnies-33.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/70bb13a3-1862-4025-a6a7-3c3ec97e870c.jpg",
+              "credit": "The Big Lebowski film frame; IAMNOTASTALKER",
+              "title": "The Big Lebowski",
+              "alt": "The Dude and Walter at a window-side table inside Johnie’s Coffee Shop in The Big Lebowski.",
+              "caption": "Window-side table",
+              "width": 1022,
+              "height": 768,
+              "spoiler": false
+            }
+          ]
+        },
+        "Reservoir Dogs": {
+          "place": {
+            "src": "photos/037-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/09/the-big-lebowski.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOuZq6ZRZcGzEBjeZkzwFwCTTXu3Pu0RXyK4WEU4f_Djb3Ub9jkm1sZIAMKo_7mEp3WtUP8QppDwuK4ETmalNqQW3_femP8VGq7dhkLtZ7vrMA9FzW3OkMjhqUY5kqob__yAtvvTdJG11Z/s400/DSCF1493.JPG"
+          },
+          "screen": {
+            "src": "photos/improved-037-reservoir-johnies-25.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/e2c70acd-d00e-41b3-8c09-f14a48a19199.jpg",
+            "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+            "title": "Reservoir Dogs",
+            "alt": "The neon-lit Johnie’s Coffee Shop exterior at night in Reservoir Dogs.",
+            "caption": "Exterior at night",
+            "width": 1021,
+            "height": 768,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-037-reservoir-johnies-24.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/7c04ca7a-72b0-4964-9bc4-4769c6a05ed4.jpg",
+              "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+              "title": "Reservoir Dogs",
+              "alt": "The dining-room booths and front entrance of Johnie’s Coffee Shop in Reservoir Dogs.",
+              "caption": "Dining room and entrance",
+              "width": 1024,
+              "height": 767,
+              "spoiler": false
+            },
+            {
+              "src": "photos/improved-037-reservoir-johnies-26.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2011/09/28/johnies-coffee-shop-restaurant-on-wilshire",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2011/09/fe5764e0-6ddb-4e97-9cea-564b23d13f5d.jpg",
+              "credit": "Reservoir Dogs film frame; IAMNOTASTALKER",
+              "title": "Reservoir Dogs",
+              "alt": "Mr. Orange walks through the counter area of Johnie’s Coffee Shop in Reservoir Dogs.",
+              "caption": "Counter and booths",
+              "width": 1021,
+              "height": 768,
+              "spoiler": true
+            }
+          ]
         }
       }
     },
@@ -3903,7 +4333,16 @@
           "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/pulpfiction_wallacehouse3_jaredcowan-1200x800.jpg",
           "note": "Public filming-location photograph from farther down Summitridge Drive; limited visibility."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1541 Summitridge Drive",
+          "url": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 39,
@@ -3989,7 +4428,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXA5LLJuATg8waLC0yMCjwFZsobZ5VMw5YFks4ZdDvpREgBbpSdpbCHHV9L0HqYC1Y_Adn7vpXxzG6gVXlZC5UaYgJ9M18fwU5YbDwk3YbMpM6esjHWzUaf1eUP_KB85A_zYKoLBScV6o/s400/Los+Angeles+2011+430.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "3519 La Clede Avenue",
+          "url": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 40,
@@ -4837,7 +5285,17 @@
           "credit": "Film Oblivion",
           "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2018/08/jackiebrown15.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "17575 Yukon Avenue",
+          "url": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 49,
@@ -5171,7 +5629,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVlmpkmitje2eefq4BGMug8oYPs3MnsTsQtA-ZGmq7IMCb1aH-Rw0YavXYJwYmjNLyIhnt8PCNcJ5HGrSS2lkkGDBJw-JiH4QE8TljGQcb7cQcZavzG-tXnoRUt1MFuNfV6ZlZv0m8OzM/s1600/583.JPG"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1315 South El Molino Avenue",
+          "url": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 54,
@@ -5351,7 +5818,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2O05yQI4MzkfVQcXSdRey5vZp9IjQvpo5QWRyctk4Z2elMx7RGXP1vTkc8yK7iN0knXUYuvuqrukAtjHPpWOt65rOoZPJiCgqMboOspZEzghXFX9PooZ7EH7qsd895u_W1wmIhtpJAcDS5oNCBcTEa1nRJ5Ujz8hevxwoPs4ViFJwNbhQxgJU_Iue/w400-h225/A.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1972 North Canyon Drive",
+          "url": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 56,
@@ -6821,6 +7297,15 @@
             "Roger"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "1031 Everett Street",
+          "url": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -6911,7 +7396,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLtY4aYN72l9QfI-XrlQ4hUr-qrK3xh_AH-6Uu2uVPQ6Lx4kikdab-6STmH4MiNPu8JYvGO50uSE9_9wF9IutXPae2OP8Okz1KXDkTxCcy10TRjZkNRP-w9224evzokC4PaYx5MzG6Gpc/s1600/Los+Angeles+November+2011+091.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2313 East 113th Street",
+          "url": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 73,
@@ -7001,7 +7495,17 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjluwCBbhjg_fqWZwg4VqY04oTWNx4gM9wB9N8-l0eYKl473Pws9j5v4NjlneGk-QdqHnHmEJz0np3Q3qXzITV84ctX7I0ec5YTWIVpgD89ri7TVrTMVtZWm0FOg0caAbNEu4dhbUyXlFE/s400/DSCF6354+-+Copy.JPG"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "4142 Palmwood Drive",
+          "url": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 74,
@@ -7196,7 +7700,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRrPshaJPOp7e6WdIw1L-hZui0Z6ZDAFrP84awoe8Ian0Pz2uCN4CBOINJ5CnuRME-Y4fruOTz0RvA92cQrRhdcub3KVjk5izT2ZBXL-bh7yOlkQzlptWszqit3EJpzXzJLO97_uXM7AQ/s400/DSCF6362+-+Copy.JPG"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "5918 Cimarron Street",
+          "url": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 76,
@@ -7272,7 +7785,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOEa4B0IztfWzyCQmjMJTgyAjseVYIE9G-gJCIphtKzWFaiLEjzIjuvxwIV8zI-Yuv6aMgCdW9OqTMaE4pavtY6nBH-L-MTDKRKZICE6Bh4fAhcuuh_4Qwy4V2xJ7jgM964Ykvxf2Igis/s400/DSCF6360+-+Copy.JPG"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "5906 Cimarron Street",
+          "url": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 77,
@@ -7427,19 +7949,24 @@
       "media": {
         "id": 79,
         "screen": {
-          "src": "photos/079-screen.jpg",
+          "src": "photos/improved-079-terminator-sarah-apartment.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
-          "credit": "It's Filmed There",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtCjo1EHpcvhvBo3fU1ERgi2YTjr_cJbXkoCMYjbP_oqshB6NMAscahFU6TNvBb4xWM3SKxw55FzNvhsG3y8-cpBV6vQfMPcR0Pd5AgarZMYYeA-AqwWnqFNVEmsSdqLoyOdxYxzzjzkf/s400/Apartment+2.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtCjo1EHpcvhvBo3fU1ERgi2YTjr_cJbXkoCMYjbP_oqshB6NMAscahFU6TNvBb4xWM3SKxw55FzNvhsG3y8-cpBV6vQfMPcR0Pd5AgarZMYYeA-AqwWnqFNVEmsSdqLoyOdxYxzzjzkf/s1600/Apartment+2.jpg",
+          "credit": "The Terminator film frame; It’s Filmed There",
           "title": "The Terminator",
-          "releaseYear": 1984
+          "alt": "The entrance and exterior of Sarah and Ginger’s apartment building in The Terminator.",
+          "caption": "Apartment entrance",
+          "width": 1276,
+          "height": 687,
+          "spoiler": false
         },
         "place": {
           "src": "photos/079-place.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0aO-bXf3jx3so70D46W-LLu9Bg26Qitj5a68jFwbN8CNjpNBB1SNLMu6u2dxpZcMX5wm_ILZGGBySKZ1RFsjfdeCdr9Ei8fIEsfDXsHCkCV3rDTKP3BOAXsEOitn5brMM-dtWCz9C71_w/s400/DSCF1793.JPG"
-        }
+        },
+        "screenGallery": []
       },
       "deaths": [
         {
@@ -7887,18 +8414,128 @@
       "media": {
         "id": 83,
         "screen": {
-          "src": "photos/083-screen.jpg",
+          "src": "photos/improved-083-terminator-observatory-wide.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
-          "credit": "It's Filmed There",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s400/Observatory+1.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s1600/Observatory+1.jpg",
+          "credit": "The Terminator film frame; It’s Filmed There",
           "title": "The Terminator",
-          "releaseYear": 1984
+          "alt": "Griffith Observatory and its forecourt at night in The Terminator.",
+          "caption": "Observatory at night",
+          "width": 1280,
+          "height": 708,
+          "spoiler": false
         },
         "place": {
           "src": "photos/083-place.jpg",
           "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        },
+        "screenGallery": []
+      },
+      "mediaByTitle": {
+        "The Terminator": {
+          "id": 83,
+          "screen": {
+            "src": "photos/improved-083-terminator-observatory-wide.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRg0Usz7U2U4uEJHpnYgNhVf-6YfAQuKySwDv3I442TzA2RpN8hnO-Gf0xd_H4EtTbKmcu2NlsO4qop783vo7paujogxC2g4xCzbCXjOZHP4yMV5gBEl_XSqWDrN46T3nUJN51Uv8c3byf/s1600/Observatory+1.jpg",
+            "credit": "The Terminator film frame; It’s Filmed There",
+            "title": "The Terminator",
+            "alt": "Griffith Observatory and its forecourt at night in The Terminator.",
+            "caption": "Observatory at night",
+            "width": 1280,
+            "height": 708,
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          },
+          "screenGallery": []
+        },
+        "Star Trek: Voyager": {
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          },
+          "screen": {
+            "src": "photos/improved-083-voyager-observatory-approach.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+            "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/Observatory-ParisAndTuvok.jpg",
+            "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+            "title": "Star Trek: Voyager",
+            "alt": "Paris and Tuvok approach Griffith Observatory and the Astronomers Monument in Star Trek: Voyager.",
+            "caption": "Observatory approach",
+            "width": 600,
+            "height": 454,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-083-voyager-observatory-terrace.jpg",
+              "sourceUrl": "https://www.seeing-stars.com/Locations/Voyager.shtml",
+              "imageUrl": "https://www.seeing-stars.com/Locations/Voyager/PhaserBattleOutsideObservatory2.jpg",
+              "credit": "Star Trek: Voyager television frame / Paramount; Seeing-Stars",
+              "title": "Star Trek: Voyager",
+              "alt": "The Griffith Observatory forecourt during the outdoor encounter in Star Trek: Voyager.",
+              "caption": "Observatory forecourt",
+              "width": 600,
+              "height": 454,
+              "spoiler": false
+            }
+          ]
+        },
+        "La La Land": {
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          },
+          "screen": {
+            "src": "photos/improved-083-lalaland-observatory-approach.jpg",
+            "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+            "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory1.jpg",
+            "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+            "title": "La La Land",
+            "alt": "Griffith Observatory illuminated at night in La La Land.",
+            "caption": "Observatory at night",
+            "width": 600,
+            "height": 239,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-083-lalaland-observatory-rotunda.jpg",
+              "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+              "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory2.jpg",
+              "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+              "title": "La La Land",
+              "alt": "Mia and Sebastian at the Foucault pendulum in Griffith Observatory’s rotunda in La La Land.",
+              "caption": "Foucault pendulum rotunda",
+              "width": 600,
+              "height": 239,
+              "spoiler": false
+            },
+            {
+              "src": "photos/improved-083-lalaland-planetarium.jpg",
+              "sourceUrl": "https://www.seeing-stars.com/Locations/LaLaLand/23-Planetarium.shtml",
+              "imageUrl": "https://www.seeing-stars.com/Locations/LaLaLand/Observatory3.jpg",
+              "credit": "La La Land film frame / Summit Entertainment; Seeing-Stars",
+              "title": "La La Land",
+              "alt": "The planetarium auditorium during the dance in La La Land.",
+              "caption": "Planetarium dance",
+              "width": 600,
+              "height": 239,
+              "spoiler": false,
+              "note": "The waltz was filmed on a studio recreation of the pre-renovation Griffith planetarium auditorium; the exterior and rotunda were filmed at the Observatory."
+            }
+          ]
         }
       }
     },
@@ -8004,6 +8641,15 @@
             "Janelle Voight"
           ],
           "label": "Todd & Janelle Voight’s deaths"
+        }
+      ],
+      "propertyLinks": [
+        {
+          "address": "19828 Valerio Street",
+          "url": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+          "verifiedOn": "2026-11-17"
         }
       ]
     },
@@ -8305,7 +8951,17 @@
           "credit": "Google Street View, reproduced by BFI",
           "imageUrl": "https://core-cms.bfi.org.uk/sites/default/files/2021-10/mulholland-drive-2001-aunt-ruths-on-n-sycamore-avenue-modern-location.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "450 North Sycamore Avenue",
+          "url": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 88,
@@ -8421,6 +9077,15 @@
             "Diane Selwyn"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "2900 Griffith Park Boulevard",
+          "url": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -8519,7 +9184,16 @@
           "credit": "A. Le Gallou / Looking for L.A.",
           "imageUrl": "https://lookingforla.wordpress.com/wp-content/uploads/2013/05/7-maison-dadam.jpg?w=640&h=426"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "3760 Eureka Drive",
+          "url": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 90,
@@ -8711,7 +9385,16 @@
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju5mZe6rOvMBF2d9UrClOr1ciIaVO0pVfce1Y8rlziQhu-Be6hZfn01nSQXeiPwkSJTUu1IhMYRA_WTHbllXXKfcwJXI2Uyib8TatXRlk5GBZBAHdTZO9bMsfxbDeynuVx56GrB7h33Mo/s400/MVIMG_20190310_084042+-+Copy.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "722 East Kensington Road",
+          "url": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 92,
@@ -8956,7 +9639,17 @@
           "credit": "Film Oblivion",
           "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland12.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1728 East 3rd Street",
+          "url": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 95,
@@ -9308,7 +10001,17 @@
           "imageUrl": "/private/tmp/noir-pages/di-015.png",
           "note": "Extracted and resized from the cited production-research PDF."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1825 North Kingsley Drive",
+          "url": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 102,
@@ -9408,7 +10111,16 @@
           "imageUrl": "/private/tmp/noir-pages/di-034.png",
           "note": "Extracted and resized from the cited production-research PDF."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "6301 Quebec Drive",
+          "url": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 103,
@@ -10310,7 +11022,17 @@
           "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory7.jpg",
           "note": "Capture date not supplied by the source."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1206 North Orange Grove Avenue",
+          "url": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 113,
@@ -10393,7 +11115,17 @@
           "imageUrl": "https://filmoblivion.com/wp-content/uploads/2021/01/lastory2.jpg",
           "note": "Capture date not supplied by the source."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "884 Palm Avenue",
+          "url": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 114,
@@ -11398,7 +12130,17 @@
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ThN_XB6vJk3rDbpR3CdEwnW8Yz4658Oal7qJsDQvAc0z4JgbEh5BMXR5uD3_PPEJgqNilBcPa9MYr3MEPhcxoSC7eT_S-0VOF1eA4Q4uZUpImrSfFI4e1uQdcjIhG65TIPnphRGWyXY/s400/HighTower_Now.jpg",
           "note": "Archival site comparison published2012; capture day not supplied."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2182 Broadview Terrace, Hollywood, CA 90068",
+          "url": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+          "verifiedOn": "2026-11-17",
+          "note": "Verified Broadview Terrace component of the listed High Tower/Broadview filming address; no separate apartment unit is asserted."
+        }
+      ]
     },
     {
       "id": 125,
@@ -11538,7 +12280,16 @@
           "note": "Aerial of the production site; capture date unknown.",
           "caption": "Filming site · aerial"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "23844 Malibu Road",
+          "url": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 126,
@@ -12848,7 +13599,17 @@
         "matchedAddress": "22664 PACIFIC COAST HWY, MALIBU, CA, 90265",
         "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=22664+Pacific+Coast+Highway%2C+Malibu%2C+CA&benchmark=Public_AR_Current&format=json",
         "method": "US Census street interpolation"
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "22664 Pacific Coast Highway",
+          "url": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 139,
@@ -13502,7 +14263,16 @@
         "matchedAddress": "1442 W F ST, WILMINGTON, CA, 90744",
         "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1442+West+F+Street%2C+Wilmington%2C+CA&benchmark=Public_AR_Current&format=json",
         "method": "US Census street interpolation"
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1442 West F Street",
+          "url": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 145,
@@ -16033,7 +16803,16 @@
           "credit": "Chas Demster / It’s Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2QnBmOmbZLZYtMzuTqLU-C0Gw7MW7mZ4kZxsgZVWfHM9Tqn2jARdBGXuHSTN9ULiBPE-dPRMaYg9-or0enzhWSWsJulCut674rgZPoyYZ52ZubxT0CqRbzYR3tghLXwam2rCcJgM9JmY/s400/Los+Angeles+2011+755.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "3503 West 187th Street",
+          "url": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 170,
@@ -16237,7 +17016,16 @@
           "imageUrl": "https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1791655800048-511PLU1VUVWN3DD5UPMK/Boogie+Nights+%285%29.png?format=1000w",
           "note": "Real-site half cropped from the source comparison panel. Archival visit; capture date not supplied."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "4214 Lobos Road",
+          "url": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 172,
@@ -16713,6 +17501,15 @@
             "Todd Parker",
             "Rahad’s bodyguard"
           ]
+        }
+      ],
+      "propertyLinks": [
+        {
+          "address": "16801 Encino Hills Drive",
+          "url": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+          "verifiedOn": "2026-11-17"
         }
       ]
     },
@@ -17517,6 +18314,15 @@
             "Patricia “Katie” Krenwinkel"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "10969 Alta View Drive",
+          "url": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -17685,7 +18491,17 @@
           "credit": "Chas Demster / It’s Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinzNUX8tdhjGX3SeQvuJ2NXF6DvOyITl3UOJLTua5eUhBa6SbkX8AA4H4Br52sc4P0kKxuq0yfq2rUhXV5B3o9fcfLDZIdg-A-3YYYI_6uSfk67a-tiWhrlStc4HxEiHfJaqmOx5-F9niu8GQr3iDGUYRe4yo06MfZy_P221GkJkHvT71wX-Udt5Vj/w400-h225/A.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "5870 Franklin Avenue",
+          "url": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+          "verifiedOn": "2026-11-17",
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+        }
+      ]
     },
     {
       "id": 188,
@@ -18241,7 +19057,16 @@
           "credit": "Chas Demster / It’s Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYB_sckKcRt0Ze2Oox8j6IJTTotY5P94m9KKLsQmI1D-cF1y34ZpdK7XB1OXUfcxVO97dTA6mfQPgdoJjbEtX0vZa8PDKOftck2jdV2o5oCkpuTj-SISwQ_IHh2YfKZo91lUW1Pf4t54w/s400/Los+Angeles+November+2011+680.jpg"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "705 North Sierra Drive",
+          "url": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 194,
@@ -18863,7 +19688,16 @@
           "caption": "Craig’s filming-site home · 2025 report",
           "date": "2025"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1418 West 126th Street",
+          "url": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 201,
@@ -20420,6 +21254,15 @@
       "productionCoordinates": [
         -118.759636,
         34.025875
+      ],
+      "propertyLinks": [
+        {
+          "address": "26940 Malibu Cove Colony Drive",
+          "url": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -20532,6 +21375,15 @@
           "people": [
             "Roger Van Zant"
           ]
+        }
+      ],
+      "propertyLinks": [
+        {
+          "address": "9024 Thrasher Avenue",
+          "url": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+          "verifiedOn": "2026-11-17"
         }
       ]
     },
@@ -22131,6 +22983,15 @@
       "productionCoordinates": [
         -118.490719,
         34.067395
+      ],
+      "propertyLinks": [
+        {
+          "address": "20 Oakmont Drive",
+          "url": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -26528,7 +27389,16 @@
           "height": 650,
           "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.445417968177%2C34.092276006553%2C-118.442817968177%2C34.093876006552996&bboxSR=4326&imageSR=3857&size=1100%2C650&format=jpg&f=image"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1001 Bel Air Road",
+          "url": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 400,
@@ -26769,6 +27639,15 @@
             "Sharif Butler"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "2809 7th Ave, Los Angeles, CA 90018",
+          "url": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -26980,7 +27859,16 @@
           "Match_addr": "4920 11th Ave, Los Angeles, California, 90043",
           "Addr_type": "PointAddress"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "4920 11th Ave, Los Angeles, CA 90043",
+          "url": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 404,
@@ -28444,7 +29332,16 @@
           "Match_addr": "115 W 111th St, Los Angeles, California, 90061",
           "Addr_type": "PointAddress"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "115 W 111th St, Los Angeles, CA 90061",
+          "url": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 417,
@@ -28575,7 +29472,16 @@
           "Match_addr": "15515 Via DE las Olas, Pacific Palisades, California, 90272",
           "Addr_type": "PointAddress"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "15515 Via De Las Olas, Pacific Palisades, CA 90272",
+          "url": "https://www.zillow.com/homedetails/15515-Via-De-Las-Olas-Pacific-Palisades-CA-90272/20541329_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/15515-Via-De-Las-Olas-Pacific-Palisades-CA-90272/20541329_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 418,
@@ -29045,7 +29951,16 @@
           "Match_addr": "1125 Oak Grove Ave, San Marino, California, 91108",
           "Addr_type": "PointAddress"
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1125 Oak Grove Ave, San Marino, CA 91108",
+          "url": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 422,
@@ -29452,6 +30367,15 @@
             "Amelia Kuttner"
           ]
         }
+      ],
+      "propertyLinks": [
+        {
+          "address": "4255 Enoro Dr, Los Angeles, CA 90008",
+          "url": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
       ]
     },
     {
@@ -29553,7 +30477,16 @@
           "width": 700,
           "height": 376
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "4585 Mount Vernon Dr, Los Angeles, CA 90043",
+          "url": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 426,
@@ -29663,7 +30596,16 @@
           "width": 700,
           "height": 368
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "5003 Parkglen Ave, Los Angeles, CA 90043",
+          "url": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 427,
@@ -30073,7 +31015,17 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "10401 Wilshire Blvd, Los Angeles, CA 90024",
+          "url": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+          "verifiedOn": "2026-11-17",
+          "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+        }
+      ]
     },
     {
       "id": 431,
@@ -30388,7 +31340,16 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "603 Doheny Rd, Beverly Hills, CA 90210",
+          "url": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 434,
@@ -30930,7 +31891,16 @@
           "caption": "Site · aerial",
           "note": "Photograph published by the cited location researcher; capture date unverified. Imagery capture date is not supplied by the active basemap."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+          "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 439,
@@ -31027,7 +31997,16 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2079 Kenilworth Ave, Los Angeles, CA 90039",
+          "url": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 440,
@@ -31519,7 +32498,17 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "720 S Mariposa Ave, Los Angeles, CA",
+          "url": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+          "verifiedOn": "2026-11-17",
+          "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+        }
+      ]
     },
     {
       "id": 445,
@@ -31720,7 +32709,16 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "7776 Torreyson Dr, Los Angeles, CA 90046",
+          "url": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 447,
@@ -31840,7 +32838,16 @@
           "caption": "Site · aerial",
           "note": "Aerial of the Miller Drive production house; its position differs from the inferred story home. Imagery capture date is not supplied by the active basemap."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1405 Miller Dr, Los Angeles, CA 90069",
+          "url": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 448,
@@ -32376,7 +33383,16 @@
           "caption": "Site",
           "note": "Site and film halves separated from the cited comparison image; credits and watermarks retained. Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "172 S McCadden Pl, Los Angeles, CA 90004",
+          "url": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 453,
@@ -33016,7 +34032,16 @@
           "caption": "Site",
           "note": "Photograph published by the cited location researcher; capture date unverified."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "6122 S Citrus Ave, Los Angeles, CA 90043",
+          "url": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 459,
@@ -33236,7 +34261,16 @@
           "width": 800,
           "height": 600
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "5148 Louise Ave, Encino, CA 91316",
+          "url": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 461,
@@ -34223,7 +35257,17 @@
           "width": 1200,
           "height": 900
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "706 S Normandie Ave, Los Angeles, CA 90005",
+          "url": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+          "verifiedOn": "2026-11-17",
+          "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+        }
+      ]
     },
     {
       "id": 469,
@@ -34588,16 +35632,6 @@
       ],
       "notes": "",
       "media": {
-        "screen": {
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
-          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
-          "credit": "Pretty Woman film frame; It’s Filmed There",
-          "alt": "Pretty Woman scene",
-          "src": "photos/n471-screen.jpg",
-          "title": "Pretty Woman",
-          "width": 835,
-          "height": 454
-        },
         "place": {
           "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
           "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
@@ -34608,6 +35642,96 @@
           "caption": "Site · source photo",
           "width": 1200,
           "height": 900
+        },
+        "screen": {
+          "src": "photos/improved-471-summer-fountain-17.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/d0989a8a-7690-4a96-8f7a-e31233e47009.jpg",
+          "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+          "title": "(500) Days of Summer",
+          "alt": "The Arthur J. Will Memorial Fountain and surrounding Civic Center buildings in (500) Days of Summer.",
+          "caption": "Fountain and Civic Center",
+          "width": 800,
+          "height": 329,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/improved-471-summer-fountain-18.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/e664ff7d-8931-4b8c-b6ef-d284b507268f.jpg",
+            "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+            "title": "(500) Days of Summer",
+            "alt": "Tom walks beside the Arthur J. Will Memorial Fountain in (500) Days of Summer.",
+            "caption": "Beside the fountain",
+            "width": 800,
+            "height": 331,
+            "spoiler": false
+          }
+        ]
+      },
+      "mediaByTitle": {
+        "Pretty Woman": {
+          "screen": {
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLsF7psoVH4e2y6-o5NY3J4fOQWuBrIetkoFxliQJYdEPlSByEdTFtcv-J_33VUTy7vo4xRGMq0YZDMJo_7WETItxg6z8x11z4S0C_xh8BG2mWRWyYmoKQL_S0nmZS6y5Cx5X41YssjQ/s1600/Fountain.JPG",
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/01/pretty-woman.html",
+            "credit": "Pretty Woman film frame; It’s Filmed There",
+            "alt": "Pretty Woman scene",
+            "src": "photos/n471-screen.jpg",
+            "title": "Pretty Woman",
+            "width": 835,
+            "height": 454
+          },
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+            "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+            "credit": "Film Oblivion",
+            "alt": "Real filming site",
+            "note": "Source photograph; capture date is not supplied.",
+            "src": "photos/n471-place.jpg",
+            "caption": "Site · source photo",
+            "width": 1200,
+            "height": 900
+          }
+        },
+        "(500) Days of Summer": {
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2018/06/500daysofsummer3-1.jpg",
+            "sourceUrl": "https://filmoblivion.com/2018/06/30/500-days-of-summer-2009/",
+            "credit": "Film Oblivion",
+            "alt": "Real filming site",
+            "note": "Source photograph; capture date is not supplied.",
+            "src": "photos/n471-place.jpg",
+            "caption": "Site · source photo",
+            "width": 1200,
+            "height": 900
+          },
+          "screen": {
+            "src": "photos/improved-471-summer-fountain-17.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/d0989a8a-7690-4a96-8f7a-e31233e47009.jpg",
+            "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+            "title": "(500) Days of Summer",
+            "alt": "The Arthur J. Will Memorial Fountain and surrounding Civic Center buildings in (500) Days of Summer.",
+            "caption": "Fountain and Civic Center",
+            "width": 800,
+            "height": 329,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/improved-471-summer-fountain-18.jpg",
+              "sourceUrl": "https://www.iamnotastalker.com/2010/04/16/the-pretty-woman-500-days-of-summer-fountain-and-park",
+              "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/04/e664ff7d-8931-4b8c-b6ef-d284b507268f.jpg",
+              "credit": "(500) Days of Summer film frame; IAMNOTASTALKER",
+              "title": "(500) Days of Summer",
+              "alt": "Tom walks beside the Arthur J. Will Memorial Fountain in (500) Days of Summer.",
+              "caption": "Beside the fountain",
+              "width": 800,
+              "height": 331,
+              "spoiler": false
+            }
+          ]
         }
       }
     },
@@ -34866,7 +35990,16 @@
           "width": 800,
           "height": 600
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1883 Orlando Rd, San Marino, CA 91108",
+          "url": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 474,
@@ -34980,7 +36113,16 @@
           "width": 1024,
           "height": 768
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "163 S Rockingham Ave, Los Angeles, CA 90049",
+          "url": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 475,
@@ -35875,7 +37017,17 @@
           "width": 1200,
           "height": 881
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "7902 Goodland Ave, North Hollywood, CA 91605",
+          "url": "https://www.zillow.com/homedetails/7902-Goodland-Ave-North-Hollywood-CA-91605/19997626_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/browse/homes/ca/los-angeles-county/91605/27/",
+          "verifiedOn": "2026-11-17",
+          "note": "Zillow’s public property index identifies this exact address and links directly to the listed property URL; the detail-page fetch was unavailable during verification."
+        }
+      ]
     },
     {
       "id": 483,
@@ -35999,7 +37151,16 @@
           "width": 1200,
           "height": 882
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "12801 Miranda St, Valley Village, CA 91607",
+          "url": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 484,
@@ -36340,7 +37501,16 @@
           "width": 1200,
           "height": 894
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "4450 Balboa Ave, Encino, CA 91316",
+          "url": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 487,
@@ -36677,7 +37847,18 @@
           "caption": "Site · 2012 archive",
           "note": "The source describes photographing the canal house during a July 2012 visit; the image is archival."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "469 Sherman Canal, Venice, CA 90291",
+          "url": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+          "verifiedOn": "2026-11-17",
+          "zillowAddress": "469 Sherman Ave, Venice, CA 90291",
+          "note": "Zillow uses Sherman Ave for the canal-front residence; its page identifies parcel 4227013011 and describes the Venice Canals corner location. Atlas filming address retained as Sherman Canal."
+        }
+      ]
     },
     {
       "id": 490,
@@ -36888,7 +38069,17 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "837 Traction Ave, Los Angeles, CA 90013",
+          "url": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+          "verifiedOn": "2026-11-17",
+          "note": "Whole-building Zillow page; no filming apartment unit is asserted."
+        }
+      ]
     },
     {
       "id": 492,
@@ -37002,7 +38193,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "10336 Dunleer Dr, Los Angeles, CA 90064",
+          "url": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 493,
@@ -37111,7 +38311,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "121 S Cliffwood Ave, Los Angeles, CA 90049",
+          "url": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 494,
@@ -37215,7 +38424,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2211 Fox Hills Dr, Los Angeles, CA 90064",
+          "url": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 495,
@@ -37337,7 +38555,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "251 N Bristol Ave, Los Angeles, CA 90049",
+          "url": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 496,
@@ -37452,7 +38679,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "2302 W 25th St, Los Angeles, CA 90018",
+          "url": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 497,
@@ -37561,7 +38797,16 @@
           "caption": "Site · archive",
           "note": "Capture date is unverified; this is an archival site photograph, not a claim about its present condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "1675 E Altadena Dr, Altadena, CA 91001",
+          "url": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     },
     {
       "id": 498,
@@ -38205,7 +39450,16 @@
           "caption": "Site · undated",
           "note": "Street View photograph reproduced by the location guide. Capture date is not provided; not a claim of present-day condition."
         }
-      }
+      },
+      "propertyLinks": [
+        {
+          "address": "27528 N Weeping Willow Dr, Valencia, CA 91354",
+          "url": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+          "verifiedOn": "2026-11-17"
+        }
+      ]
     }
   ],
   "journeys": [
@@ -42360,6 +43614,18 @@
       "title": "Esri World Geocoder — Havenhurst at Sunset",
       "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sunset+Boulevard+and+Havenhurst+Drive%2C+West+Hollywood%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
       "source_type": "intersection coordinates"
+    },
+    {
+      "id": "eady_bosch_county_parcel",
+      "title": "Los Angeles County Assessor: 1870 Blue Heights Drive, parcel 5556-015-004",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%275556015004%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=pjson",
+      "source_type": "official county parcel geometry"
+    },
+    {
+      "id": "eady_bosch_county_building",
+      "title": "Los Angeles County Public Works: building 446989860017 at 1870 Blue Heights Drive",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.37858784235148%2C34.10276602635747%5D%2C%5B-118.3786784998863%2C34.10271094943863%5D%2C%5B-118.37872639792936%2C34.1026818091271%5D%2C%5B-118.3787365953317%2C34.10263588747008%5D%2C%5B-118.37894479042306%2C34.10263325626007%5D%2C%5B-118.37894244729888%2C34.10301277414209%5D%2C%5B-118.3789419392177%2C34.10309746558227%5D%2C%5B-118.37887808847228%2C34.10309799554865%5D%2C%5B-118.37858784235148%2C34.10276602635747%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=pjson",
+      "source_type": "official building footprint geometry"
     }
   ]
 }

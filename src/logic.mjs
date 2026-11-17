@@ -71,7 +71,8 @@ export function associatedPeople(place){
 /** @param {{coordinates?: number[], address?: string} | null} [site] */
 export function filmingSiteMapsUrl(place,site=null){
   const coordinates=site?site.coordinates:place.productionCoordinates||(place.placement?.kind==='filming-proxy'?place.coordinates:null);
-  const query=coordinates?`${coordinates[1]},${coordinates[0]}`:[site?.address||place.address,place.area].filter(Boolean).join(', ');
+  const verifiedAddress=!site&&place.mapsQuery;
+  const query=verifiedAddress||(coordinates?`${coordinates[1]},${coordinates[0]}`:[site?.address||place.address,place.area].filter(Boolean).join(', '));
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
