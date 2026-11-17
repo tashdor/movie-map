@@ -60,7 +60,7 @@ export function enrich(atlas){
   const catalog={schema_version:1,researched_on:'2026-11-15',places:expanded.flatMap(d=>d.places),sources:[...new Map(expanded.flatMap(d=>d.sources).map(s=>[s.id,s])).values()],audit:expanded.flatMap(d=>d.audit||[])};
   if(catalog.places.length!==100)throw Error('Expansion must contain 100 researched places');
   fs.writeFileSync('research/expansion-100.json',JSON.stringify(catalog,null,2)+'\n');
-  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json']){
+  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json']){
     const extra=read(path,{places:[],sources:[]});
     for(const source of extra.sources){if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}}
     for(const place of extra.places){if(byId.has(place.id))throw Error(`Duplicate place ${place.id}`);atlas.places.push(place);byId.set(place.id,place);}

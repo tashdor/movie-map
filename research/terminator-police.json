@@ -1,0 +1,233 @@
+{
+  "places": [
+    {
+      "id": 227,
+      "name": "Central Division police station",
+      "short": "Central Division police station",
+      "category": "event",
+      "categories": [
+        "event",
+        "work",
+        "death"
+      ],
+      "address": "Formerly 6000 S Boyle Avenue",
+      "area": "Vernon",
+      "coordinates": [
+        -118.2119171,
+        33.9871716
+      ],
+      "productionCoordinates": [
+        -118.2119171,
+        33.9871716
+      ],
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · exact story address unconfirmed",
+        "precision": "former-site-approximate",
+        "reason": "The original film’s door reads Central Division; T2 calls it West Highland. The street address is not established. This approximate point marks the demolished Bethlehem Steel office used as the station, not a confirmed fictional station address.",
+        "sourceIds": [
+          "t227_hfl",
+          "t227_rtr",
+          "t227_t2_script",
+          "t227_site_map",
+          "t227_census"
+        ]
+      },
+      "precision": "former-site-approximate",
+      "people": [
+        "Sarah Connor",
+        "Kyle Reese",
+        "T-800",
+        "Ed Traxler",
+        "Hal Vukovich",
+        "Dr. Peter Silberman"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Terminator",
+          "release_year": 1984,
+          "story_role": "Sarah and Reese’s interrogation; the police-station massacre",
+          "filming_component": "An unoccupied Bethlehem Steel office at the former 6000 S Boyle Avenue plant, dressed as a police station; demolished in 1985",
+          "source_ids": [
+            "t227_hfl",
+            "t227_rtr",
+            "t227_afi",
+            "t227_t1_script",
+            "t227_t2_script"
+          ],
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Los Angeles, 1984, per American Cinematheque synopsis.",
+            "source_ids": [
+              "terminator_cinematheque_time"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sarah Connor",
+              "relationship": "held_in_protective_custody"
+            },
+            {
+              "name": "Kyle Reese",
+              "relationship": "interrogated_here"
+            },
+            {
+              "name": "T-800",
+              "relationship": "attacks_station"
+            },
+            {
+              "name": "Ed Traxler",
+              "relationship": "works_and_is_mortally_wounded_here"
+            },
+            {
+              "name": "Hal Vukovich",
+              "relationship": "works_here"
+            },
+            {
+              "name": "Dr. Peter Silberman",
+              "relationship": "interviews_reese_and_leaves_before_the_attack"
+            }
+          ],
+          "categories": [
+            "event",
+            "work",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "deaths": [
+        {
+          "title": "The Terminator",
+          "people": [
+            "Ed Traxler",
+            "Other police officers"
+          ],
+          "label": "Police-station massacre"
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/t227-screen.jpg",
+          "sourceUrl": "https://rtrlocations.blogspot.com/2024/11/the-terminator-1984.html",
+          "credit": "The Terminator film frame / Orion Pictures / Reel to Real Filming Locations",
+          "title": "The Terminator",
+          "caption": "The T-800 at the station entrance. The door is dressed as Central Division."
+        },
+        "place": {
+          "src": "photos/t227-place.jpg",
+          "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2152%2C33.9855%2C-118.2095%2C33.9902&bboxSR=4326&imageSR=3857&size=1200%2C1000&format=jpg&f=image",
+          "credit": "Esri / Vantor / Earthstar Geographics / GIS User Community",
+          "date": "2025-11-26",
+          "caption": "Former filming site · aerial",
+          "note": "Vantor World Imagery metadata gives capture date November 26, 2025, 0.34 m resolution, 8.47 m stated imagery accuracy. This is the real production-site area, not a photograph of a surviving police station."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "t227_hfl",
+      "title": "Halloween Filming Locations — The Terminator police-station production site",
+      "url": "https://halloweenfilminglocations.blogspot.com/p/the-terminator-1984.html",
+      "source_type": "location research citing a production document; archival photo comparisons"
+    },
+    {
+      "id": "t227_rtr",
+      "title": "Reel to Real — The Terminator (1984), police-station frame and historical comparison",
+      "url": "https://rtrlocations.blogspot.com/2024/11/the-terminator-1984.html",
+      "source_type": "scene location research and film frame"
+    },
+    {
+      "id": "t227_afi",
+      "title": "AFI Catalog — The Terminator synopsis and cast",
+      "url": "https://catalog.afi.com/Film/57224-THE-TERMINATOR",
+      "source_type": "film institution synopsis and credits"
+    },
+    {
+      "id": "t227_t2_script",
+      "title": "Terminator 2 — revised final shooting script, scene 59A",
+      "url": "https://www.sellingyourscreenplay.com/wp-content/uploads/screenplay/scripts/Terminator-2%3A-Judgment-Day.pdf",
+      "source_type": "primary screenplay: West Highland name, 1984 and seventeen deaths"
+    },
+    {
+      "id": "t227_t1_script",
+      "title": "The Terminator — fifth draft, March 11 / 19, 1984",
+      "url": "https://www.terminatorfiles.com/media/scripts/t1_5th_draft.zip",
+      "source_type": "primary screenplay: station assault, Traxler dying, Silberman’s departure"
+    },
+    {
+      "id": "t227_t1_script_index",
+      "title": "TerminatorFiles — screenplay draft identification",
+      "url": "https://www.terminatorfiles.com/media/scripts/",
+      "source_type": "screenplay archive index"
+    },
+    {
+      "id": "t227_site_map",
+      "title": "Former 6000 S Boyle Avenue site — map linked by original location researcher",
+      "url": "https://goo.gl/maps/T1XWVkXGo3JC1zmY6",
+      "source_type": "researcher-linked production-site geolocation"
+    },
+    {
+      "id": "t227_census",
+      "title": "US Census Geocoder — 6000 S Boyle Ave, Vernon",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=6000%20S%20Boyle%20Ave%2C%20Vernon%2C%20CA&benchmark=Public_AR_Current&format=json",
+      "source_type": "official present-day address geocoder; approximate former-site cross-check"
+    },
+    {
+      "id": "t227_aerial",
+      "title": "Esri World Imagery — former Bethlehem Steel site aerial",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2152%2C33.9855%2C-118.2095%2C33.9902&bboxSR=4326&imageSR=3857&size=1200%2C1000&format=jpg&f=image",
+      "source_type": "real satellite / aerial imagery"
+    },
+    {
+      "id": "t227_imagery_metadata",
+      "title": "World Imagery provider metadata at the former station production site",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/identify?geometry=-118.2126689%2C33.9881863&geometryType=esriGeometryPoint&sr=4326&tolerance=1&mapExtent=-118.2152%2C33.9855%2C-118.2095%2C33.9902&imageDisplay=1200%2C1000%2C96&returnGeometry=false&f=pjson",
+      "source_type": "imagery provider capture-date and attribution metadata"
+    },
+    {
+      "id": "terminator_cinematheque_time",
+      "title": "American Cinematheque: The Terminator setting",
+      "url": "https://www.americancinematheque.com/now-showing/the-terminator-12-8-23/",
+      "source_type": "film institution synopsis"
+    }
+  ],
+  "audit": [
+    {
+      "id": 227,
+      "verification": "Admitted as a Los Angeles story location: AFI places the film in Los Angeles and describes the station interrogation, T-800 attack, officers killed and Sarah/Reese escape. Copied the existing The Terminator canonical-time object verbatim: 1984, explicit year; no invented month/day."
+    },
+    {
+      "id": 227,
+      "verification": "Primary name Central Division comes from the inspected 1984 entrance-frame door. T2 revised shooting-script scene 59A retrospectively calls the 1984 station West Highland (singular); West Highlands appears in some location listings. T2 supplies retrospective name/death-count corroboration, not a second physical-location appearance. None of these names is treated as a verified street address or real neighborhood."
+    },
+    {
+      "id": 227,
+      "verification": "Paul H’s Halloween Filming Locations research identifies a dressed, disused Bethlehem Steel office at 6000 S Boyle Avenue, Vernon, from a production document. It reports demolition of the office/plant in 1985. Reel to Real credits Paul and pairs the entrance frame with a historical 6000 Boyle Avenue photograph. These identify the police-station office, not the separate final factory at Ramirez Street / City of Industry."
+    },
+    {
+      "id": 227,
+      "verification": "The pin is a former-site approximation taken from HFL’s linked map, which resolves to 33.9871716, -118.2119171. The current Census address match is -118.212668921045, 33.988186316747, roughly 130 m away. Redevelopment and historical address ambiguity prevent building-level precision. Both points lie inside the aerial coverage; neither establishes the fictional police station’s street."
+    },
+    {
+      "id": 227,
+      "verification": "Seventeen dead is supported by T2 scene 59A’s explicit dialogue, not Traxler’s earlier reassurance that thirty cops were in the building. No list of seventeen invented identities is added. The single parent place carries event/work/death categories and one deaths record so the app can derive its normal death entry."
+    },
+    {
+      "id": 227,
+      "verification": "Traxler is named using AFI’s Ed Traxler credit; the March 1984 script identifies him as dying in scene 178 after the assault. Vukovich is present and fights, but his death is not explicitly established in the released sequence; earlier drafts swap some Traxler/Vukovich actions, so Vukovich is retained as a workplace character without a certified death. Dr. Peter Silberman exits in scene 160 before the attack and is not a victim."
+    },
+    {
+      "id": 227,
+      "verification": "Visually inspected six police-location source images and the 2025 aerial: frame entrance canopy/doors match the archival office entrance with 6000 Boyle Avenue lettering. Public screen is the real film frame, not the black-and-white historical photograph. Public place image is real World Imagery aerial photography of the redeveloped site; provider metadata explicitly dates capture 2025-11-26. JPEGs optimized without generated content."
+    },
+    {
+      "id": 227,
+      "verification": "Film-frame source image URL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFlX2Gy6roafeMlgJSJgb53kOEmf3CqbrvrEv37wIw8VXQK4fGUny_946NL5fewKJeAaQC2YXOxymLcoY9bL9BJ15W4_4aI38eO4Yu1Jn7QQ1ebUJnv4PQbBCaSy3yxD93nh6UxSwXRpbHAhkpaCgcNeA5zCW-jH2TLB6FZsYyn8IkccVfXZ-2d8ApNdbw/s1090/Screenshot%202024-11-01%20at%204.31.43%E2%80%AFAM.png"
+    }
+  ]
+}

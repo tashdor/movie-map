@@ -20,7 +20,7 @@ export function filterPlaces(places, { query = '', category = 'all', film = '', 
     if (!appearances.length || (category !== 'all' && !appearances.some(a=>(a.categories||p.categories).includes(category)))) return false;
     if (film && !appearances.some(a => a.title === film)) return false;
     const names = appearances.length === p.appearances.length ? [p.name,p.short] : [];
-    const haystack = normalize([...names, p.address, p.area, p.placement?.address||'', ...(p.deaths||[]).filter(d=>appearances.some(a=>a.title===d.title)).flatMap(d=>d.people), ...appearances.flatMap(a => [a.title, a.story_role, a.filming_component, ...(a.characters || []).map(c => c.name)])].join(' '));
+    const haystack = normalize([...names, p.address, p.area, p.placement?.address||'', ...(p.deaths||[]).filter(d=>appearances.some(a=>a.title===d.title)).flatMap(d=>[d.label||'',...d.people]), ...appearances.flatMap(a => [a.title, a.story_role, a.filming_component, ...(a.characters || []).map(c => c.name)])].join(' '));
     return tokens.every(t => haystack.includes(t));
   });
 }

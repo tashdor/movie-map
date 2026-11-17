@@ -3954,5 +3954,22 @@
         }
       }
     }
+  },
+  "227": {
+    "screen": {
+      "src": "photos/t227-screen.jpg",
+      "sourceUrl": "https://rtrlocations.blogspot.com/2024/11/the-terminator-1984.html",
+      "credit": "The Terminator film frame / Orion Pictures / Reel to Real Filming Locations",
+      "title": "The Terminator",
+      "caption": "The T-800 at the station entrance. The door is dressed as Central Division."
+    },
+    "place": {
+      "src": "photos/t227-place.jpg",
+      "sourceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.2152%2C33.9855%2C-118.2095%2C33.9902&bboxSR=4326&imageSR=3857&size=1200%2C1000&format=jpg&f=image",
+      "credit": "Esri / Vantor / Earthstar Geographics / GIS User Community",
+      "date": "2025-11-26",
+      "caption": "Former filming site · aerial",
+      "note": "Vantor World Imagery metadata gives capture date November 26, 2025, 0.34 m resolution, 8.47 m stated imagery accuracy. This is the real production-site area, not a photograph of a surviving police station."
+    }
   }
 }

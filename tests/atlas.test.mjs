@@ -142,7 +142,7 @@ test('the expansion contains 100 new sourced places with unique identities',()=>
   const extra=JSON.parse(fs.readFileSync(new URL('../research/expansion-100.json',import.meta.url)));
   assert.equal(extra.places.length,100);
   assert.equal(new Set(extra.places.map(p=>p.id)).size,100);
-  assert.equal(data.places.length,214);
+  assert.equal(data.places.length,215);
   for(const p of extra.places){assert.ok(p.id>=101&&p.id<=200);assert.ok(p.appearances[0].source_ids.length);assert.ok(p.placement);}
 });
 test('LAX death and channel chase use sourced sites and navigable photo entries',()=>{
@@ -183,4 +183,19 @@ test('Frank’s shares eligible L.A. stories and switches to the selected movie 
   assert.equal(displayEntries([franks],{time:time(2011)})[0].media.screen.title,'Larry Crowne');
   assert.equal(displayEntries([franks],{time:time(2014)})[0].media.screen.title,'Scorpion');
   assert.equal(displayEntries([franks],{film:'Gone Girl'}).length,0);
+});
+
+test('the Terminator police-station massacre is mapped as an attributed filming proxy',()=>{
+  const station=data.places.find(p=>p.id===227);
+  assert.equal(station.placement.kind,'filming-proxy');
+  assert.ok(station.coordinates);
+  assert.match(station.placement.address,/unconfirmed/);
+  assert.equal(station.appearances[0].story_time.year,1984);
+  const death=displayEntries([station],{category:'death'})[0];
+  assert.equal(death.name,'Police-station massacre');
+  assert.ok(death.deaths[0].people.includes('Ed Traxler'));
+  assert.equal(death.deaths[0].people.includes('Dr. Peter Silberman'),false);
+  assert.ok(filterPlaces([station],{query:'police station massacre'}).length);
+  const labelOnly={...station,deaths:[{title:'The Terminator',people:['Other officers'],label:'Station siege'}]};
+  assert.equal(filterPlaces([labelOnly],{query:'Station siege'}).length,1);
 });
