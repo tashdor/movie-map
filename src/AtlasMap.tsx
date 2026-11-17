@@ -1,4 +1,4 @@
-import {useEffect,useRef,useState} from 'react';
+import {memo,useEffect,useRef,useState} from 'react';
 import * as maplibregl from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
@@ -13,13 +13,23 @@ import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const ZERO_PADDING={top:0,bottom:0,left:0,right:0};
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type MarkerRecord={marker:maplibregl.Marker;element:HTMLDivElement;place:Place;signature:string;label?:HTMLDivElement};
+function alignMarker(map:maplibregl.Map,record:MarkerRecord){
+  if(!record.place.coordinates)return;
+  const point=map.project(record.place.coordinates),right=map.getContainer().clientWidth-point.x-48,left=point.x-48;
+  const flip=right<Math.min(420,record.place.name.length*8)&&left>right;
+  record.element.classList.toggle('opens-left',flip);
+  if(record.label){record.label.classList.toggle('label-left',flip);record.label.style.maxWidth=`${Math.max(150,Math.min(560,flip?left:right))}px`;record.label.hidden=!map.getBounds().contains(record.place.coordinates);}
+}
 function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');appendRedactedText(title,name);box.append(movie,title);return box;}
-export default function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
-  const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
-  const [ready,setReady]=useState(false),[error,setError]=useState(false),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
+function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
+  const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef(new Map<number,MarkerRecord>()),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
+  const [ready,setReady]=useState(false),[error,setError]=useState(false),[locating,setLocating]=useState(false);
   const [zoomedOut,setZoomedOut]=useState(false);
-  const latest=useRef({places,coverage,onView,onLocationError,onRoute});latest.current={places,coverage,onView,onLocationError,onRoute};
+  const latest=useRef({places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm});latest.current={places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm};
+  const syncView=useRef(()=>{}),baseLayers=useRef(new Map<string,'visible'|'none'>());
+  syncView.current=()=>{const m=map.current;if(!m)return;const current=latest.current;if(current.selected){const record=markers.current.get(current.selected.id);if(record)alignMarker(m,record);}if(current.trackView){const bounds=m.getBounds();current.onView(current.places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));}};
   useEffect(()=>{
     if(!container.current)return;
     let m:maplibregl.Map;
@@ -50,6 +60,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
       const g=new maplibregl.GeolocateControl({positionOptions:{enableHighAccuracy:true,timeout:12000},fitBoundsOptions:{maxZoom:14},trackUserLocation:false,showAccuracyCircle:true,showUserLocation:true});gps.current=g;m.addControl(g,'top-right');
       g.on('geolocate',()=>setLocating(false));g.on('error',event=>{setLocating(false);latest.current.onLocationError(event.code===1?'Location access denied':event.code===3?'Location request timed out':'Location unavailable');});
       m.on('load',async()=>{
+        baseLayers.current=new Map(m.getStyle().layers.map(layer=>[layer.id,layer.layout?.visibility==='none'?'none':'visible']));
         try{
           const county=await fetch(`${import.meta.env.BASE_URL}la-county.geojson`).then(r=>{if(!r.ok)throw Error('la-county.geojson');return r.json();});
           if(map.current!==m)return;
@@ -58,13 +69,13 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
         if(map.current===m)setReady(true);
       });
-      m.on('moveend',()=>{const b=m.getBounds();latest.current.onView(latest.current.places.filter(p=>p.coordinates&&b.contains(p.coordinates)).map(p=>p.id));setViewVersion(v=>v+1);});
+      m.on('moveend',()=>syncView.current());
       m.on('click','journey-lines',e=>{const id=Number(e.features?.[0]?.properties?.id);if(id)latest.current.onRoute(id);});
       m.on('mouseenter','journey-lines',()=>{m.getCanvas().style.cursor='pointer';});m.on('mouseleave','journey-lines',()=>{m.getCanvas().style.cursor='';});
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);disposeFog?.();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);disposeFog?.();for(const record of markers.current.values())record.marker.remove();markers.current.clear();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
@@ -75,31 +86,43 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
       m.addLayer({id:'satellite-imagery',type:'raster',source:'satellite-imagery',paint:{'raster-fade-duration':0}},before);
       for(const layer of labels)if(layer.type==='symbol')m.addLayer({...layer,id:`satellite-label-${layer.id}`,paint:{...layer.paint,'text-color':'#f5f1e5','text-halo-color':'#253035','text-halo-width':1.4}},before);
     }
+    for(const [id,visibility] of baseLayers.current)if(m.getLayer(id))m.setLayoutProperty(id,'visibility',basemap==='satellite'?'none':visibility);
     for(const layer of m.getStyle().layers)if(layer.id==='satellite-imagery'||layer.id.startsWith('satellite-label-'))m.setLayoutProperty(layer.id,'visibility',basemap==='satellite'?'visible':'none');
   },[basemap,ready]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
-    const bounds=m.getBounds();
-    const next:maplibregl.Marker[]=[];
+    const active=new Set<number>();
     for(const p of places){
-      if(!p.coordinates)continue;
-      const outer=document.createElement('div');outer.className=`atlas-marker ${p.category} ${selected?.id===p.id?'selected':''} ${p.placement?.kind==='inferred'?'estimated':''}`;outer.style.setProperty('--film-color',filmColor(p.appearances[0].title));
-      const point=m.project(p.coordinates);const roomRight=m.getContainer().clientWidth-point.x-48,roomLeft=point.x-48;const flip=roomRight<Math.min(420,p.name.length*8)&&roomLeft>roomRight;
-      if(flip)outer.classList.add('opens-left');
-      const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${accessibleText(p.name)}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});outer.append(icon);
-      const titles=[...new Set(p.appearances.map(a=>a.title))];outer.append(tooltip(p.name,titles));
-      if(bounds.contains(p.coordinates)&&selected?.id===p.id){
-        const label=document.createElement('div');label.className=`marker-label ${flip?'label-left':''}`;label.style.maxWidth=`${Math.max(150,Math.min(560,flip?roomLeft:roomRight))}px`;
-        const tabs=document.createElement('div');tabs.className='marker-film-tabs';
-        for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',e=>{e.stopPropagation();onFilm(title);});tabs.append(tab);}
-        const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',e=>{e.stopPropagation();onSelect(p.id);});label.append(tabs,title);outer.append(label);
+      if(!p.coordinates)continue;active.add(p.id);
+      const titles=[...new Set(p.appearances.map(a=>a.title))];
+      const signature=JSON.stringify([p.name,p.category,p.placement?.kind,titles]);
+      let record=markers.current.get(p.id);
+      if(!record){
+        const element=document.createElement('div');element.className='atlas-marker';
+        const marker=new maplibregl.Marker({element,anchor:'center',offset:p.baseId?[23,20]:[0,0]}).setLngLat(p.coordinates).addTo(m);
+        record={marker,element,place:p,signature:''};markers.current.set(p.id,record);
+        const current=record;element.addEventListener('mouseenter',()=>alignMarker(m,current));element.addEventListener('focusin',()=>alignMarker(m,current));
       }
-      next.push(new maplibregl.Marker({element:outer,anchor:'center',offset:p.baseId?[23,20]:[0,0]}).setLngLat(p.coordinates).addTo(m));
+      if(record.signature!==signature){
+        record.element.classList.remove(record.place.category);record.element.classList.add(p.category);
+        record.element.classList.toggle('estimated',p.placement?.kind==='inferred');
+        record.element.style.setProperty('--film-color',filmColor(p.appearances[0].title));
+        const icon=document.createElement('button');icon.type='button';icon.className='marker-icon';icon.setAttribute('aria-label',`Open ${accessibleText(p.name)}`);icon.innerHTML=locationSvg(p.category);icon.addEventListener('click',e=>{e.stopPropagation();latest.current.onSelect(p.id);});
+        record.element.replaceChildren(icon,tooltip(p.name,titles));record.label=undefined;record.signature=signature;
+      }
+      const position=record.marker.getLngLat();if(position.lng!==p.coordinates[0]||position.lat!==p.coordinates[1])record.marker.setLngLat(p.coordinates);
+      record.place=p;record.element.classList.toggle('selected',selected?.id===p.id);
+      if(selected?.id===p.id&&!record.label){
+        const label=document.createElement('div');label.className='marker-label';
+        const tabs=document.createElement('div');tabs.className='marker-film-tabs';
+        for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=title;tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',()=>latest.current.onFilm(title));tabs.append(tab);}
+        const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',()=>latest.current.onSelect(p.id));label.append(tabs,title);record.element.append(label);record.label=label;
+      }else if(selected?.id!==p.id&&record.label){record.label.remove();record.label=undefined;}
+      if(record.label)alignMarker(m,record);
     }
-    markers.current.forEach(marker=>marker.remove());markers.current=next;
-    onView(places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));
-    return()=>{next.forEach(marker=>marker.remove());};
-  },[places,selected?.id,ready,viewVersion,onSelect,onFilm,onView]);
+    for(const [id,record] of markers.current)if(!active.has(id)){record.marker.remove();markers.current.delete(id);}
+    syncView.current();
+  },[places,selected?.id,trackView,ready]);
   useEffect(()=>{if(ready&&resetView)map.current?.flyTo({...CITY,duration:450});},[resetView,ready]);
   useEffect(()=>{const m=map.current;if(!ready||!m||!film)return;const bounds=new maplibregl.LngLatBounds();for(const p of latest.current.places)if(p.coordinates)bounds.extend(p.coordinates);if(!bounds.isEmpty())m.fitBounds(bounds,{padding:60,maxZoom:13,duration:450});},[film,ready]);
   useEffect(()=>{
@@ -135,3 +158,5 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
     <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" disabled={!ready||zoomedOut} onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>
   </div>;
 }
+
+export default memo(AtlasMap);

@@ -2,7 +2,9 @@ import {useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,Check,ChevronDown,ChevronLeft,ChevronRight,ExternalLink,MapPin,Pause,Play,Route,Search,Share2,SlidersHorizontal,Users,X} from 'lucide-react';
 import AtlasMap from './AtlasMap';
 import raw from './data/atlas.json';
-import {displayEntries,readState,stateHash,timeLabel,selectPlace,backState,peopleForEntry as occupants,associatedPeople,filmingSiteMapsUrl} from './logic.mjs';
+import linkSlugs from '../research/link-slugs.json';
+import {createAtlasLinks} from './links.mjs';
+import {displayEntries,timeLabel,selectPlace,backState,peopleForEntry as occupants,associatedPeople,filmingSiteMapsUrl} from './logic.mjs';
 import {filmColor} from './colors';
 import {locationSvg} from './icons';
 import spoilerAudit from '../research/spoiler-audit.json';
@@ -10,6 +12,7 @@ import {REDACTED,accessibleText,isRedacted,presentPlace,presentJourney,redactTex
 import {RedactedText,RedactedPhoto} from './RedactedText';
 import type {AtlasData,AtlasState,Photo,PhotoPair,Place,Journey,TimeFilter} from './types';
 const data=raw as unknown as AtlasData;
+const {readState,stateHash}=createAtlasLinks(data,linkSlugs);
 const coverage=data.places.flatMap(p=>p.coordinates?[p.coordinates]:[]);
 const categories=[['all','All'],['home','Homes'],['work','Work'],['hangout','Hangouts'],['event','Events'],['death','Deaths']];
 const photoUrl=(p:Photo)=>`${import.meta.env.BASE_URL}${p.src.replace(/^\/?(?:public\/)?/,'')}`;
@@ -45,6 +48,7 @@ export default function App(){
   const selectStop=useCallback((id:number,route:number)=>{setState(s=>({...s,route,selected:id,person:null,tab:'journeys'}));setMobileOpen(true);},[]);
   const selectPerson=(name:string)=>{update({person:name,selected:null,route:null,query:'',category:'all',tab:'people'});setMobileOpen(true);};
   const back=()=>setState(s=>backState(s));
+  const setBasemap=useCallback((basemap:'map'|'satellite')=>setState(s=>({...s,basemap})),[]);
   const setTime=useCallback((time:TimeFilter)=>setState(s=>({...s,time})),[]);
   const onView=useCallback((ids:number[])=>setViewIds(old=>old.length===ids.length&&old.every((id,i)=>id===ids[i])?old:ids),[]),notify=useCallback((message:string)=>setToast(message),[]);
   useEffect(()=>{const timer=setTimeout(()=>setEffectiveTime(state.time),80);return()=>clearTimeout(timer);},[state.time]);
@@ -62,11 +66,11 @@ export default function App(){
   const selected=lookup.find(p=>p.id===state.selected)||null;
   const list=nearbyOnly?visible.filter(p=>viewIds.includes(p.id)):visible;
   const people=useMemo(()=>{const found=new Map<string,Place[]>();for(const p of list)for(const name of associatedPeople(p).filter(n=>!isRedacted(n)))found.set(name,[...(found.get(name)||[]),p]);const all=[...found].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0]));const q=state.query.toLowerCase().trim();const names=q?all.filter(([n])=>n.toLowerCase().includes(q)):all;return names.length?names:all;},[list,state.query]);
-  const personPlaces=state.person?lookup.filter(p=>associatedPeople(p).includes(state.person!)):[];
+  const personPlaces=useMemo(()=>state.person?lookup.filter(p=>associatedPeople(p).includes(state.person!)):[],[state.person,lookup]);
   useEffect(()=>{if(!showSpoilers&&state.person&&isRedacted(redactText(state.person)))setState(s=>({...s,person:null}));},[showSpoilers,state.person]);
   const journeys=useMemo(()=>data.journeys.filter(j=>(effectiveTime.all||j.year!==null&&j.year>=effectiveTime.from&&j.year<=effectiveTime.to||j.year===null&&effectiveTime.undated)&&(!state.film||j.title===state.film)&&(!state.query||`${j.name} ${j.title}`.toLowerCase().includes(state.query.toLowerCase()))).map(j=>presentJourney(j,showSpoilers,spoilerAudit,data.places)) as Journey[],[effectiveTime,state.film,state.query,showSpoilers]);
   const journey=journeys.find(j=>j.id===state.route)||null;
-  const mapPlaces=state.person?personPlaces:state.tab==='journeys'?(selected?[selected]:[]):visible;
+  const mapPlaces=useMemo(()=>state.person?personPlaces:state.tab==='journeys'?(selected?[selected]:[]):visible,[state.person,personPlaces,state.tab,selected,visible]);
   const hasFilters=Boolean(state.film||state.query||state.category!=='all'||!state.time.all||nearbyOnly||state.person);
   const reset=()=>{setState(s=>({selected:null,route:null,basemap:s.basemap,person:null,query:'',category:'all',film:'',tab:'places',time:{all:true,from:1930,to:2030,undated:false}}));setNearbyOnly(false);setMapReset(v=>v+1);};
   const share=async()=>{const shared=!showSpoilers&&state.person&&!personPlaces.length?{...state,person:null}:state;try{await navigator.clipboard.writeText(location.origin+location.pathname+location.search+stateHash(shared));setToast('Link copied');}catch{setToast('Copy the address-bar link');}};
@@ -75,8 +79,7 @@ export default function App(){
   const filmTabs=(p:Place)=><div className="place-films">{[...new Set(p.appearances.map(a=>a.title))].map(t=><button style={ink(t)} key={t} aria-label={`Show ${t} locations`} onClick={()=>selectFilm(t)}>{t}<ArrowRight size={12}/></button>)}</div>;
   const row=(p:Place)=><button key={p.id} style={ink(p.appearances[0].title)} className="directory-row" onClick={()=>select(p.id)}><Glyph type={p.category}/><span><strong><RedactedText text={p.name}/></strong><small>{[...new Set(p.appearances.map(a=>a.title))].join(' / ')}</small></span><ArrowRight size={13}/></button>;
   const noResults=state.tab==='people'?!people.length:state.tab==='journeys'?!journeys.length:!list.length;
-  return <div className="atlas-app"><header className="masthead"><button className="wordmark" aria-label="Meanwhile, in L.A. — reset map" onClick={reset}><span>Meanwhile, <i>✦</i></span><strong>in L.A.</strong></button><div className="masthead-actions"><label className="spoiler-toggle"><input type="checkbox" checked={showSpoilers} onChange={e=>setShowSpoilers(e.target.checked)}/>Spoilers</label><button className="share-button" aria-label="Share atlas" onClick={share}><Share2 size={18}/></button></div></header>
-    <div className="atlas-workspace"><aside className={`directory ${mobileOpen?'mobile-open':''}`} aria-label="Directory"><div className="search-wrap"><Search size={17}/><input aria-label="Search" placeholder="Search" value={state.query} onChange={e=>{update({query:e.target.value,selected:null,route:null,person:null});setMobileOpen(true);}}/></div><nav className="directory-tabs" aria-label="Browse">{[['places','Places',MapPin],['people','People',Users],['journeys','Routes',Route]].map(([tab,title,Icon])=><button key={String(tab)} className={state.tab===tab?'active':''} onClick={()=>update({tab:String(tab),selected:null,route:null,person:null})}>{typeof Icon!=='string'&&<Icon size={15}/>}<span>{String(title)}</span></button>)}</nav>
+  return <div className="atlas-app"><div className="atlas-workspace"><aside className={`directory ${mobileOpen?'mobile-open':''}`} aria-label="Directory"><header className="masthead"><button className="wordmark" aria-label="Meanwhile, in L.A. — reset map" onClick={reset}><span>Meanwhile, <i>✦</i></span><strong>in L.A.</strong></button><div className="masthead-actions"><label className="spoiler-toggle"><input type="checkbox" checked={showSpoilers} onChange={e=>setShowSpoilers(e.target.checked)}/>Spoilers</label><button className="share-button" aria-label="Copy link" onClick={share}><Share2 size={15}/><span>Copy link</span></button></div></header><div className="search-wrap"><Search size={17}/><input aria-label="Search" placeholder="Search" value={state.query} onChange={e=>{update({query:e.target.value,selected:null,route:null,person:null});setMobileOpen(true);}}/></div><nav className="directory-tabs" aria-label="Browse">{[['places','Places',MapPin],['people','People',Users],['journeys','Routes',Route]].map(([tab,title,Icon])=><button key={String(tab)} className={state.tab===tab?'active':''} onClick={()=>update({tab:String(tab),selected:null,route:null,person:null})}>{typeof Icon!=='string'&&<Icon size={15}/>}<span>{String(title)}</span></button>)}</nav>
       <div className="filter-bar"><select aria-label="Film or series" value={state.film} onChange={e=>selectFilm(e.target.value)}><option value="">All films & series</option>{films.map(f=><option key={f}>{f}</option>)}</select><button aria-label="More filters" aria-expanded={filtersOpen} onClick={()=>setFiltersOpen(!filtersOpen)}><SlidersHorizontal size={15}/></button>{hasFilters&&<button className="show-all" onClick={reset}>Show all</button>}</div>
       {filtersOpen&&<div className="extra-filters"><label><input type="checkbox" checked={nearbyOnly} onChange={e=>setNearbyOnly(e.target.checked)}/>In map view</label><label><input type="checkbox" checked={state.time.undated} onChange={e=>setTime({...state.time,undated:e.target.checked})}/>Undated</label></div>}
       <div className="directory-scroll" ref={scroll}>
@@ -93,7 +96,7 @@ export default function App(){
         {noResults&&<div className="empty-state">No matches</div>}
       </>}
       </div><button className="mobile-map-return" onClick={()=>setMobileOpen(false)}>Map<MapPin size={15}/></button>
-    </aside><main className="map-and-time"><div className="map-region"><AtlasMap basemap={state.basemap} onBasemap={basemap=>update({basemap})} places={mapPlaces} selected={selected} journey={journey} journeys={journeys} routeMode={state.tab==='journeys'} film={state.film} coverage={coverage} resetView={mapReset} onSelect={select} onRoute={selectRoute} onStop={selectStop} onFilm={selectFilm} onView={onView} onLocationError={notify}/><button className="mobile-directory-toggle" onClick={()=>setMobileOpen(true)}><Search size={17}/>Places</button></div><Timeline time={state.time} onChange={setTime}/></main></div>
+    </aside><main className="map-and-time"><div className="map-region"><AtlasMap basemap={state.basemap} onBasemap={setBasemap} places={mapPlaces} selected={selected} journey={journey} journeys={journeys} routeMode={state.tab==='journeys'} film={state.film} coverage={coverage} resetView={mapReset} onSelect={select} onRoute={selectRoute} onStop={selectStop} onFilm={selectFilm} trackView={nearbyOnly} onView={onView} onLocationError={notify}/><button className="mobile-directory-toggle" onClick={()=>setMobileOpen(true)}><Search size={17}/>Places</button></div><Timeline time={state.time} onChange={setTime}/></main></div>
     {toast&&<div className="toast" role="status"><Check size={14}/>{toast}</div>}
     <dialog className="photo-dialog" ref={photoDialog} aria-label="Location photo" onClose={()=>setPhoto(null)} onClick={e=>{if(e.target===photoDialog.current)setPhoto(null);}}><button className="photo-close" aria-label="Close photo" onClick={()=>setPhoto(null)}><X size={22}/></button>{photo&&<><img src={photoUrl(photo)} alt={accessibleText(photo.alt||photo.note||'Location photograph')}/>{citation(photo.credit+(photo.date?' · '+photo.date:''),photo.sourceUrl,photo.redacted)}</>}</dialog>
   </div>;
