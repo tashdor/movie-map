@@ -1,11 +1,30 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {MercatorCoordinate} from 'maplibre-gl';
+import {countyCamera} from '../src/camera.mjs';
 import { filterPlaces,matchingAppearances,readState,stateHash,timeBounds,timeLabel,displayEntries,selectPlace,backState,peopleForEntry,associatedPeople,filmingSiteMapsUrl } from '../src/logic.mjs';
-import {countyFog} from '../src/geo.mjs';
+import {countyFog,exploredCounty} from '../src/geo.mjs';
 const data=JSON.parse(fs.readFileSync(new URL('../src/data/atlas.json',import.meta.url)));
 const time=(year,undated=false)=>({all:false,from:year,to:year,undated});
 const griffith=data.places.find(p=>p.id===83);
+
+test('the zoom-out camera tightly fits the county on desktop, mobile, and rotated screens',()=>{
+  const county=JSON.parse(fs.readFileSync(new URL('../public/la-county.geojson',import.meta.url)));
+  for(const locations of [[],[[-118.4,33.39]]])for(const [width,height,bearing] of [[945,521,0],[390,659,0],[534,191,0],[534,191,45],[390,659,45],[945,521,-75],[390,659,179]]){
+    const camera=countyCamera(county,locations,{width,height,bearing}),center=MercatorCoordinate.fromLngLat(camera.center);
+    const scale=512*2**camera.zoom,angle=-bearing*Math.PI/180;
+    let edgeDistance=Infinity;
+    for(const polygon of exploredCounty(county,locations).features[0].geometry.coordinates)for(const ring of polygon)for(const position of ring){
+      const p=MercatorCoordinate.fromLngLat(position),dx=(p.x-center.x)*scale,dy=(p.y-center.y)*scale;
+      const x=width/2+dx*Math.cos(angle)-dy*Math.sin(angle),y=height/2+dx*Math.sin(angle)+dy*Math.cos(angle);
+      assert.ok(x>=24-.0001&&x<=width-24+.0001&&y>=24-.0001&&y<=height-24+.0001,`${width}×${height} at ${bearing}° clips ${position}`);
+      edgeDistance=Math.min(edgeDistance,x,width-x,y,height-y);
+    }
+    assert.ok(Math.abs(edgeDistance-24)<.001,'no unnecessary space beyond the county fit');
+  }
+  assert.equal(countyCamera(county,[],{width:0,height:610}),null);
+});
 
 test('release year never substitutes for canonical story time',()=>{
   assert.equal(timeBounds({release_year:1994}),null);

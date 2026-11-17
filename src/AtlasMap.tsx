@@ -6,21 +6,44 @@ import {Crosshair,LocateFixed,Minus,Plus} from 'lucide-react';
 import {locationSvg} from './icons';
 import {filmColor} from './colors';
 import {installCountyFog} from './fog';
+import {countyCamera} from './camera.mjs';
 import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
+const ZERO_PADDING={top:0,bottom:0,left:0,right:0};
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
 type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
 function tooltip(name:string,titles:string[]){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.join(' / ');const title=document.createElement('strong');title.textContent=name;box.append(movie,title);return box;}
 export default function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
-  const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null);
+  const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef<maplibregl.Marker[]>([]),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[viewVersion,setViewVersion]=useState(0),[locating,setLocating]=useState(false);
+  const [zoomedOut,setZoomedOut]=useState(false);
   const latest=useRef({places,coverage,onView,onLocationError,onRoute});latest.current={places,coverage,onView,onLocationError,onRoute};
   useEffect(()=>{
     if(!container.current)return;
     let m:maplibregl.Map;
     let disposeFog:(()=>void)|undefined;
+    let countyData:any,countyView:ReturnType<typeof countyCamera>=null,applyingLimit=false;
+    const atMinimum=()=>m.getZoom()<=m.getMinZoom()+0.00001;
+    const syncZoomButton=()=>setZoomedOut(atMinimum());
+    const syncNorth=()=>{if(northNeedle.current)northNeedle.current.style.transform=`rotate(${-m.getBearing()}deg)`;};
+    const updateZoomLimit=()=>{
+      if(!countyData)return;
+      const element=m.getContainer(),view=countyCamera(countyData,latest.current.coverage,{width:element.clientWidth,height:element.clientHeight,bearing:m.getBearing()});
+      if(!view)return;
+      const wasAtMinimum=atMinimum();countyView=view;applyingLimit=true;
+      m.setMinZoom(view.zoom);
+      if(wasAtMinimum||atMinimum())m.jumpTo({...view,padding:ZERO_PADDING});
+      applyingLimit=false;syncZoomButton();
+    };
+    const centerCountyAtMinimum=()=>{
+      if(applyingLimit||!countyView||!atMinimum()||m.isRotating())return;
+      const center=m.getCenter(),target=countyView.center;
+      if(Math.abs(center.lng-target[0])+Math.abs(center.lat-target[1])<0.0000001)return;
+      applyingLimit=true;m.jumpTo({center:target,zoom:countyView.zoom,padding:ZERO_PADDING});applyingLimit=false;
+    };
     try{
-      m=new maplibregl.Map({container:container.current,style:`${import.meta.env.BASE_URL}atlas-style.json`,...CITY,minZoom:5,maxZoom:18,attributionControl:{compact:true},dragRotate:false,pitchWithRotate:false,canvasContextAttributes:{antialias:true}});map.current=m;
+      m=new maplibregl.Map({container:container.current,style:`${import.meta.env.BASE_URL}atlas-style.json`,...CITY,minZoom:5,maxZoom:18,maxPitch:0,attributionControl:{compact:true},dragRotate:false,pitchWithRotate:false,canvasContextAttributes:{antialias:true}});map.current=m;
+      m.on('rotate',syncNorth);m.on('rotateend',updateZoomLimit);m.on('resize',updateZoomLimit);m.on('zoom',syncZoomButton);m.on('zoomend',centerCountyAtMinimum);syncNorth();syncZoomButton();
       m.addControl(new maplibregl.ScaleControl({maxWidth:100,unit:'imperial'}),'bottom-left');
       const g=new maplibregl.GeolocateControl({positionOptions:{enableHighAccuracy:true,timeout:12000},fitBoundsOptions:{maxZoom:14},trackUserLocation:false,showAccuracyCircle:true,showUserLocation:true});gps.current=g;m.addControl(g,'top-right');
       g.on('geolocate',()=>setLocating(false));g.on('error',event=>{setLocating(false);latest.current.onLocationError(event.code===1?'Location access denied':event.code===3?'Location request timed out':'Location unavailable');});
@@ -28,6 +51,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
         try{
           const county=await fetch(`${import.meta.env.BASE_URL}la-county.geojson`).then(r=>{if(!r.ok)throw Error('la-county.geojson');return r.json();});
           if(map.current!==m)return;
+          countyData=county;updateZoomLimit();
           disposeFog=installCountyFog(m,county,latest.current.coverage);
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
         if(map.current===m)setReady(true);
@@ -38,7 +62,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();disposeFog?.();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);disposeFog?.();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
@@ -105,7 +129,7 @@ export default function AtlasMap({basemap,onBasemap,places,selected,journey,jour
   return <div className={`map-shell ${basemap==='satellite'?'satellite-view':''}`}><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
     <div className="basemap-switch" role="group" aria-label="Map view">{(['map','satellite'] as const).map(view=><button key={view} aria-pressed={basemap===view} onClick={()=>onBasemap(view)}>{view==='map'?'Map':'Satellite'}</button>)}</div>
     {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{t}</button>)}</div><strong>{selected.name}</strong><span>{selected.placement?.address||'Los Angeles'}</span></div>}
-    <div className="north-arrow" aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></div>
-    <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>
+    <button className="north-arrow" aria-label="Reset north" title="Reset north" onClick={()=>map.current?.resetNorth({duration:450})}><span className="north-needle" ref={northNeedle} aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></span></button>
+    <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" disabled={!ready||zoomedOut} onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>
   </div>;
 }

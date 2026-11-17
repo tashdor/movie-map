@@ -15,3 +15,5 @@
 .filming-address{font-size:12px;line-height:1.45;color:var(--ink);margin:-6px 0 18px}.filming-site>span{font-size:10px;color:var(--muted);display:block;margin-bottom:2px}.filming-site>a{display:inline-flex;align-items:center;gap:5px;margin-top:5px;color:var(--red);font-size:11px;border-bottom:1px solid #a99d8666}.filming-site>a:hover{border-color:var(--red)}
 
 .filming-site+.filming-site{margin-top:10px}
+.north-arrow{pointer-events:auto;z-index:5;width:64px;min-height:64px;place-items:center;gap:0}.north-needle{display:grid;justify-items:center;gap:4px;transform-origin:center;filter:drop-shadow(0 0 1px var(--paper))}.north-arrow:hover{color:var(--red)}.map-controls button:disabled{color:#b0aa9a;background:var(--paper)}
+@media(max-height:500px){.atlas-app{min-height:0}.map-controls{display:flex;bottom:35px}}
