@@ -4165,13 +4165,7 @@
       "placement": {
         "kind": "filming-proxy",
         "address": "Los Angeles",
-        "precision": "street-interpolated",
-        "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted.",
-        "sourceIds": [
-          "cult_miracle_afi",
-          "cult_miracle_locations",
-          "cult_geo"
-        ]
+        "precision": "street-interpolated"
       },
       "media": {
         "id": 37,
@@ -4207,6 +4201,29 @@
             "spoiler": false
           }
         ]
+      },
+      "placementByTitle": {
+        "The Big Lebowski": {
+          "kind": "filming-proxy",
+          "address": "Los Angeles",
+          "precision": "street-interpolated"
+        },
+        "Reservoir Dogs": {
+          "kind": "filming-proxy",
+          "address": "Los Angeles",
+          "precision": "street-interpolated"
+        },
+        "Miracle Mile": {
+          "kind": "filming-proxy",
+          "address": "Miracle Mile",
+          "precision": "PointAddress",
+          "sourceIds": [
+            "cult_miracle_afi",
+            "cult_miracle_locations",
+            "cult_geo"
+          ],
+          "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+        }
       },
       "mediaByTitle": {
         "The Big Lebowski": {
@@ -7203,7 +7220,9 @@
       "precision": "street-interpolated",
       "people": [
         "Alonzo Harris",
-        "Jake Hoyt"
+        "Jake Hoyt",
+        "Tracy Mills",
+        "William Somerset"
       ],
       "featured": false,
       "appearances": [
@@ -7239,6 +7258,45 @@
               "training_scenes"
             ]
           }
+        },
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Quality Cafe",
+          "filming_component": "1238 West 7th Street, Los Angeles",
+          "source_ids": [
+            "se7en_fo",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tracy Mills",
+              "relationship": "meets for coffee"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "meets for coffee"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
         }
       ],
       "notes": "Historical cafe location.",
@@ -7266,6 +7324,69 @@
           "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfa_b-qJofNd3qLKsnewzSly5Skw3oc7DVUMITPAAbQBihc3jjDItyKyUY3IZW8RiPiEhYNUp83gHIBdvKroZactXqLi4hpIKgvfDEtSeM3jDaMlx7aLSIWNSKo2B1N_jEFrQjH8NitcI/s400/Los+Angeles+2010+196.jpg"
+        }
+      },
+      "placementByTitle": {
+        "Training Day": {
+          "kind": "filming-proxy",
+          "address": "Los Angeles",
+          "precision": "street-interpolated"
+        },
+        "Se7en": {
+          "kind": "filming-proxy",
+          "address": "1238 West 7th Street, Los Angeles",
+          "precision": "PointAddress",
+          "sourceIds": [
+            "se7en_fo",
+            "se7en_guide",
+            "se7en_afi",
+            "se7en_geo"
+          ],
+          "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+        }
+      },
+      "mediaByTitle": {
+        "Training Day": {
+          "id": 70,
+          "screen": {
+            "src": "photos/070-screen.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfZ4Yb6kWcBfhyphenhyphenPUdXDuyIE1YnO95H99KdsLKJvVc6er5rVOKCp_StQ_u7dv1NxdAE8xUzX8wKtnBzdVqDdZW3LR92SYcQEfi-deATlNT-llPdhuZ5NtFIv8u6VACuZySqSmhdB2n3vpy4/s400/Quality+Cafe.JPG",
+            "title": "Training Day",
+            "releaseYear": 2001
+          },
+          "place": {
+            "src": "photos/070-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfa_b-qJofNd3qLKsnewzSly5Skw3oc7DVUMITPAAbQBihc3jjDItyKyUY3IZW8RiPiEhYNUp83gHIBdvKroZactXqLi4hpIKgvfDEtSeM3jDaMlx7aLSIWNSKo2B1N_jEFrQjH8NitcI/s400/Los+Angeles+2010+196.jpg"
+          }
+        },
+        "Se7en": {
+          "screen": {
+            "src": "photos/se7en-754-screen.jpg",
+            "sourceUrl": "https://thefincheranalyst.com/2024/02/07/seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment/",
+            "imageUrl": "https://i0.wp.com/thefincheranalyst.com/wp-content/uploads/2024/02/1995.-seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment.jpg?fit=1200%2C503&ssl=1",
+            "width": 1200,
+            "height": 503,
+            "title": "Se7en",
+            "alt": "Quality Cafe in Se7en",
+            "spoiler": false,
+            "credit": "Se7en / New Line Cinema; reproduced by The Fincher Analyst"
+          },
+          "place": {
+            "src": "photos/se7en-754-place.jpg",
+            "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.268481360457%2C34.050969911921%2C-118.265681360457%2C34.052845911921&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+            "width": 1000,
+            "height": 650,
+            "alt": "Quality Cafe — real filming site",
+            "spoiler": false,
+            "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+            "caption": "Site · aerial",
+            "note": "Imagery capture date is not supplied by the active basemap."
+          }
         }
       }
     },
@@ -46005,6 +46126,1657 @@
           "caption": "Site · source photo"
         }
       }
+    },
+    {
+      "id": 750,
+      "name": "The Fourteenth Precinct",
+      "short": "The Fourteenth Precinct",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "610 South Main Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.25018218637,
+        34.044794861248
+      ],
+      "productionCoordinates": [
+        -118.25018218637,
+        34.044794861248
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "610 South Main Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The Fourteenth Precinct",
+          "filming_component": "610 South Main Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "works at the precinct"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "works at the precinct"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "One precinct combines the offices in the Pacific Electric Building, the Rosslyn Hotel lobby at 451 South Main Street, and the exterior at 673 Mateo Street.",
+      "mapsQuery": "610 South Main Street, Los Angeles, CA",
+      "productionSites": [
+        {
+          "component": "Offices",
+          "address": "610 South Main Street, Los Angeles",
+          "coordinates": [
+            -118.25018218637,
+            34.044794861248
+          ]
+        },
+        {
+          "component": "Lobby",
+          "address": "451 South Main Street, Los Angeles",
+          "coordinates": [
+            -118.248674952541,
+            34.047075032278
+          ]
+        },
+        {
+          "component": "Exterior",
+          "address": "673 Mateo Street, Los Angeles",
+          "coordinates": [
+            -118.23278202593,
+            34.035431982035
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/se7en-750-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct2_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "The Fourteenth Precinct in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-750-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct1_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The Fourteenth Precinct — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 751,
+      "name": "The city library",
+      "short": "The city library",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "650 South Spring Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.251447015559,
+        34.045296015239
+      ],
+      "productionCoordinates": [
+        -118.251447015559,
+        34.045296015239
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "650 South Spring Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "George"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The city library",
+          "filming_component": "650 South Spring Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "reads in the library"
+            },
+            {
+              "name": "George",
+              "relationship": "works as the night guard"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The former bank’s real banking hall was dressed as the library; it is now The Majestic event venue.",
+      "mapsQuery": "650 South Spring Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-751-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library2_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "The city library in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-751-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library1_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The city library — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 752,
+      "name": "John Doe’s apartment",
+      "short": "John Doe’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "501 South Spring Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.250125692342,
+        34.04739522098
+      ],
+      "productionCoordinates": [
+        -118.250125692342,
+        34.04739522098
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "501 South Spring Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "John Doe",
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "John Doe’s apartment",
+          "filming_component": "501 South Spring Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Doe",
+              "relationship": "lives here"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "visits the apartment"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "visits the apartment"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "501 South Spring Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-752-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "John Doe’s apartment in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-752-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "John Doe’s apartment — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      },
+      "propertyLinks": [
+        {
+          "address": "501 S Spring St, Los Angeles, CA 90013",
+          "url": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+          "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+          "verifiedOn": "2026-11-17",
+          "note": "Verified Alexandria Housing building page at the exact production address; no film apartment unit is asserted.",
+          "scope": "filming-site"
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "name": "Victor’s apartment",
+      "short": "Victor’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "253 South Broadway, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.248045806889,
+        34.05129159058
+      ],
+      "productionCoordinates": [
+        -118.248045806889,
+        34.05129159058
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "253 South Broadway, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Theodore Allen / Victor",
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Victor’s apartment",
+          "filming_component": "253 South Broadway, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Theodore Allen / Victor",
+              "relationship": "lives here"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "visits the apartment"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "visits the apartment"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "253 South Broadway, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-753-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "Victor’s apartment in Se7en",
+          "spoiler": true,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-753-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt3_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "Victor’s apartment — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      },
+      "propertyLinks": [
+        {
+          "address": "253 S Broadway, Los Angeles, CA 90012",
+          "url": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+          "sourceUrl": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+          "verifiedOn": "2026-11-17",
+          "note": "The exact 253 S Broadway unit page links directly via See full building details to this building page. Link targets the entire Pan American Lofts building, never an inferred film unit. The building heading omits the S direction but its linked unit addresses include it.",
+          "scope": "filming-site"
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "name": "Somerset & Mills’s first meeting",
+      "short": "Somerset & Mills’s first meeting",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "746 South San Pedro Street, Los Angeles",
+      "area": "Flower District",
+      "coordinates": [
+        -118.247632998157,
+        34.039665010776
+      ],
+      "productionCoordinates": [
+        -118.247632998157,
+        34.039665010776
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "746 South San Pedro Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Somerset & Mills’s first meeting",
+          "filming_component": "746 South San Pedro Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "meets his new partner"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "meets his new partner"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "746 South San Pedro Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-755-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "Somerset & Mills’s first meeting in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-755-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "Somerset & Mills’s first meeting — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 756,
+      "name": "The transmission-tower field",
+      "short": "The transmission-tower field",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+      "area": "Lancaster",
+      "coordinates": [
+        -118.343118,
+        34.736653
+      ],
+      "productionCoordinates": [
+        -118.343118,
+        34.736653
+      ],
+      "precision": "scene-area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+        "precision": "scene-area",
+        "sourceIds": [
+          "se7en_then",
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_script",
+          "se7en_geo"
+        ],
+        "reason": "The scene is outside the unnamed story city. Matched site photographs place filming beside the transmission lines near 120th Street West and Avenue F-8, Lancaster. This is an approximate scene vicinity, not the exact position of an actor or prop."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills",
+        "John Doe"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The transmission-tower field",
+          "filming_component": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+          "source_ids": [
+            "se7en_then",
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_script"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "appears in the field"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "appears in the field"
+            },
+            {
+              "name": "John Doe",
+              "relationship": "appears in the field"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The pin marks the matched transmission-tower vicinity. The density and arrangement of pylons were altered in the film.",
+      "mapsQuery": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster, CA",
+      "deaths": [
+        {
+          "title": "Se7en",
+          "people": [
+            "John Doe"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/se7en-756-screen.jpg",
+          "sourceUrl": "https://www.adorocinema.com/noticias/filmes/noticia-1000031377/",
+          "imageUrl": "https://br.web.img3.acsta.net/img/de/33/de33395084011b03880d4554c73b66e8.jpg",
+          "width": 1280,
+          "height": 720,
+          "title": "Se7en",
+          "alt": "The transmission-tower field in Se7en",
+          "spoiler": true,
+          "credit": "Se7en / New Line Cinema; reproduced by AdoroCinema"
+        },
+        "place": {
+          "src": "photos/se7en-756-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.34451800000001%2C34.735715%2C-118.341718%2C34.737590999999995&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "The transmission-tower field — real filming site",
+          "spoiler": false,
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 757,
+      "name": "The barber shop",
+      "short": "The barber shop",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "117 East 6th Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.249297979404,
+        34.044988986126
+      ],
+      "productionCoordinates": [
+        -118.249297979404,
+        34.044988986126
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "117 East 6th Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The barber shop",
+          "filming_component": "117 East 6th Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "waits in the barber shop"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "waits in the barber shop"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "117 East 6th Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-757-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "The barber shop in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-757-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The barber shop — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 780,
+      "name": "Sharon’s Westwood parking lot",
+      "short": "Sharon’s Westwood parking lot",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "972–980 Gayley Avenue, Westwood, Los Angeles",
+      "area": "Westwood",
+      "coordinates": [
+        -118.447939361654,
+        34.062366850703
+      ],
+      "productionCoordinates": [
+        -118.447939361654,
+        34.062366850703
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Gayley Avenue parking lot, Westwood",
+        "precision": "scene-anchor",
+        "reason": "Matched frames identify the lot where Sharon parks and parts from the hitchhiker. Sources use nearby numbers 972 and 980 for the same lot; the point marks the site, not a particular stall.",
+        "sourceIds": [
+          "routes2_sharon_ift",
+          "routes2_sharon_fo",
+          "routes2_sharon_sony"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sharon Tate",
+        "Hitchhiking girl"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Sharon parks in Westwood",
+          "filming_component": "972–980 Gayley Avenue, Westwood, Los Angeles",
+          "source_ids": [
+            "routes2_sharon_ift",
+            "routes2_sharon_fo",
+            "routes2_sharon_sony"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony establishes 1969 Los Angeles.",
+            "source_ids": [
+              "routes2_sharon_sony"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "parks here"
+            },
+            {
+              "name": "Hitchhiking girl",
+              "relationship": "parts from Sharon"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-780-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkgyfP6tKtSRBQu9A-ngUipNXjt_Ev83zqqHYilPXVvhSVV8RRK11hlVOtFTqOvCZEiKEq6wKQGk27Y4FvU06XbjeOJq4SME3ogzkIVSuFWQuWkejjTlSDJmzUfKUqqME4GlUGbvizmDErCDFvG0r0Uie7lQc4zL3Fdk4959O1p2Ayri9ZOJnE36LXh4s/s1200/Screenshot%202024-03-20%20000331.png",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood / Columbia Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Sharon and the hitchhiker at the Westwood parking lot.",
+          "note": "Film frame.",
+          "title": "Once Upon a Time in Hollywood",
+          "spoiler": false,
+          "width": 1089,
+          "height": 448
+        },
+        "place": {
+          "src": "photos/routes2-780-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.448939361654%2C34.061716850703%2C-118.44693936165399%2C34.063016850703&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the Gayley Avenue parking site.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 781,
+      "name": "Jimmie & Bonnie’s home",
+      "short": "Jimmie & Bonnie’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4145 Kraft Avenue, Studio City, Los Angeles",
+      "area": "Toluca Lake · story area",
+      "coordinates": [
+        -118.356,
+        34.152
+      ],
+      "productionCoordinates": [
+        -118.380359093836,
+        34.143813636221
+      ],
+      "precision": "neighborhood-approximation",
+      "placement": {
+        "kind": "inferred",
+        "address": "Toluca Lake · approximate",
+        "precision": "neighborhood-approximation",
+        "reason": "Dialogue establishes Toluca Lake, while the house used in production is on Kraft Avenue in Studio City. The marker is an editorial neighborhood estimate; no story street address is known. A curb numbered 4149 led to older incorrect production listings; crew interviews and matching interiors identify 4145.",
+        "sourceIds": [
+          "routes2_pulp_script",
+          "routes2_pulp_ift",
+          "routes2_pulp_crew"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Jimmie Dimmick",
+        "Bonnie Dimmick",
+        "Jules Winnfield",
+        "Vincent Vega",
+        "Winston “The Wolf” Wolfe"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Jimmie and Bonnie’s home",
+          "filming_component": "4145 Kraft Avenue, Studio City, Los Angeles",
+          "source_ids": [
+            "routes2_pulp_script",
+            "routes2_pulp_ift",
+            "routes2_pulp_crew",
+            "routes2_pulp_fo"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_pulp_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jimmie Dimmick",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Bonnie Dimmick",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Jules Winnfield",
+              "relationship": "visits"
+            },
+            {
+              "name": "Vincent Vega",
+              "relationship": "visits"
+            },
+            {
+              "name": "Winston “The Wolf” Wolfe",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-781-screen.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/04/sc-pulpfiction22.jpg?w=1200",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+          "credit": "Pulp Fiction / Miramax; Film Oblivion",
+          "alt": "Jimmie and the Wolf in the backyard.",
+          "note": "Film frame.",
+          "title": "Pulp Fiction",
+          "spoiler": false,
+          "width": 1000,
+          "height": 418
+        },
+        "place": {
+          "src": "photos/routes2-781-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/pulpfiction10-2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/07/29/pulp-fiction-1994/",
+          "credit": "Film Oblivion",
+          "alt": "The real Kraft Avenue production house.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      "propertyLinks": [
+        {
+          "address": "4145 Kraft Ave, Studio City, CA 91604",
+          "url": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+          "sourceUrl": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+          "verifiedOn": "2026-11-17",
+          "note": "Exact house-address match for Jimmie’s Pulp Fiction filming house; place ID pending route integration.",
+          "scope": "filming-site"
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "name": "The electronics warehouse job",
+      "short": "The electronics warehouse job",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1710 South Naomi Avenue, Los Angeles · production exterior",
+      "area": "Downtown",
+      "coordinates": [
+        -118.238227412839,
+        34.042708123112
+      ],
+      "productionCoordinates": [
+        -118.246906538609,
+        34.02378293873
+      ],
+      "precision": "story-address",
+      "placement": {
+        "kind": "screen",
+        "address": "421 South Alameda Street, Los Angeles · radio address",
+        "precision": "scene-anchor",
+        "reason": "The opening radio report gives 421 South Alameda. The warehouse exterior was filmed at 1710 South Naomi, so the map follows the spoken address and keeps Naomi as production provenance.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_radio",
+          "routes2_drive_sites",
+          "routes2_drive_frames"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "The opening warehouse job",
+          "filming_component": "1710 South Naomi Avenue, Los Angeles · production exterior",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_radio",
+            "routes2_drive_sites",
+            "routes2_drive_frames"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "waits outside"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-782-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pBHd4WvpAtRgA8uD0wHbJZJhTOrTsLLFsPfu-XWxaZAHNhyphenhyphen1nva9PBqhdQmaOJ_kYUIezQb-GRG2Ki-74EORS3uQ1iSNzFH1NnPaufxRRYpldsgg-OebV12WjlquEnHD9MiGQ0XIRuI/s1200/drive01.jpg",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+          "alt": "The electronics warehouse in the opening job.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1200,
+          "height": 513
+        },
+        "place": {
+          "src": "photos/routes2-782-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyAtpAph5cNK83AkQ-wzeGRmdF33TyhVKIA1IP9iE3KX2JX0TjN0ms_2BNU0RH-RMUat80j5tAboAU-F4UmSK4Ca-HWwfLnQdIA_CTPO4LCgDcpDob0oy41pv5cCYilxZbmUICV8gyJ-8/s1200/IMG_0402.JPG",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "The Naomi Avenue warehouse used in production.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 783,
+      "name": "Seventh Street Bridge pursuit",
+      "short": "Seventh Street Bridge pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Sixth Street Viaduct, Los Angeles · production bridge",
+      "area": "Arts District / Boyle Heights",
+      "coordinates": [
+        -118.22722,
+        34.03444
+      ],
+      "productionCoordinates": [
+        -118.22694,
+        34.03806
+      ],
+      "precision": "story-address",
+      "placement": {
+        "kind": "screen",
+        "address": "Seventh Street Bridge over the Los Angeles River",
+        "precision": "scene-anchor",
+        "reason": "Police radio identifies Seventh Street Bridge. The scene was shot on the old Sixth Street Bridge, demolished in 2016. The marker follows the bridge named in the finished film; the present-day image shows the replacement Sixth Street filming-site bridge.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_sites",
+          "routes2_drive_frames",
+          "routes2_seventh_bridge"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Police track the Impala at Seventh Street Bridge",
+          "filming_component": "Sixth Street Viaduct, Los Angeles · production bridge",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_sites",
+            "routes2_drive_frames",
+            "routes2_seventh_bridge"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "passes through"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-783-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwuc0of69TdgO8Gj1FLUFuiSsF6Az6WQBKQ-VYY6FA1GXlqLa8qSjHdkQyI3YwattCc4hmmHdqHDN9yvzEeor38OCOuuQRnpW9uiIrwKdH_aOQPHBaX3h0LtNEW63GWpIdLdQK1yCUAao/s1200/drivea+02.jpg",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+          "alt": "The Impala crosses the bridge in the pursuit.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1200,
+          "height": 520
+        },
+        "place": {
+          "src": "photos/routes2-783-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22814%2C34.03726%2C-118.22574%2C34.03886&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "The replacement Sixth Street Viaduct at the real production site.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 784,
+      "name": "Staples Center parking garage",
+      "short": "Staples Center parking garage",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "800 West Olympic Boulevard, Los Angeles · L.A. LIVE complex",
+      "area": "South Park",
+      "coordinates": [
+        -118.264540470328,
+        34.044840794078
+      ],
+      "productionCoordinates": [
+        -118.264540470328,
+        34.044840794078
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Staples Center / L.A. LIVE parking complex",
+        "precision": "scene-anchor",
+        "reason": "The basketball commentary names Staples Center. Location research identifies the adjoining L.A. LIVE garage; this is a complex-level anchor because the particular filmed parking level is unverified.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_sites",
+          "routes2_drive_garage_frame",
+          "routes2_la_live"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "The opening drive reaches the basketball-game parking garage",
+          "filming_component": "800 West Olympic Boulevard, Los Angeles · L.A. LIVE complex",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_sites",
+            "routes2_drive_garage_frame",
+            "routes2_la_live"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "arrives here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-784-screen.jpg",
+          "imageUrl": "https://www.replicapropstore.com/cdn/shop/products/drive-cx4-cap_1280x.jpg?v=1579893772",
+          "sourceUrl": "https://www.replicapropstore.com/products/la-cap-drive",
+          "credit": "Drive / FilmDistrict; ReplicaPropStore",
+          "alt": "Driver in a blue cap among basketball fans inside the parking garage.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1280,
+          "height": 538
+        },
+        "place": {
+          "src": "photos/routes2-784-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.266240470328%2C34.043735794077996%2C-118.262840470328%2C34.045945794078&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the L.A. LIVE complex beside the arena.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 785,
+      "name": "Second Street Tunnel pursuit",
+      "short": "Second Street Tunnel pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West 2nd Street at Hill Street, Los Angeles",
+      "area": "Downtown",
+      "coordinates": [
+        -118.247740035061,
+        34.053098980362
+      ],
+      "productionCoordinates": [
+        -118.247740035061,
+        34.053098980362
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Second Street Tunnel, Downtown Los Angeles",
+        "precision": "scene-anchor",
+        "reason": "The scene comparison identifies the westbound tunnel drive followed by the Figueroa turn. The pin marks the eastern tunnel approach; connecting streets are not reconstructed from edit cuts.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Roger Murtaugh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening car pursuit enters Second Street Tunnel",
+          "filming_component": "West 2nd Street at Hill Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "pursues a car"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "drives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-785-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjElPOtGIAqVxBH5c_fJcohEm06aL1X0laVupUpeGu_yPBQnW1GjfyB0eJEYRG-aZo92se1kHzQksISlnMLcna9l9kHEAVbE6N2ebeBd96BJV_-q4p8ZLhNyKQfxpVqLSR2GKAZ-s7OqPSR45uJOifMmbPG1KzxZOswxS9KVov9sBUXfPvBwMPBKtIwW2Y/s1200/Tunnel%20-%20Copy.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "The station wagon drives through Second Street Tunnel.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 704,
+          "height": 294
+        },
+        "place": {
+          "src": "photos/routes2-785-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwkCSXoqUJy9gAJnP5nYcgojHoaIHXttdzvakCrQDjY5t5ocCe6R5UjBuU611QA517QWR3acBkpnqMhXFpEET-C6aJFj2seBaEk6F1MXbg2ohy5449XlLsf7RIhQqwxUeS2VKMAx5WwX8AG0sNbvYzKEjkAEIXtCGaNPaS5VK3aolOUEMyUS-Fwfp2cxA/s1200/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The real Second Street Tunnel approach.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 952,
+          "height": 535
+        }
+      }
+    },
+    {
+      "id": 786,
+      "name": "The Bonaventure collision",
+      "short": "The Bonaventure collision",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "404 South Figueroa Street, Los Angeles",
+      "area": "Downtown",
+      "coordinates": [
+        -118.256020265751,
+        34.052546151938
+      ],
+      "productionCoordinates": [
+        -118.256020265751,
+        34.052546151938
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westin Bonaventure entrance, Figueroa Street",
+        "precision": "scene-anchor",
+        "reason": "Matched frames locate the station-wagon collision at the Bonaventure entrance. This is a distinct event at the hotel, not a claim that the whole pursuit follows the production edit continuously.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Roger Murtaugh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening pursuit reaches the Bonaventure entrance",
+          "filming_component": "404 South Figueroa Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "passes through"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "drives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-786-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihUNZT9qDQ_c4XJm6i_D5PCy19FUpXdv9uh8UYgafQc58G1xyVAUmQ6gv57D8U3n0hfdRWcu2PX6fXPk4i_9d0PoEYZP_-NyRgjHi5MbC11OjyYBIIH_sPpQnuvJVfDOLv3Gb9cXlDh1E/s1200/Hotel+Drive+3.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "Murtaugh’s wagon at the Bonaventure entrance.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/routes2-786-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIzQTg3ksTRcQfvUFlh20pQqABNDxaTTlyEa6JfpDDW52T2t5Gp9PNZuycYdanIF7kZ0LjInfIfkpg6Mf9m326cr7SVtyGkNxTB0ESnt-9_naXRyX_V7TbwhC2FeO0iI1Xr4KO9TmN0wXnFldmDWP4DGQw5mTn_hDvv29n9tTrFxbOS6yfqdGx-EPhIWA/s1200/B%20(1).jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The matching Bonaventure entrance.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 693
+        }
+      }
+    },
+    {
+      "id": 787,
+      "name": "Fourth & Hope helicopter encounter",
+      "short": "Fourth & Hope helicopter encounter",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West 4th Street at South Hope Street, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.253820686719,
+        34.05221100154
+      ],
+      "productionCoordinates": [
+        -118.253820686719,
+        34.05221100154
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Fourth Street / Hope Street, Downtown Los Angeles",
+        "precision": "scene-anchor",
+        "reason": "The scene guide identifies the helicopter shot around Fourth and Hope. Its “East 4th” wording is inconsistent with the real Hope intersection; the verified downtown intersection is West 4th. The point is an intersection-level anchor.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening pursuit at Fourth and Hope",
+          "filming_component": "West 4th Street at South Hope Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "continues the pursuit"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-787-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvDknHmKO5xjyDZWxUBYlhO0c-o4WMVbYhU6bkvpw_23o0m0KnBMLNMrBmiqOIlXLtPtFlxJQORzbFx20gfuaISWHv5W8H3AGOX4uwFJ07r3eG8LPkf3y6wAPUpNne4_yq7NMvzJ4TUVc/s1200/Helepcopter.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "A helicopter rises near the Fourth and Hope intersection.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/routes2-787-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.25502068671899%2C34.051411001540004%2C-118.252620686719%2C34.05301100154&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the Fourth and Hope intersection.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
     }
   ],
   "journeys": [
@@ -47620,6 +49392,373 @@
           "caption": "Union Station"
         }
       }
+    },
+    {
+      "id": 800,
+      "name": "Sharon’s Westwood afternoon",
+      "title": "Once Upon a Time in Hollywood",
+      "year": 1969,
+      "kind": "outing",
+      "color": "#b95f18",
+      "source_ids": [
+        "routes2_sharon_ift",
+        "routes2_sharon_fo",
+        "routes2_sharon_sony"
+      ],
+      "precision": "Verified pickup, parking and cinema stops. Connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Sharon’s Wilshire pickup",
+          "placeId": 180,
+          "coordinates": [
+            -118.42946129746,
+            34.066700086519
+          ]
+        },
+        {
+          "name": "Sharon’s Westwood parking lot",
+          "placeId": 780,
+          "coordinates": [
+            -118.447939361654,
+            34.062366850703
+          ]
+        },
+        {
+          "name": "The Bruin Theatre",
+          "placeId": 181,
+          "coordinates": [
+            -118.446971026252,
+            34.063100662149
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "name": "Max’s taxi night",
+      "title": "Collateral",
+      "year": 2004,
+      "kind": "itinerary",
+      "color": "#216b9b",
+      "source_ids": [
+        "routes2_collateral_afi",
+        "routes2_collateral_script",
+        "routes2_collateral_sites"
+      ],
+      "precision": "Four stops in story order. Other jobs and connecting streets are omitted.",
+      "stops": [
+        {
+          "name": "Annie’s office / Vincent’s pickup",
+          "placeId": 68,
+          "coordinates": [
+            -118.242405790293,
+            34.055042808236
+          ]
+        },
+        {
+          "name": "Daniel's jazz club",
+          "placeId": 65,
+          "coordinates": [
+            -118.330246777551,
+            34.005004071292
+          ]
+        },
+        {
+          "name": "Felix's nightclub",
+          "placeId": 66,
+          "coordinates": [
+            -118.099148401972,
+            33.984334667405
+          ]
+        },
+        {
+          "name": "Fever nightclub",
+          "placeId": 67,
+          "coordinates": [
+            -118.297042217278,
+            34.063644078012
+          ]
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "name": "Alonzo & Jake’s patrol",
+      "title": "Training Day",
+      "year": 2001,
+      "kind": "itinerary",
+      "color": "#5a6b20",
+      "source_ids": [
+        "routes2_training_afi",
+        "routes2_training_script",
+        "routes2_training_ift"
+      ],
+      "precision": "Breakfast through the Dining Car meeting. Other calls and connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Quality Cafe",
+          "placeId": 70,
+          "coordinates": [
+            -118.267069792632,
+            34.051989533475
+          ]
+        },
+        {
+          "name": "Roger's home",
+          "placeId": 71,
+          "coordinates": [
+            -118.249028903379,
+            34.070354478648
+          ]
+        },
+        {
+          "name": "Sandman’s home",
+          "placeId": 72,
+          "coordinates": [
+            -118.231661663134,
+            33.932504049082
+          ]
+        },
+        {
+          "name": "Sara’s home",
+          "placeId": 73,
+          "coordinates": [
+            -118.344035918205,
+            34.01373544484
+          ]
+        },
+        {
+          "name": "Pacific Dining Car",
+          "placeId": 74,
+          "coordinates": [
+            -118.265992145612,
+            34.055612840494
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "name": "Mia & Vincent’s night out",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "kind": "outing",
+      "color": "#b43e67",
+      "source_ids": [
+        "routes2_pulp_script",
+        "routes2_pulp_ift"
+      ],
+      "precision": "Stops in narrative order, including the return to Mia’s house. Connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        },
+        {
+          "name": "Jack Rabbit Slim's",
+          "placeId": 40,
+          "coordinates": [
+            -118.290568722393,
+            34.162396556455
+          ]
+        },
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        },
+        {
+          "name": "Lance and Jody's home",
+          "placeId": 39,
+          "coordinates": [
+            -118.256820129152,
+            34.119088227064
+          ]
+        },
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "name": "Jules & Vincent’s morning",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "kind": "itinerary",
+      "color": "#5d3f93",
+      "source_ids": [
+        "routes2_pulp_script",
+        "routes2_pulp_ift",
+        "routes2_pulp_crew"
+      ],
+      "precision": "Chronological stops from the apartment to breakfast. Jimmie’s Toluca Lake point is approximate; streets are untraced.",
+      "stops": [
+        {
+          "name": "Brett’s apartment",
+          "placeId": 43,
+          "coordinates": [
+            -118.3155,
+            34.0987
+          ]
+        },
+        {
+          "name": "Jimmie & Bonnie’s home",
+          "placeId": 781,
+          "coordinates": [
+            -118.356,
+            34.152
+          ]
+        },
+        {
+          "name": "Monster Joe's junkyard",
+          "placeId": 44,
+          "coordinates": [
+            -118.397929223931,
+            34.252142047944
+          ]
+        },
+        {
+          "name": "Hawthorne Grill",
+          "placeId": 41,
+          "coordinates": [
+            -118.352785044086,
+            33.906759466641
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "name": "Cher’s Beverly Hills walk",
+      "title": "Clueless",
+      "year": 1995,
+      "kind": "walk",
+      "color": "#197f6f",
+      "source_ids": [
+        "routes2_clueless_sites",
+        "routes2_clueless_ift"
+      ],
+      "precision": "Three consecutive montage locations. The film does not establish every intervening sidewalk.",
+      "stops": [
+        {
+          "name": "Cher’s walk on Via Rodeo",
+          "placeId": 197,
+          "coordinates": [
+            -118.401237,
+            34.067314
+          ]
+        },
+        {
+          "name": "The Witch’s House",
+          "placeId": 198,
+          "coordinates": [
+            -118.411125,
+            34.068962
+          ]
+        },
+        {
+          "name": "The Electric Fountain",
+          "placeId": 199,
+          "coordinates": [
+            -118.4103667,
+            34.06745
+          ]
+        }
+      ]
+    },
+    {
+      "id": 806,
+      "name": "The opening Impala pursuit",
+      "title": "Drive",
+      "year": 2011,
+      "kind": "chase",
+      "color": "#973d95",
+      "source_ids": [
+        "routes2_drive_dialogue",
+        "routes2_drive_radio",
+        "routes2_drive_sites",
+        "routes2_drive_frames",
+        "routes2_la_live"
+      ],
+      "precision": "Spoken Alameda and Seventh Street anchors, then the basketball garage. Edit gaps are untraced.",
+      "stops": [
+        {
+          "name": "The electronics warehouse job",
+          "placeId": 782,
+          "coordinates": [
+            -118.238227412839,
+            34.042708123112
+          ]
+        },
+        {
+          "name": "Seventh Street Bridge pursuit",
+          "placeId": 783,
+          "coordinates": [
+            -118.22722,
+            34.03444
+          ]
+        },
+        {
+          "name": "Staples Center parking garage",
+          "placeId": 784,
+          "coordinates": [
+            -118.264540470328,
+            34.044840794078
+          ]
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "name": "The opening station-wagon pursuit",
+      "title": "Lethal Weapon 2",
+      "year": 1989,
+      "kind": "chase",
+      "color": "#344b53",
+      "source_ids": [
+        "routes2_lw2_ift",
+        "routes2_lw2_afi"
+      ],
+      "precision": "Three matched downtown chase beats. Connecting streets and the later backlot sequence are omitted.",
+      "stops": [
+        {
+          "name": "Second Street Tunnel pursuit",
+          "placeId": 785,
+          "coordinates": [
+            -118.247740035061,
+            34.053098980362
+          ]
+        },
+        {
+          "name": "The Bonaventure collision",
+          "placeId": 786,
+          "coordinates": [
+            -118.256020265751,
+            34.052546151938
+          ]
+        },
+        {
+          "name": "Fourth & Hope helicopter encounter",
+          "placeId": 787,
+          "coordinates": [
+            -118.253820686719,
+            34.05221100154
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -50519,6 +52658,222 @@
       "title": "Last Action Hero released-film dialogue transcript — Christmas and three-year interval",
       "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=last-action-hero",
       "source_type": "film dialogue transcript"
+    },
+    {
+      "id": "se7en_lataco",
+      "title": "Jared Cowan / L.A. TACO: Se7en locations, with Paul Hargrave and Arthur Max interviews",
+      "url": "https://lataco.com/se7en-film-locations",
+      "source_type": "original production interviews and 2025 location photography"
+    },
+    {
+      "id": "se7en_guide",
+      "title": "Worldwide Guide to Movie Locations: Se7en",
+      "url": "https://www.movie-locations.com/movies/s/Seven-1995.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_fo",
+      "title": "Film Oblivion: Seven, matched Los Angeles locations",
+      "url": "https://filmoblivion.com/2019/03/15/seven-1995/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_then",
+      "title": "Then & Now Movie Locations: Se7en, Lancaster site comparison and map",
+      "url": "https://www.thennowmovielocations.com/2022/04/se7en.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_afi",
+      "title": "AFI Catalog: Se7en",
+      "url": "https://catalog.afi.com/Film/60087-SE7EN",
+      "source_type": "film archive"
+    },
+    {
+      "id": "se7en_script",
+      "title": "Andrew Kevin Walker: Se7en screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/se7en-1995.pdf?v=1729114986",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "se7en_geo",
+      "title": "Esri World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoding"
+    },
+    {
+      "id": "routes2_sharon_ift",
+      "title": "Chas Demster: Sharon’s Westwood scenes",
+      "url": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_sharon_fo",
+      "title": "Film Oblivion: Sharon’s Wilshire and Westwood stops",
+      "url": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "source_type": "first-hand location photography"
+    },
+    {
+      "id": "routes2_sharon_sony",
+      "title": "Sony Pictures: Once Upon a Time in Hollywood",
+      "url": "https://www.sonypictures.com/movies/onceuponatimeinhollywood",
+      "source_type": "studio synopsis"
+    },
+    {
+      "id": "routes2_collateral_afi",
+      "title": "AFI Catalog: Collateral",
+      "url": "https://catalog.afi.com/Film/54371-COLLATERAL",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_collateral_script",
+      "title": "Collateral screenplay, Michael Mann revisions",
+      "url": "https://imsdb.com/scripts/Collateral.html",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_collateral_sites",
+      "title": "Collateral scene locations",
+      "url": "https://www.movie-locations.com/movies/c/Collateral.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "routes2_training_afi",
+      "title": "AFI Catalog: Training Day",
+      "url": "https://catalog.afi.com/Film/62232-TRAINING-DAY",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_training_script",
+      "title": "David Ayer: Training Day screenplay",
+      "url": "https://www.dailyscript.com/scripts/Training_Day.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_training_ift",
+      "title": "Training Day scene-by-scene locations",
+      "url": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_pulp_script",
+      "title": "Quentin Tarantino: Pulp Fiction screenplay",
+      "url": "https://www.screenwriter.ch/demandit/files/M_BFNO38KLSZ567NYSJ29/dms/File/PulpFiction.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_pulp_ift",
+      "title": "Chas Demster: Pulp Fiction scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/02/pulp-fiction.html",
+      "source_type": "first-hand location photography and film frames"
+    },
+    {
+      "id": "routes2_pulp_crew",
+      "title": "Jared Cowan: Pulp Fiction locations, interviews with the production team",
+      "url": "https://lamag.com/l-a-on-screen/pulp-fiction-la-locations-25/",
+      "source_type": "production-designer and location-manager interviews"
+    },
+    {
+      "id": "routes2_clueless_sites",
+      "title": "Worldwide Guide: Cher’s Beverly Hills walk",
+      "url": "https://www.movie-locations.com/movies/c/Clueless.php",
+      "source_type": "specialist scene and location research"
+    },
+    {
+      "id": "routes2_clueless_ift",
+      "title": "Clueless matched scene locations",
+      "url": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_drive_sites",
+      "title": "Worldwide Guide: Drive’s opening pursuit",
+      "url": "https://www.movie-locations.com/movies/d/Drive.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "routes2_drive_frames",
+      "title": "Robert Patterson: Drive matched scene photographs",
+      "url": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+      "source_type": "first-hand location photography and film frames"
+    },
+    {
+      "id": "routes2_drive_dialogue",
+      "title": "Drive: finished-film dialogue transcript",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=125646",
+      "source_type": "finished-film transcript"
+    },
+    {
+      "id": "routes2_drive_radio",
+      "title": "Drive: opening police-radio scene",
+      "url": "https://clip.cafe/drive-2011/code-30-ringer-located-at-421-south-alameda/",
+      "source_type": "published film clip"
+    },
+    {
+      "id": "routes2_drive_script",
+      "title": "Hossein Amini: Drive screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/drive-2011.pdf",
+      "source_type": "screenplay; draft geography checked against the finished film"
+    },
+    {
+      "id": "routes2_drive_garage_frame",
+      "title": "Drive: Driver in the Staples garage crowd",
+      "url": "https://www.replicapropstore.com/products/la-cap-drive",
+      "source_type": "published film frame"
+    },
+    {
+      "id": "routes2_seventh_bridge",
+      "title": "California High-Speed Rail: Seventh Street Bridge historic-property location",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2025/11/LAA_EIR-EIS_Appendix04-B-508.pdf",
+      "source_type": "government historic-property survey"
+    },
+    {
+      "id": "routes2_la_live",
+      "title": "L.A. LIVE: address and arena context",
+      "url": "https://www.lalive.com/visitor-center/faqs",
+      "source_type": "location owner"
+    },
+    {
+      "id": "routes2_lw2_ift",
+      "title": "Chas Demster: Lethal Weapon 2 opening pursuit",
+      "url": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_lw2_afi",
+      "title": "AFI Catalog: Lethal Weapon 2",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/58168",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_nightcrawler_audit",
+      "title": "Jared Cowan: Nightcrawler’s dressed street signs and actual crash site",
+      "url": "https://lamag.com/l-a-on-screen/valley-plaza-north-hollywood-movies-tv/",
+      "source_type": "first-hand location photography and scene analysis"
+    },
+    {
+      "id": "routes2_nightcrawler_corridor",
+      "title": "LocationsHub: Nightcrawler, director and location-team interviews",
+      "url": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "source_type": "production-team interviews"
+    },
+    {
+      "id": "routes2_geocoder",
+      "title": "Esri World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "address verification"
+    },
+    {
+      "id": "routes2_imagery",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "routes2_pulp_fo",
+      "title": "Film Oblivion: Jimmie’s film frame and real production house",
+      "url": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+      "source_type": "matched film frames and first-hand location photography"
     },
     {
       "id": "story_pins_mulholland_script",

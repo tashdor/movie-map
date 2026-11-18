@@ -1,0 +1,1251 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "places": [
+    {
+      "id": 750,
+      "name": "The Fourteenth Precinct",
+      "short": "The Fourteenth Precinct",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "610 South Main Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.25018218637,
+        34.044794861248
+      ],
+      "productionCoordinates": [
+        -118.25018218637,
+        34.044794861248
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "610 South Main Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The Fourteenth Precinct",
+          "filming_component": "610 South Main Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "works at the precinct"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "works at the precinct"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "One precinct combines the offices in the Pacific Electric Building, the Rosslyn Hotel lobby at 451 South Main Street, and the exterior at 673 Mateo Street.",
+      "mapsQuery": "610 South Main Street, Los Angeles, CA",
+      "productionSites": [
+        {
+          "component": "Offices",
+          "address": "610 South Main Street, Los Angeles",
+          "coordinates": [
+            -118.25018218637,
+            34.044794861248
+          ]
+        },
+        {
+          "component": "Lobby",
+          "address": "451 South Main Street, Los Angeles",
+          "coordinates": [
+            -118.248674952541,
+            34.047075032278
+          ]
+        },
+        {
+          "component": "Exterior",
+          "address": "673 Mateo Street, Los Angeles",
+          "coordinates": [
+            -118.23278202593,
+            34.035431982035
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/se7en-750-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct2_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "The Fourteenth Precinct in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-750-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct1_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The Fourteenth Precinct — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 751,
+      "name": "The city library",
+      "short": "The city library",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "650 South Spring Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.251447015559,
+        34.045296015239
+      ],
+      "productionCoordinates": [
+        -118.251447015559,
+        34.045296015239
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "650 South Spring Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "George"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The city library",
+          "filming_component": "650 South Spring Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "reads in the library"
+            },
+            {
+              "name": "George",
+              "relationship": "works as the night guard"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The former bank’s real banking hall was dressed as the library; it is now The Majestic event venue.",
+      "mapsQuery": "650 South Spring Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-751-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library2_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "The city library in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-751-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library1_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The city library — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 752,
+      "name": "John Doe’s apartment",
+      "short": "John Doe’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "501 South Spring Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.250125692342,
+        34.04739522098
+      ],
+      "productionCoordinates": [
+        -118.250125692342,
+        34.04739522098
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "501 South Spring Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "John Doe",
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "John Doe’s apartment",
+          "filming_component": "501 South Spring Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "John Doe",
+              "relationship": "lives here"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "visits the apartment"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "visits the apartment"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "501 South Spring Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-752-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "John Doe’s apartment in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-752-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "John Doe’s apartment — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 753,
+      "name": "Victor’s apartment",
+      "short": "Victor’s apartment",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "253 South Broadway, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.248045806889,
+        34.05129159058
+      ],
+      "productionCoordinates": [
+        -118.248045806889,
+        34.05129159058
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "253 South Broadway, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Theodore Allen / Victor",
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Victor’s apartment",
+          "filming_component": "253 South Broadway, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Theodore Allen / Victor",
+              "relationship": "lives here"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "visits the apartment"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "visits the apartment"
+            }
+          ],
+          "categories": [
+            "home"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "253 South Broadway, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-753-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 498,
+          "title": "Se7en",
+          "alt": "Victor’s apartment in Se7en",
+          "spoiler": true,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-753-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt3_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "Victor’s apartment — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 754,
+      "name": "Quality Cafe",
+      "short": "Quality Cafe",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1238 West 7th Street, Los Angeles",
+      "area": "Westlake",
+      "coordinates": [
+        -118.267081360457,
+        34.051907911921
+      ],
+      "productionCoordinates": [
+        -118.267081360457,
+        34.051907911921
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "1238 West 7th Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_fo",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "Tracy Mills",
+        "William Somerset"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Quality Cafe",
+          "filming_component": "1238 West 7th Street, Los Angeles",
+          "source_ids": [
+            "se7en_fo",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Tracy Mills",
+              "relationship": "meets for coffee"
+            },
+            {
+              "name": "William Somerset",
+              "relationship": "meets for coffee"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The former diner interior was remodeled after filming.",
+      "mapsQuery": "1238 West 7th Street, Los Angeles, CA",
+      "mergeInto": 70,
+      "media": {
+        "screen": {
+          "src": "photos/se7en-754-screen.jpg",
+          "sourceUrl": "https://thefincheranalyst.com/2024/02/07/seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment/",
+          "imageUrl": "https://i0.wp.com/thefincheranalyst.com/wp-content/uploads/2024/02/1995.-seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment.jpg?fit=1200%2C503&ssl=1",
+          "width": 1200,
+          "height": 503,
+          "title": "Se7en",
+          "alt": "Quality Cafe in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by The Fincher Analyst"
+        },
+        "place": {
+          "src": "photos/se7en-754-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.268481360457%2C34.050969911921%2C-118.265681360457%2C34.052845911921&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Quality Cafe — real filming site",
+          "spoiler": false,
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 755,
+      "name": "Somerset & Mills’s first meeting",
+      "short": "Somerset & Mills’s first meeting",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "746 South San Pedro Street, Los Angeles",
+      "area": "Flower District",
+      "coordinates": [
+        -118.247632998157,
+        34.039665010776
+      ],
+      "productionCoordinates": [
+        -118.247632998157,
+        34.039665010776
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "746 South San Pedro Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "Somerset & Mills’s first meeting",
+          "filming_component": "746 South San Pedro Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "meets his new partner"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "meets his new partner"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "746 South San Pedro Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-755-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "Somerset & Mills’s first meeting in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-755-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "Somerset & Mills’s first meeting — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    },
+    {
+      "id": 756,
+      "name": "The transmission-tower field",
+      "short": "The transmission-tower field",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+      "area": "Lancaster",
+      "coordinates": [
+        -118.343118,
+        34.736653
+      ],
+      "productionCoordinates": [
+        -118.343118,
+        34.736653
+      ],
+      "precision": "scene-area",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+        "precision": "scene-area",
+        "sourceIds": [
+          "se7en_then",
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_script",
+          "se7en_geo"
+        ],
+        "reason": "The scene is outside the unnamed story city. Matched site photographs place filming beside the transmission lines near 120th Street West and Avenue F-8, Lancaster. This is an approximate scene vicinity, not the exact position of an actor or prop."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills",
+        "John Doe"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The transmission-tower field",
+          "filming_component": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster",
+          "source_ids": [
+            "se7en_then",
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_script"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "appears in the field"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "appears in the field"
+            },
+            {
+              "name": "John Doe",
+              "relationship": "appears in the field"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "The pin marks the matched transmission-tower vicinity. The density and arrangement of pylons were altered in the film.",
+      "mapsQuery": "120th Street West, between West Avenue F-8 and West Avenue G, Lancaster, CA",
+      "deaths": [
+        {
+          "title": "Se7en",
+          "people": [
+            "John Doe"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/se7en-756-screen.jpg",
+          "sourceUrl": "https://www.adorocinema.com/noticias/filmes/noticia-1000031377/",
+          "imageUrl": "https://br.web.img3.acsta.net/img/de/33/de33395084011b03880d4554c73b66e8.jpg",
+          "width": 1280,
+          "height": 720,
+          "title": "Se7en",
+          "alt": "The transmission-tower field in Se7en",
+          "spoiler": true,
+          "credit": "Se7en / New Line Cinema; reproduced by AdoroCinema"
+        },
+        "place": {
+          "src": "photos/se7en-756-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.34451800000001%2C34.735715%2C-118.341718%2C34.737590999999995&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "The transmission-tower field — real filming site",
+          "spoiler": false,
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
+    },
+    {
+      "id": 757,
+      "name": "The barber shop",
+      "short": "The barber shop",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "117 East 6th Street, Los Angeles",
+      "area": "Historic Core",
+      "coordinates": [
+        -118.249297979404,
+        34.044988986126
+      ],
+      "productionCoordinates": [
+        -118.249297979404,
+        34.044988986126
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "117 East 6th Street, Los Angeles",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "se7en_lataco",
+          "se7en_guide",
+          "se7en_afi",
+          "se7en_geo"
+        ],
+        "reason": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "storySetting": {
+        "name": "Unnamed city",
+        "canonicalLA": false,
+        "certainty": "unconfirmed"
+      },
+      "people": [
+        "William Somerset",
+        "David Mills"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Se7en",
+          "release_year": 1995,
+          "story_role": "The barber shop",
+          "filming_component": "117 East 6th Street, Los Angeles",
+          "source_ids": [
+            "se7en_lataco",
+            "se7en_guide",
+            "se7en_afi"
+          ],
+          "story_time": {
+            "year": 1995,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "se7en_afi",
+              "se7en_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "William Somerset",
+              "relationship": "waits in the barber shop"
+            },
+            {
+              "name": "David Mills",
+              "relationship": "waits in the barber shop"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Unnamed city",
+            "canonicalLA": false,
+            "certainty": "unconfirmed"
+          }
+        }
+      ],
+      "notes": "",
+      "mapsQuery": "117 East 6th Street, Los Angeles, CA",
+      "media": {
+        "screen": {
+          "src": "photos/se7en-757-screen.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop1_newlinecinema.jpg?w=1200",
+          "width": 1200,
+          "height": 499,
+          "title": "Se7en",
+          "alt": "The barber shop in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+        },
+        "place": {
+          "src": "photos/se7en-757-place.jpg",
+          "sourceUrl": "https://lataco.com/se7en-film-locations",
+          "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop2_jaredcowan.jpg?w=1200",
+          "width": 1200,
+          "height": 799,
+          "alt": "The barber shop — real filming site",
+          "spoiler": false,
+          "credit": "Jared Cowan / L.A. TACO",
+          "date": "2025"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "se7en_lataco",
+      "title": "Jared Cowan / L.A. TACO: Se7en locations, with Paul Hargrave and Arthur Max interviews",
+      "url": "https://lataco.com/se7en-film-locations",
+      "source_type": "original production interviews and 2025 location photography"
+    },
+    {
+      "id": "se7en_guide",
+      "title": "Worldwide Guide to Movie Locations: Se7en",
+      "url": "https://www.movie-locations.com/movies/s/Seven-1995.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_fo",
+      "title": "Film Oblivion: Seven, matched Los Angeles locations",
+      "url": "https://filmoblivion.com/2019/03/15/seven-1995/",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_then",
+      "title": "Then & Now Movie Locations: Se7en, Lancaster site comparison and map",
+      "url": "https://www.thennowmovielocations.com/2022/04/se7en.html",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "se7en_afi",
+      "title": "AFI Catalog: Se7en",
+      "url": "https://catalog.afi.com/Film/60087-SE7EN",
+      "source_type": "film archive"
+    },
+    {
+      "id": "se7en_script",
+      "title": "Andrew Kevin Walker: Se7en screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/se7en-1995.pdf?v=1729114986",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "se7en_geo",
+      "title": "Esri World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoding"
+    }
+  ],
+  "audit": [
+    {
+      "id": 750,
+      "production_geocode": {
+        "coordinates": [
+          -118.25018218637,
+          34.044794861248
+        ],
+        "score": 100,
+        "match": "610 S Main St, Los Angeles, California, 90014",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=610+South+Main+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.25018218637,
+          34.044794861248
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    },
+    {
+      "id": 751,
+      "production_geocode": {
+        "coordinates": [
+          -118.251447015559,
+          34.045296015239
+        ],
+        "score": 100,
+        "match": "650 S Spring St, Los Angeles, California, 90014",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=650+South+Spring+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.251447015559,
+          34.045296015239
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    },
+    {
+      "id": 752,
+      "production_geocode": {
+        "coordinates": [
+          -118.250125692342,
+          34.04739522098
+        ],
+        "score": 100,
+        "match": "501 S Spring St, Los Angeles, California, 90013",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=501+South+Spring+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.250125692342,
+          34.04739522098
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    },
+    {
+      "id": 753,
+      "production_geocode": {
+        "coordinates": [
+          -118.248045806889,
+          34.05129159058
+        ],
+        "score": 100,
+        "match": "253 S Broadway, Los Angeles, California, 90012",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=253+South+Broadway%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.248045806889,
+          34.05129159058
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Revealing scene/late-story context: retain protection."
+    },
+    {
+      "id": 754,
+      "production_geocode": {
+        "coordinates": [
+          -118.267081360457,
+          34.051907911921
+        ],
+        "score": 100,
+        "match": "1238 W 7th St, Los Angeles, California, 90017",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1238+West+7th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.267081360457,
+          34.051907911921
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with labeled site aerial",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    },
+    {
+      "id": 755,
+      "production_geocode": {
+        "coordinates": [
+          -118.247632998157,
+          34.039665010776
+        ],
+        "score": 100,
+        "match": "746 S San Pedro St, Los Angeles, California, 90014",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=746+South+San+Pedro+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.247632998157,
+          34.039665010776
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    },
+    {
+      "id": 756,
+      "production_geocode": {
+        "coordinates": [
+          -118.343118,
+          34.736653
+        ],
+        "precision": "matched-scene-vicinity",
+        "sourceUrl": "https://www.thennowmovielocations.com/2022/04/se7en.html"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.343118,
+          34.736653
+        ],
+        "basis": "The scene is outside the unnamed story city. Matched site photographs place filming beside the transmission lines near 120th Street West and Avenue F-8, Lancaster. This is an approximate scene vicinity, not the exact position of an actor or prop."
+      },
+      "photo_status": "film frame paired with labeled site aerial",
+      "frame_review": "Revealing scene/late-story context: retain protection."
+    },
+    {
+      "id": 757,
+      "production_geocode": {
+        "coordinates": [
+          -118.249297979404,
+          34.044988986126
+        ],
+        "score": 100,
+        "match": "117 E 6th St, Los Angeles, California, 90014",
+        "precision": "PointAddress",
+        "queryUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=117+East+6th+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1"
+      },
+      "story_position": {
+        "kind": "filming-proxy",
+        "coordinates": [
+          -118.249297979404,
+          34.044988986126
+        ],
+        "basis": "The story city is deliberately unnamed. This point locates the verified Los Angeles County filming site, not a canonical Los Angeles address."
+      },
+      "photo_status": "film frame paired with 2025 site photograph",
+      "frame_review": "Ordinary location view, no critical outcome visible."
+    }
+  ],
+  "spoilerAudit": {
+    "places": [
+      {
+        "id": 752,
+        "name": "John Doe’s apartment",
+        "title": "Se7en",
+        "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+        "concealParticipants": true,
+        "fields": [],
+        "redactions": [
+          {
+            "path": "name",
+            "phrases": [
+              "John Doe"
+            ]
+          },
+          {
+            "path": "short",
+            "phrases": [
+              "John Doe"
+            ]
+          },
+          {
+            "path": "appearances.story_role",
+            "phrases": [
+              "John Doe"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 753,
+        "name": "Victor’s apartment",
+        "title": "Se7en",
+        "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+        "concealParticipants": true,
+        "fields": [
+          "media.screen"
+        ],
+        "redactions": [
+          {
+            "path": "name",
+            "phrases": [
+              "Victor",
+              "Theodore Allen"
+            ]
+          },
+          {
+            "path": "short",
+            "phrases": [
+              "Victor",
+              "Theodore Allen"
+            ]
+          },
+          {
+            "path": "appearances.story_role",
+            "phrases": [
+              "Victor",
+              "Theodore Allen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 756,
+        "name": "The transmission-tower field",
+        "title": "Se7en",
+        "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+        "concealParticipants": true,
+        "fields": [
+          "media.screen"
+        ],
+        "redactions": []
+      }
+    ],
+    "journeys": []
+  },
+  "excluded": [
+    {
+      "site": "Mills’s apartment interior and other Warner Bros. stage sets",
+      "reason": "Constructed interiors do not provide a separate non-backlot location."
+    }
+  ],
+  "geography_notes": [
+    "The unnamed city is not asserted to be Los Angeles. All plotted points locate actual Los Angeles County production sites.",
+    "Only John Doe’s death is recorded at the field. Tracy’s death is not assigned to that location.",
+    "Victor is discovered alive; no death is invented at his apartment.",
+    "The precinct lobby is the older Rosslyn Hotel at 451 South Main Street, not the Rosslyn Annex across the street."
+  ]
+}

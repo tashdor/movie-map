@@ -1839,6 +1839,50 @@
       "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
       "credit": "It's Filmed There",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfa_b-qJofNd3qLKsnewzSly5Skw3oc7DVUMITPAAbQBihc3jjDItyKyUY3IZW8RiPiEhYNUp83gHIBdvKroZactXqLi4hpIKgvfDEtSeM3jDaMlx7aLSIWNSKo2B1N_jEFrQjH8NitcI/s400/Los+Angeles+2010+196.jpg"
+    },
+    "byTitle": {
+      "Training Day": {
+        "id": 70,
+        "screen": {
+          "src": "photos/070-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfZ4Yb6kWcBfhyphenhyphenPUdXDuyIE1YnO95H99KdsLKJvVc6er5rVOKCp_StQ_u7dv1NxdAE8xUzX8wKtnBzdVqDdZW3LR92SYcQEfi-deATlNT-llPdhuZ5NtFIv8u6VACuZySqSmhdB2n3vpy4/s400/Quality+Cafe.JPG",
+          "title": "Training Day",
+          "releaseYear": 2001
+        },
+        "place": {
+          "src": "photos/070-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfa_b-qJofNd3qLKsnewzSly5Skw3oc7DVUMITPAAbQBihc3jjDItyKyUY3IZW8RiPiEhYNUp83gHIBdvKroZactXqLi4hpIKgvfDEtSeM3jDaMlx7aLSIWNSKo2B1N_jEFrQjH8NitcI/s400/Los+Angeles+2010+196.jpg"
+        }
+      },
+      "Se7en": {
+        "screen": {
+          "src": "photos/se7en-754-screen.jpg",
+          "sourceUrl": "https://thefincheranalyst.com/2024/02/07/seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment/",
+          "imageUrl": "https://i0.wp.com/thefincheranalyst.com/wp-content/uploads/2024/02/1995.-seven-the-gwyneth-paltrow-and-morgan-freeman-diner-scene-may-be-its-most-pivotal-moment.jpg?fit=1200%2C503&ssl=1",
+          "width": 1200,
+          "height": 503,
+          "title": "Se7en",
+          "alt": "Quality Cafe in Se7en",
+          "spoiler": false,
+          "credit": "Se7en / New Line Cinema; reproduced by The Fincher Analyst"
+        },
+        "place": {
+          "src": "photos/se7en-754-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.268481360457%2C34.050969911921%2C-118.265681360457%2C34.052845911921&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "width": 1000,
+          "height": 650,
+          "alt": "Quality Cafe — real filming site",
+          "spoiler": false,
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "caption": "Site · aerial",
+          "note": "Imagery capture date is not supplied by the active basemap."
+        }
+      }
     }
   },
   "71": {
@@ -9358,6 +9402,375 @@
       "height": 1000,
       "note": "Panel extracted from the published scene/site comparison; source lettering retained. Capture date unverified.",
       "caption": "Site · source photo"
+    }
+  },
+  "750": {
+    "screen": {
+      "src": "photos/se7en-750-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct2_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 498,
+      "title": "Se7en",
+      "alt": "The Fourteenth Precinct in Se7en",
+      "spoiler": false,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-750-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_precinct1_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "The Fourteenth Precinct — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "751": {
+    "screen": {
+      "src": "photos/se7en-751-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library2_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 498,
+      "title": "Se7en",
+      "alt": "The city library in Se7en",
+      "spoiler": false,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-751-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_library1_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "The city library — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "752": {
+    "screen": {
+      "src": "photos/se7en-752-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria1_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 499,
+      "title": "Se7en",
+      "alt": "John Doe’s apartment in Se7en",
+      "spoiler": false,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-752-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_alexandria2_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "John Doe’s apartment — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "753": {
+    "screen": {
+      "src": "photos/se7en-753-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt1_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 498,
+      "title": "Se7en",
+      "alt": "Victor’s apartment in Se7en",
+      "spoiler": true,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-753-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_victorsapt3_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "Victor’s apartment — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "755": {
+    "screen": {
+      "src": "photos/se7en-755-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills1_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 499,
+      "title": "Se7en",
+      "alt": "Somerset & Mills’s first meeting in Se7en",
+      "spoiler": false,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-755-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_somerset_mills2_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "Somerset & Mills’s first meeting — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "756": {
+    "screen": {
+      "src": "photos/se7en-756-screen.jpg",
+      "sourceUrl": "https://www.adorocinema.com/noticias/filmes/noticia-1000031377/",
+      "imageUrl": "https://br.web.img3.acsta.net/img/de/33/de33395084011b03880d4554c73b66e8.jpg",
+      "width": 1280,
+      "height": 720,
+      "title": "Se7en",
+      "alt": "The transmission-tower field in Se7en",
+      "spoiler": true,
+      "credit": "Se7en / New Line Cinema; reproduced by AdoroCinema"
+    },
+    "place": {
+      "src": "photos/se7en-756-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.34451800000001%2C34.735715%2C-118.341718%2C34.737590999999995&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "width": 1000,
+      "height": 650,
+      "alt": "The transmission-tower field — real filming site",
+      "spoiler": false,
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "caption": "Site · aerial",
+      "note": "Imagery capture date is not supplied by the active basemap."
+    }
+  },
+  "757": {
+    "screen": {
+      "src": "photos/se7en-757-screen.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop1_newlinecinema.jpg?w=1200",
+      "width": 1200,
+      "height": 499,
+      "title": "Se7en",
+      "alt": "The barber shop in Se7en",
+      "spoiler": false,
+      "credit": "Se7en / New Line Cinema; reproduced by L.A. TACO"
+    },
+    "place": {
+      "src": "photos/se7en-757-place.jpg",
+      "sourceUrl": "https://lataco.com/se7en-film-locations",
+      "imageUrl": "https://lede-admin.lataco.com/wp-content/uploads/sites/45/2025/09/lataco_seven_barbershop2_jaredcowan.jpg?w=1200",
+      "width": 1200,
+      "height": 799,
+      "alt": "The barber shop — real filming site",
+      "spoiler": false,
+      "credit": "Jared Cowan / L.A. TACO",
+      "date": "2025"
+    }
+  },
+  "780": {
+    "screen": {
+      "src": "photos/routes2-780-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkgyfP6tKtSRBQu9A-ngUipNXjt_Ev83zqqHYilPXVvhSVV8RRK11hlVOtFTqOvCZEiKEq6wKQGk27Y4FvU06XbjeOJq4SME3ogzkIVSuFWQuWkejjTlSDJmzUfKUqqME4GlUGbvizmDErCDFvG0r0Uie7lQc4zL3Fdk4959O1p2Ayri9ZOJnE36LXh4s/s1200/Screenshot%202024-03-20%20000331.png",
+      "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "credit": "Once Upon a Time in Hollywood / Columbia Pictures; Chas Demster / It’s Filmed There",
+      "alt": "Sharon and the hitchhiker at the Westwood parking lot.",
+      "note": "Film frame.",
+      "title": "Once Upon a Time in Hollywood",
+      "spoiler": false,
+      "width": 1089,
+      "height": 448
+    },
+    "place": {
+      "src": "photos/routes2-780-place.jpg",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.448939361654%2C34.061716850703%2C-118.44693936165399%2C34.063016850703&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Aerial of the Gayley Avenue parking site.",
+      "note": "Aerial of the production site; imagery capture date not supplied.",
+      "caption": "Production site · aerial",
+      "width": 1100,
+      "height": 700
+    }
+  },
+  "781": {
+    "screen": {
+      "src": "photos/routes2-781-screen.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/04/sc-pulpfiction22.jpg?w=1200",
+      "sourceUrl": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+      "credit": "Pulp Fiction / Miramax; Film Oblivion",
+      "alt": "Jimmie and the Wolf in the backyard.",
+      "note": "Film frame.",
+      "title": "Pulp Fiction",
+      "spoiler": false,
+      "width": 1000,
+      "height": 418
+    },
+    "place": {
+      "src": "photos/routes2-781-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/pulpfiction10-2.jpg",
+      "sourceUrl": "https://filmoblivion.com/2017/07/29/pulp-fiction-1994/",
+      "credit": "Film Oblivion",
+      "alt": "The real Kraft Avenue production house.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "782": {
+    "screen": {
+      "src": "photos/routes2-782-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pBHd4WvpAtRgA8uD0wHbJZJhTOrTsLLFsPfu-XWxaZAHNhyphenhyphen1nva9PBqhdQmaOJ_kYUIezQb-GRG2Ki-74EORS3uQ1iSNzFH1NnPaufxRRYpldsgg-OebV12WjlquEnHD9MiGQ0XIRuI/s1200/drive01.jpg",
+      "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+      "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+      "alt": "The electronics warehouse in the opening job.",
+      "note": "Film frame.",
+      "title": "Drive",
+      "spoiler": false,
+      "width": 1200,
+      "height": 513
+    },
+    "place": {
+      "src": "photos/routes2-782-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyAtpAph5cNK83AkQ-wzeGRmdF33TyhVKIA1IP9iE3KX2JX0TjN0ms_2BNU0RH-RMUat80j5tAboAU-F4UmSK4Ca-HWwfLnQdIA_CTPO4LCgDcpDob0oy41pv5cCYilxZbmUICV8gyJ-8/s1200/IMG_0402.JPG",
+      "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+      "credit": "Robert Patterson / Set-Jetter",
+      "alt": "The Naomi Avenue warehouse used in production.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "783": {
+    "screen": {
+      "src": "photos/routes2-783-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwuc0of69TdgO8Gj1FLUFuiSsF6Az6WQBKQ-VYY6FA1GXlqLa8qSjHdkQyI3YwattCc4hmmHdqHDN9yvzEeor38OCOuuQRnpW9uiIrwKdH_aOQPHBaX3h0LtNEW63GWpIdLdQK1yCUAao/s1200/drivea+02.jpg",
+      "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+      "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+      "alt": "The Impala crosses the bridge in the pursuit.",
+      "note": "Film frame.",
+      "title": "Drive",
+      "spoiler": false,
+      "width": 1200,
+      "height": 520
+    },
+    "place": {
+      "src": "photos/routes2-783-place.jpg",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22814%2C34.03726%2C-118.22574%2C34.03886&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "The replacement Sixth Street Viaduct at the real production site.",
+      "note": "Aerial of the production site; imagery capture date not supplied.",
+      "caption": "Production site · aerial",
+      "width": 1100,
+      "height": 700
+    }
+  },
+  "784": {
+    "screen": {
+      "src": "photos/routes2-784-screen.jpg",
+      "imageUrl": "https://www.replicapropstore.com/cdn/shop/products/drive-cx4-cap_1280x.jpg?v=1579893772",
+      "sourceUrl": "https://www.replicapropstore.com/products/la-cap-drive",
+      "credit": "Drive / FilmDistrict; ReplicaPropStore",
+      "alt": "Driver in a blue cap among basketball fans inside the parking garage.",
+      "note": "Film frame.",
+      "title": "Drive",
+      "spoiler": false,
+      "width": 1280,
+      "height": 538
+    },
+    "place": {
+      "src": "photos/routes2-784-place.jpg",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.266240470328%2C34.043735794077996%2C-118.262840470328%2C34.045945794078&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Aerial of the L.A. LIVE complex beside the arena.",
+      "note": "Aerial of the production site; imagery capture date not supplied.",
+      "caption": "Production site · aerial",
+      "width": 1100,
+      "height": 700
+    }
+  },
+  "785": {
+    "screen": {
+      "src": "photos/routes2-785-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjElPOtGIAqVxBH5c_fJcohEm06aL1X0laVupUpeGu_yPBQnW1GjfyB0eJEYRG-aZo92se1kHzQksISlnMLcna9l9kHEAVbE6N2ebeBd96BJV_-q4p8ZLhNyKQfxpVqLSR2GKAZ-s7OqPSR45uJOifMmbPG1KzxZOswxS9KVov9sBUXfPvBwMPBKtIwW2Y/s1200/Tunnel%20-%20Copy.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "The station wagon drives through Second Street Tunnel.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 2",
+      "spoiler": false,
+      "width": 704,
+      "height": 294
+    },
+    "place": {
+      "src": "photos/routes2-785-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwkCSXoqUJy9gAJnP5nYcgojHoaIHXttdzvakCrQDjY5t5ocCe6R5UjBuU611QA517QWR3acBkpnqMhXFpEET-C6aJFj2seBaEk6F1MXbg2ohy5449XlLsf7RIhQqwxUeS2VKMAx5WwX8AG0sNbvYzKEjkAEIXtCGaNPaS5VK3aolOUEMyUS-Fwfp2cxA/s1200/A.jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The real Second Street Tunnel approach.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 952,
+      "height": 535
+    }
+  },
+  "786": {
+    "screen": {
+      "src": "photos/routes2-786-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihUNZT9qDQ_c4XJm6i_D5PCy19FUpXdv9uh8UYgafQc58G1xyVAUmQ6gv57D8U3n0hfdRWcu2PX6fXPk4i_9d0PoEYZP_-NyRgjHi5MbC11OjyYBIIH_sPpQnuvJVfDOLv3Gb9cXlDh1E/s1200/Hotel+Drive+3.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "Murtaugh’s wagon at the Bonaventure entrance.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 2",
+      "spoiler": false,
+      "width": 800,
+      "height": 339
+    },
+    "place": {
+      "src": "photos/routes2-786-place.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIzQTg3ksTRcQfvUFlh20pQqABNDxaTTlyEa6JfpDDW52T2t5Gp9PNZuycYdanIF7kZ0LjInfIfkpg6Mf9m326cr7SVtyGkNxTB0ESnt-9_naXRyX_V7TbwhC2FeO0iI1Xr4KO9TmN0wXnFldmDWP4DGQw5mTn_hDvv29n9tTrFxbOS6yfqdGx-EPhIWA/s1200/B%20(1).jpg",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Chas Demster / It’s Filmed There",
+      "alt": "The matching Bonaventure entrance.",
+      "note": "Comparison-site photograph; exact capture date not supplied.",
+      "caption": "Real production site",
+      "width": 1200,
+      "height": 693
+    }
+  },
+  "787": {
+    "screen": {
+      "src": "photos/routes2-787-screen.jpg",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvDknHmKO5xjyDZWxUBYlhO0c-o4WMVbYhU6bkvpw_23o0m0KnBMLNMrBmiqOIlXLtPtFlxJQORzbFx20gfuaISWHv5W8H3AGOX4uwFJ07r3eG8LPkf3y6wAPUpNne4_yq7NMvzJ4TUVc/s1200/Helepcopter.JPG",
+      "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+      "alt": "A helicopter rises near the Fourth and Hope intersection.",
+      "note": "Film frame.",
+      "title": "Lethal Weapon 2",
+      "spoiler": false,
+      "width": 800,
+      "height": 339
+    },
+    "place": {
+      "src": "photos/routes2-787-place.jpg",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.25502068671899%2C34.051411001540004%2C-118.252620686719%2C34.05301100154&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Aerial of the Fourth and Hope intersection.",
+      "note": "Aerial of the production site; imagery capture date not supplied.",
+      "caption": "Production site · aerial",
+      "width": 1100,
+      "height": 700
     }
   }
 }

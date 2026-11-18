@@ -1716,6 +1716,78 @@
           ]
         }
       ]
+    },
+    {
+      "id": 752,
+      "name": "John Doe’s apartment",
+      "title": "Se7en",
+      "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+      "concealParticipants": true,
+      "fields": [],
+      "redactions": [
+        {
+          "path": "name",
+          "phrases": [
+            "John Doe"
+          ]
+        },
+        {
+          "path": "short",
+          "phrases": [
+            "John Doe"
+          ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "John Doe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "name": "Victor’s apartment",
+      "title": "Se7en",
+      "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+      "concealParticipants": true,
+      "fields": [
+        "media.screen"
+      ],
+      "redactions": [
+        {
+          "path": "name",
+          "phrases": [
+            "Victor",
+            "Theodore Allen"
+          ]
+        },
+        {
+          "path": "short",
+          "phrases": [
+            "Victor",
+            "Theodore Allen"
+          ]
+        },
+        {
+          "path": "appearances.story_role",
+          "phrases": [
+            "Victor",
+            "Theodore Allen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "name": "The transmission-tower field",
+      "title": "Se7en",
+      "reason": "The home identifies a concealed suspect/victim, or the late field scene associates the concealed killer with its outcome. Keep physical addresses and ordinary site photos readable.",
+      "concealParticipants": true,
+      "fields": [
+        "media.screen"
+      ],
+      "redactions": []
     }
   ],
   "journeys": [

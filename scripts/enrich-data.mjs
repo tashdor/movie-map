@@ -63,21 +63,20 @@ export function enrich(atlas){
   const secondCatalog={schema_version:1,researched_on:'2026-11-17',places:second.flatMap(d=>d.places),sources:[...new Map(second.flatMap(d=>d.sources).map(s=>[s.id,s])).values()],audit:second.flatMap(d=>d.audit||[])};
   if(secondCatalog.places.length!==100||new Set(secondCatalog.places.map(p=>p.id)).size!==100)throw Error('Second expansion must contain 100 distinct researched places');
   fs.writeFileSync('research/expansion2-100.json',JSON.stringify(secondCatalog,null,2)+'\n');
-  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json','research/player-strange-days.json','research/speed-crash.json','research/smoke-house.json','research/voyager-locations.json','research/live-die-chase.json','research/argo-locations.json',...secondPaths,'research/north-county.json','research/noncanonical-bttf.json','research/extra-halloween-valley.json','research/extra-cult-films.json','research/extra-lethal-weapon.json','research/extra-last-action-hero.json']){
+  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json','research/player-strange-days.json','research/speed-crash.json','research/smoke-house.json','research/voyager-locations.json','research/live-die-chase.json','research/argo-locations.json',...secondPaths,'research/north-county.json','research/noncanonical-bttf.json','research/extra-halloween-valley.json','research/extra-cult-films.json','research/extra-lethal-weapon.json','research/extra-last-action-hero.json','research/se7en-locations.json','research/routes-expansion.json']){
     const extra=read(path,{places:[],sources:[]});
     for(const source of extra.sources){if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}}
     for(const place of extra.places){
       if(place.mergeInto){
         const shared=byId.get(place.mergeInto);if(!shared)throw Error(`Missing shared place ${place.mergeInto}`);
         shared.placement||=place.placement;
-        if(shared.placement&&place.placement){
-          shared.placement.reason||=place.placement.reason;
-          shared.placement.sourceIds=[...new Set([...(shared.placement.sourceIds||[]),...(place.placement.sourceIds||[])])];
-        }
+        shared.placementByTitle||={};
+        for(const appearance of shared.appearances)if(!shared.placementByTitle[appearance.title])shared.placementByTitle[appearance.title]=shared.placement;
         shared.mediaByTitle||={};
         if(shared.media?.screen?.title&&!shared.mediaByTitle[shared.media.screen.title])shared.mediaByTitle[shared.media.screen.title]=shared.media;
         for(const appearance of place.appearances){
           shared.appearances.push({...appearance,storySetting:appearance.storySetting||place.storySetting});
+          if(place.placement)shared.placementByTitle[appearance.title]=place.placement;
           if(place.media)shared.mediaByTitle[appearance.title]=place.mediaByTitle?.[appearance.title]||place.media;
         }
         shared.people=[...new Set([...shared.people,...place.people])];shared.categories=[...new Set([...shared.categories,...place.categories])];

@@ -419,6 +419,21 @@
     "712": "the-pandora-theatre",
     "713": "the-slater-family-home",
     "714": "lincoln-elementary-school",
+    "750": "the-fourteenth-precinct",
+    "751": "the-city-library",
+    "752": "spring-street-apartment",
+    "753": "broadway-apartment",
+    "755": "somerset-millss-first-meeting",
+    "756": "the-transmission-tower-field",
+    "757": "the-barber-shop",
+    "780": "sharons-westwood-parking-lot",
+    "781": "jimmie-bonnies-home",
+    "782": "the-electronics-warehouse-job",
+    "783": "seventh-street-bridge-pursuit",
+    "784": "staples-center-parking-garage",
+    "785": "second-street-tunnel-pursuit",
+    "786": "the-bonaventure-collision",
+    "787": "fourth-hope-helicopter-encounter",
     "-4": "trejos-home-incident",
     "-9": "waingros-hotel-incident",
     "-11": "jf-sebastian-home-incident",
@@ -490,7 +505,8 @@
     "-661": "incident-at-7137-lindley-avenue-reseda",
     "-667": "incident-at-5801-wilshire-boulevard-los-angeles",
     "-672": "incident-at-silver-lake-reservoir-los-angeles",
-    "-691": "incident-at-2817-via-segovia-palos-verdes-estates"
+    "-691": "incident-at-2817-via-segovia-palos-verdes-estates",
+    "-756": "lancaster-field-incident"
   },
   "journeys": {
     "97": "d-fens",
@@ -498,6 +514,14 @@
     "100": "first-street-race",
     "226": "cheritto-downtown",
     "300": "bus-2525",
-    "340": "car-chase"
+    "340": "car-chase",
+    "800": "sharons-westwood-afternoon",
+    "801": "maxs-taxi-night",
+    "802": "alonzo-jakes-patrol",
+    "803": "mia-vincents-night-out",
+    "804": "jules-vincents-morning",
+    "805": "chers-beverly-hills-walk",
+    "806": "the-opening-impala-pursuit",
+    "807": "the-opening-station-wagon-pursuit"
   }
 }

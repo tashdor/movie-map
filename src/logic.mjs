@@ -10,6 +10,21 @@ export function storySettingLabel(setting,detail=false){
   return detail?`${label} · ${setting.name}`:label;
 }
 
+export function journeyKindLabel(journey){
+  const kind=journey.kind||({97:'walk',98:'chase',100:'race',226:'chase',300:'chase',340:'chase'})[journey.id];
+  return ({chase:'Chase',pursuit:'Chase',walk:'Walk',outing:'Outing',drive:'Drive',itinerary:'Itinerary',race:'Race'})[kind]||'';
+}
+
+export function journeyStopGroups(journey){
+  const groups=new Map();
+  journey.stops.forEach((stop,index)=>{
+    const key=stop.coordinates.join(',');
+    if(!groups.has(key))groups.set(key,{...stop,numbers:[]});
+    groups.get(key).numbers.push(index+1);
+  });
+  return [...groups.values()];
+}
+
 export function matchingAppearances(place, time) {
   if (time.all || time.from <= 1930 && time.to >= 2030) return place.appearances;
   return place.appearances.filter(a => {
@@ -90,10 +105,11 @@ export function displayEntries(places,filters={}){
     if(!active.length)return [];
     const deaths=(p.deaths||[]).filter(d=>active.some(a=>a.title===d.title));
     const categories=[...new Set(active.flatMap(a=>a.categories||p.categories))];
-    const mediaTitle=film||(active.length===1?active[0].title:null);
+    const activeTitles=[...new Set(active.map(a=>a.title))],mediaTitle=film||(activeTitles.length===1?activeTitles[0]:null);
     const media=mediaTitle&&p.mediaByTitle?.[mediaTitle]||p.media;
+    const placement=mediaTitle&&p.placementByTitle?.[mediaTitle]||p.placement;
     const settings=active.map(a=>a.storySetting||p.storySetting),storySetting=settings.find(s=>s?.canonicalLA===false)||settings.find(Boolean);
-    const base={...p,...(storySetting?{storySetting}:{}),media,appearances:active,deaths,categories,category:active.length!==p.appearances.length?(active[0].categories?.find(c=>c!=='death')||p.category):p.category};
+    const base={...p,...(storySetting?{storySetting}:{}),media,placement,appearances:active,deaths,categories,category:active.length!==p.appearances.length?(active[0].categories?.find(c=>c!=='death')||p.category):p.category};
     const entries=[];
     if(category==='all'||category!=='death'&&categories.includes(category)||category==='death'&&p.category==='death')entries.push({...base,isDeath:p.category==='death'});
     if(deaths.length&&p.category!=='death'&&(category==='all'||category==='death')){
@@ -102,7 +118,9 @@ export function displayEntries(places,filters={}){
       const mediaByTitle=Object.fromEntries(Object.entries(p.mediaByTitle||{}).filter(([title])=>deathTitles.has(title)));
       const media=mediaByTitle[appearances[0].title]||(deathTitles.has(p.media?.screen?.title)?p.media:{place:p.media?.place});
       const settings=appearances.map(a=>a.storySetting||p.storySetting),storySetting=settings.find(s=>s?.canonicalLA===false)||settings.find(Boolean);
-      const death={...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],appearances,people,media,mediaByTitle,storySetting,name:deaths.length===1&&deaths[0].label|| (people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`)};
+      const placementByTitle=Object.fromEntries(Object.entries(p.placementByTitle||{}).filter(([title])=>deathTitles.has(title)));
+      const placement=placementByTitle[appearances[0].title]||base.placement;
+      const death={...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],appearances,people,media,mediaByTitle,placement,placementByTitle,storySetting,name:deaths.length===1&&deaths[0].label|| (people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`)};
       if(!filters.query||filterPlaces([death],{query:filters.query}).length)entries.push(death);
     }
     return entries;

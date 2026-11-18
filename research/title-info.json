@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "titles": {
+    "(500) Days of Summer": {
+      "imdbId": "tt1022603",
+      "year": 2009,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt1022603/"
+    },
+    "Argo": {
+      "imdbId": "tt1024648",
+      "year": 2012,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt1024648/"
+    },
+    "Assault on Precinct 13": {
+      "imdbId": "tt0074156",
+      "year": 1976,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0074156/"
+    },
+    "Back to the Future": {
+      "imdbId": "tt0088763",
+      "year": 1985,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0088763/"
+    },
+    "Back to the Future Part II": {
+      "imdbId": "tt0096874",
+      "year": 1989,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0096874/"
+    },
+    "Baywatch": {
+      "imdbId": "tt0096542",
+      "year": 1989,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0096542/",
+      "endYear": 2001
+    },
+    "Beverly Hills Cop": {
+      "imdbId": "tt0086960",
+      "year": 1984,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0086960/"
+    },
+    "Beverly Hills, 90210": {
+      "imdbId": "tt0098749",
+      "year": 1990,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0098749/",
+      "endYear": 2000
+    },
+    "Blade Runner": {
+      "imdbId": "tt0083658",
+      "year": 1982,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0083658/"
+    },
+    "Body Double": {
+      "imdbId": "tt0086984",
+      "year": 1984,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0086984/"
+    },
+    "Boogie Nights": {
+      "imdbId": "tt0118749",
+      "year": 1997,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0118749/"
+    },
+    "Bosch": {
+      "imdbId": "tt3502248",
+      "year": 2014,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt3502248/",
+      "endYear": 2021
+    },
+    "Boyz n the Hood": {
+      "imdbId": "tt0101507",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0101507/"
+    },
+    "Chinatown": {
+      "imdbId": "tt0071315",
+      "year": 1974,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0071315/"
+    },
+    "Clueless": {
+      "imdbId": "tt0112697",
+      "year": 1995,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0112697/"
+    },
+    "Collateral": {
+      "imdbId": "tt0369339",
+      "year": 2004,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0369339/"
+    },
+    "Colors": {
+      "imdbId": "tt0094894",
+      "year": 1988,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0094894/"
+    },
+    "Crash": {
+      "imdbId": "tt0375679",
+      "year": 2004,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0375679/"
+    },
+    "Criss Cross": {
+      "imdbId": "tt0041268",
+      "year": 1949,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0041268/"
+    },
+    "Dead Again": {
+      "imdbId": "tt0101669",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0101669/"
+    },
+    "Die Hard": {
+      "imdbId": "tt0095016",
+      "year": 1988,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0095016/"
+    },
+    "Double Indemnity": {
+      "imdbId": "tt0036775",
+      "year": 1944,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0036775/"
+    },
+    "Drive": {
+      "imdbId": "tt0780504",
+      "year": 2011,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0780504/"
+    },
+    "Earth Girls Are Easy": {
+      "imdbId": "tt0097257",
+      "year": 1988,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0097257/",
+      "note": "IMDb dates the film to its September 1988 Toronto festival premiere. Its U.S. theatrical release was May 12, 1989; the atlas uses 1989 separately as an approximate contemporary story year.",
+      "releaseInfoUrl": "https://www.imdb.com/title/tt0097257/releaseinfo/"
+    },
+    "Encino Man": {
+      "imdbId": "tt0104187",
+      "year": 1992,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0104187/"
+    },
+    "Falling Down": {
+      "imdbId": "tt0106856",
+      "year": 1993,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0106856/"
+    },
+    "Fast Times at Ridgemont High": {
+      "imdbId": "tt0083929",
+      "year": 1982,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0083929/"
+    },
+    "Friday": {
+      "imdbId": "tt0113118",
+      "year": 1995,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0113118/"
+    },
+    "Halloween": {
+      "imdbId": "tt0077651",
+      "year": 1978,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0077651/"
+    },
+    "Heat": {
+      "imdbId": "tt0113277",
+      "year": 1995,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0113277/"
+    },
+    "Jackie Brown": {
+      "imdbId": "tt0119396",
+      "year": 1997,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0119396/"
+    },
+    "Kiss Me Deadly": {
+      "imdbId": "tt0048261",
+      "year": 1955,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0048261/"
+    },
+    "L.A. Confidential": {
+      "imdbId": "tt0119488",
+      "year": 1997,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0119488/"
+    },
+    "L.A. Story": {
+      "imdbId": "tt0102250",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0102250/"
+    },
+    "La La Land": {
+      "imdbId": "tt3783958",
+      "year": 2016,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt3783958/"
+    },
+    "Larry Crowne": {
+      "imdbId": "tt1583420",
+      "year": 2011,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt1583420/"
+    },
+    "Last Action Hero": {
+      "imdbId": "tt0107362",
+      "year": 1993,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0107362/"
+    },
+    "Lethal Weapon": {
+      "imdbId": "tt0093409",
+      "year": 1987,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0093409/"
+    },
+    "Lethal Weapon 2": {
+      "imdbId": "tt0097733",
+      "year": 1989,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0097733/"
+    },
+    "Lethal Weapon 3": {
+      "imdbId": "tt0104714",
+      "year": 1992,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0104714/"
+    },
+    "Lethal Weapon 4": {
+      "imdbId": "tt0122151",
+      "year": 1998,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0122151/"
+    },
+    "Licorice Pizza": {
+      "imdbId": "tt11271038",
+      "year": 2021,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt11271038/"
+    },
+    "Lost Highway": {
+      "imdbId": "tt0116922",
+      "year": 1997,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0116922/"
+    },
+    "Menace II Society": {
+      "imdbId": "tt0107554",
+      "year": 1993,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0107554/"
+    },
+    "Mildred Pierce": {
+      "imdbId": "tt0037913",
+      "year": 1945,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0037913/"
+    },
+    "Miracle Mile": {
+      "imdbId": "tt0097889",
+      "year": 1988,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0097889/"
+    },
+    "Modern Family": {
+      "imdbId": "tt1442437",
+      "year": 2009,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt1442437/",
+      "endYear": 2020
+    },
+    "Mulholland Drive": {
+      "imdbId": "tt0166924",
+      "year": 2001,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0166924/"
+    },
+    "New Girl": {
+      "imdbId": "tt1826940",
+      "year": 2011,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt1826940/",
+      "endYear": 2018
+    },
+    "Nightcrawler": {
+      "imdbId": "tt2872718",
+      "year": 2014,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt2872718/"
+    },
+    "Nope": {
+      "imdbId": "tt10954984",
+      "year": 2022,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt10954984/"
+    },
+    "Once Upon a Time in Hollywood": {
+      "imdbId": "tt7131622",
+      "year": 2019,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt7131622/"
+    },
+    "Point Blank": {
+      "imdbId": "tt0062138",
+      "year": 1967,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0062138/"
+    },
+    "Point Break": {
+      "imdbId": "tt0102685",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0102685/"
+    },
+    "Pretty Woman": {
+      "imdbId": "tt0100405",
+      "year": 1990,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0100405/"
+    },
+    "Pulp Fiction": {
+      "imdbId": "tt0110912",
+      "year": 1994,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0110912/"
+    },
+    "Rebel Without a Cause": {
+      "imdbId": "tt0048545",
+      "year": 1955,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0048545/"
+    },
+    "Repo Man": {
+      "imdbId": "tt0087995",
+      "year": 1984,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0087995/"
+    },
+    "Reservoir Dogs": {
+      "imdbId": "tt0105236",
+      "year": 1992,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0105236/"
+    },
+    "Santa Clarita Diet": {
+      "imdbId": "tt5580540",
+      "year": 2017,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt5580540/",
+      "endYear": 2019
+    },
+    "Scorpion": {
+      "imdbId": "tt3514324",
+      "year": 2014,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt3514324/",
+      "endYear": 2018
+    },
+    "Se7en": {
+      "imdbId": "tt0114369",
+      "year": 1995,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0114369/"
+    },
+    "Six Feet Under": {
+      "imdbId": "tt0248654",
+      "year": 2001,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0248654/",
+      "endYear": 2005
+    },
+    "Speed": {
+      "imdbId": "tt0111257",
+      "year": 1994,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0111257/"
+    },
+    "Star Trek: Voyager": {
+      "imdbId": "tt0112178",
+      "year": 1995,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0112178/",
+      "endYear": 2001
+    },
+    "Strange Days": {
+      "imdbId": "tt0114558",
+      "year": 1995,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0114558/"
+    },
+    "Sunset Boulevard": {
+      "imdbId": "tt0043014",
+      "year": 1950,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0043014/"
+    },
+    "Swingers": {
+      "imdbId": "tt0117802",
+      "year": 1996,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0117802/"
+    },
+    "Terminator 2: Judgment Day": {
+      "imdbId": "tt0103064",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0103064/"
+    },
+    "The Big Lebowski": {
+      "imdbId": "tt0118715",
+      "year": 1998,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0118715/"
+    },
+    "The Fast and the Furious": {
+      "imdbId": "tt0232500",
+      "year": 2001,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0232500/"
+    },
+    "The Fresh Prince of Bel-Air": {
+      "imdbId": "tt0098800",
+      "year": 1990,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0098800/",
+      "endYear": 1996
+    },
+    "The Holiday": {
+      "imdbId": "tt0457939",
+      "year": 2006,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0457939/"
+    },
+    "The Last Boy Scout": {
+      "imdbId": "tt0102266",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0102266/"
+    },
+    "The Long Goodbye": {
+      "imdbId": "tt0070334",
+      "year": 1973,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0070334/"
+    },
+    "The Nice Guys": {
+      "imdbId": "tt3799694",
+      "year": 2016,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt3799694/"
+    },
+    "The Player": {
+      "imdbId": "tt0105151",
+      "year": 1992,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0105151/"
+    },
+    "The Rockford Files": {
+      "imdbId": "tt0071042",
+      "year": 1974,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt0071042/",
+      "endYear": 1980
+    },
+    "The Terminator": {
+      "imdbId": "tt0088247",
+      "year": 1984,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0088247/"
+    },
+    "To Live and Die in L.A.": {
+      "imdbId": "tt0090180",
+      "year": 1985,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0090180/"
+    },
+    "Training Day": {
+      "imdbId": "tt0139654",
+      "year": 2001,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0139654/"
+    },
+    "Under the Silver Lake": {
+      "imdbId": "tt5691670",
+      "year": 2018,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt5691670/"
+    },
+    "Valley Girl": {
+      "imdbId": "tt0086525",
+      "year": 1983,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0086525/"
+    },
+    "What Ever Happened to Baby Jane?": {
+      "imdbId": "tt0056687",
+      "year": 1962,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0056687/"
+    }
+  }
+}

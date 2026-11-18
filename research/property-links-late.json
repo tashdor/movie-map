@@ -384,6 +384,33 @@
       "scope": "filming-site",
       "sourceUrl": "https://www.zillow.com/b/535-s-curson-ave-los-angeles-ca-9Tz7xZ/",
       "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 752,
+      "address": "501 S Spring St, Los Angeles, CA 90013",
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+      "verifiedOn": "2026-11-17",
+      "note": "Verified Alexandria Housing building page at the exact production address; no film apartment unit is asserted.",
+      "scope": "filming-site"
+    },
+    {
+      "id": 753,
+      "address": "253 S Broadway, Los Angeles, CA 90012",
+      "url": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+      "sourceUrl": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+      "verifiedOn": "2026-11-17",
+      "note": "The exact 253 S Broadway unit page links directly via See full building details to this building page. Link targets the entire Pan American Lofts building, never an inferred film unit. The building heading omits the S direction but its linked unit addresses include it.",
+      "scope": "filming-site"
+    },
+    {
+      "address": "4145 Kraft Ave, Studio City, CA 91604",
+      "url": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+      "sourceUrl": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+      "verifiedOn": "2026-11-17",
+      "note": "Exact house-address match for Jimmie’s Pulp Fiction filming house; place ID pending route integration.",
+      "id": 781,
+      "scope": "filming-site"
     }
   ],
   "audit": [

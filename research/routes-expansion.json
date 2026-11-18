@@ -1,0 +1,1937 @@
+{
+  "schema_version": 1,
+  "journeys": [
+    {
+      "id": 800,
+      "name": "Sharon’s Westwood afternoon",
+      "title": "Once Upon a Time in Hollywood",
+      "year": 1969,
+      "kind": "outing",
+      "color": "#b95f18",
+      "source_ids": [
+        "routes2_sharon_ift",
+        "routes2_sharon_fo",
+        "routes2_sharon_sony"
+      ],
+      "precision": "Verified pickup, parking and cinema stops. Connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Sharon’s Wilshire pickup",
+          "placeId": 180,
+          "coordinates": [
+            -118.42946129746,
+            34.066700086519
+          ]
+        },
+        {
+          "name": "Sharon’s Westwood parking lot",
+          "placeId": 780,
+          "coordinates": [
+            -118.447939361654,
+            34.062366850703
+          ]
+        },
+        {
+          "name": "The Bruin Theatre",
+          "placeId": 181,
+          "coordinates": [
+            -118.446971026252,
+            34.063100662149
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "name": "Max’s taxi night",
+      "title": "Collateral",
+      "year": 2004,
+      "kind": "itinerary",
+      "color": "#216b9b",
+      "source_ids": [
+        "routes2_collateral_afi",
+        "routes2_collateral_script",
+        "routes2_collateral_sites"
+      ],
+      "precision": "Four stops in story order. Other jobs and connecting streets are omitted.",
+      "stops": [
+        {
+          "name": "Annie’s office / Vincent’s pickup",
+          "placeId": 68,
+          "coordinates": [
+            -118.242405790293,
+            34.055042808236
+          ]
+        },
+        {
+          "name": "Daniel's jazz club",
+          "placeId": 65,
+          "coordinates": [
+            -118.330246777551,
+            34.005004071292
+          ]
+        },
+        {
+          "name": "Felix's nightclub",
+          "placeId": 66,
+          "coordinates": [
+            -118.099148401972,
+            33.984334667405
+          ]
+        },
+        {
+          "name": "Fever nightclub",
+          "placeId": 67,
+          "coordinates": [
+            -118.297042217278,
+            34.063644078012
+          ]
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "name": "Alonzo & Jake’s patrol",
+      "title": "Training Day",
+      "year": 2001,
+      "kind": "itinerary",
+      "color": "#5a6b20",
+      "source_ids": [
+        "routes2_training_afi",
+        "routes2_training_script",
+        "routes2_training_ift"
+      ],
+      "precision": "Breakfast through the Dining Car meeting. Other calls and connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Quality Cafe",
+          "placeId": 70,
+          "coordinates": [
+            -118.267069792632,
+            34.051989533475
+          ]
+        },
+        {
+          "name": "Roger's home",
+          "placeId": 71,
+          "coordinates": [
+            -118.249028903379,
+            34.070354478648
+          ]
+        },
+        {
+          "name": "Sandman’s home",
+          "placeId": 72,
+          "coordinates": [
+            -118.231661663134,
+            33.932504049082
+          ]
+        },
+        {
+          "name": "Sara’s home",
+          "placeId": 73,
+          "coordinates": [
+            -118.344035918205,
+            34.01373544484
+          ]
+        },
+        {
+          "name": "Pacific Dining Car",
+          "placeId": 74,
+          "coordinates": [
+            -118.265992145612,
+            34.055612840494
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "name": "Mia & Vincent’s night out",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "kind": "outing",
+      "color": "#b43e67",
+      "source_ids": [
+        "routes2_pulp_script",
+        "routes2_pulp_ift"
+      ],
+      "precision": "Stops in narrative order, including the return to Mia’s house. Connecting streets are untraced.",
+      "stops": [
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        },
+        {
+          "name": "Jack Rabbit Slim's",
+          "placeId": 40,
+          "coordinates": [
+            -118.290568722393,
+            34.162396556455
+          ]
+        },
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        },
+        {
+          "name": "Lance and Jody's home",
+          "placeId": 39,
+          "coordinates": [
+            -118.256820129152,
+            34.119088227064
+          ]
+        },
+        {
+          "name": "Mia and Marsellus Wallace's home",
+          "placeId": 38,
+          "coordinates": [
+            -118.420301127636,
+            34.099606646141
+          ]
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "name": "Jules & Vincent’s morning",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "kind": "itinerary",
+      "color": "#5d3f93",
+      "source_ids": [
+        "routes2_pulp_script",
+        "routes2_pulp_ift",
+        "routes2_pulp_crew"
+      ],
+      "precision": "Chronological stops from the apartment to breakfast. Jimmie’s Toluca Lake point is approximate; streets are untraced.",
+      "stops": [
+        {
+          "name": "Brett’s apartment",
+          "placeId": 43,
+          "coordinates": [
+            -118.3155,
+            34.0987
+          ]
+        },
+        {
+          "name": "Jimmie & Bonnie’s home",
+          "placeId": 781,
+          "coordinates": [
+            -118.356,
+            34.152
+          ]
+        },
+        {
+          "name": "Monster Joe's junkyard",
+          "placeId": 44,
+          "coordinates": [
+            -118.397929223931,
+            34.252142047944
+          ]
+        },
+        {
+          "name": "Hawthorne Grill",
+          "placeId": 41,
+          "coordinates": [
+            -118.352785044086,
+            33.906759466641
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "name": "Cher’s Beverly Hills walk",
+      "title": "Clueless",
+      "year": 1995,
+      "kind": "walk",
+      "color": "#197f6f",
+      "source_ids": [
+        "routes2_clueless_sites",
+        "routes2_clueless_ift"
+      ],
+      "precision": "Three consecutive montage locations. The film does not establish every intervening sidewalk.",
+      "stops": [
+        {
+          "name": "Cher’s walk on Via Rodeo",
+          "placeId": 197,
+          "coordinates": [
+            -118.401237,
+            34.067314
+          ]
+        },
+        {
+          "name": "The Witch’s House",
+          "placeId": 198,
+          "coordinates": [
+            -118.411125,
+            34.068962
+          ]
+        },
+        {
+          "name": "The Electric Fountain",
+          "placeId": 199,
+          "coordinates": [
+            -118.4103667,
+            34.06745
+          ]
+        }
+      ]
+    },
+    {
+      "id": 806,
+      "name": "The opening Impala pursuit",
+      "title": "Drive",
+      "year": 2011,
+      "kind": "chase",
+      "color": "#973d95",
+      "source_ids": [
+        "routes2_drive_dialogue",
+        "routes2_drive_radio",
+        "routes2_drive_sites",
+        "routes2_drive_frames",
+        "routes2_la_live"
+      ],
+      "precision": "Spoken Alameda and Seventh Street anchors, then the basketball garage. Edit gaps are untraced.",
+      "stops": [
+        {
+          "name": "The electronics warehouse job",
+          "placeId": 782,
+          "coordinates": [
+            -118.238227412839,
+            34.042708123112
+          ]
+        },
+        {
+          "name": "Seventh Street Bridge pursuit",
+          "placeId": 783,
+          "coordinates": [
+            -118.22722,
+            34.03444
+          ]
+        },
+        {
+          "name": "Staples Center parking garage",
+          "placeId": 784,
+          "coordinates": [
+            -118.264540470328,
+            34.044840794078
+          ]
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "name": "The opening station-wagon pursuit",
+      "title": "Lethal Weapon 2",
+      "year": 1989,
+      "kind": "chase",
+      "color": "#344b53",
+      "source_ids": [
+        "routes2_lw2_ift",
+        "routes2_lw2_afi"
+      ],
+      "precision": "Three matched downtown chase beats. Connecting streets and the later backlot sequence are omitted.",
+      "stops": [
+        {
+          "name": "Second Street Tunnel pursuit",
+          "placeId": 785,
+          "coordinates": [
+            -118.247740035061,
+            34.053098980362
+          ]
+        },
+        {
+          "name": "The Bonaventure collision",
+          "placeId": 786,
+          "coordinates": [
+            -118.256020265751,
+            34.052546151938
+          ]
+        },
+        {
+          "name": "Fourth & Hope helicopter encounter",
+          "placeId": 787,
+          "coordinates": [
+            -118.253820686719,
+            34.05221100154
+          ]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": 780,
+      "name": "Sharon’s Westwood parking lot",
+      "short": "Sharon’s Westwood parking lot",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "972–980 Gayley Avenue, Westwood, Los Angeles",
+      "area": "Westwood",
+      "coordinates": [
+        -118.447939361654,
+        34.062366850703
+      ],
+      "productionCoordinates": [
+        -118.447939361654,
+        34.062366850703
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Gayley Avenue parking lot, Westwood",
+        "precision": "scene-anchor",
+        "reason": "Matched frames identify the lot where Sharon parks and parts from the hitchhiker. Sources use nearby numbers 972 and 980 for the same lot; the point marks the site, not a particular stall.",
+        "sourceIds": [
+          "routes2_sharon_ift",
+          "routes2_sharon_fo",
+          "routes2_sharon_sony"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Sharon Tate",
+        "Hitchhiking girl"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Once Upon a Time in Hollywood",
+          "release_year": 2019,
+          "story_role": "Sharon parks in Westwood",
+          "filming_component": "972–980 Gayley Avenue, Westwood, Los Angeles",
+          "source_ids": [
+            "routes2_sharon_ift",
+            "routes2_sharon_fo",
+            "routes2_sharon_sony"
+          ],
+          "story_time": {
+            "year": 1969,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Sony establishes 1969 Los Angeles.",
+            "source_ids": [
+              "routes2_sharon_sony"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Sharon Tate",
+              "relationship": "parks here"
+            },
+            {
+              "name": "Hitchhiking girl",
+              "relationship": "parts from Sharon"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-780-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkgyfP6tKtSRBQu9A-ngUipNXjt_Ev83zqqHYilPXVvhSVV8RRK11hlVOtFTqOvCZEiKEq6wKQGk27Y4FvU06XbjeOJq4SME3ogzkIVSuFWQuWkejjTlSDJmzUfKUqqME4GlUGbvizmDErCDFvG0r0Uie7lQc4zL3Fdk4959O1p2Ayri9ZOJnE36LXh4s/s1200/Screenshot%202024-03-20%20000331.png",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood / Columbia Pictures; Chas Demster / It’s Filmed There",
+          "alt": "Sharon and the hitchhiker at the Westwood parking lot.",
+          "note": "Film frame.",
+          "title": "Once Upon a Time in Hollywood",
+          "spoiler": false,
+          "width": 1089,
+          "height": 448
+        },
+        "place": {
+          "src": "photos/routes2-780-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.448939361654%2C34.061716850703%2C-118.44693936165399%2C34.063016850703&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the Gayley Avenue parking site.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 781,
+      "name": "Jimmie & Bonnie’s home",
+      "short": "Jimmie & Bonnie’s home",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "4145 Kraft Avenue, Studio City, Los Angeles",
+      "area": "Toluca Lake · story area",
+      "coordinates": [
+        -118.356,
+        34.152
+      ],
+      "productionCoordinates": [
+        -118.380359093836,
+        34.143813636221
+      ],
+      "precision": "neighborhood-approximation",
+      "placement": {
+        "kind": "inferred",
+        "address": "Toluca Lake · approximate",
+        "precision": "neighborhood-approximation",
+        "reason": "Dialogue establishes Toluca Lake, while the house used in production is on Kraft Avenue in Studio City. The marker is an editorial neighborhood estimate; no story street address is known. A curb numbered 4149 led to older incorrect production listings; crew interviews and matching interiors identify 4145.",
+        "sourceIds": [
+          "routes2_pulp_script",
+          "routes2_pulp_ift",
+          "routes2_pulp_crew"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Jimmie Dimmick",
+        "Bonnie Dimmick",
+        "Jules Winnfield",
+        "Vincent Vega",
+        "Winston “The Wolf” Wolfe"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Pulp Fiction",
+          "release_year": 1994,
+          "story_role": "Jimmie and Bonnie’s home",
+          "filming_component": "4145 Kraft Avenue, Studio City, Los Angeles",
+          "source_ids": [
+            "routes2_pulp_script",
+            "routes2_pulp_ift",
+            "routes2_pulp_crew",
+            "routes2_pulp_fo"
+          ],
+          "story_time": {
+            "year": 1994,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_pulp_script"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jimmie Dimmick",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Bonnie Dimmick",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Jules Winnfield",
+              "relationship": "visits"
+            },
+            {
+              "name": "Vincent Vega",
+              "relationship": "visits"
+            },
+            {
+              "name": "Winston “The Wolf” Wolfe",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-781-screen.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2025/04/sc-pulpfiction22.jpg?w=1200",
+          "sourceUrl": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+          "credit": "Pulp Fiction / Miramax; Film Oblivion",
+          "alt": "Jimmie and the Wolf in the backyard.",
+          "note": "Film frame.",
+          "title": "Pulp Fiction",
+          "spoiler": false,
+          "width": 1000,
+          "height": 418
+        },
+        "place": {
+          "src": "photos/routes2-781-place.jpg",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/pulpfiction10-2.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/07/29/pulp-fiction-1994/",
+          "credit": "Film Oblivion",
+          "alt": "The real Kraft Avenue production house.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 782,
+      "name": "The electronics warehouse job",
+      "short": "The electronics warehouse job",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1710 South Naomi Avenue, Los Angeles · production exterior",
+      "area": "Downtown",
+      "coordinates": [
+        -118.238227412839,
+        34.042708123112
+      ],
+      "productionCoordinates": [
+        -118.246906538609,
+        34.02378293873
+      ],
+      "precision": "story-address",
+      "placement": {
+        "kind": "screen",
+        "address": "421 South Alameda Street, Los Angeles · radio address",
+        "precision": "scene-anchor",
+        "reason": "The opening radio report gives 421 South Alameda. The warehouse exterior was filmed at 1710 South Naomi, so the map follows the spoken address and keeps Naomi as production provenance.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_radio",
+          "routes2_drive_sites",
+          "routes2_drive_frames"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "The opening warehouse job",
+          "filming_component": "1710 South Naomi Avenue, Los Angeles · production exterior",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_radio",
+            "routes2_drive_sites",
+            "routes2_drive_frames"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "waits outside"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-782-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pBHd4WvpAtRgA8uD0wHbJZJhTOrTsLLFsPfu-XWxaZAHNhyphenhyphen1nva9PBqhdQmaOJ_kYUIezQb-GRG2Ki-74EORS3uQ1iSNzFH1NnPaufxRRYpldsgg-OebV12WjlquEnHD9MiGQ0XIRuI/s1200/drive01.jpg",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+          "alt": "The electronics warehouse in the opening job.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1200,
+          "height": 513
+        },
+        "place": {
+          "src": "photos/routes2-782-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyAtpAph5cNK83AkQ-wzeGRmdF33TyhVKIA1IP9iE3KX2JX0TjN0ms_2BNU0RH-RMUat80j5tAboAU-F4UmSK4Ca-HWwfLnQdIA_CTPO4LCgDcpDob0oy41pv5cCYilxZbmUICV8gyJ-8/s1200/IMG_0402.JPG",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Robert Patterson / Set-Jetter",
+          "alt": "The Naomi Avenue warehouse used in production.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    },
+    {
+      "id": 783,
+      "name": "Seventh Street Bridge pursuit",
+      "short": "Seventh Street Bridge pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Sixth Street Viaduct, Los Angeles · production bridge",
+      "area": "Arts District / Boyle Heights",
+      "coordinates": [
+        -118.22722,
+        34.03444
+      ],
+      "productionCoordinates": [
+        -118.22694,
+        34.03806
+      ],
+      "precision": "story-address",
+      "placement": {
+        "kind": "screen",
+        "address": "Seventh Street Bridge over the Los Angeles River",
+        "precision": "scene-anchor",
+        "reason": "Police radio identifies Seventh Street Bridge. The scene was shot on the old Sixth Street Bridge, demolished in 2016. The marker follows the bridge named in the finished film; the present-day image shows the replacement Sixth Street filming-site bridge.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_sites",
+          "routes2_drive_frames",
+          "routes2_seventh_bridge"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "Police track the Impala at Seventh Street Bridge",
+          "filming_component": "Sixth Street Viaduct, Los Angeles · production bridge",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_sites",
+            "routes2_drive_frames",
+            "routes2_seventh_bridge"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "passes through"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-783-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwuc0of69TdgO8Gj1FLUFuiSsF6Az6WQBKQ-VYY6FA1GXlqLa8qSjHdkQyI3YwattCc4hmmHdqHDN9yvzEeor38OCOuuQRnpW9uiIrwKdH_aOQPHBaX3h0LtNEW63GWpIdLdQK1yCUAao/s1200/drivea+02.jpg",
+          "sourceUrl": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+          "credit": "Drive / FilmDistrict; Robert Patterson / Set-Jetter",
+          "alt": "The Impala crosses the bridge in the pursuit.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1200,
+          "height": 520
+        },
+        "place": {
+          "src": "photos/routes2-783-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.22814%2C34.03726%2C-118.22574%2C34.03886&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "The replacement Sixth Street Viaduct at the real production site.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 784,
+      "name": "Staples Center parking garage",
+      "short": "Staples Center parking garage",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "800 West Olympic Boulevard, Los Angeles · L.A. LIVE complex",
+      "area": "South Park",
+      "coordinates": [
+        -118.264540470328,
+        34.044840794078
+      ],
+      "productionCoordinates": [
+        -118.264540470328,
+        34.044840794078
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Staples Center / L.A. LIVE parking complex",
+        "precision": "scene-anchor",
+        "reason": "The basketball commentary names Staples Center. Location research identifies the adjoining L.A. LIVE garage; this is a complex-level anchor because the particular filmed parking level is unverified.",
+        "sourceIds": [
+          "routes2_drive_dialogue",
+          "routes2_drive_sites",
+          "routes2_drive_garage_frame",
+          "routes2_la_live"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Driver"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Drive",
+          "release_year": 2011,
+          "story_role": "The opening drive reaches the basketball-game parking garage",
+          "filming_component": "800 West Olympic Boulevard, Los Angeles · L.A. LIVE complex",
+          "source_ids": [
+            "routes2_drive_dialogue",
+            "routes2_drive_sites",
+            "routes2_drive_garage_frame",
+            "routes2_la_live"
+          ],
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_drive_dialogue"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Driver",
+              "relationship": "arrives here"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-784-screen.jpg",
+          "imageUrl": "https://www.replicapropstore.com/cdn/shop/products/drive-cx4-cap_1280x.jpg?v=1579893772",
+          "sourceUrl": "https://www.replicapropstore.com/products/la-cap-drive",
+          "credit": "Drive / FilmDistrict; ReplicaPropStore",
+          "alt": "Driver in a blue cap among basketball fans inside the parking garage.",
+          "note": "Film frame.",
+          "title": "Drive",
+          "spoiler": false,
+          "width": 1280,
+          "height": 538
+        },
+        "place": {
+          "src": "photos/routes2-784-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.266240470328%2C34.043735794077996%2C-118.262840470328%2C34.045945794078&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the L.A. LIVE complex beside the arena.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    },
+    {
+      "id": 785,
+      "name": "Second Street Tunnel pursuit",
+      "short": "Second Street Tunnel pursuit",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West 2nd Street at Hill Street, Los Angeles",
+      "area": "Downtown",
+      "coordinates": [
+        -118.247740035061,
+        34.053098980362
+      ],
+      "productionCoordinates": [
+        -118.247740035061,
+        34.053098980362
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Second Street Tunnel, Downtown Los Angeles",
+        "precision": "scene-anchor",
+        "reason": "The scene comparison identifies the westbound tunnel drive followed by the Figueroa turn. The pin marks the eastern tunnel approach; connecting streets are not reconstructed from edit cuts.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Roger Murtaugh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening car pursuit enters Second Street Tunnel",
+          "filming_component": "West 2nd Street at Hill Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "pursues a car"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "drives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-785-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjElPOtGIAqVxBH5c_fJcohEm06aL1X0laVupUpeGu_yPBQnW1GjfyB0eJEYRG-aZo92se1kHzQksISlnMLcna9l9kHEAVbE6N2ebeBd96BJV_-q4p8ZLhNyKQfxpVqLSR2GKAZ-s7OqPSR45uJOifMmbPG1KzxZOswxS9KVov9sBUXfPvBwMPBKtIwW2Y/s1200/Tunnel%20-%20Copy.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "The station wagon drives through Second Street Tunnel.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 704,
+          "height": 294
+        },
+        "place": {
+          "src": "photos/routes2-785-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwkCSXoqUJy9gAJnP5nYcgojHoaIHXttdzvakCrQDjY5t5ocCe6R5UjBuU611QA517QWR3acBkpnqMhXFpEET-C6aJFj2seBaEk6F1MXbg2ohy5449XlLsf7RIhQqwxUeS2VKMAx5WwX8AG0sNbvYzKEjkAEIXtCGaNPaS5VK3aolOUEMyUS-Fwfp2cxA/s1200/A.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The real Second Street Tunnel approach.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 952,
+          "height": 535
+        }
+      }
+    },
+    {
+      "id": 786,
+      "name": "The Bonaventure collision",
+      "short": "The Bonaventure collision",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "404 South Figueroa Street, Los Angeles",
+      "area": "Downtown",
+      "coordinates": [
+        -118.256020265751,
+        34.052546151938
+      ],
+      "productionCoordinates": [
+        -118.256020265751,
+        34.052546151938
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Westin Bonaventure entrance, Figueroa Street",
+        "precision": "scene-anchor",
+        "reason": "Matched frames locate the station-wagon collision at the Bonaventure entrance. This is a distinct event at the hotel, not a claim that the whole pursuit follows the production edit continuously.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs",
+        "Roger Murtaugh"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening pursuit reaches the Bonaventure entrance",
+          "filming_component": "404 South Figueroa Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "passes through"
+            },
+            {
+              "name": "Roger Murtaugh",
+              "relationship": "drives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-786-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihUNZT9qDQ_c4XJm6i_D5PCy19FUpXdv9uh8UYgafQc58G1xyVAUmQ6gv57D8U3n0hfdRWcu2PX6fXPk4i_9d0PoEYZP_-NyRgjHi5MbC11OjyYBIIH_sPpQnuvJVfDOLv3Gb9cXlDh1E/s1200/Hotel+Drive+3.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "Murtaugh’s wagon at the Bonaventure entrance.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/routes2-786-place.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIzQTg3ksTRcQfvUFlh20pQqABNDxaTTlyEa6JfpDDW52T2t5Gp9PNZuycYdanIF7kZ0LjInfIfkpg6Mf9m326cr7SVtyGkNxTB0ESnt-9_naXRyX_V7TbwhC2FeO0iI1Xr4KO9TmN0wXnFldmDWP4DGQw5mTn_hDvv29n9tTrFxbOS6yfqdGx-EPhIWA/s1200/B%20(1).jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Chas Demster / It’s Filmed There",
+          "alt": "The matching Bonaventure entrance.",
+          "note": "Comparison-site photograph; exact capture date not supplied.",
+          "caption": "Real production site",
+          "width": 1200,
+          "height": 693
+        }
+      }
+    },
+    {
+      "id": 787,
+      "name": "Fourth & Hope helicopter encounter",
+      "short": "Fourth & Hope helicopter encounter",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "West 4th Street at South Hope Street, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.253820686719,
+        34.05221100154
+      ],
+      "productionCoordinates": [
+        -118.253820686719,
+        34.05221100154
+      ],
+      "precision": "production-site",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Fourth Street / Hope Street, Downtown Los Angeles",
+        "precision": "scene-anchor",
+        "reason": "The scene guide identifies the helicopter shot around Fourth and Hope. Its “East 4th” wording is inconsistent with the real Hope intersection; the verified downtown intersection is West 4th. The point is an intersection-level anchor.",
+        "sourceIds": [
+          "routes2_lw2_ift",
+          "routes2_lw2_afi"
+        ]
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Martin Riggs"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Lethal Weapon 2",
+          "release_year": 1989,
+          "story_role": "The opening pursuit at Fourth and Hope",
+          "filming_component": "West 4th Street at South Hope Street, Los Angeles",
+          "source_ids": [
+            "routes2_lw2_ift",
+            "routes2_lw2_afi"
+          ],
+          "story_time": {
+            "year": 1989,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "routes2_lw2_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Martin Riggs",
+              "relationship": "continues the pursuit"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/routes2-787-screen.jpg",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvDknHmKO5xjyDZWxUBYlhO0c-o4WMVbYhU6bkvpw_23o0m0KnBMLNMrBmiqOIlXLtPtFlxJQORzbFx20gfuaISWHv5W8H3AGOX4uwFJ07r3eG8LPkf3y6wAPUpNne4_yq7NMvzJ4TUVc/s1200/Helepcopter.JPG",
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+          "credit": "Lethal Weapon 2 / Warner Bros.; Chas Demster / It’s Filmed There",
+          "alt": "A helicopter rises near the Fourth and Hope intersection.",
+          "note": "Film frame.",
+          "title": "Lethal Weapon 2",
+          "spoiler": false,
+          "width": 800,
+          "height": 339
+        },
+        "place": {
+          "src": "photos/routes2-787-place.jpg",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.25502068671899%2C34.051411001540004%2C-118.252620686719%2C34.05301100154&bboxSR=4326&imageSR=3857&size=1100%2C700&format=jpg&f=image",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Aerial of the Fourth and Hope intersection.",
+          "note": "Aerial of the production site; imagery capture date not supplied.",
+          "caption": "Production site · aerial",
+          "width": 1100,
+          "height": 700
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "routes2_sharon_ift",
+      "title": "Chas Demster: Sharon’s Westwood scenes",
+      "url": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_sharon_fo",
+      "title": "Film Oblivion: Sharon’s Wilshire and Westwood stops",
+      "url": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+      "source_type": "first-hand location photography"
+    },
+    {
+      "id": "routes2_sharon_sony",
+      "title": "Sony Pictures: Once Upon a Time in Hollywood",
+      "url": "https://www.sonypictures.com/movies/onceuponatimeinhollywood",
+      "source_type": "studio synopsis"
+    },
+    {
+      "id": "routes2_collateral_afi",
+      "title": "AFI Catalog: Collateral",
+      "url": "https://catalog.afi.com/Film/54371-COLLATERAL",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_collateral_script",
+      "title": "Collateral screenplay, Michael Mann revisions",
+      "url": "https://imsdb.com/scripts/Collateral.html",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_collateral_sites",
+      "title": "Collateral scene locations",
+      "url": "https://www.movie-locations.com/movies/c/Collateral.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "routes2_training_afi",
+      "title": "AFI Catalog: Training Day",
+      "url": "https://catalog.afi.com/Film/62232-TRAINING-DAY",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_training_script",
+      "title": "David Ayer: Training Day screenplay",
+      "url": "https://www.dailyscript.com/scripts/Training_Day.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_training_ift",
+      "title": "Training Day scene-by-scene locations",
+      "url": "https://www.itsfilmedthere.com/2010/02/training-day.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_pulp_script",
+      "title": "Quentin Tarantino: Pulp Fiction screenplay",
+      "url": "https://www.screenwriter.ch/demandit/files/M_BFNO38KLSZ567NYSJ29/dms/File/PulpFiction.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "routes2_pulp_ift",
+      "title": "Chas Demster: Pulp Fiction scene comparisons",
+      "url": "https://www.itsfilmedthere.com/2010/02/pulp-fiction.html",
+      "source_type": "first-hand location photography and film frames"
+    },
+    {
+      "id": "routes2_pulp_crew",
+      "title": "Jared Cowan: Pulp Fiction locations, interviews with the production team",
+      "url": "https://lamag.com/l-a-on-screen/pulp-fiction-la-locations-25/",
+      "source_type": "production-designer and location-manager interviews"
+    },
+    {
+      "id": "routes2_clueless_sites",
+      "title": "Worldwide Guide: Cher’s Beverly Hills walk",
+      "url": "https://www.movie-locations.com/movies/c/Clueless.php",
+      "source_type": "specialist scene and location research"
+    },
+    {
+      "id": "routes2_clueless_ift",
+      "title": "Clueless matched scene locations",
+      "url": "https://www.itsfilmedthere.com/2010/03/clueless.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_drive_sites",
+      "title": "Worldwide Guide: Drive’s opening pursuit",
+      "url": "https://www.movie-locations.com/movies/d/Drive.php",
+      "source_type": "specialist location research"
+    },
+    {
+      "id": "routes2_drive_frames",
+      "title": "Robert Patterson: Drive matched scene photographs",
+      "url": "https://movielocationsandmore.blogspot.com/2011/11/drive-2011.html",
+      "source_type": "first-hand location photography and film frames"
+    },
+    {
+      "id": "routes2_drive_dialogue",
+      "title": "Drive: finished-film dialogue transcript",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=125646",
+      "source_type": "finished-film transcript"
+    },
+    {
+      "id": "routes2_drive_radio",
+      "title": "Drive: opening police-radio scene",
+      "url": "https://clip.cafe/drive-2011/code-30-ringer-located-at-421-south-alameda/",
+      "source_type": "published film clip"
+    },
+    {
+      "id": "routes2_drive_script",
+      "title": "Hossein Amini: Drive screenplay",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/drive-2011.pdf",
+      "source_type": "screenplay; draft geography checked against the finished film"
+    },
+    {
+      "id": "routes2_drive_garage_frame",
+      "title": "Drive: Driver in the Staples garage crowd",
+      "url": "https://www.replicapropstore.com/products/la-cap-drive",
+      "source_type": "published film frame"
+    },
+    {
+      "id": "routes2_seventh_bridge",
+      "title": "California High-Speed Rail: Seventh Street Bridge historic-property location",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2025/11/LAA_EIR-EIS_Appendix04-B-508.pdf",
+      "source_type": "government historic-property survey"
+    },
+    {
+      "id": "routes2_la_live",
+      "title": "L.A. LIVE: address and arena context",
+      "url": "https://www.lalive.com/visitor-center/faqs",
+      "source_type": "location owner"
+    },
+    {
+      "id": "routes2_lw2_ift",
+      "title": "Chas Demster: Lethal Weapon 2 opening pursuit",
+      "url": "https://www.itsfilmedthere.com/2010/01/lethal-weapon-2.html",
+      "source_type": "matched film frames and location research"
+    },
+    {
+      "id": "routes2_lw2_afi",
+      "title": "AFI Catalog: Lethal Weapon 2",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/58168",
+      "source_type": "film archive"
+    },
+    {
+      "id": "routes2_nightcrawler_audit",
+      "title": "Jared Cowan: Nightcrawler’s dressed street signs and actual crash site",
+      "url": "https://lamag.com/l-a-on-screen/valley-plaza-north-hollywood-movies-tv/",
+      "source_type": "first-hand location photography and scene analysis"
+    },
+    {
+      "id": "routes2_nightcrawler_corridor",
+      "title": "LocationsHub: Nightcrawler, director and location-team interviews",
+      "url": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "source_type": "production-team interviews"
+    },
+    {
+      "id": "routes2_geocoder",
+      "title": "Esri World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "address verification"
+    },
+    {
+      "id": "routes2_imagery",
+      "title": "Esri World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "source_type": "aerial imagery"
+    },
+    {
+      "id": "routes2_pulp_fo",
+      "title": "Film Oblivion: Jimmie’s film frame and real production house",
+      "url": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
+      "source_type": "matched film frames and first-hand location photography"
+    }
+  ],
+  "audit": [
+    {
+      "journey_id": 800,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        180,
+        780,
+        181
+      ],
+      "unique_stops": 3,
+      "story_year_basis": "1969 studio-established setting.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 801,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        68,
+        65,
+        66,
+        67
+      ],
+      "unique_stops": 4,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 802,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "unique_stops": 5,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 803,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        38,
+        40,
+        38,
+        39,
+        38
+      ],
+      "unique_stops": 3,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 804,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        43,
+        781,
+        44,
+        41
+      ],
+      "unique_stops": 4,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 805,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        197,
+        198,
+        199
+      ],
+      "unique_stops": 3,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 806,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        782,
+        783,
+        784
+      ],
+      "unique_stops": 3,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 807,
+      "status": "scene-order checked",
+      "geometry_basis": "Ordered scene anchors only; no routing-engine path or continuous drive invented.",
+      "stop_ids": [
+        785,
+        786,
+        787
+      ],
+      "unique_stops": 3,
+      "story_year_basis": "Contemporary release-year estimate matching existing place records.",
+      "reviewed_on": "2026-11-17",
+      "spoiler_review": "Neutral event and place labels omit death identities, motives and outcomes."
+    },
+    {
+      "journey_id": 800,
+      "note": "Home departure omitted because place186 has no established street point. Gayley lot listings972/980 refer to the same parking site. Bookshop interior/exterior composite not independently pinned here."
+    },
+    {
+      "place_id": 781,
+      "production_geocode": {
+        "id": 781,
+        "query": "4145 Kraft Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=4145+Kraft+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "candidate": {
+          "address": "4145 Kraft Ave, Studio City, California, 91604",
+          "location": {
+            "x": -118.380359093836,
+            "y": 34.143813636221
+          },
+          "score": 100,
+          "attributes": {
+            "Loc_name": "World",
+            "Status": "M",
+            "Score": 100,
+            "Match_addr": "4145 Kraft Ave, Studio City, California, 91604",
+            "LongLabel": "4145 Kraft Ave, Studio City, CA, 91604, USA",
+            "ShortLabel": "4145 Kraft Ave",
+            "Addr_type": "PointAddress",
+            "Type": "",
+            "PlaceName": "",
+            "Place_addr": "4145 Kraft Ave, Studio City, California, 91604",
+            "Phone": "",
+            "URL": "",
+            "Rank": 19.5,
+            "AddBldg": "",
+            "AddNum": "4145",
+            "AddNumFrom": "",
+            "AddNumTo": "",
+            "AddRange": "",
+            "Side": "",
+            "StPreDir": "",
+            "StPreType": "",
+            "StName": "Kraft",
+            "StType": "Ave",
+            "StDir": "",
+            "BldgComp": "",
+            "BldgType": "",
+            "BldgName": "",
+            "LevelType": "",
+            "LevelName": "",
+            "UnitType": "",
+            "UnitName": "",
+            "RoomType": "",
+            "RoomName": "",
+            "WingType": "",
+            "WingName": "",
+            "SubAddr": "",
+            "StAddr": "4145 Kraft Ave",
+            "Block": "",
+            "Sector": "",
+            "Nbrhd": "",
+            "District": "",
+            "City": "Studio City",
+            "MetroArea": "",
+            "Subregion": "Los Angeles County",
+            "Region": "California",
+            "RegionAbbr": "CA",
+            "Territory": "",
+            "Zone": "",
+            "Postal": "91604",
+            "PostalExt": "3039",
+            "Country": "USA",
+            "CntryName": "United States",
+            "LangCode": "ENG",
+            "Distance": 0,
+            "X": -118.380099422475,
+            "Y": 34.14381631843,
+            "DisplayX": -118.380359093836,
+            "DisplayY": 34.143813636221,
+            "Xmin": -118.381359093836,
+            "Xmax": -118.379359093836,
+            "Ymin": 34.142813636221,
+            "Ymax": 34.144813636221,
+            "ExInfo": "",
+            "MatchID": "AQGz8AAA7+QBAJUBBAAAAAAMDEtSQUZUIEFWRU5VRRUENDE0NWYDRU5H",
+            "PotentialID": "",
+            "MatchNarrative": "",
+            "StrucType": "Residential",
+            "StrucDet": "Single Family"
+          },
+          "extent": {
+            "xmin": -118.381359093836,
+            "ymin": 34.142813636221,
+            "xmax": -118.379359093836,
+            "ymax": 34.144813636221
+          }
+        }
+      },
+      "note": "Story point remains in Toluca Lake, distinct from the verified Studio City production home."
+    },
+    {
+      "place_id": 782,
+      "story_geocode": {
+        "id": 782,
+        "query": "421 South Alameda Street, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=421+South+Alameda+Street%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "candidate": {
+          "address": "421 S Alameda St, Los Angeles, California, 90013",
+          "location": {
+            "x": -118.238227412839,
+            "y": 34.042708123112
+          },
+          "score": 100,
+          "attributes": {
+            "Loc_name": "World",
+            "Status": "T",
+            "Score": 100,
+            "Match_addr": "421 S Alameda St, Los Angeles, California, 90013",
+            "LongLabel": "421 S Alameda St, Los Angeles, CA, 90013, USA",
+            "ShortLabel": "421 S Alameda St",
+            "Addr_type": "StreetAddress",
+            "Type": "",
+            "PlaceName": "",
+            "Place_addr": "421 S Alameda St, Los Angeles, California, 90013",
+            "Phone": "",
+            "URL": "",
+            "Rank": 20,
+            "AddBldg": "",
+            "AddNum": "421",
+            "AddNumFrom": "417",
+            "AddNumTo": "499",
+            "AddRange": "417-499",
+            "Side": "R",
+            "StPreDir": "S",
+            "StPreType": "",
+            "StName": "Alameda",
+            "StType": "St",
+            "StDir": "",
+            "BldgComp": "",
+            "BldgType": "",
+            "BldgName": "",
+            "LevelType": "",
+            "LevelName": "",
+            "UnitType": "",
+            "UnitName": "",
+            "RoomType": "",
+            "RoomName": "",
+            "WingType": "",
+            "WingName": "",
+            "SubAddr": "",
+            "StAddr": "421 S Alameda St",
+            "Block": "",
+            "Sector": "",
+            "Nbrhd": "Downtown Los Angeles",
+            "District": "",
+            "City": "Los Angeles",
+            "MetroArea": "",
+            "Subregion": "Los Angeles County",
+            "Region": "California",
+            "RegionAbbr": "CA",
+            "Territory": "",
+            "Zone": "",
+            "Postal": "90013",
+            "PostalExt": "1701",
+            "Country": "USA",
+            "CntryName": "United States",
+            "LangCode": "ENG",
+            "Distance": 0,
+            "X": -118.238227412839,
+            "Y": 34.042708123112,
+            "DisplayX": -118.238227412839,
+            "DisplayY": 34.042708123112,
+            "Xmin": -118.239227412839,
+            "Xmax": -118.237227412839,
+            "Ymin": 34.041708123112,
+            "Ymax": 34.043708123112,
+            "ExInfo": "",
+            "MatchID": "AQJB8QAAiuQBAJUBBAAAAAAMFFNPVVRIIEFMQU1FREEgU1RSRUVUFQM0MjFmA0VORw",
+            "PotentialID": "",
+            "MatchNarrative": "",
+            "StrucType": "",
+            "StrucDet": ""
+          },
+          "extent": {
+            "xmin": -118.239227412839,
+            "ymin": 34.041708123112,
+            "xmax": -118.237227412839,
+            "ymax": 34.043708123112
+          }
+        }
+      },
+      "production_geocode": {
+        "id": 1782,
+        "query": "1710 South Naomi Avenue, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1710+South+Naomi+Avenue%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "candidate": {
+          "address": "1710 Naomi Ave, Los Angeles, California, 90021",
+          "location": {
+            "x": -118.246906538609,
+            "y": 34.02378293873
+          },
+          "score": 98.75,
+          "attributes": {
+            "Loc_name": "World",
+            "Status": "M",
+            "Score": 98.75,
+            "Match_addr": "1710 Naomi Ave, Los Angeles, California, 90021",
+            "LongLabel": "1710 Naomi Ave, Los Angeles, CA, 90021, USA",
+            "ShortLabel": "1710 Naomi Ave",
+            "Addr_type": "PointAddress",
+            "Type": "",
+            "PlaceName": "",
+            "Place_addr": "1710 Naomi Ave, Los Angeles, California, 90021",
+            "Phone": "",
+            "URL": "",
+            "Rank": 19.5,
+            "AddBldg": "",
+            "AddNum": "1710",
+            "AddNumFrom": "",
+            "AddNumTo": "",
+            "AddRange": "",
+            "Side": "",
+            "StPreDir": "",
+            "StPreType": "",
+            "StName": "Naomi",
+            "StType": "Ave",
+            "StDir": "",
+            "BldgComp": "",
+            "BldgType": "",
+            "BldgName": "",
+            "LevelType": "",
+            "LevelName": "",
+            "UnitType": "",
+            "UnitName": "",
+            "RoomType": "",
+            "RoomName": "",
+            "WingType": "",
+            "WingName": "",
+            "SubAddr": "",
+            "StAddr": "1710 Naomi Ave",
+            "Block": "",
+            "Sector": "",
+            "Nbrhd": "",
+            "District": "",
+            "City": "Los Angeles",
+            "MetroArea": "",
+            "Subregion": "Los Angeles County",
+            "Region": "California",
+            "RegionAbbr": "CA",
+            "Territory": "",
+            "Zone": "",
+            "Postal": "90021",
+            "PostalExt": "3034",
+            "Country": "USA",
+            "CntryName": "United States",
+            "LangCode": "ENG",
+            "Distance": 0,
+            "X": -118.247216166112,
+            "Y": 34.024026265379,
+            "DisplayX": -118.246906538609,
+            "DisplayY": 34.02378293873,
+            "Xmin": -118.247906538609,
+            "Xmax": -118.245906538609,
+            "Ymin": 34.02278293873,
+            "Ymax": 34.02478293873,
+            "ExInfo": "",
+            "MatchID": "AQE58QAAd+QBAJUBBAAAAAAMDE5BT01JIEFWRU5VRRUEMTcxMGYDRU5H",
+            "PotentialID": "",
+            "MatchNarrative": "",
+            "StrucType": "Commercial",
+            "StrucDet": "Warehouse"
+          },
+          "extent": {
+            "xmin": -118.247906538609,
+            "ymin": 34.02278293873,
+            "xmax": -118.245906538609,
+            "ymax": 34.02478293873
+          }
+        }
+      },
+      "note": "Spoken 421 South Alameda overrides the Naomi filming address on the story map."
+    },
+    {
+      "place_id": 783,
+      "rejected_geocode": {
+        "id": 783,
+        "query": "7th Street Bridge, Los Angeles, CA",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=7th+Street+Bridge%2C+Los+Angeles%2C+CA&f=json&outFields=%2A&maxLocations=1",
+        "candidate": {
+          "address": "Bridge St, Los Angeles, California, 90033",
+          "location": {
+            "x": -118.217939745818,
+            "y": 34.052511494505
+          },
+          "score": 91.94,
+          "attributes": {
+            "Loc_name": "World",
+            "Status": "M",
+            "Score": 91.94,
+            "Match_addr": "Bridge St, Los Angeles, California, 90033",
+            "LongLabel": "Bridge St, Los Angeles, CA, 90033, USA",
+            "ShortLabel": "Bridge St",
+            "Addr_type": "StreetName",
+            "Type": "",
+            "PlaceName": "",
+            "Place_addr": "Bridge St, Los Angeles, California, 90033",
+            "Phone": "",
+            "URL": "",
+            "Rank": 20,
+            "AddBldg": "",
+            "AddNum": "",
+            "AddNumFrom": "",
+            "AddNumTo": "",
+            "AddRange": "",
+            "Side": "",
+            "StPreDir": "",
+            "StPreType": "",
+            "StName": "Bridge",
+            "StType": "St",
+            "StDir": "",
+            "BldgComp": "",
+            "BldgType": "",
+            "BldgName": "",
+            "LevelType": "",
+            "LevelName": "",
+            "UnitType": "",
+            "UnitName": "",
+            "RoomType": "",
+            "RoomName": "",
+            "WingType": "",
+            "WingName": "",
+            "SubAddr": "",
+            "StAddr": "Bridge St",
+            "Block": "",
+            "Sector": "",
+            "Nbrhd": "Boyle Heights",
+            "District": "",
+            "City": "Los Angeles",
+            "MetroArea": "",
+            "Subregion": "Los Angeles County",
+            "Region": "California",
+            "RegionAbbr": "CA",
+            "Territory": "",
+            "Zone": "",
+            "Postal": "90033",
+            "PostalExt": "1609",
+            "Country": "USA",
+            "CntryName": "United States",
+            "LangCode": "ENG",
+            "Distance": 0,
+            "X": -118.217939745818,
+            "Y": 34.052511494505,
+            "DisplayX": -118.217939745818,
+            "DisplayY": 34.052511494505,
+            "Xmin": -118.218939745818,
+            "Xmax": -118.216939745818,
+            "Ymin": 34.051511494505,
+            "Ymax": 34.053511494505,
+            "ExInfo": "7TH",
+            "MatchID": "AQhW8QAAlOQBAJUBBAAAAAAMDUJSSURHRSBTVFJFRVRmA0VORw",
+            "PotentialID": "",
+            "MatchNarrative": "",
+            "StrucType": "",
+            "StrucDet": ""
+          },
+          "extent": {
+            "xmin": -118.218939745818,
+            "ymin": 34.051511494505,
+            "xmax": -118.216939745818,
+            "ymax": 34.053511494505
+          }
+        }
+      },
+      "note": "Generic “7th Street Bridge” geocoder result incorrectly matched Bridge Street. Actual river-bridge point used, with separate Sixth Street production point."
+    },
+    {
+      "place_id": 787,
+      "note": "Source’s East Fourth typo corrected to West Fourth at Hope, without claiming an exact helicopter/camera position."
+    },
+    {
+      "journey_id": 803,
+      "suggested_spoiler_redactions": [
+        {
+          "path": "precision",
+          "phrases": [
+            "Mia overdoses",
+            "Vincent revives Mia",
+            "Mia survives"
+          ]
+        },
+        {
+          "path": "stops[placeId=39].description",
+          "phrases": [
+            "Vincent takes Mia to Lance after her overdose"
+          ]
+        }
+      ],
+      "note": "These outcome clauses are deliberately absent; do not add them as readable route descriptions."
+    },
+    {
+      "journey_id": 804,
+      "suggested_spoiler_redactions": [
+        {
+          "path": "precision",
+          "phrases": [
+            "Vincent accidentally shoots Marvin",
+            "dispose of Marvin’s body",
+            "the Wolf disposes of the body"
+          ]
+        }
+      ],
+      "note": "No Marvin identity, body, cleanup or Jules retirement outcome is disclosed in the route copy."
+    },
+    {
+      "journey_id": 805,
+      "suggested_spoiler_redactions": [
+        {
+          "path": "precision",
+          "phrases": [
+            "Cher realizes she loves Josh"
+          ]
+        }
+      ],
+      "note": "The romantic realization is deliberately absent; fountain retains its ordinary landmark name."
+    },
+    {
+      "candidate": "Nightcrawler final pursuit",
+      "status": "not added",
+      "sources": [
+        "routes2_nightcrawler_audit",
+        "routes2_nightcrawler_corridor"
+      ],
+      "reason": "Reliable research establishes Laurel Canyon production corridor but also documents signs dressed as Western and Kittridge dressed as Melrose. Restaurant and crash are clear beats, but a third independently placed story waypoint was not verified; a literal Valley route would confuse filming with story geography."
+    },
+    {
+      "place_id": 781,
+      "media_review": "Both images inspected. Replaced arrival street image with a backyard film frame, and incorrectly classified film frame with real exterior photograph. No visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 780,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 782,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 783,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 784,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 785,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 786,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    },
+    {
+      "place_id": 787,
+      "media_review": "Film frame and real-place image inspected; ordinary setting or opening action, without visible injury or critical plot outcome."
+    }
+  ]
+}
