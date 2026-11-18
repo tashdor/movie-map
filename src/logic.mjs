@@ -98,7 +98,12 @@ export function displayEntries(places,filters={}){
     if(category==='all'||category!=='death'&&categories.includes(category)||category==='death'&&p.category==='death')entries.push({...base,isDeath:p.category==='death'});
     if(deaths.length&&p.category!=='death'&&(category==='all'||category==='death')){
       const people=[...new Set(deaths.flatMap(d=>d.people))];
-      entries.push({...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],name:deaths.length===1&&deaths[0].label|| (people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`)});
+      const deathTitles=new Set(deaths.map(d=>d.title)),appearances=active.filter(a=>deathTitles.has(a.title));
+      const mediaByTitle=Object.fromEntries(Object.entries(p.mediaByTitle||{}).filter(([title])=>deathTitles.has(title)));
+      const media=mediaByTitle[appearances[0].title]||(deathTitles.has(p.media?.screen?.title)?p.media:{place:p.media?.place});
+      const settings=appearances.map(a=>a.storySetting||p.storySetting),storySetting=settings.find(s=>s?.canonicalLA===false)||settings.find(Boolean);
+      const death={...base,id:-p.id,baseId:p.id,isDeath:true,category:'death',categories:['death'],appearances,people,media,mediaByTitle,storySetting,name:deaths.length===1&&deaths[0].label|| (people.length===1?`${people[0]}’s death`:`Deaths at ${p.name}`)};
+      if(!filters.query||filterPlaces([death],{query:filters.query}).length)entries.push(death);
     }
     return entries;
   });

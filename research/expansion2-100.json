@@ -10073,12 +10073,12 @@
         -118.463560966059,
         33.984559990458
       ],
-      "precision": "area_inferred",
+      "precision": "building_exterior",
       "placement": {
-        "kind": "inferred",
-        "address": "Venice Canals · approximate",
-        "precision": "area_inferred",
-        "reason": "The recurring exterior is 469 Sherman Canal. The character reference gives a fictional Talanca address in Venice, so the canal-side filming house supplies an approximate display point rather than a verified canonical parcel. Interiors were built on a stage.",
+        "kind": "filming-proxy",
+        "address": "Venice Canals",
+        "precision": "building_exterior",
+        "reason": "The recurring exterior is verified at 469 Sherman Canal. The pin marks that filmed house, not a verified match for the fictional Talanca address used in the story. Interiors were built on a stage.",
         "sourceIds": [
           "x2tv_mitch",
           "x2tv_baymitch"

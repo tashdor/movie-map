@@ -162,6 +162,30 @@ test('All lists death events separately at full location identity',()=>{
   assert.deepEqual(displayEntries([trejo],{category:'death'}).map(p=>p.id),[-4]);
   assert.equal(displayEntries([trejo],{film:'Blade Runner'}).length,0);
 });
+test('a death at a shared venue belongs only to its own film, date, people and photos',()=>{
+  const rialto=data.places.find(p=>p.id===96),[venue,death]=displayEntries([rialto]);
+  assert.deepEqual(venue.appearances.map(a=>a.title),['La La Land','The Player']);
+  assert.deepEqual(death.appearances.map(a=>a.title),['The Player']);
+  assert.deepEqual(death.appearances.map(a=>a.story_time.year),[1992]);
+  assert.deepEqual(death.people,['David Kahane']);
+  assert.deepEqual(associatedPeople(death),['David Kahane']);
+  assert.equal(death.media.screen.title,'The Player');
+  assert.deepEqual(Object.keys(death.mediaByTitle),['The Player']);
+  for(const query of ['La La Land','Mia Dolan','Sebastian Wilder']){
+    assert.deepEqual(displayEntries([rialto],{query}).map(p=>p.id),[96],query);
+    assert.deepEqual(displayEntries([rialto],{query,category:'death'}),[],query);
+  }
+  assert.deepEqual(displayEntries([rialto],{query:'David Kahane'}).map(p=>p.id),[96,-96]);
+  assert.deepEqual(displayEntries([rialto],{film:'La La Land'}).map(p=>p.id),[96]);
+  assert.deepEqual(displayEntries([rialto],{time:time(2016)}).map(p=>p.id),[96]);
+  assert.deepEqual(displayEntries([rialto],{film:'The Player',time:time(1992)}).map(p=>p.id),[96,-96]);
+  for(const event of displayEntries(data.places).filter(p=>p.baseId&&p.isDeath)){
+    const titles=new Set(event.deaths.map(d=>d.title));
+    assert.ok(event.appearances.every(a=>titles.has(a.title)),event.id);
+    assert.ok(Object.keys(event.mediaByTitle||{}).every(title=>titles.has(title)),event.id);
+    if(event.media?.screen)assert.ok(titles.has(event.media.screen.title),event.id);
+  }
+});
 test('location Back preserves its route or person context in shared state',()=>{
   const base={...readState(''),tab:'journeys',route:300};
   const place=selectPlace(base,272);
@@ -211,6 +235,15 @@ test('new television places are recurring landmarks with story-first geography a
   assert.equal(get(499).productionSites.length,2,'the Griffin exterior and Prince interior are one story bar');
   assert.match(get(499).media.place.caption,/Prince interior/);
   assert.equal(data.places.filter(p=>p.name==='Craig Jones’s home').length,1,'the existing Friday home is not counted twice');
+  const mitch=get(489);
+  assert.equal(mitch.placement.kind,'filming-proxy');
+  assert.equal(mitch.placement.precision,'building_exterior');
+  assert.deepEqual(mitch.coordinates,mitch.productionCoordinates);
+  assert.match(mitch.address,/469 Sherman Canal/);
+  assert.equal(mitch.placement.address,'Venice Canals');
+  assert.match(mitch.placement.reason,/fictional Talanca address/);
+  assert.equal(mitch.placement.geometry,undefined);
+  assert.equal(mitch.placement.viewport,undefined);
 });
 test('Angels Flight searches find Summer’s adjacent bench without inventing a railway ride',()=>{
   const matches=filterPlaces(data.places,{film:'(500) Days of Summer',query:'Angels Flight'});
