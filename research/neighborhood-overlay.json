@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "asset": "public/la-neighborhoods.geojson",
+  "retrieved_date": "2026-11-17",
+  "dataset": {
+    "title": "Mapping L.A. — All L.A. County neighborhoods JSON (Simplified)",
+    "publisher": "Los Angeles Times Data Desk",
+    "project_url": "https://maps.latimes.com/neighborhoods/",
+    "methodology_url": "https://maps.latimes.com/about/index.html",
+    "download_url": "https://s3-us-west-2.amazonaws.com/mappingla.com/downloads/neighborhoods/la_county_simplified.json",
+    "source_last_modified_http": "2012-02-06T18:36:35Z",
+    "source_last_modified_note": "HTTP file timestamp; not a claim that the boundaries were surveyed or updated on that date.",
+    "source_bytes": 263996,
+    "source_sha256": "c707b79c118487dffcda3cb4d36af564b76818db4114d4b23c21046b0b0f4f22",
+    "definition": "The Times’ 272 named Mapping L.A. areas: 114 neighborhoods within the city of Los Angeles plus 158 cities and unincorporated places elsewhere in the county. The term neighborhood includes standalone cities and rural areas. Some small unincorporated enclaves are combined with adjacent cities for this model.",
+    "boundary_status": "Editorial community boundaries from the publisher, not legal neighborhood boundaries or neighborhood-council districts.",
+    "coverage_notes": [
+      "Covers the county mainland, including the Antelope Valley, Santa Clarita, San Fernando Valley, Westside, Eastside and Downtown.",
+      "Includes Avalon and Unincorporated Catalina Island. The upstream file does not contain San Clemente Island; no missing island boundary was invented.",
+      "This historical layer is independent of the film timeline; boundaries should not be presented as era-specific."
+    ]
+  },
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 2.0 Generic",
+    "spdx": "CC-BY-SA-2.0",
+    "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "legalcode_url": "https://creativecommons.org/licenses/by-sa/2.0/legalcode",
+    "evidence_url": "https://maps.latimes.com/about/index.html",
+    "evidence_note": "The publisher’s About page links this exact simplified download and explicitly offers its neighborhood boundaries under the linked CC BY-SA 2.0 license.",
+    "asset_license": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "required_attribution": "Neighborhood boundaries: Los Angeles Times, Mapping L.A. (CC BY-SA 2.0). Properties and ring winding normalized; one zero-area hole omitted; source boundary area footprints unchanged.",
+    "attribution_links": [
+      {
+        "label": "Los Angeles Times · Mapping L.A.",
+        "url": "https://maps.latimes.com/neighborhoods/"
+      },
+      {
+        "label": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      }
+    ],
+    "reuse_note": "Credit the publisher and dataset, link the license, identify the normalization, and distribute the adapted boundary data under CC BY-SA 2.0. The license notice is embedded in the public GeoJSON asset."
+  },
+  "normalization": {
+    "feature_id": "Original publisher slug, unchanged, exposed as Feature.id and properties.id.",
+    "properties": "Retained original name and slug as id; did not invent neighborhood kind classifications.",
+    "crs": "WGS 84 longitude/latitude (GeoJSON / OGC:CRS84)",
+    "geometry": "All 272 source MultiPolygon area footprints retained. Exterior rings normalized counterclockwise and holes clockwise. One zero-area collinear hole in Stevenson Ranch was omitted; retained coordinate positions were not changed.",
+    "simplification": "Used the publisher’s already simplified download, described by the publisher as Douglas–Peucker reduction for web maps. No additional simplification or rounding applied.",
+    "rings_reversed": 333,
+    "degenerate_holes_omitted": [
+      {
+        "id": "stevenson-ranch",
+        "ring": [
+          [
+            -118.590864,
+            34.373465
+          ],
+          [
+            -118.590864,
+            34.373465
+          ],
+          [
+            -118.590864,
+            34.373466
+          ],
+          [
+            -118.590864,
+            34.373465
+          ]
+        ],
+        "reason": "Zero-area collinear interior ring in upstream simplified file; omitted to keep valid polygon rings."
+      }
+    ],
+    "runtime_dependencies": []
+  },
+  "validation": {
+    "feature_count": 272,
+    "unique_ids": 272,
+    "unique_names": 272,
+    "geometry_types": {
+      "MultiPolygon": 272
+    },
+    "ring_count": 334,
+    "coordinate_count": 7320,
+    "bbox_west_south_east_north": [
+      -118.944864,
+      33.298319,
+      -117.645604,
+      34.823168
+    ],
+    "checks": [
+      "Every feature has a unique nonempty id and name.",
+      "All geometry is MultiPolygon; every ring is closed with at least four coordinate pairs and nonzero signed area.",
+      "Every coordinate is finite longitude/latitude inside the expected L.A. County regional bounds.",
+      "Original positions in nondegenerate source rings and feature area footprints are preserved; ring winding was normalized and one zero-area interior ring omitted.",
+      "Representative city, county-community and L.A.-neighborhood names are present."
+    ],
+    "coverage_names_checked": [
+      "Downtown",
+      "Venice",
+      "Westwood",
+      "North Hollywood",
+      "East Los Angeles",
+      "Lancaster",
+      "Palmdale",
+      "Santa Clarita",
+      "Burbank",
+      "Long Beach",
+      "Avalon",
+      "Unincorporated Catalina Island"
+    ],
+    "asset_bytes": 215697,
+    "asset_gzip_bytes": 56831,
+    "asset_sha256": "7979763d69b10e27dddd2c854938597a7727540b839ff3eab4b809016ba853e5"
+  },
+  "alternatives_reviewed": [
+    {
+      "url": "https://github.com/datadesk/mapping-la-data",
+      "revision": "5acc817cd8e9ef1800dc9641493e46efe7ce35b0",
+      "file": "geojson/la-county-neighborhoods-v6.geojson",
+      "finding": "Despite its filename, this newer repository file contains 318 features: 270 tagged Los Angeles County and 48 tagged Orange County. Repository license is MIT, whereas the original boundary download’s publisher page explicitly uses CC BY-SA 2.0. The exact original 272-area source was selected instead."
+    },
+    {
+      "url": "https://www.arcgis.com/home/item.html?id=d6c55385a0e749519f238b77135eafac",
+      "finding": "City GeoHub derivative clips the Times boundaries to the City of Los Angeles; it is unsuitable for the requested countywide layer."
+    }
+  ]
+}

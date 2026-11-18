@@ -82,7 +82,7 @@ test('unpunctuated movie titles find every location for the film',()=>{
   }
 });
 test('shareable state roundtrips and clamps hostile/out-of-bounds inputs',()=>{
-  const state={laOnly:false,selected:83,route:null,basemap:'map',person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
+  const state={neighborhoods:false,landmarks:false,laOnly:false,selected:83,route:null,basemap:'map',person:null,query:'Rain Robinson',category:'work',film:'Star Trek: Voyager',tab:'people',time:time(1996)};
   assert.deepEqual(readState(stateHash(state)),state);
   assert.deepEqual(readState('#from=9999&to=1').time,{all:true,from:1930,to:2030,undated:false});
   assert.equal(readState('#from=bad&to=1995').time.all,true);

@@ -1,0 +1,871 @@
+{
+  "schema_version": 1,
+  "asset": "public/la-landmarks.geojson",
+  "retrieved_date": "2026-11-17",
+  "scope": "45 independent cultural, architectural, historic, recreational and visitor landmarks on the Los Angeles County mainland. These records have no film, television, person, timeline or story-setting association.",
+  "selection_notes": [
+    "Includes Downtown, Hollywood, the San Fernando Valley, the Westside/coast, Pasadena/San Marino, Long Beach, San Pedro/Palos Verdes and the north county.",
+    "One record per institution or distinct landmark. Linked museums on separate campuses remain distinct; related sub-attractions within one institution are combined.",
+    "Excludes islands, studio backlots, private-home tourism pins and locations outside Los Angeles County.",
+    "Pins represent actual structures, campuses or public access points; they are not surveyed entrances, routing promises or area boundaries."
+  ],
+  "attribution": {
+    "text": "Landmark names and visitor addresses: linked institutions, public agencies and site organizations. Coordinate references are credited individually below.",
+    "coordinate_reference_credit": "Wikipedia contributors (individual landmark articles linked in the entries); Esri World Geocoding Service for the explicitly identified place/address cross-checks; official institution map links and structured metadata where available.",
+    "wikipedia_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "note": "Only factual place identifiers, addresses, URLs and point coordinates are included. No descriptive article text, photos, tiles or third-party boundary geometry is included in this layer."
+  },
+  "validation": {
+    "feature_count": 45,
+    "geometry": "Point",
+    "coordinate_system": "WGS 84 longitude/latitude (GeoJSON / OGC:CRS84)",
+    "unique_ids": true,
+    "required_properties": [
+      "id",
+      "name",
+      "category",
+      "address",
+      "url"
+    ],
+    "county_boundary_asset": "public/la-county.geojson",
+    "county_boundary_sha256": "f7d361d192d7e6bb783c66230bd2422dcb31bbe70112a497f66219a6d4e116d0",
+    "all_points_inside_county_mainland": true,
+    "outside_county_ids": [],
+    "geojson_sha256": "7f2a8ffbabecbd0efd6cdd4fab2c0eba323e1f527d3b12b3f604ddb4eb339d92"
+  },
+  "entries": [
+    {
+      "id": "hollywood-sign",
+      "name": "Hollywood Sign",
+      "official_url": "https://www.hollywoodsign.org/",
+      "address_source_urls": [
+        "https://www.hollywoodsign.org/"
+      ],
+      "coordinates": [
+        -118.3215917,
+        34.1340611
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Hollywood_Sign",
+        "publisher": "Wikipedia contributors"
+      },
+      "note": "The sign itself is on Mount Lee. This is a physical landmark pin, not an access gate or hiking route. The Trust identifies Griffith Park / Mount Lee rather than a public street-number entrance."
+    },
+    {
+      "id": "griffith-observatory",
+      "name": "Griffith Observatory",
+      "official_url": "https://griffithobservatory.lacity.gov/visit/",
+      "address_source_urls": [
+        "https://griffithobservatory.lacity.gov/visit/"
+      ],
+      "coordinates": [
+        -118.3003333,
+        34.1183333
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Griffith_Observatory",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "getty-center",
+      "name": "Getty Center",
+      "official_url": "https://www.getty.edu/visit/center/",
+      "address_source_urls": [
+        "https://www.getty.edu/visit/center/"
+      ],
+      "coordinates": [
+        -118.4746858,
+        34.0776678
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Getty+Center%2C+1200+Getty+Center+Drive%2C+Los+Angeles%2C+CA+90049&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "Getty Center",
+        "matched_address": "1200 Getty Center Dr, Los Angeles, California, 90049",
+        "match_type": "POI",
+        "score": 100,
+        "cross_check_url": "https://en.wikipedia.org/wiki/Getty_Center"
+      },
+      "note": "Pin is on the hilltop museum campus, not the Sepulveda parking/arrival station."
+    },
+    {
+      "id": "getty-villa",
+      "name": "Getty Villa Museum",
+      "official_url": "https://www.getty.edu/visit/villa/",
+      "address_source_urls": [
+        "https://www.getty.edu/visit/villa/"
+      ],
+      "coordinates": [
+        -118.5648608,
+        34.0458857
+      ],
+      "coordinate_provenance": {
+        "method": "Official Getty Villa map destination",
+        "url": "https://www.google.com/maps/place/The+Getty+Villa/@34.0458857,-118.5648608,15z/data=!4m5!3m4!1s0x0:0xe4f98965af6ca4b0!8m2!3d34.0458857!4d-118.5648608?hl=en&shorturl=1",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Getty_Villa"
+      },
+      "note": "Pin is the museum destination in Getty’s own map link, not a Pacific Coast Highway street midpoint."
+    },
+    {
+      "id": "lacma",
+      "name": "Los Angeles County Museum of Art",
+      "official_url": "https://www.lacma.org/plan-your-visit",
+      "address_source_urls": [
+        "https://www.lacma.org/plan-your-visit"
+      ],
+      "coordinates": [
+        -118.3592,
+        34.0633
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Los_Angeles_County_Museum_of_Art",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "academy-museum",
+      "name": "Academy Museum of Motion Pictures",
+      "official_url": "https://www.academymuseum.org/visit",
+      "address_source_urls": [
+        "https://www.academymuseum.org/visit"
+      ],
+      "coordinates": [
+        -118.3608333,
+        34.0633333
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Academy_Museum_of_Motion_Pictures",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "la-brea-tar-pits",
+      "name": "La Brea Tar Pits",
+      "official_url": "https://tarpits.org/",
+      "address_source_urls": [
+        "https://tarpits.org/"
+      ],
+      "coordinates": [
+        -118.3568622,
+        34.0635316
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=La+Brea+Tar+Pits%2C+5801+Wilshire+Boulevard%2C+Los+Angeles%2C+CA+90036&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "La Brea Tar Pits & Museum",
+        "matched_address": "5801 Wilshire Blvd, Los Angeles, California, 90036",
+        "match_type": "POI",
+        "score": 94.95,
+        "cross_check_url": "https://en.wikipedia.org/wiki/La_Brea_Tar_Pits"
+      }
+    },
+    {
+      "id": "walt-disney-concert-hall",
+      "name": "Walt Disney Concert Hall",
+      "official_url": "https://www.laphil.com/visit/getting-here",
+      "address_source_urls": [
+        "https://www.laphil.com/visit/getting-here"
+      ],
+      "coordinates": [
+        -118.25,
+        34.0552778
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "the-broad",
+      "name": "The Broad",
+      "official_url": "https://www.thebroad.org/visit",
+      "address_source_urls": [
+        "https://www.thebroad.org/visit"
+      ],
+      "coordinates": [
+        -118.2506,
+        34.0544
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/The_Broad",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "union-station",
+      "name": "Union Station",
+      "official_url": "https://unionstationla.com/visit/",
+      "address_source_urls": [
+        "https://unionstationla.com/visit/"
+      ],
+      "coordinates": [
+        -118.2366472,
+        34.0558726
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Union+Station%2C+800+N+Alameda+Street%2C+Los+Angeles%2C+CA+90012&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "Union Station",
+        "matched_address": "800 N Alameda St, Los Angeles, California, 90012",
+        "match_type": "POI",
+        "score": 100,
+        "cross_check_url": "https://en.wikipedia.org/wiki/Los_Angeles_Union_Station"
+      },
+      "note": "Pin is at the historic station complex. The official page’s embedded map was rejected because its longitude placed it west of Alameda; a matching named-station POI was used instead."
+    },
+    {
+      "id": "central-library",
+      "name": "Los Angeles Central Library",
+      "official_url": "https://www.lapl.org/branches/central-library",
+      "address_source_urls": [
+        "https://www.lapl.org/branches/central-library"
+      ],
+      "coordinates": [
+        -118.2549741,
+        34.0503653
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Los+Angeles+Central+Library%2C+630+W+5th+Street%2C+Los+Angeles%2C+CA+90071&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "Central Library",
+        "matched_address": "630 W 5th St, Los Angeles, California, 90071",
+        "match_type": "POI",
+        "score": 98.15,
+        "cross_check_url": "https://www.lapl.org/branches/central-library"
+      }
+    },
+    {
+      "id": "el-pueblo-olvera-street",
+      "name": "El Pueblo de Los Angeles / Olvera Street",
+      "official_url": "https://elpueblo.lacity.gov/",
+      "address_source_urls": [
+        "https://elpueblo.lacity.gov/"
+      ],
+      "coordinates": [
+        -118.2377778,
+        34.0569444
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/El_Pueblo_de_Los_Angeles_Historical_Monument",
+        "publisher": "Wikipedia contributors"
+      },
+      "note": "Single district record combines the historic plaza and Olvera Street; 125 Paseo de la Plaza is the official site address."
+    },
+    {
+      "id": "grand-central-market",
+      "name": "Grand Central Market",
+      "official_url": "https://grandcentralmarket.com/contact/",
+      "address_source_urls": [
+        "https://grandcentralmarket.com/contact/"
+      ],
+      "coordinates": [
+        -118.2490552,
+        34.050872
+      ],
+      "coordinate_provenance": {
+        "method": "Official market map destination",
+        "url": "https://www.google.com/maps/place/Grand+Central+Market/@34.050872,-118.2516301,809m/data=!3m2!1e3!4b1!4m6!3m5!1s0x80c2c64b8e4372e7:0x489d4efdeb06d3d8!8m2!3d34.050872!4d-118.2490552!16zL20vMDdmN3M5?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Grand_Central_Market_(Los_Angeles)"
+      }
+    },
+    {
+      "id": "bradbury-building",
+      "name": "Bradbury Building",
+      "official_url": "https://thebradburybuilding.com/contact/",
+      "address_source_urls": [
+        "https://thebradburybuilding.com/contact/"
+      ],
+      "coordinates": [
+        -118.2478573,
+        34.050604
+      ],
+      "coordinate_provenance": {
+        "method": "Official building map destination",
+        "url": "https://www.google.com/maps/dir//Bradbury+Building,+304+S+Broadway,+Los+Angeles,+CA+90013/@34.0466239,-118.2644227,15z/data=!3m1!5s0x80c2c64be952df6b:0xf6ab78aea8884ced!4m9!4m8!1m0!1m5!1m1!1s0x80c2c64bf2828b05:0x955a9f0a8f53103b!2m2!1d-118.2478573!2d34.050604!3e0?entry=ttu",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Bradbury_Building"
+      }
+    },
+    {
+      "id": "angels-flight",
+      "name": "Angels Flight Railway",
+      "official_url": "https://www.angelsflight.org/",
+      "address_source_urls": [
+        "https://www.angelsflight.org/"
+      ],
+      "coordinates": [
+        -118.2502111,
+        34.0513389
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Angels_Flight",
+        "publisher": "Wikipedia contributors"
+      },
+      "note": "Official lower entrance address retained; published coordinate is at the railway’s Hill Street end. The Grand Avenue upper entrance is a second entrance to the same railway."
+    },
+    {
+      "id": "tcl-chinese-theatre",
+      "name": "TCL Chinese Theatre",
+      "official_url": "https://www.tclchinesetheatres.com/",
+      "address_source_urls": [
+        "https://www.tclchinesetheatres.com/contact-us"
+      ],
+      "coordinates": [
+        -118.3409722,
+        34.1019444
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Grauman%27s_Chinese_Theatre",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "hollywood-bowl",
+      "name": "Hollywood Bowl",
+      "official_url": "https://www.hollywoodbowl.com/visit/plan-your-visit",
+      "address_source_urls": [
+        "https://www.hollywoodbowl.com/visit/venue-guide"
+      ],
+      "coordinates": [
+        -118.3388889,
+        34.1127778
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Hollywood_Bowl",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "watts-towers",
+      "name": "Watts Towers",
+      "official_url": "https://culture.lacity.gov/cultural-centers/watts-towers-campus",
+      "address_source_urls": [
+        "https://culture.lacity.gov/cultural-centers/watts-towers-campus"
+      ],
+      "coordinates": [
+        -118.2410472,
+        33.9387389
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Watts_Towers",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "rose-bowl",
+      "name": "Rose Bowl Stadium",
+      "official_url": "https://www.rosebowlstadium.com/",
+      "address_source_urls": [
+        "https://www.rosebowlstadium.com/"
+      ],
+      "coordinates": [
+        -118.168,
+        34.161
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "the-huntington",
+      "name": "The Huntington",
+      "official_url": "https://www.huntington.org/plan-your-visit",
+      "address_source_urls": [
+        "https://www.huntington.org/plan-your-visit"
+      ],
+      "coordinates": [
+        -118.1122738,
+        34.1281384
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=The+Huntington%2C+1151+Oxford+Road%2C+San+Marino%2C+CA+91108&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "The Huntington",
+        "matched_address": "1151 Oxford Rd, San Marino, California, 91108",
+        "match_type": "POI",
+        "score": 100,
+        "cross_check_url": "https://en.wikipedia.org/wiki/Huntington_Library"
+      },
+      "note": "Single campus record includes the library, art museum and botanical gardens."
+    },
+    {
+      "id": "norton-simon-museum",
+      "name": "Norton Simon Museum",
+      "official_url": "https://www.nortonsimon.org/",
+      "address_source_urls": [
+        "https://www.nortonsimon.org/assets/Education/Tour-Guidelines/Updated-Guidelines-for-Museum-Educator-Led-School-Tours-2023-2024.pdf"
+      ],
+      "coordinates": [
+        -118.15926,
+        34.14635
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Norton+Simon+Museum%2C+411+W+Colorado+Boulevard%2C+Pasadena%2C+CA+91105&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "Norton Simon Museum",
+        "matched_address": "411 W Colorado Blvd, Pasadena, California, 91105",
+        "match_type": "POI",
+        "score": 100,
+        "cross_check_url": "https://en.wikipedia.org/wiki/Norton_Simon_Museum"
+      }
+    },
+    {
+      "id": "gamble-house",
+      "name": "Gamble House",
+      "official_url": "https://gamblehouse.org/visit/",
+      "address_source_urls": [
+        "https://gamblehouse.org/visit/"
+      ],
+      "coordinates": [
+        -118.1608,
+        34.1515611
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Gamble_House_(Pasadena,_California)",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "descanso-gardens",
+      "name": "Descanso Gardens",
+      "official_url": "https://www.descansogardens.org/visit/",
+      "address_source_urls": [
+        "https://www.descansogardens.org/visit/"
+      ],
+      "coordinates": [
+        -118.2098,
+        34.201475
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Descanso_Gardens",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "mission-san-fernando",
+      "name": "Mission San Fernando Rey de España",
+      "official_url": "https://www.missionsanfernandorey.org/",
+      "address_source_urls": [
+        "https://www.missionsanfernandorey.org/"
+      ],
+      "coordinates": [
+        -118.4612,
+        34.2731
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Mission_San_Fernando_Rey_de_Espa%C3%B1a",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "the-japanese-garden",
+      "name": "The Japanese Garden",
+      "official_url": "https://thejapanesegarden.com/",
+      "address_source_urls": [
+        "https://thejapanesegarden.com/"
+      ],
+      "coordinates": [
+        -118.480782,
+        34.18269
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=The+Japanese+Garden%2C+6100+Woodley+Avenue%2C+Van+Nuys%2C+CA+91406&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "The Japanese Garden",
+        "matched_address": "6100 Woodley Ave, Van Nuys, California, 91406",
+        "match_type": "POI",
+        "score": 100,
+        "cross_check_url": "https://en.wikipedia.org/wiki/The_Japanese_Garden"
+      }
+    },
+    {
+      "id": "nethercutt-collection",
+      "name": "Nethercutt Museum & Collection",
+      "official_url": "https://nethercuttcollection.org/the-museum/automobiles/",
+      "address_source_urls": [
+        "https://nethercuttcollection.org/the-museum/automobiles/"
+      ],
+      "coordinates": [
+        -118.4640357,
+        34.3073609
+      ],
+      "coordinate_provenance": {
+        "method": "Official museum map destination at 15151 Bledsoe Street",
+        "url": "https://www.google.com/maps/dir//15151+Bledsoe+St+Sylmar,+CA+91342/@34.3073609,-118.4640357,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c28fe79096991d:0xa407881975efb674!2m2!1d-118.4640357!2d34.3073609?entry=ttu",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Nethercutt_Collection"
+      },
+      "note": "Pin and address identify the Nethercutt Museum at 15151 Bledsoe Street. The related Collection building is across the street at 15158; the two are represented by one institution record."
+    },
+    {
+      "id": "santa-monica-pier",
+      "name": "Santa Monica Pier",
+      "official_url": "https://www.santamonicapier.org/",
+      "address_source_urls": [
+        "https://www.santamonicapier.org/"
+      ],
+      "coordinates": [
+        -118.4986111,
+        34.0086111
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Santa_Monica_Pier",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "venice-canals",
+      "name": "Venice Canals",
+      "official_url": "https://venicecanals.org/faq-visitors/",
+      "address_source_urls": [
+        "https://venicecanals.org/faq-visitors/"
+      ],
+      "coordinates": [
+        -118.4652778,
+        33.9836111
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Venice_Canal_Historic_District",
+        "publisher": "Wikipedia contributors"
+      },
+      "note": "Historic district has no single visitor street number. The address uses the northern/southern boundaries given by the canals association; point represents the canal district, not a private home."
+    },
+    {
+      "id": "venice-beach",
+      "name": "Venice Beach",
+      "official_url": "https://beaches.lacounty.gov/venice-beach/",
+      "address_source_urls": [
+        "https://www.laparks.org/venice/?height=95%25&iframe=true&width=95%25"
+      ],
+      "coordinates": [
+        -118.4739269,
+        33.9861004
+      ],
+      "coordinate_provenance": {
+        "method": "Point-address reference at public recreation area",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Venice+Beach%2C+1800+Ocean+Front+Walk%2C+Venice%2C+CA+90291&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "1800 Ocean Front Walk, Venice, California, 90291",
+        "matched_address": "1800 Ocean Front Walk, Venice, California, 90291",
+        "match_type": "PointAddress",
+        "score": 98.1,
+        "cross_check_url": "https://beaches.lacounty.gov/venice-beach/"
+      },
+      "note": "1800 Ocean Front Walk identifies the public recreation/skatepark area within Venice Beach. This is a representative public destination, not the entire beach boundary."
+    },
+    {
+      "id": "malibu-surfrider-beach",
+      "name": "Malibu Surfrider Beach",
+      "official_url": "https://beaches.lacounty.gov/malibu-surfrider-beach/",
+      "address_source_urls": [
+        "https://beaches.lacounty.gov/malibu-surfrider-beach/"
+      ],
+      "coordinates": [
+        -118.6791667,
+        34.0333333
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Malibu_Lagoon_State_Beach",
+        "publisher": "Wikipedia contributors"
+      },
+      "note": "Representative Surfrider beach point, east of Malibu Lagoon, rather than the county page’s broader PCH/Malibu Road map viewport."
+    },
+    {
+      "id": "adamson-house",
+      "name": "Adamson House",
+      "official_url": "https://www.parks.ca.gov/?page_id=672",
+      "address_source_urls": [
+        "https://www.parks.ca.gov/?page_id=672"
+      ],
+      "coordinates": [
+        -118.6783333,
+        34.0344444
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Adamson_House",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "queen-mary",
+      "name": "The Queen Mary",
+      "official_url": "https://www.queenmary.com/directions.htm",
+      "address_source_urls": [
+        "https://www.queenmary.com/directions.htm"
+      ],
+      "coordinates": [
+        -118.1897222,
+        33.7530556
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/RMS_Queen_Mary",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "aquarium-of-the-pacific",
+      "name": "Aquarium of the Pacific",
+      "official_url": "https://www.aquariumofpacific.org/visit",
+      "address_source_urls": [
+        "https://www.aquariumofpacific.org/visit"
+      ],
+      "coordinates": [
+        -118.19692,
+        33.76216
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Aquarium_of_the_Pacific",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "battleship-iowa",
+      "name": "Battleship USS Iowa Museum",
+      "official_url": "https://pacificbattleship.com/",
+      "address_source_urls": [
+        "https://pacificbattleship.com/"
+      ],
+      "coordinates": [
+        -118.2772,
+        33.7423
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/USS_Iowa_(BB-61)",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "korean-bell-of-friendship",
+      "name": "Korean Bell of Friendship",
+      "official_url": "https://www.spcvb.com/content/kite-flying-korean-friendship-bell",
+      "address_source_urls": [
+        "https://www.laparks.org/sites/default/files/reccenter/friendship-auditorium/media/specialeventsbrochure.pdf"
+      ],
+      "coordinates": [
+        -118.2938139,
+        33.7096778
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Korean_Bell_of_Friendship",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "point-vicente-lighthouse",
+      "name": "Point Vicente Lighthouse",
+      "official_url": "https://palosverdes.com/pvlight/",
+      "address_source_urls": [
+        "https://palosverdes.com/pvlight/"
+      ],
+      "coordinates": [
+        -118.4106,
+        33.7419
+      ],
+      "coordinate_provenance": {
+        "method": "Lighthouse visitor site published map coordinate",
+        "url": "https://palosverdes.com/pvlight/",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Point_Vicente_Lighthouse"
+      }
+    },
+    {
+      "id": "natural-history-museum",
+      "name": "Natural History Museum of Los Angeles County",
+      "official_url": "https://nhm.org/plan-your-visit",
+      "address_source_urls": [
+        "https://nhm.org/plan-your-visit"
+      ],
+      "coordinates": [
+        -118.2877778,
+        34.0169444
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Natural_History_Museum_of_Los_Angeles_County",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "california-science-center",
+      "name": "California Science Center",
+      "official_url": "https://californiasciencecenter.org/visit",
+      "address_source_urls": [
+        "https://californiasciencecenter.ca.gov/sites/default/files/documents/2025-03/Flight%20Team%20Intern%20Application%20%28Summer%202025%29.pdf"
+      ],
+      "coordinates": [
+        -118.2858333,
+        34.0155556
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/California_Science_Center",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "dodger-stadium",
+      "name": "Dodger Stadium",
+      "official_url": "https://www.mlb.com/dodgers/ballpark",
+      "address_source_urls": [
+        "https://www.mlb.com/dodgers/ballpark"
+      ],
+      "coordinates": [
+        -118.24053,
+        34.07368
+      ],
+      "coordinate_provenance": {
+        "method": "Dodgers official embedded venue defaultCoordinates",
+        "url": "https://www.mlb.com/dodgers/ballpark",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Dodger_Stadium"
+      }
+    },
+    {
+      "id": "la-memorial-coliseum",
+      "name": "Los Angeles Memorial Coliseum",
+      "official_url": "https://www.lacoliseum.com/",
+      "address_source_urls": [
+        "https://lamcc.lacounty.gov/"
+      ],
+      "coordinates": [
+        -118.2877778,
+        34.0141667
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Los_Angeles_Memorial_Coliseum",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "hollywood-forever",
+      "name": "Hollywood Forever",
+      "official_url": "https://hollywoodforever.com/",
+      "address_source_urls": [
+        "https://hollywoodforever.com/"
+      ],
+      "coordinates": [
+        -118.319063,
+        34.0888841
+      ],
+      "coordinate_provenance": {
+        "method": "Official cemetery structured geographic metadata",
+        "url": "https://hollywoodforever.com/",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Hollywood_Forever_Cemetery"
+      }
+    },
+    {
+      "id": "baldwin-hills-scenic-overlook",
+      "name": "Baldwin Hills Scenic Overlook",
+      "official_url": "https://www.parks.ca.gov/?page_id=22790",
+      "address_source_urls": [
+        "https://www.parks.ca.gov/?page_id=22790"
+      ],
+      "coordinates": [
+        -118.3818917,
+        34.0181676
+      ],
+      "coordinate_provenance": {
+        "method": "Named place-of-interest reference",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Baldwin+Hills+Scenic+Overlook%2C+6300+Hetzler+Road%2C+Culver+City%2C+CA+90232&f=json&outFields=Addr_type%2CPlace_addr%2CType&maxLocations=2&outSR=4326",
+        "publisher": "Esri World Geocoding Service",
+        "matched_name": "Baldwin Hills Scenic Overlook Hike Trailhead",
+        "matched_address": "6300 Hetzler Rd, Culver City, California, 90232",
+        "match_type": "POI",
+        "score": 98.03,
+        "cross_check_url": "https://en.wikipedia.org/wiki/Baldwin_Hills_Scenic_Overlook"
+      },
+      "note": "Pin is a named trailhead/overlook destination within the park; the official visitor address is 6300 Hetzler Road."
+    },
+    {
+      "id": "greystone-mansion",
+      "name": "Greystone Mansion & Gardens",
+      "official_url": "https://www.beverlyhills.org/441/Visit-Greystone",
+      "address_source_urls": [
+        "https://www.beverlyhills.org/441/Visit-Greystone"
+      ],
+      "coordinates": [
+        -118.4016,
+        34.092
+      ],
+      "coordinate_provenance": {
+        "method": "Published landmark coordinate; cross-checked against the official site identity and address",
+        "url": "https://en.wikipedia.org/wiki/Greystone_Mansion",
+        "publisher": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "vasquez-rocks",
+      "name": "Vasquez Rocks Natural Area",
+      "official_url": "https://parks.lacounty.gov/vasquez-rocks-natural-area-and-nature-center/",
+      "address_source_urls": [
+        "https://locator.lacounty.gov/lac/Location/3179931/vasquez-rocks-natural-area/"
+      ],
+      "coordinates": [
+        -118.3206939,
+        34.4885098
+      ],
+      "coordinate_provenance": {
+        "method": "County Parks official map destination at the public entrance",
+        "url": "https://www.google.com/maps/place/Vasquez+Rocks+Natural+Area+Park/@34.4885142,-118.3557128,13z/data=!4m5!3m4!1s0x80c28aa2e0853473:0xe90a5b70501e8dd0!8m2!3d34.4885098!4d-118.3206939",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Vasquez_Rocks"
+      },
+      "note": "Pin represents the county park’s public entrance/nature-center area. A broad geologic-region coordinate more than 1 km south was rejected."
+    },
+    {
+      "id": "antelope-valley-poppy-reserve",
+      "name": "Antelope Valley California Poppy Reserve",
+      "official_url": "https://www.parks.ca.gov/?page_id=627",
+      "address_source_urls": [
+        "https://www.parks.ca.gov/?page_id=627"
+      ],
+      "coordinates": [
+        -118.396812,
+        34.724887
+      ],
+      "coordinate_provenance": {
+        "method": "State Parks official directions destination at the reserve access road",
+        "url": "https://maps.google.com/maps?saddr=&daddr=34.724887,-118.396812",
+        "publisher": "Official institution, park agency or site operator",
+        "cross_check_url": "https://en.wikipedia.org/wiki/Antelope_Valley_California_Poppy_Reserve"
+      },
+      "note": "State Parks publishes two different coordinates on its page. The explicit Get directions destination at the reserve access road is used rather than the generic latitude/longitude text farther west. This is a public park access point."
+    }
+  ]
+}

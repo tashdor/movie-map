@@ -1,3 +1,4 @@
+import {overlayParam} from './reference-overlays.mjs';
 import {readState as readNumericState} from './logic.mjs';
 import {redactText,REDACTED} from './spoilers.mjs';
 
@@ -39,6 +40,7 @@ export function createAtlasLinks(data,slugs){
     let path=place|| (route?`route/${route}`:person?`person/${person}`:state.tab==='journeys'?'routes':state.tab==='people'?'people':film?`film/${film}`:'');
     const q=new URLSearchParams();
     if(state.laOnly)q.set('setting','la');
+    if(overlayParam(state))q.set('layers',overlayParam(state));
     if(state.selected&&!place)q.set('place',String(state.selected));
     if(state.route&&(place||!route))q.set('route',route||String(state.route));
     if(state.person&&(place||route||!person))q.set('person',person||state.person);

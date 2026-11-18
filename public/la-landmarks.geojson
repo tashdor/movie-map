@@ -1,0 +1,815 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hollywood-sign",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3215917,
+          34.1340611
+        ]
+      },
+      "properties": {
+        "id": "hollywood-sign",
+        "name": "Hollywood Sign",
+        "category": "Historic site",
+        "address": "Mount Lee, Griffith Park, Los Angeles, CA 90068",
+        "url": "https://www.hollywoodsign.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "griffith-observatory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3003333,
+          34.1183333
+        ]
+      },
+      "properties": {
+        "id": "griffith-observatory",
+        "name": "Griffith Observatory",
+        "category": "Museum",
+        "address": "2800 E Observatory Road, Los Angeles, CA 90027",
+        "url": "https://griffithobservatory.lacity.gov/visit/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "getty-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4746858,
+          34.0776678
+        ]
+      },
+      "properties": {
+        "id": "getty-center",
+        "name": "Getty Center",
+        "category": "Museum",
+        "address": "1200 Getty Center Drive, Los Angeles, CA 90049",
+        "url": "https://www.getty.edu/visit/center/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "getty-villa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.5648608,
+          34.0458857
+        ]
+      },
+      "properties": {
+        "id": "getty-villa",
+        "name": "Getty Villa Museum",
+        "category": "Museum",
+        "address": "17985 Pacific Coast Highway, Pacific Palisades, CA 90272",
+        "url": "https://www.getty.edu/visit/villa/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lacma",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3592,
+          34.0633
+        ]
+      },
+      "properties": {
+        "id": "lacma",
+        "name": "Los Angeles County Museum of Art",
+        "category": "Museum",
+        "address": "5905 Wilshire Boulevard, Los Angeles, CA 90036",
+        "url": "https://www.lacma.org/plan-your-visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "academy-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3608333,
+          34.0633333
+        ]
+      },
+      "properties": {
+        "id": "academy-museum",
+        "name": "Academy Museum of Motion Pictures",
+        "category": "Museum",
+        "address": "6067 Wilshire Boulevard, Los Angeles, CA 90036",
+        "url": "https://www.academymuseum.org/visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-brea-tar-pits",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3568622,
+          34.0635316
+        ]
+      },
+      "properties": {
+        "id": "la-brea-tar-pits",
+        "name": "La Brea Tar Pits",
+        "category": "Museum",
+        "address": "5801 Wilshire Boulevard, Los Angeles, CA 90036",
+        "url": "https://tarpits.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "walt-disney-concert-hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25,
+          34.0552778
+        ]
+      },
+      "properties": {
+        "id": "walt-disney-concert-hall",
+        "name": "Walt Disney Concert Hall",
+        "category": "Music",
+        "address": "111 S Grand Avenue, Los Angeles, CA 90012",
+        "url": "https://www.laphil.com/visit/getting-here"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-broad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2506,
+          34.0544
+        ]
+      },
+      "properties": {
+        "id": "the-broad",
+        "name": "The Broad",
+        "category": "Museum",
+        "address": "221 S Grand Avenue, Los Angeles, CA 90012",
+        "url": "https://www.thebroad.org/visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "union-station",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2366472,
+          34.0558726
+        ]
+      },
+      "properties": {
+        "id": "union-station",
+        "name": "Union Station",
+        "category": "Architecture",
+        "address": "800 N Alameda Street, Los Angeles, CA 90012",
+        "url": "https://unionstationla.com/visit/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "central-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2549741,
+          34.0503653
+        ]
+      },
+      "properties": {
+        "id": "central-library",
+        "name": "Los Angeles Central Library",
+        "category": "Architecture",
+        "address": "630 W 5th Street, Los Angeles, CA 90071",
+        "url": "https://www.lapl.org/branches/central-library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "el-pueblo-olvera-street",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2377778,
+          34.0569444
+        ]
+      },
+      "properties": {
+        "id": "el-pueblo-olvera-street",
+        "name": "El Pueblo de Los Angeles / Olvera Street",
+        "category": "Historic site",
+        "address": "125 Paseo de la Plaza, Los Angeles, CA 90012",
+        "url": "https://elpueblo.lacity.gov/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand-central-market",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2490552,
+          34.050872
+        ]
+      },
+      "properties": {
+        "id": "grand-central-market",
+        "name": "Grand Central Market",
+        "category": "Market",
+        "address": "317 S Broadway, Los Angeles, CA 90013",
+        "url": "https://grandcentralmarket.com/contact/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bradbury-building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2478573,
+          34.050604
+        ]
+      },
+      "properties": {
+        "id": "bradbury-building",
+        "name": "Bradbury Building",
+        "category": "Architecture",
+        "address": "304 S Broadway, Los Angeles, CA 90013",
+        "url": "https://thebradburybuilding.com/contact/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "angels-flight",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2502111,
+          34.0513389
+        ]
+      },
+      "properties": {
+        "id": "angels-flight",
+        "name": "Angels Flight Railway",
+        "category": "Historic site",
+        "address": "351 S Hill Street, Los Angeles, CA 90013",
+        "url": "https://www.angelsflight.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tcl-chinese-theatre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3409722,
+          34.1019444
+        ]
+      },
+      "properties": {
+        "id": "tcl-chinese-theatre",
+        "name": "TCL Chinese Theatre",
+        "category": "Theatre",
+        "address": "6925 Hollywood Boulevard, Hollywood, CA 90028",
+        "url": "https://www.tclchinesetheatres.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hollywood-bowl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3388889,
+          34.1127778
+        ]
+      },
+      "properties": {
+        "id": "hollywood-bowl",
+        "name": "Hollywood Bowl",
+        "category": "Music",
+        "address": "2301 N Highland Avenue, Los Angeles, CA 90068",
+        "url": "https://www.hollywoodbowl.com/visit/plan-your-visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "watts-towers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2410472,
+          33.9387389
+        ]
+      },
+      "properties": {
+        "id": "watts-towers",
+        "name": "Watts Towers",
+        "category": "Architecture",
+        "address": "1727 E 107th Street, Los Angeles, CA 90002",
+        "url": "https://culture.lacity.gov/cultural-centers/watts-towers-campus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rose-bowl",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.168,
+          34.161
+        ]
+      },
+      "properties": {
+        "id": "rose-bowl",
+        "name": "Rose Bowl Stadium",
+        "category": "Sports",
+        "address": "1001 Rose Bowl Drive, Pasadena, CA 91103",
+        "url": "https://www.rosebowlstadium.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-huntington",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1122738,
+          34.1281384
+        ]
+      },
+      "properties": {
+        "id": "the-huntington",
+        "name": "The Huntington",
+        "category": "Museum",
+        "address": "1151 Oxford Road, San Marino, CA 91108",
+        "url": "https://www.huntington.org/plan-your-visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "norton-simon-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15926,
+          34.14635
+        ]
+      },
+      "properties": {
+        "id": "norton-simon-museum",
+        "name": "Norton Simon Museum",
+        "category": "Museum",
+        "address": "411 W Colorado Boulevard, Pasadena, CA 91105",
+        "url": "https://www.nortonsimon.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gamble-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1608,
+          34.1515611
+        ]
+      },
+      "properties": {
+        "id": "gamble-house",
+        "name": "Gamble House",
+        "category": "Architecture",
+        "address": "4 Westmoreland Place, Pasadena, CA 91103",
+        "url": "https://gamblehouse.org/visit/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "descanso-gardens",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2098,
+          34.201475
+        ]
+      },
+      "properties": {
+        "id": "descanso-gardens",
+        "name": "Descanso Gardens",
+        "category": "Garden",
+        "address": "1418 Descanso Drive, La Cañada Flintridge, CA 91011",
+        "url": "https://www.descansogardens.org/visit/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mission-san-fernando",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4612,
+          34.2731
+        ]
+      },
+      "properties": {
+        "id": "mission-san-fernando",
+        "name": "Mission San Fernando Rey de España",
+        "category": "Historic site",
+        "address": "15151 San Fernando Mission Boulevard, Mission Hills, CA 91345",
+        "url": "https://www.missionsanfernandorey.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-japanese-garden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.480782,
+          34.18269
+        ]
+      },
+      "properties": {
+        "id": "the-japanese-garden",
+        "name": "The Japanese Garden",
+        "category": "Garden",
+        "address": "6100 Woodley Avenue, Van Nuys, CA 91406",
+        "url": "https://thejapanesegarden.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nethercutt-collection",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4640357,
+          34.3073609
+        ]
+      },
+      "properties": {
+        "id": "nethercutt-collection",
+        "name": "Nethercutt Museum & Collection",
+        "category": "Museum",
+        "address": "15151 Bledsoe Street, Sylmar, CA 91342",
+        "url": "https://nethercuttcollection.org/the-museum/automobiles/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santa-monica-pier",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4986111,
+          34.0086111
+        ]
+      },
+      "properties": {
+        "id": "santa-monica-pier",
+        "name": "Santa Monica Pier",
+        "category": "Historic site",
+        "address": "200 Santa Monica Pier, Santa Monica, CA 90401",
+        "url": "https://www.santamonicapier.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "venice-canals",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4652778,
+          33.9836111
+        ]
+      },
+      "properties": {
+        "id": "venice-canals",
+        "name": "Venice Canals",
+        "category": "Historic site",
+        "address": "Between Venice Boulevard and Washington Boulevard, Venice, CA 90291",
+        "url": "https://venicecanals.org/faq-visitors/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "venice-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4739269,
+          33.9861004
+        ]
+      },
+      "properties": {
+        "id": "venice-beach",
+        "name": "Venice Beach",
+        "category": "Beach",
+        "address": "1800 Ocean Front Walk, Venice, CA 90291",
+        "url": "https://beaches.lacounty.gov/venice-beach/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "malibu-surfrider-beach",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6791667,
+          34.0333333
+        ]
+      },
+      "properties": {
+        "id": "malibu-surfrider-beach",
+        "name": "Malibu Surfrider Beach",
+        "category": "Beach",
+        "address": "23050 Pacific Coast Highway, Malibu, CA 90265",
+        "url": "https://beaches.lacounty.gov/malibu-surfrider-beach/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "adamson-house",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6783333,
+          34.0344444
+        ]
+      },
+      "properties": {
+        "id": "adamson-house",
+        "name": "Adamson House",
+        "category": "Historic site",
+        "address": "23200 Pacific Coast Highway, Malibu, CA 90265",
+        "url": "https://www.parks.ca.gov/?page_id=672"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "queen-mary",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1897222,
+          33.7530556
+        ]
+      },
+      "properties": {
+        "id": "queen-mary",
+        "name": "The Queen Mary",
+        "category": "Historic site",
+        "address": "1126 Queens Highway, Long Beach, CA 90802",
+        "url": "https://www.queenmary.com/directions.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aquarium-of-the-pacific",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19692,
+          33.76216
+        ]
+      },
+      "properties": {
+        "id": "aquarium-of-the-pacific",
+        "name": "Aquarium of the Pacific",
+        "category": "Aquarium",
+        "address": "100 Aquarium Way, Long Beach, CA 90802",
+        "url": "https://www.aquariumofpacific.org/visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "battleship-iowa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2772,
+          33.7423
+        ]
+      },
+      "properties": {
+        "id": "battleship-iowa",
+        "name": "Battleship USS Iowa Museum",
+        "category": "Museum",
+        "address": "250 S Harbor Boulevard, San Pedro, CA 90731",
+        "url": "https://pacificbattleship.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "korean-bell-of-friendship",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2938139,
+          33.7096778
+        ]
+      },
+      "properties": {
+        "id": "korean-bell-of-friendship",
+        "name": "Korean Bell of Friendship",
+        "category": "Historic site",
+        "address": "3601 S Gaffey Street, San Pedro, CA 90731",
+        "url": "https://www.spcvb.com/content/kite-flying-korean-friendship-bell"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-vicente-lighthouse",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4106,
+          33.7419
+        ]
+      },
+      "properties": {
+        "id": "point-vicente-lighthouse",
+        "name": "Point Vicente Lighthouse",
+        "category": "Historic site",
+        "address": "31550 Palos Verdes Drive W, Rancho Palos Verdes, CA 90275",
+        "url": "https://palosverdes.com/pvlight/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "natural-history-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2877778,
+          34.0169444
+        ]
+      },
+      "properties": {
+        "id": "natural-history-museum",
+        "name": "Natural History Museum of Los Angeles County",
+        "category": "Museum",
+        "address": "900 Exposition Boulevard, Los Angeles, CA 90007",
+        "url": "https://nhm.org/plan-your-visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "california-science-center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2858333,
+          34.0155556
+        ]
+      },
+      "properties": {
+        "id": "california-science-center",
+        "name": "California Science Center",
+        "category": "Museum",
+        "address": "700 Exposition Park Drive, Los Angeles, CA 90037",
+        "url": "https://californiasciencecenter.org/visit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dodger-stadium",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24053,
+          34.07368
+        ]
+      },
+      "properties": {
+        "id": "dodger-stadium",
+        "name": "Dodger Stadium",
+        "category": "Sports",
+        "address": "1000 Vin Scully Avenue, Los Angeles, CA 90012",
+        "url": "https://www.mlb.com/dodgers/ballpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "la-memorial-coliseum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2877778,
+          34.0141667
+        ]
+      },
+      "properties": {
+        "id": "la-memorial-coliseum",
+        "name": "Los Angeles Memorial Coliseum",
+        "category": "Sports",
+        "address": "3911 S Figueroa Street, Los Angeles, CA 90037",
+        "url": "https://www.lacoliseum.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hollywood-forever",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.319063,
+          34.0888841
+        ]
+      },
+      "properties": {
+        "id": "hollywood-forever",
+        "name": "Hollywood Forever",
+        "category": "Historic site",
+        "address": "6000 Santa Monica Boulevard, Los Angeles, CA 90038",
+        "url": "https://hollywoodforever.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baldwin-hills-scenic-overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3818917,
+          34.0181676
+        ]
+      },
+      "properties": {
+        "id": "baldwin-hills-scenic-overlook",
+        "name": "Baldwin Hills Scenic Overlook",
+        "category": "Park",
+        "address": "6300 Hetzler Road, Culver City, CA 90232",
+        "url": "https://www.parks.ca.gov/?page_id=22790"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "greystone-mansion",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4016,
+          34.092
+        ]
+      },
+      "properties": {
+        "id": "greystone-mansion",
+        "name": "Greystone Mansion & Gardens",
+        "category": "Historic site",
+        "address": "905 Loma Vista Drive, Beverly Hills, CA 90210",
+        "url": "https://www.beverlyhills.org/441/Visit-Greystone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vasquez-rocks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3206939,
+          34.4885098
+        ]
+      },
+      "properties": {
+        "id": "vasquez-rocks",
+        "name": "Vasquez Rocks Natural Area",
+        "category": "Park",
+        "address": "10700 W Escondido Canyon Road, Agua Dulce, CA 91390",
+        "url": "https://parks.lacounty.gov/vasquez-rocks-natural-area-and-nature-center/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "antelope-valley-poppy-reserve",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.396812,
+          34.724887
+        ]
+      },
+      "properties": {
+        "id": "antelope-valley-poppy-reserve",
+        "name": "Antelope Valley California Poppy Reserve",
+        "category": "Park",
+        "address": "15101 Lancaster Road, Lancaster, CA 93536",
+        "url": "https://www.parks.ca.gov/?page_id=627"
+      }
+    }
+  ]
+}

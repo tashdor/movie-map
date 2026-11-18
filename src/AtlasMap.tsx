@@ -2,11 +2,12 @@ import {memo,useEffect,useRef,useState} from 'react';
 import * as maplibregl from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import {Crosshair,LocateFixed,Minus,Plus} from 'lucide-react';
+import {Crosshair,Layers,LocateFixed,Minus,Plus} from 'lucide-react';
 import {locationSvg} from './icons';
 import {filmColor} from './colors';
 import {filmTitle} from './films.mjs';
 import {installCountyFog} from './fog';
+import {installReferenceLayers,type ReferenceLayer} from './reference-layers';
 import {countyCamera} from './camera.mjs';
 import {storySettingLabel,journeyStopGroups} from './logic.mjs';
 import {accessibleText} from './spoilers.mjs';
@@ -15,7 +16,7 @@ import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const ZERO_PADDING={top:0,bottom:0,left:0,right:0};
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props={basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type Props={neighborhoods:boolean;landmarks:boolean;onOverlay:(layer:ReferenceLayer,enabled:boolean)=>void;basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
 type MarkerRecord={marker:maplibregl.Marker;element:HTMLDivElement;place:Place;signature:string;label?:HTMLDivElement};
 function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   if(!record.place.coordinates)return;
@@ -25,8 +26,9 @@ function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   if(record.label){record.label.classList.toggle('label-left',flip);record.label.style.maxWidth=`${Math.max(150,Math.min(560,flip?left:right))}px`;record.label.hidden=!map.getBounds().contains(record.place.coordinates);}
 }
 function tooltip(name:string,titles:string[],setting?:Place['storySetting']){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.map(filmTitle).join(' / ');const title=document.createElement('strong');appendRedactedText(title,name);box.append(movie,title);if(setting?.canonicalLA===false){const tag=document.createElement('small');tag.className='marker-setting';tag.textContent=storySettingLabel(setting,true);box.append(tag);}return box;}
-function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
+function AtlasMap({neighborhoods,landmarks,onOverlay,basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef(new Map<number,MarkerRecord>()),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
+  const references=useRef<ReturnType<typeof installReferenceLayers>|null>(null),layerMenu=useRef<HTMLDetailsElement>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[locating,setLocating]=useState(false);
   const [zoomedOut,setZoomedOut]=useState(false);
   const latest=useRef({places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm});latest.current={places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm};
@@ -69,21 +71,22 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
           countyData=county;updateZoomLimit();
           disposeFog=installCountyFog(m,county,latest.current.coverage);
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
-        if(map.current===m)setReady(true);
+        if(map.current===m){references.current=installReferenceLayers(m,{baseUrl:import.meta.env.BASE_URL,onError:message=>latest.current.onLocationError(message)});setReady(true);}
       });
       m.on('moveend',()=>syncView.current());
+      m.on('click',()=>{if(layerMenu.current)layerMenu.current.open=false;});
       m.on('click','journey-lines',e=>{const id=Number(e.features?.[0]?.properties?.id);if(id)latest.current.onRoute(id);});
       m.on('mouseenter','journey-lines',()=>{m.getCanvas().style.cursor='pointer';});m.on('mouseleave','journey-lines',()=>{m.getCanvas().style.cursor='';});
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);disposeFog?.();for(const record of markers.current.values())record.marker.remove();markers.current.clear();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);references.current?.destroy();references.current=null;disposeFog?.();for(const record of markers.current.values())record.marker.remove();markers.current.clear();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     if(basemap==='satellite'&&!m.getSource('satellite-imagery')){
       const before=m.getLayer('county-fog')?'county-fog':undefined;
-      const labels=m.getStyle().layers.filter(layer=>layer.type==='symbol'&&layer.layout?.['text-field']);
+      const labels=m.getStyle().layers.filter(layer=>baseLayers.current.has(layer.id)&&layer.type==='symbol'&&layer.layout?.['text-field']);
       m.addSource('satellite-imagery',{type:'raster',tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:19,attribution:'Imagery © <a href="https://goto.arcgisonline.com/maps/World_Imagery">Esri, Vantor, Earthstar Geographics, GIS User Community</a>'});
       m.addLayer({id:'satellite-imagery',type:'raster',source:'satellite-imagery',paint:{'raster-fade-duration':0}},before);
       for(const layer of labels)if(layer.type==='symbol')m.addLayer({...layer,id:`satellite-label-${layer.id}`,paint:{...layer.paint,'text-color':'#f5f1e5','text-halo-color':'#253035','text-halo-width':1.4}},before);
@@ -91,6 +94,8 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
     for(const [id,visibility] of baseLayers.current)if(m.getLayer(id))m.setLayoutProperty(id,'visibility',basemap==='satellite'?'none':visibility);
     for(const layer of m.getStyle().layers)if(layer.id==='satellite-imagery'||layer.id.startsWith('satellite-label-'))m.setLayoutProperty(layer.id,'visibility',basemap==='satellite'?'visible':'none');
   },[basemap,ready]);
+  useEffect(()=>{if(ready)references.current?.update({neighborhoods,landmarks,basemap});},[ready,neighborhoods,landmarks,basemap]);
+  useEffect(()=>{references.current?.closePopup();},[selected?.id,journey?.id,film]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     const active=new Set<number>();
@@ -155,6 +160,7 @@ function AtlasMap({basemap,onBasemap,places,selected,journey,journeys,routeMode,
   },[journey?.id,journeys,routeMode,selected?.id,ready,onStop,onRoute]);
   return <div className={`map-shell ${basemap==='satellite'?'satellite-view':''}`}><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
     <div className="basemap-switch" role="group" aria-label="Map view">{(['map','satellite'] as const).map(view=><button key={view} aria-pressed={basemap===view} onClick={()=>onBasemap(view)}>{view==='map'?'Map':'Satellite'}</button>)}</div>
+    <details className="reference-control" ref={layerMenu} onClick={e=>e.stopPropagation()} onKeyDown={e=>{if(e.key==='Escape'){e.currentTarget.open=false;e.currentTarget.querySelector('summary')?.focus();}}}><summary aria-label="Map layers"><Layers size={14}/>Layers</summary><div className="reference-options"><label><input type="checkbox" checked={neighborhoods} onChange={e=>onOverlay('neighborhoods',e.target.checked)}/>Neighborhoods</label><label><input type="checkbox" checked={landmarks} onChange={e=>onOverlay('landmarks',e.target.checked)}/>Landmarks</label></div></details>
     {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{filmTitle(t)}</button>)}</div><strong><RedactedText text={selected.name}/></strong><span><RedactedText text={selected.placement?.address||'Los Angeles'}/></span></div>}
     <button className="north-arrow" aria-label="Reset north" title="Reset north" onClick={()=>map.current?.resetNorth({duration:450})}><span className="north-needle" ref={northNeedle} aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></span></button>
     <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" disabled={!ready||zoomedOut} onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>

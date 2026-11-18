@@ -1,3 +1,5 @@
+import {readOverlays,overlayParam} from './reference-overlays.mjs';
+
 export function timeBounds(appearance) {
   const t = appearance.story_time;
   if (!t || t.year == null) return null;
@@ -62,12 +64,13 @@ export function readState(hash) {
   const retiredRoute = {99:202,225:213}[route];
   if(retiredRoute){selected ||= retiredRoute;route=null;}
   if(selected===203)selected=202;
-  return { laOnly:q.get('setting')==='la', selected, route, basemap:q.get('view')==='satellite'?'satellite':'map', person:q.get('person')||null, query: q.get('q') || '', category: ['home','work','hangout','event','death'].includes(q.get('type')) ? q.get('type') : 'all', film: q.get('film') || '', tab: retiredRoute?'places':q.get('tab') === 'people' ? 'people' : q.get('tab') === 'journeys' ? 'journeys' : 'places', time: { all: !ranged || Math.min(from,to)<=1930 && Math.max(from,to)>=2030, from: ranged ? Math.max(1930, Math.min(2030, Math.min(from,to))) : 1930, to: ranged ? Math.max(1930, Math.min(2030, Math.max(from,to))) : 2030, undated: q.get('undated') === '1' } };
+  return { ...readOverlays(q.get('layers')||''), laOnly:q.get('setting')==='la', selected, route, basemap:q.get('view')==='satellite'?'satellite':'map', person:q.get('person')||null, query: q.get('q') || '', category: ['home','work','hangout','event','death'].includes(q.get('type')) ? q.get('type') : 'all', film: q.get('film') || '', tab: retiredRoute?'places':q.get('tab') === 'people' ? 'people' : q.get('tab') === 'journeys' ? 'journeys' : 'places', time: { all: !ranged || Math.min(from,to)<=1930 && Math.max(from,to)>=2030, from: ranged ? Math.max(1930, Math.min(2030, Math.min(from,to))) : 1930, to: ranged ? Math.max(1930, Math.min(2030, Math.max(from,to))) : 2030, undated: q.get('undated') === '1' } };
 }
 
 export function stateHash(state) {
   const q = new URLSearchParams();
   if (state.laOnly) q.set('setting','la');
+  if (overlayParam(state)) q.set('layers',overlayParam(state));
   if (state.selected) q.set('place', state.selected);
   if (state.route) q.set('route', state.route);
   if (state.person) q.set('person',state.person);
