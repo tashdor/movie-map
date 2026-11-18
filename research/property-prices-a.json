@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 1,
+      "url": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+      "address": "1870 Blue Heights Drive",
+      "amount": 1925100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
+      "evidence": "Zillow marks 1870 Blue Heights Dr, Los Angeles, CA 90069 off market and displays a $1,925,100 Zestimate."
+    },
+    {
+      "placeId": 2,
+      "url": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+      "address": "19514 Romar Street",
+      "amount": 2058800,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
+      "evidence": "Zillow marks 19514 Romar St, Northridge, CA 91324 off market and displays a $2,058,800 Zestimate."
+    },
+    {
+      "placeId": 3,
+      "url": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+      "address": "2634 6th Street",
+      "amount": 1949900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
+      "evidence": "Zillow marks 2634 6th St, Santa Monica, CA 90405 off market and displays a $1,949,900 Zestimate."
+    },
+    {
+      "placeId": 5,
+      "url": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+      "address": "1235 Dodds Circle",
+      "amount": 994700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
+      "evidence": "Zillow marks 1235 Dodds Cir, Los Angeles, CA 90063 sold and displays a $994,700 Zestimate."
+    },
+    {
+      "placeId": 12,
+      "url": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+      "address": "2607 Glendower Avenue",
+      "amount": 17713700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
+      "evidence": "Zillow marks 2607 Glendower Ave, Los Angeles, CA 90027 off market and displays a $17,713,700 Zestimate."
+    },
+    {
+      "placeId": 24,
+      "url": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+      "address": "501 Wilcox Avenue",
+      "amount": 6850100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
+      "evidence": "Zillow marks 501 Wilcox Ave, Los Angeles, CA 90004 off market and displays a $6,850,100 Zestimate."
+    },
+    {
+      "placeId": 25,
+      "url": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+      "address": "4616 Dundee Drive",
+      "amount": 8587600,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
+      "evidence": "Zillow marks 4616 Dundee Dr, Los Angeles, CA 90027 off market and displays a $8,587,600 Zestimate."
+    },
+    {
+      "placeId": 31,
+      "url": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
+      "address": "606 Venezia Avenue",
+      "amount": 2684000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/606-Venezia-Ave-Venice-CA-90291/2088149432_zpid/",
+      "evidence": "The matching off-market multifamily property at 606 Venezia Ave, Venice, CA 90291 displays a $2,684,000 Zestimate."
+    },
+    {
+      "placeId": 34,
+      "url": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+      "address": "10104 Angelo View Drive",
+      "amount": 4981100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
+      "evidence": "Zillow marks 10104 Angelo View Dr, Beverly Hills, CA 90210 off market and displays a $4,981,100 Zestimate."
+    },
+    {
+      "placeId": 35,
+      "url": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+      "address": "10231 Charing Cross Road",
+      "amount": 82306700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
+      "evidence": "Zillow marks 10231 Charing Cross Rd, Los Angeles, CA 90024 off market and displays a $82,306,700 Zestimate."
+    },
+    {
+      "placeId": 38,
+      "url": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+      "address": "1541 Summitridge Drive",
+      "amount": 5695100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
+      "evidence": "Zillow marks 1541 Summitridge Dr, Beverly Hills, CA 90210 off market and displays a $5,695,100 Zestimate."
+    },
+    {
+      "placeId": 39,
+      "url": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+      "address": "3519 La Clede Avenue",
+      "amount": 1424100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
+      "evidence": "Zillow marks 3519 La Clede Ave, Los Angeles, CA 90039 off market and displays a $1,424,100 Zestimate."
+    },
+    {
+      "placeId": 53,
+      "url": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+      "address": "1315 South El Molino Avenue",
+      "amount": 10453000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
+      "evidence": "Zillow marks 1315 S El Molino Ave, Pasadena, CA 91106 off market and displays a $10,453,000 Zestimate."
+    },
+    {
+      "placeId": 71,
+      "url": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+      "address": "1031 Everett Street",
+      "amount": 1418400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
+      "evidence": "Zillow marks 1031 Everett St, Los Angeles, CA 90026 off market and displays a $1,418,400 Zestimate."
+    },
+    {
+      "placeId": 75,
+      "url": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+      "address": "5918 Cimarron Street",
+      "amount": 583100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
+      "evidence": "Zillow marks 5918 Cimarron St, Los Angeles, CA 90047 off market and displays a $583,100 Zestimate."
+    },
+    {
+      "placeId": 76,
+      "url": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+      "address": "5906 Cimarron Street",
+      "amount": 537100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
+      "evidence": "Zillow marks 5906 Cimarron St, Los Angeles, CA 90047 off market and displays a $537,100 Zestimate."
+    },
+    {
+      "placeId": 84,
+      "url": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+      "address": "19828 Valerio Street",
+      "amount": 791000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
+      "evidence": "Zillow marks 19828 Valerio St, Winnetka, CA 91306 off market and displays a $791,000 Zestimate."
+    },
+    {
+      "placeId": 88,
+      "url": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+      "address": "2900 Griffith Park Boulevard",
+      "amount": 1441900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
+      "evidence": "Zillow marks 2900 Griffith Park Blvd, Los Angeles, CA 90027 off market and displays a $1,441,900 Zestimate."
+    },
+    {
+      "placeId": 89,
+      "url": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+      "address": "3760 Eureka Drive",
+      "amount": 4566000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
+      "evidence": "Zillow marks 3760 Eureka Dr, Studio City, CA 91604 off market and displays a $4,566,000 Zestimate."
+    },
+    {
+      "placeId": 91,
+      "url": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+      "address": "722 East Kensington Road",
+      "amount": 1143200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
+      "evidence": "Zillow marks 722 E Kensington Rd, Los Angeles, CA 90026 off market and displays a $1,143,200 Zestimate."
+    },
+    {
+      "placeId": 124,
+      "url": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+      "address": "2182 Broadview Terrace, Hollywood, CA 90068",
+      "amount": 2047200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
+      "evidence": "Zillow marks 2182 Broadview Ter, Hollywood, CA 90068 off market and displays a $2,047,200 Zestimate."
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 4,
+      "url": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+      "reason": "Exact Zillow property page returned HTTP 429, so no value could be verified."
+    },
+    {
+      "placeId": 48,
+      "url": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+      "reason": "Zillow marks 17575 Yukon Ave off market and reports no home Zestimate. It displays a Rent Zestimate."
+    },
+    {
+      "placeId": 55,
+      "url": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+      "reason": "Exact Zillow property page returned HTTP 429, so no value could be verified."
+    },
+    {
+      "placeId": 72,
+      "url": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+      "reason": "Exact Zillow property page returned HTTP 429, so no value could be verified."
+    },
+    {
+      "placeId": 73,
+      "url": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+      "reason": "Zillow shows a Zestimate for Unit 08, with no asking price or Zestimate for the verified building address."
+    },
+    {
+      "placeId": 87,
+      "url": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+      "reason": "Zillow shows a rental for Unit 1 and no asking price or Zestimate for the verified building address."
+    },
+    {
+      "placeId": 94,
+      "url": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+      "reason": "Zillow shows prior sales for individual units and no asking price or Zestimate for the verified building address."
+    },
+    {
+      "placeId": 101,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+      "reason": "Zillow shows apartment rent and no asking price or Zestimate for the verified building address."
+    },
+    {
+      "placeId": 102,
+      "url": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+      "reason": "Exact Zillow property page returned HTTP 429, so no value could be verified."
+    },
+    {
+      "placeId": 112,
+      "url": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+      "reason": "The Zillow page for 1206–1208 N Orange Grove Ave shows a rental and no asking price or Zestimate for the verified address."
+    },
+    {
+      "placeId": 113,
+      "url": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+      "reason": "The exact Zillow URL redirects to the matching 884 Palm Ave building page, which shows apartment rentals and no building asking price or Zestimate."
+    }
+  ]
+}

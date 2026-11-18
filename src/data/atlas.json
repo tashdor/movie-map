@@ -133,7 +133,14 @@
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/",
           "verifiedOn": "2026-11-17",
-          "parcelNumber": "5556015004"
+          "parcelNumber": "5556015004",
+          "price": {
+            "amount": 1925100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1870-Blue-Heights-Dr-Los-Angeles-CA-90069/20797839_zpid/"
+          }
         }
       ],
       "mediaByTitle": {
@@ -320,7 +327,14 @@
           "url": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2058800,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/19514-Romar-St-Northridge-CA-91324/20164731_zpid/"
+          }
         }
       ]
     },
@@ -417,7 +431,14 @@
           "url": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1949900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2634-6th-St-Santa-Monica-CA-90405/20482635_zpid/"
+          }
         }
       ]
     },
@@ -623,7 +644,14 @@
           "url": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 994700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1235-Dodds-Cir-Los-Angeles-CA-90063/20647374_zpid/"
+          }
         }
       ]
     },
@@ -1324,7 +1352,14 @@
           "url": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 17713700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2607-Glendower-Ave-Los-Angeles-CA-90027/20809002_zpid/"
+          }
         }
       ]
     },
@@ -2625,7 +2660,14 @@
           "url": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 6850100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/501-Wilcox-Ave-Los-Angeles-CA-90004/20783386_zpid/"
+          }
         }
       ]
     },
@@ -2732,7 +2774,14 @@
           "url": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 8587600,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4616-Dundee-Dr-Los-Angeles-CA-90027/20809413_zpid/"
+          }
         }
       ]
     },
@@ -3438,7 +3487,14 @@
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/b/606-venezia-ave-venice-ca-9MQKqg/",
           "verifiedOn": "2026-11-17",
-          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted.",
+          "price": {
+            "amount": 2684000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/606-Venezia-Ave-Venice-CA-90291/2088149432_zpid/"
+          }
         }
       ]
     },
@@ -3801,7 +3857,14 @@
           "url": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 4981100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/10104-Angelo-View-Dr-Beverly-Hills-CA-90210/20523804_zpid/"
+          }
         }
       ]
     },
@@ -3935,7 +3998,14 @@
           "url": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 82306700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/10231-Charing-Cross-Rd-Los-Angeles-CA-90024/82874280_zpid/"
+          }
         }
       ]
     },
@@ -4427,7 +4497,14 @@
           "url": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 5695100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1541-Summitridge-Dr-Beverly-Hills-CA-90210/20523086_zpid/"
+          }
         }
       ]
     },
@@ -4522,7 +4599,14 @@
           "url": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1424100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/3519-La-Clede-Ave-Los-Angeles-CA-90039/20750597_zpid/"
+          }
         }
       ]
     },
@@ -5723,7 +5807,14 @@
           "url": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 10453000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1315-S-El-Molino-Ave-Pasadena-CA-91106/20699732_zpid/"
+          }
         }
       ]
     },
@@ -7495,7 +7586,14 @@
           "url": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1418400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1031-Everett-St-Los-Angeles-CA-90026/20740622_zpid/"
+          }
         }
       ]
     },
@@ -7898,7 +7996,14 @@
           "url": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 583100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/5918-Cimarron-St-Los-Angeles-CA-90047/20926814_zpid/"
+          }
         }
       ]
     },
@@ -7983,7 +8088,14 @@
           "url": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 537100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/5906-Cimarron-St-Los-Angeles-CA-90047/20926811_zpid/"
+          }
         }
       ]
     },
@@ -8963,7 +9075,14 @@
           "url": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 791000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/19828-Valerio-St-Winnetka-CA-91306/19913322_zpid/"
+          }
         }
       ]
     },
@@ -9398,7 +9517,14 @@
           "url": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1441900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2900-Griffith-Park-Blvd-Los-Angeles-CA-90027/20749074_zpid/"
+          }
         }
       ]
     },
@@ -9505,7 +9631,14 @@
           "url": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 4566000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/3760-Eureka-Dr-Studio-City-CA-91604/20030454_zpid/"
+          }
         }
       ]
     },
@@ -9706,7 +9839,14 @@
           "url": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1143200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/722-E-Kensington-Rd-Los-Angeles-CA-90026/2101977808_zpid/"
+          }
         }
       ]
     },
@@ -12558,7 +12698,14 @@
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/",
           "verifiedOn": "2026-11-17",
-          "note": "Verified Broadview Terrace component of the listed High Tower/Broadview filming address; no separate apartment unit is asserted."
+          "note": "Verified Broadview Terrace component of the listed High Tower/Broadview filming address; no separate apartment unit is asserted.",
+          "price": {
+            "amount": 2047200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2182-Broadview-Ter-Hollywood-CA-90068/2143978968_zpid/"
+          }
         }
       ]
     },
@@ -12707,7 +12854,14 @@
           "url": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 25261100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/"
+          }
         }
       ]
     },
@@ -14690,7 +14844,14 @@
           "url": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 674900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/"
+          }
         }
       ]
     },
@@ -17230,7 +17391,14 @@
           "url": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1043400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/"
+          }
         }
       ]
     },
@@ -17443,7 +17611,14 @@
           "url": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1123000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/"
+          }
         }
       ]
     },
@@ -17929,7 +18104,14 @@
           "url": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 3000500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/"
+          }
         }
       ]
     },
@@ -18741,7 +18923,14 @@
           "url": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2198900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/"
+          }
         }
       ]
     },
@@ -18919,7 +19108,14 @@
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
           "verifiedOn": "2026-11-17",
-          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted."
+          "note": "Property/building-level address match; no fictional apartment number or separate unit is asserted.",
+          "price": {
+            "amount": 2432400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/"
+          }
         }
       ]
     },
@@ -20115,7 +20311,14 @@
           "url": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 685100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/"
+          }
         }
       ]
     },
@@ -21681,7 +21884,14 @@
           "url": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 8833400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/"
+          }
         }
       ]
     },
@@ -21803,7 +22013,14 @@
           "url": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 5835200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/"
+          }
         }
       ]
     },
@@ -23410,7 +23627,14 @@
           "url": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 4659200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/"
+          }
         }
       ]
     },
@@ -28066,7 +28290,14 @@
           "url": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 804100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/"
+          }
         }
       ]
     },
@@ -28286,7 +28517,14 @@
           "url": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 933900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/"
+          }
         }
       ]
     },
@@ -29759,7 +29997,14 @@
           "url": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 807700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/"
+          }
         }
       ]
     },
@@ -30378,7 +30623,14 @@
           "url": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 6822900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/"
+          }
         }
       ]
     },
@@ -30794,7 +31046,14 @@
           "url": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 3259500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/"
+          }
         }
       ]
     },
@@ -31023,7 +31282,14 @@
           "url": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1476800,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/"
+          }
         }
       ]
     },
@@ -31767,7 +32033,14 @@
           "url": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 32178000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/"
+          }
         }
       ]
     },
@@ -32318,7 +32591,14 @@
           "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 32000000,
+            "currency": "USD",
+            "kind": "asking",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/"
+          }
         }
       ]
     },
@@ -32424,7 +32704,14 @@
           "url": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2213600,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/"
+          }
         }
       ]
     },
@@ -33136,7 +33423,14 @@
           "url": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2614900,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/"
+          }
         }
       ]
     },
@@ -33265,7 +33559,14 @@
           "url": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 4624100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/"
+          }
         }
       ]
     },
@@ -33810,7 +34111,14 @@
           "url": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 7916600,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/"
+          }
         }
       ]
     },
@@ -34459,7 +34767,14 @@
           "url": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1043400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/"
+          }
         }
       ]
     },
@@ -34688,7 +35003,14 @@
           "url": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 7547000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/"
+          }
         }
       ]
     },
@@ -36417,7 +36739,14 @@
           "url": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 11804400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/"
+          }
         }
       ]
     },
@@ -36540,7 +36869,14 @@
           "url": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 31979500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/"
+          }
         }
       ]
     },
@@ -37578,7 +37914,14 @@
           "url": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1040200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/"
+          }
         }
       ]
     },
@@ -37928,7 +38271,14 @@
           "url": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 3862100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/"
+          }
         }
       ]
     },
@@ -38620,7 +38970,14 @@
           "url": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 3370700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/"
+          }
         }
       ]
     },
@@ -38738,7 +39095,14 @@
           "url": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 12966000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/"
+          }
         }
       ]
     },
@@ -38851,7 +39215,14 @@
           "url": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1723300,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/"
+          }
         }
       ]
     },
@@ -38982,7 +39353,14 @@
           "url": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 22950000,
+            "currency": "USD",
+            "kind": "asking",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/"
+          }
         }
       ]
     },
@@ -39106,7 +39484,14 @@
           "url": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1390400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/"
+          }
         }
       ]
     },
@@ -39224,7 +39609,14 @@
           "url": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2057200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/"
+          }
         }
       ]
     },
@@ -40236,7 +40628,14 @@
           "url": "https://www.zillow.com/homedetails/9303-Roslyndale-Ave-Pacoima-CA-91331/20127228_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/9303-Roslyndale-Ave-Pacoima-CA-91331/20127228_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 700300,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/9303-Roslyndale-Ave-Pacoima-CA-91331/20127228_zpid/"
+          }
         }
       ]
     },
@@ -40938,7 +41337,14 @@
           "url": "https://www.zillow.com/homedetails/1115-Oxley-St-South-Pasadena-CA-91030/402573125_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1115-Oxley-St-South-Pasadena-CA-91030/402573125_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1625500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1115-Oxley-St-South-Pasadena-CA-91030/402573125_zpid/"
+          }
         }
       ]
     },
@@ -41293,7 +41699,14 @@
           "url": "https://www.zillow.com/homedetails/1530-N-Orange-Grove-Ave-Los-Angeles-CA-90046/89666783_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/1530-N-Orange-Grove-Ave-Los-Angeles-CA-90046/89666783_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2527500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/1530-N-Orange-Grove-Ave-Los-Angeles-CA-90046/89666783_zpid/"
+          }
         }
       ]
     },
@@ -41530,7 +41943,14 @@
           "url": "https://www.zillow.com/homedetails/19625-Bryant-St-Northridge-CA-91324/20182669_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/19625-Bryant-St-Northridge-CA-91324/20182669_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1042000,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/19625-Bryant-St-Northridge-CA-91324/20182669_zpid/"
+          }
         }
       ]
     },
@@ -42006,7 +42426,14 @@
           "url": "https://www.zillow.com/homedetails/3907-Dixie-Canyon-Ave-Sherman-Oaks-CA-91423/20028698_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/3907-Dixie-Canyon-Ave-Sherman-Oaks-CA-91423/20028698_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2521300,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/3907-Dixie-Canyon-Ave-Sherman-Oaks-CA-91423/20028698_zpid/"
+          }
         }
       ]
     },
@@ -42136,7 +42563,14 @@
           "url": "https://www.zillow.com/homedetails/23727-Posey-Ln-Canoga-Park-CA-91304/19870452_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/23727-Posey-Ln-Canoga-Park-CA-91304/19870452_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1392400,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/23727-Posey-Ln-Canoga-Park-CA-91304/19870452_zpid/"
+          }
         }
       ]
     },
@@ -42604,7 +43038,14 @@
           "url": "https://www.zillow.com/homedetails/24124-Welby-Way-West-Hills-CA-91307/19874329_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/24124-Welby-Way-West-Hills-CA-91307/19874329_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 954200,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/24124-Welby-Way-West-Hills-CA-91307/19874329_zpid/"
+          }
         }
       ]
     },
@@ -43060,7 +43501,14 @@
           "url": "https://www.zillow.com/homedetails/7035-Senalda-Rd-Los-Angeles-CA-90068/20803622_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/7035-Senalda-Rd-Los-Angeles-CA-90068/20803622_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 2247500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/7035-Senalda-Rd-Los-Angeles-CA-90068/20803622_zpid/"
+          }
         }
       ]
     },
@@ -43976,7 +44424,14 @@
           "url": "https://www.zillow.com/homedetails/7532-Sedgewick-Ct-Canoga-Park-CA-91304/19870683_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/7532-Sedgewick-Ct-Canoga-Park-CA-91304/19870683_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 1881700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/7532-Sedgewick-Ct-Canoga-Park-CA-91304/19870683_zpid/"
+          }
         }
       ]
     },
@@ -45227,7 +45682,14 @@
           "url": "https://www.zillow.com/homedetails/2817-Via-Segovia-Palos-Verdes-Estates-CA-90274/21341714_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/2817-Via-Segovia-Palos-Verdes-Estates-CA-90274/21341714_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 8055600,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/2817-Via-Segovia-Palos-Verdes-Estates-CA-90274/21341714_zpid/"
+          }
         }
       ]
     },
@@ -45353,7 +45815,14 @@
           "url": "https://www.zillow.com/homedetails/7436-Mulholland-Dr-Los-Angeles-CA-90046/20802590_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/7436-Mulholland-Dr-Los-Angeles-CA-90046/20802590_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 9223500,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/7436-Mulholland-Dr-Los-Angeles-CA-90046/20802590_zpid/"
+          }
         }
       ]
     },
@@ -46027,7 +46496,14 @@
           "url": "https://www.zillow.com/homedetails/28824-Cliffside-Dr-Malibu-CA-90265/20555544_zpid/",
           "scope": "filming-site",
           "sourceUrl": "https://www.zillow.com/homedetails/28824-Cliffside-Dr-Malibu-CA-90265/20555544_zpid/",
-          "verifiedOn": "2026-11-17"
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 90000000,
+            "currency": "USD",
+            "kind": "asking",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/28824-Cliffside-Dr-Malibu-CA-90265/20555544_zpid/"
+          }
         }
       ]
     },
@@ -47417,7 +47893,14 @@
           "sourceUrl": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
           "verifiedOn": "2026-11-17",
           "note": "Exact house-address match for Jimmie’s Pulp Fiction filming house; place ID pending route integration.",
-          "scope": "filming-site"
+          "scope": "filming-site",
+          "price": {
+            "amount": 1730100,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/"
+          }
         }
       ]
     },

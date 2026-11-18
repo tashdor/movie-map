@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 125,
+      "url": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+      "address": "23844 Malibu Road",
+      "amount": 25261100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/23844-Malibu-Rd-Malibu-CA-90265/20553931_zpid/",
+      "evidence": "23844 Malibu Rd, Malibu, CA 90265. Off market. Zestimate $25,261,100. Page crawled 3 months before check."
+    },
+    {
+      "placeId": 144,
+      "url": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+      "address": "1442 West F Street",
+      "amount": 674900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1442-W-F-St-Wilmington-CA-90744/21291886_zpid/",
+      "evidence": "1442 W F St, Wilmington, CA 90744. Off market. Zestimate $674,900. Page crawled 4 months before check."
+    },
+    {
+      "placeId": 169,
+      "url": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+      "address": "3503 West 187th Street",
+      "amount": 1043400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/3503-W-187th-St-Torrance-CA-90504/20371902_zpid/",
+      "evidence": "3503 W 187th St, Torrance, CA 90504. Off market. Zestimate $1,043,400. Page crawled 4 months before check."
+    },
+    {
+      "placeId": 171,
+      "url": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+      "address": "4214 Lobos Road",
+      "amount": 1123000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4214-Lobos-Rd-Woodland-Hills-CA-91364/19945252_zpid/",
+      "evidence": "4214 Lobos Rd, Woodland Hills, CA 91364. Zillow property page. Zestimate $1,123,000. Indexed page crawled 5 months before check."
+    },
+    {
+      "placeId": 176,
+      "url": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+      "address": "16801 Encino Hills Drive",
+      "amount": 3000500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/16801-Encino-Hills-Dr-Encino-CA-91436/19993232_zpid/",
+      "evidence": "16801 Encino Hills Dr, Encino, CA 91436. Off market. Zestimate $3,000,500. Indexed page crawled 3 weeks before check."
+    },
+    {
+      "placeId": 185,
+      "url": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+      "address": "10969 Alta View Drive",
+      "amount": 2198900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/10969-Alta-View-Dr-Studio-City-CA-91604/20031489_zpid/",
+      "evidence": "10969 Alta View Dr, Studio City, CA 91604. Off market. Zestimate $2,198,900. Page crawled 1 month before check."
+    },
+    {
+      "placeId": 187,
+      "url": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+      "address": "5870 Franklin Avenue",
+      "amount": 2432400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/5870-Franklin-Ave-Los-Angeles-CA-90028/2070206051_zpid/",
+      "evidence": "5870 Franklin Ave, Los Angeles, CA 90028. Off-market multifamily building. Zestimate $2,432,400. Indexed page crawled 5 months before check. An older snapshot of this same building showed $8,213,500."
+    },
+    {
+      "placeId": 193,
+      "url": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+      "address": "705 North Sierra Drive",
+      "amount": 22335900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/705-N-Sierra-Dr-Beverly-Hills-CA-90210/20519178_zpid/",
+      "evidence": "705 N Sierra Dr, Beverly Hills, CA 90210. Off market. Zestimate $22,335,900. Page crawled 3 months before check. An indexed snapshot of the same approximate age showed $26,048,600."
+    },
+    {
+      "placeId": 200,
+      "url": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+      "address": "1418 West 126th Street",
+      "amount": 685100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1418-W-126th-St-Los-Angeles-CA-90047/20978466_zpid/",
+      "evidence": "1418 W 126th St, Los Angeles, CA 90047. Off market. Zestimate $685,100. Page crawled 1 week before check."
+    },
+    {
+      "placeId": 218,
+      "url": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+      "address": "26940 Malibu Cove Colony Drive",
+      "amount": 8833400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/26940-Malibu-Cove-Colony-Dr-Malibu-CA-90265/20554901_zpid/",
+      "evidence": "26940 Malibu Cove Colony Dr, Malibu, CA 90265. Sold. Zestimate $8,833,400. Page crawled 1 month before check."
+    },
+    {
+      "placeId": 219,
+      "url": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+      "address": "9024 Thrasher Avenue",
+      "amount": 5835200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/9024-Thrasher-Ave-Los-Angeles-CA-90069/20799176_zpid/",
+      "evidence": "9024 Thrasher Ave, Los Angeles, CA 90069. Off market. Zestimate $5,835,200. Page crawled 1 month before check."
+    },
+    {
+      "placeId": 257,
+      "url": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+      "address": "20 Oakmont Drive",
+      "amount": 4659200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/20-Oakmont-Dr-Los-Angeles-CA-90049/20546909_zpid/",
+      "evidence": "20 Oakmont Dr, Los Angeles, CA 90049. Zillow property page. Zestimate $4,659,200. Indexed page crawled 4 months before check."
+    },
+    {
+      "placeId": 351,
+      "url": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+      "address": "1001 Bel Air Road",
+      "amount": 21950000,
+      "currency": "USD",
+      "kind": "asking",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1001-Bel-Air-Rd-Los-Angeles-CA-90077/65244810_zpid/",
+      "evidence": "1001 Bel Air Rd, Los Angeles, CA 90077. Land listed for sale. Asking price $21,950,000. Page crawled 1 week before check."
+    },
+    {
+      "placeId": 401,
+      "url": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+      "address": "2809 7th Ave, Los Angeles, CA 90018",
+      "amount": 804100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2809-7th-Ave-Los-Angeles-CA-90018/20590296_zpid/",
+      "evidence": "2809 7th Ave, Los Angeles, CA 90018. Off market. Zestimate $804,100. Page crawled 1 week before check."
+    },
+    {
+      "placeId": 403,
+      "url": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+      "address": "4920 11th Ave, Los Angeles, CA 90043",
+      "amount": 933900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4920-11th-Ave-Los-Angeles-CA-90043/20568102_zpid/",
+      "evidence": "4920 11th Ave, Los Angeles, CA 90043. Off market. Zestimate $933,900. Page crawled 8 months before check."
+    },
+    {
+      "placeId": 416,
+      "url": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+      "address": "115 W 111th St, Los Angeles, CA 90061",
+      "amount": 807700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/115-W-111th-St-Los-Angeles-CA-90061/20971887_zpid/",
+      "evidence": "115 W 111th St, Los Angeles, CA 90061. Off market. Zestimate $807,700. Indexed page crawled 1 month before check."
+    },
+    {
+      "placeId": 421,
+      "url": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+      "address": "1125 Oak Grove Ave, San Marino, CA 91108",
+      "amount": 6822900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1125-Oak-Grove-Ave-San-Marino-CA-91108/20700899_zpid/",
+      "evidence": "1125 Oak Grove Ave, San Marino, CA 91108. Off market. Zestimate $6,822,900. Indexed page crawled 3 months before check."
+    },
+    {
+      "placeId": 424,
+      "url": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+      "address": "4255 Enoro Dr, Los Angeles, CA 90008",
+      "amount": 3259500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4255-Enoro-Dr-Los-Angeles-CA-90008/20565954_zpid/",
+      "evidence": "4255 Enoro Dr, Los Angeles, CA 90008. Zillow property page. Zestimate $3,259,500. Indexed page crawled 2 months before check."
+    },
+    {
+      "placeId": 426,
+      "url": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+      "address": "5003 Parkglen Ave, Los Angeles, CA 90043",
+      "amount": 1476800,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/5003-Parkglen-Ave-Los-Angeles-CA-90043/20565827_zpid/",
+      "evidence": "5003 Parkglen Ave, Los Angeles, CA 90043. Off market. Zestimate $1,476,800. Page crawled 5 months before check."
+    },
+    {
+      "placeId": 433,
+      "url": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+      "address": "603 Doheny Rd, Beverly Hills, CA 90210",
+      "amount": 32178000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/603-Doheny-Rd-Beverly-Hills-CA-90210/20522492_zpid/",
+      "evidence": "603 Doheny Rd, Beverly Hills, CA 90210. Off market. Zestimate $32,178,000. Page crawled 4 months before check."
+    },
+    {
+      "placeId": 438,
+      "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+      "amount": 32000000,
+      "currency": "USD",
+      "kind": "asking",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "evidence": "380 S San Rafael Ave, Pasadena, CA 91105. Listed for sale. Asking price $32,000,000. Page crawled 3 days before check."
+    },
+    {
+      "placeId": 439,
+      "url": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+      "address": "2079 Kenilworth Ave, Los Angeles, CA 90039",
+      "amount": 2213600,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2079-Kenilworth-Ave-Los-Angeles-CA-90039/20747564_zpid/",
+      "evidence": "2079 Kenilworth Ave, Los Angeles, CA 90039. Off market. Zestimate $2,213,600. Page crawled 10 months before check."
+    },
+    {
+      "placeId": 446,
+      "url": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+      "address": "7776 Torreyson Dr, Los Angeles, CA 90046",
+      "amount": 2614900,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/7776-Torreyson-Dr-Los-Angeles-CA-90046/79797290_zpid/",
+      "evidence": "7776 Torreyson Dr, Los Angeles, CA 90046. Off market. Zestimate $2,614,900. Page crawled 1 month before check."
+    },
+    {
+      "placeId": 447,
+      "url": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+      "address": "1405 Miller Dr, Los Angeles, CA 90069",
+      "amount": 4624100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1405-Miller-Dr-Los-Angeles-CA-90069/20799111_zpid/",
+      "evidence": "1405 Miller Dr, Los Angeles, CA 90069. Off market. Zestimate $4,624,100. Page crawled 1 month before check."
+    },
+    {
+      "placeId": 452,
+      "url": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+      "address": "172 S McCadden Pl, Los Angeles, CA 90004",
+      "amount": 7916600,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/172-S-McCadden-Pl-Los-Angeles-CA-90004/20778259_zpid/",
+      "evidence": "172 S McCadden Pl, Los Angeles, CA 90004. Sold. Zestimate $7,916,600. Indexed page crawled 1 month before check."
+    },
+    {
+      "placeId": 458,
+      "url": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+      "address": "6122 S Citrus Ave, Los Angeles, CA 90043",
+      "amount": 1043400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/6122-S-Citrus-Ave-Los-Angeles-CA-90043/20335632_zpid/",
+      "evidence": "6122 S Citrus Ave, Los Angeles, CA 90043. Off market. Zestimate $1,043,400. Indexed page crawled 4 days before check."
+    },
+    {
+      "placeId": 460,
+      "url": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+      "address": "5148 Louise Ave, Encino, CA 91316",
+      "amount": 7547000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/5148-Louise-Ave-Encino-CA-91316/19979287_zpid/",
+      "evidence": "5148 Louise Ave, Encino, CA 91316. Off market. Zestimate $7,547,000. Page crawled 1 month before check."
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 138,
+      "url": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+      "reason": "Apartment building page has no property-level asking price or Zestimate. The dollar amount belongs to a sold unit."
+    },
+    {
+      "placeId": 417,
+      "url": "https://www.zillow.com/homedetails/15515-Via-De-Las-Olas-Pacific-Palisades-CA-90272/20541329_zpid/",
+      "reason": "Off market. Zillow marks the Zestimate unavailable and displays a tax assessment."
+    },
+    {
+      "placeId": 425,
+      "url": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+      "reason": "Exact Zillow property page was inaccessible. Only nearby-home cards from other property pages appeared in search."
+    },
+    {
+      "placeId": 430,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+      "reason": "Building page gives rents for available apartments and no building-level asking price or Zestimate."
+    },
+    {
+      "placeId": 444,
+      "url": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+      "reason": "Indexed Zillow building page shows a rental unit and no building-level asking price or Zestimate. Direct access returned HTTP 429."
+    }
+  ]
+}

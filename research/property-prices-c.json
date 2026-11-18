@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 473,
+      "url": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+      "address": "1883 Orlando Rd, San Marino, CA 91108",
+      "amount": 11804400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1883-Orlando-Rd-San-Marino-CA-91108/20701553_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $11,804,400. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 474,
+      "url": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+      "address": "163 S Rockingham Ave, Los Angeles, CA 90049",
+      "amount": 31979500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/163-S-Rockingham-Ave-Los-Angeles-CA-90049/20538441_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $31,979,500. Source snapshot crawled 8 months ago."
+    },
+    {
+      "placeId": 483,
+      "url": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+      "address": "12801 Miranda St, Valley Village, CA 91607",
+      "amount": 1040200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/12801-Miranda-St-Valley-Village-CA-91607/20014304_zpid/",
+      "evidence": "Sold previously on Zillow's matching address page. Zestimate $1,040,200. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 486,
+      "url": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+      "address": "4450 Balboa Ave, Encino, CA 91316",
+      "amount": 3862100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4450-Balboa-Ave-Encino-CA-91316/19993448_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $3,862,100. Source snapshot crawled 6 months ago."
+    },
+    {
+      "placeId": 492,
+      "url": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+      "address": "10336 Dunleer Dr, Los Angeles, CA 90064",
+      "amount": 3370700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/10336-Dunleer-Dr-Los-Angeles-CA-90064/20499429_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $3,370,700. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 493,
+      "url": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+      "address": "121 S Cliffwood Ave, Los Angeles, CA 90049",
+      "amount": 12966000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/121-S-Cliffwood-Ave-Los-Angeles-CA-90049/20537868_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $12,966,000. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 494,
+      "url": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+      "address": "2211 Fox Hills Dr, Los Angeles, CA 90064",
+      "amount": 1723300,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2211-Fox-Hills-Dr-Los-Angeles-CA-90064/20497535_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,723,300. Source snapshot crawled 3 weeks ago."
+    },
+    {
+      "placeId": 495,
+      "url": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+      "address": "251 N Bristol Ave, Los Angeles, CA 90049",
+      "amount": 22950000,
+      "currency": "USD",
+      "kind": "asking",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/251-N-Bristol-Ave-Los-Angeles-CA-90049/20538365_zpid/",
+      "evidence": "For sale on Zillow's matching address page. Asking price $22,950,000."
+    },
+    {
+      "placeId": 496,
+      "url": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+      "address": "2302 W 25th St, Los Angeles, CA 90018",
+      "amount": 1390400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2302-W-25th-St-Los-Angeles-CA-90018/250333914_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,390,400. Source snapshot crawled 3 months ago."
+    },
+    {
+      "placeId": 497,
+      "url": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+      "address": "1675 E Altadena Dr, Altadena, CA 91001",
+      "amount": 2057200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1675-E-Altadena-Dr-Altadena-CA-91001/20917055_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $2,057,200. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 512,
+      "url": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+      "address": "27528 N Weeping Willow Dr, Valencia, CA 91354",
+      "amount": 1033500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/27528-Weeping-Willow-Dr-Valencia-CA-91354/63088053_zpid/",
+      "evidence": "Sold previously on Zillow's linked property page. Zestimate $1,033,500. Zillow omits the N direction on the linked record. Its separate N-direction record shares parcel 2810073005. Source snapshot crawled 4 months ago."
+    },
+    {
+      "placeId": 602,
+      "url": "https://www.zillow.com/homedetails/9303-Roslyndale-Ave-Pacoima-CA-91331/20127228_zpid/",
+      "address": "9303 Roslyndale Ave, Pacoima, CA 91331",
+      "amount": 700300,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/9303-Roslyndale-Ave-Pacoima-CA-91331/20127228_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $700,300. Source snapshot crawled last month."
+    },
+    {
+      "placeId": 621,
+      "url": "https://www.zillow.com/homedetails/1115-Oxley-St-South-Pasadena-CA-91030/402573125_zpid/",
+      "address": "1115 Oxley St, South Pasadena, CA 91030",
+      "amount": 1625500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1115-Oxley-St-South-Pasadena-CA-91030/402573125_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,625,500. Source snapshot crawled 2 months ago."
+    },
+    {
+      "placeId": 624,
+      "url": "https://www.zillow.com/homedetails/1530-N-Orange-Grove-Ave-Los-Angeles-CA-90046/89666783_zpid/",
+      "address": "1530 N Orange Grove Ave, Los Angeles, CA 90046",
+      "amount": 2527500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1530-N-Orange-Grove-Ave-Los-Angeles-CA-90046/89666783_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $2,527,500. Source snapshot crawled 8 months ago."
+    },
+    {
+      "placeId": 626,
+      "url": "https://www.zillow.com/homedetails/19625-Bryant-St-Northridge-CA-91324/20182669_zpid/",
+      "address": "19625 Bryant St, Northridge, CA 91324",
+      "amount": 1042000,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/19625-Bryant-St-Northridge-CA-91324/20182669_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,042,000. Source snapshot crawled 4 months ago."
+    },
+    {
+      "placeId": 630,
+      "url": "https://www.zillow.com/homedetails/3907-Dixie-Canyon-Ave-Sherman-Oaks-CA-91423/20028698_zpid/",
+      "address": "3907 Dixie Canyon Ave, Sherman Oaks, CA 91423",
+      "amount": 2521300,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/3907-Dixie-Canyon-Ave-Sherman-Oaks-CA-91423/20028698_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $2,521,300. Source snapshot crawled 4 months ago."
+    },
+    {
+      "placeId": 631,
+      "url": "https://www.zillow.com/homedetails/23727-Posey-Ln-Canoga-Park-CA-91304/19870452_zpid/",
+      "address": "23727 Posey Ln, Canoga Park, CA 91304",
+      "amount": 1392400,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/23727-Posey-Ln-Canoga-Park-CA-91304/19870452_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,392,400. Source snapshot crawled 2 months ago."
+    },
+    {
+      "placeId": 691,
+      "url": "https://www.zillow.com/homedetails/2817-Via-Segovia-Palos-Verdes-Estates-CA-90274/21341714_zpid/",
+      "address": "2817 Via Segovia, Palos Verdes Estates, CA 90274",
+      "amount": 8055600,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2817-Via-Segovia-Palos-Verdes-Estates-CA-90274/21341714_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $8,055,600. Source snapshot crawled 8 months ago."
+    },
+    {
+      "placeId": 692,
+      "url": "https://www.zillow.com/homedetails/7436-Mulholland-Dr-Los-Angeles-CA-90046/20802590_zpid/",
+      "address": "7436 Mulholland Dr, Los Angeles, CA 90046",
+      "amount": 9223500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/7436-Mulholland-Dr-Los-Angeles-CA-90046/20802590_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $9,223,500. Source snapshot crawled 2 months ago."
+    },
+    {
+      "placeId": 711,
+      "url": "https://www.zillow.com/homedetails/28824-Cliffside-Dr-Malibu-CA-90265/20555544_zpid/",
+      "address": "28824 Cliffside Dr, Malibu, CA 90265",
+      "amount": 90000000,
+      "currency": "USD",
+      "kind": "asking",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/28824-Cliffside-Dr-Malibu-CA-90265/20555544_zpid/",
+      "evidence": "For sale on Zillow's matching address page. Asking price $90,000,000."
+    },
+    {
+      "placeId": 651,
+      "url": "https://www.zillow.com/homedetails/24124-Welby-Way-West-Hills-CA-91307/19874329_zpid/",
+      "address": "24124 Welby Way, West Hills, CA 91307",
+      "amount": 954200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/24124-Welby-Way-West-Hills-CA-91307/19874329_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $954,200. Source snapshot crawled 2 months ago."
+    },
+    {
+      "placeId": 655,
+      "url": "https://www.zillow.com/homedetails/7035-Senalda-Rd-Los-Angeles-CA-90068/20803622_zpid/",
+      "address": "7035 Senalda Rd, Los Angeles, CA 90068",
+      "amount": 2247500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/7035-Senalda-Rd-Los-Angeles-CA-90068/20803622_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $2,247,500. Source snapshot crawled 3 months ago."
+    },
+    {
+      "placeId": 663,
+      "url": "https://www.zillow.com/homedetails/7532-Sedgewick-Ct-Canoga-Park-CA-91304/19870683_zpid/",
+      "address": "7532 Sedgewick Ct, Canoga Park, CA 91304",
+      "amount": 1881700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/7532-Sedgewick-Ct-Canoga-Park-CA-91304/19870683_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,881,700. Source snapshot crawled 2 months ago."
+    },
+    {
+      "placeId": 781,
+      "url": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+      "address": "4145 Kraft Ave, Studio City, CA 91604",
+      "amount": 1730100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/4145-Kraft-Ave-Studio-City-CA-91604/20027523_zpid/",
+      "evidence": "Off market on Zillow's matching address page. Zestimate $1,730,100. Source snapshot crawled last month."
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 468,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+      "reason": "Rental-only listing for Normandie View at the matched address."
+    },
+    {
+      "placeId": 482,
+      "url": "https://www.zillow.com/homedetails/7902-Goodland-Ave-North-Hollywood-CA-91605/19997626_zpid/",
+      "reason": "Zillow's address index confirms the link, but the exact property detail page was inaccessible."
+    },
+    {
+      "placeId": 489,
+      "url": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+      "reason": "Rental-only listing for the documented 469 Sherman Ave alias. No home Zestimate shown."
+    },
+    {
+      "placeId": 491,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+      "reason": "Rental-only listing for Binford Lofts at the matched address."
+    },
+    {
+      "placeId": 623,
+      "url": "https://www.zillow.com/homedetails/1537-N-Orange-Grove-Ave-Los-Angeles-CA-90046/20795378_zpid/",
+      "reason": "House listed for rent at the matched address. No home Zestimate shown."
+    },
+    {
+      "placeId": 668,
+      "url": "https://www.zillow.com/b/535-s-curson-ave-los-angeles-ca-9Tz7xZ/",
+      "reason": "Building page has no whole-building price or Zestimate. The published Zestimate applies only to Unit 1H."
+    },
+    {
+      "placeId": 752,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+      "reason": "Rental-only listing for Alexandria Housing at the matched address."
+    },
+    {
+      "placeId": 753,
+      "url": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+      "reason": "Building page shows rental units only. The heading uses 253 Broadway St for the documented 253 S Broadway building."
+    }
+  ]
+}

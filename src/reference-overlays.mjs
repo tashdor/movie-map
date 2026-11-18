@@ -1,4 +1,4 @@
-const layers=['neighborhoods','landmarks'];
+const layers=['neighborhoods','landmarks','prices'];
 
 export function readOverlays(value=''){
   const enabled=new Set(value.split(','));
