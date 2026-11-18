@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "placeId": 453,
+  "name": "Jane & Blanche at the beach",
+  "previousCoordinates": [
+    -118.8169,
+    34.008
+  ],
+  "coordinates": [
+    -118.8149,
+    34.0081
+  ],
+  "productionCoordinates": [
+    -118.8149,
+    34.0081
+  ],
+  "precision": "beach-area-approximation",
+  "recommendedDisplay": {
+    "kind": "inferred",
+    "address": "Westward Beach, Point Dume · approximate scene area",
+    "reason": "The film’s beach scene is documented at Westward Beach in Malibu. This representative point on the sand replaces an offshore geocode. It identifies the documented beach area, not an exact actor or camera position."
+  },
+  "verification": [
+    "The record’s specialist source, Set-Jetter, explicitly identifies Westward Beach in Malibu and provides matched film/site photographs.",
+    "Independent specialist Movie-Locations identifies Jane and Blanche’s beach as Westward Beach, on Malibu’s west shore.",
+    "The source comparison image shows the beach along the cliffs with Point Dume beyond, consistent with the same beach corridor researched for Soberin’s house.",
+    "The proposed point lies on the sandy strip seaward of Westward Beach Road in the inspected Esri World Imagery tile, not on the road, cliff or offshore water.",
+    "USGS 1-metre elevation sample supports dry-land placement; the beach shoreline changes with tides and erosion. This is a deliberately approximate scene-area marker."
+  ],
+  "sources": [
+    {
+      "id": "jane_beach_setjetter",
+      "title": "Set-Jetter: What Ever Happened To Baby Jane? (1962) — Westward Beach scene comparison",
+      "url": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "type": "matched film/site photographs and location identification"
+    },
+    {
+      "id": "jane_beach_movie_locations",
+      "title": "Movie-Locations: What Ever Happened To Baby Jane? — Westward Beach",
+      "url": "https://www.movie-locations.com/movies/w/What-Ever-Happened-To-Baby-Jane.php",
+      "type": "specialist filming-location guide"
+    },
+    {
+      "id": "jane_beach_county",
+      "title": "Los Angeles County Beaches and Harbors: Point Dume Beach and Westward Beach access",
+      "url": "https://beaches.lacounty.gov/point-dume-beach/",
+      "type": "official beach geography"
+    },
+    {
+      "id": "jane_beach_imagery",
+      "title": "Esri World Imagery tile: Westward Beach sand and access road",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/104711/44553",
+      "type": "public aerial imagery; inspected land-cover cross-check"
+    },
+    {
+      "id": "jane_beach_elevation",
+      "title": "USGS 3DEP elevation at proposed sandy beach point",
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.8149&y=34.0081&units=Meters&wkid=4326&includeDate=true",
+      "type": "official elevation sample"
+    }
+  ],
+  "imageryVerification": {
+    "tileZoom": 18,
+    "tileX": 44553,
+    "tileY": 104711,
+    "pixelIn256Tile": [
+      161.32,
+      39.01
+    ],
+    "observation": "The point is on the tan sandy beach strip between the white surf line and the light-colored riprap/road corridor.",
+    "exactHistoricPositionClaimed": false
+  },
+  "elevation": {
+    "sourceUrl": "https://epqs.nationalmap.gov/v1/json?x=-118.8149&y=34.0081&units=Meters&wkid=4326&includeDate=true",
+    "result": {
+      "location": {
+        "x": -118.8149,
+        "y": 34.0081,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      },
+      "locationId": 0,
+      "value": "1.691519260",
+      "rasterId": 85754,
+      "resolution": 1,
+      "attributes": {
+        "AcquisitionDate": "6/1/2024"
+      }
+    }
+  },
+  "historicalFootprintStatus": "No exact actor/camera position established or claimed; sources identify the beach and support an area marker only."
+}

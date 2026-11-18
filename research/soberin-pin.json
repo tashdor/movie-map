@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "placeId": 437,
+  "name": "Soberin’s beach house",
+  "previousCoordinates": [
+    -118.8163,
+    34.0067
+  ],
+  "coordinates": [
+    -118.814554278072,
+    34.0082568181566
+  ],
+  "productionCoordinates": [
+    -118.814554278072,
+    34.0082568181566
+  ],
+  "precision": "historical-site-approximation",
+  "correctionDistanceMetres": 236,
+  "recommendedDisplay": {
+    "kind": "inferred",
+    "address": "Westward Beach Road, Point Dume · historical site approximate",
+    "reason": "Sources establish Westward Beach Road near Point Dume, but do not identify a numbered parcel or surviving foundation. The film house no longer stands. This representative land point on the documented beach-road corridor replaces an offshore point; it is not a surveyed location of the former house."
+  },
+  "verification": [
+    "AFI identifies the production beach house on Westward Beach Road in Malibu; its Loophole entry corroborates that the same house was used in both films.",
+    "The existing Movie Tourist film/now image pair shows the beach at the foot of cliffs, with the road above it, looking toward Point Dume. The source does not supply GPS coordinates.",
+    "A local photo comparison places the now-vanished house on the beach between Sunset Restaurant and Point Dume cliffs. This is corroboration of the corridor only, not an independently surveyed parcel.",
+    "The replacement point is an exact vertex on the official County CAMS Westward Beach Road centerline, well within that corridor. It is chosen as an honest approximation beside the historic beach scene, not as proof the house stood on the current road.",
+    "USGS 1-metre elevation data for the replacement point gives 7.66 metres above reference elevation (June 2024 acquisition), whereas the old point gives -0.87 metres (2016 acquisition). Combined with the road geometry, this supports moving the display pin onto land. Coastal erosion means these data do not establish today’s beach width."
+  ],
+  "sources": [
+    {
+      "id": "soberin_afi_location",
+      "url": "https://catalog.afi.com/Film/51550-KISS-ME-DEADLY",
+      "title": "AFI Catalog: Kiss Me Deadly — Westward Beach Road location",
+      "type": "film archive production notes"
+    },
+    {
+      "id": "soberin_loophole_afi",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/51265",
+      "title": "AFI Catalog: Loophole — same Westward Beach Road house",
+      "type": "film archive production notes"
+    },
+    {
+      "id": "soberin_movie_tourist",
+      "url": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "title": "Movie Tourist: Kiss Me Deadly — film and modern beach comparison",
+      "type": "matched filming-location photo study"
+    },
+    {
+      "id": "soberin_patch_comparison",
+      "url": "https://patch.com/california/malibu/malibu-film-locations-1962-1955",
+      "title": "Malibu film-location comparison: beach house between Sunset Restaurant and Point Dume cliff",
+      "type": "local contributor’s photograph comparison; corroborative only"
+    },
+    {
+      "id": "soberin_county_road",
+      "url": "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/eGIS_Addressing_ROAD_LINES/FeatureServer/0/query?where=OBJECTID%3D274431&outFields=OBJECTID%2CFullName%2CSource%2CSourceID%2CFrom_L%2CFrom_R%2CTo_L%2CTo_R&outSR=4326&returnGeometry=true&f=json",
+      "title": "Los Angeles County CAMS: Westward Beach Road segment 274431",
+      "type": "official road centerline geometry"
+    },
+    {
+      "id": "soberin_county_beach",
+      "url": "https://beaches.lacounty.gov/point-dume-beach/",
+      "title": "Los Angeles County: Point Dume Beach and Westward Beach access road",
+      "type": "official beach geography"
+    },
+    {
+      "id": "soberin_usgs_elevation",
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.814554278072&y=34.0082568181566&units=Meters&wkid=4326&includeDate=true",
+      "title": "USGS 3DEP elevation at the replacement land point",
+      "type": "official federal elevation sample"
+    }
+  ],
+  "road": {
+    "sourceUrl": "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/eGIS_Addressing_ROAD_LINES/FeatureServer/0/query?where=OBJECTID%3D274431&outFields=OBJECTID%2CFullName%2CSource%2CSourceID%2CFrom_L%2CFrom_R%2CTo_L%2CTo_R&outSR=4326&returnGeometry=true&f=json",
+    "attributes": {
+      "OBJECTID": 274431,
+      "FullName": "Westward Beach Rd",
+      "Source": "CAMS",
+      "SourceID": "C8BF7D1F-C6FA-4DCC-B09B-0283ABAD8018",
+      "From_L": 6800,
+      "From_R": 6801,
+      "To_L": 7298,
+      "To_R": 7299
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -118.816597278688,
+          34.0108598197151
+        ],
+        [
+          -118.816532278633,
+          34.0107818187569
+        ],
+        [
+          -118.8164192791,
+          34.0106468188711
+        ],
+        [
+          -118.815904278792,
+          34.0097468196604
+        ],
+        [
+          -118.815693279761,
+          34.0095018192828
+        ],
+        [
+          -118.815495279309,
+          34.0093308187029
+        ],
+        [
+          -118.815264278707,
+          34.0090898186036
+        ],
+        [
+          -118.814995278647,
+          34.0087478192415
+        ],
+        [
+          -118.814554278072,
+          34.0082568181566
+        ],
+        [
+          -118.814281278395,
+          34.0079678187059
+        ],
+        [
+          -118.814091278059,
+          34.0077988192569
+        ],
+        [
+          -118.813641277834,
+          34.0074908182077
+        ],
+        [
+          -118.813371278767,
+          34.0073018185998
+        ],
+        [
+          -118.813162277939,
+          34.0071978198295
+        ],
+        [
+          -118.812903277561,
+          34.007105819078
+        ],
+        [
+          -118.812689279185,
+          34.0069848191845
+        ],
+        [
+          -118.812515277957,
+          34.0068418185909
+        ],
+        [
+          -118.812410278744,
+          34.0067248184412
+        ],
+        [
+          -118.812205278448,
+          34.0065118184097
+        ],
+        [
+          -118.811532278747,
+          34.0057558193868
+        ],
+        [
+          -118.810846278239,
+          34.0049998193269
+        ],
+        [
+          -118.810558277067,
+          34.0046688188859
+        ],
+        [
+          -118.809852277835,
+          34.0037838180503
+        ],
+        [
+          -118.809344277229,
+          34.0031918186804
+        ]
+      ]
+    }
+  },
+  "elevation": {
+    "old": {
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.8163&y=34.0067&units=Meters&wkid=4326&includeDate=true",
+      "result": {
+        "location": {
+          "x": -118.8163,
+          "y": 34.0067,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 0,
+        "value": "-0.865633667",
+        "rasterId": 78146,
+        "resolution": 1,
+        "attributes": {
+          "AcquisitionDate": "9/2/2016"
+        }
+      }
+    },
+    "replacement": {
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.814554278072&y=34.0082568181566&units=Meters&wkid=4326&includeDate=true",
+      "result": {
+        "location": {
+          "x": -118.814554278072,
+          "y": 34.0082568181566,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 0,
+        "value": "7.659561157",
+        "rasterId": 85754,
+        "resolution": 1,
+        "attributes": {
+          "AcquisitionDate": "6/1/2024"
+        }
+      }
+    }
+  },
+  "historicalFootprintStatus": "Not established. No exact numbered address, foundation footprint, or surveyed parcel has been verified. Do not present the point as an extant home or an exact historic footprint."
+}

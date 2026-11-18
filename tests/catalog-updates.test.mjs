@@ -6,6 +6,26 @@ const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json');
 const propertyCatalogs=['early','late'].map(part=>read(`../research/property-links-${part}.json`));
 
+test('Soberin’s vanished beach house uses a land-based historical proxy without a false footprint',()=>{
+  const place=data.places.find(p=>p.id===437),evidence=read('../research/soberin-pin.json');
+  assert.deepEqual(place.coordinates,place.productionCoordinates);
+  assert.ok(evidence.road.geometry.coordinates.some(point=>point.every((value,index)=>Math.abs(value-place.coordinates[index])<1e-9)));
+  assert.ok(Number(evidence.elevation.replacement.result.value)>0);
+  assert.ok(Number(evidence.elevation.old.result.value)<0);
+  assert.equal(place.placement.kind,'inferred');
+  assert.match(place.placement.address,/historical site approximate/);
+  assert.equal(place.placement.geometry,undefined,'a vanished house is not drawn as the whole road');
+  assert.deepEqual(displayEntries([place],{category:'death'})[0].coordinates,place.coordinates);
+  const query=new URL(filmingSiteMapsUrl(place)).searchParams.get('query').split(',').map(Number);
+  assert.deepEqual([query[1],query[0]],place.coordinates);
+  const beach=data.places.find(p=>p.id===453),beachEvidence=read('../research/jane-blanche-beach-pin.json');
+  assert.deepEqual(beach.coordinates,beachEvidence.coordinates);
+  assert.ok(Number(beachEvidence.elevation.result.value)>0);
+  assert.equal(beachEvidence.imageryVerification.exactHistoricPositionClaimed,false);
+  assert.match(beach.placement.address,/approximate scene area/);
+  assert.equal(beach.placement.geometry,undefined);
+});
+
 test('every Observatory appearance uses the building, separately from the roadside dance',()=>{
   const observatory=data.places.find(p=>p.id===83),dance=data.places.find(p=>p.id===477);
   const landmark=read('../public/la-landmarks.geojson').features.find(f=>f.properties.id==='griffith-observatory');

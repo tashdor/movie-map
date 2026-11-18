@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 4,
+      "url": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+      "address": "1219 Dodds Circle",
+      "amount": 1125200,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1219-Dodds-Cir-Los-Angeles-CA-90063/20647364_zpid/",
+      "evidence": "The indexed Zillow detail page for 1219 Dodds Cir, Los Angeles, CA 90063 (parcel 5229011033) shows a home Zestimate of $1,125,200. The search index reports a crawl two weeks before this check."
+    },
+    {
+      "placeId": 55,
+      "url": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+      "address": "1972 North Canyon Drive",
+      "amount": 1900100,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1972-Canyon-Dr-Los-Angeles-CA-90068/20808315_zpid/",
+      "evidence": "The indexed Zillow detail page for 1972 Canyon Dr, Los Angeles, CA 90068 (parcel 5587016013) shows the property off market with a home Zestimate of $1,900,100. The search index reports a crawl in the prior month."
+    },
+    {
+      "placeId": 72,
+      "url": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+      "address": "2313 East 113th Street",
+      "amount": 544500,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/2313-E-113th-St-Los-Angeles-CA-90059/20968338_zpid/",
+      "evidence": "The indexed Zillow detail page for 2313 E 113th St, Los Angeles, CA 90059 (parcel 6067015017) shows the property off market with a home Zestimate of $544,500. The search index reports a crawl four months before this check."
+    },
+    {
+      "placeId": 102,
+      "url": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+      "address": "6301 Quebec Drive",
+      "amount": 2109600,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/6301-Quebec-Dr-Los-Angeles-CA-90068/20807072_zpid/",
+      "evidence": "The indexed Zillow detail page for 6301 Quebec Dr, Los Angeles, CA 90068 (parcel 5585016034) shows the property off market with a home Zestimate of $2,109,600. The search index reports a crawl three weeks before this check."
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 425,
+      "url": "https://www.zillow.com/homedetails/4585-Mount-Vernon-Dr-Los-Angeles-CA-90043/20565794_zpid/",
+      "reason": "Zillow’s public address index lists the exact property. A home Zestimate or active sale asking price could not be verified on the property detail page."
+    },
+    {
+      "placeId": 482,
+      "url": "https://www.zillow.com/homedetails/7902-Goodland-Ave-North-Hollywood-CA-91605/19997626_zpid/",
+      "reason": "Zillow’s public address index lists the exact property. A home Zestimate or active sale asking price could not be verified on the property detail page."
+    },
+    {
+      "placeId": 489,
+      "url": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+      "reason": "The exact Zillow detail page for the canal residence (469 Sherman Ave, parcel 4227013011) is a rental listing. No home Zestimate or active sale asking price is published on the indexed page."
+    }
+  ]
+}

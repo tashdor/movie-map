@@ -41,12 +41,12 @@ export function installPriceMarkers(map:AtlasMap,onSelect:(id:number)=>void){
         }
         if(record.signature!==signature){
           const button=document.createElement('button');button.type='button';button.className='house-price-callout';button.textContent=pin.label;
-          button.setAttribute('aria-label',`Open ${accessibleText(pin.name)} · Zillow ${priceDescription(pin.price)}`);
+          button.setAttribute('aria-label',`Open ${accessibleText(pin.name)} · Filming property at ${pin.address} · Zillow ${priceDescription(pin.price)}`);
           button.addEventListener('click',event=>{event.stopPropagation();onSelect(pin.placeId);});
           const tooltip=document.createElement('div');tooltip.className='house-price-tooltip';tooltip.setAttribute('role','tooltip');
           const movies=document.createElement('span');movies.textContent=pin.titles.map(filmTitle).join(' / ');
           const name=document.createElement('strong');appendRedactedText(name,pin.name);
-          const address=document.createElement('span');address.textContent=pin.address;
+          const address=document.createElement('span');address.textContent=`Filming property · ${pin.address}`;
           const value=document.createElement('span');value.textContent=`Zillow · ${priceDescription(pin.price)}`;
           tooltip.append(movies,name,address,value);record.element.replaceChildren(button,tooltip);record.signature=signature;
         }

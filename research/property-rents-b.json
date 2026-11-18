@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 430,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/",
+      "address": "10401 Wilshire Blvd, Los Angeles, CA 90024",
+      "amount": 3495,
+      "maxAmount": 3999,
+      "scope": "available-units",
+      "evidence": "Zillow’s available-units table lists three apartments at this exact address with base monthly rents of $3,495, $3,899 and $3,999. The film apartment is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/10401-wilshire-building/5XjQvX/"
+    },
+    {
+      "placeId": 444,
+      "url": "https://www.zillow.com/b/720-s-mariposa-ave-los-angeles-ca-9Ty5J7/",
+      "address": "720 S Mariposa Ave, Los Angeles, CA",
+      "amount": 1495,
+      "scope": "available-units",
+      "sourceUrl": "https://www.zillow.com/homedetails/720-S-Mariposa-Ave-17-Los-Angeles-CA-90005/2079999435_zpid/",
+      "evidence": "Zillow’s indexed listing advertises studio 17 at the exact building address for $1,495 per month and marks it available. One advertised unit. The film unit is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18"
+    },
+    {
+      "placeId": 468,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/",
+      "address": "706 S Normandie Ave, Los Angeles, CA 90005",
+      "amount": 1895,
+      "maxAmount": 2295,
+      "scope": "available-units",
+      "evidence": "The Normandie View available-units table shows studios at $1,895 and a one-bedroom at $2,295 in monthly base rent. The film apartment is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/normandie-view/5XjLdx/"
+    },
+    {
+      "placeId": 489,
+      "url": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/",
+      "address": "469 Sherman Canal, Venice, CA 90291",
+      "amount": 13500,
+      "scope": "property",
+      "evidence": "Zillow advertises this Venice Canals single-family house for $13,500 per month and marks it available. The listing identifies the house as the Baywatch residence.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/469-Sherman-Ave-Venice-CA-90291/20444156_zpid/"
+    },
+    {
+      "placeId": 491,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/",
+      "address": "837 Traction Ave, Los Angeles, CA 90013",
+      "amount": 2420,
+      "isFrom": true,
+      "scope": "available-units",
+      "evidence": "Zillow lists available studio 411 at Binford Lofts from $2,420 per month in base rent. The fictional Apartment 4D is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/binford-lofts/CkKQ4r/"
+    },
+    {
+      "placeId": 623,
+      "url": "https://www.zillow.com/homedetails/1537-N-Orange-Grove-Ave-Los-Angeles-CA-90046/20795378_zpid/",
+      "address": "1537 N Orange Grove Ave, Los Angeles, CA 90046",
+      "amount": 16995,
+      "scope": "property",
+      "evidence": "Zillow advertises the exact single-family house for $16,995 per month and marks it available.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/1537-N-Orange-Grove-Ave-Los-Angeles-CA-90046/20795378_zpid/"
+    },
+    {
+      "placeId": 752,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/",
+      "address": "501 S Spring St, Los Angeles, CA 90013",
+      "amount": 946,
+      "maxAmount": 1600,
+      "scope": "available-units",
+      "note": "Income-restricted units with required fees included.",
+      "evidence": "Alexandria Housing lists available units from $946 to $1,600 per month, including required monthly fees. Zillow identifies the building as income restricted. The film apartment is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/alexandria-housing/5XjKVs/"
+    },
+    {
+      "placeId": 753,
+      "url": "https://www.zillow.com/b/253-broadway-st-los-angeles-ca-CgzT2Q/",
+      "address": "253 S Broadway, Los Angeles, CA 90012",
+      "amount": 4000,
+      "scope": "available-units",
+      "sourceUrl": "https://www.zillow.com/homedetails/253-S-Broadway-St-502-Los-Angeles-CA-90012/465817241_zpid/",
+      "evidence": "The exact Pan American Lofts listing marks condo 502 available at $4,000 per month. Other building cards conflict with newer listing details. One advertised unit. The film unit is unidentified.",
+      "currency": "USD",
+      "kind": "rent",
+      "checkedOn": "2026-11-18"
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 668,
+      "url": "https://www.zillow.com/b/535-s-curson-ave-los-angeles-ca-9Tz7xZ/",
+      "reason": "The exact Zillow building page shows only a sale-value Zestimate for one unidentified unit. No advertised rent or building-level Rent Zestimate was verified."
+    }
+  ]
+}

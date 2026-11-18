@@ -7,22 +7,27 @@ export function formatHousePrice(amount){
   return amount<1e6?new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:0}).format(amount):compact.format(amount);
 }
 
+export function formatPropertyPrice(price){
+  if(!price||!formatHousePrice(price.amount))return '';
+  if(!['rent','rent-zestimate'].includes(price.kind))return formatHousePrice(price.amount);
+  const minimum=compact.format(price.amount),maximum=price.maxAmount&&compact.format(price.maxAmount);
+  return `${minimum}${maximum&&maximum!==minimum?`–${maximum}`:price.isFrom?'+':''}/mo`;
+}
+
 export function priceDescription(price){
-  return `${price.kind==='asking'?'Asking price':'Zestimate'} snapshot · $${whole.format(price.amount)} · checked ${date.format(new Date(`${price.checkedOn}T00:00:00Z`))}`;
+  const monthly=['rent','rent-zestimate'].includes(price.kind);
+  const kind=price.kind==='asking'?'Asking price':price.kind==='rent'?(price.scope==='available-units'?'Listed unit rents':'Listed rent'):price.kind==='rent-zestimate'?'Rent Zestimate':'Zestimate';
+  const amount=`$${whole.format(price.amount)}${price.maxAmount&&price.maxAmount!==price.amount?`–$${whole.format(price.maxAmount)}`:price.isFrom?'+':''}${monthly?'/month':''}`;
+  return `${kind} snapshot · ${amount} · checked ${date.format(new Date(`${price.checkedOn}T00:00:00Z`))}${price.note?` · ${price.note}`:''}`;
 }
 
 export function housePricePins(places){
   const pins=new Map();
   for(const place of places){
-    if(place.isDeath||place.baseId||!place.categories.includes('home')||!place.coordinates||['inferred','unknown'].includes(place.placement?.kind))continue;
-    const actual=place.productionCoordinates||place.coordinates;
-    const [lon,lat]=place.coordinates;
-    const displacement=Math.hypot((lon-actual[0])*Math.cos(lat*Math.PI/180),lat-actual[1])*111320;
-    // A real property's value must not float over an editorial story position.
-    if(displacement>25)continue;
+    if(place.isDeath||place.baseId||!place.categories.includes('home')||!place.coordinates)continue;
     for(const link of place.propertyLinks||[]){
-      if(!link.price||!formatHousePrice(link.price.amount)||pins.has(link.url))continue;
-      pins.set(link.url,{key:link.url,placeId:place.id,name:place.name,titles:[...new Set(place.appearances.map(a=>a.title))],coordinates:place.coordinates,address:link.address,url:link.url,price:link.price,label:formatHousePrice(link.price.amount)});
+      if(!link.price||!formatPropertyPrice(link.price)||pins.has(link.url))continue;
+      pins.set(link.url,{key:link.url,placeId:place.id,name:place.name,titles:[...new Set(place.appearances.map(a=>a.title))],coordinates:place.coordinates,address:link.address,url:link.url,price:link.price,label:formatPropertyPrice(link.price)});
     }
   }
   return [...pins.values()];

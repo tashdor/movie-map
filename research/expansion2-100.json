@@ -4150,24 +4150,26 @@
       "address": "Westward Beach Road, Malibu",
       "area": "Point Dume",
       "coordinates": [
-        -118.8163,
-        34.0067
+        -118.814554278072,
+        34.0082568181566
       ],
       "productionCoordinates": [
-        -118.8163,
-        34.0067
+        -118.814554278072,
+        34.0082568181566
       ],
-      "precision": "beach-area",
+      "precision": "historical-site-approximation",
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Point Dume",
-        "precision": "beach-area",
+        "kind": "inferred",
+        "address": "Westward Beach Road, Point Dume · historical site approximate",
+        "reason": "Sources establish Westward Beach Road near Point Dume, but do not identify a numbered parcel or surviving foundation. The film house no longer stands. This representative land point on the documented beach-road corridor replaces an offshore point; it is not a surveyed location of the former house.",
+        "precision": "historical-site-approximation",
         "sourceIds": [
           "e2c_kmd_locations",
           "e2c_kmd_afi",
-          "e2c_geocoder"
-        ],
-        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+          "soberin_county_road",
+          "soberin_county_beach",
+          "soberin_usgs_elevation"
+        ]
       },
       "people": [
         "Dr. G. E. Soberin",
@@ -5861,24 +5863,26 @@
       "address": "Westward Beach Road, Malibu",
       "area": "Point Dume",
       "coordinates": [
-        -118.8169,
-        34.008
+        -118.8149,
+        34.0081
       ],
       "productionCoordinates": [
-        -118.8169,
-        34.008
+        -118.8149,
+        34.0081
       ],
-      "precision": "beach-area",
+      "precision": "beach-area-approximation",
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Point Dume",
-        "precision": "beach-area",
+        "kind": "inferred",
+        "address": "Westward Beach, Point Dume · approximate scene area",
+        "reason": "The film’s beach scene is documented at Westward Beach in Malibu. This representative point on the sand replaces an offshore geocode. It identifies the documented beach area, not an exact actor or camera position.",
+        "precision": "beach-area-approximation",
         "sourceIds": [
-          "e2c_baby_locations",
-          "e2c_baby_story",
-          "e2c_geocoder"
-        ],
-        "reason": "The marker represents the documented scene area or approximate historical site rather than a verified street parcel."
+          "jane_beach_setjetter",
+          "jane_beach_movie_locations",
+          "jane_beach_county",
+          "jane_beach_imagery",
+          "jane_beach_elevation"
+        ]
       },
       "people": [
         "Jane Hudson",
@@ -11592,6 +11596,78 @@
       "title": "Body Double dialogue transcript: Beach Terrace Motel sequence",
       "url": "https://www.stockq.org/moviescript/B/body-double.php",
       "source_type": "film dialogue transcript"
+    },
+    {
+      "id": "soberin_afi_location",
+      "title": "AFI Catalog: Kiss Me Deadly — Westward Beach Road location",
+      "url": "https://catalog.afi.com/Film/51550-KISS-ME-DEADLY",
+      "source_type": "film archive production notes"
+    },
+    {
+      "id": "soberin_loophole_afi",
+      "title": "AFI Catalog: Loophole — same Westward Beach Road house",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/51265",
+      "source_type": "film archive production notes"
+    },
+    {
+      "id": "soberin_movie_tourist",
+      "title": "Movie Tourist: Kiss Me Deadly — film and modern beach comparison",
+      "url": "https://movie-tourist.blogspot.com/2012/09/kiss-me-deadly-1955.html",
+      "source_type": "matched filming-location photo study"
+    },
+    {
+      "id": "soberin_patch_comparison",
+      "title": "Malibu film-location comparison: beach house between Sunset Restaurant and Point Dume cliff",
+      "url": "https://patch.com/california/malibu/malibu-film-locations-1962-1955",
+      "source_type": "local contributor’s photograph comparison; corroborative only"
+    },
+    {
+      "id": "soberin_county_road",
+      "title": "Los Angeles County CAMS: Westward Beach Road segment 274431",
+      "url": "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/eGIS_Addressing_ROAD_LINES/FeatureServer/0/query?where=OBJECTID%3D274431&outFields=OBJECTID%2CFullName%2CSource%2CSourceID%2CFrom_L%2CFrom_R%2CTo_L%2CTo_R&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official road centerline geometry"
+    },
+    {
+      "id": "soberin_county_beach",
+      "title": "Los Angeles County: Point Dume Beach and Westward Beach access road",
+      "url": "https://beaches.lacounty.gov/point-dume-beach/",
+      "source_type": "official beach geography"
+    },
+    {
+      "id": "soberin_usgs_elevation",
+      "title": "USGS 3DEP elevation at the replacement land point",
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.814554278072&y=34.0082568181566&units=Meters&wkid=4326&includeDate=true",
+      "source_type": "official federal elevation sample"
+    },
+    {
+      "id": "jane_beach_setjetter",
+      "title": "Set-Jetter: What Ever Happened To Baby Jane? (1962) — Westward Beach scene comparison",
+      "url": "https://www.set-jetter.com/ontheset/whateverhappenedtobabyjane1962",
+      "source_type": "matched film/site photographs and location identification"
+    },
+    {
+      "id": "jane_beach_movie_locations",
+      "title": "Movie-Locations: What Ever Happened To Baby Jane? — Westward Beach",
+      "url": "https://www.movie-locations.com/movies/w/What-Ever-Happened-To-Baby-Jane.php",
+      "source_type": "specialist filming-location guide"
+    },
+    {
+      "id": "jane_beach_county",
+      "title": "Los Angeles County Beaches and Harbors: Point Dume Beach and Westward Beach access",
+      "url": "https://beaches.lacounty.gov/point-dume-beach/",
+      "source_type": "official beach geography"
+    },
+    {
+      "id": "jane_beach_imagery",
+      "title": "Esri World Imagery tile: Westward Beach sand and access road",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/104711/44553",
+      "source_type": "public aerial imagery; inspected land-cover cross-check"
+    },
+    {
+      "id": "jane_beach_elevation",
+      "title": "USGS 3DEP elevation at proposed sandy beach point",
+      "url": "https://epqs.nationalmap.gov/v1/json?x=-118.8149&y=34.0081&units=Meters&wkid=4326&includeDate=true",
+      "source_type": "official elevation sample"
     },
     {
       "id": "n2_cl_ift",

@@ -91,7 +91,7 @@ export function enrich(atlas){
   const corrections=read('research/story-map-corrections.json',{corrections:[],sources:[]});
   for(const source of corrections.sources)if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}
   for(const correction of corrections.corrections){const place=byId.get(correction.id);if(!place)throw Error(`Missing corrected place ${correction.id}`);Object.assign(place,correction);}
-  const priceByProperty=new Map(read('research/property-prices.json',{entries:[]}).entries.map(({placeId,url,amount,currency,kind,checkedOn,sourceUrl})=>[`${placeId}:${url}`,{amount,currency,kind,checkedOn,sourceUrl}]));
+  const priceByProperty=new Map(read('research/property-prices.json',{entries:[]}).entries.map(({placeId,url,amount,currency,kind,maxAmount,isFrom,scope,note,checkedOn,sourceUrl})=>[`${placeId}:${url}`,{amount,currency,kind,maxAmount,isFrom,scope,note,checkedOn,sourceUrl}]));
   for(const path of ['research/property-links-early.json','research/property-links-late.json']){
     for(const {id,...link} of read(path,{entries:[]}).entries){
       const place=byId.get(id);if(!place)throw Error(`Missing property-link place ${id}`);

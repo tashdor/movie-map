@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "entries": [
+    {
+      "placeId": 48,
+      "url": "https://www.zillow.com/homedetails/17575-Yukon-Ave-Torrance-CA-90504/2088255320_zpid/",
+      "address": "17575 Yukon Avenue",
+      "amount": 3250,
+      "isFrom": true,
+      "currency": "USD",
+      "kind": "rent",
+      "scope": "available-units",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/torrance-ca/17575-yukon-ave/CkBD47/",
+      "evidence": "The exact-address building listing advertises two available two-bedroom units from $3,250 per month in base rent. The fictional unit is unidentified."
+    },
+    {
+      "placeId": 73,
+      "url": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+      "address": "4142 Palmwood Drive",
+      "amount": 1565,
+      "currency": "USD",
+      "kind": "rent",
+      "scope": "available-units",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/b/4142-palmwood-dr-los-angeles-ca-9MKvW5/",
+      "evidence": "The building lists one available one-bedroom unit at an advertised net effective rent of $1,565 per month. The lease asks $1,695 per month with one month free on a 13-month lease. The fictional unit is unidentified."
+    },
+    {
+      "placeId": 101,
+      "url": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+      "address": "1825 North Kingsley Drive",
+      "amount": 1735,
+      "isFrom": true,
+      "currency": "USD",
+      "kind": "rent",
+      "scope": "available-units",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/apartments/los-angeles-ca/north-kingsley/5j3MSn/",
+      "evidence": "The exact building page advertises available studios from $1,735 per month in base rent. The fictional unit is unidentified."
+    }
+  ],
+  "audit": [
+    {
+      "placeId": 87,
+      "url": "https://www.zillow.com/b/sycamore-condominiums-los-angeles-ca-5Xn95G/",
+      "reason": "Zillow Unit 1 rental was removed September 30, 2026. An older building snapshot shows Unit 4 for sale, but Zillow's exact unit page marks it under contract and listing brokerage Coldwell Banker reports MLS 26987593 closed. No current exact-building rent or asking price was verified."
+    },
+    {
+      "placeId": 94,
+      "url": "https://www.zillow.com/b/rose-towers-long-beach-ca-5XmNG6/",
+      "reason": "The exact Rose Towers building page shows sold units and no advertised rental or building-wide Rent Zestimate."
+    },
+    {
+      "placeId": 112,
+      "url": "https://www.zillow.com/b/1206-1208-n-orange-grove-ave.-west-hollywood-ca-CZ668H/",
+      "reason": "The building page advertises Unit 4 at a studio rate, but its individual listing link points to 1250–1258 N Orange Grove Avenue, a different street number. The page also includes a higher price in a one-bedroom description. No exact-building rent could be confirmed."
+    },
+    {
+      "placeId": 113,
+      "url": "https://www.zillow.com/b/884-palm-ave-west-hollywood-ca-CjrW5s/",
+      "reason": "The newer Zillow apartment page for the exact Cosmopolitan building at 884 Palm Avenue states that there are no available units. The older version shows stale offers and there is no building-wide Rent Zestimate."
+    },
+    {
+      "placeId": 138,
+      "url": "https://www.zillow.com/b/22664-pacific-coast-hwy-malibu-ca-5XnGSD/",
+      "reason": "The exact-address building page shows only a sold unit and no advertised rent or building-wide Rent Zestimate."
+    }
+  ]
+}
