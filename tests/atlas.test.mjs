@@ -164,7 +164,7 @@ test('All lists death events separately at full location identity',()=>{
 });
 test('a death at a shared venue belongs only to its own film, date, people and photos',()=>{
   const rialto=data.places.find(p=>p.id===96),[venue,death]=displayEntries([rialto]);
-  assert.deepEqual(venue.appearances.map(a=>a.title),['La La Land','The Player']);
+  assert.deepEqual(venue.appearances.map(a=>a.title),['La La Land','The Player','The Rocketeer']);
   assert.deepEqual(death.appearances.map(a=>a.title),['The Player']);
   assert.deepEqual(death.appearances.map(a=>a.story_time.year),[1992]);
   assert.deepEqual(death.people,['David Kahane']);

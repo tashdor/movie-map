@@ -509,6 +509,11 @@
     {
       "id": 670,
       "reason": "The fictional apartment combines a street exterior without a verified residential parcel and a Holiday Manor courtyard component. No exact Zillow building page for the 11966 Laurelwood component was verified; neighbouring units and the wider campus listing are not substituted."
+    },
+    {
+      "id": 792,
+      "reason": "Jenny’s boarding-house exterior is the institutional Mary Andrews Clark Home, operated as Clark Residence supportive housing. No exact ordinary residential Zillow listing is verified; no nearby home or unit is substituted.",
+      "sourceUrl": "https://abodecommunities.org/clark-residence-properties/"
     }
   ]
 }

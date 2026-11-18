@@ -794,13 +794,14 @@
   },
   "83": {
     "coordinates": [
-      -118.30227989306,
-      34.123393902896
+      -118.3003935,
+      34.1184341
     ],
-    "method": "US Census Geocoder",
-    "precision": "street-interpolated",
-    "matched_address": "2800 E OBSERVATORY AVE, LOS ANGELES, CA, 90027",
-    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2800+East+Observatory+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+    "method": "Named Griffith Observatory place linked by the official visitor directions page",
+    "precision": "named-building",
+    "matched_address": "Griffith Observatory, 2800 East Observatory Road, Los Angeles, CA 90027",
+    "source_url": "https://griffithobservatory.lacity.gov/visit/getting-here/",
+    "map_url": "https://goo.gl/maps/U2GAaBdaWa5GA8cx5"
   },
   "84": {
     "coordinates": [

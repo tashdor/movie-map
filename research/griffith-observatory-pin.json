@@ -1,0 +1,40 @@
+{
+  "researched_on": "2026-11-17",
+  "placeId": 83,
+  "name": "Griffith Observatory",
+  "previous_geocode": {
+    "coordinates": [
+      -118.30227989306,
+      34.123393902896
+    ],
+    "method": "US Census Geocoder",
+    "precision": "street-interpolated",
+    "matched_address": "2800 E OBSERVATORY AVE, LOS ANGELES, CA, 90027",
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2800+East+Observatory+Road%2C+Los+Angeles%2C+CA&benchmark=Public_AR_Current&format=json"
+  },
+  "coordinates": [
+    -118.3003935,
+    34.1184341
+  ],
+  "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+  "source": {
+    "id": "griffith_official_map",
+    "title": "Griffith Observatory: official address and named-place directions",
+    "url": "https://griffithobservatory.lacity.gov/visit/getting-here/",
+    "type": "official Observatory visitor page and its linked Google Maps place"
+  },
+  "official_directions_link": "https://goo.gl/maps/U2GAaBdaWa5GA8cx5",
+  "resolved_place_url": "https://www.google.com/maps/place/Griffith+Observatory/@34.1184341,-118.3003935,17z/data=!4m5!3m4!1s0x80c2bf61e9d408cb:0x73ff07b1c2d6dadc!8m2!3d34.1184341!4d-118.3003935?hl=en&shorturl=1",
+  "previous_error_metres": 578,
+  "verification": "Official directions name the Observatory place and identify its building point. Its position is independently consistent with the existing landmark overlay. Both production and story pins now identify the named Observatory, without an uncertainty polygon. The point represents the venue, not an asserted exact camera or character position.",
+  "separate_dance_location": {
+    "placeId": 477,
+    "name": "A Lovely Night / Cathy’s Corner",
+    "coordinates": [
+      -118.3082,
+      34.1393
+    ],
+    "source_url": "https://www.seeing-stars.com/Locations/LaLaLand/11-TheView.shtml",
+    "verification": "The source publishes approximately 34.139241, -118.308324 for the dance overlook, more than 2 km north of the Observatory; the existing dance point is within about 15 m and is unchanged."
+  }
+}

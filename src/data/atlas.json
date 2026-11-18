@@ -8464,17 +8464,21 @@
       "address": "2800 East Observatory Road",
       "area": "Griffith Park, Los Angeles",
       "coordinates": [
-        -118.30227989306,
-        34.123393902896
+        -118.3003935,
+        34.1184341
       ],
-      "precision": "street-interpolated",
+      "precision": "named-building",
       "people": [
         "Rain Robinson",
         "Tom Paris",
         "Tuvok",
         "T-800",
         "Mia Dolan",
-        "Sebastian Wilder"
+        "Sebastian Wilder",
+        "Cliff Secord",
+        "Jenny Blake",
+        "Neville Sinclair",
+        "Eddie Valentine"
       ],
       "featured": true,
       "appearances": [
@@ -8590,17 +8594,68 @@
             "work",
             "event"
           ]
+        },
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Cliff and Jenny’s observatory rendezvous",
+          "filming_component": "Griffith Observatory facade, forecourt and rooftop",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cliff Secord",
+              "relationship": "meets Jenny here"
+            },
+            {
+              "name": "Jenny Blake",
+              "relationship": "meets Cliff here"
+            },
+            {
+              "name": "Neville Sinclair",
+              "relationship": "arranges a rendezvous here"
+            },
+            {
+              "name": "Eddie Valentine",
+              "relationship": "visits the observatory"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "Shared site across The Terminator, La La Land and Star Trek: Voyager. La La Land's planetarium was recreated on a stage. Voyager exterior filming is documented; Rain's laboratory interior is not yet verified as on-location. Rain's employment is established during the 1996 story, but no start or end date for her job is inferred.",
       "productionCoordinates": [
-        -118.30227989306,
-        34.123393902896
+        -118.3003935,
+        34.1184341
       ],
       "placement": {
-        "kind": "filming-proxy",
-        "address": "Griffith Park, Los Angeles",
-        "precision": "street-interpolated"
+        "kind": "screen",
+        "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+        "precision": "named-building",
+        "reason": "The named Observatory and its grounds are the story location. The official visitor page links to the Observatory building itself; the earlier Census result interpolated the address onto a park road about 580 metres north. Cathy’s Corner is a separate La La Land dance location.",
+        "sourceIds": [
+          "griffith_official_map",
+          "terminator_locations",
+          "lalaland_locations",
+          "voyager_future_end_reference"
+        ]
       },
       "media": {
         "id": 83,
@@ -8624,6 +8679,55 @@
         },
         "screenGallery": []
       },
+      "placementByTitle": {
+        "The Terminator": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "reason": "The named Observatory and its grounds are the story location. The official visitor page links to the Observatory building itself; the earlier Census result interpolated the address onto a park road about 580 metres north. Cathy’s Corner is a separate La La Land dance location.",
+          "sourceIds": [
+            "griffith_official_map",
+            "terminator_locations",
+            "lalaland_locations",
+            "voyager_future_end_reference"
+          ]
+        },
+        "La La Land": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "reason": "The named Observatory and its grounds are the story location. The official visitor page links to the Observatory building itself; the earlier Census result interpolated the address onto a park road about 580 metres north. Cathy’s Corner is a separate La La Land dance location.",
+          "sourceIds": [
+            "griffith_official_map",
+            "terminator_locations",
+            "lalaland_locations",
+            "voyager_future_end_reference"
+          ]
+        },
+        "Star Trek: Voyager": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "reason": "The named Observatory and its grounds are the story location. The official visitor page links to the Observatory building itself; the earlier Census result interpolated the address onto a park road about 580 metres north. Cathy’s Corner is a separate La La Land dance location.",
+          "sourceIds": [
+            "griffith_official_map",
+            "terminator_locations",
+            "lalaland_locations",
+            "voyager_future_end_reference"
+          ]
+        },
+        "The Rocketeer": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "sourceIds": [
+            "rk_afi",
+            "rk_80s",
+            "griffith_official_map"
+          ],
+          "reason": "The film names and depicts Griffith Observatory itself. The real forecourt and rooftop were used alongside visual-effects work; this appearance does not relocate the observatory to a soundstage or airship set."
+        }
+      },
       "mediaByTitle": {
         "The Terminator": {
           "id": 83,
@@ -8646,6 +8750,25 @@
             "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
           },
           "screenGallery": []
+        },
+        "The Rocketeer": {
+          "screen": {
+            "src": "photos/rocketeer-griffith-screen.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcLyCKWwPll_hrbmOmGKBofXSk0GU2dDOUD7vcxz-vALNXxjmVay7jqgtexZFBm-6xF15G4490wuaIhs5YJAi7gVDZnoEADpTyEn74tT5gpOO5wYh8B2d6Ep0FSzfRB_hxcCJM80N_e4krdwJg7JjRigV_w1TwSNuvvbDAOg0HOJetcEUkWInZSd8JcDU4EAmPeM1MYTVJLW2LHNwPsLG94-wxh4-O9GZItfz6VrxE=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "Griffith Observatory’s named facade and dome in The Rocketeer.",
+            "width": 707,
+            "height": 317,
+            "title": "The Rocketeer",
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
         },
         "Star Trek: Voyager": {
           "place": {
@@ -9944,7 +10067,9 @@
         "Mia Dolan",
         "Sebastian Wilder",
         "Griffin Mill",
-        "David Kahane"
+        "David Kahane",
+        "Cliff Secord",
+        "Jenny Blake"
       ],
       "featured": false,
       "appearances": [
@@ -10015,6 +10140,43 @@
             "event",
             "death"
           ]
+        },
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Cliff and Jenny’s movie date",
+          "filming_component": "Rialto Theatre auditorium, 1023 Fair Oaks Avenue, South Pasadena",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s",
+            "rk_rialto"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cliff Secord",
+              "relationship": "watches Wings of Honor here"
+            },
+            {
+              "name": "Jenny Blake",
+              "relationship": "watches Wings of Honor here"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
@@ -10099,6 +10261,73 @@
             "caption": "Rialto Theatre",
             "note": "Photographer’s location comparison; capture date not independently established."
           }
+        },
+        "The Rocketeer": {
+          "screen": {
+            "src": "photos/rocketeer-rialto-screen.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQfrke-L4jF2YKd6fI53PRS8vmUt82k8rcrX_vrQVB9TTsSXJKF6nMd8CmgGE5julRkWgCk5z_eBaLwu1g3h6IaeHXShZClEi-2oMsulm2Pwt0M_i-tMXg1J5go5dKfHfxa8nF7_XrE0WXAAfKPywXwln-UKbMEQA276da7rhPKAc698ZYooWsYCrG645s_rcp13n3i5408dEVA1VK5pbCGR1Wmmy-MnM9cT9GveQKQ=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "The Rialto auditorium and screen during Cliff and Jenny’s movie date in The Rocketeer.",
+            "width": 706,
+            "height": 316,
+            "title": "The Rocketeer",
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/rocketeer-rialto-gallery.jpg",
+              "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+              "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQdJRj7KwkATM_QCRDOw1IRG3p0ajohoQJ3QI3CM66mL0yUBbUZEjBBR0YnfRMfb6JaD25-PCfqzWWFM80UK9YgV2syB8Q1j8n1S6-hLw8hEG1RtjCFygYIn--GTG_5AZCp96sx6v1hpkJIZHQE68HuwfOULQCNg3OY-ado5lX_bvmz5SGO_6PjnGYbFYAn1VXc-UrBF6gC6VCXDgSis6nvm8yMod4WfhsJxucEs=w1280",
+              "credit": "The Rocketeer film frame · 80s Film Locations",
+              "alt": "Cliff Secord and Jenny Blake watching Wings of Honor inside the Rialto in The Rocketeer.",
+              "width": 707,
+              "height": 317,
+              "title": "The Rocketeer",
+              "spoiler": false
+            }
+          ],
+          "place": {
+            "src": "photos/096-place.jpg",
+            "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+            "credit": "Film Oblivion",
+            "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+          }
+        }
+      },
+      "placementByTitle": {
+        "La La Land": {
+          "kind": "filming-proxy",
+          "address": "South Pasadena",
+          "precision": "street-interpolated",
+          "sourceIds": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_player_script"
+          ],
+          "reason": "The film names the Rialto in Pasadena. The real theatre is in South Pasadena, and the confrontation continues into the adjoining parking lot. Existing La La Land appearance and media are retained."
+        },
+        "The Player": {
+          "kind": "filming-proxy",
+          "address": "South Pasadena",
+          "precision": "street-interpolated",
+          "sourceIds": [
+            "ps_player_tourist",
+            "ps_player_jetter",
+            "ps_player_script"
+          ],
+          "reason": "The film names the Rialto in Pasadena. The real theatre is in South Pasadena, and the confrontation continues into the adjoining parking lot. Existing La La Land appearance and media are retained."
+        },
+        "The Rocketeer": {
+          "kind": "filming-proxy",
+          "address": "Los Angeles · story street unconfirmed",
+          "precision": "PointAddress",
+          "sourceIds": [
+            "rk_afi",
+            "rk_80s",
+            "rk_rialto"
+          ],
+          "reason": "Cliff and Jenny watch Neville Sinclair’s Wings of Honor and a zeppelin newsreel in this auditorium. Matched film frames identify the South Pasadena Rialto; a different canonical theatre address is not established."
         }
       }
     },
@@ -47777,6 +48006,132 @@
           "height": 700
         }
       }
+    },
+    {
+      "id": 792,
+      "name": "Jenny Blake’s boarding house",
+      "short": "Jenny Blake’s boarding house",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "306 S. Loma Drive, Los Angeles, CA 90017",
+      "area": "Westlake",
+      "coordinates": [
+        -118.26538068250925,
+        34.05942738740903
+      ],
+      "productionCoordinates": [
+        -118.26538068250925,
+        34.05942738740903
+      ],
+      "precision": "county-building-footprint",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "county-building-footprint",
+        "sourceIds": [
+          "rk_afi",
+          "rk_80s",
+          "rk_lat_location",
+          "rk_abode",
+          "rk_kfa",
+          "rk_parcel",
+          "rk_building"
+        ],
+        "reason": "The Mary Andrews Clark Home supplied Jenny’s boarding-house entrance and steps. Its real address is the production site; no separate on-screen street is established. The pin lies within the official county building footprint rather than using a displaced gazetteer point."
+      },
+      "people": [
+        "Jenny Blake",
+        "Mrs. Pye",
+        "Cliff Secord"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Jenny’s boarding house",
+          "filming_component": "Mary Andrews Clark Home entrance and steps",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s",
+            "rk_lat_location",
+            "rk_abode",
+            "rk_kfa",
+            "rk_parcel",
+            "rk_building"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jenny Blake",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Pye",
+              "relationship": "supervises the boarding house"
+            },
+            {
+              "name": "Cliff Secord",
+              "relationship": "calls on Jenny"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/rocketeer-jenny-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcMEPsrTjj2jLal1guSHfWZ1Nb0jvuvCI8fIKF1vHFZBnEkttda9K26SyqnxnBJg0jORAygrZ_tBFXaXXp7xiDaQnmOp1KwCQ7fAZTgAe_8JNKpAZTNaxAJS8Ov5vP4JQ9_uM685B3nRQTVlFy9sxGyPgEvTRpP4-CWtfKdBFuoK-SiZIntCHTTnSvZWAhzC14QqczE_wOJIng5h731ThC4gYEHYst5b4EJa68hv6o=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "Jenny Blake and Cliff Secord outside her boarding house entrance in The Rocketeer.",
+          "width": 711,
+          "height": 315,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/rocketeer-jenny-gallery.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQftQUghQblM8XZny1xKAFZnBt_gVYJZf2HowjkNUt7mbHQ3V4Ng5nQBBMNCsPpceVNCr2F5nU84yvXUiCCD2842ywpsGn_Oe_lSwpd7FbukrrxhF7awddYemAJGkoyAWUZCkn6JCS5ehCqL7X92OMCEYO9N4Dq34CdXbbuoLlUgvYrbG-td31Cl8KdIpwM-79WUFdiPTNXsY1pTpcpgY6hJYxktbzJakMojQ0N1cdU=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "Cliff and Jenny descend the boarding-house entrance steps in The Rocketeer.",
+            "width": 710,
+            "height": 319,
+            "title": "The Rocketeer",
+            "spoiler": false
+          }
+        ],
+        "place": {
+          "src": "photos/rocketeer-jenny-place.jpg",
+          "sourceUrl": "https://kfalosangeles.com/project/mary-andrews-clark-house/",
+          "imageUrl": "https://i0.wp.com/kfalosangeles.com/wp-content/uploads/2017/05/Mary-Andrews-Clark-Main.jpg?fit=1920%2C1200&ssl=1",
+          "credit": "KFA Architecture · Mary Andrews Clark House project photography",
+          "alt": "Mary Andrews Clark House’s restored courtyard facade, stairs and globe lamps.",
+          "width": 1920,
+          "height": 1200,
+          "caption": "Site · undated",
+          "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
+        }
+      }
     }
   ],
   "journeys": [
@@ -50114,6 +50469,13 @@
       "title": "Collateral screenplay, Michael Mann revisions",
       "type": "screenplay; distinguishes federal building story from chosen production building",
       "source_type": "screenplay; distinguishes federal building story from chosen production building"
+    },
+    {
+      "id": "griffith_official_map",
+      "title": "Griffith Observatory: official address and named-place directions",
+      "url": "https://griffithobservatory.lacity.gov/visit/getting-here/",
+      "type": "official Observatory visitor page and its linked Google Maps place",
+      "source_type": "official Observatory visitor page and its linked Google Maps place"
     },
     {
       "id": "noir_di_conservancy",
@@ -52874,6 +53236,60 @@
       "title": "Film Oblivion: Jimmie’s film frame and real production house",
       "url": "https://filmoblivion.com/filming-locations-pulp-fiction-1994/",
       "source_type": "matched film frames and first-hand location photography"
+    },
+    {
+      "id": "rk_afi",
+      "title": "AFI Catalog: The Rocketeer (1991), synopsis and production history",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/59029",
+      "source_type": "film archive"
+    },
+    {
+      "id": "rk_80s",
+      "title": "80s Film Locations: The Rocketeer — matched film frames and location research",
+      "url": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+      "source_type": "location guide with inspected film frames"
+    },
+    {
+      "id": "rk_rialto",
+      "title": "Los Angeles Theatres: Rialto Theatre, South Pasadena — Rocketeer auditorium frame",
+      "url": "https://losangelestheatres.blogspot.com/2017/03/rialto-theatre-south-pasadena.html",
+      "source_type": "theatre history and scene comparison"
+    },
+    {
+      "id": "rk_lat_location",
+      "title": "Los Angeles Times, 5 October 1992: Mary Andrews Clark Home filming history",
+      "url": "https://www.latimes.com/archives/la-xpm-1992-10-05-me-498-story.html",
+      "source_type": "contemporary reporting"
+    },
+    {
+      "id": "rk_abode",
+      "title": "Abode Communities: Clark Residence — official address and building photograph",
+      "url": "https://abodecommunities.org/clark-residence-properties/",
+      "source_type": "property operator"
+    },
+    {
+      "id": "rk_kfa",
+      "title": "KFA Architecture: Mary Andrews Clark House restoration and photographs",
+      "url": "https://kfalosangeles.com/project/mary-andrews-clark-house/",
+      "source_type": "restoration architect"
+    },
+    {
+      "id": "rk_parcel",
+      "title": "Los Angeles County parcel 5153-019-025: 306 Loma Drive",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%275153019025%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county parcel geometry"
+    },
+    {
+      "id": "rk_building",
+      "title": "Los Angeles County LARIAC footprint: Mary Andrews Clark House",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.26508997106504%2C34.05958187164874%5D%2C%5B-118.2650120535915%2C34.059550606998705%5D%2C%5B-118.26503601333015%2C34.059526675419896%5D%2C%5B-118.265137421594%2C34.059427721821294%5D%2C%5B-118.26532980346724%2C34.05923992198076%5D%2C%5B-118.26553330942153%2C34.05904129824225%5D%2C%5B-118.26572687440495%2C34.0588523410615%5D%2C%5B-118.26575896813911%2C34.05889472505568%5D%2C%5B-118.26605281795443%2C34.05928226987285%5D%2C%5B-118.2655547665253%2C34.0597684202633%5D%2C%5B-118.26508997106504%2C34.05958187164874%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "rk_bissell",
+      "title": "Production designer James Bissell on Neville Sinclair’s Ennis-inspired set",
+      "url": "https://kingdomofdreamspodcast.com/episodes/301-production-designer-james-bissell-e-t-jumanji-300-rocketeer/",
+      "source_type": "production designer interview"
     },
     {
       "id": "story_pins_mulholland_script",

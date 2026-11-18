@@ -6,6 +6,43 @@ const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json');
 const propertyCatalogs=['early','late'].map(part=>read(`../research/property-links-${part}.json`));
 
+test('every Observatory appearance uses the building, separately from the roadside dance',()=>{
+  const observatory=data.places.find(p=>p.id===83),dance=data.places.find(p=>p.id===477);
+  const landmark=read('../public/la-landmarks.geojson').features.find(f=>f.properties.id==='griffith-observatory');
+  const atBuilding=([lon,lat])=>lon>-118.3009&&lon<-118.2997&&lat>34.1179&&lat<34.1188;
+  assert.ok(atBuilding(observatory.coordinates));
+  assert.deepEqual(observatory.coordinates,observatory.productionCoordinates);
+  assert.ok(atBuilding(landmark.geometry.coordinates));
+  assert.ok(dance.coordinates[1]>34.138,'Cathy’s Corner stays north of the Observatory');
+  for(const film of ['The Terminator','Star Trek: Voyager','La La Land','The Rocketeer']){
+    const view=displayEntries([observatory],{film})[0];
+    assert.ok(atBuilding(view.coordinates),film);assert.equal(view.placement.kind,'screen');
+    assert.equal(view.placement.geometry,undefined);assert.match(view.placement.address,/2800.*Observatory/);
+    const maps=new URL(filmingSiteMapsUrl(view)).searchParams.get('query').split(',').map(Number);
+    assert.ok(atBuilding([maps[1],maps[0]]),`${film}: Maps opens the building`);
+    assert.equal(view.media.screen.title,film);
+  }
+});
+
+test('The Rocketeer shares venues without inheriting other films’ deaths, dates or images',()=>{
+  const entries=displayEntries(data.places,{film:'The Rocketeer',laOnly:true});
+  assert.deepEqual(entries.map(p=>p.id),[83,96,792]);
+  for(const place of entries){
+    assert.equal(place.media.screen.title,'The Rocketeer');
+    assert.ok(place.media.screen.src.startsWith('photos/rocketeer-'));
+    assert.ok(place.appearances.every(a=>a.story_time.year===1938));
+    assert.deepEqual(place.deaths,[]);
+  }
+  const house=entries.find(p=>p.id===792);
+  assert.match(house.address,/306.*Loma/);
+  assert.equal(house.precision,'county-building-footprint');
+  assert.equal(house.placement.kind,'filming-proxy');
+  assert.equal(house.placement.geometry,undefined);
+  assert.ok(house.coordinates[0]>-118.266&&house.coordinates[0]<-118.265);
+  assert.ok(house.coordinates[1]>34.059&&house.coordinates[1]<34.060);
+  assert.match(house.media.place.note,/capture date unverified/i);
+});
+
 test('Eady and Bosch share the corrected county parcel, with an address-based Maps link',()=>{
   const evidence=read('../research/eady-bosch-parcel.json'),home=data.places.find(p=>p.id===1);
   const inRing=([x,y],ring)=>{let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;};

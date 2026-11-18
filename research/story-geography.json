@@ -143,6 +143,12 @@
       "url": "https://m.mulholland-drive.net/studies/locations.htm",
       "title": "Lost on Mulholland Dr.: filming-location study",
       "type": "film-specific study; explicit fictional versus real addresses"
+    },
+    {
+      "id": "griffith_official_map",
+      "title": "Griffith Observatory: official address and named-place directions",
+      "url": "https://griffithobservatory.lacity.gov/visit/getting-here/",
+      "type": "official Observatory visitor page and its linked Google Maps place"
     }
   ],
   "overrides": [
@@ -514,6 +520,25 @@
       "recommendedDisplay": "street_corridor",
       "inference": false,
       "geometryStatus": "Sunset Boulevard corridor, not a Gardena point; no invented cross street"
+    },
+    {
+      "id": 83,
+      "name": "Griffith Observatory",
+      "storyAddress": "2800 East Observatory Road, Los Angeles, CA 90027",
+      "coordinates": [
+        -118.3003935,
+        34.1184341
+      ],
+      "precision": "named-building",
+      "reason": "The named Observatory and its grounds are the story location. The official visitor page links to the Observatory building itself; the earlier Census result interpolated the address onto a park road about 580 metres north. Cathy’s Corner is a separate La La Land dance location.",
+      "sourceIds": [
+        "griffith_official_map",
+        "terminator_locations",
+        "lalaland_locations",
+        "voyager_future_end_reference"
+      ],
+      "productionAddress": "2800 East Observatory Road, Los Angeles, CA 90027",
+      "inference": false
     }
   ],
   "structuralIssues": [

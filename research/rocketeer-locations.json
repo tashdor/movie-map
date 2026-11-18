@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-17",
+  "places": [
+    {
+      "id": 790,
+      "name": "Griffith Observatory",
+      "short": "Griffith Observatory",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.3003935,
+        34.1184341
+      ],
+      "productionCoordinates": [
+        -118.3003935,
+        34.1184341
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+        "precision": "named-building",
+        "sourceIds": [
+          "rk_afi",
+          "rk_80s",
+          "griffith_official_map"
+        ],
+        "reason": "The film names and depicts Griffith Observatory itself. The real forecourt and rooftop were used alongside visual-effects work; this appearance does not relocate the observatory to a soundstage or airship set."
+      },
+      "people": [
+        "Cliff Secord",
+        "Jenny Blake",
+        "Neville Sinclair",
+        "Eddie Valentine"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Cliff and Jenny’s observatory rendezvous",
+          "filming_component": "Griffith Observatory facade, forecourt and rooftop",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cliff Secord",
+              "relationship": "meets Jenny here"
+            },
+            {
+              "name": "Jenny Blake",
+              "relationship": "meets Cliff here"
+            },
+            {
+              "name": "Neville Sinclair",
+              "relationship": "arranges a rendezvous here"
+            },
+            {
+              "name": "Eddie Valentine",
+              "relationship": "visits the observatory"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/rocketeer-griffith-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcLyCKWwPll_hrbmOmGKBofXSk0GU2dDOUD7vcxz-vALNXxjmVay7jqgtexZFBm-6xF15G4490wuaIhs5YJAi7gVDZnoEADpTyEn74tT5gpOO5wYh8B2d6Ep0FSzfRB_hxcCJM80N_e4krdwJg7JjRigV_w1TwSNuvvbDAOg0HOJetcEUkWInZSd8JcDU4EAmPeM1MYTVJLW2LHNwPsLG94-wxh4-O9GZItfz6VrxE=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "Griffith Observatory’s named facade and dome in The Rocketeer.",
+          "width": 707,
+          "height": 317,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
+      "mergeInto": 83
+    },
+    {
+      "id": 791,
+      "name": "Rialto Theatre",
+      "short": "Rialto Theatre",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1023 South Fair Oaks Avenue",
+      "area": "South Pasadena",
+      "coordinates": [
+        -118.150418491509,
+        34.114582965082
+      ],
+      "productionCoordinates": [
+        -118.150418491509,
+        34.114582965082
+      ],
+      "precision": "PointAddress",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "rk_afi",
+          "rk_80s",
+          "rk_rialto"
+        ],
+        "reason": "Cliff and Jenny watch Neville Sinclair’s Wings of Honor and a zeppelin newsreel in this auditorium. Matched film frames identify the South Pasadena Rialto; a different canonical theatre address is not established."
+      },
+      "people": [
+        "Cliff Secord",
+        "Jenny Blake"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Cliff and Jenny’s movie date",
+          "filming_component": "Rialto Theatre auditorium, 1023 Fair Oaks Avenue, South Pasadena",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s",
+            "rk_rialto"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Cliff Secord",
+              "relationship": "watches Wings of Honor here"
+            },
+            {
+              "name": "Jenny Blake",
+              "relationship": "watches Wings of Honor here"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/rocketeer-rialto-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQfrke-L4jF2YKd6fI53PRS8vmUt82k8rcrX_vrQVB9TTsSXJKF6nMd8CmgGE5julRkWgCk5z_eBaLwu1g3h6IaeHXShZClEi-2oMsulm2Pwt0M_i-tMXg1J5go5dKfHfxa8nF7_XrE0WXAAfKPywXwln-UKbMEQA276da7rhPKAc698ZYooWsYCrG645s_rcp13n3i5408dEVA1VK5pbCGR1Wmmy-MnM9cT9GveQKQ=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "The Rialto auditorium and screen during Cliff and Jenny’s movie date in The Rocketeer.",
+          "width": 706,
+          "height": 316,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/rocketeer-rialto-gallery.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQdJRj7KwkATM_QCRDOw1IRG3p0ajohoQJ3QI3CM66mL0yUBbUZEjBBR0YnfRMfb6JaD25-PCfqzWWFM80UK9YgV2syB8Q1j8n1S6-hLw8hEG1RtjCFygYIn--GTG_5AZCp96sx6v1hpkJIZHQE68HuwfOULQCNg3OY-ado5lX_bvmz5SGO_6PjnGYbFYAn1VXc-UrBF6gC6VCXDgSis6nvm8yMod4WfhsJxucEs=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "Cliff Secord and Jenny Blake watching Wings of Honor inside the Rialto in The Rocketeer.",
+            "width": 707,
+            "height": 317,
+            "title": "The Rocketeer",
+            "spoiler": false
+          }
+        ],
+        "place": {
+          "src": "photos/096-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
+        }
+      },
+      "mergeInto": 96
+    },
+    {
+      "id": 792,
+      "name": "Jenny Blake’s boarding house",
+      "short": "Jenny Blake’s boarding house",
+      "category": "home",
+      "categories": [
+        "home"
+      ],
+      "address": "306 S. Loma Drive, Los Angeles, CA 90017",
+      "area": "Westlake",
+      "coordinates": [
+        -118.26538068250925,
+        34.05942738740903
+      ],
+      "productionCoordinates": [
+        -118.26538068250925,
+        34.05942738740903
+      ],
+      "precision": "county-building-footprint",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "county-building-footprint",
+        "sourceIds": [
+          "rk_afi",
+          "rk_80s",
+          "rk_lat_location",
+          "rk_abode",
+          "rk_kfa",
+          "rk_parcel",
+          "rk_building"
+        ],
+        "reason": "The Mary Andrews Clark Home supplied Jenny’s boarding-house entrance and steps. Its real address is the production site; no separate on-screen street is established. The pin lies within the official county building footprint rather than using a displaced gazetteer point."
+      },
+      "people": [
+        "Jenny Blake",
+        "Mrs. Pye",
+        "Cliff Secord"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "The Rocketeer",
+          "release_year": 1991,
+          "story_role": "Jenny’s boarding house",
+          "filming_component": "Mary Andrews Clark Home entrance and steps",
+          "source_ids": [
+            "rk_afi",
+            "rk_80s",
+            "rk_lat_location",
+            "rk_abode",
+            "rk_kfa",
+            "rk_parcel",
+            "rk_building"
+          ],
+          "story_time": {
+            "year": 1938,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "AFI explicitly establishes Los Angeles in 1938.",
+            "source_ids": [
+              "rk_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jenny Blake",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Mrs. Pye",
+              "relationship": "supervises the boarding house"
+            },
+            {
+              "name": "Cliff Secord",
+              "relationship": "calls on Jenny"
+            }
+          ],
+          "categories": [
+            "home"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/rocketeer-jenny-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcMEPsrTjj2jLal1guSHfWZ1Nb0jvuvCI8fIKF1vHFZBnEkttda9K26SyqnxnBJg0jORAygrZ_tBFXaXXp7xiDaQnmOp1KwCQ7fAZTgAe_8JNKpAZTNaxAJS8Ov5vP4JQ9_uM685B3nRQTVlFy9sxGyPgEvTRpP4-CWtfKdBFuoK-SiZIntCHTTnSvZWAhzC14QqczE_wOJIng5h731ThC4gYEHYst5b4EJa68hv6o=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "Jenny Blake and Cliff Secord outside her boarding house entrance in The Rocketeer.",
+          "width": 711,
+          "height": 315,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/rocketeer-jenny-gallery.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQftQUghQblM8XZny1xKAFZnBt_gVYJZf2HowjkNUt7mbHQ3V4Ng5nQBBMNCsPpceVNCr2F5nU84yvXUiCCD2842ywpsGn_Oe_lSwpd7FbukrrxhF7awddYemAJGkoyAWUZCkn6JCS5ehCqL7X92OMCEYO9N4Dq34CdXbbuoLlUgvYrbG-td31Cl8KdIpwM-79WUFdiPTNXsY1pTpcpgY6hJYxktbzJakMojQ0N1cdU=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "Cliff and Jenny descend the boarding-house entrance steps in The Rocketeer.",
+            "width": 710,
+            "height": 319,
+            "title": "The Rocketeer",
+            "spoiler": false
+          }
+        ],
+        "place": {
+          "src": "photos/rocketeer-jenny-place.jpg",
+          "sourceUrl": "https://kfalosangeles.com/project/mary-andrews-clark-house/",
+          "imageUrl": "https://i0.wp.com/kfalosangeles.com/wp-content/uploads/2017/05/Mary-Andrews-Clark-Main.jpg?fit=1920%2C1200&ssl=1",
+          "credit": "KFA Architecture · Mary Andrews Clark House project photography",
+          "alt": "Mary Andrews Clark House’s restored courtyard facade, stairs and globe lamps.",
+          "width": 1920,
+          "height": 1200,
+          "caption": "Site · undated",
+          "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "rk_afi",
+      "title": "AFI Catalog: The Rocketeer (1991), synopsis and production history",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/59029",
+      "source_type": "film archive"
+    },
+    {
+      "id": "rk_80s",
+      "title": "80s Film Locations: The Rocketeer — matched film frames and location research",
+      "url": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+      "source_type": "location guide with inspected film frames"
+    },
+    {
+      "id": "rk_rialto",
+      "title": "Los Angeles Theatres: Rialto Theatre, South Pasadena — Rocketeer auditorium frame",
+      "url": "https://losangelestheatres.blogspot.com/2017/03/rialto-theatre-south-pasadena.html",
+      "source_type": "theatre history and scene comparison"
+    },
+    {
+      "id": "rk_lat_location",
+      "title": "Los Angeles Times, 5 October 1992: Mary Andrews Clark Home filming history",
+      "url": "https://www.latimes.com/archives/la-xpm-1992-10-05-me-498-story.html",
+      "source_type": "contemporary reporting"
+    },
+    {
+      "id": "rk_abode",
+      "title": "Abode Communities: Clark Residence — official address and building photograph",
+      "url": "https://abodecommunities.org/clark-residence-properties/",
+      "source_type": "property operator"
+    },
+    {
+      "id": "rk_kfa",
+      "title": "KFA Architecture: Mary Andrews Clark House restoration and photographs",
+      "url": "https://kfalosangeles.com/project/mary-andrews-clark-house/",
+      "source_type": "restoration architect"
+    },
+    {
+      "id": "rk_parcel",
+      "title": "Los Angeles County parcel 5153-019-025: 306 Loma Drive",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%275153019025%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county parcel geometry"
+    },
+    {
+      "id": "rk_building",
+      "title": "Los Angeles County LARIAC footprint: Mary Andrews Clark House",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.26508997106504%2C34.05958187164874%5D%2C%5B-118.2650120535915%2C34.059550606998705%5D%2C%5B-118.26503601333015%2C34.059526675419896%5D%2C%5B-118.265137421594%2C34.059427721821294%5D%2C%5B-118.26532980346724%2C34.05923992198076%5D%2C%5B-118.26553330942153%2C34.05904129824225%5D%2C%5B-118.26572687440495%2C34.0588523410615%5D%2C%5B-118.26575896813911%2C34.05889472505568%5D%2C%5B-118.26605281795443%2C34.05928226987285%5D%2C%5B-118.2655547665253%2C34.0597684202633%5D%2C%5B-118.26508997106504%2C34.05958187164874%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "rk_bissell",
+      "title": "Production designer James Bissell on Neville Sinclair’s Ennis-inspired set",
+      "url": "https://kingdomofdreamspodcast.com/episodes/301-production-designer-james-bissell-e-t-jumanji-300-rocketeer/",
+      "source_type": "production designer interview"
+    }
+  ],
+  "film_metadata": {
+    "title": "The Rocketeer",
+    "imdbId": "tt0102803",
+    "year": 1991,
+    "type": "movie",
+    "sourceUrl": "https://www.imdb.com/title/tt0102803/"
+  },
+  "verification": [
+    {
+      "id": 792,
+      "parcel": {
+        "AIN": "5153019025",
+        "SitusFullAddress": "306 LOMA DR LOS ANGELES CA 90017",
+        "CENTER_LAT": 34.05934886,
+        "CENTER_LON": -118.26556138
+      },
+      "parcelGeometry": {
+        "rings": [
+          [
+            [
+              -118.26508997106504,
+              34.05958187164874
+            ],
+            [
+              -118.2650120535915,
+              34.059550606998705
+            ],
+            [
+              -118.26503601333015,
+              34.059526675419896
+            ],
+            [
+              -118.265137421594,
+              34.059427721821294
+            ],
+            [
+              -118.26532980346724,
+              34.05923992198076
+            ],
+            [
+              -118.26553330942153,
+              34.05904129824225
+            ],
+            [
+              -118.26572687440495,
+              34.0588523410615
+            ],
+            [
+              -118.26575896813911,
+              34.05889472505568
+            ],
+            [
+              -118.26605281795443,
+              34.05928226987285
+            ],
+            [
+              -118.2655547665253,
+              34.0597684202633
+            ],
+            [
+              -118.26508997106504,
+              34.05958187164874
+            ]
+          ]
+        ]
+      },
+      "building": {
+        "attributes": {
+          "OBJECTID": 755283,
+          "CODE": "Building",
+          "BLD_ID": "481258844099",
+          "SOURCE": "LARIAC2",
+          "DATE_": "2008",
+          "eGIS_Infrastructure.EGIS.LARIAC_BUILDINGS_2023.AREA": 19523.65880749
+        },
+        "geometry": {
+          "rings": [
+            [
+              [
+                -118.26556961406166,
+                34.05910999780873
+              ],
+              [
+                -118.26559228178333,
+                34.0591266551308
+              ],
+              [
+                -118.26560034691259,
+                34.059119052815994
+              ],
+              [
+                -118.26561357213912,
+                34.059135263906384
+              ],
+              [
+                -118.26563339669194,
+                34.059129806612745
+              ],
+              [
+                -118.26565334576584,
+                34.059132181541415
+              ],
+              [
+                -118.26567058457725,
+                34.05914406907088
+              ],
+              [
+                -118.26567621562477,
+                34.05916029685948
+              ],
+              [
+                -118.26567270414917,
+                34.05917742375213
+              ],
+              [
+                -118.26584249958336,
+                34.059290207563855
+              ],
+              [
+                -118.26584658057459,
+                34.05928596679523
+              ],
+              [
+                -118.26591794574097,
+                34.05933337535173
+              ],
+              [
+                -118.26589991294696,
+                34.05935218312301
+              ],
+              [
+                -118.26589868849189,
+                34.05935136091816
+              ],
+              [
+                -118.26583323681761,
+                34.05941962466828
+              ],
+              [
+                -118.26583098774019,
+                34.059418145698906
+              ],
+              [
+                -118.26581325065312,
+                34.059436622846185
+              ],
+              [
+                -118.26565261270756,
+                34.05930691965482
+              ],
+              [
+                -118.26556032148027,
+                34.059386096720374
+              ],
+              [
+                -118.265562806932,
+                34.059409833068806
+              ],
+              [
+                -118.26555841355527,
+                34.059429984730144
+              ],
+              [
+                -118.26554984530085,
+                34.05944528181218
+              ],
+              [
+                -118.26552818366385,
+                34.05945486402831
+              ],
+              [
+                -118.26549885316642,
+                34.059461084161846
+              ],
+              [
+                -118.26547591538971,
+                34.05946379950924
+              ],
+              [
+                -118.26540403327057,
+                34.05953474298741
+              ],
+              [
+                -118.2655186538968,
+                34.05960406669046
+              ],
+              [
+                -118.26552556707041,
+                34.05959764972155
+              ],
+              [
+                -118.26559578388452,
+                34.05964736891285
+              ],
+              [
+                -118.26557731956332,
+                34.059665407677606
+              ],
+              [
+                -118.26557999997702,
+                34.05966729770273
+              ],
+              [
+                -118.26551121059636,
+                34.0597345796384
+              ],
+              [
+                -118.26550935749304,
+                34.05973329272013
+              ],
+              [
+                -118.26549760657727,
+                34.05974477700933
+              ],
+              [
+                -118.26518440839679,
+                34.05952297001035
+              ],
+              [
+                -118.26519194461979,
+                34.059515588857685
+              ],
+              [
+                -118.26514568475199,
+                34.05948282602161
+              ],
+              [
+                -118.2652199059222,
+                34.05941025660886
+              ],
+              [
+                -118.26523357182263,
+                34.05941992616738
+              ],
+              [
+                -118.26548328749337,
+                34.05917566938936
+              ],
+              [
+                -118.26549387675495,
+                34.059183174795216
+              ],
+              [
+                -118.26556961406166,
+                34.05910999780873
+              ]
+            ]
+          ]
+        }
+      },
+      "coordinates": [
+        -118.26538068250925,
+        34.05942738740903
+      ],
+      "coordinate_basis": "Interior scanline point of county LARIAC building footprint 481258844099. Address confirmed by operator. The Wikipedia/NRIS coordinate 34.060,-118.264167 was not used.",
+      "photo_status": "Inspected film frames and undated restoration-architect site photograph."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Neville Sinclair’s mansion / Ennis House",
+      "reason": "AFI leaves actual Ennis filming uncertain; production designer James Bissell describes the Ennis-inspired interior as a constructed set. No verified real-house exterior is established.",
+      "source_ids": [
+        "rk_afi",
+        "rk_bissell"
+      ]
+    },
+    {
+      "name": "Hollywoodland sign finale",
+      "reason": "Location guide identifies miniature/blue-screen work at ILM, not a verified scene photographed at the real sign.",
+      "source_ids": [
+        "rk_80s"
+      ]
+    },
+    {
+      "name": "Chaplin Airfield / Bulldog Cafe exterior",
+      "reason": "Santa Maria Airport and the Newhall Orchards/Piru replica site are outside L.A. County. The Idle Hour replica is not the screen-used Bulldog.",
+      "source_ids": [
+        "rk_afi",
+        "rk_80s"
+      ]
+    },
+    {
+      "name": "South Seas Club",
+      "reason": "Studio interior/backlot exterior, with no verified non-backlot venue.",
+      "source_ids": [
+        "rk_80s"
+      ]
+    },
+    {
+      "name": "Peevy’s house",
+      "reason": "Guide identifies Highland-Camrose village but gives a different private-house address at 2112 Woodland Way. Exact bungalow not independently resolved.",
+      "source_ids": [
+        "rk_80s"
+      ]
+    },
+    {
+      "name": "Grauman’s Chinese Theatre",
+      "reason": "Major rescue scene was deleted; surviving brief flyover location is not securely distinguished from the Florida replica.",
+      "source_ids": [
+        "rk_afi"
+      ]
+    }
+  ]
+}

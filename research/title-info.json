@@ -475,6 +475,12 @@
       "type": "movie",
       "sourceUrl": "https://www.imdb.com/title/tt0105151/"
     },
+    "The Rocketeer": {
+      "imdbId": "tt0102803",
+      "year": 1991,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0102803/"
+    },
     "The Rockford Files": {
       "imdbId": "tt0071042",
       "year": 1974,

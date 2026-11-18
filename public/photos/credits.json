@@ -2142,6 +2142,25 @@
         },
         "screenGallery": []
       },
+      "The Rocketeer": {
+        "screen": {
+          "src": "photos/rocketeer-griffith-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcLyCKWwPll_hrbmOmGKBofXSk0GU2dDOUD7vcxz-vALNXxjmVay7jqgtexZFBm-6xF15G4490wuaIhs5YJAi7gVDZnoEADpTyEn74tT5gpOO5wYh8B2d6Ep0FSzfRB_hxcCJM80N_e4krdwJg7JjRigV_w1TwSNuvvbDAOg0HOJetcEUkWInZSd8JcDU4EAmPeM1MYTVJLW2LHNwPsLG94-wxh4-O9GZItfz6VrxE=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "Griffith Observatory’s named facade and dome in The Rocketeer.",
+          "width": 707,
+          "height": 317,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
       "Star Trek: Voyager": {
         "place": {
           "src": "photos/083-place.jpg",
@@ -2506,6 +2525,38 @@
           "height": 733,
           "caption": "Rialto Theatre",
           "note": "Photographer’s location comparison; capture date not independently established."
+        }
+      },
+      "The Rocketeer": {
+        "screen": {
+          "src": "photos/rocketeer-rialto-screen.jpg",
+          "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+          "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQfrke-L4jF2YKd6fI53PRS8vmUt82k8rcrX_vrQVB9TTsSXJKF6nMd8CmgGE5julRkWgCk5z_eBaLwu1g3h6IaeHXShZClEi-2oMsulm2Pwt0M_i-tMXg1J5go5dKfHfxa8nF7_XrE0WXAAfKPywXwln-UKbMEQA276da7rhPKAc698ZYooWsYCrG645s_rcp13n3i5408dEVA1VK5pbCGR1Wmmy-MnM9cT9GveQKQ=w1280",
+          "credit": "The Rocketeer film frame · 80s Film Locations",
+          "alt": "The Rialto auditorium and screen during Cliff and Jenny’s movie date in The Rocketeer.",
+          "width": 706,
+          "height": 316,
+          "title": "The Rocketeer",
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/rocketeer-rialto-gallery.jpg",
+            "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+            "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQdJRj7KwkATM_QCRDOw1IRG3p0ajohoQJ3QI3CM66mL0yUBbUZEjBBR0YnfRMfb6JaD25-PCfqzWWFM80UK9YgV2syB8Q1j8n1S6-hLw8hEG1RtjCFygYIn--GTG_5AZCp96sx6v1hpkJIZHQE68HuwfOULQCNg3OY-ado5lX_bvmz5SGO_6PjnGYbFYAn1VXc-UrBF6gC6VCXDgSis6nvm8yMod4WfhsJxucEs=w1280",
+            "credit": "The Rocketeer film frame · 80s Film Locations",
+            "alt": "Cliff Secord and Jenny Blake watching Wings of Honor inside the Rialto in The Rocketeer.",
+            "width": 707,
+            "height": 317,
+            "title": "The Rocketeer",
+            "spoiler": false
+          }
+        ],
+        "place": {
+          "src": "photos/096-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.wordpress.com/wp-content/uploads/2017/12/lalaland30.jpg"
         }
       }
     }
@@ -9771,6 +9822,43 @@
       "caption": "Production site · aerial",
       "width": 1100,
       "height": 700
+    }
+  },
+  "792": {
+    "screen": {
+      "src": "photos/rocketeer-jenny-screen.jpg",
+      "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+      "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQcMEPsrTjj2jLal1guSHfWZ1Nb0jvuvCI8fIKF1vHFZBnEkttda9K26SyqnxnBJg0jORAygrZ_tBFXaXXp7xiDaQnmOp1KwCQ7fAZTgAe_8JNKpAZTNaxAJS8Ov5vP4JQ9_uM685B3nRQTVlFy9sxGyPgEvTRpP4-CWtfKdBFuoK-SiZIntCHTTnSvZWAhzC14QqczE_wOJIng5h731ThC4gYEHYst5b4EJa68hv6o=w1280",
+      "credit": "The Rocketeer film frame · 80s Film Locations",
+      "alt": "Jenny Blake and Cliff Secord outside her boarding house entrance in The Rocketeer.",
+      "width": 711,
+      "height": 315,
+      "title": "The Rocketeer",
+      "spoiler": false
+    },
+    "screenGallery": [
+      {
+        "src": "photos/rocketeer-jenny-gallery.jpg",
+        "sourceUrl": "https://sites.google.com/site/80sfilmlocations/non-80s-movies/rocketeer-the-1991",
+        "imageUrl": "https://sites.google.com/sitesv-images-rt/APXyLQftQUghQblM8XZny1xKAFZnBt_gVYJZf2HowjkNUt7mbHQ3V4Ng5nQBBMNCsPpceVNCr2F5nU84yvXUiCCD2842ywpsGn_Oe_lSwpd7FbukrrxhF7awddYemAJGkoyAWUZCkn6JCS5ehCqL7X92OMCEYO9N4Dq34CdXbbuoLlUgvYrbG-td31Cl8KdIpwM-79WUFdiPTNXsY1pTpcpgY6hJYxktbzJakMojQ0N1cdU=w1280",
+        "credit": "The Rocketeer film frame · 80s Film Locations",
+        "alt": "Cliff and Jenny descend the boarding-house entrance steps in The Rocketeer.",
+        "width": 710,
+        "height": 319,
+        "title": "The Rocketeer",
+        "spoiler": false
+      }
+    ],
+    "place": {
+      "src": "photos/rocketeer-jenny-place.jpg",
+      "sourceUrl": "https://kfalosangeles.com/project/mary-andrews-clark-house/",
+      "imageUrl": "https://i0.wp.com/kfalosangeles.com/wp-content/uploads/2017/05/Mary-Andrews-Clark-Main.jpg?fit=1920%2C1200&ssl=1",
+      "credit": "KFA Architecture · Mary Andrews Clark House project photography",
+      "alt": "Mary Andrews Clark House’s restored courtyard facade, stairs and globe lamps.",
+      "width": 1920,
+      "height": 1200,
+      "caption": "Site · undated",
+      "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
     }
   }
 }
