@@ -1788,6 +1788,28 @@
         "media.screen"
       ],
       "redactions": []
+    },
+    {
+      "id": 479,
+      "redactions": [
+        {
+          "path": "appearances[title=Bosch].story_role",
+          "phrases": [
+            "Howard Elias is shot aboard an Angels Flight car."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "redactions": [
+        {
+          "path": "appearances[title=Bosch].story_role",
+          "phrases": [
+            "Eleanor Wish is fatally shot in the Original Farmers Market parking lot after meeting Harry Bosch at Du-par’s."
+          ]
+        }
+      ]
     }
   ],
   "journeys": [

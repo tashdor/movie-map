@@ -126,7 +126,7 @@ export function presentPlace(place,showSpoilers,audit,inheritedIdentities=[]){
   // An association supported only by a concealed outcome must not remain on a person page.
   const associated=new Set(result.appearances.flatMap(a=>a.characters.map(c=>c.name)));
   result.people=result.people.filter(name=>associated.has(name));
-  result.deaths=result.deaths?.map(d=>({...d,people:[REDACTED],label:REDACTED}));
+  result.deaths=result.deaths?.map(d=>({...d,people:[REDACTED],label:REDACTED,...(d.story_role?{story_role:REDACTED}:{})}));
   const namePhrases=[...(rule?.redactions?.filter(r=>r.path==='name').flatMap(r=>r.phrases)||[]),...identities];
   const screenTitle=result.media?.screen?.title;
   result.media=safePair(result.media,Boolean(place.isDeath||place.category==='death'||place.deaths?.some(d=>!screenTitle||d.title===screenTitle)),namePhrases,concealParticipants);

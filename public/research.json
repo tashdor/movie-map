@@ -303,9 +303,20 @@
           "story_role": "Harry Bosch's home",
           "filming_component": "house",
           "source_ids": [
-            "heat_locations",
-            "heat_scout"
-          ]
+            "bosch_house_stalker",
+            "bosch_angels_author"
+          ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate recurring-residence interval for the original series. The pilot’s contemporary year is estimated as 2014; the final season opens on New Year’s Eve 2019 and continues into 2020. These are not verified move-in or move-out dates.",
+            "source_ids": [
+              "bosch_house_stalker",
+              "bosch_prime_s7"
+            ]
+          }
         }
       ],
       "notes": "Shared physical house; each occupant belongs to a separate screen story. Do not infer transfer dates or a canonical sale.",

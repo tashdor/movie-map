@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "places": [
+    {
+      "id": 820,
+      "mergeInto": 479,
+      "name": "Angels Flight",
+      "short": "Angels Flight",
+      "category": "event",
+      "categories": [
+        "event",
+        "death"
+      ],
+      "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+      "area": "Bunker Hill",
+      "coordinates": [
+        -118.250596,
+        34.0516089
+      ],
+      "productionCoordinates": [
+        -118.250596,
+        34.0516089
+      ],
+      "precision": "mapped-station",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+        "precision": "mapped-station",
+        "reason": "The named Angels Flight railway itself is the Season 4 investigation site. The pin marks its upper ticket office on the current railway, not the pre-1969 alignment or an address interpolation on Grand Avenue.",
+        "sourceIds": [
+          "bosch_angels_official",
+          "bosch_angels_video",
+          "bosch_angels_author",
+          "bosch_angels_guide",
+          "bosch_angels_osm"
+        ]
+      },
+      "people": [
+        "Harry Bosch",
+        "Jimmy Robertson"
+      ],
+      "featured": false,
+      "notes": "",
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry’s Angels Flight investigation",
+          "filming_component": "Angels Flight railway and cars",
+          "source_ids": [
+            "bosch_angels_official",
+            "bosch_angels_video",
+            "bosch_angels_author",
+            "bosch_angels_guide"
+          ],
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Editorial story-year estimate from the season-relative chronology, anchored by Season 7 opening on New Year’s Eve 2019; not the 2018 release year.",
+            "source_ids": [
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "episodes": [
+            "S4E1 “Ask the Dust” and the Season 4 investigation"
+          ],
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "leads the railway investigation"
+            },
+            {
+              "name": "Jimmy Robertson",
+              "relationship": "works on the task force"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ]
+        }
+      ],
+      "deaths": [
+        {
+          "title": "Bosch",
+          "people": [
+            "Howard Elias"
+          ],
+          "label": "Howard Elias’s death",
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Editorial story-year estimate from the season-relative chronology, anchored by Season 7 opening on New Year’s Eve 2019; not the 2018 release year.",
+            "source_ids": [
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "story_role": "Howard Elias is shot aboard an Angels Flight car.",
+          "filming_component": "Angels Flight railway car",
+          "source_ids": [
+            "bosch_angels_guide",
+            "bosch_angels_video"
+          ]
+        }
+      ],
+      "media": {
+        "screen": {
+          "src": "photos/bosch-angels-flight-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=TTVOwzhOxIw&t=5s",
+          "credit": "Bosch Season 4 frame · Amazon Studios / Bosch TV official promo, 00:05",
+          "title": "Bosch",
+          "alt": "The illuminated Angels Flight railway car and upper station at night in Bosch.",
+          "caption": "Season 4 · Angels Flight",
+          "width": 360,
+          "height": 360,
+          "spoiler": false
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n479-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
+    }
+  ],
+  "revisedPlaces": [
+    {
+      "id": 479,
+      "coordinates": [
+        -118.250596,
+        34.0516089
+      ],
+      "productionCoordinates": [
+        -118.250596,
+        34.0516089
+      ],
+      "precision": "mapped-station",
+      "mapsQuery": "Angels Flight Railway, 351 South Hill Street, Los Angeles, CA 90013",
+      "productionSites": [
+        {
+          "component": "Angels Flight upper station",
+          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+          "coordinates": [
+            -118.250596,
+            34.0516089
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bosch_angels_official",
+      "title": "Angels Flight Railway: Screen appearances and official street address",
+      "url": "https://www.angelsflight.org/in-the-movies/",
+      "source_type": "railway operator"
+    },
+    {
+      "id": "bosch_angels_video",
+      "title": "Bosch TV: Season 4 — Angels Flight",
+      "url": "https://www.youtube.com/watch?v=TTVOwzhOxIw",
+      "source_type": "official series promo"
+    },
+    {
+      "id": "bosch_angels_author",
+      "title": "Michael Connelly: Bosch Season 4 production journal",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "author and executive producer"
+    },
+    {
+      "id": "bosch_angels_guide",
+      "title": "Discover Los Angeles: Bosch at Angels Flight",
+      "url": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+      "source_type": "tourism authority location guide"
+    },
+    {
+      "id": "bosch_angels_osm",
+      "title": "OpenStreetMap: Angels Flight upper ticket office",
+      "url": "https://www.openstreetmap.org/node/10744639082",
+      "source_type": "mapped railway station"
+    },
+    {
+      "id": "bosch_prime_s5",
+      "title": "Prime Video: Bosch Season 5 story synopsis",
+      "url": "https://www.primevideo.com/detail/0PIRCVC9QD4WBBOMQIJQDAD3BP?tr=sz",
+      "source_type": "official series synopsis"
+    },
+    {
+      "id": "bosch_prime_s7",
+      "title": "Prime Video: Bosch Season 7 story synopsis",
+      "url": "https://www.primevideo.com/detail/0RKKFE0USMHNZ3I6NK7O4BDZPM?tr=mf",
+      "source_type": "official series synopsis"
+    },
+    {
+      "id": "bosch_series_chronology",
+      "title": "Bosch television series: Relative seasonal chronology",
+      "url": "https://en.wikipedia.org/wiki/Bosch_(TV_series)#Plot",
+      "source_type": "secondary chronology reference"
+    },
+    {
+      "id": "bosch_house_stalker",
+      "title": "IAMNOTASTALKER: Harry Bosch’s house and its production history",
+      "url": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch/",
+      "source_type": "photographic location comparison"
+    }
+  ],
+  "audit": [
+    {
+      "id": 820,
+      "mergeInto": 479,
+      "verification": "Railway operator, creator production journal and official promo identify the actual railway. The 00:05 exterior frame shows no victim or outcome. Howard Elias is included only in the protected, separately dated death event. The ordinary venue keeps investigators as associations. The novel’s 1999 publication year is not a TV story date."
+    },
+    {
+      "id": 1,
+      "verification": "Existing Bosch home appearance is extended across the original series as an approximate recurrence interval; no move-in/out dates are claimed. Heat appearance, parcel pin, per-title media and Zillow link are preserved."
+    }
+  ],
+  "pinCorrection": {
+    "id": 479,
+    "previousCoordinates": [
+      -118.251599985292,
+      34.052149981285
+    ],
+    "coordinates": [
+      -118.250596,
+      34.0516089
+    ],
+    "reason": "Existing Grand Avenue interpolation lay northwest of the actual railway. Upper ticket office matches the current railway track endpoint.",
+    "source": "https://api.openstreetmap.org/api/0.6/map?bbox=-118.252,34.051,-118.249,34.053",
+    "features": [
+      {
+        "type": "node",
+        "id": "10744639082",
+        "tags": {
+          "name": "Angels Flight Ticket Office",
+          "shop": "ticket"
+        },
+        "coordinates": [
+          -118.250596,
+          34.0516089
+        ]
+      },
+      {
+        "type": "way",
+        "id": "27254600",
+        "tags": {
+          "electrified": "no",
+          "gauge": "762",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "historic": "railway",
+          "name": "Angels Flight",
+          "operator": "Angels Flight",
+          "railway": "funicular",
+          "ref:lahcm": "4",
+          "ref:nrhp": "00001168",
+          "wikidata": "Q1069719",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.249856,
+            34.0511135
+          ],
+          [
+            -118.2499232,
+            34.0511576
+          ]
+        ]
+      },
+      {
+        "type": "way",
+        "id": "322957598",
+        "tags": {
+          "email": "info@angelsflight.org",
+          "fee": "yes",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "heritage:website": "https://npgallery.nps.gov/AssetDetail/NRIS/00001168",
+          "historic": "railway",
+          "image": "https://commons.wikimedia.org/wiki/File:AngelsFlight.5.JPG",
+          "landuse": "railway",
+          "moved": "yes",
+          "name": "Angels Flight",
+          "name:en": "Angels Flight",
+          "nrhp:inscription_date": "2000-10-13",
+          "opening_hours": "06:45-22:00",
+          "phone": "+1-213-626-1901",
+          "railway": "funicular",
+          "ref:nrhp": "00001168",
+          "tourism": "attraction",
+          "website": "https://www.angelsflight.org/",
+          "wikidata": "Q1069719",
+          "wikimedia_commons": "Category:Angels_Flight",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.2503769,
+            34.0514869
+          ],
+          [
+            -118.2505462,
+            34.0515952
+          ],
+          [
+            -118.2504951,
+            34.0516544
+          ],
+          [
+            -118.2505635,
+            34.0516968
+          ],
+          [
+            -118.2505775,
+            34.0516786
+          ],
+          [
+            -118.2505854,
+            34.0516692
+          ],
+          [
+            -118.2505958,
+            34.0516604
+          ],
+          [
+            -118.2506527,
+            34.0515989
+          ],
+          [
+            -118.2507251,
+            34.0515177
+          ],
+          [
+            -118.2507105,
+            34.0515078
+          ],
+          [
+            -118.2506976,
+            34.0515076
+          ],
+          [
+            -118.2506823,
+            34.0515095
+          ],
+          [
+            -118.2506674,
+            34.0515134
+          ],
+          [
+            -118.2506589,
+            34.0515179
+          ],
+          [
+            -118.2506538,
+            34.0515232
+          ],
+          [
+            -118.2506436,
+            34.0515248
+          ],
+          [
+            -118.250638,
+            34.0515239
+          ],
+          [
+            -118.2506298,
+            34.0515248
+          ],
+          [
+            -118.2506229,
+            34.0515267
+          ],
+          [
+            -118.250614,
+            34.0515314
+          ],
+          [
+            -118.2505877,
+            34.0515592
+          ],
+          [
+            -118.25054,
+            34.0515259
+          ],
+          [
+            -118.2504314,
+            34.0514536
+          ],
+          [
+            -118.2501175,
+            34.0512501
+          ],
+          [
+            -118.2500817,
+            34.0512443
+          ],
+          [
+            -118.2499343,
+            34.0511461
+          ],
+          [
+            -118.2499422,
+            34.0511376
+          ],
+          [
+            -118.2499171,
+            34.0511226
+          ],
+          [
+            -118.2499166,
+            34.0511168
+          ],
+          [
+            -118.2498682,
+            34.0510844
+          ],
+          [
+            -118.2498636,
+            34.0510898
+          ],
+          [
+            -118.2498507,
+            34.0510812
+          ],
+          [
+            -118.249819,
+            34.0511136
+          ],
+          [
+            -118.2498319,
+            34.0511223
+          ],
+          [
+            -118.2498297,
+            34.0511244
+          ],
+          [
+            -118.2498278,
+            34.0511263
+          ],
+          [
+            -118.2498471,
+            34.0511394
+          ],
+          [
+            -118.2498795,
+            34.0511612
+          ],
+          [
+            -118.2499053,
+            34.0511779
+          ],
+          [
+            -118.2500724,
+            34.0512901
+          ],
+          [
+            -118.2502138,
+            34.0513818
+          ],
+          [
+            -118.2503769,
+            34.0514869
+          ]
+        ]
+      },
+      {
+        "type": "way",
+        "id": "322957619",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "no",
+          "gauge": "762",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "historic": "railway",
+          "name": "Angels Flight",
+          "operator": "Angels Flight",
+          "railway": "funicular",
+          "ref:lahcm": "4",
+          "ref:nrhp": "00001168",
+          "wikidata": "Q1069719",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.2503872,
+            34.051459
+          ],
+          [
+            -118.2503368,
+            34.051411
+          ],
+          [
+            -118.2501103,
+            34.0512655
+          ],
+          [
+            -118.2500663,
+            34.0512508
+          ]
+        ]
+      },
+      {
+        "type": "way",
+        "id": "454612615",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "no",
+          "gauge": "762",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "historic": "railway",
+          "name": "Angels Flight",
+          "operator": "Angels Flight",
+          "railway": "funicular",
+          "ref:lahcm": "4",
+          "ref:nrhp": "00001168",
+          "wikidata": "Q1069719",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.2500663,
+            34.0512508
+          ],
+          [
+            -118.2500943,
+            34.051281
+          ],
+          [
+            -118.2503219,
+            34.0514284
+          ],
+          [
+            -118.2503872,
+            34.051459
+          ]
+        ]
+      },
+      {
+        "type": "way",
+        "id": "460638690",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "no",
+          "gauge": "762",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "historic": "railway",
+          "name": "Angels Flight",
+          "operator": "Angels Flight",
+          "railway": "funicular",
+          "ref:lahcm": "4",
+          "ref:nrhp": "00001168",
+          "wikidata": "Q1069719",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.250591,
+            34.0515859
+          ],
+          [
+            -118.2503872,
+            34.051459
+          ]
+        ]
+      },
+      {
+        "type": "way",
+        "id": "460638691",
+        "tags": {
+          "bridge": "yes",
+          "electrified": "no",
+          "gauge": "762",
+          "heritage": "2",
+          "heritage:operator": "nrhp",
+          "historic": "railway",
+          "name": "Angels Flight",
+          "operator": "Angels Flight",
+          "railway": "funicular",
+          "ref:lahcm": "4",
+          "ref:nrhp": "00001168",
+          "wikidata": "Q1069719",
+          "wikipedia": "en:Angels Flight"
+        },
+        "coordinates": [
+          [
+            -118.2499232,
+            34.0511576
+          ],
+          [
+            -118.2500663,
+            34.0512508
+          ]
+        ]
+      }
+    ]
+  },
+  "excluded": [
+    {
+      "name": "Dodger Stadium",
+      "reason": "Book association; the cited TV guide says Harry has not attended a game in the original series. Not added as a Bosch location."
+    },
+    {
+      "name": "Angels Flight pilot glimpse",
+      "reason": "Recorded as corroborating recurrence in the guide; Season 4 supplies the mapped story event rather than inventing dates for the pilot chase."
+    }
+  ]
+}

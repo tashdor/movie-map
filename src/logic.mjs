@@ -36,6 +36,11 @@ export function matchingAppearances(place, time) {
   });
 }
 
+function matchingDeaths(place, appearances, time) {
+  return (place.deaths || []).filter(death => appearances.some(a => a.title === death.title) &&
+    (!death.story_time || matchingAppearances({appearances:[death]}, time).length));
+}
+
 export function filterPlaces(places, { query = '', category = 'all', film = '', laOnly = false, time = { all: true } }) {
   const wanted=selectedTypes(category);
   const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/[.’'\-]/g,'');
@@ -45,7 +50,7 @@ export function filterPlaces(places, { query = '', category = 'all', film = '', 
     if (!appearances.length || !appearances.some(a=>(a.categories||p.categories).some(type=>wanted.includes(type)))) return false;
     if (film && !appearances.some(a => a.title === film)) return false;
     const names = appearances.length === p.appearances.length ? [p.name,p.short] : [];
-    const haystack = normalize([...names, p.address, p.area, p.placement?.address||'', p.storySetting?.name||'', ...(p.deaths||[]).filter(d=>appearances.some(a=>a.title===d.title)).flatMap(d=>[d.label||'',...d.people]), ...appearances.flatMap(a => [a.title, a.story_role, a.filming_component, ...(a.characters || []).map(c => c.name)])].join(' '));
+    const haystack = normalize([...names, p.address, p.area, p.placement?.address||'', p.storySetting?.name||'', ...matchingDeaths(p,appearances,time).flatMap(d=>[d.label||'',...d.people]), ...appearances.flatMap(a => [a.title, a.story_role, a.filming_component, ...(a.characters || []).map(c => c.name)])].join(' '));
     return tokens.every(t => haystack.includes(t));
   });
 }
@@ -109,7 +114,7 @@ export function displayEntries(places,filters={}){
   return filterPlaces(places,{...filters,category:'all'}).flatMap(p=>{
     const active=matchingAppearances(p,time).filter(a=>(!film||a.title===film)&&(!laOnly||(a.storySetting||p.storySetting)?.canonicalLA!==false));
     if(!active.length)return [];
-    const deaths=(p.deaths||[]).filter(d=>active.some(a=>a.title===d.title));
+    const deaths=matchingDeaths(p,active,time);
     const categories=[...new Set(active.flatMap(a=>a.categories||p.categories))];
     const activeTitles=[...new Set(active.map(a=>a.title))],mediaTitle=film||(activeTitles.length===1?activeTitles[0]:null);
     const media=mediaTitle&&p.mediaByTitle?.[mediaTitle]||p.media;
@@ -120,7 +125,10 @@ export function displayEntries(places,filters={}){
     if(p.category==='death'?wanted.includes('death'):categories.some(type=>type!=='death'&&wanted.includes(type)))entries.push({...base,isDeath:p.category==='death'});
     if(deaths.length&&p.category!=='death'&&wanted.includes('death')){
       const people=[...new Set(deaths.flatMap(d=>d.people))];
-      const deathTitles=new Set(deaths.map(d=>d.title)),appearances=active.filter(a=>deathTitles.has(a.title));
+      const deathTitles=new Set(deaths.map(d=>d.title)),appearances=deaths.flatMap(d=>active.filter(a=>a.title===d.title).map(a=>({...a,
+        story_time:d.story_time||a.story_time,story_role:d.story_role||a.story_role,filming_component:d.filming_component||a.filming_component,
+        source_ids:[...new Set([...(a.source_ids||[]),...(d.source_ids||[])])],
+      })));
       const mediaByTitle=Object.fromEntries(Object.entries(p.mediaByTitle||{}).filter(([title])=>deathTitles.has(title)));
       const media=mediaByTitle[appearances[0].title]||(deathTitles.has(p.media?.screen?.title)?p.media:{place:p.media?.place});
       const settings=appearances.map(a=>a.storySetting||p.storySetting),storySetting=settings.find(s=>s?.canonicalLA===false)||settings.find(Boolean);

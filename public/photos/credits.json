@@ -873,6 +873,43 @@
       "width": 991,
       "height": 900,
       "dateStatus": "Capture date not supplied by source."
+    },
+    "byTitle": {
+      "L.A. Confidential": {
+        "id": 28,
+        "screen": {
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+          "credit": "L.A. Confidential film frame; ItsFilmedThere",
+          "alt": "The Frolic Room neon in L.A. Confidential.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUl3BmaDP2fd1R2tEqI21W_IICL8NSfR-P234zUI2M9lWdorgubOHYduFfY6tMdTksqbp_kqomzwATj3GnWt69no0S57c9yxVeRiKWqKnWa5sVhzS7fIaeDFm7lE64bNwNMEmnMbY5dlZO/s1600/Frolic.JPG",
+          "src": "photos/a-028-screen.jpg",
+          "width": 838,
+          "height": 356,
+          "title": "L.A. Confidential"
+        },
+        "place": {
+          "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+          "credit": "ItsFilmedThere",
+          "alt": "The Frolic Room neon on Hollywood Boulevard.",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4-2BUKdka0lyYemxwt7jHemhU_FaMsmEIuK1l6SqB_v1XINSolJfYYyGxCqFCDgURtGkxaIM0fk2q7zv_CDVbTTVcYVQFQRzgeHrocUYVg8lNorrCUJxkqNmrl4e_gqjZAJygcEUAfAyesxnS9l28aMX8bxrkfRGGWS1eS0QotyXJBW1NmtXfoy4rD4/s1078/D.jpg",
+          "src": "photos/a-028-place.jpg",
+          "width": 991,
+          "height": 900,
+          "dateStatus": "Capture date not supplied by source."
+        }
+      },
+      "Bosch": {
+        "place": {
+          "src": "photos/bosch-haunt-frolic-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/frolic-room/c_fit-w_1920-h_1440-crm-la-frolic-room-83e74ad75056a36_83e74c64-5056-a36f-2305aeaf68a42421.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "The Frolic Room cocktail neon and entrance on Hollywood Boulevard.",
+          "width": 1400,
+          "height": 934,
+          "note": "Capture date not supplied by source."
+        }
+      }
     }
   },
   "29": {
@@ -3660,6 +3697,46 @@
       "credit": "LocationsHub / SCV Bail Bonds",
       "note": "Capture date not specified by source.",
       "src": "photos/n164-place.jpg"
+    },
+    "byTitle": {
+      "Nightcrawler": {
+        "screen": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424816907030-VD73FPGTAVZNXF5OMB8D/lapd-1.png",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "Nightcrawler film frame / LocationsHub",
+          "title": "Nightcrawler",
+          "src": "photos/n164-screen.jpg"
+        },
+        "place": {
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "LocationsHub / SCV Bail Bonds",
+          "note": "Capture date not specified by source.",
+          "src": "photos/n164-place.jpg"
+        }
+      },
+      "Bosch": {
+        "screen": {
+          "src": "photos/bosch-work-station-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=ZEOKo-NcCvs&t=5s",
+          "credit": "Bosch pilot frame · Amazon Studios / Bosch TV",
+          "alt": "Harry Bosch reads the duty board inside the real Hollywood Station in the pilot.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/n164-place.jpg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "LocationsHub / SCV Bail Bonds",
+          "alt": "Hollywood Station’s brick entrance and 1358 street number.",
+          "width": 1067,
+          "height": 800,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+          "note": "Site photograph; capture date is not supplied by the source."
+        }
+      }
     }
   },
   "165": {
@@ -3863,6 +3940,46 @@
       "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
       "credit": "Film Oblivion",
       "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
+    },
+    "byTitle": {
+      "Once Upon a Time in Hollywood": {
+        "screen": {
+          "src": "photos/n177-screen.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+          "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW43g7FWaCOrcscHulzaLggOL4Z_zo4vPeWz47Li-vCJBDUokBkO1zAT_nASSiTqHel54jOQcRJkQaAXavTwbdcTPGjUOEXiEEVWAyZWNFyi4V0wGncnXdgi-AhmNwo97ukdHyXeqWHTHmvhsdo5Dkkvh5pxP9DrEwB6lhiMZjxI-EcxOw97vKK_LDPsA/w400-h164/Screenshot%202024-03-19%20125650.png",
+          "title": "Once Upon a Time in Hollywood"
+        },
+        "place": {
+          "src": "photos/n177-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+          "credit": "Film Oblivion",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
+        }
+      },
+      "Bosch": {
+        "screen": {
+          "src": "photos/bosch-haunt-musso-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647151/BOSCH_306_30596.1.FNL.lg.jpg?w=1040",
+          "credit": "Bosch Season 3 production still · Amazon Studios via Eater LA",
+          "alt": "Young Harry Bosch sits at the Musso & Frank counter during the Thanksgiving flashback in “Birdland.”",
+          "width": 1040,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-musso-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/musso-frank-grill/c_fit-w_1920-h_1440-crm-la-musso-frank-grill-82ee28c95056a36_82ee2a15-5056-a36f-239d9e5730bd990d.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "The wood counter and stools inside Musso & Frank Grill.",
+          "width": 1400,
+          "height": 933,
+          "note": "Capture date not supplied by source."
+        }
+      }
     }
   },
   "178": {
@@ -7557,6 +7674,55 @@
       "caption": "Site · source photo",
       "width": 1200,
       "height": 900
+    },
+    "byTitle": {
+      "La La Land": {
+        "screen": {
+          "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-361.jpg",
+          "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-361.htm",
+          "credit": "La La Land film frame; Screenmusings",
+          "alt": "La La Land scene",
+          "src": "photos/n479-screen.jpg",
+          "title": "La La Land",
+          "width": 1600,
+          "height": 623
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n479-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      "Bosch": {
+        "screen": {
+          "src": "photos/bosch-angels-flight-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=TTVOwzhOxIw&t=5s",
+          "credit": "Bosch Season 4 frame · Amazon Studios / Bosch TV official promo, 00:05",
+          "title": "Bosch",
+          "alt": "The illuminated Angels Flight railway car and upper station at night in Bosch.",
+          "caption": "Season 4 · Angels Flight",
+          "width": 360,
+          "height": 360,
+          "spoiler": false
+        },
+        "place": {
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+          "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+          "credit": "Film Oblivion",
+          "alt": "Real filming site",
+          "note": "Source photograph; capture date is not supplied.",
+          "src": "photos/n479-place.jpg",
+          "caption": "Site · source photo",
+          "width": 1200,
+          "height": 900
+        }
+      }
     }
   },
   "480": {
@@ -9859,6 +10025,145 @@
       "height": 1200,
       "caption": "Site · undated",
       "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
+    }
+  },
+  "802": {
+    "screen": {
+      "src": "photos/bosch-haunt-boardners-screen.jpg",
+      "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+      "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/16176598/Screen_Shot_2019_04_18_at_7.02.57_PM.png?w=1040",
+      "credit": "Bosch frame · Amazon Prime via Eater LA",
+      "alt": "Hollywood officers sit around the bar at Boardner’s in Bosch.",
+      "width": 1040,
+      "height": 682,
+      "title": "Bosch",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bosch-haunt-boardners-place.jpg",
+      "sourceUrl": "https://www.lanightlife.com/venue/boardners",
+      "imageUrl": "https://d8pwhbxsl2cp4.cloudfront.net/venues/334/boardners_4_800x600.jpg",
+      "credit": "LA Nightlife",
+      "alt": "Boardner’s vertical neon and arched Cherokee Avenue facade.",
+      "width": 800,
+      "height": 600,
+      "note": "Capture date not supplied by source."
+    }
+  },
+  "803": {
+    "screen": {
+      "src": "photos/bosch-haunt-dupars-screen.jpg",
+      "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+      "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647161/BOSCH_404_17267.jpg?w=1040",
+      "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+      "alt": "Harry Bosch talks over coffee at a patio table at Du-par’s in “Past Lives.”",
+      "width": 1040,
+      "height": 693,
+      "title": "Bosch",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bosch-haunt-dupars-place.jpg",
+      "sourceUrl": "https://www.daytrippen.com/los-angeles-farmers-market-day-trip/",
+      "imageUrl": "https://www.daytrippen.com/wp-content/uploads/2022/07/du-pars-restaurant-los-angeles.jpg",
+      "credit": "Daytrippen",
+      "alt": "The Du-par’s sign and shaded outdoor patio at the Original Farmers Market.",
+      "width": 770,
+      "height": 513,
+      "note": "Capture date not supplied by source."
+    }
+  },
+  "804": {
+    "screen": {
+      "src": "photos/bosch-haunt-golden-screen.jpg",
+      "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+      "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647173/BOSCH_402_09145.jpg?w=1040",
+      "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+      "alt": "The high-stakes poker table inside Golden Soup in “Dreams of Bunker Hill.”",
+      "width": 1040,
+      "height": 720,
+      "title": "Bosch",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bosch-haunt-golden-place.jpg",
+      "sourceUrl": "https://www.discoverlosangeles.com/eat-drink/golden-soup-restaurant",
+      "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/golden-soup-restaurant/c_fit-w_1920-h_1440-crm-la-golden-soup-restaurant_a2981f4b-5056-a36f-2342c3e1817adbb3-a2981dd55056a36_a29839b2-5056-a36f-2316d5dda42d54c8.jpg",
+      "credit": "Discover Los Angeles",
+      "alt": "Golden Soup’s dining room with the illuminated lattice screens visible in Bosch.",
+      "width": 1333,
+      "height": 1000,
+      "note": "Capture date not supplied by source."
+    }
+  },
+  "811": {
+    "screen": {
+      "src": "photos/bosch-work-hq-screen.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=j2lAllH5NPU&t=80s",
+      "credit": "Bosch season 6 trailer frame · Prime Video",
+      "alt": "Irvin Irving meets with investigators while Harry Bosch and Jerry Edgar stand by the windows.",
+      "width": 1280,
+      "height": 720,
+      "title": "Bosch",
+      "spoiler": false,
+      "note": "A scene set at headquarters. Identified real-building filming is the exterior."
+    },
+    "place": {
+      "src": "photos/bosch-work-hq-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LAPD_Administration_Building.jpg",
+      "credit": "John Verive / Wikimedia Commons · CC BY-SA 2.0",
+      "alt": "The glass and stone facade of the LAPD Police Administration Building with City Hall reflected in the glass.",
+      "width": 1200,
+      "height": 961,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/LAPD_Administration_Building.jpg",
+      "note": "Photographed May 15, 2011. Resized."
+    }
+  },
+  "812": {
+    "screen": {
+      "src": "photos/bosch-work-coroner-screen.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=53s",
+      "credit": "Bosch season 1 frame · Amazon Studios / Prime Video DE",
+      "alt": "Harry Bosch and Jerry Edgar consult forensic anthropologist William Golliher at the county coroner.",
+      "width": 850,
+      "height": 478,
+      "title": "Bosch",
+      "spoiler": false,
+      "note": "Cropped to the characters."
+    },
+    "place": {
+      "src": "photos/bosch-work-coroner-place.jpg",
+      "sourceUrl": "https://me.lacounty.gov/",
+      "credit": "County of Los Angeles Department of Medical Examiner",
+      "alt": "The concrete Forensic Science Center entrance with updated Medical Examiner lettering.",
+      "width": 1024,
+      "height": 610,
+      "imageUrl": "https://me.lacounty.gov/wp-content/uploads/2024/02/1104A-1024x610.jpg",
+      "note": "Site photograph; capture date is not supplied by the source."
+    }
+  },
+  "813": {
+    "screen": {
+      "src": "photos/bosch-work-court-screen.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=85s",
+      "credit": "Bosch Civic Center aerial · Amazon Studios / Prime Video DE",
+      "alt": "The grid-fronted Foltz courthouse at left, with Los Angeles City Hall in the foreground.",
+      "width": 1280,
+      "height": 720,
+      "title": "Bosch",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bosch-work-court-place.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clarashortridgefoltzcriminaljusticecenter.JPG",
+      "credit": "Coolcaesar / Wikimedia Commons · CC BY-SA 4.0",
+      "alt": "The concrete grid facade of the Clara Shortridge Foltz Criminal Justice Center from Temple Street.",
+      "width": 1200,
+      "height": 1083,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Clarashortridgefoltzcriminaljusticecenter.JPG",
+      "note": "Resized."
     }
   }
 }

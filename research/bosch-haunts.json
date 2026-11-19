@@ -1,0 +1,780 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "places": [
+    {
+      "id": 800,
+      "name": "Musso & Frank Grill",
+      "short": "Musso & Frank Grill",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "6667 Hollywood Boulevard, Los Angeles, CA 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.3354084,
+        34.1018304
+      ],
+      "productionCoordinates": [
+        -118.3354084,
+        34.1018304
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "6667 Hollywood Boulevard, Los Angeles, CA 90028",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_connelly",
+          "bosch_haunts_90210",
+          "bosch_haunts_ktla",
+          "bosch_haunts_eater",
+          "bosch_haunts_musso"
+        ],
+        "reason": "The series returns to the real grill, including a Thanksgiving flashback, the Season 6 dinner and the series finale."
+      },
+      "people": [
+        "Harry Bosch",
+        "Julia Brasher",
+        "Det. Johnson (Barrel)",
+        "Maddie Bosch"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry’s recurring Hollywood grill",
+          "filming_component": "Musso & Frank dining room and bar",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_ktla",
+            "bosch_haunts_eater",
+            "bosch_haunts_musso"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary appearances span the 2014 pilot through the finale of Season 7, which opens on New Year’s Eve 2019. The featured “Birdland” still depicts a separate childhood flashback.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_connelly",
+              "bosch_prime_s7"
+            ],
+            "end_year": 2020
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets colleagues and family at the grill"
+            },
+            {
+              "name": "Julia Brasher",
+              "relationship": "shares martinis with Harry"
+            },
+            {
+              "name": "Det. Johnson (Barrel)",
+              "relationship": "has dinner with Ryan Rodgers"
+            },
+            {
+              "name": "Maddie Bosch",
+              "relationship": "meets Harry at the bar"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-musso-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647151/BOSCH_306_30596.1.FNL.lg.jpg?w=1040",
+          "credit": "Bosch Season 3 production still · Amazon Studios via Eater LA",
+          "alt": "Young Harry Bosch sits at the Musso & Frank counter during the Thanksgiving flashback in “Birdland.”",
+          "width": 1040,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-musso-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/musso-frank-grill/c_fit-w_1920-h_1440-crm-la-musso-frank-grill-82ee28c95056a36_82ee2a15-5056-a36f-239d9e5730bd990d.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "The wood counter and stools inside Musso & Frank Grill.",
+          "width": 1400,
+          "height": 933,
+          "note": "Capture date not supplied by source."
+        }
+      },
+      "mergeInto": 177
+    },
+    {
+      "id": 801,
+      "name": "Frolic Room",
+      "short": "Frolic Room",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "6245 Hollywood Boulevard, Los Angeles, CA 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.3257753,
+        34.1018639
+      ],
+      "productionCoordinates": [
+        -118.3257753,
+        34.1018639
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "6245 Hollywood Boulevard, Los Angeles, CA 90028",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_connelly",
+          "bosch_haunts_90210",
+          "bosch_haunts_frolic"
+        ],
+        "reason": "The Hollywood Boulevard bar hosts meetings with Anthony Servidone in Seasons 5 and 6. Connelly confirms Season 5 filming at the bar."
+      },
+      "people": [
+        "Harry Bosch",
+        "Anthony Servidone",
+        "Jerry Edgar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Bosch’s meetings with retired detective Servidone",
+          "filming_component": "Frolic Room bar interior",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_frolic"
+          ],
+          "story_time": {
+            "year": 2018,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Editorial estimate from the nearly one-year gap between Seasons 5 and 6 and the New Year’s Eve 2019 start of Season 7 after Season 6.",
+            "source_ids": [
+              "bosch_haunts_prime5",
+              "bosch_haunts_prime6",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ],
+            "end_year": 2019
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets Anthony Servidone for a drink"
+            },
+            {
+              "name": "Anthony Servidone",
+              "relationship": "meets Bosch at the bar"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "meets Lochner at the bar"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "place": {
+          "src": "photos/bosch-haunt-frolic-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/frolic-room/c_fit-w_1920-h_1440-crm-la-frolic-room-83e74ad75056a36_83e74c64-5056-a36f-2305aeaf68a42421.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "The Frolic Room cocktail neon and entrance on Hollywood Boulevard.",
+          "width": 1400,
+          "height": 934,
+          "note": "Capture date not supplied by source."
+        }
+      },
+      "mergeInto": 28
+    },
+    {
+      "id": 802,
+      "name": "Boardner’s",
+      "short": "Boardner’s",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1652 North Cherokee Avenue, Los Angeles, CA 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.3347367,
+        34.1012773
+      ],
+      "productionCoordinates": [
+        -118.3347367,
+        34.1012773
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1652 North Cherokee Avenue, Los Angeles, CA 90028",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_90210",
+          "bosch_haunts_eater",
+          "bosch_haunts_boardners"
+        ],
+        "reason": "The Hollywood Homicide hangout appears in Seasons 1, 4 and 6 at the real Cherokee Avenue bar."
+      },
+      "people": [
+        "Det. Johnson (Barrel)",
+        "Sgt. John Mankiewicz (Mank)"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Hollywood Homicide’s after-hours bar",
+          "filming_component": "Boardner’s bar interior and Cherokee Avenue frontage",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_90210",
+            "bosch_haunts_eater",
+            "bosch_haunts_boardners"
+          ],
+          "story_time": {
+            "year": 2015,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Season 1 supplies the early bound using the full-season release year. Season 6 predates the Season 7 New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_eater",
+              "bosch_haunts_prime6",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ],
+            "end_year": 2019
+          },
+          "characters": [
+            {
+              "name": "Det. Johnson (Barrel)",
+              "relationship": "drinks with fellow detectives"
+            },
+            {
+              "name": "Sgt. John Mankiewicz (Mank)",
+              "relationship": "raises a toast at a department gathering"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-boardners-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/16176598/Screen_Shot_2019_04_18_at_7.02.57_PM.png?w=1040",
+          "credit": "Bosch frame · Amazon Prime via Eater LA",
+          "alt": "Hollywood officers sit around the bar at Boardner’s in Bosch.",
+          "width": 1040,
+          "height": 682,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-boardners-place.jpg",
+          "sourceUrl": "https://www.lanightlife.com/venue/boardners",
+          "imageUrl": "https://d8pwhbxsl2cp4.cloudfront.net/venues/334/boardners_4_800x600.jpg",
+          "credit": "LA Nightlife",
+          "alt": "Boardner’s vertical neon and arched Cherokee Avenue facade.",
+          "width": 800,
+          "height": 600,
+          "note": "Capture date not supplied by source."
+        }
+      }
+    },
+    {
+      "id": 803,
+      "name": "Du-par’s at the Original Farmers Market",
+      "short": "Du-par’s · Farmers Market",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "death"
+      ],
+      "address": "6333 West 3rd Street, Los Angeles, CA 90036",
+      "area": "Fairfax District",
+      "coordinates": [
+        -118.3609994,
+        34.0719089
+      ],
+      "productionCoordinates": [
+        -118.3609994,
+        34.0719089
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "6333 West 3rd Street, Los Angeles, CA 90036",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_eater",
+          "bosch_haunts_ktla",
+          "bosch_haunts_dupars",
+          "bosch_haunts_dupars_pin"
+        ],
+        "reason": "The series depicts the diner and patio at the Original Farmers Market on Fairfax. The marker identifies the restaurant at the west end of the market."
+      },
+      "people": [
+        "Harry Bosch",
+        "Maddie Bosch"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry and Maddie’s pancake stop",
+          "filming_component": "Du-par’s restaurant and patio at the Original Farmers Market",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_eater",
+            "bosch_haunts_ktla",
+            "bosch_haunts_dupars",
+            "bosch_haunts_dupars_pin"
+          ],
+          "story_time": {
+            "year": 2015,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "The Season 1 finale aired in 2015. The season-long sequence that includes the Season 7 return begins on New Year’s Eve 2019 and continues into 2020.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_eater",
+              "bosch_prime_s7"
+            ],
+            "end_year": 2020
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "shares breakfast with Maddie"
+            },
+            {
+              "name": "Maddie Bosch",
+              "relationship": "returns to the patio"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-dupars-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647161/BOSCH_404_17267.jpg?w=1040",
+          "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+          "alt": "Harry Bosch talks over coffee at a patio table at Du-par’s in “Past Lives.”",
+          "width": 1040,
+          "height": 693,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-dupars-place.jpg",
+          "sourceUrl": "https://www.daytrippen.com/los-angeles-farmers-market-day-trip/",
+          "imageUrl": "https://www.daytrippen.com/wp-content/uploads/2022/07/du-pars-restaurant-los-angeles.jpg",
+          "credit": "Daytrippen",
+          "alt": "The Du-par’s sign and shaded outdoor patio at the Original Farmers Market.",
+          "width": 770,
+          "height": 513,
+          "note": "Capture date not supplied by source."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Bosch",
+          "people": [
+            "Eleanor Wish"
+          ],
+          "label": "Eleanor Wish’s death",
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Approximate story year inferred from Season 5’s 15-month jump, the nearly one-year jump to Season 6 and Season 7’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_prime4",
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "story_role": "Eleanor Wish is fatally shot in the Original Farmers Market parking lot after meeting Harry Bosch at Du-par’s.",
+          "filming_component": "Original Farmers Market parking lot outside Du-par’s",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_prime4",
+            "bosch_haunts_transcript4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "name": "Golden Soup Restaurant",
+      "short": "Golden Soup Restaurant",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1039 East Valley Boulevard, Suite B201, San Gabriel, CA 91776",
+      "area": "San Gabriel",
+      "coordinates": [
+        -118.084838867,
+        34.081214904
+      ],
+      "productionCoordinates": [
+        -118.084838867,
+        34.081214904
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "San Gabriel, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1039 East Valley Boulevard, Suite B201, San Gabriel, CA 91776",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_eater",
+          "bosch_haunts_golden",
+          "bosch_haunts_prime4"
+        ],
+        "reason": "The show uses the second-floor dining room and kitchen at Gold World Plaza for the poker game and later interviews."
+      },
+      "people": [
+        "Eleanor Wish",
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Ting"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Poker game and follow-up investigation",
+          "filming_component": "Golden Soup dining room and kitchen in Gold World Plaza",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_eater",
+            "bosch_haunts_golden",
+            "bosch_haunts_prime4"
+          ],
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Approximate story year inferred from Season 5’s 15-month jump, the nearly one-year jump to Season 6 and Season 7’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eleanor Wish",
+              "relationship": "plays in a high-stakes poker game"
+            },
+            {
+              "name": "Harry Bosch",
+              "relationship": "follows up on the game"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "investigates with Bosch"
+            },
+            {
+              "name": "Ting",
+              "relationship": "speaks with the detectives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-golden-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647173/BOSCH_402_09145.jpg?w=1040",
+          "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+          "alt": "The high-stakes poker table inside Golden Soup in “Dreams of Bunker Hill.”",
+          "width": 1040,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-golden-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/eat-drink/golden-soup-restaurant",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/golden-soup-restaurant/c_fit-w_1920-h_1440-crm-la-golden-soup-restaurant_a2981f4b-5056-a36f-2342c3e1817adbb3-a2981dd55056a36_a29839b2-5056-a36f-2316d5dda42d54c8.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "Golden Soup’s dining room with the illuminated lattice screens visible in Bosch.",
+          "width": 1333,
+          "height": 1000,
+          "note": "Capture date not supplied by source."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bosch_haunts_guide",
+      "title": "Discover Los Angeles: The Ultimate Guide to Bosch Locations in LA",
+      "url": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+      "source_type": "official destination guide with episode references"
+    },
+    {
+      "id": "bosch_haunts_eater",
+      "title": "Eater LA: Bars and Restaurants Featured in Bosch",
+      "url": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+      "source_type": "location reporting with Amazon production stills"
+    },
+    {
+      "id": "bosch_haunts_connelly",
+      "title": "Michael Connelly: Bosch production journals",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "primary production journal"
+    },
+    {
+      "id": "bosch_haunts_ktla",
+      "title": "KTLA: Titus Welliver and Patrick Cady tour Bosch locations",
+      "url": "https://ktla.com/entertainment/ultimate-bosch-la-filming-locations-according-to-titus-welliver/",
+      "source_type": "cast and crew interview"
+    },
+    {
+      "id": "bosch_haunts_90210",
+      "title": "90210Locations: Bosch episode locations and named address pins",
+      "url": "https://filming.90210locations.info/tv-locations/bosch",
+      "source_type": "filming location guide with mapped address points"
+    },
+    {
+      "id": "bosch_haunts_boardners",
+      "title": "Boardner’s: Official address and building pin",
+      "url": "https://boardners.com/",
+      "source_type": "venue operator with linked address pin"
+    },
+    {
+      "id": "bosch_haunts_dupars",
+      "title": "The Original Farmers Market: Du-par’s Restaurant",
+      "url": "https://farmersmarketla.com/merchants/du-pars-restaurant",
+      "source_type": "market operator"
+    },
+    {
+      "id": "bosch_haunts_dupars_pin",
+      "title": "Du-par’s Restaurant and Bakery: Named business pin",
+      "url": "https://yyahu.com/en/los-angeles/du-pars-restaurant-and-bakery",
+      "source_type": "named business coordinates"
+    },
+    {
+      "id": "bosch_haunts_musso",
+      "title": "Musso & Frank Grill: Official address and location map",
+      "url": "https://mussoandfrank.com/contact/",
+      "source_type": "venue operator with linked address pin"
+    },
+    {
+      "id": "bosch_haunts_frolic",
+      "title": "Frolic Room: Official address",
+      "url": "https://frolicroomla.com/",
+      "source_type": "venue operator"
+    },
+    {
+      "id": "bosch_haunts_golden",
+      "title": "Waze: Gabriel Golden Soup Restaurant named venue pin",
+      "url": "https://www.waze.com/live-map/directions/gabriel-golden-soup-restaurant-e-valley-blvd-1039-san-gabriel?to=place.w.158531925.1585450320.1785180",
+      "source_type": "mapped venue"
+    },
+    {
+      "id": "bosch_haunts_prime4",
+      "title": "Prime Video: Bosch Season 4",
+      "url": "https://www.primevideo.com/detail/0HX4CXWWO3E6NRVF81QOS54D6P?tr=us",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bosch_haunts_transcript4",
+      "title": "Bosch Season 4 Episode 4: Past Lives, closed captions",
+      "url": "https://www.subtitlecat.com/subs/18/Bosch%20-%2004x04%20-%20Past%20Lives.DEFLATE.English.HI.C.orig.Addic7ed.com.html",
+      "source_type": "episode dialogue transcription"
+    },
+    {
+      "id": "bosch_haunts_prime5",
+      "title": "Prime Video: Bosch Season 5",
+      "url": "https://www.primevideo.com/detail/0SAECKOR9UIXEFAIJ6YO070NE4?tr=za",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bosch_haunts_prime6",
+      "title": "Prime Video: Bosch Season 6",
+      "url": "https://www.primevideo.com/detail/0HYZJWW6XQYD3FD7W20LZG6W9D?tr=gb",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bosch_prime_s7",
+      "title": "Prime Video: Bosch Season 7",
+      "url": "https://www.primevideo.com/detail/0RKKFE0USMHNZ3I6NK7O4BDZPM?tr=mf",
+      "source_type": "official episode guide"
+    }
+  ],
+  "audit": [
+    {
+      "id": 800,
+      "recurrence": "Pilot, S3E6 “Birdland” childhood flashback, Season 5 filming in Connelly journal, S6E4 “Part of the Deal,” and S7E8 “Por Sonia.” Eater reports that the S1E3 scene used a different restaurant as a double. That scene is excluded from the on-location evidence.",
+      "coordinateEvidence": "Venue’s official map link resolves to a rooftop address point north of Hollywood Boulevard."
+    },
+    {
+      "id": 801,
+      "recurrence": "S5E4 “Raise the Dead,” S6E1 “The Overlook,” and S6E5 “Money, Honey.”",
+      "coordinateEvidence": "90210Locations' Street View link separates the bar address point from the street camera point.",
+      "mediaStatus": "Verified place photograph and recurrence. A Bosch frame remains unverified."
+    },
+    {
+      "id": 802,
+      "recurrence": "Season 1, S4E7, S4E9, S6E5 and S6E7 “Hard Feelings.”",
+      "coordinateEvidence": "Venue’s official address map points to the east side of Cherokee Avenue at the Boardner’s building."
+    },
+    {
+      "id": 803,
+      "recurrence": "S1E10, S4E4 “Past Lives,” and S7E5 “Jury’s Still Out.”",
+      "coordinateEvidence": "Named restaurant pin corroborated by the market’s merchant listing and photos of the signed building at the western end of the market. Distinct from the former Studio City restaurant at atlas ID 633."
+    },
+    {
+      "id": 804,
+      "recurrence": "S4E2 “Dreams of Bunker Hill,” S4E8 “The Wine of Youth,” and S4E9 “Dark Sky.”",
+      "coordinateEvidence": "Waze publishes a named restaurant pin for Gold World Plaza. The press still’s lit screens match the real dining room photograph."
+    }
+  ],
+  "proposedDeaths": [
+    {
+      "placeId": 803,
+      "title": "Bosch",
+      "character": "Eleanor Wish",
+      "witness": "Harry Bosch",
+      "episode": "S4E4 “Past Lives”",
+      "summary": "Eleanor Wish is fatally shot in the Original Farmers Market parking lot after meeting Harry Bosch at Du-par’s.",
+      "story_time": {
+        "year": 2017,
+        "precision": "year",
+        "certainty": "approximate",
+        "basis": "Approximate story year inferred from Season 5’s 15-month jump, the nearly one-year jump to Season 6 and Season 7’s New Year’s Eve 2019 opening.",
+        "source_ids": [
+          "bosch_haunts_guide",
+          "bosch_haunts_prime4",
+          "bosch_prime_s5",
+          "bosch_prime_s7",
+          "bosch_series_chronology"
+        ]
+      },
+      "source_ids": [
+        "bosch_haunts_guide",
+        "bosch_haunts_prime4",
+        "bosch_haunts_transcript4"
+      ],
+      "spoiler": true
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Formosa Café",
+      "reason": "Verified Season 3 meeting at the real cafe, with only one Bosch episode identified. The recurring venues take priority."
+    },
+    {
+      "name": "Studio City Du-Par’s",
+      "reason": "The series scene names the original Farmers Market location, a different restaurant."
+    }
+  ],
+  "revisedPlaces": [
+    {
+      "id": 177,
+      "coordinates": [
+        -118.3354084,
+        34.1018304
+      ],
+      "productionCoordinates": [
+        -118.3354084,
+        34.1018304
+      ],
+      "precision": "named-building",
+      "mapsQuery": "6667 Hollywood Boulevard, Los Angeles, CA 90028"
+    },
+    {
+      "id": 28,
+      "coordinates": [
+        -118.3257753,
+        34.1018639
+      ],
+      "productionCoordinates": [
+        -118.3257753,
+        34.1018639
+      ],
+      "precision": "named-building",
+      "mapsQuery": "6245 Hollywood Boulevard, Los Angeles, CA 90028"
+    }
+  ]
+}

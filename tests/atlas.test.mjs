@@ -117,8 +117,14 @@ test('story evidence overrides contradictory production coordinates',()=>{
   assert.equal(get(45).appearances.length,1);
   assert.equal(filterPlaces(data.places,{film:'Falling Down'}).some(p=>p.id===92),false);
 });
-test('every directory entry and gallery has local, attributed screen and site images',()=>{
+test('directory photos are local and attributed, with the audited Bosch/Frolic frame gap explicit',()=>{
   for(const p of data.places)for(const pair of [p.media,...Object.values(p.mediaByTitle||{})])for(const [kind,photo] of [['screen',pair?.screen],['place',pair?.place],...(pair?.screenGallery||[]).map(p=>['gallery',p])]){
+    if(p.id===28&&pair===p.mediaByTitle?.Bosch&&kind==='screen'){
+      assert.equal(photo,undefined);
+      const research=JSON.parse(fs.readFileSync(new URL('../research/bosch-haunts.json',import.meta.url)));
+      assert.match(research.audit.find(p=>p.id===801).mediaStatus,/frame remains unverified/);
+      continue;
+    }
     assert.ok(photo?.src,`${p.id}: ${kind}`);
     assert.ok(fs.statSync(new URL('../public/'+photo.src,import.meta.url)).size>1000);
     assert.match(photo.sourceUrl,/^https?:/);assert.ok(photo.credit);

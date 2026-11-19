@@ -61,9 +61,20 @@
           "story_role": "Harry Bosch’s home",
           "filming_component": "house",
           "source_ids": [
-            "heat_locations",
-            "heat_scout"
+            "bosch_house_stalker",
+            "bosch_angels_author"
           ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate recurring-residence interval for the original series. The pilot’s contemporary year is estimated as 2014; the final season opens on New Year’s Eve 2019 and continues into 2020. These are not verified move-in or move-out dates.",
+            "source_ids": [
+              "bosch_house_stalker",
+              "bosch_prime_s7"
+            ]
+          },
           "characters": [
             {
               "name": "Harry Bosch",
@@ -72,17 +83,7 @@
           ],
           "categories": [
             "home"
-          ],
-          "story_time": {
-            "year": 2014,
-            "precision": "year",
-            "certainty": "approximate",
-            "basis": "Contemporary setting; release year used as an editorial estimate.",
-            "source_ids": [
-              "heat_locations",
-              "heat_scout"
-            ]
-          }
+          ]
         }
       ],
       "notes": "Shared physical house; each occupant belongs to a separate screen story. Do not infer transfer dates or a canonical sale.",
@@ -3115,12 +3116,15 @@
       "address": "6245 Hollywood Boulevard",
       "area": "Hollywood, Los Angeles",
       "coordinates": [
-        -118.325867434412,
-        34.101684061596
+        -118.3257753,
+        34.1018639
       ],
-      "precision": "street-interpolated",
+      "precision": "named-building",
       "people": [
-        "Jack Vincennes"
+        "Jack Vincennes",
+        "Harry Bosch",
+        "Anthony Servidone",
+        "Jerry Edgar"
       ],
       "featured": false,
       "appearances": [
@@ -3151,12 +3155,59 @@
               "confidential_locations"
             ]
           }
+        },
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Bosch’s meetings with retired detective Servidone",
+          "filming_component": "Frolic Room bar interior",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_frolic"
+          ],
+          "story_time": {
+            "year": 2018,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Editorial estimate from the nearly one-year gap between Seasons 5 and 6 and the New Year’s Eve 2019 start of Season 7 after Season 6.",
+            "source_ids": [
+              "bosch_haunts_prime5",
+              "bosch_haunts_prime6",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ],
+            "end_year": 2019
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets Anthony Servidone for a drink"
+            },
+            {
+              "name": "Anthony Servidone",
+              "relationship": "meets Bosch at the bar"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "meets Lochner at the bar"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
       "productionCoordinates": [
-        -118.325867434412,
-        34.101684061596
+        -118.3257753,
+        34.1018639
       ],
       "placement": {
         "kind": "filming-proxy",
@@ -3185,7 +3236,64 @@
           "height": 900,
           "dateStatus": "Capture date not supplied by source."
         }
-      }
+      },
+      "placementByTitle": {
+        "L.A. Confidential": {
+          "kind": "filming-proxy",
+          "address": "Hollywood, Los Angeles",
+          "precision": "street-interpolated"
+        },
+        "Bosch": {
+          "kind": "screen",
+          "address": "6245 Hollywood Boulevard, Los Angeles, CA 90028",
+          "precision": "named-building",
+          "sourceIds": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_frolic"
+          ],
+          "reason": "The Hollywood Boulevard bar hosts meetings with Anthony Servidone in Seasons 5 and 6. Connelly confirms Season 5 filming at the bar."
+        }
+      },
+      "mediaByTitle": {
+        "L.A. Confidential": {
+          "id": 28,
+          "screen": {
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+            "credit": "L.A. Confidential film frame; ItsFilmedThere",
+            "alt": "The Frolic Room neon in L.A. Confidential.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUl3BmaDP2fd1R2tEqI21W_IICL8NSfR-P234zUI2M9lWdorgubOHYduFfY6tMdTksqbp_kqomzwATj3GnWt69no0S57c9yxVeRiKWqKnWa5sVhzS7fIaeDFm7lE64bNwNMEmnMbY5dlZO/s1600/Frolic.JPG",
+            "src": "photos/a-028-screen.jpg",
+            "width": 838,
+            "height": 356,
+            "title": "L.A. Confidential"
+          },
+          "place": {
+            "sourceUrl": "https://www.itsfilmedthere.com/2010/02/la-confidential.html",
+            "credit": "ItsFilmedThere",
+            "alt": "The Frolic Room neon on Hollywood Boulevard.",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4-2BUKdka0lyYemxwt7jHemhU_FaMsmEIuK1l6SqB_v1XINSolJfYYyGxCqFCDgURtGkxaIM0fk2q7zv_CDVbTTVcYVQFQRzgeHrocUYVg8lNorrCUJxkqNmrl4e_gqjZAJygcEUAfAyesxnS9l28aMX8bxrkfRGGWS1eS0QotyXJBW1NmtXfoy4rD4/s1078/D.jpg",
+            "src": "photos/a-028-place.jpg",
+            "width": 991,
+            "height": 900,
+            "dateStatus": "Capture date not supplied by source."
+          }
+        },
+        "Bosch": {
+          "place": {
+            "src": "photos/bosch-haunt-frolic-place.jpg",
+            "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+            "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/frolic-room/c_fit-w_1920-h_1440-crm-la-frolic-room-83e74ad75056a36_83e74c64-5056-a36f-2305aeaf68a42421.jpg",
+            "credit": "Discover Los Angeles",
+            "alt": "The Frolic Room cocktail neon and entrance on Hollywood Boulevard.",
+            "width": 1400,
+            "height": 934,
+            "note": "Capture date not supplied by source."
+          }
+        }
+      },
+      "mapsQuery": "6245 Hollywood Boulevard, Los Angeles, CA 90028"
     },
     {
       "id": 29,
@@ -16882,17 +16990,20 @@
       "address": "1358 North Wilcox Avenue",
       "area": "Hollywood",
       "coordinates": [
-        -118.330921379328,
-        34.095865559115
+        -118.33065886,
+        34.09581017
       ],
       "productionCoordinates": [
-        -118.330921379328,
-        34.095865559115
+        -118.33065886,
+        34.09581017
       ],
-      "precision": "street-interpolated",
+      "precision": "named-building",
       "people": [
         "Lou Bloom",
-        "Detective Fronteiri"
+        "Detective Fronteiri",
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Grace Billets"
       ],
       "featured": false,
       "appearances": [
@@ -16930,17 +17041,63 @@
           "categories": [
             "work"
           ]
+        },
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "Hollywood Homicide’s station house",
+          "filming_component": "Actual Hollywood Station exterior and pilot interiors. Later station interiors were recreated at Red Studios.",
+          "source_ids": [
+            "bw_station_clip",
+            "bw_station_set",
+            "bw_guide",
+            "bw_station_late"
+          ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate from the original pilot and recurring station storyline. Season 7 opens on New Year’s Eve 2019 and continues into 2020.",
+            "source_ids": [
+              "bw_station_clip",
+              "bw_production",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "works homicide cases here"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "investigates cases with Bosch"
+            },
+            {
+              "name": "Grace Billets",
+              "relationship": "supervises the Hollywood detectives"
+            }
+          ],
+          "categories": [
+            "work"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
       "placement": {
         "kind": "filming-proxy",
         "address": "Hollywood",
-        "precision": "street-interpolated",
+        "precision": "named-building",
         "sourceIds": [
           "x_night_hub",
           "x_night_fo",
-          "x_night_afi"
+          "x_night_afi",
+          "bw_station_geo"
         ]
       },
       "media": {
@@ -16961,13 +17118,79 @@
       },
       "geocode": {
         "coordinates": [
-          -118.330921379328,
-          34.095865559115
+          -118.33065886,
+          34.09581017
         ],
-        "matchedAddress": "1358 WILCOX AVE, HOLLYWOOD, CA, 90028",
-        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1358+North+Wilcox+Avenue%2C+Hollywood%2C+CA&benchmark=Public_AR_Current&format=json",
-        "method": "US Census street interpolation"
-      }
+        "matchedAddress": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+        "sourceUrl": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27461565857420%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+        "method": "Los Angeles County LARIAC building footprint centroid"
+      },
+      "placementByTitle": {
+        "Nightcrawler": {
+          "kind": "filming-proxy",
+          "address": "Hollywood",
+          "precision": "named-building",
+          "sourceIds": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi",
+            "bw_station_geo"
+          ]
+        },
+        "Bosch": {
+          "kind": "screen",
+          "address": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+          "precision": "named-building",
+          "sourceIds": [
+            "bw_station_lapd",
+            "bw_station_clip",
+            "bw_station_set",
+            "bw_station_geo"
+          ],
+          "reason": "Hollywood Station plays itself. The production used the real station in the pilot and recreated the detectives’ offices for later filming."
+        }
+      },
+      "mediaByTitle": {
+        "Nightcrawler": {
+          "screen": {
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424816907030-VD73FPGTAVZNXF5OMB8D/lapd-1.png",
+            "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+            "credit": "Nightcrawler film frame / LocationsHub",
+            "title": "Nightcrawler",
+            "src": "photos/n164-screen.jpg"
+          },
+          "place": {
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+            "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+            "credit": "LocationsHub / SCV Bail Bonds",
+            "note": "Capture date not specified by source.",
+            "src": "photos/n164-place.jpg"
+          }
+        },
+        "Bosch": {
+          "screen": {
+            "src": "photos/bosch-work-station-screen.jpg",
+            "sourceUrl": "https://www.youtube.com/watch?v=ZEOKo-NcCvs&t=5s",
+            "credit": "Bosch pilot frame · Amazon Studios / Bosch TV",
+            "alt": "Harry Bosch reads the duty board inside the real Hollywood Station in the pilot.",
+            "width": 1280,
+            "height": 720,
+            "title": "Bosch",
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/n164-place.jpg",
+            "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+            "credit": "LocationsHub / SCV Bail Bonds",
+            "alt": "Hollywood Station’s brick entrance and 1358 street number.",
+            "width": 1067,
+            "height": 800,
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+            "note": "Site photograph; capture date is not supplied by the source."
+          }
+        }
+      },
+      "mapsQuery": "LAPD Hollywood Community Police Station, 1358 North Wilcox Avenue, Los Angeles, CA 90028"
     },
     {
       "id": 165,
@@ -18181,14 +18404,14 @@
       "address": "6667 Hollywood Boulevard",
       "area": "Hollywood",
       "coordinates": [
-        -118.335335690418,
-        34.101623408292
+        -118.3354084,
+        34.1018304
       ],
       "productionCoordinates": [
-        -118.335335690418,
-        34.101623408292
+        -118.3354084,
+        34.1018304
       ],
-      "precision": "street-interpolated",
+      "precision": "named-building",
       "placement": {
         "kind": "screen",
         "address": "Musso & Frank Grill · Hollywood",
@@ -18202,7 +18425,11 @@
       "people": [
         "Rick Dalton",
         "Cliff Booth",
-        "Marvin Schwarzs"
+        "Marvin Schwarzs",
+        "Harry Bosch",
+        "Julia Brasher",
+        "Det. Johnson (Barrel)",
+        "Maddie Bosch"
       ],
       "featured": false,
       "appearances": [
@@ -18242,6 +18469,58 @@
           "categories": [
             "hangout"
           ]
+        },
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry’s recurring Hollywood grill",
+          "filming_component": "Musso & Frank dining room and bar",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_ktla",
+            "bosch_haunts_eater",
+            "bosch_haunts_musso"
+          ],
+          "story_time": {
+            "year": 2014,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Contemporary appearances span the 2014 pilot through the finale of Season 7, which opens on New Year’s Eve 2019. The featured “Birdland” still depicts a separate childhood flashback.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_connelly",
+              "bosch_prime_s7"
+            ],
+            "end_year": 2020
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets colleagues and family at the grill"
+            },
+            {
+              "name": "Julia Brasher",
+              "relationship": "shares martinis with Harry"
+            },
+            {
+              "name": "Det. Johnson (Barrel)",
+              "relationship": "has dinner with Ryan Rodgers"
+            },
+            {
+              "name": "Maddie Bosch",
+              "relationship": "meets Harry at the bar"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
@@ -18259,7 +18538,74 @@
           "credit": "Film Oblivion",
           "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
         }
-      }
+      },
+      "placementByTitle": {
+        "Once Upon a Time in Hollywood": {
+          "kind": "screen",
+          "address": "Musso & Frank Grill · Hollywood",
+          "precision": "street-interpolated",
+          "sourceIds": [
+            "lives_once_ift",
+            "lives_once_fo",
+            "lives_census"
+          ]
+        },
+        "Bosch": {
+          "kind": "screen",
+          "address": "6667 Hollywood Boulevard, Los Angeles, CA 90028",
+          "precision": "named-building",
+          "sourceIds": [
+            "bosch_haunts_guide",
+            "bosch_haunts_connelly",
+            "bosch_haunts_90210",
+            "bosch_haunts_ktla",
+            "bosch_haunts_eater",
+            "bosch_haunts_musso"
+          ],
+          "reason": "The series returns to the real grill, including a Thanksgiving flashback, the Season 6 dinner and the series finale."
+        }
+      },
+      "mediaByTitle": {
+        "Once Upon a Time in Hollywood": {
+          "screen": {
+            "src": "photos/n177-screen.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2024/03/once-upon-time-in-hollywood.html",
+            "credit": "Once Upon a Time in Hollywood film frame / Chas Demster / It’s Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW43g7FWaCOrcscHulzaLggOL4Z_zo4vPeWz47Li-vCJBDUokBkO1zAT_nASSiTqHel54jOQcRJkQaAXavTwbdcTPGjUOEXiEEVWAyZWNFyi4V0wGncnXdgi-AhmNwo97ukdHyXeqWHTHmvhsdo5Dkkvh5pxP9DrEwB6lhiMZjxI-EcxOw97vKK_LDPsA/w400-h164/Screenshot%202024-03-19%20125650.png",
+            "title": "Once Upon a Time in Hollywood"
+          },
+          "place": {
+            "src": "photos/n177-place.jpg",
+            "sourceUrl": "https://filmoblivion.com/2019/07/26/once-upon-a-time-in-hollywood-2019/",
+            "credit": "Film Oblivion",
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2019/07/onceuponatimeinhollywood1.jpg"
+          }
+        },
+        "Bosch": {
+          "screen": {
+            "src": "photos/bosch-haunt-musso-screen.jpg",
+            "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+            "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647151/BOSCH_306_30596.1.FNL.lg.jpg?w=1040",
+            "credit": "Bosch Season 3 production still · Amazon Studios via Eater LA",
+            "alt": "Young Harry Bosch sits at the Musso & Frank counter during the Thanksgiving flashback in “Birdland.”",
+            "width": 1040,
+            "height": 720,
+            "title": "Bosch",
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/bosch-haunt-musso-place.jpg",
+            "sourceUrl": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+            "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/musso-frank-grill/c_fit-w_1920-h_1440-crm-la-musso-frank-grill-82ee28c95056a36_82ee2a15-5056-a36f-239d9e5730bd990d.jpg",
+            "credit": "Discover Los Angeles",
+            "alt": "The wood counter and stools inside Musso & Frank Grill.",
+            "width": 1400,
+            "height": 933,
+            "note": "Capture date not supplied by source."
+          }
+        }
+      },
+      "mapsQuery": "6667 Hollywood Boulevard, Los Angeles, CA 90028"
     },
     {
       "id": 178,
@@ -37427,29 +37773,31 @@
       "short": "Angels Flight",
       "category": "hangout",
       "categories": [
-        "hangout"
+        "hangout",
+        "event",
+        "death"
       ],
       "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
       "area": "Bunker Hill",
       "coordinates": [
-        -118.251599985292,
-        34.052149981285
+        -118.250596,
+        34.0516089
       ],
       "productionCoordinates": [
-        -118.251599985292,
-        34.052149981285
+        -118.250596,
+        34.0516089
       ],
       "productionSites": [
         {
-          "component": "Railway",
-          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles, CA",
+          "component": "Angels Flight upper station",
+          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
           "coordinates": [
-            -118.251599985292,
-            34.052149981285
+            -118.250596,
+            34.0516089
           ]
         }
       ],
-      "precision": "building-exterior",
+      "precision": "mapped-station",
       "placement": {
         "kind": "screen",
         "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
@@ -37464,7 +37812,9 @@
       },
       "people": [
         "Mia Dolan",
-        "Sebastian Wilder"
+        "Sebastian Wilder",
+        "Harry Bosch",
+        "Jimmy Robertson"
       ],
       "featured": false,
       "appearances": [
@@ -37502,6 +37852,51 @@
           "categories": [
             "hangout"
           ]
+        },
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry’s Angels Flight investigation",
+          "filming_component": "Angels Flight railway and cars",
+          "source_ids": [
+            "bosch_angels_official",
+            "bosch_angels_video",
+            "bosch_angels_author",
+            "bosch_angels_guide"
+          ],
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Editorial story-year estimate from the season-relative chronology, anchored by Season 7 opening on New Year’s Eve 2019; not the 2018 release year.",
+            "source_ids": [
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "episodes": [
+            "S4E1 “Ask the Dust” and the Season 4 investigation"
+          ],
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "leads the railway investigation"
+            },
+            {
+              "name": "Jimmy Robertson",
+              "relationship": "works on the task force"
+            }
+          ],
+          "categories": [
+            "event",
+            "death"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
@@ -37527,7 +37922,110 @@
           "width": 1200,
           "height": 900
         }
-      }
+      },
+      "placementByTitle": {
+        "La La Land": {
+          "kind": "screen",
+          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+          "precision": "building-exterior",
+          "reason": "The recognizable Angels Flight railway appears in Mia and Sebastian’s summer montage. The marker identifies its upper station, not an invented journey beyond the railway.",
+          "sourceIds": [
+            "n2_ll_fo",
+            "n2_ll_script",
+            "n2_geo_esri",
+            "n2_geo_479"
+          ]
+        },
+        "Bosch": {
+          "kind": "screen",
+          "address": "Angels Flight Railway, 350 South Grand Avenue, Los Angeles",
+          "precision": "mapped-station",
+          "reason": "The named Angels Flight railway itself is the Season 4 investigation site. The pin marks its upper ticket office on the current railway, not the pre-1969 alignment or an address interpolation on Grand Avenue.",
+          "sourceIds": [
+            "bosch_angels_official",
+            "bosch_angels_video",
+            "bosch_angels_author",
+            "bosch_angels_guide",
+            "bosch_angels_osm"
+          ]
+        }
+      },
+      "mediaByTitle": {
+        "La La Land": {
+          "screen": {
+            "imageUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/images/La-La-Land-361.jpg",
+            "sourceUrl": "https://screenmusings.org/movie/blu-ray/La-La-Land/pages/La-La-Land-361.htm",
+            "credit": "La La Land film frame; Screenmusings",
+            "alt": "La La Land scene",
+            "src": "photos/n479-screen.jpg",
+            "title": "La La Land",
+            "width": 1600,
+            "height": 623
+          },
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+            "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+            "credit": "Film Oblivion",
+            "alt": "Real filming site",
+            "note": "Source photograph; capture date is not supplied.",
+            "src": "photos/n479-place.jpg",
+            "caption": "Site · source photo",
+            "width": 1200,
+            "height": 900
+          }
+        },
+        "Bosch": {
+          "screen": {
+            "src": "photos/bosch-angels-flight-screen.jpg",
+            "sourceUrl": "https://www.youtube.com/watch?v=TTVOwzhOxIw&t=5s",
+            "credit": "Bosch Season 4 frame · Amazon Studios / Bosch TV official promo, 00:05",
+            "title": "Bosch",
+            "alt": "The illuminated Angels Flight railway car and upper station at night in Bosch.",
+            "caption": "Season 4 · Angels Flight",
+            "width": 360,
+            "height": 360,
+            "spoiler": false
+          },
+          "place": {
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/12/lalaland111.jpg",
+            "sourceUrl": "https://filmoblivion.com/2017/12/03/la-la-land-2016/",
+            "credit": "Film Oblivion",
+            "alt": "Real filming site",
+            "note": "Source photograph; capture date is not supplied.",
+            "src": "photos/n479-place.jpg",
+            "caption": "Site · source photo",
+            "width": 1200,
+            "height": 900
+          }
+        }
+      },
+      "deaths": [
+        {
+          "title": "Bosch",
+          "people": [
+            "Howard Elias"
+          ],
+          "label": "Howard Elias’s death",
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Editorial story-year estimate from the season-relative chronology, anchored by Season 7 opening on New Year’s Eve 2019; not the 2018 release year.",
+            "source_ids": [
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "story_role": "Howard Elias is shot aboard an Angels Flight car.",
+          "filming_component": "Angels Flight railway car",
+          "source_ids": [
+            "bosch_angels_guide",
+            "bosch_angels_video"
+          ]
+        }
+      ],
+      "mapsQuery": "Angels Flight Railway, 351 South Hill Street, Los Angeles, CA 90013"
     },
     {
       "id": 480,
@@ -48743,6 +49241,700 @@
           "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
         }
       }
+    },
+    {
+      "id": 802,
+      "name": "Boardner’s",
+      "short": "Boardner’s",
+      "category": "hangout",
+      "categories": [
+        "hangout"
+      ],
+      "address": "1652 North Cherokee Avenue, Los Angeles, CA 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.3347367,
+        34.1012773
+      ],
+      "productionCoordinates": [
+        -118.3347367,
+        34.1012773
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1652 North Cherokee Avenue, Los Angeles, CA 90028",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_90210",
+          "bosch_haunts_eater",
+          "bosch_haunts_boardners"
+        ],
+        "reason": "The Hollywood Homicide hangout appears in Seasons 1, 4 and 6 at the real Cherokee Avenue bar."
+      },
+      "people": [
+        "Det. Johnson (Barrel)",
+        "Sgt. John Mankiewicz (Mank)"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Hollywood Homicide’s after-hours bar",
+          "filming_component": "Boardner’s bar interior and Cherokee Avenue frontage",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_90210",
+            "bosch_haunts_eater",
+            "bosch_haunts_boardners"
+          ],
+          "story_time": {
+            "year": 2015,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Season 1 supplies the early bound using the full-season release year. Season 6 predates the Season 7 New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_eater",
+              "bosch_haunts_prime6",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ],
+            "end_year": 2019
+          },
+          "characters": [
+            {
+              "name": "Det. Johnson (Barrel)",
+              "relationship": "drinks with fellow detectives"
+            },
+            {
+              "name": "Sgt. John Mankiewicz (Mank)",
+              "relationship": "raises a toast at a department gathering"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-boardners-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/16176598/Screen_Shot_2019_04_18_at_7.02.57_PM.png?w=1040",
+          "credit": "Bosch frame · Amazon Prime via Eater LA",
+          "alt": "Hollywood officers sit around the bar at Boardner’s in Bosch.",
+          "width": 1040,
+          "height": 682,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-boardners-place.jpg",
+          "sourceUrl": "https://www.lanightlife.com/venue/boardners",
+          "imageUrl": "https://d8pwhbxsl2cp4.cloudfront.net/venues/334/boardners_4_800x600.jpg",
+          "credit": "LA Nightlife",
+          "alt": "Boardner’s vertical neon and arched Cherokee Avenue facade.",
+          "width": 800,
+          "height": 600,
+          "note": "Capture date not supplied by source."
+        }
+      }
+    },
+    {
+      "id": 803,
+      "name": "Du-par’s at the Original Farmers Market",
+      "short": "Du-par’s · Farmers Market",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "death"
+      ],
+      "address": "6333 West 3rd Street, Los Angeles, CA 90036",
+      "area": "Fairfax District",
+      "coordinates": [
+        -118.3609994,
+        34.0719089
+      ],
+      "productionCoordinates": [
+        -118.3609994,
+        34.0719089
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "6333 West 3rd Street, Los Angeles, CA 90036",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_eater",
+          "bosch_haunts_ktla",
+          "bosch_haunts_dupars",
+          "bosch_haunts_dupars_pin"
+        ],
+        "reason": "The series depicts the diner and patio at the Original Farmers Market on Fairfax. The marker identifies the restaurant at the west end of the market."
+      },
+      "people": [
+        "Harry Bosch",
+        "Maddie Bosch"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Harry and Maddie’s pancake stop",
+          "filming_component": "Du-par’s restaurant and patio at the Original Farmers Market",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_eater",
+            "bosch_haunts_ktla",
+            "bosch_haunts_dupars",
+            "bosch_haunts_dupars_pin"
+          ],
+          "story_time": {
+            "year": 2015,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "The Season 1 finale aired in 2015. The season-long sequence that includes the Season 7 return begins on New Year’s Eve 2019 and continues into 2020.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_eater",
+              "bosch_prime_s7"
+            ],
+            "end_year": 2020
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "shares breakfast with Maddie"
+            },
+            {
+              "name": "Maddie Bosch",
+              "relationship": "returns to the patio"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "death"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-dupars-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647161/BOSCH_404_17267.jpg?w=1040",
+          "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+          "alt": "Harry Bosch talks over coffee at a patio table at Du-par’s in “Past Lives.”",
+          "width": 1040,
+          "height": 693,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-dupars-place.jpg",
+          "sourceUrl": "https://www.daytrippen.com/los-angeles-farmers-market-day-trip/",
+          "imageUrl": "https://www.daytrippen.com/wp-content/uploads/2022/07/du-pars-restaurant-los-angeles.jpg",
+          "credit": "Daytrippen",
+          "alt": "The Du-par’s sign and shaded outdoor patio at the Original Farmers Market.",
+          "width": 770,
+          "height": 513,
+          "note": "Capture date not supplied by source."
+        }
+      },
+      "deaths": [
+        {
+          "title": "Bosch",
+          "people": [
+            "Eleanor Wish"
+          ],
+          "label": "Eleanor Wish’s death",
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Approximate story year inferred from Season 5’s 15-month jump, the nearly one-year jump to Season 6 and Season 7’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_haunts_prime4",
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "story_role": "Eleanor Wish is fatally shot in the Original Farmers Market parking lot after meeting Harry Bosch at Du-par’s.",
+          "filming_component": "Original Farmers Market parking lot outside Du-par’s",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_prime4",
+            "bosch_haunts_transcript4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "name": "Golden Soup Restaurant",
+      "short": "Golden Soup Restaurant",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "1039 East Valley Boulevard, Suite B201, San Gabriel, CA 91776",
+      "area": "San Gabriel",
+      "coordinates": [
+        -118.084838867,
+        34.081214904
+      ],
+      "productionCoordinates": [
+        -118.084838867,
+        34.081214904
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "San Gabriel, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1039 East Valley Boulevard, Suite B201, San Gabriel, CA 91776",
+        "precision": "named-building",
+        "sourceIds": [
+          "bosch_haunts_guide",
+          "bosch_haunts_eater",
+          "bosch_haunts_golden",
+          "bosch_haunts_prime4"
+        ],
+        "reason": "The show uses the second-floor dining room and kitchen at Gold World Plaza for the poker game and later interviews."
+      },
+      "people": [
+        "Eleanor Wish",
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Ting"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "medium": "television",
+          "story_role": "Poker game and follow-up investigation",
+          "filming_component": "Golden Soup dining room and kitchen in Gold World Plaza",
+          "source_ids": [
+            "bosch_haunts_guide",
+            "bosch_haunts_eater",
+            "bosch_haunts_golden",
+            "bosch_haunts_prime4"
+          ],
+          "story_time": {
+            "year": 2017,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Approximate story year inferred from Season 5’s 15-month jump, the nearly one-year jump to Season 6 and Season 7’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bosch_haunts_guide",
+              "bosch_prime_s5",
+              "bosch_prime_s7",
+              "bosch_series_chronology"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Eleanor Wish",
+              "relationship": "plays in a high-stakes poker game"
+            },
+            {
+              "name": "Harry Bosch",
+              "relationship": "follows up on the game"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "investigates with Bosch"
+            },
+            {
+              "name": "Ting",
+              "relationship": "speaks with the detectives"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-haunt-golden-screen.jpg",
+          "sourceUrl": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+          "imageUrl": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/10647173/BOSCH_402_09145.jpg?w=1040",
+          "credit": "Bosch Season 4 production still · Amazon Studios via Eater LA",
+          "alt": "The high-stakes poker table inside Golden Soup in “Dreams of Bunker Hill.”",
+          "width": 1040,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-haunt-golden-place.jpg",
+          "sourceUrl": "https://www.discoverlosangeles.com/eat-drink/golden-soup-restaurant",
+          "imageUrl": "https://www.discoverlosangeles.com/sites/default/files/business/golden-soup-restaurant/c_fit-w_1920-h_1440-crm-la-golden-soup-restaurant_a2981f4b-5056-a36f-2342c3e1817adbb3-a2981dd55056a36_a29839b2-5056-a36f-2316d5dda42d54c8.jpg",
+          "credit": "Discover Los Angeles",
+          "alt": "Golden Soup’s dining room with the illuminated lattice screens visible in Bosch.",
+          "width": 1333,
+          "height": 1000,
+          "note": "Capture date not supplied by source."
+        }
+      }
+    },
+    {
+      "id": 811,
+      "name": "LAPD Police Administration Building",
+      "short": "LAPD Headquarters",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "100 West 1st Street, Los Angeles, CA 90012",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.24461638,
+        34.051979
+      ],
+      "productionCoordinates": [
+        -118.24461638,
+        34.051979
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "100 West 1st Street, Los Angeles, CA 90012",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_hq_lapd",
+          "bw_guide",
+          "bw_connelly_interview",
+          "bw_hq_geo"
+        ],
+        "reason": "The show uses the real headquarters facade to establish the office of the LAPD chief. The pin follows that building."
+      },
+      "people": [
+        "Irvin Irving",
+        "Harry Bosch",
+        "Jerry Edgar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "LAPD headquarters and Irvin Irving’s office",
+          "filming_component": "Police Administration Building exterior and establishing shots.",
+          "source_ids": [
+            "bw_connelly_interview",
+            "bw_guide",
+            "bw_hq_bunker_hill",
+            "bw_hq_hard_feelings",
+            "bw_hq_clip"
+          ],
+          "story_time": {
+            "year": 2015,
+            "end_year": 2019,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate from attested appearances in seasons 1, 4 and 6. Season 6 precedes the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_guide",
+              "bw_hq_bunker_hill",
+              "bw_hq_hard_feelings",
+              "bosch_series_chronology",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Irvin Irving",
+              "relationship": "runs the department from headquarters"
+            },
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets with Irving and other investigators"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "joins briefings with Bosch"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-hq-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=j2lAllH5NPU&t=80s",
+          "credit": "Bosch season 6 trailer frame · Prime Video",
+          "alt": "Irvin Irving meets with investigators while Harry Bosch and Jerry Edgar stand by the windows.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false,
+          "note": "A scene set at headquarters. Identified real-building filming is the exterior."
+        },
+        "place": {
+          "src": "photos/bosch-work-hq-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LAPD_Administration_Building.jpg",
+          "credit": "John Verive / Wikimedia Commons · CC BY-SA 2.0",
+          "alt": "The glass and stone facade of the LAPD Police Administration Building with City Hall reflected in the glass.",
+          "width": 1200,
+          "height": 961,
+          "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/LAPD_Administration_Building.jpg",
+          "note": "Photographed May 15, 2011. Resized."
+        }
+      }
+    },
+    {
+      "id": 812,
+      "name": "Los Angeles County Coroner",
+      "short": "County Coroner",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "1104 North Mission Road, Los Angeles, CA 90033",
+      "area": "Boyle Heights",
+      "coordinates": [
+        -118.21315229,
+        34.06010687
+      ],
+      "productionCoordinates": [
+        -118.21315229,
+        34.06010687
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1104 North Mission Road, Los Angeles, CA 90033",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_coroner_address",
+          "bw_coroner_service",
+          "bw_coroner_osm",
+          "bw_guide",
+          "bw_coroner_geo"
+        ],
+        "reason": "The series uses the real county coroner for forensic examination scenes. The pin marks the forensic service building."
+      },
+      "people": [
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Dr. William Golliher"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "The county coroner’s forensic center",
+          "filming_component": "Los Angeles County Department of Medical Examiner’s Forensic Science Center.",
+          "source_ids": [
+            "bw_guide",
+            "bw_coroner_clip",
+            "bw_coroner_connelly",
+            "bw_coroner_repeat"
+          ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2017,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate span from the original pilot to the fourth-season coroner storyline. The later year is inferred by working back from the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_guide",
+              "bw_coroner_connelly",
+              "bosch_series_chronology",
+              "bosch_prime_s5",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "consults the coroner on investigations"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "joins Bosch for forensic briefings"
+            },
+            {
+              "name": "Dr. William Golliher",
+              "relationship": "examines evidence for the detectives"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-coroner-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=53s",
+          "credit": "Bosch season 1 frame · Amazon Studios / Prime Video DE",
+          "alt": "Harry Bosch and Jerry Edgar consult forensic anthropologist William Golliher at the county coroner.",
+          "width": 850,
+          "height": 478,
+          "title": "Bosch",
+          "spoiler": false,
+          "note": "Cropped to the characters."
+        },
+        "place": {
+          "src": "photos/bosch-work-coroner-place.jpg",
+          "sourceUrl": "https://me.lacounty.gov/",
+          "credit": "County of Los Angeles Department of Medical Examiner",
+          "alt": "The concrete Forensic Science Center entrance with updated Medical Examiner lettering.",
+          "width": 1024,
+          "height": 610,
+          "imageUrl": "https://me.lacounty.gov/wp-content/uploads/2024/02/1104A-1024x610.jpg",
+          "note": "Site photograph; capture date is not supplied by the source."
+        }
+      }
+    },
+    {
+      "id": 813,
+      "name": "Clara Shortridge Foltz Criminal Justice Center",
+      "short": "Foltz courthouse",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "210 West Temple Street, Los Angeles, CA 90012",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.24344404,
+        34.05498351
+      ],
+      "productionCoordinates": [
+        -118.24344404,
+        34.05498351
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "210 West Temple Street, Los Angeles, CA 90012",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_court_address",
+          "bw_court_3",
+          "bw_court_5",
+          "bw_station_late",
+          "bw_court_geo"
+        ],
+        "reason": "The show uses this Civic Center exterior to establish criminal court storylines. The courthouse pin follows the Temple Street building."
+      },
+      "people": [
+        "Harry Bosch",
+        "Honey Chandler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "Downtown criminal courthouse",
+          "filming_component": "Recurring criminal courthouse establishing exterior.",
+          "source_ids": [
+            "bw_court_3",
+            "bw_court_5",
+            "bw_court_5_plot",
+            "bw_station_late",
+            "bw_court_clip"
+          ],
+          "story_time": {
+            "year": 2017,
+            "end_year": 2019,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate range from the confirmed establishing shots in seasons 3, 5 and 6. Season 6 precedes the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_court_3",
+              "bw_court_5",
+              "bw_station_late",
+              "bosch_series_chronology",
+              "bosch_prime_s5",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "follows cases into criminal court"
+            },
+            {
+              "name": "Honey Chandler",
+              "relationship": "represents clients in the court storylines"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-court-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=85s",
+          "credit": "Bosch Civic Center aerial · Amazon Studios / Prime Video DE",
+          "alt": "The grid-fronted Foltz courthouse at left, with Los Angeles City Hall in the foreground.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-work-court-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clarashortridgefoltzcriminaljusticecenter.JPG",
+          "credit": "Coolcaesar / Wikimedia Commons · CC BY-SA 4.0",
+          "alt": "The concrete grid facade of the Clara Shortridge Foltz Criminal Justice Center from Temple Street.",
+          "width": 1200,
+          "height": 1083,
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Clarashortridgefoltzcriminaljusticecenter.JPG",
+          "note": "Resized."
+        }
+      }
     }
   ],
   "journeys": [
@@ -53973,6 +55165,330 @@
       "title": "Production designer James Bissell on Neville Sinclair’s Ennis-inspired set",
       "url": "https://kingdomofdreamspodcast.com/episodes/301-production-designer-james-bissell-e-t-jumanji-300-rocketeer/",
       "source_type": "production designer interview"
+    },
+    {
+      "id": "bosch_angels_official",
+      "title": "Angels Flight Railway: Screen appearances and official street address",
+      "url": "https://www.angelsflight.org/in-the-movies/",
+      "source_type": "railway operator"
+    },
+    {
+      "id": "bosch_angels_video",
+      "title": "Bosch TV: Season 4 — Angels Flight",
+      "url": "https://www.youtube.com/watch?v=TTVOwzhOxIw",
+      "source_type": "official series promo"
+    },
+    {
+      "id": "bosch_angels_author",
+      "title": "Michael Connelly: Bosch Season 4 production journal",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "author and executive producer"
+    },
+    {
+      "id": "bosch_angels_guide",
+      "title": "Discover Los Angeles: Bosch at Angels Flight",
+      "url": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+      "source_type": "tourism authority location guide"
+    },
+    {
+      "id": "bosch_angels_osm",
+      "title": "OpenStreetMap: Angels Flight upper ticket office",
+      "url": "https://www.openstreetmap.org/node/10744639082",
+      "source_type": "mapped railway station"
+    },
+    {
+      "id": "bosch_prime_s5",
+      "title": "Prime Video: Bosch Season 5 story synopsis",
+      "url": "https://www.primevideo.com/detail/0PIRCVC9QD4WBBOMQIJQDAD3BP?tr=sz",
+      "source_type": "official series synopsis"
+    },
+    {
+      "id": "bosch_prime_s7",
+      "title": "Prime Video: Bosch Season 7 story synopsis",
+      "url": "https://www.primevideo.com/detail/0RKKFE0USMHNZ3I6NK7O4BDZPM?tr=mf",
+      "source_type": "official series synopsis"
+    },
+    {
+      "id": "bosch_series_chronology",
+      "title": "Bosch television series: Relative seasonal chronology",
+      "url": "https://en.wikipedia.org/wiki/Bosch_(TV_series)#Plot",
+      "source_type": "secondary chronology reference"
+    },
+    {
+      "id": "bosch_house_stalker",
+      "title": "IAMNOTASTALKER: Harry Bosch’s house and its production history",
+      "url": "https://www.iamnotastalker.com/2019/01/04/harry-boschs-house-from-bosch/",
+      "source_type": "photographic location comparison"
+    },
+    {
+      "id": "bosch_haunts_guide",
+      "title": "Discover Los Angeles: The Ultimate Guide to Bosch Locations in LA",
+      "url": "https://www.discoverlosangeles.com/visit/bosch-los-angeles-filming-locations",
+      "source_type": "official destination guide with episode references"
+    },
+    {
+      "id": "bosch_haunts_eater",
+      "title": "Eater LA: Bars and Restaurants Featured in Bosch",
+      "url": "https://la.eater.com/maps/bosch-amazon-prime-show-restaurants-bars-film-locations",
+      "source_type": "location reporting with Amazon production stills"
+    },
+    {
+      "id": "bosch_haunts_connelly",
+      "title": "Michael Connelly: Bosch production journals",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "primary production journal"
+    },
+    {
+      "id": "bosch_haunts_ktla",
+      "title": "KTLA: Titus Welliver and Patrick Cady tour Bosch locations",
+      "url": "https://ktla.com/entertainment/ultimate-bosch-la-filming-locations-according-to-titus-welliver/",
+      "source_type": "cast and crew interview"
+    },
+    {
+      "id": "bosch_haunts_90210",
+      "title": "90210Locations: Bosch episode locations and named address pins",
+      "url": "https://filming.90210locations.info/tv-locations/bosch",
+      "source_type": "filming location guide with mapped address points"
+    },
+    {
+      "id": "bosch_haunts_boardners",
+      "title": "Boardner’s: Official address and building pin",
+      "url": "https://boardners.com/",
+      "source_type": "venue operator with linked address pin"
+    },
+    {
+      "id": "bosch_haunts_dupars",
+      "title": "The Original Farmers Market: Du-par’s Restaurant",
+      "url": "https://farmersmarketla.com/merchants/du-pars-restaurant",
+      "source_type": "market operator"
+    },
+    {
+      "id": "bosch_haunts_dupars_pin",
+      "title": "Du-par’s Restaurant and Bakery: Named business pin",
+      "url": "https://yyahu.com/en/los-angeles/du-pars-restaurant-and-bakery",
+      "source_type": "named business coordinates"
+    },
+    {
+      "id": "bosch_haunts_musso",
+      "title": "Musso & Frank Grill: Official address and location map",
+      "url": "https://mussoandfrank.com/contact/",
+      "source_type": "venue operator with linked address pin"
+    },
+    {
+      "id": "bosch_haunts_frolic",
+      "title": "Frolic Room: Official address",
+      "url": "https://frolicroomla.com/",
+      "source_type": "venue operator"
+    },
+    {
+      "id": "bosch_haunts_golden",
+      "title": "Waze: Gabriel Golden Soup Restaurant named venue pin",
+      "url": "https://www.waze.com/live-map/directions/gabriel-golden-soup-restaurant-e-valley-blvd-1039-san-gabriel?to=place.w.158531925.1585450320.1785180",
+      "source_type": "mapped venue"
+    },
+    {
+      "id": "bosch_haunts_prime4",
+      "title": "Prime Video: Bosch Season 4",
+      "url": "https://www.primevideo.com/detail/0HX4CXWWO3E6NRVF81QOS54D6P?tr=us",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bosch_haunts_transcript4",
+      "title": "Bosch Season 4 Episode 4: Past Lives, closed captions",
+      "url": "https://www.subtitlecat.com/subs/18/Bosch%20-%2004x04%20-%20Past%20Lives.DEFLATE.English.HI.C.orig.Addic7ed.com.html",
+      "source_type": "episode dialogue transcription"
+    },
+    {
+      "id": "bosch_haunts_prime5",
+      "title": "Prime Video: Bosch Season 5",
+      "url": "https://www.primevideo.com/detail/0SAECKOR9UIXEFAIJ6YO070NE4?tr=za",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bosch_haunts_prime6",
+      "title": "Prime Video: Bosch Season 6",
+      "url": "https://www.primevideo.com/detail/0HYZJWW6XQYD3FD7W20LZG6W9D?tr=gb",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bw_guide",
+      "title": "Bosch episode-by-episode filming locations",
+      "url": "https://filming.90210locations.info/tv-locations/bosch",
+      "source_type": "scene-matched location guide"
+    },
+    {
+      "id": "bw_connelly_interview",
+      "title": "Michael Connelly on filming in working LAPD facilities",
+      "url": "https://www.crimetime.co.uk/an-interview-with-michael-connelly/",
+      "source_type": "producer interview"
+    },
+    {
+      "id": "bw_production",
+      "title": "Michael Connelly’s Bosch production journal",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "production journal"
+    },
+    {
+      "id": "bw_station_clip",
+      "title": "Bosch pilot footage and a tour of the real Hollywood Station",
+      "url": "https://www.youtube.com/watch?v=ZEOKo-NcCvs&t=5s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_station_lapd",
+      "title": "LAPD Hollywood Community Police Station",
+      "url": "https://www.lapdonline.org/lapd-contact/west-bureau/hollywood-community-police-station/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_station_set",
+      "title": "Los Angeles Times reporting on the Hollywood Station replica at Red Studios",
+      "url": "https://www.latimes.com/entertainment/envelope/cotown/la-et-ct-onlocation-amazon-hollywood-20140917-story.html",
+      "source_type": "on-set production reporting"
+    },
+    {
+      "id": "bw_station_late",
+      "title": "Bosch · Some Measure of Justice filming locations",
+      "url": "https://www.imdb.com/title/tt11493026/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_station_photo",
+      "title": "Hollywood Station exterior sign and street number",
+      "url": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "source_type": "credited street photograph"
+    },
+    {
+      "id": "bw_station_geo",
+      "title": "Los Angeles County LARIAC footprint · Hollywood police station",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27461565857420%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_hq_clip",
+      "title": "Bosch Season 6 official trailer · Irving meets with investigators",
+      "url": "https://www.youtube.com/watch?v=j2lAllH5NPU&t=80s",
+      "source_type": "official season trailer"
+    },
+    {
+      "id": "bw_hq_lapd",
+      "title": "LAPD headquarters address and Police Administration Building opening",
+      "url": "https://www.lapdonline.org/newsroom/lapd-celebrates-its-140th-year-anniversary-and-the-grand-opening-of-the-new-police-administration-building-na09276sf/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_hq_hard_feelings",
+      "title": "Bosch · Hard Feelings headquarters establishing shots",
+      "url": "https://www.imdb.com/title/tt11493020/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_hq_bunker_hill",
+      "title": "Bosch · Dreams of Bunker Hill headquarters filming location",
+      "url": "https://www.imdb.com/title/tt6219032/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_hq_photo",
+      "title": "John Verive’s exterior photograph of LAPD headquarters",
+      "url": "https://commons.wikimedia.org/wiki/File:LAPD_Administration_Building.jpg",
+      "source_type": "credited building photograph"
+    },
+    {
+      "id": "bw_hq_geo",
+      "title": "Los Angeles County LARIAC footprint · LAPD Police Administration Building",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27202300055249%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_coroner_clip",
+      "title": "Prime Video’s Bosch Season 1 behind-the-scenes feature with scene at the coroner",
+      "url": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=53s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_coroner_address",
+      "title": "County of Los Angeles Medical Examiner · Forensic Science Center address",
+      "url": "https://me.lacounty.gov/for-law-enforcement-and-legal/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_coroner_service",
+      "title": "Los Angeles County · Medical Examiner Service Building at 1104A North Mission Road",
+      "url": "https://file.lacounty.gov/SDSInter/bos/supdocs/213004.pdf",
+      "source_type": "official county facility report"
+    },
+    {
+      "id": "bw_coroner_osm",
+      "title": "Named Medical Examiner building outline with county building ID",
+      "url": "https://www.openstreetmap.org/way/428955309",
+      "source_type": "named building map"
+    },
+    {
+      "id": "bw_coroner_connelly",
+      "title": "Michael Connelly on filming at the real morgue during the fourth season production",
+      "url": "https://thewest.com.au/entertainment/tv/crime-pays-for-bosch-creator-michael-connelly-ng-b88609984z",
+      "source_type": "producer interview"
+    },
+    {
+      "id": "bw_coroner_repeat",
+      "title": "Bosch location reporting on use of the real county coroner",
+      "url": "https://thecinemaholic.com/bosch-filming-location-guide/",
+      "source_type": "filming location reporting"
+    },
+    {
+      "id": "bw_coroner_photo",
+      "title": "County Medical Examiner facility entrance photograph",
+      "url": "https://me.lacounty.gov/",
+      "source_type": "operator photograph"
+    },
+    {
+      "id": "bw_coroner_geo",
+      "title": "Los Angeles County LARIAC footprint · Los Angeles County Coroner",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%272014092833920000%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_court_clip",
+      "title": "Bosch Season 1 production feature · Civic Center aerial with Foltz courthouse",
+      "url": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=85s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_court_address",
+      "title": "Clara Shortridge Foltz Criminal Justice Center · Superior Court of California, County of Los Angeles",
+      "url": "https://www.lacourt.ca.gov/Courthouse/info/CCB",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_court_3",
+      "title": "Bosch · The Four Last Things courthouse establishing shots",
+      "url": "https://www.imdb.com/title/tt5733742/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_court_5",
+      "title": "Bosch · Raise the Dead courthouse establishing shots",
+      "url": "https://www.imdb.com/title/tt9013860/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_court_5_plot",
+      "title": "Bosch season 5 · Prime Video episode synopses",
+      "url": "https://www.primevideo.com/detail/0PIRCVC9QD4WBBOMQIJQDAD3BP",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bw_court_photo",
+      "title": "Coolcaesar’s photograph of the courthouse on Temple Street",
+      "url": "https://commons.wikimedia.org/wiki/File:Clarashortridgefoltzcriminaljusticecenter.JPG",
+      "source_type": "credited building photograph"
+    },
+    {
+      "id": "bw_court_geo",
+      "title": "Los Angeles County LARIAC footprint · Clara Shortridge Foltz Criminal Justice Center",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27487950842504%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
     },
     {
       "id": "story_pins_mulholland_script",

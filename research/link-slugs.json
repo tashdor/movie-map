@@ -434,6 +434,13 @@
     "785": "second-street-tunnel-pursuit",
     "786": "the-bonaventure-collision",
     "787": "fourth-hope-helicopter-encounter",
+    "792": "jenny-blake-boarding-house",
+    "802": "boardners",
+    "803": "dupars-farmers-market",
+    "804": "golden-soup",
+    "811": "lapd-police-administration-building",
+    "812": "la-county-coroner",
+    "813": "foltz-courthouse",
     "-4": "trejos-home-incident",
     "-9": "waingros-hotel-incident",
     "-11": "jf-sebastian-home-incident",
@@ -507,7 +514,8 @@
     "-672": "incident-at-silver-lake-reservoir-los-angeles",
     "-691": "incident-at-2817-via-segovia-palos-verdes-estates",
     "-756": "lancaster-field-incident",
-    "792": "jenny-blake-boarding-house"
+    "-479": "angels-flight-incident",
+    "-803": "farmers-market-incident"
   },
   "journeys": {
     "97": "d-fens",

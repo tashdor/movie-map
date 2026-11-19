@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-18",
+  "places": [
+    {
+      "id": 810,
+      "name": "Hollywood police station",
+      "short": "Hollywood Station",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.33065886,
+        34.09581017
+      ],
+      "productionCoordinates": [
+        -118.33065886,
+        34.09581017
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_station_lapd",
+          "bw_station_clip",
+          "bw_station_set",
+          "bw_station_geo"
+        ],
+        "reason": "Hollywood Station plays itself. The production used the real station in the pilot and recreated the detectives’ offices for later filming."
+      },
+      "people": [
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Grace Billets"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "Hollywood Homicide’s station house",
+          "filming_component": "Actual Hollywood Station exterior and pilot interiors. Later station interiors were recreated at Red Studios.",
+          "source_ids": [
+            "bw_station_clip",
+            "bw_station_set",
+            "bw_guide",
+            "bw_station_late"
+          ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2020,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate from the original pilot and recurring station storyline. Season 7 opens on New Year’s Eve 2019 and continues into 2020.",
+            "source_ids": [
+              "bw_station_clip",
+              "bw_production",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "works homicide cases here"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "investigates cases with Bosch"
+            },
+            {
+              "name": "Grace Billets",
+              "relationship": "supervises the Hollywood detectives"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-station-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=ZEOKo-NcCvs&t=5s",
+          "credit": "Bosch pilot frame · Amazon Studios / Bosch TV",
+          "alt": "Harry Bosch reads the duty board inside the real Hollywood Station in the pilot.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/n164-place.jpg",
+          "sourceUrl": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+          "credit": "LocationsHub / SCV Bail Bonds",
+          "alt": "Hollywood Station’s brick entrance and 1358 street number.",
+          "width": 1067,
+          "height": 800,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/5266b2bde4b08e763cc132d2/1424893972159-ZNY48RT66S4WCPXZURQQ/tv-station-2.jpg",
+          "note": "Site photograph; capture date is not supplied by the source."
+        }
+      },
+      "mergeInto": 164
+    },
+    {
+      "id": 811,
+      "name": "LAPD Police Administration Building",
+      "short": "LAPD Headquarters",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "100 West 1st Street, Los Angeles, CA 90012",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.24461638,
+        34.051979
+      ],
+      "productionCoordinates": [
+        -118.24461638,
+        34.051979
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "100 West 1st Street, Los Angeles, CA 90012",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_hq_lapd",
+          "bw_guide",
+          "bw_connelly_interview",
+          "bw_hq_geo"
+        ],
+        "reason": "The show uses the real headquarters facade to establish the office of the LAPD chief. The pin follows that building."
+      },
+      "people": [
+        "Irvin Irving",
+        "Harry Bosch",
+        "Jerry Edgar"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "LAPD headquarters and Irvin Irving’s office",
+          "filming_component": "Police Administration Building exterior and establishing shots.",
+          "source_ids": [
+            "bw_connelly_interview",
+            "bw_guide",
+            "bw_hq_bunker_hill",
+            "bw_hq_hard_feelings",
+            "bw_hq_clip"
+          ],
+          "story_time": {
+            "year": 2015,
+            "end_year": 2019,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate from attested appearances in seasons 1, 4 and 6. Season 6 precedes the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_guide",
+              "bw_hq_bunker_hill",
+              "bw_hq_hard_feelings",
+              "bosch_series_chronology",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Irvin Irving",
+              "relationship": "runs the department from headquarters"
+            },
+            {
+              "name": "Harry Bosch",
+              "relationship": "meets with Irving and other investigators"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "joins briefings with Bosch"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-hq-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=j2lAllH5NPU&t=80s",
+          "credit": "Bosch season 6 trailer frame · Prime Video",
+          "alt": "Irvin Irving meets with investigators while Harry Bosch and Jerry Edgar stand by the windows.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false,
+          "note": "A scene set at headquarters. Identified real-building filming is the exterior."
+        },
+        "place": {
+          "src": "photos/bosch-work-hq-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LAPD_Administration_Building.jpg",
+          "credit": "John Verive / Wikimedia Commons · CC BY-SA 2.0",
+          "alt": "The glass and stone facade of the LAPD Police Administration Building with City Hall reflected in the glass.",
+          "width": 1200,
+          "height": 961,
+          "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/LAPD_Administration_Building.jpg",
+          "note": "Photographed May 15, 2011. Resized."
+        }
+      }
+    },
+    {
+      "id": 812,
+      "name": "Los Angeles County Coroner",
+      "short": "County Coroner",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "1104 North Mission Road, Los Angeles, CA 90033",
+      "area": "Boyle Heights",
+      "coordinates": [
+        -118.21315229,
+        34.06010687
+      ],
+      "productionCoordinates": [
+        -118.21315229,
+        34.06010687
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "1104 North Mission Road, Los Angeles, CA 90033",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_coroner_address",
+          "bw_coroner_service",
+          "bw_coroner_osm",
+          "bw_guide",
+          "bw_coroner_geo"
+        ],
+        "reason": "The series uses the real county coroner for forensic examination scenes. The pin marks the forensic service building."
+      },
+      "people": [
+        "Harry Bosch",
+        "Jerry Edgar",
+        "Dr. William Golliher"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "The county coroner’s forensic center",
+          "filming_component": "Los Angeles County Department of Medical Examiner’s Forensic Science Center.",
+          "source_ids": [
+            "bw_guide",
+            "bw_coroner_clip",
+            "bw_coroner_connelly",
+            "bw_coroner_repeat"
+          ],
+          "story_time": {
+            "year": 2014,
+            "end_year": 2017,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate span from the original pilot to the fourth-season coroner storyline. The later year is inferred by working back from the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_guide",
+              "bw_coroner_connelly",
+              "bosch_series_chronology",
+              "bosch_prime_s5",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "consults the coroner on investigations"
+            },
+            {
+              "name": "Jerry Edgar",
+              "relationship": "joins Bosch for forensic briefings"
+            },
+            {
+              "name": "Dr. William Golliher",
+              "relationship": "examines evidence for the detectives"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-coroner-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=53s",
+          "credit": "Bosch season 1 frame · Amazon Studios / Prime Video DE",
+          "alt": "Harry Bosch and Jerry Edgar consult forensic anthropologist William Golliher at the county coroner.",
+          "width": 850,
+          "height": 478,
+          "title": "Bosch",
+          "spoiler": false,
+          "note": "Cropped to the characters."
+        },
+        "place": {
+          "src": "photos/bosch-work-coroner-place.jpg",
+          "sourceUrl": "https://me.lacounty.gov/",
+          "credit": "County of Los Angeles Department of Medical Examiner",
+          "alt": "The concrete Forensic Science Center entrance with updated Medical Examiner lettering.",
+          "width": 1024,
+          "height": 610,
+          "imageUrl": "https://me.lacounty.gov/wp-content/uploads/2024/02/1104A-1024x610.jpg",
+          "note": "Site photograph; capture date is not supplied by the source."
+        }
+      }
+    },
+    {
+      "id": 813,
+      "name": "Clara Shortridge Foltz Criminal Justice Center",
+      "short": "Foltz courthouse",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "210 West Temple Street, Los Angeles, CA 90012",
+      "area": "Civic Center",
+      "coordinates": [
+        -118.24344404,
+        34.05498351
+      ],
+      "productionCoordinates": [
+        -118.24344404,
+        34.05498351
+      ],
+      "precision": "named-building",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "210 West Temple Street, Los Angeles, CA 90012",
+        "precision": "named-building",
+        "sourceIds": [
+          "bw_court_address",
+          "bw_court_3",
+          "bw_court_5",
+          "bw_station_late",
+          "bw_court_geo"
+        ],
+        "reason": "The show uses this Civic Center exterior to establish criminal court storylines. The courthouse pin follows the Temple Street building."
+      },
+      "people": [
+        "Harry Bosch",
+        "Honey Chandler"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bosch",
+          "release_year": 2014,
+          "story_role": "Downtown criminal courthouse",
+          "filming_component": "Recurring criminal courthouse establishing exterior.",
+          "source_ids": [
+            "bw_court_3",
+            "bw_court_5",
+            "bw_court_5_plot",
+            "bw_station_late",
+            "bw_court_clip"
+          ],
+          "story_time": {
+            "year": 2017,
+            "end_year": 2019,
+            "precision": "range",
+            "certainty": "approximate",
+            "basis": "Approximate range from the confirmed establishing shots in seasons 3, 5 and 6. Season 6 precedes the final season’s New Year’s Eve 2019 opening.",
+            "source_ids": [
+              "bw_court_3",
+              "bw_court_5",
+              "bw_station_late",
+              "bosch_series_chronology",
+              "bosch_prime_s5",
+              "bosch_prime_s7"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Harry Bosch",
+              "relationship": "follows cases into criminal court"
+            },
+            {
+              "name": "Honey Chandler",
+              "relationship": "represents clients in the court storylines"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bosch-work-court-screen.jpg",
+          "sourceUrl": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=85s",
+          "credit": "Bosch Civic Center aerial · Amazon Studios / Prime Video DE",
+          "alt": "The grid-fronted Foltz courthouse at left, with Los Angeles City Hall in the foreground.",
+          "width": 1280,
+          "height": 720,
+          "title": "Bosch",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bosch-work-court-place.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clarashortridgefoltzcriminaljusticecenter.JPG",
+          "credit": "Coolcaesar / Wikimedia Commons · CC BY-SA 4.0",
+          "alt": "The concrete grid facade of the Clara Shortridge Foltz Criminal Justice Center from Temple Street.",
+          "width": 1200,
+          "height": 1083,
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Clarashortridgefoltzcriminaljusticecenter.JPG",
+          "note": "Resized."
+        }
+      }
+    }
+  ],
+  "revisedPlaces": [
+    {
+      "id": 164,
+      "coordinates": [
+        -118.33065886,
+        34.09581017
+      ],
+      "productionCoordinates": [
+        -118.33065886,
+        34.09581017
+      ],
+      "precision": "named-building",
+      "mapsQuery": "LAPD Hollywood Community Police Station, 1358 North Wilcox Avenue, Los Angeles, CA 90028",
+      "geocode": {
+        "coordinates": [
+          -118.33065886,
+          34.09581017
+        ],
+        "matchedAddress": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+        "sourceUrl": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27461565857420%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+        "method": "Los Angeles County LARIAC building footprint centroid"
+      },
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Hollywood",
+        "precision": "named-building",
+        "sourceIds": [
+          "x_night_hub",
+          "x_night_fo",
+          "x_night_afi",
+          "bw_station_geo"
+        ]
+      },
+      "placementByTitle": {
+        "Nightcrawler": {
+          "kind": "filming-proxy",
+          "address": "Hollywood",
+          "precision": "named-building",
+          "sourceIds": [
+            "x_night_hub",
+            "x_night_fo",
+            "x_night_afi",
+            "bw_station_geo"
+          ]
+        },
+        "Bosch": {
+          "kind": "screen",
+          "address": "1358 North Wilcox Avenue, Los Angeles, CA 90028",
+          "precision": "named-building",
+          "sourceIds": [
+            "bw_station_lapd",
+            "bw_station_clip",
+            "bw_station_set",
+            "bw_station_geo"
+          ],
+          "reason": "Hollywood Station plays itself. The production used the real station in the pilot and recreated the detectives’ offices for later filming."
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bw_guide",
+      "title": "Bosch episode-by-episode filming locations",
+      "url": "https://filming.90210locations.info/tv-locations/bosch",
+      "source_type": "scene-matched location guide"
+    },
+    {
+      "id": "bw_connelly_interview",
+      "title": "Michael Connelly on filming in working LAPD facilities",
+      "url": "https://www.crimetime.co.uk/an-interview-with-michael-connelly/",
+      "source_type": "producer interview"
+    },
+    {
+      "id": "bw_production",
+      "title": "Michael Connelly’s Bosch production journal",
+      "url": "https://www.michaelconnelly.com/bosch-tv/",
+      "source_type": "production journal"
+    },
+    {
+      "id": "bw_station_clip",
+      "title": "Bosch pilot footage and a tour of the real Hollywood Station",
+      "url": "https://www.youtube.com/watch?v=ZEOKo-NcCvs&t=5s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_station_lapd",
+      "title": "LAPD Hollywood Community Police Station",
+      "url": "https://www.lapdonline.org/lapd-contact/west-bureau/hollywood-community-police-station/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_station_set",
+      "title": "Los Angeles Times reporting on the Hollywood Station replica at Red Studios",
+      "url": "https://www.latimes.com/entertainment/envelope/cotown/la-et-ct-onlocation-amazon-hollywood-20140917-story.html",
+      "source_type": "on-set production reporting"
+    },
+    {
+      "id": "bw_station_late",
+      "title": "Bosch · Some Measure of Justice filming locations",
+      "url": "https://www.imdb.com/title/tt11493026/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_station_photo",
+      "title": "Hollywood Station exterior sign and street number",
+      "url": "https://www.locationshub.com/blog/2015/2/20/10-los-angeles-film-locations-that-make-nightcrawler-so-dangerously-real",
+      "source_type": "credited street photograph"
+    },
+    {
+      "id": "bw_station_geo",
+      "title": "Los Angeles County LARIAC footprint · Hollywood police station",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27461565857420%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_hq_clip",
+      "title": "Bosch Season 6 official trailer · Irving meets with investigators",
+      "url": "https://www.youtube.com/watch?v=j2lAllH5NPU&t=80s",
+      "source_type": "official season trailer"
+    },
+    {
+      "id": "bw_hq_lapd",
+      "title": "LAPD headquarters address and Police Administration Building opening",
+      "url": "https://www.lapdonline.org/newsroom/lapd-celebrates-its-140th-year-anniversary-and-the-grand-opening-of-the-new-police-administration-building-na09276sf/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_hq_hard_feelings",
+      "title": "Bosch · Hard Feelings headquarters establishing shots",
+      "url": "https://www.imdb.com/title/tt11493020/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_hq_bunker_hill",
+      "title": "Bosch · Dreams of Bunker Hill headquarters filming location",
+      "url": "https://www.imdb.com/title/tt6219032/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_hq_photo",
+      "title": "John Verive’s exterior photograph of LAPD headquarters",
+      "url": "https://commons.wikimedia.org/wiki/File:LAPD_Administration_Building.jpg",
+      "source_type": "credited building photograph"
+    },
+    {
+      "id": "bw_hq_geo",
+      "title": "Los Angeles County LARIAC footprint · LAPD Police Administration Building",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27202300055249%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_coroner_clip",
+      "title": "Prime Video’s Bosch Season 1 behind-the-scenes feature with scene at the coroner",
+      "url": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=53s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_coroner_address",
+      "title": "County of Los Angeles Medical Examiner · Forensic Science Center address",
+      "url": "https://me.lacounty.gov/for-law-enforcement-and-legal/",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_coroner_service",
+      "title": "Los Angeles County · Medical Examiner Service Building at 1104A North Mission Road",
+      "url": "https://file.lacounty.gov/SDSInter/bos/supdocs/213004.pdf",
+      "source_type": "official county facility report"
+    },
+    {
+      "id": "bw_coroner_osm",
+      "title": "Named Medical Examiner building outline with county building ID",
+      "url": "https://www.openstreetmap.org/way/428955309",
+      "source_type": "named building map"
+    },
+    {
+      "id": "bw_coroner_connelly",
+      "title": "Michael Connelly on filming at the real morgue during the fourth season production",
+      "url": "https://thewest.com.au/entertainment/tv/crime-pays-for-bosch-creator-michael-connelly-ng-b88609984z",
+      "source_type": "producer interview"
+    },
+    {
+      "id": "bw_coroner_repeat",
+      "title": "Bosch location reporting on use of the real county coroner",
+      "url": "https://thecinemaholic.com/bosch-filming-location-guide/",
+      "source_type": "filming location reporting"
+    },
+    {
+      "id": "bw_coroner_photo",
+      "title": "County Medical Examiner facility entrance photograph",
+      "url": "https://me.lacounty.gov/",
+      "source_type": "operator photograph"
+    },
+    {
+      "id": "bw_coroner_geo",
+      "title": "Los Angeles County LARIAC footprint · Los Angeles County Coroner",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%272014092833920000%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    },
+    {
+      "id": "bw_court_clip",
+      "title": "Bosch Season 1 production feature · Civic Center aerial with Foltz courthouse",
+      "url": "https://www.youtube.com/watch?v=KCRqa-IkUS4&t=85s",
+      "source_type": "official production clip"
+    },
+    {
+      "id": "bw_court_address",
+      "title": "Clara Shortridge Foltz Criminal Justice Center · Superior Court of California, County of Los Angeles",
+      "url": "https://www.lacourt.ca.gov/Courthouse/info/CCB",
+      "source_type": "operator address"
+    },
+    {
+      "id": "bw_court_3",
+      "title": "Bosch · The Four Last Things courthouse establishing shots",
+      "url": "https://www.imdb.com/title/tt5733742/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_court_5",
+      "title": "Bosch · Raise the Dead courthouse establishing shots",
+      "url": "https://www.imdb.com/title/tt9013860/locations/",
+      "source_type": "episode filming location listing"
+    },
+    {
+      "id": "bw_court_5_plot",
+      "title": "Bosch season 5 · Prime Video episode synopses",
+      "url": "https://www.primevideo.com/detail/0PIRCVC9QD4WBBOMQIJQDAD3BP",
+      "source_type": "official episode guide"
+    },
+    {
+      "id": "bw_court_photo",
+      "title": "Coolcaesar’s photograph of the courthouse on Temple Street",
+      "url": "https://commons.wikimedia.org/wiki/File:Clarashortridgefoltzcriminaljusticecenter.JPG",
+      "source_type": "credited building photograph"
+    },
+    {
+      "id": "bw_court_geo",
+      "title": "Los Angeles County LARIAC footprint · Clara Shortridge Foltz Criminal Justice Center",
+      "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?where=BLD_ID%3D%27487950842504%27&outFields=OBJECTID%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "official county building footprint"
+    }
+  ],
+  "audit": [
+    {
+      "id": 810,
+      "name": "Hollywood police station",
+      "recurrence": "Recurring homicide workplace through the original series. The 2014 pilot shows the real interior. S6E10 records the real exterior. Prime Video’s S7 synopsis tracks Billets and the Hollywood officers into the final season.",
+      "coordinates": [
+        -118.33065886,
+        34.09581017
+      ],
+      "coordinate_basis": "Inside LARIAC building footprint 461565857420.",
+      "photo_status": "Inspected pilot frame near 00:05 and existing credited 1358 Wilcox entrance photograph.",
+      "source_ids": [
+        "bw_station_lapd",
+        "bw_station_clip",
+        "bw_station_set",
+        "bw_station_geo",
+        "bw_guide",
+        "bw_station_late"
+      ]
+    },
+    {
+      "id": 811,
+      "name": "LAPD Police Administration Building",
+      "recurrence": "Attested in S1E5 “Mama’s Boy,” S4E2 “Dreams of Bunker Hill,” S6E1 and S6E7 “Hard Feelings”.",
+      "coordinates": [
+        -118.24461638,
+        34.051979
+      ],
+      "coordinate_basis": "Inside LARIAC building footprint 202300055249.",
+      "photo_status": "Inspected season 6 office scene and John Verive’s credited exterior photograph.",
+      "source_ids": [
+        "bw_hq_lapd",
+        "bw_guide",
+        "bw_connelly_interview",
+        "bw_hq_geo",
+        "bw_hq_bunker_hill",
+        "bw_hq_hard_feelings",
+        "bw_hq_clip"
+      ]
+    },
+    {
+      "id": 812,
+      "name": "Los Angeles County Coroner",
+      "recurrence": "The pilot location guide identifies the Coroner’s Office. The original series returned to the county morgue, and Connelly confirmed production was filming there during season 4.",
+      "coordinates": [
+        -118.21315229,
+        34.06010687
+      ],
+      "coordinate_basis": "Inside LARIAC building footprint 2014092833920000.",
+      "photo_status": "Inspected S1 scene from the official German Prime Video production feature and the county photo of the service-building entrance.",
+      "source_ids": [
+        "bw_coroner_address",
+        "bw_coroner_service",
+        "bw_coroner_osm",
+        "bw_guide",
+        "bw_coroner_geo",
+        "bw_coroner_clip",
+        "bw_coroner_connelly",
+        "bw_coroner_repeat"
+      ]
+    },
+    {
+      "id": 813,
+      "name": "Clara Shortridge Foltz Criminal Justice Center",
+      "recurrence": "Recurring establishing exterior attested in S3E2 “The Four Last Things,” S5E4 “Raise the Dead,” and S6E10 “Some Measure of Justice.”",
+      "coordinates": [
+        -118.24344404,
+        34.05498351
+      ],
+      "coordinate_basis": "Inside LARIAC building footprint 487950842504.",
+      "photo_status": "Inspected Civic Center footage in the S1 production feature. The Foltz courthouse is the grid-fronted building at left, matched to the Temple Street photograph.",
+      "source_ids": [
+        "bw_court_address",
+        "bw_court_3",
+        "bw_court_5",
+        "bw_station_late",
+        "bw_court_geo",
+        "bw_court_5_plot",
+        "bw_court_clip"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Kenneth Hahn Hall of Administration",
+      "reason": "Production reporting confirms one filming location in 2014. A recurring story role and matched on-screen building were not established.",
+      "source_ids": [
+        "bw_station_set"
+      ]
+    },
+    {
+      "name": "Red Studios Hollywood",
+      "reason": "Replica station interiors belong to the Hollywood Station appearance. The studio has no separate recurring story location.",
+      "source_ids": [
+        "bw_station_set"
+      ]
+    },
+    {
+      "name": "Parker Center",
+      "reason": "The series uses the operational Police Administration Building for Irving’s headquarters. References to Parker Center in the novels do not identify this exterior.",
+      "source_ids": [
+        "bw_hq_lapd",
+        "bw_guide"
+      ]
+    },
+    {
+      "name": "Pilot federal courthouse",
+      "reason": "The separate pilot federal civil suit exterior at 222 North Grand Avenue was identified. This is distinct from the recurring county criminal courthouse.",
+      "source_ids": [
+        "bw_guide"
+      ]
+    },
+    {
+      "name": "Honey Chandler’s office and Jerry Edgar’s home",
+      "reason": "A recurring location and exact matched address were not established for either site in the original series.",
+      "source_ids": [
+        "bw_guide"
+      ]
+    }
+  ]
+}
