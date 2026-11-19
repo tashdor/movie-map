@@ -2,9 +2,36 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {displayEntries,filmingSiteMapsUrl} from '../src/logic.mjs';
+import {presentPlace,REDACTED} from '../src/spoilers.mjs';
 const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json');
 const propertyCatalogs=['early','late'].map(part=>read(`../research/property-links-${part}.json`));
+
+test('the T-1000 arrival uses the downtown bridge area and 1995 story date, with a separate protected victim',()=>{
+  const place=data.places.find(p=>p.id===821),evidence=read('../research/t2-arrival.json');
+  assert.equal(place.category,'event');
+  assert.ok(place.coordinates[0]>-118.231&&place.coordinates[0]<-118.228);
+  assert.ok(place.coordinates[1]>34.037&&place.coordinates[1]<34.040);
+  assert.match(place.address,/Santa Fe/);assert.match(place.address,/Mesquit/);
+  assert.match(new URL(filmingSiteMapsUrl(place)).searchParams.get('query'),/Mesquit/);
+  assert.equal(place.placement.kind,'filming-proxy');
+  assert.match(place.placement.reason,/exact materialization footprint is not surveyed/);
+  assert.equal(evidence.evidence.mapFields.llng,place.coordinates[0]);
+  assert.equal(place.appearances[0].story_time.year,1995);
+  assert.equal(place.media.place.date,'2022-07-30');
+  const time=year=>({all:false,from:year,to:year,undated:false});
+  assert.equal(displayEntries([place],{time:time(1991)}).length,0);
+  const [arrival,death]=displayEntries([place],{time:time(1995)});
+  assert.deepEqual(death.deaths[0].people,['Patrol officer']);
+  assert.equal(death.people.includes('T-1000'),false);
+  const audit=read('../research/spoiler-audit.json');
+  assert.equal(presentPlace(arrival,false,audit).name,'T-1000’s arrival');
+  assert.equal(presentPlace(arrival,false,audit).media.screen.src,arrival.media.screen.src);
+  const hidden=presentPlace(death,false,audit);
+  assert.equal(hidden.name,REDACTED);assert.equal(hidden.appearances[0].story_role,REDACTED);
+  assert.equal(hidden.media.screen.src,'');
+  assert.match(presentPlace(death,true,audit).appearances[0].story_role,/takes his uniform/);
+});
 
 test('Soberin’s vanished beach house uses a land-based historical proxy without a false footprint',()=>{
   const place=data.places.find(p=>p.id===437),evidence=read('../research/soberin-pin.json');

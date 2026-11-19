@@ -10165,5 +10165,32 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Clarashortridgefoltzcriminaljusticecenter.JPG",
       "note": "Resized."
     }
+  },
+  "821": {
+    "screen": {
+      "src": "photos/t2-arrival-screen.jpg",
+      "imageUrl": "https://www.jamescamerononline.com/t26thbridge4.jpg",
+      "sourceUrl": "https://www.jamescamerononline.com/Terminator2Locations1.htm",
+      "credit": "Terminator 2: Judgment Day frame · Carolco / TriStar, via James Cameron Online location comparison",
+      "title": "Terminator 2: Judgment Day",
+      "alt": "The patrol car and original bridge pillars during the T-1000 arrival sequence.",
+      "caption": "Terminator 2: Judgment Day",
+      "width": 688,
+      "height": 294,
+      "spoiler": false,
+      "note": "Film portion of comparison image 5. The bridge shown has been replaced; source image includes a film-title overlay."
+    },
+    "place": {
+      "src": "photos/ps262-place.jpg",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2017/07/terminator2-20.jpg?w=1024",
+      "sourceUrl": "https://filmoblivion.com/2017/07/21/terminator-2-judgment-day/",
+      "credit": "Film Oblivion",
+      "alt": "The replacement Sixth Street Viaduct beside Santa Fe Avenue, near the former arrival site.",
+      "caption": "Replacement viaduct · 2022",
+      "date": "2022-07-30",
+      "width": 1024,
+      "height": 768,
+      "note": "Source image metadata records 30 July 2022. This photograph shows the replacement bridge near the scene area, rather than the demolished screen pillars or the exact time-portal footprint."
+    }
   }
 }

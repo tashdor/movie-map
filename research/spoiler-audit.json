@@ -1810,6 +1810,17 @@
           ]
         }
       ]
+    },
+    {
+      "id": 821,
+      "redactions": [
+        {
+          "path": "appearances[title=Terminator 2: Judgment Day].story_role",
+          "phrases": [
+            "The T-1000 kills the patrol officer and takes his uniform and car."
+          ]
+        }
+      ]
     }
   ],
   "journeys": [
