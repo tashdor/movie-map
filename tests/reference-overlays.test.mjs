@@ -11,8 +11,8 @@ const neighborhoods=read('../public/la-neighborhoods.geojson'),landmarks=read('.
 const {readState,stateHash}=createAtlasLinks(read('../src/data/atlas.json'),read('../research/link-slugs.json'));
 
 test('reference overlays default off and survive shared links without changing cinematic filters',()=>{
-  assert.deepEqual(readOverlays(''),{neighborhoods:false,landmarks:false,prices:false});
-  assert.deepEqual(readOverlays('unknown,landmarks'),{neighborhoods:false,landmarks:true,prices:false});
+  assert.deepEqual(readOverlays(''),{neighborhoods:false,landmarks:false,prices:false,danger:false});
+  assert.deepEqual(readOverlays('unknown,landmarks'),{neighborhoods:false,landmarks:true,prices:false,danger:false});
   const original=readState('#route/sharons-westwood-afternoon');
   assert.equal(original.neighborhoods,false);assert.equal(original.landmarks,false);
   for(const flags of [{neighborhoods:true,landmarks:false},{neighborhoods:false,landmarks:true},{neighborhoods:true,landmarks:true}]){

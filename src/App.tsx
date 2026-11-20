@@ -2,6 +2,7 @@ import {useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,Check,ChevronDown,ChevronLeft,ChevronRight,ExternalLink,MapPin,Pause,Play,Route,Search,Share2,SlidersHorizontal,Users,X} from 'lucide-react';
 import AtlasMap from './AtlasMap';
 import {eras} from './location-layers.mjs';
+import {deathHeatmapData} from './danger-layer';
 import {formatPropertyPrice,priceDescription} from './property-prices.mjs';
 import raw from './data/atlas.json';
 import linkSlugs from '../research/link-slugs.json';
@@ -51,7 +52,7 @@ export default function App(){
   const selectStop=useCallback((id:number,route:number)=>{setState(s=>({...s,route,selected:id,person:null,tab:'journeys'}));setMobileOpen(true);},[]);
   const selectPerson=(name:string)=>{update({person:name,selected:null,route:null,query:'',tab:'people'});setMobileOpen(true);};
   const back=()=>setState(s=>backState(s));
-  const setOverlay=useCallback((layer:'neighborhoods'|'landmarks'|'prices',enabled:boolean)=>setState(s=>({...s,[layer]:enabled})),[]);
+  const setOverlay=useCallback((layer:'neighborhoods'|'landmarks'|'prices'|'danger',enabled:boolean)=>setState(s=>({...s,[layer]:enabled})),[]);
   const setCategory=useCallback((category:string)=>setState(s=>({...s,category,selected:null})),[]);
   const setLaOnly=useCallback((laOnly:boolean)=>setState(s=>({...s,laOnly,selected:null,route:null,person:null})),[]);
   const setBasemap=useCallback((basemap:'map'|'satellite')=>setState(s=>({...s,basemap})),[]);
@@ -68,6 +69,7 @@ export default function App(){
   const films=useMemo(()=>[...new Set(data.places.flatMap(p=>p.appearances.map(a=>a.title)))].sort(),[]);
   const entries=useMemo(()=>presentEntries(displayEntries(data.places,{query:state.query,category:state.category,film:state.film,time:effectiveTime,laOnly:state.laOnly}),showSpoilers,spoilerAudit,state.query) as Place[],[state.query,state.category,state.film,state.laOnly,effectiveTime,showSpoilers]);
   const lookup=useMemo(()=>displayEntries(data.places,{film:state.film,time:effectiveTime,laOnly:state.laOnly}).map((p:Place)=>presentPlace(p,showSpoilers,spoilerAudit)) as Place[],[state.film,state.laOnly,effectiveTime,showSpoilers]);
+  const dangerData=useMemo(()=>state.danger?deathHeatmapData(data.places,{film:state.film,time:effectiveTime,laOnly:state.laOnly}):null,[state.danger,state.film,effectiveTime,state.laOnly]);
   const visible=useMemo(()=>[...entries].sort((a,b)=>Number(b.featured)-Number(a.featured)||Math.abs(a.id)-Math.abs(b.id)||b.id-a.id),[entries]);
   const selected=lookup.find(p=>p.id===state.selected)||null;
   const list=nearbyOnly?visible.filter(p=>viewIds.includes(p.id)):visible;
@@ -79,7 +81,7 @@ export default function App(){
   const citationIdentities=useMemo(()=>{if(selected){const raw=data.places.find(p=>p.id===(selected.baseId||Math.abs(selected.id)));if(raw)return placeSpoilerPhrases({...raw,isDeath:selected.isDeath,deaths:raw.deaths?.filter(d=>selected.appearances.some(a=>a.title===d.title))},spoilerAudit);}if(journey)return journeySpoilerPhrases(data.journeys.find(j=>j.id===journey.id)!,spoilerAudit,data.places);return [];},[selected,journey]);
   const mapPlaces=useMemo(()=>state.person?personPlaces:state.tab==='journeys'?(selected?[selected]:[]):visible,[state.person,personPlaces,state.tab,selected,visible]);
   const hasFilters=Boolean(state.laOnly||state.film||state.query||state.category!=='all'||!state.time.all||nearbyOnly||state.person);
-  const reset=()=>{setState(s=>({neighborhoods:s.neighborhoods,landmarks:s.landmarks,prices:s.prices,laOnly:false,selected:null,route:null,basemap:s.basemap,person:null,query:'',category:'all',film:'',tab:'places',time:{all:true,from:1930,to:2030,undated:false}}));setNearbyOnly(false);setMapReset(v=>v+1);};
+  const reset=()=>{setState(s=>({neighborhoods:s.neighborhoods,landmarks:s.landmarks,prices:s.prices,danger:s.danger,laOnly:false,selected:null,route:null,basemap:s.basemap,person:null,query:'',category:'all',film:'',tab:'places',time:{all:true,from:1930,to:2030,undated:false}}));setNearbyOnly(false);setMapReset(v=>v+1);};
   const share=async()=>{const shared=!showSpoilers&&state.person&&!personPlaces.length?{...state,person:null}:state;try{await navigator.clipboard.writeText(location.origin+location.pathname+location.search+stateHash(shared));setToast('Link copied');}catch{setToast('Copy the address-bar link');}};
   const sources=(p:Place)=>{const ids=new Set([...p.appearances.flatMap(a=>[...a.source_ids,...(a.story_time?.source_ids||[])]),...(p.placement?.sourceIds||[])]);return data.sources.filter(s=>ids.has(s.id));};
   const citation=(label:string,url:string,force=false)=>{const text=showSpoilers?label:redactText(label,citationIdentities);return !showSpoilers&&sourceIsRedacted(text,url,force,citationIdentities)?<RedactedText text={text}/>:<a href={url} target="_blank" rel="noreferrer"><RedactedText text={text}/><ExternalLink size={11}/></a>;};
@@ -103,7 +105,7 @@ export default function App(){
         {noResults&&<div className="empty-state">No matches</div>}
       </>}
       </div><button className="mobile-map-return" onClick={()=>setMobileOpen(false)}>Map<MapPin size={15}/></button>
-    </aside><main className="map-and-time"><div className="map-region"><AtlasMap prices={state.prices} category={state.category} laOnly={state.laOnly} showSpoilers={showSpoilers} onCategory={setCategory} onLaOnly={setLaOnly} onSpoilers={setShowSpoilers} neighborhoods={state.neighborhoods} landmarks={state.landmarks} onOverlay={setOverlay} basemap={state.basemap} onBasemap={setBasemap} places={mapPlaces} selected={selected} journey={journey} journeys={journeys} routeMode={state.tab==='journeys'} film={state.film} coverage={coverage} resetView={mapReset} onSelect={select} onRoute={selectRoute} onStop={selectStop} onFilm={selectFilm} trackView={nearbyOnly} onView={onView} onLocationError={notify}/><button className="mobile-directory-toggle" onClick={()=>setMobileOpen(true)}><Search size={17}/>Places</button></div><Timeline time={state.time} onChange={setTime}/></main></div>
+    </aside><main className="map-and-time"><div className="map-region"><AtlasMap danger={state.danger} dangerData={dangerData} prices={state.prices} category={state.category} laOnly={state.laOnly} showSpoilers={showSpoilers} onCategory={setCategory} onLaOnly={setLaOnly} onSpoilers={setShowSpoilers} neighborhoods={state.neighborhoods} landmarks={state.landmarks} onOverlay={setOverlay} basemap={state.basemap} onBasemap={setBasemap} places={mapPlaces} selected={selected} journey={journey} journeys={journeys} routeMode={state.tab==='journeys'} film={state.film} coverage={coverage} resetView={mapReset} onSelect={select} onRoute={selectRoute} onStop={selectStop} onFilm={selectFilm} trackView={nearbyOnly} onView={onView} onLocationError={notify}/><button className="mobile-directory-toggle" onClick={()=>setMobileOpen(true)}><Search size={17}/>Places</button></div><Timeline time={state.time} onChange={setTime}/></main></div>
     {toast&&<div className="toast" role="status"><Check size={14}/>{toast}</div>}
     <dialog className="photo-dialog" ref={photoDialog} aria-label="Location photo" onClose={()=>setPhoto(null)} onClick={e=>{if(e.target===photoDialog.current)setPhoto(null);}}><button className="photo-close" aria-label="Close photo" onClick={()=>setPhoto(null)}><X size={22}/></button>{photo&&<><img src={photoUrl(photo)} alt={accessibleText(photo.alt||photo.note||'Location photograph')}/>{citation(photo.credit+(photo.date?' · '+photo.date:''),photo.sourceUrl,photo.redacted)}</>}</dialog>
   </div>;

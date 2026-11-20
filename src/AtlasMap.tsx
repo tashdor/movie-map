@@ -9,6 +9,7 @@ import {filmTitle} from './films.mjs';
 import {installCountyFog} from './fog';
 import {installReferenceLayers,type ReferenceLayer} from './reference-layers';
 import {installPriceMarkers} from './price-markers';
+import {installDangerLayer,type DangerData} from './danger-layer';
 import {selectedTypes} from './location-layers.mjs';
 import MapLayers,{type MovieLayerControls} from './MapLayers';
 import {countyCamera} from './camera.mjs';
@@ -19,7 +20,7 @@ import type {Place,Journey} from './types';
 maplibregl.setWorkerUrl(workerUrl);
 const ZERO_PADDING={top:0,bottom:0,left:0,right:0};
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
-type Props=MovieLayerControls&{neighborhoods:boolean;landmarks:boolean;prices:boolean;onOverlay:(layer:ReferenceLayer|'prices',enabled:boolean)=>void;basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
+type Props=MovieLayerControls&{neighborhoods:boolean;landmarks:boolean;prices:boolean;danger:boolean;dangerData:DangerData|null;onOverlay:(layer:ReferenceLayer|'prices'|'danger',enabled:boolean)=>void;basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
 type MarkerRecord={marker:maplibregl.Marker;element:HTMLDivElement;place:Place;signature:string;label?:HTMLDivElement};
 function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   if(!record.place.coordinates)return;
@@ -29,9 +30,10 @@ function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   if(record.label){record.label.classList.toggle('label-left',flip);record.label.style.maxWidth=`${Math.max(150,Math.min(560,flip?left:right))}px`;record.label.hidden=!map.getBounds().contains(record.place.coordinates);}
 }
 function tooltip(name:string,titles:string[],setting?:Place['storySetting']){const box=document.createElement('div');box.className='marker-tooltip';box.setAttribute('role','tooltip');const movie=document.createElement('span');movie.textContent=titles.map(filmTitle).join(' / ');const title=document.createElement('strong');appendRedactedText(title,name);box.append(movie,title);if(setting?.canonicalLA===false){const tag=document.createElement('small');tag.className='marker-setting';tag.textContent=storySettingLabel(setting,true);box.append(tag);}return box;}
-function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,neighborhoods,landmarks,prices,onOverlay,basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
+function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,neighborhoods,landmarks,prices,danger,dangerData,onOverlay,basemap,onBasemap,places,selected,journey,journeys,routeMode,film,resetView,trackView,coverage,onSelect,onRoute,onStop,onFilm,onView,onLocationError}:Props){
   const container=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),markers=useRef(new Map<number,MarkerRecord>()),routeMarkers=useRef<maplibregl.Marker[]>([]),gps=useRef<maplibregl.GeolocateControl|null>(null),northNeedle=useRef<HTMLSpanElement>(null);
   const references=useRef<ReturnType<typeof installReferenceLayers>|null>(null),layerMenu=useRef<HTMLDetailsElement>(null);
+  const dangerLayer=useRef<ReturnType<typeof installDangerLayer>|null>(null);
   const priceMarkers=useRef<ReturnType<typeof installPriceMarkers>|null>(null);
   const [ready,setReady]=useState(false),[error,setError]=useState(false),[locating,setLocating]=useState(false);
   const [zoomedOut,setZoomedOut]=useState(false);
@@ -75,7 +77,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
           countyData=county;updateZoomLimit();
           disposeFog=installCountyFog(m,county,latest.current.coverage);
         }catch{if(map.current===m)latest.current.onLocationError('County boundary unavailable');}
-        if(map.current===m){priceMarkers.current=installPriceMarkers(m,id=>latest.current.onSelect(id));references.current=installReferenceLayers(m,{baseUrl:import.meta.env.BASE_URL,onError:message=>latest.current.onLocationError(message)});setReady(true);}
+        if(map.current===m){dangerLayer.current=installDangerLayer(m);priceMarkers.current=installPriceMarkers(m,id=>latest.current.onSelect(id));references.current=installReferenceLayers(m,{baseUrl:import.meta.env.BASE_URL,onError:message=>latest.current.onLocationError(message)});setReady(true);}
       });
       m.on('moveend',()=>syncView.current());
       m.on('click',()=>{if(layerMenu.current)layerMenu.current.open=false;});
@@ -84,7 +86,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);priceMarkers.current?.destroy();priceMarkers.current=null;references.current?.destroy();references.current=null;disposeFog?.();for(const record of markers.current.values())record.marker.remove();markers.current.clear();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);dangerLayer.current?.destroy();dangerLayer.current=null;priceMarkers.current?.destroy();priceMarkers.current=null;references.current?.destroy();references.current=null;disposeFog?.();for(const record of markers.current.values())record.marker.remove();markers.current.clear();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
@@ -99,6 +101,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
     for(const layer of m.getStyle().layers)if(layer.id==='satellite-imagery'||layer.id.startsWith('satellite-label-'))m.setLayoutProperty(layer.id,'visibility',basemap==='satellite'?'visible':'none');
   },[basemap,ready]);
   useEffect(()=>{if(ready)references.current?.update({neighborhoods,landmarks,basemap});},[ready,neighborhoods,landmarks,basemap]);
+  useEffect(()=>{if(ready)dangerLayer.current?.update({enabled:danger,data:dangerData,basemap});},[ready,danger,dangerData,basemap]);
   useEffect(()=>{references.current?.closePopup();},[selected?.id,journey?.id,film]);
   useEffect(()=>{if(ready)priceMarkers.current?.update({enabled:prices&&selectedTypes(category).includes('home'),places,selectedId:selected?.id||null});},[ready,prices,category,places,selected?.id]);
   useEffect(()=>{
@@ -165,7 +168,8 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
   },[journey?.id,journeys,routeMode,selected?.id,ready,onStop,onRoute]);
   return <div className={`map-shell ${basemap==='satellite'?'satellite-view':''}`}><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
     <div className="basemap-switch" role="group" aria-label="Map view">{(['map','satellite'] as const).map(view=><button key={view} aria-pressed={basemap===view} onClick={()=>onBasemap(view)}>{view==='map'?'Map':'Satellite'}</button>)}</div>
-    <MapLayers prices={prices} menuRef={layerMenu} category={category} laOnly={laOnly} showSpoilers={showSpoilers} onCategory={onCategory} onLaOnly={onLaOnly} onSpoilers={onSpoilers} neighborhoods={neighborhoods} landmarks={landmarks} onOverlay={onOverlay}/>
+    <MapLayers danger={danger} prices={prices} menuRef={layerMenu} category={category} laOnly={laOnly} showSpoilers={showSpoilers} onCategory={onCategory} onLaOnly={onLaOnly} onSpoilers={onSpoilers} neighborhoods={neighborhoods} landmarks={landmarks} onOverlay={onOverlay}/>
+    {danger&&<div className="danger-legend" role="img" aria-label="Death scene concentration, amber for low to dark red for high"><span>Death hotspots</span><div className="danger-gradient"/><div className="danger-scale"><span>Low</span><span>High</span></div></div>}
     {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{filmTitle(t)}</button>)}</div><strong><RedactedText text={selected.name}/></strong><span><RedactedText text={selected.placement?.address||'Los Angeles'}/></span></div>}
     <button className="north-arrow" aria-label="Reset north" title="Reset north" onClick={()=>map.current?.resetNorth({duration:450})}><span className="north-needle" ref={northNeedle} aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></span></button>
     <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" disabled={!ready||zoomedOut} onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>

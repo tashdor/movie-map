@@ -5,9 +5,9 @@ import {locationSvg} from './icons';
 import type {ReferenceLayer} from './reference-layers';
 
 export type MovieLayerControls={category:string;laOnly:boolean;showSpoilers:boolean;onCategory:(value:string)=>void;onLaOnly:(enabled:boolean)=>void;onSpoilers:(enabled:boolean)=>void};
-type Props=MovieLayerControls&{neighborhoods:boolean;landmarks:boolean;prices:boolean;onOverlay:(layer:ReferenceLayer|'prices',enabled:boolean)=>void;menuRef:RefObject<HTMLDetailsElement|null>};
+type Props=MovieLayerControls&{neighborhoods:boolean;landmarks:boolean;prices:boolean;danger:boolean;onOverlay:(layer:ReferenceLayer|'prices'|'danger',enabled:boolean)=>void;menuRef:RefObject<HTMLDetailsElement|null>};
 
-export default function MapLayers({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,neighborhoods,landmarks,prices,onOverlay,menuRef}:Props){
+export default function MapLayers({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,neighborhoods,landmarks,prices,danger,onOverlay,menuRef}:Props){
   const selected=selectedTypes(category);
   return <div className="reference-control" onClick={e=>e.stopPropagation()} onKeyDown={e=>{if(e.key==='Escape'){e.stopPropagation();if(menuRef.current)menuRef.current.open=false;menuRef.current?.querySelector('summary')?.focus();}}}>
     <details className="layer-menu" ref={menuRef}>
@@ -22,6 +22,7 @@ export default function MapLayers({category,laOnly,showSpoilers,onCategory,onLaO
           <label><input type="checkbox" checked={neighborhoods} onChange={e=>onOverlay('neighborhoods',e.target.checked)}/>Neighborhoods</label>
           <label><input type="checkbox" checked={landmarks} onChange={e=>onOverlay('landmarks',e.target.checked)}/>Landmarks</label>
           <label><input type="checkbox" checked={prices} onChange={e=>onOverlay('prices',e.target.checked)}/>House prices</label>
+          <label className="danger-layer-choice"><input type="checkbox" checked={danger} onChange={e=>onOverlay('danger',e.target.checked)}/>Danger heatmap</label>
         </div>
       </div>
     </details>
