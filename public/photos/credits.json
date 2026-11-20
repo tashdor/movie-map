@@ -2198,6 +2198,38 @@
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
         }
       },
+      "Dragnet": {
+        "screen": {
+          "src": "photos/dragnet-griffith-friday.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/sure-like-every-other-psycho-in-city-with-a-foolproof-plan/",
+          "imageUrl": "https://clip.cafe/img800/sure-like-every-other-psycho-in-city-with-a-foolproof-plan.jpg",
+          "credit": "Dragnet film frame · Universal Pictures / Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Joe Friday inside Griffith Observatory in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/dragnet-griffith-dome.jpg",
+            "sourceUrl": "https://clip.cafe/dragnet-1987/how-do-see-going-down-in-history/",
+            "imageUrl": "https://clip.cafe/img800/how-do-see-going-down-in-history.jpg",
+            "credit": "Dragnet film frame · Universal Pictures / Clip.Cafe",
+            "title": "Dragnet",
+            "alt": "Whirley in the Observatory’s telescope dome in Dragnet.",
+            "width": 800,
+            "height": 433,
+            "spoiler": true
+          }
+        ],
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
       "Star Trek: Voyager": {
         "place": {
           "src": "photos/083-place.jpg",

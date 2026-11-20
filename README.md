@@ -90,6 +90,10 @@ Mobile map controls are checked at 390px and 320px widths with the danger legend
 
 `research/griffith-observatory-pin.json` records the Observatory’s official named-place map point and the replaced Census address interpolation, which was 578 metres north along a park road. The story and production coordinates, all film-specific views and Maps links use the Observatory building. La La Land’s separate “A Lovely Night” dance stays at Cathy’s Corner, over two kilometres north.
 
+`research/dragnet-observatory.json` adds Dragnet (1987) to the existing Observatory, with Joe Friday, Connie Swail and Pep Streebek. AFI identifies the Observatory within the story; production references and E. C. Krupp corroborate its use. The contemporary story year is an explicit editorial estimate because the film’s day/date narration is inconsistent. Dragnet has separate film frames: Friday’s interior view stays readable, while the revealing telescope-dome frame requires Spoilers. No separate pin, death count or Spies Like Us appearance is inferred.
+
+Dragnet browser checks cover its movie filter, release-year and IMDb link, the building’s Maps target, paired film/site photos, gallery redaction and opt-in restoration, the approximate 1987 story label, and the readable phone detail page and movie tab on the map.
+
 `research/soberin-pin.json` preserves the official County Westward Beach Road geometry and USGS elevation sample used to replace Soberin’s offshore marker with a land-based historical-site approximation. The vanished house’s exact footprint remains unverified; no parcel, road-shaped home or current house is asserted. `research/jane-blanche-beach-pin.json` similarly moves the neighboring Baby Jane scene from offshore to a sourced, approximate point on Westward Beach sand.
 
 The timeline provides every decade from the 1930s through the 2020s alongside All time. Presets select canonical story ranges; the decade strip scrolls horizontally on narrow screens.

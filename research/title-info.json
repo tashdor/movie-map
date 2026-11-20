@@ -136,6 +136,12 @@
       "type": "movie",
       "sourceUrl": "https://www.imdb.com/title/tt0036775/"
     },
+    "Dragnet": {
+      "imdbId": "tt0092925",
+      "year": 1987,
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0092925/"
+    },
     "Drive": {
       "imdbId": "tt0780504",
       "year": 2011,

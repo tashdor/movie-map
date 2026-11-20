@@ -8764,7 +8764,10 @@
         "Cliff Secord",
         "Jenny Blake",
         "Neville Sinclair",
-        "Eddie Valentine"
+        "Eddie Valentine",
+        "Joe Friday",
+        "Connie Swail",
+        "Pep Streebek"
       ],
       "featured": true,
       "appearances": [
@@ -8924,6 +8927,49 @@
             "name": "Los Angeles, California",
             "canonicalLA": true
           }
+        },
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Connie’s observatory encounter",
+          "filming_component": "Griffith Observatory exterior and telescope dome",
+          "source_ids": [
+            "dragnet_afi",
+            "dragnet_locations",
+            "dragnet_scene",
+            "dragnet_krupp"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "at the observatory with Connie"
+            },
+            {
+              "name": "Connie Swail",
+              "relationship": "at the observatory with Friday"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "arrives at the observatory"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "Shared site across The Terminator, La La Land and Star Trek: Voyager. La La Land's planetarium was recreated on a stage. Voyager exterior filming is documented; Rain's laboratory interior is not yet verified as on-location. Rain's employment is established during the 1996 story, but no start or end date for her job is inferred.",
@@ -9012,6 +9058,17 @@
             "griffith_official_map"
           ],
           "reason": "The film names and depicts Griffith Observatory itself. The real forecourt and rooftop were used alongside visual-effects work; this appearance does not relocate the observatory to a soundstage or airship set."
+        },
+        "Dragnet": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "sourceIds": [
+            "dragnet_afi",
+            "dragnet_locations",
+            "griffith_official_map"
+          ],
+          "reason": "AFI names Griffith Park Observatory as the story location. The film depicts the Observatory itself, including its telescope dome."
         }
       },
       "mediaByTitle": {
@@ -9049,6 +9106,38 @@
             "title": "The Rocketeer",
             "spoiler": false
           },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
+        },
+        "Dragnet": {
+          "screen": {
+            "src": "photos/dragnet-griffith-friday.jpg",
+            "sourceUrl": "https://clip.cafe/dragnet-1987/sure-like-every-other-psycho-in-city-with-a-foolproof-plan/",
+            "imageUrl": "https://clip.cafe/img800/sure-like-every-other-psycho-in-city-with-a-foolproof-plan.jpg",
+            "credit": "Dragnet film frame · Universal Pictures / Clip.Cafe",
+            "title": "Dragnet",
+            "alt": "Joe Friday inside Griffith Observatory in Dragnet.",
+            "width": 800,
+            "height": 433,
+            "spoiler": false
+          },
+          "screenGallery": [
+            {
+              "src": "photos/dragnet-griffith-dome.jpg",
+              "sourceUrl": "https://clip.cafe/dragnet-1987/how-do-see-going-down-in-history/",
+              "imageUrl": "https://clip.cafe/img800/how-do-see-going-down-in-history.jpg",
+              "credit": "Dragnet film frame · Universal Pictures / Clip.Cafe",
+              "title": "Dragnet",
+              "alt": "Whirley in the Observatory’s telescope dome in Dragnet.",
+              "width": 800,
+              "height": 433,
+              "spoiler": true
+            }
+          ],
           "place": {
             "src": "photos/083-place.jpg",
             "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
@@ -55396,6 +55485,48 @@
       "title": "Production designer James Bissell on Neville Sinclair’s Ennis-inspired set",
       "url": "https://kingdomofdreamspodcast.com/episodes/301-production-designer-james-bissell-e-t-jumanji-300-rocketeer/",
       "source_type": "production designer interview"
+    },
+    {
+      "id": "dragnet_afi",
+      "title": "Dragnet: AFI story synopsis and production history",
+      "url": "https://catalog.afi.com/Film/57608-DRAGNET",
+      "source_type": "film catalog"
+    },
+    {
+      "id": "dragnet_locations",
+      "title": "Dragnet: verified production locations",
+      "url": "https://www.imdb.com/title/tt0092925/locations/",
+      "source_type": "location research"
+    },
+    {
+      "id": "dragnet_scene",
+      "title": "Dragnet: Observatory film scene",
+      "url": "https://clip.cafe/dragnet-1987/sure-like-every-other-psycho-in-city-with-a-foolproof-plan/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_dome_frame",
+      "title": "Dragnet: telescope-dome film scene",
+      "url": "https://clip.cafe/dragnet-1987/how-do-see-going-down-in-history/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_krupp",
+      "title": "E. C. Krupp: Hollywood Star — the Griffith Observatory in the Movies, p. 279",
+      "url": "https://www.cultureandcosmos.org/pdfs/27/27_Krupp_Hollywood_Star.pdf",
+      "source_type": "Observatory director’s history"
+    },
+    {
+      "id": "dragnet_dialogue",
+      "title": "Dragnet: final-film dialogue",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=dragnet",
+      "source_type": "film transcript"
+    },
+    {
+      "id": "dragnet_imdb",
+      "title": "Dragnet (1987): film identity and release date",
+      "url": "https://www.imdb.com/title/tt0092925/",
+      "source_type": "film metadata"
     },
     {
       "id": "bosch_angels_official",
