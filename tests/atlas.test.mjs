@@ -380,6 +380,24 @@ test('the four added films have dated, sourced locations and matching film frame
   }
 });
 
+test('Jeriko’s traffic stop maps the labeled Sixth Street filming site with all three victims',()=>{
+  const place=data.places.find(p=>p.id===262);
+  assert.deepEqual(place.coordinates,[-118.230295,34.037063]);
+  assert.deepEqual(place.coordinates,place.productionCoordinates);
+  assert.equal(place.placement.kind,'filming-proxy');
+  assert.match(place.placement.address,/Sixth Street bridge · filming site/);
+  assert.match(place.placement.reason,/Hollywood Freeway/);
+  assert.match(place.placement.reason,/canonical street remains unconfirmed/);
+  assert.equal(place.placement.geometry,undefined);
+  const [death]=displayEntries([place],{film:'Strange Days',category:'death',time:time(1999)});
+  assert.ok(death.coordinates);
+  assert.equal(death.name,'Jeriko One, Replay & Diamanda’s deaths');
+  assert.deepEqual(death.deaths[0].people,['Jeriko One','James “Replay” Polton','Diamanda']);
+  assert.equal(death.deaths[0].knownCount,3);
+  assert.equal(displayEntries([place],{category:'death',time:time(2000)}).length,0);
+  assert.equal(new URL(filmingSiteMapsUrl(death)).searchParams.get('query'),'34.037063,-118.230295');
+});
+
 test('Speed’s bus follows separate story-road segments instead of production-site connectors',()=>{
   const bus=data.journeys.find(j=>j.id===300);
   assert.equal(bus.title,'Speed');

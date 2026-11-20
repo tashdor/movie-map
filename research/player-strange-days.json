@@ -1062,10 +1062,13 @@
         "event",
         "death"
       ],
-      "address": "Production site: lower Sixth Street / Santa Fe Avenue",
+      "address": "Lower East Sixth Street / Santa Fe Avenue",
       "area": "Los Angeles",
-      "coordinates": null,
-      "precision": "unlocated",
+      "coordinates": [
+        -118.230295,
+        34.037063
+      ],
+      "precision": "historical-scene-area",
       "people": [
         "Jeriko One",
         "James “Replay” Polton",
@@ -1131,10 +1134,10 @@
       ],
       "notes": "",
       "placement": {
-        "kind": "unknown",
-        "address": "Los Angeles · exact location unknown",
-        "precision": "unlocated",
-        "reason": "The stop was filmed beneath the former Sixth Street Viaduct. The final-film news says the victims’ bodies were found under the Hollywood Freeway; it does not establish the actual stop’s street. No canonical point is assigned to the killing.",
+        "kind": "filming-proxy",
+        "address": "Sixth Street bridge · filming site",
+        "precision": "historical-scene-area",
+        "reason": "The marker uses the documented traffic-stop filming site beneath the former Sixth Street Viaduct at lower East Sixth Street and Santa Fe Avenue. The final-film news places the discovery of the victims’ bodies under the Hollywood Freeway; the traffic stop’s canonical street remains unconfirmed. The original viaduct has been replaced, so this is a historical scene-area pin rather than a surveyed footprint.",
         "sourceIds": [
           "ps_strange_fo",
           "ps_strange_transcript",
@@ -1172,6 +1175,7 @@
       "deaths": [
         {
           "title": "Strange Days",
+          "label": "Jeriko One, Replay & Diamanda’s deaths",
           "people": [
             "Jeriko One",
             "James “Replay” Polton",
@@ -1721,7 +1725,7 @@
     {
       "id": 262,
       "name": "Jeriko One’s killing",
-      "verification": "The stop was filmed beneath the former Sixth Street Viaduct. The final-film news says the victims’ bodies were found under the Hollywood Freeway; it does not establish the actual stop’s street. No canonical point is assigned to the killing.",
+      "verification": "The user selected the verified Sixth Street bridge filming site for the map on 19 November 2026. Story and production coordinates now use the documented lower East Sixth Street / Santa Fe Avenue scene area. The placement is explicitly labeled as a filming site, with the Hollywood Freeway body-discovery dialogue and unconfirmed canonical traffic-stop street retained in Sources. No exact historical footprint is asserted.",
       "media_review": "Actual film frame and real-site photograph/aerial visually inspected as a pair. No generated imagery. Capture dates omitted where not independently established."
     },
     {

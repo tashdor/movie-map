@@ -45,6 +45,8 @@ test('sourced massacre totals outweigh single deaths and keep unknown geography 
   assert.equal(deathHeatmapData([niteOwl]).features[0].properties.weight,6);
   assert.equal(deathHeatmapData([data.places.find(p=>p.id===213)]).features[0].properties.weight,3);
   assert.equal(deathHeatmapData([data.places.find(p=>p.id===84)]).features[0].properties.weight,2);
+  const jeriko=data.places.find(p=>p.id===262);
+  assert.deepEqual(deathHeatmapData([jeriko]).features.map(f=>({coordinates:f.geometry.coordinates,weight:f.properties.weight})),[{coordinates:jeriko.productionCoordinates,weight:3}]);
   assert.equal(station.deaths[0].knownCount,17);
   assert.deepEqual(deathHeatmapData([station]).features,[]);
   const [death]=displayEntries([lasso],{category:'death'});
