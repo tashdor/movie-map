@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-20",
+  "places": [
+    {
+      "id": 823,
+      "name": "Los Angeles Zoo",
+      "short": "Los Angeles Zoo",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5333 Zoo Drive, Los Angeles, CA 90027",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.2840739,
+        34.1483753
+      ],
+      "productionCoordinates": [
+        -118.2840739,
+        34.1483753
+      ],
+      "precision": "named-site",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "5333 Zoo Drive, Los Angeles, CA 90027",
+        "precision": "named-site",
+        "reason": "The narration identifies Griffith Park Zoo, and the production filmed at the Los Angeles Zoo. The pin represents the zoo complex; no exact 1987 enclosure position is asserted.",
+        "sourceIds": [
+          "dragnet_afi",
+          "dragnet_dialogue",
+          "dragnet_zoo_scene",
+          "dragnet_locations_full",
+          "dragnet_zoo_official",
+          "dragnet_geocoder"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-zoo-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat/",
+          "imageUrl": "https://clip.cafe/img800/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek speak to the zoo keeper in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-zoo-place.jpg",
+          "sourceUrl": "https://lazoo.org/plan-your-visit/getting-here/",
+          "imageUrl": "https://lazoo.org/wp-content/uploads/2023/04/Front-Entrance-Billboard-and-Banners-crop-JEP_4883.jpg",
+          "alt": "The Los Angeles Zoo entrance.",
+          "credit": "Los Angeles Zoo / City of Los Angeles",
+          "width": 1200,
+          "height": 778,
+          "note": "Official visitor-page photograph; capture date unverified. The entrance represents the zoo complex, not an exact 1987 animal enclosure."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek investigate the animal thefts",
+          "filming_component": "5333 Zoo Drive, Los Angeles, CA 90027",
+          "source_ids": [
+            "dragnet_afi",
+            "dragnet_dialogue",
+            "dragnet_zoo_scene",
+            "dragnet_locations_full",
+            "dragnet_zoo_official",
+            "dragnet_geocoder"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 824,
+      "name": "Echo Park Lake",
+      "short": "Echo Park Lake",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Echo Park Lake, Los Angeles, CA",
+      "area": "Echo Park",
+      "coordinates": [
+        -118.260025977278,
+        34.073313993436
+      ],
+      "productionCoordinates": [
+        -118.260025977278,
+        34.073313993436
+      ],
+      "precision": "named-site",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles park · filmed at Echo Park Lake",
+        "precision": "named-site",
+        "reason": "The film shows the partners at a lakeside park telephone. The location list identifies Echo Park Lake; the dialogue does not name the park. The existing lake pin is a site-level anchor, not a surveyed telephone-booth position.",
+        "sourceIds": [
+          "dragnet_dialogue",
+          "dragnet_park_scene",
+          "dragnet_locations_full"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-echo-park-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/its-you-the-president/",
+          "imageUrl": "https://clip.cafe/img800/its-you-the-president.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek at the park telephone in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-cult-671-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+          "width": 1000,
+          "height": 750,
+          "alt": "Echo Park Lake — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek follow Muzz’s lead at the park telephone",
+          "filming_component": "Echo Park Lake, Los Angeles, CA",
+          "source_ids": [
+            "dragnet_dialogue",
+            "dragnet_park_scene",
+            "dragnet_locations_full"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "mergeInto": 671
+    },
+    {
+      "id": 825,
+      "name": "Muzz’s Venice chase",
+      "short": "Muzz’s Venice chase",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+      "area": "Venice",
+      "coordinates": [
+        -118.47315,
+        33.98697
+      ],
+      "productionCoordinates": [
+        -118.47315,
+        33.98697
+      ],
+      "precision": "street-segment",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+        "precision": "street-segment",
+        "reason": "Venice historian Jeffrey Stanton identifies the on-screen crash on Speedway just south of Windward Avenue. This is a block-level event pin. The source does not establish enough continuous geometry for a full chase route.",
+        "sourceIds": [
+          "dragnet_venice_history",
+          "dragnet_chase_scene",
+          "dragnet_dialogue",
+          "dragnet_geocoder"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek",
+        "Emil Muzz"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-venice-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/look-out-muppets/",
+          "imageUrl": "https://clip.cafe/img800/look-out-muppets.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek inside their car during the Venice pursuit in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-venice-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/09/18/surf-ninjas-1993/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/surfninjas2.jpg",
+          "alt": "Windward Avenue in the vicinity of Speedway, Venice.",
+          "credit": "Film Oblivion",
+          "width": 1200,
+          "height": 880,
+          "note": "Site photograph near Windward Avenue and Speedway; capture date unverified. This is the chase vicinity, not a claim to the exact impact point."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek pursue Muzz through Venice",
+          "filming_component": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+          "source_ids": [
+            "dragnet_venice_history",
+            "dragnet_chase_scene",
+            "dragnet_dialogue",
+            "dragnet_geocoder"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            },
+            {
+              "name": "Emil Muzz",
+              "relationship": "pursued through Venice"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "name": "Parker Center",
+      "short": "Parker Center",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "251 East 6th Street, Los Angeles, CA 90014",
+      "area": "Civic Center · story / Skid Row · production",
+      "coordinates": [
+        -118.240748,
+        34.051926
+      ],
+      "productionCoordinates": [
+        -118.247299985144,
+        34.044019996209
+      ],
+      "precision": "historical-building-site",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "Parker Center · former 150 North Los Angeles Street, Los Angeles, CA",
+        "precision": "historical-building-site",
+        "reason": "The dialogue repeatedly names Parker Center as the partners’ workplace. The story pin uses its historical site at 150 North Los Angeles Street. The documented police-station exterior was filmed at Central Community Police Station, 251 East 6th Street; the Maps link and site photograph refer to that production exterior. Parker Center was demolished in 2019.",
+        "sourceIds": [
+          "dragnet_dialogue",
+          "dragnet_locations",
+          "dragnet_parker_lapd",
+          "dragnet_parker_history",
+          "dragnet_parker_coordinates",
+          "dragnet_central_official"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek",
+        "Bill Gannon",
+        "Emil Muzz"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-parker-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/sit-down-youre-growing/",
+          "imageUrl": "https://clip.cafe/img800/sit-down-youre-growing.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Emil Muzz in the police interview room in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-central-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/10/08/destroyer-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/destroyer6.jpg",
+          "alt": "Central Community Police Station at 251 East 6th Street, the Dragnet exterior filming site.",
+          "credit": "Film Oblivion",
+          "width": 1200,
+          "height": 888,
+          "note": "Production exterior at Central Station, distinct from the story’s named Parker Center. Capture date unverified."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek’s Robbery–Homicide workplace",
+          "filming_component": "251 East 6th Street, Los Angeles, CA 90014",
+          "source_ids": [
+            "dragnet_dialogue",
+            "dragnet_locations",
+            "dragnet_parker_lapd",
+            "dragnet_parker_history",
+            "dragnet_parker_coordinates",
+            "dragnet_central_official"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Bill Gannon",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Emil Muzz",
+              "relationship": "questioned at the station"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "mapsQuery": "251 East 6th Street, Los Angeles, CA 90014"
+    }
+  ],
+  "sources": [
+    {
+      "id": "dragnet_zoo_scene",
+      "title": "Dragnet: zoo investigation film scene",
+      "url": "https://clip.cafe/dragnet-1987/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_park_scene",
+      "title": "Dragnet: park telephone film scene",
+      "url": "https://clip.cafe/dragnet-1987/its-you-the-president/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_chase_scene",
+      "title": "Dragnet: Venice pursuit film scene",
+      "url": "https://clip.cafe/dragnet-1987/look-out-muppets/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_venice_history",
+      "title": "Jeffrey Stanton: Dragnet chase on Speedway south of Windward",
+      "url": "https://www.westland.net/venicehistory/articles/movies.htm",
+      "source_type": "local historian’s location research"
+    },
+    {
+      "id": "dragnet_locations_full",
+      "title": "Dragnet: production-location list (2016 archive)",
+      "url": "https://www.rated.no/dragnet-1987-usa-filmomtale/",
+      "source_type": "secondary production-location list"
+    },
+    {
+      "id": "dragnet_zoo_official",
+      "title": "Los Angeles Zoo: official address and entrance",
+      "url": "https://lazoo.org/plan-your-visit/getting-here/",
+      "source_type": "official site"
+    },
+    {
+      "id": "dragnet_geocoder",
+      "title": "Esri World Geocoder: named sites and Windward/Speedway intersection",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoder"
+    },
+    {
+      "id": "dragnet_parker_lapd",
+      "title": "LAPD: Parker Center’s original address and replacement headquarters",
+      "url": "https://www.lapdonline.org/newsroom/lapd-facilities-update-and-media-tour-of-new-headquarters-building-nr09442sf/",
+      "source_type": "official institutional history"
+    },
+    {
+      "id": "dragnet_parker_history",
+      "title": "Los Angeles Conservancy: Parker Center historical site and demolition",
+      "url": "https://www.laconservancy.org/learn/historic-places/parker-center/",
+      "source_type": "preservation organization"
+    },
+    {
+      "id": "dragnet_parker_coordinates",
+      "title": "Parker Center: historical named-place coordinates",
+      "url": "https://en.wikipedia.org/wiki/Parker_Center",
+      "source_type": "secondary geographic reference"
+    },
+    {
+      "id": "dragnet_central_official",
+      "title": "LAPD: Central Community Police Station",
+      "url": "https://www.lapdonline.org/lapd-contact/central-bureau/central-community-police-station/",
+      "source_type": "official site"
+    }
+  ],
+  "geocodes": [
+    {
+      "query": "Los Angeles Zoo, 5333 Zoo Drive, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Los+Angeles+Zoo%2C+5333+Zoo+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidates": [
+        {
+          "address": "Los Angeles Zoo",
+          "location": {
+            "x": -118.2840739,
+            "y": 34.1483753
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "Los Angeles Zoo",
+            "Addr_type": "POI"
+          },
+          "extent": {
+            "xmin": -118.2890739,
+            "ymin": 34.1433753,
+            "xmax": -118.2790739,
+            "ymax": 34.1533753
+          }
+        }
+      ]
+    },
+    {
+      "query": "Speedway and Windward Avenue, Venice, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Speedway+and+Windward+Avenue%2C+Venice%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidates": [
+        {
+          "address": "Speed Way & Windward Ave, Venice, California, 90291",
+          "location": {
+            "x": -118.473266371746,
+            "y": 33.987103017972
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "Speed Way & Windward Ave, Venice, California, 90291",
+            "Addr_type": "StreetInt"
+          },
+          "extent": {
+            "xmin": -118.474266371746,
+            "ymin": 33.986103017972,
+            "xmax": -118.472266371746,
+            "ymax": 33.988103017972
+          }
+        }
+      ]
+    },
+    {
+      "query": "Parker Center, 150 North Los Angeles Street, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Parker+Center%2C+150+North+Los+Angeles+Street%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidates": [
+        {
+          "address": "Parker Center",
+          "location": {
+            "x": -118.241589,
+            "y": 34.051545
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "Parker Center",
+            "Addr_type": "POI"
+          },
+          "extent": {
+            "xmin": -118.246589,
+            "ymin": 34.046545,
+            "xmax": -118.236589,
+            "ymax": 34.056545
+          }
+        }
+      ]
+    },
+    {
+      "query": "251 East 6th Street, Los Angeles, CA 90014",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=251+East+6th+Street%2C+Los+Angeles%2C+CA+90014&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidates": [
+        {
+          "address": "251 E 6th St, Los Angeles, California, 90014",
+          "location": {
+            "x": -118.247299985144,
+            "y": 34.044019996209
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "251 E 6th St, Los Angeles, California, 90014",
+            "Addr_type": "PointAddress"
+          },
+          "extent": {
+            "xmin": -118.248299985144,
+            "ymin": 34.043019996209,
+            "xmax": -118.246299985144,
+            "ymax": 34.045019996209
+          }
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "id": 823,
+      "verification": "The narration identifies Griffith Park Zoo, and the production filmed at the Los Angeles Zoo. The pin represents the zoo complex; no exact 1987 enclosure position is asserted.",
+      "media_review": "Both images were visually inspected. Film frames retain scene-specific captions; site photographs are undated unless explicitly documented. No death or late-plot outcome is inferred."
+    },
+    {
+      "id": 824,
+      "verification": "The film shows the partners at a lakeside park telephone. The location list identifies Echo Park Lake; the dialogue does not name the park. The existing lake pin is a site-level anchor, not a surveyed telephone-booth position.",
+      "media_review": "Both images were visually inspected. Film frames retain scene-specific captions; site photographs are undated unless explicitly documented. No death or late-plot outcome is inferred."
+    },
+    {
+      "id": 825,
+      "verification": "Venice historian Jeffrey Stanton identifies the on-screen crash on Speedway just south of Windward Avenue. This is a block-level event pin. The source does not establish enough continuous geometry for a full chase route.",
+      "media_review": "Both images were visually inspected. Film frames retain scene-specific captions; site photographs are undated unless explicitly documented. No death or late-plot outcome is inferred."
+    },
+    {
+      "id": 826,
+      "verification": "The dialogue repeatedly names Parker Center as the partners’ workplace. The story pin uses its historical site at 150 North Los Angeles Street. The documented police-station exterior was filmed at Central Community Police Station, 251 East 6th Street; the Maps link and site photograph refer to that production exterior. Parker Center was demolished in 2019.",
+      "media_review": "Both images were visually inspected. Film frames retain scene-specific captions; site photographs are undated unless explicitly documented. No death or late-plot outcome is inferred."
+    }
+  ],
+  "held": [
+    {
+      "name": "Jerry Caesar’s mansion",
+      "reason": "The dialogue explicitly places the house in Bel-Air, while the verified production address is 3431 Waverly Drive in Los Feliz. No precise Bel-Air story address is known; no false mansion pin is added.",
+      "source_ids": [
+        "dragnet_dialogue",
+        "dragnet_afi",
+        "dragnet_locations"
+      ]
+    },
+    {
+      "name": "Brown Derby dinner",
+      "reason": "AFI documents Pasadena filming while IMDb also lists a Wilshire Boulevard exterior. The branch/composite geography needs visual resolution before assigning a story address.",
+      "source_ids": [
+        "dragnet_afi",
+        "dragnet_locations"
+      ]
+    },
+    {
+      "name": "Connie Swail’s home",
+      "reason": "The story explicitly places it in Anaheim, Orange County; outside the map’s Los Angeles County scope.",
+      "source_ids": [
+        "dragnet_dialogue"
+      ]
+    },
+    {
+      "name": "PAGAN rally",
+      "reason": "The film mentions sheriff jurisdiction, but a precise continuous story/production point is not established. Desert and backlot credits alone do not identify a qualifying L.A. County pin.",
+      "source_ids": [
+        "dragnet_afi",
+        "dragnet_locations_full"
+      ]
+    }
+  ]
+}

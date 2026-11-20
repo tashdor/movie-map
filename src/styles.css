@@ -59,3 +59,15 @@
 .danger-scale{display:flex;justify-content:space-between;font-size:12px;line-height:1.3;margin-top:4px}
 .reference-options .danger-layer-choice{font-size:14px}
 @media(max-width:760px){.danger-legend{left:14px;bottom:112px;width:142px}}
+
+.atlas-marker[hidden]{display:none}
+.marker-site-count{position:absolute;right:-7px;top:-9px;min-width:18px;height:18px;padding:0 3px;border:1px solid var(--film-color);border-radius:50%;background:var(--paper);color:var(--film-color);font-family:var(--condensed);font-size:12px;line-height:16px;text-align:center}
+.marker-site-count:hover{background:var(--film-color);color:var(--paper)}
+.atlas-marker.site-open{z-index:400!important}
+.site-open>.marker-tooltip{display:none}
+.marker-site-choices{position:absolute;z-index:20;width:310px;max-height:320px;overflow:auto;background:var(--paper);border:1px solid var(--ink);box-shadow:2px 3px 0 #22251e30;text-align:left}
+.marker-site-choices>button{display:block;width:100%;padding:9px 11px;text-align:left;color:var(--film-color);border-left:3px solid var(--film-color)}
+.marker-site-choices>button+button{border-top:1px solid var(--line)}
+.marker-site-choices>button:hover,.marker-site-choices>button:focus-visible{background:#eae3d4}
+.marker-site-choices strong{display:block;font-family:var(--condensed);font-size:20px;line-height:1.15;font-weight:500}
+.marker-site-choices small{display:block;font-size:10px;line-height:1.5;margin-top:4px}

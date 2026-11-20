@@ -2230,6 +2230,63 @@
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
         }
       },
+      "Rebel Without a Cause": {
+        "screen": {
+          "src": "photos/rebel-griffith-screen.jpg",
+          "sourceUrl": "https://clip.cafe/rebel-without-a-cause-1955/i-thought-only-punks-fought-with-knives/",
+          "imageUrl": "https://clip.cafe/img800/i-thought-only-punks-fought-with-knives.jpg",
+          "credit": "Rebel Without a Cause film frame · Clip.Cafe",
+          "title": "Rebel Without a Cause",
+          "alt": "Jim Stark and Buzz on the Observatory terrace in Rebel Without a Cause.",
+          "width": 800,
+          "height": 313,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
+      "Under the Silver Lake": {
+        "screen": {
+          "src": "photos/silverlake-griffith-screen.jpg",
+          "sourceUrl": "https://clip.cafe/under-the-silver-lake-2018/rub-deans-head-and-wait-under-newton-okay/",
+          "imageUrl": "https://clip.cafe/img800/rub-deans-head-and-wait-under-newton-okay.jpg",
+          "credit": "Under the Silver Lake film frame · Clip.Cafe",
+          "title": "Under the Silver Lake",
+          "alt": "The Observatory courtyard and Astronomers Monument in Under the Silver Lake.",
+          "width": 800,
+          "height": 336,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
+      "Agent Carter": {
+        "screen": {
+          "src": "photos/carter-griffith-screen.jpg",
+          "sourceUrl": "https://mculocationscout.com/2024/11/12/griffith-observatory-mcu-location-scout/",
+          "imageUrl": "https://mculocationscout.com/wp-content/uploads/2024/08/carter-s02e02-40-griffithobservatory.jpg?w=1000",
+          "credit": "Agent Carter film frame · Marvel Television / ABC; MCU: Location Scout",
+          "title": "Agent Carter",
+          "alt": "Peggy Carter and Jason Wilkes on Griffith Observatory’s terrace.",
+          "width": 1200,
+          "height": 674,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
       "Star Trek: Voyager": {
         "place": {
           "src": "photos/083-place.jpg",
@@ -9305,6 +9362,54 @@
       "alt": "Echo Park Lake — real filming site",
       "credit": "Film Oblivion",
       "note": "Capture date not specified by publisher."
+    },
+    "byTitle": {
+      "Under the Silver Lake": {
+        "screen": {
+          "src": "photos/extra-cult-671-screen.jpg",
+          "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+          "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_lead1_a24.jpg",
+          "width": 800,
+          "height": 500,
+          "title": "Under the Silver Lake",
+          "alt": "Echo Park Lake in Under the Silver Lake",
+          "spoiler": false,
+          "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+        },
+        "place": {
+          "src": "photos/extra-cult-671-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+          "width": 1000,
+          "height": 750,
+          "alt": "Echo Park Lake — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher."
+        }
+      },
+      "Dragnet": {
+        "screen": {
+          "src": "photos/dragnet-echo-park-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/its-you-the-president/",
+          "imageUrl": "https://clip.cafe/img800/its-you-the-president.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek at the park telephone in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/extra-cult-671-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+          "width": 1000,
+          "height": 750,
+          "alt": "Echo Park Lake — real filming site",
+          "credit": "Film Oblivion",
+          "note": "Capture date not specified by publisher."
+        }
+      }
     }
   },
   "672": {
@@ -10223,6 +10328,75 @@
       "width": 1024,
       "height": 768,
       "note": "Source image metadata records 30 July 2022. This photograph shows the replacement bridge near the scene area, rather than the demolished screen pillars or the exact time-portal footprint."
+    }
+  },
+  "823": {
+    "screen": {
+      "src": "photos/dragnet-zoo-screen.jpg",
+      "sourceUrl": "https://clip.cafe/dragnet-1987/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat/",
+      "imageUrl": "https://clip.cafe/img800/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat.jpg",
+      "credit": "Dragnet film frame · Clip.Cafe",
+      "title": "Dragnet",
+      "alt": "Friday and Streebek speak to the zoo keeper in Dragnet.",
+      "width": 800,
+      "height": 433,
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/dragnet-zoo-place.jpg",
+      "sourceUrl": "https://lazoo.org/plan-your-visit/getting-here/",
+      "imageUrl": "https://lazoo.org/wp-content/uploads/2023/04/Front-Entrance-Billboard-and-Banners-crop-JEP_4883.jpg",
+      "alt": "The Los Angeles Zoo entrance.",
+      "credit": "Los Angeles Zoo / City of Los Angeles",
+      "width": 1200,
+      "height": 778,
+      "note": "Official visitor-page photograph; capture date unverified. The entrance represents the zoo complex, not an exact 1987 animal enclosure."
+    }
+  },
+  "825": {
+    "screen": {
+      "src": "photos/dragnet-venice-screen.jpg",
+      "sourceUrl": "https://clip.cafe/dragnet-1987/look-out-muppets/",
+      "imageUrl": "https://clip.cafe/img800/look-out-muppets.jpg",
+      "credit": "Dragnet film frame · Clip.Cafe",
+      "title": "Dragnet",
+      "alt": "Friday and Streebek inside their car during the Venice pursuit in Dragnet.",
+      "width": 800,
+      "height": 433,
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/dragnet-venice-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/09/18/surf-ninjas-1993/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/surfninjas2.jpg",
+      "alt": "Windward Avenue in the vicinity of Speedway, Venice.",
+      "credit": "Film Oblivion",
+      "width": 1200,
+      "height": 880,
+      "note": "Site photograph near Windward Avenue and Speedway; capture date unverified. This is the chase vicinity, not a claim to the exact impact point."
+    }
+  },
+  "826": {
+    "screen": {
+      "src": "photos/dragnet-parker-screen.jpg",
+      "sourceUrl": "https://clip.cafe/dragnet-1987/sit-down-youre-growing/",
+      "imageUrl": "https://clip.cafe/img800/sit-down-youre-growing.jpg",
+      "credit": "Dragnet film frame · Clip.Cafe",
+      "title": "Dragnet",
+      "alt": "Emil Muzz in the police interview room in Dragnet.",
+      "width": 800,
+      "height": 433,
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/dragnet-central-place.jpg",
+      "sourceUrl": "https://filmoblivion.com/2022/10/08/destroyer-2018/",
+      "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/destroyer6.jpg",
+      "alt": "Central Community Police Station at 251 East 6th Street, the Dragnet exterior filming site.",
+      "credit": "Film Oblivion",
+      "width": 1200,
+      "height": 888,
+      "note": "Production exterior at Central Station, distinct from the story’s named Parker Center. Capture date unverified."
     }
   }
 }

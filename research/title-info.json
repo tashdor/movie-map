@@ -529,6 +529,13 @@
       "year": 1962,
       "type": "movie",
       "sourceUrl": "https://www.imdb.com/title/tt0056687/"
+    },
+    "Agent Carter": {
+      "imdbId": "tt3475734",
+      "year": 2015,
+      "endYear": 2016,
+      "type": "series",
+      "sourceUrl": "https://www.imdb.com/title/tt3475734/"
     }
   }
 }

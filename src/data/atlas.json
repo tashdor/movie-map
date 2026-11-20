@@ -8767,7 +8767,14 @@
         "Eddie Valentine",
         "Joe Friday",
         "Connie Swail",
-        "Pep Streebek"
+        "Pep Streebek",
+        "Jim Stark",
+        "Judy",
+        "John “Plato” Crawford",
+        "Buzz Gunderson",
+        "Sam",
+        "Peggy Carter",
+        "Jason Wilkes"
       ],
       "featured": true,
       "appearances": [
@@ -8970,6 +8977,124 @@
             "name": "Los Angeles, California",
             "canonicalLA": true
           }
+        },
+        {
+          "title": "Rebel Without a Cause",
+          "release_year": 1955,
+          "story_role": "Jim, Judy and Plato’s planetarium visit",
+          "story_time": {
+            "year": 1955,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary story; release year is an editorial estimate.",
+            "source_ids": [
+              "noir_rebel_cineguides",
+              "noir_rebel_alex"
+            ]
+          },
+          "filming_component": "Griffith Observatory and grounds",
+          "source_ids": [
+            "griffith_rebel_official",
+            "griffith_rebel_scene"
+          ],
+          "characters": [
+            {
+              "name": "Jim Stark",
+              "relationship": "visits the observatory"
+            },
+            {
+              "name": "Judy",
+              "relationship": "visits the observatory"
+            },
+            {
+              "name": "John “Plato” Crawford",
+              "relationship": "visits the observatory"
+            },
+            {
+              "name": "Buzz Gunderson",
+              "relationship": "visits the observatory"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        },
+        {
+          "title": "Under the Silver Lake",
+          "release_year": 2018,
+          "story_role": "Sam visits the James Dean bust and Astronomers Monument",
+          "story_time": {
+            "year": 2011,
+            "precision": "year",
+            "certainty": "director-confirmed",
+            "basis": "Director David Robert Mitchell explicitly places the story in the fictional summer of 2011.",
+            "source_ids": [
+              "cult_utsl_time"
+            ]
+          },
+          "filming_component": "Griffith Observatory and grounds",
+          "source_ids": [
+            "griffith_silverlake_script",
+            "griffith_silverlake_location",
+            "cult_utsl_time"
+          ],
+          "characters": [
+            {
+              "name": "Sam",
+              "relationship": "visits the observatory"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
+        },
+        {
+          "title": "Agent Carter",
+          "release_year": 2016,
+          "story_role": "Peggy and Jason’s evening at the Observatory",
+          "story_time": {
+            "year": 1947,
+            "precision": "year",
+            "certainty": "series-setting",
+            "basis": "Season two establishes Los Angeles in 1947. No exact day is assigned to the Observatory visit.",
+            "source_ids": [
+              "griffith_carter_time"
+            ]
+          },
+          "filming_component": "Griffith Observatory and grounds",
+          "source_ids": [
+            "griffith_carter_location",
+            "griffith_carter_dialogue",
+            "griffith_carter_time"
+          ],
+          "characters": [
+            {
+              "name": "Peggy Carter",
+              "relationship": "visits the observatory"
+            },
+            {
+              "name": "Jason Wilkes",
+              "relationship": "visits the observatory"
+            }
+          ],
+          "categories": [
+            "hangout"
+          ],
+          "episodes": [
+            "A View in the Dark · S2E2"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "Shared site across The Terminator, La La Land and Star Trek: Voyager. La La Land's planetarium was recreated on a stage. Voyager exterior filming is documented; Rain's laboratory interior is not yet verified as on-location. Rain's employment is established during the 1996 story, but no start or end date for her job is inferred.",
@@ -9069,6 +9194,41 @@
             "griffith_official_map"
           ],
           "reason": "AFI names Griffith Park Observatory as the story location. The film depicts the Observatory itself, including its telescope dome."
+        },
+        "Rebel Without a Cause": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "sourceIds": [
+            "griffith_rebel_official",
+            "griffith_rebel_scene",
+            "griffith_official_map"
+          ],
+          "reason": "The Observatory plays itself. This appearance shares the official Observatory building pin; the courtyard and terrace are parts of that site."
+        },
+        "Under the Silver Lake": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "sourceIds": [
+            "griffith_silverlake_script",
+            "griffith_silverlake_location",
+            "cult_utsl_time",
+            "griffith_official_map"
+          ],
+          "reason": "The Observatory plays itself. This appearance shares the official Observatory building pin; the courtyard and terrace are parts of that site."
+        },
+        "Agent Carter": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "named-building",
+          "sourceIds": [
+            "griffith_carter_location",
+            "griffith_carter_dialogue",
+            "griffith_carter_time",
+            "griffith_official_map"
+          ],
+          "reason": "The Observatory plays itself. This appearance shares the official Observatory building pin; the courtyard and terrace are parts of that site."
         }
       },
       "mediaByTitle": {
@@ -9138,6 +9298,63 @@
               "spoiler": true
             }
           ],
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
+        },
+        "Rebel Without a Cause": {
+          "screen": {
+            "src": "photos/rebel-griffith-screen.jpg",
+            "sourceUrl": "https://clip.cafe/rebel-without-a-cause-1955/i-thought-only-punks-fought-with-knives/",
+            "imageUrl": "https://clip.cafe/img800/i-thought-only-punks-fought-with-knives.jpg",
+            "credit": "Rebel Without a Cause film frame · Clip.Cafe",
+            "title": "Rebel Without a Cause",
+            "alt": "Jim Stark and Buzz on the Observatory terrace in Rebel Without a Cause.",
+            "width": 800,
+            "height": 313,
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
+        },
+        "Under the Silver Lake": {
+          "screen": {
+            "src": "photos/silverlake-griffith-screen.jpg",
+            "sourceUrl": "https://clip.cafe/under-the-silver-lake-2018/rub-deans-head-and-wait-under-newton-okay/",
+            "imageUrl": "https://clip.cafe/img800/rub-deans-head-and-wait-under-newton-okay.jpg",
+            "credit": "Under the Silver Lake film frame · Clip.Cafe",
+            "title": "Under the Silver Lake",
+            "alt": "The Observatory courtyard and Astronomers Monument in Under the Silver Lake.",
+            "width": 800,
+            "height": 336,
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
+        },
+        "Agent Carter": {
+          "screen": {
+            "src": "photos/carter-griffith-screen.jpg",
+            "sourceUrl": "https://mculocationscout.com/2024/11/12/griffith-observatory-mcu-location-scout/",
+            "imageUrl": "https://mculocationscout.com/wp-content/uploads/2024/08/carter-s02e02-40-griffithobservatory.jpg?w=1000",
+            "credit": "Agent Carter film frame · Marvel Television / ABC; MCU: Location Scout",
+            "title": "Agent Carter",
+            "alt": "Peggy Carter and Jason Wilkes on Griffith Observatory’s terrace.",
+            "width": 1200,
+            "height": 674,
+            "spoiler": false
+          },
           "place": {
             "src": "photos/083-place.jpg",
             "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
@@ -45941,7 +46158,8 @@
       "short": "Echo Park Lake",
       "category": "hangout",
       "categories": [
-        "hangout"
+        "hangout",
+        "event"
       ],
       "address": "Echo Park Lake, Los Angeles",
       "area": "Echo Park",
@@ -45971,7 +46189,9 @@
         "canonicalLA": true
       },
       "people": [
-        "Sam"
+        "Sam",
+        "Joe Friday",
+        "Pep Streebek"
       ],
       "featured": false,
       "appearances": [
@@ -46007,6 +46227,44 @@
             "name": "Los Angeles, California",
             "canonicalLA": true
           }
+        },
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek follow Muzz’s lead at the park telephone",
+          "filming_component": "Echo Park Lake, Los Angeles, CA",
+          "source_ids": [
+            "dragnet_dialogue",
+            "dragnet_park_scene",
+            "dragnet_locations_full"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "",
@@ -46032,6 +46290,79 @@
           "alt": "Echo Park Lake — real filming site",
           "credit": "Film Oblivion",
           "note": "Capture date not specified by publisher."
+        }
+      },
+      "placementByTitle": {
+        "Under the Silver Lake": {
+          "kind": "filming-proxy",
+          "address": "Echo Park",
+          "precision": "PointAddress",
+          "sourceIds": [
+            "cult_utsl_lamag",
+            "cult_utsl_fo",
+            "cult_utsl_time",
+            "cult_geo"
+          ],
+          "reason": "The documented on-location exterior is used as a filming proxy; no separately verified canonical street number is asserted."
+        },
+        "Dragnet": {
+          "kind": "filming-proxy",
+          "address": "Los Angeles park · filmed at Echo Park Lake",
+          "precision": "named-site",
+          "reason": "The film shows the partners at a lakeside park telephone. The location list identifies Echo Park Lake; the dialogue does not name the park. The existing lake pin is a site-level anchor, not a surveyed telephone-booth position.",
+          "sourceIds": [
+            "dragnet_dialogue",
+            "dragnet_park_scene",
+            "dragnet_locations_full"
+          ]
+        }
+      },
+      "mediaByTitle": {
+        "Under the Silver Lake": {
+          "screen": {
+            "src": "photos/extra-cult-671-screen.jpg",
+            "sourceUrl": "https://lamag.com/film/the-industry/under-the-silver-lake-los-angeles-locations/",
+            "imageUrl": "https://lamag.com/wp-content/uploads/2023/04/utsl_lead1_a24.jpg",
+            "width": 800,
+            "height": 500,
+            "title": "Under the Silver Lake",
+            "alt": "Echo Park Lake in Under the Silver Lake",
+            "spoiler": false,
+            "credit": "Under the Silver Lake / A24; reproduced by Los Angeles Magazine"
+          },
+          "place": {
+            "src": "photos/extra-cult-671-place.jpg",
+            "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+            "width": 1000,
+            "height": 750,
+            "alt": "Echo Park Lake — real filming site",
+            "credit": "Film Oblivion",
+            "note": "Capture date not specified by publisher."
+          }
+        },
+        "Dragnet": {
+          "screen": {
+            "src": "photos/dragnet-echo-park-screen.jpg",
+            "sourceUrl": "https://clip.cafe/dragnet-1987/its-you-the-president/",
+            "imageUrl": "https://clip.cafe/img800/its-you-the-president.jpg",
+            "credit": "Dragnet film frame · Clip.Cafe",
+            "title": "Dragnet",
+            "alt": "Friday and Streebek at the park telephone in Dragnet.",
+            "width": 800,
+            "height": 433,
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/extra-cult-671-place.jpg",
+            "sourceUrl": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+            "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/08/underthesilverlake8.jpg?w=1000",
+            "width": 1000,
+            "height": 750,
+            "alt": "Echo Park Lake — real filming site",
+            "credit": "Film Oblivion",
+            "note": "Capture date not specified by publisher."
+          }
         }
       }
     },
@@ -49432,6 +49763,336 @@
           "note": "Published in the restoration architect’s project portfolio; capture date unverified. Not presented as a recent photograph."
         }
       }
+    },
+    {
+      "id": 823,
+      "name": "Los Angeles Zoo",
+      "short": "Los Angeles Zoo",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "5333 Zoo Drive, Los Angeles, CA 90027",
+      "area": "Griffith Park",
+      "coordinates": [
+        -118.2840739,
+        34.1483753
+      ],
+      "productionCoordinates": [
+        -118.2840739,
+        34.1483753
+      ],
+      "precision": "named-site",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "5333 Zoo Drive, Los Angeles, CA 90027",
+        "precision": "named-site",
+        "reason": "The narration identifies Griffith Park Zoo, and the production filmed at the Los Angeles Zoo. The pin represents the zoo complex; no exact 1987 enclosure position is asserted.",
+        "sourceIds": [
+          "dragnet_afi",
+          "dragnet_dialogue",
+          "dragnet_zoo_scene",
+          "dragnet_locations_full",
+          "dragnet_zoo_official",
+          "dragnet_geocoder"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-zoo-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat/",
+          "imageUrl": "https://clip.cafe/img800/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek speak to the zoo keeper in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-zoo-place.jpg",
+          "sourceUrl": "https://lazoo.org/plan-your-visit/getting-here/",
+          "imageUrl": "https://lazoo.org/wp-content/uploads/2023/04/Front-Entrance-Billboard-and-Banners-crop-JEP_4883.jpg",
+          "alt": "The Los Angeles Zoo entrance.",
+          "credit": "Los Angeles Zoo / City of Los Angeles",
+          "width": 1200,
+          "height": 778,
+          "note": "Official visitor-page photograph; capture date unverified. The entrance represents the zoo complex, not an exact 1987 animal enclosure."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek investigate the animal thefts",
+          "filming_component": "5333 Zoo Drive, Los Angeles, CA 90027",
+          "source_ids": [
+            "dragnet_afi",
+            "dragnet_dialogue",
+            "dragnet_zoo_scene",
+            "dragnet_locations_full",
+            "dragnet_zoo_official",
+            "dragnet_geocoder"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 825,
+      "name": "Muzz’s Venice chase",
+      "short": "Muzz’s Venice chase",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+      "area": "Venice",
+      "coordinates": [
+        -118.47315,
+        33.98697
+      ],
+      "productionCoordinates": [
+        -118.47315,
+        33.98697
+      ],
+      "precision": "street-segment",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+        "precision": "street-segment",
+        "reason": "Venice historian Jeffrey Stanton identifies the on-screen crash on Speedway just south of Windward Avenue. This is a block-level event pin. The source does not establish enough continuous geometry for a full chase route.",
+        "sourceIds": [
+          "dragnet_venice_history",
+          "dragnet_chase_scene",
+          "dragnet_dialogue",
+          "dragnet_geocoder"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek",
+        "Emil Muzz"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-venice-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/look-out-muppets/",
+          "imageUrl": "https://clip.cafe/img800/look-out-muppets.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Friday and Streebek inside their car during the Venice pursuit in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-venice-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/09/18/surf-ninjas-1993/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/surfninjas2.jpg",
+          "alt": "Windward Avenue in the vicinity of Speedway, Venice.",
+          "credit": "Film Oblivion",
+          "width": 1200,
+          "height": 880,
+          "note": "Site photograph near Windward Avenue and Speedway; capture date unverified. This is the chase vicinity, not a claim to the exact impact point."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek pursue Muzz through Venice",
+          "filming_component": "Speedway just south of Windward Avenue, Venice, Los Angeles, CA",
+          "source_ids": [
+            "dragnet_venice_history",
+            "dragnet_chase_scene",
+            "dragnet_dialogue",
+            "dragnet_geocoder"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "visits"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "visits"
+            },
+            {
+              "name": "Emil Muzz",
+              "relationship": "pursued through Venice"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "name": "Parker Center",
+      "short": "Parker Center",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "address": "251 East 6th Street, Los Angeles, CA 90014",
+      "area": "Civic Center · story / Skid Row · production",
+      "coordinates": [
+        -118.240748,
+        34.051926
+      ],
+      "productionCoordinates": [
+        -118.247299985144,
+        34.044019996209
+      ],
+      "precision": "historical-building-site",
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "placement": {
+        "kind": "screen",
+        "address": "Parker Center · former 150 North Los Angeles Street, Los Angeles, CA",
+        "precision": "historical-building-site",
+        "reason": "The dialogue repeatedly names Parker Center as the partners’ workplace. The story pin uses its historical site at 150 North Los Angeles Street. The documented police-station exterior was filmed at Central Community Police Station, 251 East 6th Street; the Maps link and site photograph refer to that production exterior. Parker Center was demolished in 2019.",
+        "sourceIds": [
+          "dragnet_dialogue",
+          "dragnet_locations",
+          "dragnet_parker_lapd",
+          "dragnet_parker_history",
+          "dragnet_parker_coordinates",
+          "dragnet_central_official"
+        ]
+      },
+      "people": [
+        "Joe Friday",
+        "Pep Streebek",
+        "Bill Gannon",
+        "Emil Muzz"
+      ],
+      "featured": false,
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/dragnet-parker-screen.jpg",
+          "sourceUrl": "https://clip.cafe/dragnet-1987/sit-down-youre-growing/",
+          "imageUrl": "https://clip.cafe/img800/sit-down-youre-growing.jpg",
+          "credit": "Dragnet film frame · Clip.Cafe",
+          "title": "Dragnet",
+          "alt": "Emil Muzz in the police interview room in Dragnet.",
+          "width": 800,
+          "height": 433,
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/dragnet-central-place.jpg",
+          "sourceUrl": "https://filmoblivion.com/2022/10/08/destroyer-2018/",
+          "imageUrl": "https://filmoblivion.com/wp-content/uploads/2022/09/destroyer6.jpg",
+          "alt": "Central Community Police Station at 251 East 6th Street, the Dragnet exterior filming site.",
+          "credit": "Film Oblivion",
+          "width": 1200,
+          "height": 888,
+          "note": "Production exterior at Central Station, distinct from the story’s named Parker Center. Capture date unverified."
+        }
+      },
+      "appearances": [
+        {
+          "title": "Dragnet",
+          "release_year": 1987,
+          "story_role": "Friday and Streebek’s Robbery–Homicide workplace",
+          "filming_component": "251 East 6th Street, Los Angeles, CA 90014",
+          "source_ids": [
+            "dragnet_dialogue",
+            "dragnet_locations",
+            "dragnet_parker_lapd",
+            "dragnet_parker_history",
+            "dragnet_parker_coordinates",
+            "dragnet_central_official"
+          ],
+          "story_time": {
+            "year": 1987,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary setting; the 1987 release year is used as an editorial estimate. Opening Wednesday, January 7 and closing Monday, January 12 are consistent with 1987, but contradictory intervening dates prevent assigning an exact day.",
+            "source_ids": [
+              "dragnet_dialogue",
+              "dragnet_imdb"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Joe Friday",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Pep Streebek",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Bill Gannon",
+              "relationship": "works at the station"
+            },
+            {
+              "name": "Emil Muzz",
+              "relationship": "questioned at the station"
+            }
+          ],
+          "categories": [
+            "work"
+          ]
+        }
+      ],
+      "mapsQuery": "251 East 6th Street, Los Angeles, CA 90014"
     },
     {
       "id": 802,
@@ -55527,6 +56188,114 @@
       "title": "Dragnet (1987): film identity and release date",
       "url": "https://www.imdb.com/title/tt0092925/",
       "source_type": "film metadata"
+    },
+    {
+      "id": "dragnet_zoo_scene",
+      "title": "Dragnet: zoo investigation film scene",
+      "url": "https://clip.cafe/dragnet-1987/what-the-approximate-dry-weight-of-the-madagascar-fruit-tree-bat/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_park_scene",
+      "title": "Dragnet: park telephone film scene",
+      "url": "https://clip.cafe/dragnet-1987/its-you-the-president/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_chase_scene",
+      "title": "Dragnet: Venice pursuit film scene",
+      "url": "https://clip.cafe/dragnet-1987/look-out-muppets/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "dragnet_venice_history",
+      "title": "Jeffrey Stanton: Dragnet chase on Speedway south of Windward",
+      "url": "https://www.westland.net/venicehistory/articles/movies.htm",
+      "source_type": "local historian’s location research"
+    },
+    {
+      "id": "dragnet_locations_full",
+      "title": "Dragnet: production-location list (2016 archive)",
+      "url": "https://www.rated.no/dragnet-1987-usa-filmomtale/",
+      "source_type": "secondary production-location list"
+    },
+    {
+      "id": "dragnet_zoo_official",
+      "title": "Los Angeles Zoo: official address and entrance",
+      "url": "https://lazoo.org/plan-your-visit/getting-here/",
+      "source_type": "official site"
+    },
+    {
+      "id": "dragnet_geocoder",
+      "title": "Esri World Geocoder: named sites and Windward/Speedway intersection",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoder"
+    },
+    {
+      "id": "dragnet_parker_lapd",
+      "title": "LAPD: Parker Center’s original address and replacement headquarters",
+      "url": "https://www.lapdonline.org/newsroom/lapd-facilities-update-and-media-tour-of-new-headquarters-building-nr09442sf/",
+      "source_type": "official institutional history"
+    },
+    {
+      "id": "dragnet_parker_history",
+      "title": "Los Angeles Conservancy: Parker Center historical site and demolition",
+      "url": "https://www.laconservancy.org/learn/historic-places/parker-center/",
+      "source_type": "preservation organization"
+    },
+    {
+      "id": "dragnet_parker_coordinates",
+      "title": "Parker Center: historical named-place coordinates",
+      "url": "https://en.wikipedia.org/wiki/Parker_Center",
+      "source_type": "secondary geographic reference"
+    },
+    {
+      "id": "dragnet_central_official",
+      "title": "LAPD: Central Community Police Station",
+      "url": "https://www.lapdonline.org/lapd-contact/central-bureau/central-community-police-station/",
+      "source_type": "official site"
+    },
+    {
+      "id": "griffith_rebel_official",
+      "title": "Griffith Observatory: Rebel Without a Cause monument and on-site filming",
+      "url": "https://griffithobservatory.lacity.gov/exhibits/exterior-exhibits/rebel-without-a-cause-monument/",
+      "source_type": "official site"
+    },
+    {
+      "id": "griffith_rebel_scene",
+      "title": "Rebel Without a Cause: Observatory terrace film scene",
+      "url": "https://clip.cafe/rebel-without-a-cause-1955/i-thought-only-punks-fought-with-knives/",
+      "source_type": "film scene"
+    },
+    {
+      "id": "griffith_silverlake_script",
+      "title": "David Robert Mitchell: Under the Silver Lake screenplay, scenes 73–75",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/under-the-silver-lake-2018.pdf",
+      "source_type": "screenplay"
+    },
+    {
+      "id": "griffith_silverlake_location",
+      "title": "Film Oblivion: Under the Silver Lake — Observatory and James Dean bust",
+      "url": "https://filmoblivion.com/2022/08/12/under-the-silver-lake-2018/",
+      "source_type": "original location research"
+    },
+    {
+      "id": "griffith_carter_location",
+      "title": "MCU: Location Scout — Agent Carter at Griffith Observatory",
+      "url": "https://mculocationscout.com/2024/11/12/griffith-observatory-mcu-location-scout/",
+      "source_type": "original scene and location comparison"
+    },
+    {
+      "id": "griffith_carter_dialogue",
+      "title": "Agent Carter: A View in the Dark — final-episode dialogue",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=24830",
+      "source_type": "episode transcript"
+    },
+    {
+      "id": "griffith_carter_time",
+      "title": "Agent Carter season two: 1947 chronology",
+      "url": "https://en.wikipedia.org/wiki/Agent_Carter_season_2",
+      "source_type": "secondary chronology reference"
     },
     {
       "id": "bosch_angels_official",

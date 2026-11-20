@@ -19,10 +19,27 @@ test('Dragnet shares the Observatory building pin and retains its own story date
   assert.deepEqual(associatedPeople(place),['Joe Friday','Connie Swail','Pep Streebek']);
   assert.deepEqual(displayEntries(data.places,{film:'Dragnet',time:time(1986)}),[]);
   assert.deepEqual(displayEntries(data.places,{film:'Spies Like Us'}),[]);
-  assert.equal(displayEntries(data.places,{film:'Dragnet'}).length,1);
+  assert.equal(displayEntries(data.places,{film:'Dragnet'}).length,5);
   assert.equal(new URL(filmingSiteMapsUrl(place)).searchParams.get('query'),'34.1184341,-118.3003935');
   const [other]=displayEntries([data.places.find(p=>p.id===83)],{film:'The Rocketeer'});
   assert.equal(other.media.screen.title,'The Rocketeer');
+});
+
+test('Dragnet additions distinguish named story geography from the station exterior and preserve shared-site media',()=>{
+  const places=displayEntries(data.places,{film:'Dragnet'});
+  assert.deepEqual(new Set(places.map(p=>p.id)),new Set([83,823,671,825,826]));
+  const station=places.find(p=>p.id===826);
+  assert.deepEqual(station.coordinates,[-118.240748,34.051926]);
+  assert.notDeepEqual(station.coordinates,station.productionCoordinates);
+  assert.match(station.placement.address,/150 North Los Angeles Street/);
+  assert.equal(new URL(filmingSiteMapsUrl(station)).searchParams.get('query'),'251 East 6th Street, Los Angeles, CA 90014');
+  const lake=places.find(p=>p.id===671);
+  assert.equal(lake.media.screen.title,'Dragnet');
+  assert.match(lake.media.screen.src,/dragnet-echo-park/);
+  assert.equal(displayEntries([data.places.find(p=>p.id===671)],{film:'Under the Silver Lake'})[0].media.screen.title,'Under the Silver Lake');
+  assert.ok(places.every(p=>p.appearances.every(a=>a.story_time.year===1987)));
+  assert.equal(data.journeys.some(j=>j.title==='Dragnet'),false,'A single verified chase block must not become a guessed route');
+  for(const p of places)for(const photo of [p.media.screen,p.media.place])assert.ok(fs.existsSync(new URL('../public/'+photo.src,import.meta.url)));
 });
 
 test('Dragnet has its own real film frames and protects the revealing dome image',()=>{
