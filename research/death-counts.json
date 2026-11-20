@@ -1,0 +1,204 @@
+{
+  "researched_on": "2026-11-19",
+  "method": "Known victims listed individually in the existing catalog each contribute one. Sourced group totals override that lower bound, include named victims within the total, and are not added to them. Confirmed minimums omit unverified additional casualties. Unlocated scenes stay off the heatmap.",
+  "entries": [
+    {
+      "placeId": 511,
+      "title": "Nope",
+      "knownCount": 40,
+      "certainty": "reported-total",
+      "basis": "The screenplay stages 40 audience members initially, then specifies forty people swept into the creature and 40 park attendees inside it. The released newscast counts 40 guests and employees together. Use the combined count and avoid adding performers or employees to it. The newscast reports missing persons, with the fate of the swallowed group implied by the film. The park is the attack origin. The precise location where the group dies inside the airborne creature is uncertain.",
+      "source_ids": [
+        "death_count_nope_1",
+        "death_count_nope_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/nope-2022.pdf?v=1729114963",
+          "reference": "Peele screenplay pp. 57–58, 62 and 71, lines 2171, 2333–2352 and 2635–2643",
+          "quote": "the 40 park attendees"
+        },
+        {
+          "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=nope",
+          "reference": "Released-film newscast transcript, lines 2272–2281",
+          "quote": "those 40 guests and employees of a local Western theme park are still unknown"
+        }
+      ]
+    },
+    {
+      "placeId": 27,
+      "title": "L.A. Confidential",
+      "knownCount": 6,
+      "certainty": "exact",
+      "basis": "Dudley Smith gives six victims at the police briefing for the Nite Owl massacre and names Dick Stensland as one of them.",
+      "source_ids": [
+        "death_count_niteowl_1"
+      ],
+      "evidence": [
+        {
+          "url": "https://imsdb.com/scripts/L.A.-Confidential.html",
+          "reference": "Screenplay, police briefing scene, lines 2410–2423",
+          "quote": "Six victims. One of them, one of our own -- Dick Stensland."
+        }
+      ]
+    },
+    {
+      "placeId": 227,
+      "title": "The Terminator",
+      "knownCount": 17,
+      "certainty": "exact",
+      "basis": "The sequel names the station attacked in 1984 and gives the officer death toll. This evidence establishes the count and does not establish geographic placement.",
+      "source_ids": [
+        "death_count_station_1",
+        "death_count_station_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://screencraft.org/wp-content/uploads/2019/11/Terminator-2-Judgement-Day.pdf",
+          "reference": "Terminator 2 shooting screenplay p. 43, scenes 55–56, lines 1171–1190",
+          "quote": "He killed seventeen police officers that night."
+        },
+        {
+          "url": "https://clip.cafe/terminator-2-judgment-day-1991/these-taken-by-a-video-surveillance-camera-s1/",
+          "reference": "Released-film interview clip starts at 00:44:46. Mossberg states count at 00:08 in clip.",
+          "quote": "He killed 17 police officers that night"
+        }
+      ]
+    },
+    {
+      "placeId": 213,
+      "title": "Heat",
+      "knownCount": 3,
+      "certainty": "exact",
+      "basis": "Hanna's crime-scene account identifies two killed guards and a third killed as a witness.",
+      "source_ids": [
+        "death_count_heat_1",
+        "death_count_heat_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://imsdb.com/scripts/Heat.html",
+          "reference": "Mann screenplay p. 19–20, lines 1086–1094 and 1128–1129"
+        },
+        {
+          "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=heat",
+          "reference": "Released-film crime-scene transcript, lines 179–184",
+          "quote": "after they killed two guards... ...they didn't hesitate. Popped guard number three"
+        }
+      ]
+    },
+    {
+      "placeId": 45,
+      "title": "Reservoir Dogs",
+      "knownCount": 4,
+      "certainty": "minimum",
+      "basis": "Mr. Blonde, Officer Marvin Nash, Joe Cabot and Nice Guy Eddie are confirmed killed in the warehouse. The script has White fire with his gun against Orange's head and then be struck by police fire, but does not explicitly state either death. AFI describes the released ending as police shooting White before he fires, so Orange and White are excluded from the confirmed minimum. The screenplay uses Jeffrey Andrews for the captive officer. AFI identifies the released-film character as Marvin Nash.",
+      "source_ids": [
+        "death_count_warehouse_1",
+        "death_count_warehouse_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/reservoir-dogs-1992.pdf?v=1729114978",
+          "reference": "Tarantino screenplay pp. 52, 86, 92–93, lines 2222–2228, 3700–3729, 3949–3955 and 3985–3998",
+          "quote": "Eddie COLLAPSES, dead. Joe's dead."
+        },
+        {
+          "url": "https://catalog.afi.com/Film/59373-RESERVOIR-DOGS?cxt=filmography",
+          "reference": "AFI released-film synopsis, lines 1180–1182",
+          "quote": "police burst in and shoot him before he pulls the trigger"
+        }
+      ]
+    },
+    {
+      "placeId": 423,
+      "title": "Assault on Precinct 13",
+      "knownCount": 7,
+      "certainty": "minimum",
+      "basis": "Dialogue counts five officers, Julie and one prisoner after the initial attacks. AFI confirms Julie is discovered dead inside the station and places the prison transport casualties at the station exit. Wells dies after driving away to a phone booth. The movie also depicts attacker fatalities and gives a rough dialogue estimate, so seven is a conservative lower bound based on the explicit defender-side count.",
+      "source_ids": [
+        "death_count_anderson_1",
+        "death_count_anderson_2"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.stockq.org/moviescript/A/assault-on-precinct-13.php",
+          "reference": "Released-film dialogue, lines 581–600 and 651–656",
+          "quote": "They gunned down five police officers, a secretary, one prisoner!"
+        },
+        {
+          "url": "https://catalog.afi.com/Film/56075-ASSAULT-ONPRECINCT13",
+          "reference": "AFI synopsis, lines 638–644"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "death_count_nope_1",
+      "title": "Nope: screenplay — Star Lasso Experience",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/nope-2022.pdf?v=1729114963",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_nope_2",
+      "title": "Nope: film dialogue — Star Lasso Experience",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=nope",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_niteowl_1",
+      "title": "L.A. Confidential: film dialogue — Nite Owl massacre",
+      "url": "https://imsdb.com/scripts/L.A.-Confidential.html",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_station_1",
+      "title": "Terminator 2: screenplay — Police-station dialogue",
+      "url": "https://screencraft.org/wp-content/uploads/2019/11/Terminator-2-Judgement-Day.pdf",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_station_2",
+      "title": "Terminator 2: film dialogue — Police-station interview",
+      "url": "https://clip.cafe/terminator-2-judgment-day-1991/these-taken-by-a-video-surveillance-camera-s1/",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_heat_1",
+      "title": "Heat: film dialogue — Armored truck robbery",
+      "url": "https://imsdb.com/scripts/Heat.html",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_heat_2",
+      "title": "Heat: film dialogue — Armored truck robbery",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=heat",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_warehouse_1",
+      "title": "Reservoir Dogs: screenplay — Warehouse",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/reservoir-dogs-1992.pdf?v=1729114978",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_warehouse_2",
+      "title": "Reservoir Dogs: AFI synopsis — Warehouse",
+      "url": "https://catalog.afi.com/Film/59373-RESERVOIR-DOGS?cxt=filmography",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_anderson_1",
+      "title": "Assault on Precinct 13: film dialogue — Anderson station siege",
+      "url": "https://www.stockq.org/moviescript/A/assault-on-precinct-13.php",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_anderson_2",
+      "title": "Assault on Precinct 13: AFI synopsis — Anderson station siege",
+      "url": "https://catalog.afi.com/Film/56075-ASSAULT-ONPRECINCT13",
+      "source_type": "death-count evidence"
+    }
+  ]
+}

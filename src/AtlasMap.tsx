@@ -114,7 +114,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
       let record=markers.current.get(p.id);
       if(!record){
         const element=document.createElement('div');element.className='atlas-marker';
-        const marker=new maplibregl.Marker({element,anchor:'center',offset:p.baseId?[23,20]:[0,0]}).setLngLat(p.coordinates).addTo(m);
+        const marker=new maplibregl.Marker({element,anchor:'center',offset:[0,0],subpixelPositioning:true}).setLngLat(p.coordinates).addTo(m);
         record={marker,element,place:p,signature:''};markers.current.set(p.id,record);
         const current=record;element.addEventListener('mouseenter',()=>alignMarker(m,current));element.addEventListener('focusin',()=>alignMarker(m,current));
       }
@@ -161,7 +161,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
     for(const j of routes)journeyStopGroups(j).forEach(s=>{
       const outer=document.createElement('div');outer.className='route-stop-marker'+(s.numbers.length>1?' repeated-stop':'');outer.style.setProperty('--film-color',j.color||filmColor(j.title));
       const button=document.createElement('button');button.className='route-marker'+(s.numbers.length>1?' repeated-stop':'');button.textContent=s.numbers.join('·');button.setAttribute('aria-label',`${accessibleText(s.name)} · Stops ${s.numbers.join(', ')} · ${filmTitle(j.title)}`);button.addEventListener('click',()=>s.placeId?onStop(s.placeId,j.id):onRoute(j.id));outer.append(button,tooltip(s.name,[j.title]));
-      routeMarkers.current.push(new maplibregl.Marker({element:outer,offset:selected?.id===s.placeId?[0,-27]:[0,0]}).setLngLat(s.coordinates).addTo(m));bounds.extend(s.coordinates);
+      routeMarkers.current.push(new maplibregl.Marker({element:outer,anchor:'center',offset:[0,0],subpixelPositioning:true}).setLngLat(s.coordinates).addTo(m));bounds.extend(s.coordinates);
     });
     if(!selected)m.fitBounds(bounds,{padding:75,maxZoom:14,duration:450});
     return()=>{routeMarkers.current.forEach(x=>x.remove());};
@@ -169,7 +169,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
   return <div className={`map-shell ${basemap==='satellite'?'satellite-view':''}`}><div ref={container} className="map-canvas" aria-label="Map of Los Angeles"/>{!ready&&<div className="map-loading">{error?'Map unavailable':'Loading…'}</div>}
     <div className="basemap-switch" role="group" aria-label="Map view">{(['map','satellite'] as const).map(view=><button key={view} aria-pressed={basemap===view} onClick={()=>onBasemap(view)}>{view==='map'?'Map':'Satellite'}</button>)}</div>
     <MapLayers danger={danger} prices={prices} menuRef={layerMenu} category={category} laOnly={laOnly} showSpoilers={showSpoilers} onCategory={onCategory} onLaOnly={onLaOnly} onSpoilers={onSpoilers} neighborhoods={neighborhoods} landmarks={landmarks} onOverlay={onOverlay}/>
-    {danger&&<div className="danger-legend" role="img" aria-label="Death scene concentration, amber for low to dark red for high"><span>Death hotspots</span><div className="danger-gradient"/><div className="danger-scale"><span>Low</span><span>High</span></div></div>}
+    {danger&&<div className="danger-legend" role="img" aria-label="Known death concentration, amber for low to dark red for high"><span>Death hotspots</span><div className="danger-gradient"/><div className="danger-scale"><span>Low</span><span>High</span></div></div>}
     {selected&&!selected.coordinates&&<div className="unlocated-card" style={{'--film-color':filmColor(selected.appearances[0].title)} as React.CSSProperties}><div className="marker-film-tabs">{[...new Set(selected.appearances.map(a=>a.title))].map(t=><button key={t} style={{'--film-color':filmColor(t)} as React.CSSProperties} onClick={()=>onFilm(t)}>{filmTitle(t)}</button>)}</div><strong><RedactedText text={selected.name}/></strong><span><RedactedText text={selected.placement?.address||'Los Angeles'}/></span></div>}
     <button className="north-arrow" aria-label="Reset north" title="Reset north" onClick={()=>map.current?.resetNorth({duration:450})}><span className="north-needle" ref={northNeedle} aria-hidden="true">N<svg viewBox="0 0 32 64"><path d="M16 3 27 52 16 43 5 52Z" fill="none" stroke="currentColor"/><path d="M16 3V43L5 52Z" fill="currentColor"/></svg></span></button>
     <div className="map-controls"><button aria-label="My location" title="My location" className={locating?'locating':''} onClick={()=>{setLocating(true);if(!gps.current?.trigger()){setLocating(false);onLocationError('Location unavailable');}}}><Crosshair size={19}/></button><button aria-label="Return to city view" title="Los Angeles" onClick={()=>map.current?.flyTo({...CITY,duration:450})}><LocateFixed size={18}/></button><button aria-label="Zoom in" onClick={()=>map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="Zoom out" disabled={!ready||zoomedOut} onClick={()=>map.current?.zoomOut()}><Minus size={19}/></button></div>

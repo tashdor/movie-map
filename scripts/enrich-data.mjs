@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {knownDeathCount} from '../src/death-counts.mjs';
 const read=(path,fallback={})=>fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):fallback;
 const box=([sw,ne])=>({type:'Polygon',coordinates:[[sw,[ne[0],sw[1]],ne,[sw[0],ne[1]],sw]]});
 const deaths={4:['Trejo'],9:['Waingro'],11:['Pris'],20:['Nick'],23:['William Foster / D-Fens'],25:['Pierce Patchett'],27:['Dick Stensland','Susan Lefferts'],36:['Donny Kerabatsos'],42:['Maynard'],43:['Brett'],45:['Joe Cabot','Nice Guy Eddie','Mr. Orange'],54:['Ida Sessions'],58:['Evelyn Mulwray'],60:['Shannon'],63:['Standard Gabriel'],64:['Blanche'],65:['Daniel'],71:['Roger'],79:['Ginger Ventura','Matt'],82:['Gun shop owner'],84:['Todd Voight','Janelle Voight'],88:['Diane Selwyn']};
@@ -110,6 +111,16 @@ export function enrich(atlas){
     if(place.appearances.length>1||place.mediaByTitle){place.mediaByTitle||={};const primaryTitle=place.media?.screen?.title;if(primaryTitle&&!place.mediaByTitle[primaryTitle])place.mediaByTitle[primaryTitle]=place.media;place.mediaByTitle[update.title]=pair;}
     if(place.appearances[0].title===update.title||place.media?.screen?.title===update.title)place.media=pair;
   }
+  const counts=read('research/death-counts.json',{entries:[],sources:[]});
+  for(const source of counts.sources)if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}
+  for(const count of counts.entries){
+    const death=byId.get(count.placeId)?.deaths?.find(d=>d.title===count.title);
+    if(!death)throw Error(`Missing death count target ${count.placeId}: ${count.title}`);
+    if(!Number.isSafeInteger(count.knownCount)||count.knownCount<1)throw Error(`Invalid death count ${count.placeId}`);
+    death.knownCount=count.knownCount;
+    death.source_ids=[...new Set([...(death.source_ids||[]),...count.source_ids])];
+  }
+  for(const place of atlas.places)for(const death of place.deaths||[])death.knownCount=knownDeathCount(death);
   const race=byId.get(208);if(race?.routeAnchors){const j=atlas.journeys.find(j=>j.id===100);j.stops=race.routeAnchors.map(s=>({...s,placeId:208}));j.geometry=race.geometry||race.placement?.geometry;j.source_ids=race.appearances[0].source_ids;}
   const car=byId.get(211);if(car){const j=atlas.journeys.find(j=>j.id===97);j.stops[0]={name:car.name,coordinates:car.coordinates,placeId:211};j.source_ids=[...new Set([...j.source_ids,...car.appearances[0].source_ids])];}
   for(const p of atlas.places){if(p.media)media[p.id]={...p.media,...(p.mediaByTitle?{byTitle:p.mediaByTitle}:{})};for(const component of p.components||[])if(component.media)media[component.id]=component.media;}

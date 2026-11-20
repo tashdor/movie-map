@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validateStyleMin} from '@maplibre/maplibre-gl-style-spec';
 import {deathHeatmapData,dangerLayerStyle,installDangerLayer} from '../src/danger-layer.ts';
+import {knownDeathCount} from '../src/death-counts.mjs';
 import {displayEntries,readState as readNumericState,stateHash as numericHash} from '../src/logic.mjs';
 import {createAtlasLinks} from '../src/links.mjs';
 import {presentEntries} from '../src/spoilers.mjs';
@@ -11,10 +12,10 @@ const read=path=>JSON.parse(fs.readFileSync(new URL(path,import.meta.url)));
 const data=read('../src/data/atlas.json'),audit=read('../research/spoiler-audit.json');
 const time=year=>({all:false,from:year,to:year,undated:false});
 
-test('heat represents mapped death scenes without publishing identities or guessing victim totals',()=>{
+test('heat weights known fatalities without publishing identities or double-counting group totals',()=>{
   const before=JSON.stringify(data),heat=deathHeatmapData(data.places);
   const deaths=displayEntries(data.places,{category:'death'}).filter(p=>p.coordinates);
-  assert.equal(heat.features.reduce((sum,f)=>sum+f.properties.weight,0),deaths.reduce((sum,p)=>sum+Math.max(1,p.deaths.length),0));
+  assert.equal(heat.features.reduce((sum,f)=>sum+f.properties.weight,0),deaths.reduce((sum,p)=>sum+p.deaths.reduce((n,d)=>n+knownDeathCount(d),0),0));
   for(const feature of heat.features){
     assert.deepEqual(Object.keys(feature.properties),['weight']);
     assert.deepEqual(Object.keys(feature).sort(),['geometry','properties','type']);
@@ -22,12 +23,32 @@ test('heat represents mapped death scenes without publishing identities or guess
   }
   assert.doesNotMatch(JSON.stringify(heat),/Neil|Eleanor|Howard|Bosch|Heat|death/i);
   const arrival=data.places.find(p=>p.id===821);
-  const group={...arrival,deaths:[{...arrival.deaths[0],people:['One','Two','Unknown number of officers']}]};
-  assert.equal(deathHeatmapData([group]).features[0].properties.weight,1);
+  const group={...arrival,deaths:[{...arrival.deaths[0],knownCount:5,people:['One','Two','Other officers']}]};
+  assert.equal(deathHeatmapData([group]).features[0].properties.weight,5);
   const together=deathHeatmapData([arrival,{...group,id:9001}]);
-  assert.equal(together.features.length,1);assert.equal(together.features[0].properties.weight,2);
+  assert.equal(together.features.length,1);assert.equal(together.features[0].properties.weight,6);
+  assert.equal(knownDeathCount({people:['One','Two','One']}),2);
   assert.deepEqual(deathHeatmapData([{...arrival,coordinates:null}]).features,[]);
   assert.equal(JSON.stringify(data),before);
+});
+
+test('sourced massacre totals outweigh single deaths and keep unknown geography off the map',()=>{
+  const counts=read('../research/death-counts.json'),sourceIds=new Set(data.sources.map(s=>s.id));
+  for(const record of counts.entries){
+    const place=data.places.find(p=>p.id===record.placeId),death=place.deaths.find(d=>d.title===record.title);
+    assert.equal(death.knownCount,record.knownCount);
+    assert.ok(record.basis&&record.evidence.length);
+    for(const id of record.source_ids){assert.ok(sourceIds.has(id));assert.ok(death.source_ids.includes(id));}
+  }
+  const lasso=data.places.find(p=>p.id===511),niteOwl=data.places.find(p=>p.id===27),station=data.places.find(p=>p.id===227);
+  assert.equal(deathHeatmapData([lasso]).features[0].properties.weight,40);
+  assert.equal(deathHeatmapData([niteOwl]).features[0].properties.weight,6);
+  assert.equal(deathHeatmapData([data.places.find(p=>p.id===213)]).features[0].properties.weight,3);
+  assert.equal(deathHeatmapData([data.places.find(p=>p.id===84)]).features[0].properties.weight,2);
+  assert.equal(station.deaths[0].knownCount,17);
+  assert.deepEqual(deathHeatmapData([station]).features,[]);
+  const [death]=displayEntries([lasso],{category:'death'});
+  assert.deepEqual(deathHeatmapData([presentEntries([death],false,audit)[0]]),deathHeatmapData([death]));
 });
 
 test('heat follows story time, film and L.A. setting, independently of icon and search filters',()=>{

@@ -1,15 +1,16 @@
 import type {GeoJSONSource,HeatmapLayerSpecification,Map as AtlasMap} from 'maplibre-gl';
 import {displayEntries} from './logic.mjs';
+import {knownDeathCount} from './death-counts.mjs';
 import type {Place,TimeFilter} from './types';
 
 type Filters={film?:string;time?:TimeFilter;laOnly?:boolean};
 export function deathHeatmapData(places:Place[],{film='',time,laOnly=false}:Filters={}){
   const sites=new Map<string,{coordinates:[number,number];weight:number}>();
-  // Count scenes, not victims: a group label does not establish a body count.
+  // Group totals come from the sourced count audit, rather than parsing victim labels.
   for(const entry of displayEntries(places,{film,time,laOnly,category:'death'})){
     const coordinates=entry.coordinates as [number,number]|null;
     if(!coordinates||!coordinates.every(Number.isFinite))continue;
-    const key=coordinates.join(','),weight=Math.max(1,entry.deaths?.length||0),site=sites.get(key);
+    const key=coordinates.join(','),weight=Math.max(1,(entry.deaths||[]).reduce((sum:number,death:any)=>sum+knownDeathCount(death),0)),site=sites.get(key);
     if(site)site.weight+=weight;else sites.set(key,{coordinates:[...coordinates],weight});
   }
   // The render source contains no names, titles or spoiler text.

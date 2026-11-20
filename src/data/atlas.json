@@ -537,7 +537,8 @@
           "title": "Heat",
           "people": [
             "Trejo"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -1018,7 +1019,8 @@
           "title": "Heat",
           "people": [
             "Waingro"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -1214,7 +1216,8 @@
           "title": "Blade Runner",
           "people": [
             "Pris"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -2275,7 +2278,8 @@
           "title": "Falling Down",
           "people": [
             "Nick"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -2571,7 +2575,8 @@
           "title": "Falling Down",
           "people": [
             "William Foster / D-Fens"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -2773,7 +2778,8 @@
           "title": "L.A. Confidential",
           "people": [
             "Pierce Patchett"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -3101,6 +3107,10 @@
           "people": [
             "Dick Stensland",
             "Susan Lefferts"
+          ],
+          "knownCount": 6,
+          "source_ids": [
+            "death_count_niteowl_1"
           ]
         }
       ]
@@ -4217,7 +4227,8 @@
           "title": "The Big Lebowski",
           "people": [
             "Donny Kerabatsos"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -5029,7 +5040,8 @@
           "title": "Pulp Fiction",
           "people": [
             "Maynard"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -5128,7 +5140,8 @@
           "title": "Pulp Fiction",
           "people": [
             "Brett"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -5319,6 +5332,11 @@
             "Joe Cabot",
             "Nice Guy Eddie",
             "Mr. Orange"
+          ],
+          "knownCount": 4,
+          "source_ids": [
+            "death_count_warehouse_1",
+            "death_count_warehouse_2"
           ]
         }
       ]
@@ -6031,7 +6049,8 @@
           "title": "Chinatown",
           "people": [
             "Ida Sessions"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -6395,7 +6414,8 @@
           "title": "Chinatown",
           "people": [
             "Evelyn Mulwray"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -6631,7 +6651,8 @@
           "title": "Drive",
           "people": [
             "Shannon"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -6955,7 +6976,8 @@
           "title": "Drive",
           "people": [
             "Standard Gabriel"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -7055,7 +7077,8 @@
           "title": "Drive",
           "people": [
             "Blanche"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -7158,7 +7181,8 @@
           "title": "Collateral",
           "people": [
             "Daniel"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -7708,7 +7732,8 @@
           "title": "Training Day",
           "people": [
             "Roger"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -8425,7 +8450,8 @@
             "Ginger Ventura",
             "Matt"
           ],
-          "label": "Ginger Ventura & Matt’s deaths"
+          "label": "Ginger Ventura & Matt’s deaths",
+          "knownCount": 2
         }
       ]
     },
@@ -8706,7 +8732,8 @@
           "title": "The Terminator",
           "people": [
             "Gun shop owner"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -9213,7 +9240,8 @@
             "Todd Voight",
             "Janelle Voight"
           ],
-          "label": "Todd & Janelle Voight’s deaths"
+          "label": "Todd & Janelle Voight’s deaths",
+          "knownCount": 2
         }
       ],
       "propertyLinks": [
@@ -9655,7 +9683,8 @@
           "title": "Mulholland Drive",
           "people": [
             "Diane Selwyn"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -10504,7 +10533,8 @@
           "title": "The Player",
           "people": [
             "David Kahane"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "mediaByTitle": {
@@ -10808,7 +10838,8 @@
           "title": "Double Indemnity",
           "people": [
             "Phyllis Dietrichson"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -11456,7 +11487,8 @@
           "title": "Sunset Boulevard",
           "people": [
             "Joe Gillis"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -12210,7 +12242,8 @@
           "title": "Point Blank",
           "people": [
             "Lynne"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -12307,7 +12340,8 @@
           "title": "Point Blank",
           "people": [
             "Mal Reese"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -12494,7 +12528,8 @@
           "people": [
             "Frederick Carter",
             "Stegman"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "media": {
@@ -12991,7 +13026,8 @@
           "title": "The Long Goodbye",
           "people": [
             "Roger Wade"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -14225,7 +14261,8 @@
           "title": "To Live and Die in L.A.",
           "people": [
             "Jim Hart"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -14798,7 +14835,8 @@
           "title": "To Live and Die in L.A.",
           "people": [
             "Eric Masters"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -15622,7 +15660,8 @@
           "title": "To Live and Die in L.A.",
           "people": [
             "Richard Chance"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -17784,7 +17823,8 @@
             "Little Bill Thompson",
             "Little Bill’s wife",
             "Her lover"
-          ]
+          ],
+          "knownCount": 3
         }
       ]
     },
@@ -18167,7 +18207,8 @@
             "Donut-shop clerk",
             "Armed customer",
             "Robber"
-          ]
+          ],
+          "knownCount": 3
         }
       ]
     },
@@ -18373,7 +18414,8 @@
           "people": [
             "Todd Parker",
             "Rahad’s bodyguard"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "propertyLinks": [
@@ -19315,7 +19357,8 @@
             "Tex Watson",
             "Susan “Sadie” Atkins",
             "Patricia “Katie” Krenwinkel"
-          ]
+          ],
+          "knownCount": 3
         }
       ],
       "propertyLinks": [
@@ -20813,7 +20856,8 @@
           "title": "Heat",
           "people": [
             "Neil McCauley"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -21700,7 +21744,12 @@
           "people": [
             "Three armored-truck guards"
           ],
-          "label": "Armored-truck guards’ deaths"
+          "label": "Armored-truck guards’ deaths",
+          "knownCount": 3,
+          "source_ids": [
+            "death_count_heat_1",
+            "death_count_heat_2"
+          ]
         }
       ],
       "geocode": {
@@ -22072,7 +22121,8 @@
           "people": [
             "Van Zant’s gunman",
             "Van Zant’s pickup driver"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "geocode": {
@@ -22175,7 +22225,8 @@
           "title": "Heat",
           "people": [
             "Michael Cheritto"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -22405,7 +22456,8 @@
           "title": "Heat",
           "people": [
             "Roger Van Zant"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -23165,7 +23217,12 @@
             "Ed Traxler",
             "Other police officers"
           ],
-          "label": "Police-station massacre"
+          "label": "Police-station massacre",
+          "knownCount": 17,
+          "source_ids": [
+            "death_count_station_1",
+            "death_count_station_2"
+          ]
         }
       ],
       "media": {
@@ -24145,7 +24202,8 @@
           "title": "Strange Days",
           "people": [
             "Iris"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -24378,7 +24436,8 @@
             "Jeriko One",
             "James “Replay” Polton",
             "Diamanda"
-          ]
+          ],
+          "knownCount": 3
         }
       ]
     },
@@ -24515,7 +24574,8 @@
           "people": [
             "Philo Gant",
             "Max Peltier"
-          ]
+          ],
+          "knownCount": 2
         }
       ]
     },
@@ -24713,7 +24773,8 @@
           "title": "Speed",
           "people": [
             "Bob"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -25240,7 +25301,8 @@
           "title": "Speed",
           "people": [
             "Harry Temple"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -27748,7 +27810,8 @@
           "title": "To Live and Die in L.A.",
           "people": [
             "Thomas Ling"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "geocode": {
@@ -28562,7 +28625,8 @@
           "people": [
             "Liquor-store owner",
             "Liquor-store owner’s wife"
-          ]
+          ],
+          "knownCount": 2
         }
       ]
     },
@@ -28682,7 +28746,8 @@
           "people": [
             "Caine Lawson",
             "Sharif Butler"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "propertyLinks": [
@@ -29278,7 +29343,8 @@
           "title": "Menace II Society",
           "people": [
             "Harold"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -30150,7 +30216,8 @@
           "title": "Colors",
           "people": [
             "Bob Hodges"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "productionGeocode": {
@@ -30379,7 +30446,8 @@
           "title": "Colors",
           "people": [
             "Robert Craig"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "productionGeocode": {
@@ -30526,7 +30594,8 @@
           "title": "The Last Boy Scout",
           "people": [
             "Mike Matthews"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "productionGeocode": {
@@ -30771,7 +30840,8 @@
           "title": "The Last Boy Scout",
           "people": [
             "Cory"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "productionGeocode": {
@@ -31308,6 +31378,11 @@
             "Starker",
             "Cornell",
             "Prison transport guards"
+          ],
+          "knownCount": 7,
+          "source_ids": [
+            "death_count_anderson_1",
+            "death_count_anderson_2"
           ]
         }
       ],
@@ -31438,7 +31513,8 @@
           "title": "The Nice Guys",
           "people": [
             "Amelia Kuttner"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -31914,7 +31990,8 @@
           "title": "The Nice Guys",
           "people": [
             "Dean"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -32203,7 +32280,8 @@
           "title": "Kiss Me Deadly",
           "people": [
             "Nick"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -32411,7 +32489,8 @@
           "title": "Kiss Me Deadly",
           "people": [
             "Carl Evello"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -32822,7 +32901,8 @@
           "people": [
             "Dr. G. E. Soberin",
             "Gabrielle"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "media": {
@@ -33947,7 +34027,8 @@
           "title": "Body Double",
           "people": [
             "Gloria Revelle"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -34404,7 +34485,8 @@
           "people": [
             "Alexander Revelle / Sam Bouchard"
           ],
-          "label": "Alexander Revelle’s death"
+          "label": "Alexander Revelle’s death",
+          "knownCount": 1
         }
       ]
     },
@@ -34498,7 +34580,8 @@
           "title": "What Ever Happened to Baby Jane?",
           "people": [
             "Elvira Stitt"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -34853,7 +34936,8 @@
           "title": "Mildred Pierce",
           "people": [
             "Monte Beragon"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -38022,7 +38106,8 @@
           "source_ids": [
             "bosch_angels_guide",
             "bosch_angels_video"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "mapsQuery": "Angels Flight Railway, 351 South Hill Street, Los Angeles, CA 90013"
@@ -40586,7 +40671,8 @@
           "people": [
             "Otis Haywood Sr.",
             "Antlers Holst"
-          ]
+          ],
+          "knownCount": 2
         }
       ],
       "media": {
@@ -40720,7 +40806,12 @@
             "Mary Jo Elliott",
             "Star Lasso audience"
           ],
-          "label": "Star Lasso massacre"
+          "label": "Star Lasso massacre",
+          "knownCount": 40,
+          "source_ids": [
+            "death_count_nope_1",
+            "death_count_nope_2"
+          ]
         }
       ],
       "media": {
@@ -42141,7 +42232,8 @@
             "Annie Brackett",
             "Lynda van der Klok",
             "Bob Simms"
-          ]
+          ],
+          "knownCount": 3
         }
       ],
       "media": {
@@ -44076,7 +44168,8 @@
           "title": "Lost Highway",
           "people": [
             "Renee Madison"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -44773,7 +44866,8 @@
           "title": "Repo Man",
           "people": [
             "Duke"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -45388,7 +45482,8 @@
           "people": [
             "Harry Washello",
             "Julie Peters"
-          ]
+          ],
+          "knownCount": 2
         }
       ]
     },
@@ -45960,7 +46055,8 @@
           "title": "Under the Silver Lake",
           "people": [
             "Millicent Sevence"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -46281,7 +46377,8 @@
           "title": "Lethal Weapon",
           "people": [
             "Michael Hunsaker"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "propertyLinks": [
@@ -48157,7 +48254,8 @@
           "title": "Se7en",
           "people": [
             "John Doe"
-          ]
+          ],
+          "knownCount": 1
         }
       ],
       "media": {
@@ -49483,7 +49581,8 @@
             "bosch_haunts_guide",
             "bosch_haunts_prime4",
             "bosch_haunts_transcript4"
-          ]
+          ],
+          "knownCount": 1
         }
       ]
     },
@@ -50032,7 +50131,8 @@
             "source_ids": [
               "t2_afi_time"
             ]
-          }
+          },
+          "knownCount": 1
         }
       ],
       "media": {
@@ -55700,6 +55800,72 @@
       "title": "Los Angeles County Public Works: building 446989860017 at 1870 Blue Heights Drive",
       "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.37858784235148%2C34.10276602635747%5D%2C%5B-118.3786784998863%2C34.10271094943863%5D%2C%5B-118.37872639792936%2C34.1026818091271%5D%2C%5B-118.3787365953317%2C34.10263588747008%5D%2C%5B-118.37894479042306%2C34.10263325626007%5D%2C%5B-118.37894244729888%2C34.10301277414209%5D%2C%5B-118.3789419392177%2C34.10309746558227%5D%2C%5B-118.37887808847228%2C34.10309799554865%5D%2C%5B-118.37858784235148%2C34.10276602635747%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=pjson",
       "source_type": "official building footprint geometry"
+    },
+    {
+      "id": "death_count_nope_1",
+      "title": "Nope: screenplay — Star Lasso Experience",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/nope-2022.pdf?v=1729114963",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_nope_2",
+      "title": "Nope: film dialogue — Star Lasso Experience",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=nope",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_niteowl_1",
+      "title": "L.A. Confidential: film dialogue — Nite Owl massacre",
+      "url": "https://imsdb.com/scripts/L.A.-Confidential.html",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_station_1",
+      "title": "Terminator 2: screenplay — Police-station dialogue",
+      "url": "https://screencraft.org/wp-content/uploads/2019/11/Terminator-2-Judgement-Day.pdf",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_station_2",
+      "title": "Terminator 2: film dialogue — Police-station interview",
+      "url": "https://clip.cafe/terminator-2-judgment-day-1991/these-taken-by-a-video-surveillance-camera-s1/",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_heat_1",
+      "title": "Heat: film dialogue — Armored truck robbery",
+      "url": "https://imsdb.com/scripts/Heat.html",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_heat_2",
+      "title": "Heat: film dialogue — Armored truck robbery",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=heat",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_warehouse_1",
+      "title": "Reservoir Dogs: screenplay — Warehouse",
+      "url": "https://assets.scriptslug.com/live/pdf/scripts/reservoir-dogs-1992.pdf?v=1729114978",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_warehouse_2",
+      "title": "Reservoir Dogs: AFI synopsis — Warehouse",
+      "url": "https://catalog.afi.com/Film/59373-RESERVOIR-DOGS?cxt=filmography",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_anderson_1",
+      "title": "Assault on Precinct 13: film dialogue — Anderson station siege",
+      "url": "https://www.stockq.org/moviescript/A/assault-on-precinct-13.php",
+      "source_type": "death-count evidence"
+    },
+    {
+      "id": "death_count_anderson_2",
+      "title": "Assault on Precinct 13: AFI synopsis — Anderson station siege",
+      "url": "https://catalog.afi.com/Film/56075-ASSAULT-ONPRECINCT13",
+      "source_type": "death-count evidence"
     }
   ]
 }
