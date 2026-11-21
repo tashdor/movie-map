@@ -1,0 +1,31 @@
+{
+  "researched_on": "2026-11-21",
+  "placeId": 186,
+  "coordinates": [
+    -118.432467,
+    34.093895
+  ],
+  "precision": "historical-site-approximate",
+  "story_address": "10050 Cielo Drive",
+  "basis": "The film’s Polanski/Tate home is on Cielo Drive beside Rick’s fictional home. The point uses the published historical-site coordinate, marked approximate because the original house was demolished and replaced. It is about 70 metres from Rick’s existing editorial point, within the same story viewport, and is not the Studio City exterior.",
+  "retained_filming_address": "10974 Alta View Drive",
+  "retained_productionCoordinates": [
+    -118.369914457049,
+    34.132109779194
+  ],
+  "evidence": [
+    {
+      "url": "https://en.wikipedia.org/wiki/10050_Cielo_Drive",
+      "reference": "Historical address; coordinate 34.093895,-118.432467; original buildings demolished in 1994 and replacement property renumbered 10066."
+    },
+    {
+      "url": "https://assets.adg.org/media/submissions/2019-11-22_13-40-14/OUTH_Academy_PD_r5.pdf",
+      "reference": "Barbara Ling’s production-design notes, PDF page 3: story homes next door; connected Studio City exterior pair used for filming."
+    },
+    {
+      "url": "https://transcripts.simpleremix.com/script.php/once-upon-a-time-in-hollywood-2019-TvGA",
+      "reference": "Final conversation with Jay and Sharon establishes the next-door relationship."
+    }
+  ],
+  "deaths": "No deaths are assigned to this home in the film. Rick’s separate three-death record remains at his own editorial point."
+}

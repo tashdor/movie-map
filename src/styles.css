@@ -73,5 +73,7 @@
 .marker-site-choices small{display:block;font-size:10px;line-height:1.5;margin-top:4px}
 
 .layer-setting{position:relative}
-.layer-setting-tip{visibility:hidden;position:absolute;top:calc(100% + 6px);left:0;z-index:2;width:100%;padding:10px 12px;border:1px solid var(--ink);background:var(--paper);box-shadow:2px 3px 0 #22251e20;color:var(--ink);font:400 14px/1.4 'DM Sans',Arial,sans-serif;white-space:normal;pointer-events:none}
-.layer-setting:hover .layer-setting-tip,.layer-setting:focus-within .layer-setting-tip{visibility:visible}
+ .layer-setting-tip{position:fixed;z-index:500;width:260px;max-width:calc(100vw - 24px);padding:10px 12px;border:1px solid var(--ink);background:var(--paper);box-shadow:2px 3px 0 #22251e20;color:var(--ink);font:400 14px/1.4 'DM Sans',Arial,sans-serif;white-space:normal;pointer-events:none}
+.atlas-marker.hover-open{z-index:450!important}
+.hover-open>.marker-tooltip{display:none}
+.map-shell:has(.site-open) .atlas-marker>.marker-tooltip{display:none}

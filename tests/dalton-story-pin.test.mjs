@@ -42,3 +42,17 @@ test('Rick’s mapped deaths protect the full outcome and victims while leaving 
   assert.match(shown.appearances[0].story_role,/Three intruders killed/);
   assert.deepEqual(deathHeatmapData([hidden]),deathHeatmapData([death]));
 });
+
+test('Sharon and Roman’s Cielo home is mapped beside Rick without using the Alta View exterior or inheriting his deaths',()=>{
+  const sharon=data.places.find(p=>p.id===186),evidence=read('../research/tate-cielo-pin.json');
+  const [home]=displayEntries([sharon],{film,time:time(1969),laOnly:true});
+  assert.deepEqual(home.coordinates,evidence.coordinates);assert.notDeepEqual(home.coordinates,home.productionCoordinates);
+  assert.deepEqual(home.productionCoordinates,evidence.retained_productionCoordinates);
+  assert.equal(home.placement.kind,'inferred');assert.match(home.placement.address,/10050 Cielo Drive.*approximate/);
+  const metres=Math.hypot((home.coordinates[0]-house.coordinates[0])*Math.cos(home.coordinates[1]*Math.PI/180),home.coordinates[1]-house.coordinates[1])*111195;
+  assert.ok(metres>12&&metres<100,'Neighboring homes retain independent markers');
+  assert.deepEqual(home.placement.viewport,house.placement.viewport);
+  assert.deepEqual(displayEntries([sharon],{category:'death',film}),[]);
+  assert.deepEqual(deathHeatmapData([sharon],{film}).features,[]);
+  assert.match(new URL(filmingSiteMapsUrl(home)).searchParams.get('query'),/34.132109779194/);
+});

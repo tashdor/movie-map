@@ -14,6 +14,7 @@ import {selectedTypes} from './location-layers.mjs';
 import MapLayers,{type MovieLayerControls} from './MapLayers';
 import {countyCamera} from './camera.mjs';
 import {markerSites} from './marker-sites.mjs';
+import {hoverPopover} from './hover-popover.mjs';
 import {storySettingLabel,journeyStopGroups} from './logic.mjs';
 import {accessibleText} from './spoilers.mjs';
 import {appendRedactedText,RedactedText} from './RedactedText';
@@ -22,10 +23,20 @@ maplibregl.setWorkerUrl(workerUrl);
 const ZERO_PADDING={top:0,bottom:0,left:0,right:0};
 const CITY={center:[-118.325,34.055] as [number,number],zoom:10.55};
 type Props=MovieLayerControls&{neighborhoods:boolean;landmarks:boolean;prices:boolean;danger:boolean;dangerData:DangerData|null;onOverlay:(layer:ReferenceLayer|'prices'|'danger',enabled:boolean)=>void;basemap:'map'|'satellite';onBasemap:(view:'map'|'satellite')=>void;places:Place[];selected:Place|null;journey:Journey|null;journeys:Journey[];routeMode:boolean;film:string;resetView:number;trackView:boolean;coverage:[number,number][];onSelect:(id:number)=>void;onRoute:(id:number)=>void;onStop:(id:number,route:number)=>void;onFilm:(title:string)=>void;onView:(ids:number[])=>void;onLocationError:(text:string)=>void};
-type MarkerRecord={marker:maplibregl.Marker;element:HTMLDivElement;place:Place;signature:string;label?:HTMLDivElement;members:Place[];badge?:HTMLButtonElement;chooser?:HTMLDivElement};
-function closeSite(record:MarkerRecord){if(!record.chooser)return;record.chooser.remove();record.chooser=undefined;record.element.classList.remove('site-open');record.badge?.setAttribute('aria-expanded','false');if(record.label)record.label.hidden=false;}
-function openSite(map:maplibregl.Map,record:MarkerRecord,onSelect:(id:number)=>void){
-  if(record.chooser){closeSite(record);return;}
+type MarkerRecord={marker:maplibregl.Marker;element:HTMLDivElement;place:Place;signature:string;label?:HTMLDivElement;members:Place[];badge?:HTMLButtonElement;chooser?:HTMLDivElement;chooserPinned?:boolean;hover?:ReturnType<typeof hoverPopover>};
+function closeSite(record:MarkerRecord){if(!record.chooser)return;record.chooser.remove();record.chooser=undefined;record.chooserPinned=false;record.element.classList.remove('site-open');record.badge?.setAttribute('aria-expanded','false');if(record.label)record.label.hidden=false;}
+function dismissHover(record:MarkerRecord){
+  record.hover?.cancel();
+  if(!record.chooserPinned)closeSite(record);
+  if(!record.element.classList.contains('selected')){record.label?.remove();record.label=undefined;}
+  record.element.classList.remove('hover-open');
+}
+function openSite(map:maplibregl.Map,record:MarkerRecord,onSelect:(id:number)=>void,pinned=true){
+  if(record.chooser){
+    if(!pinned)return;
+    if(record.chooserPinned){closeSite(record);return;}
+    record.chooserPinned=true;record.chooser.querySelector('button')?.focus({preventScroll:true});return;
+  }
   const chooser=document.createElement('div');chooser.className='marker-site-choices';chooser.setAttribute('role','group');chooser.setAttribute('aria-label','Locations at this spot');
   for(const place of record.members){
     const button=document.createElement('button');button.type='button';button.style.setProperty('--film-color',filmColor(place.appearances[0].title));
@@ -33,7 +44,9 @@ function openSite(map:maplibregl.Map,record:MarkerRecord,onSelect:(id:number)=>v
     const films=document.createElement('small');films.textContent=[...new Set(place.appearances.map(a=>filmTitle(a.title)))].join(' / ');
     button.append(name,films);button.addEventListener('click',e=>{e.stopPropagation();closeSite(record);onSelect(place.id);});chooser.append(button);
   }
-  record.chooser=chooser;map.getContainer().parentElement?.append(chooser);record.element.classList.add('site-open');record.badge?.setAttribute('aria-expanded','true');alignMarker(map,record);
+  record.chooser=chooser;record.chooserPinned=pinned;map.getContainer().parentElement?.append(chooser);record.element.classList.add('site-open');record.badge?.setAttribute('aria-expanded','true');alignMarker(map,record);
+  chooser.addEventListener('pointerenter',event=>record.hover?.enter(event));
+  chooser.addEventListener('pointerleave',()=>record.hover?.leave());
   chooser.addEventListener('keydown',e=>{
     if(e.key==='Escape'){e.stopPropagation();closeSite(record);record.element.querySelector<HTMLButtonElement>('.marker-icon')?.focus({preventScroll:true});}
     if(['ArrowDown','ArrowUp','Home','End'].includes(e.key)){
@@ -41,7 +54,18 @@ function openSite(map:maplibregl.Map,record:MarkerRecord,onSelect:(id:number)=>v
       buttons[e.key==='Home'?0:e.key==='End'?buttons.length-1:(index+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length]?.focus({preventScroll:true});
     }
   });
-  chooser.querySelector('button')?.focus({preventScroll:true});
+  if(pinned)chooser.querySelector('button')?.focus({preventScroll:true});
+}
+function ensureLabel(record:MarkerRecord,onFilm:(title:string)=>void,onSelect:(id:number)=>void){
+  if(record.label)return;
+  const p=record.place,label=document.createElement('div');label.className='marker-label';
+  const tabs=document.createElement('div');tabs.className='marker-film-tabs';
+  for(const title of [...new Set(p.appearances.map(a=>a.title))]){
+    const tab=document.createElement('button');tab.type='button';tab.textContent=filmTitle(title);tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',event=>{event.stopPropagation();onFilm(title);});tabs.append(tab);
+  }
+  const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',event=>{event.stopPropagation();onSelect(p.id);});label.append(tabs,title);
+  if(p.storySetting?.canonicalLA===false){const tag=document.createElement('span');tag.className='marker-setting';tag.textContent=storySettingLabel(p.storySetting,true);label.append(tag);}
+  record.element.append(label);record.label=label;
 }
 function alignMarker(map:maplibregl.Map,record:MarkerRecord){
   if(!record.place.coordinates)return;
@@ -65,11 +89,13 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
   const [zoomedOut,setZoomedOut]=useState(false);
   const latest=useRef({places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm});latest.current={places,selected,trackView,coverage,onView,onLocationError,onRoute,onSelect,onFilm};
   const syncView=useRef(()=>{}),baseLayers=useRef(new Map<string,'visible'|'none'>());
-  syncView.current=()=>{const m=map.current;if(!m)return;const current=latest.current;for(const record of markers.current.values())if(record.chooser||record.place.id===current.selected?.id)alignMarker(m,record);if(current.trackView){const bounds=m.getBounds();current.onView(current.places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));}};
+  syncView.current=()=>{const m=map.current;if(!m)return;const current=latest.current;for(const record of markers.current.values())if(record.chooser||record.label)alignMarker(m,record);if(current.trackView){const bounds=m.getBounds();current.onView(current.places.filter(p=>p.coordinates&&bounds.contains(p.coordinates)).map(p=>p.id));}};
   useEffect(()=>{
     if(!container.current)return;
     let m:maplibregl.Map;
     let disposeFog:(()=>void)|undefined;
+    const dismissTransient=()=>{for(const record of markers.current.values())dismissHover(record);};
+    const dismissOnEscape=(event:KeyboardEvent)=>{if(event.key==='Escape')dismissTransient();};
     let countyData:any,countyView:ReturnType<typeof countyCamera>=null,applyingLimit=false;
     const atMinimum=()=>m.getZoom()<=m.getMinZoom()+0.00001;
     const syncZoomButton=()=>setZoomedOut(atMinimum());
@@ -106,13 +132,15 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
         if(map.current===m){dangerLayer.current=installDangerLayer(m);priceMarkers.current=installPriceMarkers(m,id=>latest.current.onSelect(id));references.current=installReferenceLayers(m,{baseUrl:import.meta.env.BASE_URL,onError:message=>latest.current.onLocationError(message)});setReady(true);}
       });
       m.on('moveend',()=>syncView.current());
-      m.on('click',()=>{if(layerMenu.current)layerMenu.current.open=false;for(const record of markers.current.values())closeSite(record);});
+      m.on('movestart',dismissTransient);
+      window.addEventListener('blur',dismissTransient);window.addEventListener('keydown',dismissOnEscape);
+      m.on('click',()=>{if(layerMenu.current)layerMenu.current.open=false;for(const record of markers.current.values()){closeSite(record);dismissHover(record);}});
       m.on('click','journey-lines',e=>{const id=Number(e.features?.[0]?.properties?.id);if(id)latest.current.onRoute(id);});
       m.on('mouseenter','journey-lines',()=>{m.getCanvas().style.cursor='pointer';});m.on('mouseleave','journey-lines',()=>{m.getCanvas().style.cursor='';});
       m.on('error',e=>{if(!m.isStyleLoaded()&&/style|fetch/i.test(e.error.message))setError(true);});
     }catch{setError(true);return;}
     const resize=new ResizeObserver(()=>m.resize());resize.observe(container.current);
-    return()=>{resize.disconnect();m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);dangerLayer.current?.destroy();dangerLayer.current=null;priceMarkers.current?.destroy();priceMarkers.current=null;references.current?.destroy();references.current=null;disposeFog?.();for(const record of markers.current.values()){closeSite(record);record.marker.remove();}markers.current.clear();m.remove();map.current=null;gps.current=null;};
+    return()=>{resize.disconnect();window.removeEventListener('blur',dismissTransient);window.removeEventListener('keydown',dismissOnEscape);m.off('rotate',syncNorth);m.off('rotateend',updateZoomLimit);m.off('resize',updateZoomLimit);m.off('zoom',syncZoomButton);m.off('zoomend',centerCountyAtMinimum);dangerLayer.current?.destroy();dangerLayer.current=null;priceMarkers.current?.destroy();priceMarkers.current=null;references.current?.destroy();references.current=null;disposeFog?.();for(const record of markers.current.values()){record.hover?.destroy();closeSite(record);record.marker.remove();}markers.current.clear();m.remove();map.current=null;gps.current=null;};
   },[]);
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
@@ -133,7 +161,18 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
   useEffect(()=>{
     const m=map.current;if(!ready||!m)return;
     const active=new Set<number>();
-    const showSite=(record:MarkerRecord)=>{for(const other of markers.current.values())if(other!==record)closeSite(other);openSite(m,record,id=>latest.current.onSelect(id));};
+    const showSite=(record:MarkerRecord,pinned=true)=>{
+      for(const other of markers.current.values())if(other!==record){closeSite(other);dismissHover(other);}
+      openSite(m,record,id=>latest.current.onSelect(id),pinned);
+    };
+    const showHover=(record:MarkerRecord)=>{
+      if(record.element.hidden)return;
+      for(const other of markers.current.values())if(other!==record){closeSite(other);dismissHover(other);}
+      record.element.classList.add('hover-open');
+      if(record.members.length>1)showSite(record,false);
+      else ensureLabel(record,title=>latest.current.onFilm(title),id=>latest.current.onSelect(id));
+      alignMarker(m,record);
+    };
     const sites=markerSites(places,selected?.id),siteById=new Map<number,{primary:Place;members:Place[];choices:Place[]}>();
     for(const site of sites)for(const member of site.members)siteById.set(member.id,site);
     for(const p of places){
@@ -145,10 +184,14 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
         const element=document.createElement('div');element.className='atlas-marker';
         const marker=new maplibregl.Marker({element,anchor:'center',offset:[0,0],subpixelPositioning:true}).setLngLat(p.coordinates).addTo(m);
         record={marker,element,place:p,signature:'',members:[p]};markers.current.set(p.id,record);
-        const current=record;element.addEventListener('mouseenter',()=>alignMarker(m,current));element.addEventListener('focusin',()=>alignMarker(m,current));
-        element.addEventListener('keydown',e=>{if(e.key==='Escape'&&current.chooser){e.stopPropagation();closeSite(current);element.querySelector<HTMLButtonElement>('.marker-icon')?.focus({preventScroll:true});}});
+        const current=record;
+        current.hover=hoverPopover(()=>showHover(current),()=>dismissHover(current));
+        element.addEventListener('pointerenter',event=>current.hover?.enter(event));
+        element.addEventListener('pointerleave',()=>current.hover?.leave());
+        element.addEventListener('focusin',()=>alignMarker(m,current));
+        element.addEventListener('keydown',e=>{if(e.key==='Escape'&&(current.chooser||current.element.classList.contains('hover-open'))){e.stopPropagation();closeSite(current);dismissHover(current);element.querySelector<HTMLButtonElement>('.marker-icon')?.focus({preventScroll:true});}});
       }
-      closeSite(record);record.badge?.remove();record.badge=undefined;
+      closeSite(record);dismissHover(record);record.badge?.remove();record.badge=undefined;
       if(record.signature!==signature){
         record.element.classList.remove(record.place.category);record.element.classList.add(p.category);
         record.element.classList.toggle('estimated',p.placement?.kind==='inferred');
@@ -162,15 +205,11 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
       if(record.members.length>1&&!record.element.hidden&&(!p.isDeath||record.members.every(member=>member.isDeath))){
         const current=record,badge=document.createElement('button');badge.type='button';badge.className='marker-site-count';badge.textContent=String(record.members.length);badge.setAttribute('aria-label',`Choose among ${record.members.length} locations at this spot`);badge.setAttribute('aria-expanded','false');badge.addEventListener('click',e=>{e.stopPropagation();showSite(current);});record.element.append(badge);record.badge=badge;
       }
-      if(selected?.id===p.id&&!record.label){
-        const label=document.createElement('div');label.className='marker-label';
-        const tabs=document.createElement('div');tabs.className='marker-film-tabs';
-        for(const title of titles){const tab=document.createElement('button');tab.type='button';tab.textContent=filmTitle(title);tab.style.setProperty('--film-color',filmColor(title));tab.setAttribute('aria-label',`Show ${title} locations`);tab.addEventListener('click',()=>latest.current.onFilm(title));tabs.append(tab);}
-        const title=document.createElement('button');title.type='button';title.className='marker-title';appendRedactedText(title,p.name);title.addEventListener('click',()=>latest.current.onSelect(p.id));label.append(tabs,title);if(p.storySetting?.canonicalLA===false){const tag=document.createElement('span');tag.className='marker-setting';tag.textContent=storySettingLabel(p.storySetting,true);label.append(tag);}record.element.append(label);record.label=label;
-      }else if(selected?.id!==p.id&&record.label){record.label.remove();record.label=undefined;}
+      if(selected?.id===p.id)ensureLabel(record,title=>latest.current.onFilm(title),id=>latest.current.onSelect(id));
+      else if(record.label){record.label.remove();record.label=undefined;}
       if(record.label)alignMarker(m,record);
     }
-    for(const [id,record] of markers.current)if(!active.has(id)){closeSite(record);record.marker.remove();markers.current.delete(id);}
+    for(const [id,record] of markers.current)if(!active.has(id)){record.hover?.destroy();closeSite(record);record.marker.remove();markers.current.delete(id);}
     syncView.current();
   },[places,selected?.id,trackView,ready]);
   useEffect(()=>{if(ready&&resetView)map.current?.flyTo({...CITY,duration:450});},[resetView,ready]);

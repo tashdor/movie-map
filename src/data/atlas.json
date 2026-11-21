@@ -19885,18 +19885,34 @@
       ],
       "address": "10974 Alta View Drive",
       "area": "Studio City",
-      "coordinates": null,
+      "coordinates": [
+        -118.432467,
+        34.093895
+      ],
       "productionCoordinates": [
         -118.369914457049,
         34.132109779194
       ],
-      "precision": "street-interpolated",
+      "precision": "historical-site-approximate",
       "placement": {
-        "kind": "unknown",
-        "address": "Cielo Drive · exact property unlocated",
-        "precision": "unlocated",
+        "kind": "inferred",
+        "address": "10050 Cielo Drive · historical site (approximate)",
+        "precision": "historical-site-approximate",
+        "reason": "The story places Sharon Tate and Roman Polanski at their Cielo Drive home next door to Rick. This approximate historical-site point lies beside Rick’s editorial estimate; it does not identify the footprint of the demolished 1969 building. The exterior at 10974 Alta View Drive remains filming provenance only.",
         "sourceIds": [
-          "lives_once_fo"
+          "tate_cielo_historical",
+          "dalton_pd_notes",
+          "dalton_cielo_dialogue"
+        ],
+        "viewport": [
+          [
+            -118.4331,
+            34.0931
+          ],
+          [
+            -118.4304,
+            34.0951
+          ]
         ]
       },
       "people": [
@@ -57784,6 +57800,12 @@
       "title": "Cielo Drive, 10000 block: street reference for an editorial area estimate",
       "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10050+Cielo+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
       "source_type": "street-interpolated geography; not a fictional property address"
+    },
+    {
+      "id": "tate_cielo_historical",
+      "title": "10050 Cielo Drive — historical home address, coordinates and demolition history",
+      "url": "https://en.wikipedia.org/wiki/10050_Cielo_Drive",
+      "source_type": "historical site reference; approximate position"
     },
     {
       "id": "death_count_nope_1",
