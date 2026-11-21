@@ -71,3 +71,7 @@
 .marker-site-choices>button:hover,.marker-site-choices>button:focus-visible{background:#eae3d4}
 .marker-site-choices strong{display:block;font-family:var(--condensed);font-size:20px;line-height:1.15;font-weight:500}
 .marker-site-choices small{display:block;font-size:10px;line-height:1.5;margin-top:4px}
+
+.layer-setting{position:relative}
+.layer-setting-tip{visibility:hidden;position:absolute;top:calc(100% + 6px);left:0;z-index:2;width:100%;padding:10px 12px;border:1px solid var(--ink);background:var(--paper);box-shadow:2px 3px 0 #22251e20;color:var(--ink);font:400 14px/1.4 'DM Sans',Arial,sans-serif;white-space:normal;pointer-events:none}
+.layer-setting:hover .layer-setting-tip,.layer-setting:focus-within .layer-setting-tip{visibility:visible}

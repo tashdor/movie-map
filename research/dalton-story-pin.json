@@ -1,0 +1,91 @@
+{
+  "researched_on": "2026-11-20",
+  "placeId": 185,
+  "cause": "The recorded home and its three deaths had null story coordinates; marker grouping and the heatmap correctly omit unlocated entries.",
+  "coordinates": [
+    -118.43175,
+    34.0941
+  ],
+  "precision": "area_inferred",
+  "coordinate_basis": "Representative center of a roughly 250-by-220-metre editorial area around the film’s named 10000 block, near the historical Polanski/Tate neighborhood. Not the exact 10050 Cielo street geocode, not the real Tate house, and not Alta View Drive.",
+  "area_bounds": [
+    [
+      -118.4331,
+      34.0931
+    ],
+    [
+      -118.4304,
+      34.0951
+    ]
+  ],
+  "geocoder_responses": [
+    {
+      "address": "10050 Cielo Drive, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10050+Cielo+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidate": {
+        "address": "10050 Cielo Dr, Beverly Hills, California, 90210",
+        "location": {
+          "x": -118.43133736143,
+          "y": 34.094369966692
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "10050 Cielo Dr, Beverly Hills, California, 90210",
+          "Addr_type": "StreetAddress"
+        },
+        "extent": {
+          "xmin": -118.43233736143,
+          "ymin": 34.093369966692,
+          "xmax": -118.43033736143,
+          "ymax": 34.095369966692
+        }
+      }
+    },
+    {
+      "address": "Cielo Drive, Los Angeles, CA",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cielo+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "candidate": {
+        "address": "Cielo Dr, Beverly Hills, California, 90210",
+        "location": {
+          "x": -118.43404322921,
+          "y": 34.095518397135
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Cielo Dr, Beverly Hills, California, 90210",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": -118.43504322921,
+          "ymin": 34.094518397135,
+          "xmax": -118.43304322921,
+          "ymax": 34.096518397135
+        }
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://assets.adg.org/media/submissions/2019-11-22_13-40-14/OUTH_Academy_PD_r5.pdf",
+      "reference": "PDF pages 3–4: Barbara Ling explains the adjacent fictional homes, Studio City exteriors, Cielo Drive driving shots and stage-built interiors."
+    },
+    {
+      "url": "https://transcripts.simpleremix.com/script.php/once-upon-a-time-in-hollywood-2019-TvGA",
+      "reference": "Police radio identifies the 10000 block of Cielo Drive; final conversation identifies Rick as the Polanskis’ next-door neighbor and recounts two attackers killed by Cliff/Brandy and the third by Rick."
+    }
+  ],
+  "retained_productionCoordinates": [
+    -118.369741619557,
+    34.132152996513
+  ],
+  "retained_filming_address": "10969 Alta View Drive",
+  "known_deaths": 3,
+  "not_victims": [
+    "Rick Dalton",
+    "Cliff Booth",
+    "Francesca Capucci",
+    "Brandy",
+    "Sharon Tate",
+    "Jay Sebring"
+  ]
+}

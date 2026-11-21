@@ -19721,19 +19721,62 @@
       ],
       "address": "10969 Alta View Drive",
       "area": "Studio City",
-      "coordinates": null,
+      "coordinates": [
+        -118.43175,
+        34.0941
+      ],
       "productionCoordinates": [
         -118.369741619557,
         34.132152996513
       ],
-      "precision": "street-interpolated",
+      "precision": "area_inferred",
       "placement": {
-        "kind": "unknown",
-        "address": "Cielo Drive · exact property unlocated",
-        "precision": "unlocated",
+        "kind": "inferred",
+        "address": "10000 block of Cielo Drive · editorial estimate",
+        "precision": "area_inferred",
+        "reason": "The film names the 10000 block of Cielo Drive and places Rick next door to the Polanskis. This point and outline represent the surrounding story area, not an identified house or parcel. The Studio City exterior at 10969 Alta View Drive remains filming provenance only.",
         "sourceIds": [
-          "lives_once_fo"
-        ]
+          "dalton_pd_notes",
+          "dalton_cielo_dialogue",
+          "dalton_cielo_geocoder"
+        ],
+        "viewport": [
+          [
+            -118.4331,
+            34.0931
+          ],
+          [
+            -118.4304,
+            34.0951
+          ]
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.4331,
+                34.0931
+              ],
+              [
+                -118.4304,
+                34.0931
+              ],
+              [
+                -118.4304,
+                34.0951
+              ],
+              [
+                -118.4331,
+                34.0951
+              ],
+              [
+                -118.4331,
+                34.0931
+              ]
+            ]
+          ]
+        }
       },
       "people": [
         "Rick Dalton",
@@ -19807,7 +19850,12 @@
             "Susan “Sadie” Atkins",
             "Patricia “Katie” Krenwinkel"
           ],
-          "knownCount": 3
+          "knownCount": 3,
+          "story_role": "Three intruders killed during the attack on Rick’s home",
+          "source_ids": [
+            "lives_once_plot",
+            "dalton_cielo_dialogue"
+          ]
         }
       ],
       "propertyLinks": [
@@ -57718,6 +57766,24 @@
       "title": "Los Angeles County Public Works: building 446989860017 at 1870 Blue Heights Drive",
       "url": "https://dpw.gis.lacounty.gov/dpw/rest/services/buildingfootprints/MapServer/0/query?geometry=%7B%22rings%22%3A%5B%5B%5B-118.37858784235148%2C34.10276602635747%5D%2C%5B-118.3786784998863%2C34.10271094943863%5D%2C%5B-118.37872639792936%2C34.1026818091271%5D%2C%5B-118.3787365953317%2C34.10263588747008%5D%2C%5B-118.37894479042306%2C34.10263325626007%5D%2C%5B-118.37894244729888%2C34.10301277414209%5D%2C%5B-118.3789419392177%2C34.10309746558227%5D%2C%5B-118.37887808847228%2C34.10309799554865%5D%2C%5B-118.37858784235148%2C34.10276602635747%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPolygon&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCODE%2CBLD_ID%2CSOURCE%2CDATE_%2CAREA&outSR=4326&returnGeometry=true&f=pjson",
       "source_type": "official building footprint geometry"
+    },
+    {
+      "id": "dalton_pd_notes",
+      "title": "Barbara Ling: Rick’s house — production design notes, PDF pages 3–4",
+      "url": "https://assets.adg.org/media/submissions/2019-11-22_13-40-14/OUTH_Academy_PD_r5.pdf",
+      "source_type": "primary production designer account"
+    },
+    {
+      "id": "dalton_cielo_dialogue",
+      "title": "Once Upon a Time in Hollywood: Cielo Drive dialogue and aftermath",
+      "url": "https://transcripts.simpleremix.com/script.php/once-upon-a-time-in-hollywood-2019-TvGA",
+      "source_type": "released-film dialogue transcription"
+    },
+    {
+      "id": "dalton_cielo_geocoder",
+      "title": "Cielo Drive, 10000 block: street reference for an editorial area estimate",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=10050+Cielo+Drive%2C+Los+Angeles%2C+CA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+      "source_type": "street-interpolated geography; not a fictional property address"
     },
     {
       "id": "death_count_nope_1",

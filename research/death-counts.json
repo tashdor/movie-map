@@ -168,6 +168,23 @@
           "reference": "Bill Paxton: Punk Leader and Brian Thompson: Punk, first-person recollections published 31 January 2024."
         }
       ]
+    },
+    {
+      "placeId": 185,
+      "title": "Once Upon a Time in Hollywood",
+      "knownCount": 3,
+      "certainty": "confirmed",
+      "basis": "Rick recounts two intruders killed by his friend and dog, followed by the third intruder killed by Rick. These are fictional events in the film; surviving residents, guests and the dog are not victims.",
+      "source_ids": [
+        "dalton_cielo_dialogue",
+        "lives_once_plot"
+      ],
+      "evidence": [
+        {
+          "url": "https://transcripts.simpleremix.com/script.php/once-upon-a-time-in-hollywood-2019-TvGA",
+          "reference": "Final Rick/Jay conversation after the attack: two intruders killed by Cliff and Brandy, plus the third killed by Rick."
+        }
+      ]
     }
   ],
   "sources": [

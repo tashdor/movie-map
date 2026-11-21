@@ -1858,6 +1858,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": 185,
+      "title": "Once Upon a Time in Hollywood",
+      "name": "Rick Dalton’s home",
+      "reason": "The ordinary home and its safe arrival still stay readable; the entire synthetic death outcome and victim identities are concealed.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances[title=Once Upon a Time in Hollywood].story_role",
+          "phrases": [
+            "Three intruders killed during the attack on Rick’s home"
+          ]
+        }
+      ]
     }
   ],
   "journeys": [
@@ -2172,6 +2187,11 @@
         "placeId": 511,
         "src": "photos/n511-screen.jpg",
         "reason": "Theme park entrance/parking; no massacre."
+      },
+      {
+        "placeId": 185,
+        "src": "photos/n185-screen.jpg",
+        "reason": "Inspected: Rick and Cliff by a parked car outside the home; no attack or fatality is depicted."
       }
     ]
   }
