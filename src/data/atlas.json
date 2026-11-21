@@ -8775,7 +8775,11 @@
         "Buzz Gunderson",
         "Sam",
         "Peggy Carter",
-        "Jason Wilkes"
+        "Jason Wilkes",
+        "Kit Ramsey",
+        "Bobby Bowfinger",
+        "Daisy",
+        "Dave"
       ],
       "featured": true,
       "appearances": [
@@ -8795,7 +8799,8 @@
           ],
           "categories": [
             "event",
-            "hangout"
+            "hangout",
+            "death"
           ],
           "story_time": {
             "year": 1984,
@@ -9097,6 +9102,51 @@
             "name": "Los Angeles, California",
             "canonicalLA": true
           }
+        },
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Chubby Rain’s Observatory shoot",
+          "filming_component": "Griffith Observatory exterior",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_griffith"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kit Ramsey",
+              "relationship": "visits the Observatory"
+            },
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "films at the Observatory"
+            },
+            {
+              "name": "Daisy",
+              "relationship": "performs in Chubby Rain"
+            },
+            {
+              "name": "Dave",
+              "relationship": "operates the camera"
+            }
+          ],
+          "categories": [
+            "event"
+          ],
+          "storySetting": {
+            "name": "Los Angeles, California",
+            "canonicalLA": true
+          }
         }
       ],
       "notes": "Shared site across The Terminator, La La Land and Star Trek: Voyager. La La Land's planetarium was recreated on a stage. Voyager exterior filming is documented; Rain's laboratory interior is not yet verified as on-location. Rain's employment is established during the 1996 story, but no start or end date for her job is inferred.",
@@ -9231,6 +9281,16 @@
             "griffith_official_map"
           ],
           "reason": "The Observatory plays itself. This appearance shares the official Observatory building pin; the courtyard and terrace are parts of that site."
+        },
+        "Bowfinger": {
+          "kind": "screen",
+          "address": "2800 East Observatory Road, Los Angeles, CA 90027",
+          "precision": "PointAddress",
+          "sourceIds": [
+            "bowfinger_afi",
+            "bowfinger_locations"
+          ],
+          "reason": "The film depicts the named venue. The pin is the identified filming site."
         }
       },
       "mediaByTitle": {
@@ -9377,6 +9437,25 @@
             "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
           }
         },
+        "Bowfinger": {
+          "screen": {
+            "src": "photos/bowfinger-griffith-screen.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2010/09/14/griffith-observatory",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/09/1a3954c4-0a30-46eb-93f1-e262f7a6edb9.jpg",
+            "credit": "Bowfinger film frame · IAMNOTASTALKER",
+            "alt": "Griffith Observatory at night during the Chubby Rain shoot.",
+            "width": 799,
+            "height": 600,
+            "title": "Bowfinger",
+            "spoiler": false
+          },
+          "place": {
+            "src": "photos/083-place.jpg",
+            "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+            "credit": "It's Filmed There",
+            "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+          }
+        },
         "Star Trek: Voyager": {
           "place": {
             "src": "photos/083-place.jpg",
@@ -9483,6 +9562,29 @@
             "rk_afi"
           ],
           "knownCount": 8
+        },
+        {
+          "title": "The Terminator",
+          "people": [
+            "Punk leader",
+            "Knife-wielding punk"
+          ],
+          "label": "Deaths at Griffith Observatory",
+          "story_role": "Two punks killed by the T-800 at Griffith Observatory",
+          "story_time": {
+            "year": 1984,
+            "precision": "year",
+            "certainty": "explicit",
+            "basis": "Los Angeles, 1984, per American Cinematheque synopsis.",
+            "source_ids": [
+              "terminator_cinematheque_time"
+            ]
+          },
+          "knownCount": 2,
+          "source_ids": [
+            "terminator_punk_interviews",
+            "terminator_afi_story"
+          ]
         }
       ]
     },
@@ -50957,6 +51059,805 @@
           "note": "Source image metadata records 30 July 2022. This photograph shows the replacement bridge near the scene area, rather than the demolished screen pillars or the exact time-portal footprint."
         }
       }
+    },
+    {
+      "id": 830,
+      "name": "Bowfinger International Pictures",
+      "short": "Bowfinger International Pictures",
+      "category": "home",
+      "categories": [
+        "home",
+        "work"
+      ],
+      "address": "1621 Vista del Mar Ave, Los Angeles, California, 90028",
+      "area": "Hollywood",
+      "coordinates": [
+        -118.324406034464,
+        34.100527937571
+      ],
+      "productionCoordinates": [
+        -118.324406034464,
+        34.100527937571
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations",
+          "bowfinger_geocoder"
+        ],
+        "reason": "Screen exterior used as a filming proxy; the story does not independently establish this street address."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Bobby Bowfinger",
+        "Afrim",
+        "Dave",
+        "Carol",
+        "Slater",
+        "Daisy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Bowfinger’s home and production office",
+          "filming_component": "Bowfinger International Pictures exterior",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_office"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "lives and works here"
+            },
+            {
+              "name": "Afrim",
+              "relationship": "writes Chubby Rain here"
+            },
+            {
+              "name": "Dave",
+              "relationship": "works on the film"
+            },
+            {
+              "name": "Carol",
+              "relationship": "rehearses here"
+            },
+            {
+              "name": "Slater",
+              "relationship": "rehearses here"
+            },
+            {
+              "name": "Daisy",
+              "relationship": "auditions here"
+            }
+          ],
+          "categories": [
+            "home",
+            "work"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-office-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2014/07/28/bowfinger-international-pictures-from-bowfinger",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/07/4125bdc2-8b8e-4565-9d4b-edd4e0fd7ef1.jpg",
+          "credit": "Bowfinger film frame · IAMNOTASTALKER",
+          "alt": "Bowfinger International Pictures bungalow and sign.",
+          "width": 1024,
+          "height": 540,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "screenGallery": [
+          {
+            "src": "photos/bowfinger-office-gallery.jpg",
+            "sourceUrl": "https://www.iamnotastalker.com/2014/07/28/bowfinger-international-pictures-from-bowfinger",
+            "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/07/56061872-4faa-479b-bbce-9ae8e6df2447.jpg",
+            "credit": "Bowfinger film frame · IAMNOTASTALKER",
+            "alt": "Daisy outside Bowfinger’s bungalow.",
+            "width": 1024,
+            "height": 538,
+            "title": "Bowfinger",
+            "spoiler": false
+          }
+        ],
+        "place": {
+          "src": "photos/bowfinger-830-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.325306034464%2C34.099927937571%2C-118.323506034464%2C34.101127937571&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Bowfinger International Pictures — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "1621 Vista del Mar Ave, Los Angeles, California, 90028",
+      "propertyLinks": [
+        {
+          "address": "1621 Vista Del Mar Ave, Los Angeles, CA 90028",
+          "url": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+          "verifiedOn": "2026-11-20",
+          "price": {
+            "amount": 1058700,
+            "currency": "USD",
+            "kind": "zestimate",
+            "checkedOn": "2026-11-20",
+            "sourceUrl": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "name": "Kit Ramsey’s mansion",
+      "short": "Kit Ramsey’s mansion",
+      "category": "home",
+      "categories": [
+        "home",
+        "event"
+      ],
+      "address": "380 South San Rafael Avenue, Pasadena, CA 91105",
+      "area": "Pasadena",
+      "coordinates": [
+        -118.169949603346,
+        34.137352027063
+      ],
+      "productionCoordinates": [
+        -118.169949603346,
+        34.137352027063
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations"
+        ],
+        "reason": "Screen exterior used as a filming proxy; the story does not independently establish this street address."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Kit Ramsey",
+        "Bobby Bowfinger",
+        "Daisy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Kit’s home; Daisy chases his limousine",
+          "filming_component": "Kit Ramsey’s mansion exterior",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_mansion"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kit Ramsey",
+              "relationship": "lives here"
+            },
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "visits Kit"
+            },
+            {
+              "name": "Daisy",
+              "relationship": "films outside Kit’s gates"
+            }
+          ],
+          "categories": [
+            "home",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-mansion-screen.jpg",
+          "sourceUrl": "https://www.flickr.com/photos/hoffarth/6947542915",
+          "imageUrl": "https://live.staticflickr.com/7048/6947542915_d20ed888dd_b.jpg",
+          "credit": "Bowfinger film frame · Tony Hoffarth (comparison cropped to the film frame)",
+          "alt": "Bowfinger approaches Kit Ramsey’s mansion gates.",
+          "width": 929,
+          "height": 507,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bowfinger-831-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.170849603346%2C34.136752027063004%2C-118.169049603346%2C34.137952027063&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Kit Ramsey’s mansion — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "380 South San Rafael Avenue, Pasadena, CA 91105",
+      "propertyLinks": [
+        {
+          "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+          "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+          "scope": "filming-site",
+          "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+          "verifiedOn": "2026-11-17",
+          "price": {
+            "amount": 32000000,
+            "currency": "USD",
+            "kind": "asking",
+            "checkedOn": "2026-11-18",
+            "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 832,
+      "name": "MindHead headquarters",
+      "short": "MindHead headquarters",
+      "category": "work",
+      "categories": [
+        "work",
+        "event"
+      ],
+      "address": "8687 Melrose Ave, West Hollywood, California, 90069",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.38239331,
+        34.08323308
+      ],
+      "productionCoordinates": [
+        -118.38239331,
+        34.08323308
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "filming-proxy",
+        "address": "Los Angeles · story street unconfirmed",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations",
+          "bowfinger_geocoder",
+          "bowfinger_green_parcel"
+        ],
+        "reason": "Screen exterior used as a filming proxy; the story does not independently establish this street address. Pin uses the county Center Green parcel, not the generic campus address point at Center Blue."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Kit Ramsey",
+        "Terry Stricter",
+        "Bobby Bowfinger"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Kit’s sessions with Terry Stricter",
+          "filming_component": "Pacific Design Center · Center Green exterior",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_comparisons"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Kit Ramsey",
+              "relationship": "visits MindHead"
+            },
+            {
+              "name": "Terry Stricter",
+              "relationship": "counsels Kit here"
+            },
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "visits MindHead"
+            }
+          ],
+          "categories": [
+            "work",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-mindhead-screen.jpg",
+          "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfokNKbDyJyn9R6a6S1D5r19250mj8ryjwRUcMkwoohBSQS-871bSSjekX2hQ_feCzqzqbDbrIuFRfQ8SOYJBxGvOexW5jI-SvZtQm2bO0pk-L2d8Y6-y2_XhpQgk9im6h-3sSdXmC4z8/s1600/MindheadStill.jpg",
+          "credit": "Bowfinger film frame · Film 366",
+          "alt": "MindHead sign in front of the green Pacific Design Center building.",
+          "width": 554,
+          "height": 314,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bowfinger-832-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.38329331%2C34.08263308%2C-118.38149331%2C34.08383308&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "MindHead headquarters — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "8687 Melrose Ave, West Hollywood, California, 90069"
+    },
+    {
+      "id": 833,
+      "name": "Le Dôme",
+      "short": "Le Dôme",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "8720 W Sunset Blvd, West Hollywood, California, 90069",
+      "area": "West Hollywood",
+      "coordinates": [
+        -118.381058982751,
+        34.091503980612
+      ],
+      "productionCoordinates": [
+        -118.381058982751,
+        34.091503980612
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "screen",
+        "address": "8720 W Sunset Blvd, West Hollywood, California, 90069",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations",
+          "bowfinger_geocoder"
+        ],
+        "reason": "The film depicts the named venue. The pin is the identified filming site."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Bobby Bowfinger",
+        "Jerry Renfro"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Bowfinger pitches Chubby Rain to Jerry Renfro",
+          "filming_component": "Le Dôme exterior / dining room",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "pitches his film here"
+            },
+            {
+              "name": "Jerry Renfro",
+              "relationship": "takes a meeting here"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-dome-screen.jpg",
+          "sourceUrl": "https://www.filmsite.org/bowfinger.html",
+          "imageUrl": "https://www.filmsite.org/pix/bowfinger4.jpg",
+          "credit": "Bowfinger film frame · Filmsite / Tim Dirks",
+          "alt": "Bowfinger pitches his film to Jerry Renfro at Le Dôme.",
+          "width": 160,
+          "height": 138,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bowfinger-833-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.381958982751%2C34.090903980612005%2C-118.380158982751%2C34.092103980612&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Le Dôme — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "8720 W Sunset Blvd, West Hollywood, California, 90069"
+    },
+    {
+      "id": 834,
+      "name": "Rae’s Restaurant",
+      "short": "Rae’s Restaurant",
+      "category": "hangout",
+      "categories": [
+        "hangout",
+        "event"
+      ],
+      "address": "2901 Pico Blvd, Santa Monica, California, 90405",
+      "area": "Santa Monica",
+      "coordinates": [
+        -118.459677714137,
+        34.025028447632
+      ],
+      "productionCoordinates": [
+        -118.459677714137,
+        34.025028447632
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "screen",
+        "address": "2901 Pico Blvd, Santa Monica, California, 90405",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations",
+          "bowfinger_geocoder"
+        ],
+        "reason": "The film depicts the named venue. The pin is the identified filming site."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Bobby Bowfinger",
+        "Jiff Ramsey",
+        "Carol",
+        "Slater"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Bowfinger and the crew eat with Jiff",
+          "filming_component": "Rae’s Restaurant exterior / dining room",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_comparisons"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "eats with the crew"
+            },
+            {
+              "name": "Jiff Ramsey",
+              "relationship": "eats with the crew"
+            },
+            {
+              "name": "Carol",
+              "relationship": "eats with the crew"
+            },
+            {
+              "name": "Slater",
+              "relationship": "eats with the crew"
+            }
+          ],
+          "categories": [
+            "hangout",
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-raes-screen.jpg",
+          "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM5td556M9M2OACJ4DwgCyiHU1gc9N6-pxyEbiECPBTRIVIPeaAwcotyAMTJ6Bkq7Nni4VjNoEWgEBX0HEVNQGG8sqRrkqV11SciUzlM8SA1G0LwXth-3DXtFui6-TP7-BjnRyltEIxuQ/s1600/RaeIntStill.jpg",
+          "credit": "Bowfinger film frame · Film 366",
+          "alt": "Bowfinger, Jiff and the crew at a table inside Rae’s Restaurant.",
+          "width": 400,
+          "height": 215,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/bowfinger-834-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.460577714137%2C34.024428447632005%2C-118.458777714137%2C34.025628447632&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Rae’s Restaurant — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "2901 Pico Blvd, Santa Monica, California, 90405"
+    },
+    {
+      "id": 836,
+      "name": "Village Theatre",
+      "short": "Village Theatre",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "961 Broxton Ave, Los Angeles, California, 90024",
+      "area": "Westwood",
+      "coordinates": [
+        -118.447256823279,
+        34.062698271155
+      ],
+      "productionCoordinates": [
+        -118.447256823279,
+        34.062698271155
+      ],
+      "precision": "PointAddress",
+      "placement": {
+        "kind": "screen",
+        "address": "961 Broxton Ave, Los Angeles, California, 90024",
+        "precision": "PointAddress",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_locations",
+          "bowfinger_geocoder"
+        ],
+        "reason": "The film depicts the named venue. The pin is the identified filming site."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Bobby Bowfinger",
+        "Kit Ramsey",
+        "Jiff Ramsey",
+        "Daisy"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Chubby Rain’s premiere",
+          "filming_component": "Village Theatre exterior",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_comparisons"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "attends the premiere"
+            },
+            {
+              "name": "Kit Ramsey",
+              "relationship": "attends the premiere"
+            },
+            {
+              "name": "Jiff Ramsey",
+              "relationship": "attends the premiere"
+            },
+            {
+              "name": "Daisy",
+              "relationship": "attends the premiere"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-village-screen.jpg",
+          "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwCC0exZCtjohez6tLsL36Qr8PvqFeRwkb2zbmT3AqTSQtEnjAZ9TQVg0hIRW6DtFPVVHd6W3QEpOzUwW7nVUQJbA_i76kXRJzQJt1MRINrVf_UPbG2o_3fulpErQC6vIHvE1rshfSkZc/s640/westwoodcrain.jpg",
+          "credit": "Bowfinger film frame · Film 366",
+          "alt": "Chubby Rain marquee above the Village Theatre entrance.",
+          "width": 340,
+          "height": 186,
+          "title": "Bowfinger",
+          "spoiler": true
+        },
+        "place": {
+          "src": "photos/bowfinger-836-place.jpg",
+          "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.448156823279%2C34.062098271155%2C-118.446356823279%2C34.063298271155&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+          "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+          "alt": "Village Theatre — real filming site",
+          "width": 1000,
+          "height": 650,
+          "caption": "Site · aerial",
+          "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+        }
+      },
+      "mapsQuery": "961 Broxton Ave, Los Angeles, California, 90024"
+    },
+    {
+      "id": 837,
+      "name": "Jiff’s freeway run",
+      "short": "Jiff’s freeway run",
+      "category": "event",
+      "categories": [
+        "event"
+      ],
+      "address": "Glendale Freeway, Los Angeles · exact filming stretch unverified",
+      "area": "Los Angeles",
+      "coordinates": null,
+      "productionCoordinates": null,
+      "precision": "unlocated",
+      "placement": {
+        "kind": "unknown",
+        "address": "Los Angeles freeway · exact crossing unverified",
+        "precision": "unlocated",
+        "sourceIds": [
+          "bowfinger_afi",
+          "bowfinger_freeway_clip"
+        ],
+        "reason": "AFI identifies the production road as the Glendale Freeway, but the exact crossing and the story’s freeway are unverified. No invented pin or route."
+      },
+      "storySetting": {
+        "name": "Los Angeles, California",
+        "canonicalLA": true
+      },
+      "people": [
+        "Jiff Ramsey",
+        "Bobby Bowfinger",
+        "Dave"
+      ],
+      "featured": false,
+      "appearances": [
+        {
+          "title": "Bowfinger",
+          "release_year": 1999,
+          "story_role": "Jiff runs across traffic for Chubby Rain",
+          "filming_component": "Glendale Freeway; exact stretch unverified",
+          "source_ids": [
+            "bowfinger_afi",
+            "bowfinger_locations",
+            "bowfinger_freeway_clip"
+          ],
+          "story_time": {
+            "year": 1999,
+            "precision": "year",
+            "certainty": "approximate",
+            "basis": "Contemporary Los Angeles setting; release year used as an editorial estimate.",
+            "source_ids": [
+              "bowfinger_afi"
+            ]
+          },
+          "characters": [
+            {
+              "name": "Jiff Ramsey",
+              "relationship": "runs across the freeway"
+            },
+            {
+              "name": "Bobby Bowfinger",
+              "relationship": "directs the scene"
+            },
+            {
+              "name": "Dave",
+              "relationship": "films the crossing"
+            }
+          ],
+          "categories": [
+            "event"
+          ]
+        }
+      ],
+      "notes": "",
+      "media": {
+        "screen": {
+          "src": "photos/bowfinger-freeway-screen.jpg",
+          "sourceUrl": "https://www.filmsite.org/bowfinger.html",
+          "imageUrl": "https://www.filmsite.org/shots/bowfinger3.jpg",
+          "credit": "Bowfinger film frame · Filmsite / Tim Dirks",
+          "alt": "Jiff crossing freeway traffic in Bowfinger.",
+          "width": 160,
+          "height": 121,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "note": "Exact crossing unverified; no site photograph is attributed to this event."
+      },
+      "mapsQuery": "Glendale Freeway, Los Angeles, CA"
     }
   ],
   "journeys": [
@@ -56691,6 +57592,66 @@
       "title": "Film Oblivion: Terminator 2 and the rebuilt Sixth Street Bridge",
       "url": "https://filmoblivion.com/2017/07/21/terminator-2-judgment-day/",
       "source_type": "photographer location report"
+    },
+    {
+      "id": "terminator_punk_interviews",
+      "title": "The Terminator: Bill Paxton and Brian Thompson recall their Observatory scene",
+      "url": "https://www.dreadcentral.com/interviews/472768/terminated-meet-the-victims-of-the-original-terminator/",
+      "source_type": "cast interviews"
+    },
+    {
+      "id": "bowfinger_afi",
+      "title": "AFI Catalog: Bowfinger — synopsis and production history",
+      "url": "https://catalog.afi.com/Film/60915-BOWFINGER",
+      "source_type": "film archive"
+    },
+    {
+      "id": "bowfinger_locations",
+      "title": "Bowfinger: matched story scenes and real exteriors",
+      "url": "https://www.movie-locations.com/movies/b/Bowfinger.php",
+      "source_type": "location research"
+    },
+    {
+      "id": "bowfinger_geocoder",
+      "title": "Esri World Geocoding Service: public street addresses",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source_type": "geocoder"
+    },
+    {
+      "id": "bowfinger_office",
+      "title": "Bowfinger International Pictures: scene and bungalow comparisons",
+      "url": "https://www.iamnotastalker.com/2014/07/28/bowfinger-international-pictures-from-bowfinger",
+      "source_type": "firsthand location photography"
+    },
+    {
+      "id": "bowfinger_comparisons",
+      "title": "Film 366: Bowfinger — MindHead, theatre, mansion and Rae’s comparisons",
+      "url": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+      "source_type": "firsthand location photography"
+    },
+    {
+      "id": "bowfinger_mansion",
+      "title": "Tony Hoffarth: Kit Ramsey’s mansion gates in Bowfinger",
+      "url": "https://www.flickr.com/photos/hoffarth/6947542915",
+      "source_type": "firsthand scene comparison"
+    },
+    {
+      "id": "bowfinger_freeway_clip",
+      "title": "Universal Pictures: Bowfinger — Jiff’s freeway scene",
+      "url": "https://www.youtube.com/watch?v=aZSIwR1qA1c",
+      "source_type": "released-film excerpt"
+    },
+    {
+      "id": "bowfinger_griffith",
+      "title": "Griffith Observatory: Bowfinger scene comparison",
+      "url": "https://www.iamnotastalker.com/2010/09/14/griffith-observatory",
+      "source_type": "firsthand location photography"
+    },
+    {
+      "id": "bowfinger_green_parcel",
+      "title": "L.A. County: Center Green parcel 4337017042",
+      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/FeatureServer/0/query?where=AIN%3D%274337017042%27&outFields=AIN%2CSitusFullAddress%2CCENTER_LAT%2CCENTER_LON&outSR=4326&returnGeometry=true&f=json",
+      "source_type": "county parcel geometry"
     },
     {
       "id": "story_pins_mulholland_script",

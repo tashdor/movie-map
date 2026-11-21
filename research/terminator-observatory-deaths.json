@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-20",
+  "places": [],
+  "sources": [
+    {
+      "id": "terminator_punk_interviews",
+      "title": "The Terminator: Bill Paxton and Brian Thompson recall their Observatory scene",
+      "url": "https://www.dreadcentral.com/interviews/472768/terminated-meet-the-victims-of-the-original-terminator/",
+      "source_type": "cast interviews"
+    }
+  ],
+  "deathAdditions": [
+    {
+      "placeId": 83,
+      "death": {
+        "title": "The Terminator",
+        "people": [
+          "Punk leader",
+          "Knife-wielding punk"
+        ],
+        "label": "Deaths at Griffith Observatory",
+        "story_role": "Two punks killed by the T-800 at Griffith Observatory",
+        "story_time": {
+          "year": 1984,
+          "precision": "year",
+          "certainty": "explicit",
+          "basis": "Los Angeles, 1984, per American Cinematheque synopsis.",
+          "source_ids": [
+            "terminator_cinematheque_time"
+          ]
+        },
+        "knownCount": 2,
+        "source_ids": [
+          "terminator_punk_interviews",
+          "terminator_afi_story"
+        ]
+      }
+    }
+  ],
+  "audit": {
+    "count": 2,
+    "basis": "Paxton’s first-person account identifies his punk leader as killed; Thompson separately recalls his punk’s killing at the Observatory. The third punk, played by Brad Rearden, surrenders his clothes and has no confirmed on-screen death. Count two, not all three.",
+    "identities": "Descriptive character labels follow the released film. Actor names and uncertain novelization aliases are not treated as character names.",
+    "excluded": [
+      "Third punk",
+      "T-800 (perpetrator, not a victim)"
+    ]
+  }
+}

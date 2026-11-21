@@ -411,6 +411,22 @@
       "note": "Exact house-address match for Jimmie’s Pulp Fiction filming house; place ID pending route integration.",
       "id": 781,
       "scope": "filming-site"
+    },
+    {
+      "id": 831,
+      "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+      "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "verifiedOn": "2026-11-17"
+    },
+    {
+      "id": 830,
+      "address": "1621 Vista Del Mar Ave, Los Angeles, CA 90028",
+      "url": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+      "scope": "filming-site",
+      "sourceUrl": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+      "verifiedOn": "2026-11-20"
     }
   ],
   "audit": [

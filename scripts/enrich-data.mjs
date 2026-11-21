@@ -64,7 +64,7 @@ export function enrich(atlas){
   const secondCatalog={schema_version:1,researched_on:'2026-11-17',places:second.flatMap(d=>d.places),sources:[...new Map(second.flatMap(d=>d.sources).map(s=>[s.id,s])).values()],audit:second.flatMap(d=>d.audit||[])};
   if(secondCatalog.places.length!==100||new Set(secondCatalog.places.map(p=>p.id)).size!==100)throw Error('Second expansion must contain 100 distinct researched places');
   fs.writeFileSync('research/expansion2-100.json',JSON.stringify(secondCatalog,null,2)+'\n');
-  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json','research/player-strange-days.json','research/speed-crash.json','research/smoke-house.json','research/voyager-locations.json','research/live-die-chase.json','research/argo-locations.json',...secondPaths,'research/north-county.json','research/noncanonical-bttf.json','research/extra-halloween-valley.json','research/extra-cult-films.json','research/extra-lethal-weapon.json','research/extra-last-action-hero.json','research/se7en-locations.json','research/routes-expansion.json','research/rocketeer-locations.json','research/dragnet-observatory.json','research/dragnet-locations.json','research/griffith-appearances.json','research/bosch-events.json','research/bosch-haunts.json','research/bosch-workplaces.json','research/t2-arrival.json']){
+  for(const path of ['research/expansion-noir.json','research/expansion-thrillers.json','research/expansion-lives.json','research/route-revisions.json','research/route-extra.json','research/heat-robberies.json','research/heat-lives.json','research/franks.json','research/heat-routes.json','research/terminator-police.json','research/player-strange-days.json','research/speed-crash.json','research/smoke-house.json','research/voyager-locations.json','research/live-die-chase.json','research/argo-locations.json',...secondPaths,'research/north-county.json','research/noncanonical-bttf.json','research/extra-halloween-valley.json','research/extra-cult-films.json','research/extra-lethal-weapon.json','research/extra-last-action-hero.json','research/se7en-locations.json','research/routes-expansion.json','research/rocketeer-locations.json','research/dragnet-observatory.json','research/dragnet-locations.json','research/griffith-appearances.json','research/bosch-events.json','research/bosch-haunts.json','research/bosch-workplaces.json','research/t2-arrival.json','research/terminator-observatory-deaths.json','research/bowfinger-locations.json']){
     const extra=read(path,{places:[],sources:[]});
     for(const source of extra.sources){if(!sourceIds.has(source.id)){atlas.sources.push(source);sourceIds.add(source.id);}}
     for(const place of extra.places){
@@ -85,6 +85,15 @@ export function enrich(atlas){
         continue;
       }
       if(byId.has(place.id))throw Error(`Duplicate place ${place.id}`);atlas.places.push(place);byId.set(place.id,place);
+    }
+    for(const addition of extra.deathAdditions||[]){
+      const shared=byId.get(addition.placeId);
+      const appearance=shared?.appearances.find(a=>a.title===addition.death.title);
+      if(!appearance)throw Error(`Missing death appearance ${addition.placeId}: ${addition.death.title}`);
+      if(shared.deaths?.some(d=>d.title===addition.death.title))throw Error(`Duplicate death appearance ${addition.placeId}: ${addition.death.title}`);
+      shared.deaths=[...(shared.deaths||[]),addition.death];
+      shared.categories=[...new Set([...shared.categories,'death'])];
+      appearance.categories=[...new Set([...(appearance.categories||shared.categories),'death'])];
     }
     for(const revised of extra.revisedPlaces||[]){const place=byId.get(revised.id);if(!place)throw Error(`Missing revised place ${revised.id}`);Object.assign(place,revised);}
     for(const revised of extra.journeys||[]){const index=atlas.journeys.findIndex(j=>j.id===revised.id);if(index<0)atlas.journeys.push(revised);else atlas.journeys[index]=revised;}

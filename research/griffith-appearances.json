@@ -395,12 +395,6 @@
   ],
   "further_candidates": [
     {
-      "title": "Bowfinger",
-      "evidence": "Observatory director E. C. Krupp describes the film-within-a-film shoot at the Observatory.",
-      "url": "https://www.cultureandcosmos.org/pdfs/27/27_Krupp_Hollywood_Star.pdf",
-      "status": "Research lead: resolve character/site role and acquire a matched scene image before adding."
-    },
-    {
       "title": "Devil in a Blue Dress",
       "evidence": "Screenplay scene 129 explicitly names Griffith Park Observatory for Easy’s meeting.",
       "url": "https://imsdb.com/scripts/Devil-in-a-Blue-Dress.html",
@@ -442,6 +436,14 @@
       "title": "Fallout",
       "reason": "A fictional/visual representation alone does not establish that the real Observatory was filmed; production evidence remains unresolved.",
       "url": "https://griffithobservatory.lacity.gov/about/filming/"
+    }
+  ],
+  "resolved_candidates": [
+    {
+      "title": "Bowfinger",
+      "evidence": "Observatory director E. C. Krupp describes the film-within-a-film shoot at the Observatory.",
+      "url": "https://www.cultureandcosmos.org/pdfs/27/27_Krupp_Hollywood_Star.pdf",
+      "status": "Added through research/bowfinger-locations.json after AFI story, site and film-frame verification."
     }
   ]
 }

@@ -2300,6 +2300,25 @@
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
         }
       },
+      "Bowfinger": {
+        "screen": {
+          "src": "photos/bowfinger-griffith-screen.jpg",
+          "sourceUrl": "https://www.iamnotastalker.com/2010/09/14/griffith-observatory",
+          "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2010/09/1a3954c4-0a30-46eb-93f1-e262f7a6edb9.jpg",
+          "credit": "Bowfinger film frame · IAMNOTASTALKER",
+          "alt": "Griffith Observatory at night during the Chubby Rain shoot.",
+          "width": 799,
+          "height": 600,
+          "title": "Bowfinger",
+          "spoiler": false
+        },
+        "place": {
+          "src": "photos/083-place.jpg",
+          "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
+          "credit": "It's Filmed There",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
+        }
+      },
       "Star Trek: Voyager": {
         "place": {
           "src": "photos/083-place.jpg",
@@ -10411,5 +10430,176 @@
       "height": 888,
       "note": "Production exterior at Central Station, distinct from the story’s named Parker Center. Capture date unverified."
     }
+  },
+  "830": {
+    "screen": {
+      "src": "photos/bowfinger-office-screen.jpg",
+      "sourceUrl": "https://www.iamnotastalker.com/2014/07/28/bowfinger-international-pictures-from-bowfinger",
+      "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/07/4125bdc2-8b8e-4565-9d4b-edd4e0fd7ef1.jpg",
+      "credit": "Bowfinger film frame · IAMNOTASTALKER",
+      "alt": "Bowfinger International Pictures bungalow and sign.",
+      "width": 1024,
+      "height": 540,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "screenGallery": [
+      {
+        "src": "photos/bowfinger-office-gallery.jpg",
+        "sourceUrl": "https://www.iamnotastalker.com/2014/07/28/bowfinger-international-pictures-from-bowfinger",
+        "imageUrl": "https://wp.iamnotastalker.com/wp-content/uploads/2014/07/56061872-4faa-479b-bbce-9ae8e6df2447.jpg",
+        "credit": "Bowfinger film frame · IAMNOTASTALKER",
+        "alt": "Daisy outside Bowfinger’s bungalow.",
+        "width": 1024,
+        "height": 538,
+        "title": "Bowfinger",
+        "spoiler": false
+      }
+    ],
+    "place": {
+      "src": "photos/bowfinger-830-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.325306034464%2C34.099927937571%2C-118.323506034464%2C34.101127937571&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Bowfinger International Pictures — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "831": {
+    "screen": {
+      "src": "photos/bowfinger-mansion-screen.jpg",
+      "sourceUrl": "https://www.flickr.com/photos/hoffarth/6947542915",
+      "imageUrl": "https://live.staticflickr.com/7048/6947542915_d20ed888dd_b.jpg",
+      "credit": "Bowfinger film frame · Tony Hoffarth (comparison cropped to the film frame)",
+      "alt": "Bowfinger approaches Kit Ramsey’s mansion gates.",
+      "width": 929,
+      "height": 507,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bowfinger-831-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.170849603346%2C34.136752027063004%2C-118.169049603346%2C34.137952027063&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Kit Ramsey’s mansion — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "832": {
+    "screen": {
+      "src": "photos/bowfinger-mindhead-screen.jpg",
+      "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfokNKbDyJyn9R6a6S1D5r19250mj8ryjwRUcMkwoohBSQS-871bSSjekX2hQ_feCzqzqbDbrIuFRfQ8SOYJBxGvOexW5jI-SvZtQm2bO0pk-L2d8Y6-y2_XhpQgk9im6h-3sSdXmC4z8/s1600/MindheadStill.jpg",
+      "credit": "Bowfinger film frame · Film 366",
+      "alt": "MindHead sign in front of the green Pacific Design Center building.",
+      "width": 554,
+      "height": 314,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bowfinger-832-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.38329331%2C34.08263308%2C-118.38149331%2C34.08383308&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "MindHead headquarters — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "833": {
+    "screen": {
+      "src": "photos/bowfinger-dome-screen.jpg",
+      "sourceUrl": "https://www.filmsite.org/bowfinger.html",
+      "imageUrl": "https://www.filmsite.org/pix/bowfinger4.jpg",
+      "credit": "Bowfinger film frame · Filmsite / Tim Dirks",
+      "alt": "Bowfinger pitches his film to Jerry Renfro at Le Dôme.",
+      "width": 160,
+      "height": 138,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bowfinger-833-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.381958982751%2C34.090903980612005%2C-118.380158982751%2C34.092103980612&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Le Dôme — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "834": {
+    "screen": {
+      "src": "photos/bowfinger-raes-screen.jpg",
+      "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM5td556M9M2OACJ4DwgCyiHU1gc9N6-pxyEbiECPBTRIVIPeaAwcotyAMTJ6Bkq7Nni4VjNoEWgEBX0HEVNQGG8sqRrkqV11SciUzlM8SA1G0LwXth-3DXtFui6-TP7-BjnRyltEIxuQ/s1600/RaeIntStill.jpg",
+      "credit": "Bowfinger film frame · Film 366",
+      "alt": "Bowfinger, Jiff and the crew at a table inside Rae’s Restaurant.",
+      "width": 400,
+      "height": 215,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "place": {
+      "src": "photos/bowfinger-834-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.460577714137%2C34.024428447632005%2C-118.458777714137%2C34.025628447632&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Rae’s Restaurant — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "836": {
+    "screen": {
+      "src": "photos/bowfinger-village-screen.jpg",
+      "sourceUrl": "https://film366.blogspot.com/2016/12/bowfinger-1999.html",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwCC0exZCtjohez6tLsL36Qr8PvqFeRwkb2zbmT3AqTSQtEnjAZ9TQVg0hIRW6DtFPVVHd6W3QEpOzUwW7nVUQJbA_i76kXRJzQJt1MRINrVf_UPbG2o_3fulpErQC6vIHvE1rshfSkZc/s640/westwoodcrain.jpg",
+      "credit": "Bowfinger film frame · Film 366",
+      "alt": "Chubby Rain marquee above the Village Theatre entrance.",
+      "width": 340,
+      "height": 186,
+      "title": "Bowfinger",
+      "spoiler": true
+    },
+    "place": {
+      "src": "photos/bowfinger-836-place.jpg",
+      "sourceUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "imageUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118.448156823279%2C34.062098271155%2C-118.446356823279%2C34.063298271155&bboxSR=4326&imageSR=3857&size=1000%2C650&format=jpg&f=image",
+      "credit": "Esri World Imagery; Esri, Maxar, Earthstar Geographics and the GIS User Community",
+      "alt": "Village Theatre — real filming site",
+      "width": 1000,
+      "height": 650,
+      "caption": "Site · aerial",
+      "note": "Current imagery service; capture date is not supplied. No claim of a 2026 photograph."
+    }
+  },
+  "837": {
+    "screen": {
+      "src": "photos/bowfinger-freeway-screen.jpg",
+      "sourceUrl": "https://www.filmsite.org/bowfinger.html",
+      "imageUrl": "https://www.filmsite.org/shots/bowfinger3.jpg",
+      "credit": "Bowfinger film frame · Filmsite / Tim Dirks",
+      "alt": "Jiff crossing freeway traffic in Bowfinger.",
+      "width": 160,
+      "height": 121,
+      "title": "Bowfinger",
+      "spoiler": false
+    },
+    "note": "Exact crossing unverified; no site photograph is attributed to this event."
   }
 }

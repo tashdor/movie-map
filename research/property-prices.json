@@ -960,6 +960,28 @@
       "currency": "USD",
       "kind": "rent",
       "checkedOn": "2026-11-18"
+    },
+    {
+      "placeId": 831,
+      "url": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "address": "380 S San Rafael Ave, Pasadena, CA 91105",
+      "amount": 32000000,
+      "currency": "USD",
+      "kind": "asking",
+      "checkedOn": "2026-11-18",
+      "sourceUrl": "https://www.zillow.com/homedetails/380-S-San-Rafael-Ave-Pasadena-CA-91105/20858675_zpid/",
+      "evidence": "380 S San Rafael Ave, Pasadena, CA 91105. Listed for sale. Asking price $32,000,000. Page crawled 3 days before check."
+    },
+    {
+      "placeId": 830,
+      "url": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+      "address": "1621 Vista Del Mar Ave, Los Angeles, CA 90028",
+      "amount": 1058700,
+      "currency": "USD",
+      "kind": "zestimate",
+      "checkedOn": "2026-11-20",
+      "sourceUrl": "https://www.zillow.com/homedetails/1621-Vista-Del-Mar-Ave-Los-Angeles-CA-90028/2056443275_zpid/",
+      "evidence": "Exact Zillow page identifies 1621 Vista Del Mar Ave as a 2-bedroom, 2-bath, 1,200-square-foot single-family home and publishes a $1,058,700 Zestimate. Not an asking or sale price."
     }
   ],
   "audit": [

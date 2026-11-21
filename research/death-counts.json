@@ -152,6 +152,22 @@
           "reference": "Scenes 118–122: printed pp. 103–106 / PDF pages 118–121. Scene 120 identifies the fallen commando as dead; twenty is the attacker count, not a death tally."
         }
       ]
+    },
+    {
+      "placeId": 83,
+      "title": "The Terminator",
+      "knownCount": 2,
+      "certainty": "confirmed",
+      "basis": "Two Observatory punks: the leader played by Bill Paxton and the knife-wielding punk played by Brian Thompson. Both actors explicitly recall being killed. The third punk gives up his clothes; no death is established.",
+      "source_ids": [
+        "terminator_punk_interviews"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.dreadcentral.com/interviews/472768/terminated-meet-the-victims-of-the-original-terminator/",
+          "reference": "Bill Paxton: Punk Leader and Brian Thompson: Punk, first-person recollections published 31 January 2024."
+        }
+      ]
     }
   ],
   "sources": [

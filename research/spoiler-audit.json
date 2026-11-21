@@ -1826,13 +1826,35 @@
       "id": 83,
       "title": "The Rocketeer",
       "name": "Griffith Observatory",
-      "reason": "Keep the shared Observatory name and facade readable. Conceal the complete synthetic death-role clause; the shootout gallery frame has its own spoiler flag.",
+      "reason": "Keep the shared Observatory name and safe facade readable; conceal complete film-specific fatality clauses. Individual gallery frames carry their own spoiler flags.",
       "fields": [],
       "redactions": [
         {
           "path": "appearances[title=The Rocketeer].story_role",
           "phrases": [
             "At least eight German commandos killed in the Observatory shootout"
+          ]
+        },
+        {
+          "path": "appearances[title=The Terminator].story_role",
+          "phrases": [
+            "Two punks killed by the T-800 at Griffith Observatory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "title": "Bowfinger",
+      "name": "Village Theatre",
+      "reason": "Keep the venue name and address readable while concealing the successful premiere and its participants.",
+      "fields": [],
+      "concealParticipants": true,
+      "redactions": [
+        {
+          "path": "appearances[title=Bowfinger].story_role",
+          "phrases": [
+            "Chubby Rain’s premiere"
           ]
         }
       ]

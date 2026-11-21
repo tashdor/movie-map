@@ -536,6 +536,12 @@
       "endYear": 2016,
       "type": "series",
       "sourceUrl": "https://www.imdb.com/title/tt3475734/"
+    },
+    "Bowfinger": {
+      "year": 1999,
+      "imdbId": "tt0131325",
+      "type": "movie",
+      "sourceUrl": "https://www.imdb.com/title/tt0131325/"
     }
   }
 }

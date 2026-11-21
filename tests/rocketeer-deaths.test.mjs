@@ -19,7 +19,7 @@ test('the Observatory has a sourced 1938 Rocketeer ground-death minimum, without
   assert.deepEqual(associatedPeople(death),['German commandos']);
   assert.equal(death.media.screen.title,'The Rocketeer');
   assert.deepEqual(Object.keys(death.mediaByTitle),['The Rocketeer']);
-  for(const film of ['La La Land','Dragnet','The Terminator','Rebel Without a Cause','Agent Carter'])assert.deepEqual(displayEntries([observatory],{film,category:'death'}),[],film);
+  for(const film of ['La La Land','Dragnet','Rebel Without a Cause','Agent Carter'])assert.deepEqual(displayEntries([observatory],{film,category:'death'}),[],film);
   assert.deepEqual(displayEntries([observatory],{film:'The Rocketeer',category:'death',time:time(1991)}),[]);
   const sites=markerSites(displayEntries([observatory],{film:'The Rocketeer'}));
   assert.deepEqual(sites.map(s=>s.primary.id),[83,-83]);
