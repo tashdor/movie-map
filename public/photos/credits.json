@@ -2196,7 +2196,20 @@
           "sourceUrl": "https://www.itsfilmedthere.com/2012/08/the-terminator.html",
           "credit": "It's Filmed There",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-nOd7Q8Hnw-XBsUsQ89ad841DLBiX53aI_UdQLiMuI__8JSmHLhAEsNzqeySY0_t5D4AHrCcp1PFzHizITwW7g_xkfOD4O1RiFs69Kv3RLUw5Xt_G9cox8vg30-w-F3toft6-X3ZvX7E/s400/IMG_20170912_113204+-+Copy.jpg"
-        }
+        },
+        "screenGallery": [
+          {
+            "src": "photos/rocketeer-griffith-shootout.jpg",
+            "sourceUrl": "https://www.youtube.com/watch?v=RdnSuxydDT4",
+            "credit": "The Rocketeer film frame · Walt Disney Pictures; excerpt uploaded by Zahh Man",
+            "alt": "German commandos hit by gunfire in the Griffith Observatory forecourt in The Rocketeer.",
+            "title": "The Rocketeer",
+            "width": 640,
+            "height": 274,
+            "spoiler": true,
+            "note": "Released-film shootout excerpt, 00:25.35. The ordinary Observatory facade image remains the first frame."
+          }
+        ]
       },
       "Dragnet": {
         "screen": {

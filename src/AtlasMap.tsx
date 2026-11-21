@@ -134,7 +134,7 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
     const m=map.current;if(!ready||!m)return;
     const active=new Set<number>();
     const showSite=(record:MarkerRecord)=>{for(const other of markers.current.values())if(other!==record)closeSite(other);openSite(m,record,id=>latest.current.onSelect(id));};
-    const sites=markerSites(places,selected?.id),siteById=new Map<number,{primary:Place;members:Place[]}>();
+    const sites=markerSites(places,selected?.id),siteById=new Map<number,{primary:Place;members:Place[];choices:Place[]}>();
     for(const site of sites)for(const member of site.members)siteById.set(member.id,site);
     for(const p of places){
       if(!p.coordinates)continue;active.add(p.id);
@@ -158,8 +158,8 @@ function AtlasMap({category,laOnly,showSpoilers,onCategory,onLaOnly,onSpoilers,n
       }
       const position=record.marker.getLngLat();if(position.lng!==p.coordinates[0]||position.lat!==p.coordinates[1])record.marker.setLngLat(p.coordinates);
       record.place=p;record.element.classList.toggle('selected',selected?.id===p.id);
-      const site=siteById.get(p.id)!;record.members=site.members;record.element.hidden=site.primary.id!==p.id;
-      if(record.members.length>1&&!record.element.hidden){
+      const site=siteById.get(p.id)!;record.members=site.choices;record.element.hidden=site.primary.id!==p.id;
+      if(record.members.length>1&&!record.element.hidden&&(!p.isDeath||record.members.every(member=>member.isDeath))){
         const current=record,badge=document.createElement('button');badge.type='button';badge.className='marker-site-count';badge.textContent=String(record.members.length);badge.setAttribute('aria-label',`Choose among ${record.members.length} locations at this spot`);badge.setAttribute('aria-expanded','false');badge.addEventListener('click',e=>{e.stopPropagation();showSite(current);});record.element.append(badge);record.badge=badge;
       }
       if(selected?.id===p.id&&!record.label){

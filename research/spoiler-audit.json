@@ -1821,6 +1821,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": 83,
+      "title": "The Rocketeer",
+      "name": "Griffith Observatory",
+      "reason": "Keep the shared Observatory name and facade readable. Conceal the complete synthetic death-role clause; the shootout gallery frame has its own spoiler flag.",
+      "fields": [],
+      "redactions": [
+        {
+          "path": "appearances[title=The Rocketeer].story_role",
+          "phrases": [
+            "At least eight German commandos killed in the Observatory shootout"
+          ]
+        }
+      ]
     }
   ],
   "journeys": [

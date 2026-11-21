@@ -14,7 +14,9 @@ export function markerSites(places, selectedId = null) {
     else sites.push([place]);
   }
   return sites.map(members => {
-    const ordered = [...members].sort((a, b) => Number(!!a.isDeath) - Number(!!b.isDeath) || Math.abs(a.id) - Math.abs(b.id));
-    return {primary: members.find(p => p.id === selectedId) || ordered[0], members: ordered};
+    const order = (a, b) => Number(!!a.isDeath) - Number(!!b.isDeath) || Math.abs(a.id) - Math.abs(b.id);
+    const ordered = [...members].sort(order);
+    const choices = places.filter(p => p.coordinates && members.some(member => metres(member.coordinates, p.coordinates) < 12)).sort(order);
+    return {primary: members.find(p => p.id === selectedId) || ordered[0], members: ordered, choices};
   });
 }

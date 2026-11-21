@@ -1,5 +1,5 @@
 {
-  "researched_on": "2026-11-19",
+  "researched_on": "2026-11-20",
   "method": "Known victims listed individually in the existing catalog each contribute one. Sourced group totals override that lower bound, include named victims within the total, and are not added to them. Confirmed minimums omit unverified additional casualties. Unlocated scenes stay off the heatmap.",
   "entries": [
     {
@@ -129,6 +129,27 @@
         {
           "url": "https://catalog.afi.com/Film/56075-ASSAULT-ONPRECINCT13",
           "reference": "AFI synopsis, lines 638–644"
+        }
+      ]
+    },
+    {
+      "placeId": 83,
+      "title": "The Rocketeer",
+      "knownCount": 8,
+      "certainty": "minimum",
+      "basis": "Conservative minimum: seven separately portrayed gunfire casualties in the released Observatory shootout, plus the commando dragged over the ledge, whose death is explicit in scene 120. The screenplay’s twenty attackers are not treated as twenty deaths. Airship and Hollywoodland-sign deaths are excluded from the Observatory ground count.",
+      "source_ids": [
+        "rk_climax_ground_film",
+        "rk_climax_screenplay"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=RdnSuxydDT4",
+          "reference": "Shootout excerpt, 00:15–00:21, 00:24–00:30, 00:43–00:44 and 00:50–00:52; reviewed frame by frame."
+        },
+        {
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-rocketeer-1991.pdf",
+          "reference": "Scenes 118–122: printed pp. 103–106 / PDF pages 118–121. Scene 120 identifies the fallen commando as dead; twenty is the attacker count, not a death tally."
         }
       ]
     }

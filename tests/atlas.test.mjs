@@ -134,7 +134,9 @@ test('deaths are searchable without changing the building category permanently',
   const trejo=data.places.find(p=>p.id===4);
   assert.equal(trejo.category,'home');
   assert.ok(filterPlaces([trejo],{category:'death',film:'Heat'}).length);
-  assert.equal(filterPlaces([griffith],{category:'death'}).length,0);
+  assert.equal(filterPlaces([griffith],{category:'death',film:'The Rocketeer'}).length,1);
+  assert.equal(filterPlaces([griffith],{category:'death',film:'La La Land'}).length,0);
+  assert.equal(griffith.category,'hangout');
 });
 test('both Terminator homes list every victim, including Janelle’s offscreen death',()=>{
   const apartment=data.places.find(p=>p.id===79),home=data.places.find(p=>p.id===84);

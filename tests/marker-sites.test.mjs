@@ -12,6 +12,7 @@ test('the Observatory and Deca Dance share a selectable site in Show all, retain
   const places=displayEntries(data.places),before=structuredClone(places);
   const site=markerSites(places).find(s=>s.primary.id===83);
   assert.deepEqual(site.members.map(p=>p.id),[83,628]);
+  assert.deepEqual(site.choices.map(p=>p.id),[83,628,-83]);
   assert.ok(site.primary.appearances.some(a=>a.title==='Dragnet'));
   assert.equal(markerSites(places,628).find(s=>s.members.some(p=>p.id===83)).primary.id,628);
   assert.deepEqual(places,before,'Grouping must not change story or production coordinates');
@@ -27,6 +28,7 @@ test('nearby but distinct sites stay separate and deaths keep independent skulls
     {id:3,coordinates:null},
   ];
   assert.deepEqual(markerSites(places).map(s=>[s.primary.id,s.members.map(p=>p.id)]),[[1,[1]],[-1,[-1]],[2,[2]]]);
+  assert.deepEqual(markerSites(places).slice(0,2).map(s=>s.choices.map(p=>p.id)),[[1,-1],[1,-1]],'Either coincident icon must offer the venue and its death entry');
   assert.equal(markerSites(places,-1).find(s=>s.primary.id===-1).primary.id,-1);
   const hidden=displayEntries(data.places).map(p=>presentPlace(p,false,audit));
   for(const site of markerSites(hidden))for(const member of site.members)assert.ok(hidden.includes(member));

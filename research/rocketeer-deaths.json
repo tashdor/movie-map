@@ -1,0 +1,68 @@
+{
+  "researched_on": "2026-11-20",
+  "placeId": 83,
+  "title": "The Rocketeer",
+  "knownCount": 8,
+  "certainty": "minimum",
+  "method": "Distinct on-screen gunfire casualties are counted conservatively, with the dead ledge commando corroborated in the shooting screenplay. This is an editorial lower bound, not a dialogue-reported exact total.",
+  "ledger": [
+    {
+      "count": 3,
+      "reference": "00:24–00:26 in the released-film excerpt",
+      "basis": "Three distinct commandos fall under the first forecourt burst. Additional partly obscured figures are excluded."
+    },
+    {
+      "count": 1,
+      "reference": "00:28–00:30",
+      "basis": "A separately framed commando by the lamp is struck and falls."
+    },
+    {
+      "count": 2,
+      "reference": "00:43–00:44",
+      "basis": "Two commandos by the wall are struck and fall. The third figure crossing the shot is not counted."
+    },
+    {
+      "count": 1,
+      "reference": "00:50–00:52",
+      "basis": "The foreground gunman is struck and falls. The running background figure is excluded."
+    },
+    {
+      "count": 1,
+      "reference": "00:15–00:21; screenplay scene 120, printed p. 106 / PDF page 121",
+      "basis": "The commando dragged over the ledge with Cliff is explicitly dead when Cliff retrieves his pistol in the following screenplay action. Cliff survives and is excluded."
+    }
+  ],
+  "sources": [
+    "https://www.youtube.com/watch?v=RdnSuxydDT4",
+    "https://assets.scriptslug.com/live/pdf/scripts/the-rocketeer-1991.pdf",
+    "https://catalog.afi.com/Film/59029-THE-ROCKETEER"
+  ],
+  "excluded_from_observatory_count": [
+    {
+      "people": [
+        "Cliff Secord",
+        "Jenny Blake",
+        "Eddie Valentine",
+        "FBI agents Fitch and Wooly"
+      ],
+      "reason": "They survive; participation in the battle does not make them victims."
+    },
+    {
+      "people": [
+        "Neville Sinclair"
+      ],
+      "reason": "Dies at the Hollywoodland sign, not on the Observatory grounds. The sign destruction is an effects sequence; no qualifying real-site death pin is inferred."
+    },
+    {
+      "people": [
+        "Lothar",
+        "Zeppelin pilot",
+        "Nazi agent",
+        "Other Luxembourg crew"
+      ],
+      "reason": "Airborne deaths take place after the airship leaves the Observatory. Its moving position and exact final crew complement are not established, so no ground pin or invented full-crew total is assigned."
+    }
+  ],
+  "screenplay_caution": "Twenty commandos materialize, but the same draft explicitly describes people falling wounded or dead. Do not equate attacker strength with confirmed fatalities.",
+  "media_review": "The 00:25.35 frame was visually reviewed. It depicts the forecourt gunfight and is spoiler-protected; the safe facade photograph is retained."
+}

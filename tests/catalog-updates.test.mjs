@@ -71,14 +71,15 @@ test('every Observatory appearance uses the building, separately from the roadsi
   }
 });
 
-test('The Rocketeer shares venues without inheriting other films’ deaths, dates or images',()=>{
+test('The Rocketeer keeps its own Observatory deaths without inheriting other films’ dates or images',()=>{
   const entries=displayEntries(data.places,{film:'The Rocketeer',laOnly:true});
-  assert.deepEqual(entries.map(p=>p.id),[83,96,792]);
+  assert.deepEqual(entries.map(p=>p.id),[83,-83,96,792]);
   for(const place of entries){
     assert.equal(place.media.screen.title,'The Rocketeer');
     assert.ok(place.media.screen.src.startsWith('photos/rocketeer-'));
     assert.ok(place.appearances.every(a=>a.story_time.year===1938));
-    assert.deepEqual(place.deaths,[]);
+    if(Math.abs(place.id)===83)assert.deepEqual(place.deaths.map(d=>d.title),['The Rocketeer']);
+    else assert.deepEqual(place.deaths,[]);
   }
   const house=entries.find(p=>p.id===792);
   assert.match(house.address,/306.*Loma/);
